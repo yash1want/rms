@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:globalmapper="https://www.bluemarblegeo.com/globalmapper">
+<Document>
+  <!-- Begin Style Definitions -->
+  <Style id="area1">
+    <LineStyle>
+      <color>FF0000FF</color>
+      <width>1</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>BF000000</color>
+      <fill>0</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+    <Placemark>
+      <description>LEASE LINE</description>
+      <styleUrl>#area1</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              79.1017781223,11.3372713190,0
+              79.1018849469,11.3372017794,0
+              79.1021103016,11.3371154079,0
+              79.1028595293,11.3367763125,0
+              79.1029086697,11.3359081133,0
+              79.1021851245,11.3358565043,0
+              79.1020426833,11.3354233148,0
+              79.1038778315,11.3358069185,0
+              79.1042318792,11.3359358132,0
+              79.1039951168,11.3374216467,0
+              79.1039951168,11.3374216467,0
+              79.1039242080,11.3377231775,0
+              79.1038745427,11.3378560672,0
+              79.1038745427,11.3378560672,0
+              79.1037420567,11.3385214276,0
+              79.1033761181,11.3383578082,0
+              79.1035573153,11.3376254687,0
+              79.1030186714,11.3375090765,0
+              79.1028957713,11.3382204277,0
+              79.1026891869,11.3380895772,0
+              79.1017437929,11.3376693713,0
+              79.1017781223,11.3372713190,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+</Document>
+</kml>

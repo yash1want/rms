@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Kranthi Industries.kml</name>
+	<StyleMap id="area1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area10">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area11">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area126">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area128</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area127</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area127">
+		<LineStyle>
+			<color>ff333333</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="area128">
+		<LineStyle>
+			<color>ff333333</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="area2">
+		<LineStyle>
+			<color>ff456868</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area20">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area200">
+		<LineStyle>
+			<color>ff456868</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area21">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area22">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area23">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area22</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area6">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f00ff00</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area60">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f00ff00</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area61">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area60</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Land Use</name>
+		<open>1</open>
+		<Placemark>
+			<name>LEASE_BOUNDARY</name>
+			<description>LEASE_BOUNDARY</description>
+			<styleUrl>#area1</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.2515069329,15.3661444247,0 78.25260101950001,15.3657865244,0 78.25331260270001,15.3674113261,0 78.2518582651,15.3677026969,0 78.2515069329,15.3661444247,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SAFETY_ZONE</name>
+			<description>SAFETY_ZONE</description>
+			<styleUrl>#area61</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.2519117162,15.3676228256,0 78.2515884923,15.3661892249,0 78.25256205700001,15.36587075,0 78.2532150248,15.3673617128,0 78.2519117162,15.3676228256,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>BACKFILLED_AREA</name>
+			<description>BACKFILLED_AREA</description>
+			<styleUrl>#area126</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.2532039078,15.36736122,237.522 78.2530291985,15.3673781107,237.522 78.2528434776,15.3673968925,237.522 78.25264029660001,15.3674343768,237.522 78.2524935106,15.3675111584,237.522 78.2524824058,15.3674815124,237.522 78.25255454089999,15.3673471295,237.522 78.2527269629,15.3672768707,237.522 78.2528965268,15.3673191775,237.522 78.2530560817,15.3672809314,237.522 78.2532039078,15.36736122,237.522 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>REST_SHELTER</name>
+			<description>REST_SHELTER</description>
+			<styleUrl>#area23</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.2528668827,15.366659232,0 78.25285462559999,15.3666348882,0 78.2528797148,15.3666229952,0 78.2528919719,15.3666473391,0 78.2528668827,15.366659232,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>MINING_AREA</name>
+			<description>PRESENT_MINING</description>
+			<styleUrl>#area21</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.25315371080001,15.3673339566,236.738 78.2530560817,15.3672809314,236.738 78.2528965268,15.3673191775,236.738 78.2527269629,15.3672768707,236.738 78.25255454089999,15.3673471295,236.738 78.2524824058,15.3674815124,236.738 78.25249180599999,15.3675066079,236.738 78.2519851671,15.3676081102,236.738 78.25197369449999,15.367578594,236.738 78.2519594665,15.3675151599,236.738 78.2519193362,15.3673574828,236.738 78.25189870689999,15.3673540644,236.738 78.25182349861818,15.36695318918234,236.738 78.25176701818488,15.36644604406252,236.738 78.25212313526916,15.36627423530473,236.738 78.25214980423517,15.36630178779332,236.738 78.2523955401609,15.3662558671743,236.738 78.25261460734608,15.36617872007346,236.738 78.25281806,15.3666687001,236.738 78.2528410285,15.3667022229,236.738 78.2529155248,15.3666778479,236.738 78.2529287597,15.3667080677,236.738 78.2529475269,15.3667942533,236.738 78.2529793913,15.3668488381,236.738 78.2531537417,15.3673340426,236.738 78.25315371080001,15.3673339566,236.738 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Folder>
+			<name>BOUNDARY PILLARS</name>
+			<description>Point Features</description>
+			<Placemark>
+				<name>BP-1</name>
+				<description>BP-1</description>
+				<LookAt>
+					<longitude>78.25305765975801</longitude>
+					<latitude>15.36619982441311</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0001957233172755156</heading>
+					<tilt>22.43085562182272</tilt>
+					<range>710.0751770448028</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>78.25150693611111,15.36614444444444,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-2</name>
+				<LookAt>
+					<longitude>78.25193268466957</longitude>
+					<latitude>15.36627591861913</latitude>
+					<altitude>0</altitude>
+					<heading>-0.000422505748822205</heading>
+					<tilt>25.94160977245705</tilt>
+					<range>257.5324529119879</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>78.25185826388889,15.36770277777778,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-3</name>
+				<LookAt>
+					<longitude>78.25232126110932</longitude>
+					<latitude>15.36736477083931</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0004383329621486238</heading>
+					<tilt>18.47911228159308</tilt>
+					<range>175.9353543107192</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>78.25331388888888,15.36741132777778,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-4</name>
+				<LookAt>
+					<longitude>78.25306024490229</longitude>
+					<latitude>15.36642561492499</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0002505023404454889</heading>
+					<tilt>24.30533959683551</tilt>
+					<range>403.4256191068507</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>78.25260101944444,15.36578611111111,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

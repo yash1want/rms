@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Land Use Data-ML No.2358.kml</name>
+	<open>1</open>
+	<Style id="featureStyle-Color [A=255, R=255, G=255, B=255]">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon56.png</href>
+				<x>32</x>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/>$[description]]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="featureStyle-Color [A=255, R=255, G=255, B=255]0">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon56.png</href>
+				<x>32</x>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/>$[description]]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="featureStyle-Color [A=255, R=255, G=255, B=255]1">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon56.png</href>
+				<x>32</x>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/>$[description]]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="featureStyle-Color [A=255, R=255, G=255, B=255]2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#featureStyle-Color [A=255, R=255, G=255, B=255]4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#featureStyle-Color [A=255, R=255, G=255, B=255]0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="featureStyle-Color [A=255, R=255, G=255, B=255]3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#featureStyle-Color [A=255, R=255, G=255, B=255]</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#featureStyle-Color [A=255, R=255, G=255, B=255]1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="featureStyle-Color [A=255, R=255, G=255, B=255]4">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon56.png</href>
+				<x>32</x>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/>$[description]]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Lease Boundary</name>
+		<open>1</open>
+		<styleUrl>#featureStyle-Color [A=255, R=255, G=255, B=255]3</styleUrl>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<LineString>
+			<coordinates>
+				75.3505503231946,16.175830706968,-621.041490281882 75.3517408092884,16.174595948376,-621.046494621182 75.3520002713453,16.175092797386,-621.0450890928209 75.3524185094596,16.175405827266,-621.044411429776 75.3515742445927,16.1767977260779,-621.039174508776 75.3507682758927,16.1762347578543,-621.0403511359031 75.3505503231946,16.175830706968,-621.041490281882 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Mining Pit</name>
+		<open>1</open>
+		<styleUrl>#featureStyle-Color [A=255, R=255, G=255, B=255]2</styleUrl>
+		<LineString>
+			<coordinates>
+				75.3517766044214,16.1749688171898,-80.4220184709812 75.3513121402072,16.1750405615706,-80.4214028930943 75.3508834133734,16.1754895853469,-80.4195863400838 75.3505818208255,16.1758072445549,-80.4183017711386 75.35060591858119,16.1759013620327,-80.41801455978531 75.35066199804319,16.1760173815996,-80.4176821645604 75.3508471688228,16.1759651413968,-80.4180051710577 75.35092575373309,16.1760362910985,-80.4178376539294 75.3509781628569,16.176129374661,-80.4175769393301 75.3510953732934,16.1761069570188,-80.4177465546047 75.3511493111652,16.1760978843518,-80.4178205354968 75.3511910962618,16.1761435773827,-80.4177057263274 75.3511832955877,16.176206098607,-80.4174951836232 75.35119718560421,16.1762318424936,-80.4174225449315 75.3511882745082,16.1762701454526,-80.417290144144 75.3511160361637,16.1763801664818,-80.41687144047231 75.3511770583476,16.1764539643781,-80.41668056439249 75.351270385365,16.1765046674561,-80.4165916377472 75.3513175667573,16.1765347801146,-80.4165320270057 75.35133047119091,16.1765639040125,-80.41644747471121 75.35141891612329,16.1766099482826,-80.4163696745763 75.3514796439073,16.1765974121384,-80.4164605055954 75.3515767086062,16.1766786502083,-80.4162747103216 75.35163116358341,16.176724064415,-80.4161709707797 75.35240658414619,16.1754254881129,-80.42104651852149 75.3523936857285,16.1754111753586,-80.4210826319803 75.3522656826391,16.1753893576369,-80.4210488955039 75.3521271071719,16.175312339353,-80.4211864310212 75.3520085740621,16.1752236609126,-80.4213783182872 75.35193111844541,16.1751609728566,-80.42151910598901 75.3518755039717,16.1750503800971,-80.42183390242749 75.3517766044214,16.1749688171898,-80.4220184709812 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

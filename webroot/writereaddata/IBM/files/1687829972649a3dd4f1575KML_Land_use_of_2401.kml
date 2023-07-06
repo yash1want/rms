@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KML Land use of 2401</name>
+	<open>1</open>
+	<Style id="area1">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area10">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area2">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area20">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area21">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area3">
+		<LineStyle>
+			<color>ffffbf00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area30">
+		<LineStyle>
+			<color>ffffbf00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area31">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area4">
+		<LineStyle>
+			<color>ff007fff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area40">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area41</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area41">
+		<LineStyle>
+			<color>ff007fff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Area Features</name>
+		<open>1</open>
+		<description>Area Features</description>
+		<Placemark>
+			<name>LEASE_BOUNDARY</name>
+			<description>LEASE_BOUNDARY</description>
+			<styleUrl>#area11</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.3466350338,16.1742028168,0 75.3471001186,16.1747137669,0 75.3461674804,16.1750607289,0 75.34498788720001,16.1740027148,0 75.34459072369999,16.1728471667,0 75.345987618,16.1737396995,0 75.3466350338,16.1742028168,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Safety Zone</name>
+			<description>Safety Zone</description>
+			<styleUrl>#area21</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.34658728869999,16.1742530177,0 75.3469809148,16.1746854623,0 75.34618312480001,16.1749822577,0 75.3450487992,16.1739648455,0 75.34472125160001,16.1730118472,0 75.3459473724,16.173795265,0 75.34658728869999,16.1742530177,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>MINING_AREA</name>
+			<description>MINING_AREA</description>
+			<styleUrl>#area31</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.3463303237,16.1740692028,0 75.3465308463,16.1742491859,0 75.3465680274,16.1742752357,0 75.34669968510001,16.1744002061,0 75.34679643920001,16.1745128519,0 75.3468039163,16.174573333,0 75.3467900885,16.1746295773,0 75.3466881352,16.1747061626,0 75.3466241621,16.1747456926,0 75.34658329760001,16.1747712641,0 75.3465482994,16.1747689442,0 75.34647934429999,16.174820165,0 75.346423323,16.174821407,0 75.3462971169,16.1749044699,0 75.3461750224,16.1749749904,0 75.34587267489999,16.1747038071,0 75.3455119385,16.1744161248,0 75.3453115919,16.174200554,0 75.3452919251,16.1741571275,0 75.3451451352,16.1739972179,0 75.3450446019,16.1739027866,0 75.344954278,16.1737329098,0 75.3448660458,16.1735262429,0 75.3448381959,16.1734027932,0 75.34485045869999,16.1733331977,0 75.3449198818,16.1732789218,0 75.3450136885,16.1732198965,0 75.3451525814,16.1732683743,0 75.3452820088,16.1733560476,0 75.345460239,16.1734691849,0 75.3456969338,16.1736192483,0 75.34584913179999,16.1737485049,0 75.34599363949999,16.173845876,0 75.3461723784,16.1739690784,0 75.3463303237,16.1740692028,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ROADS</name>
+			<description>ROADS</description>
+			<styleUrl>#area40</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.34648819,16.1748687672,0 75.3464995633,16.1748553245,0 75.34653722029999,16.1748263773,0 75.3465704776,16.1748094281,0 75.3466093,16.1747918908,0 75.346626738,16.1747838784,0 75.3466837119,16.1747557541,0 75.3467119562,16.1747399216,0 75.346765568,16.1747035321,0 75.3467890503,16.1746832292,0 75.34682200749999,16.174644422,0 75.3468363386,16.1746184334,0 75.3468488609,16.1745736603,0 75.34684856849999,16.1745400646,0 75.346877268,16.1745715944,0 75.3468681522,16.1746139203,0 75.3468498777,16.1746523857,0 75.3468288032,16.1746813753,0 75.3467921819,16.1747173359,0 75.34673853459999,16.1747558088,0 75.3466841191,16.1747863639,0 75.3465854626,16.1748325797,0 75.34648819,16.1748687672,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

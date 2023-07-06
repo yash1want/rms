@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:globalmapper="http://www.bluemarblegeo.com/globalmapper">
+<Document>
+  <!-- Begin Style Definitions -->
+  <Style id="area1">
+    <LineStyle>
+      <color>FF00FFFF</color>
+      <width>3</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>BF000000</color>
+      <fill>0</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="area2">
+    <LineStyle>
+      <color>FF000000</color>
+      <width>1</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>BF000000</color>
+      <fill>0</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="point1">
+    <IconStyle><Icon><href>kml_symbol_dot_0.png</href></Icon></IconStyle>
+  </Style>
+  <Folder>
+    <name>Point Features</name>
+    <description>Point Features</description>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.6750596264,30.6124275448,1883.998</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <name>KGCP-3</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.6760796228,30.6103926086,1987.707</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <name>KGCP-4</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.6776586693,30.6115852776,1903.995</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <name>KGCP-4A</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.6767930170,30.6124132731,1891.124</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <name>KPCP-1</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.6765182805,30.6116202262,1930.116</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Area Features</name>
+    <description>Area Features</description>
+    <Placemark>
+      <description>Unknown Area Type</description>
+      <name>Kush Parmar 3.18 he</name>
+      <styleUrl>#area1</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.6761536983,30.6106286998,0
+              77.6785317802,30.6101708748,0
+              77.6780530925,30.6115403782,0
+              77.6758107034,30.6120140786,0
+              77.6761536983,30.6106286998,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Area Type</description>
+      <name>Kush Parmar 3.18 he</name>
+      <styleUrl>#area2</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.6788790179,30.6122944253,0
+              77.6744427337,30.6132315624,0
+              77.6752740632,30.6098739483,0
+              77.6800461387,30.6089552134,0
+              77.6788790179,30.6122944253,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>

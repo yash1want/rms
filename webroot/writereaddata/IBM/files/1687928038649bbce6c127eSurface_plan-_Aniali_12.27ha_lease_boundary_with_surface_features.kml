@@ -1,0 +1,1387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<LookAt>
+<longitude>69.82522139</longitude>
+<latitude>21.70386264</latitude>
+<range>739</range>
+</LookAt>
+<Style id="Filled_Label_00">
+<IconStyle>
+<scale>0.0</scale>
+<Icon>
+<href>https://www.topografix.com/symbols/blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.0</scale>
+</LabelStyle>
+</Style>
+<Style id="Filled_Label_01">
+<IconStyle>
+<scale>0.0</scale>
+<Icon>
+<href>https://www.topografix.com/symbols/blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.3</scale>
+</LabelStyle>
+</Style>
+<Style id="Filled_Label_02">
+<IconStyle>
+<scale>0.0</scale>
+<Icon>
+<href>https://www.topografix.com/symbols/blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.4</scale>
+</LabelStyle>
+</Style>
+<Style id="Filled_Label_03">
+<IconStyle>
+<scale>0.0</scale>
+<Icon>
+<href>https://www.topografix.com/symbols/blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.5</scale>
+</LabelStyle>
+</Style>
+<Style id="Filled_Label_04">
+<IconStyle>
+<scale>0.0</scale>
+<Icon>
+<href>https://www.topografix.com/symbols/blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.6</scale>
+</LabelStyle>
+</Style>
+<Style id="Filled_Label_05">
+<IconStyle>
+<scale>0.0</scale>
+<Icon>
+<href>https://www.topografix.com/symbols/blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.7</scale>
+</LabelStyle>
+</Style>
+<Style id="Filled_Label_06">
+<IconStyle>
+<scale>0.0</scale>
+<Icon>
+<href>https://www.topografix.com/symbols/blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.8</scale>
+</LabelStyle>
+</Style>
+<Style id="Filled_Label_07">
+<IconStyle>
+<scale>0.0</scale>
+<Icon>
+<href>https://www.topografix.com/symbols/blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.9</scale>
+</LabelStyle>
+</Style>
+<Style id="Filled_Label_08">
+<IconStyle>
+<scale>0.0</scale>
+<Icon>
+<href>https://www.topografix.com/symbols/blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>1.0</scale>
+</LabelStyle>
+</Style>
+<Style id="Filled_Label_09">
+<IconStyle>
+<scale>0.0</scale>
+<Icon>
+<href>https://www.topografix.com/symbols/blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>1.1</scale>
+</LabelStyle>
+</Style>
+<Style id="Line_road_000000_03">
+<LineStyle>
+<color>ff000000</color>
+<width>2.5</width>
+</LineStyle>
+<PolyStyle>
+<fill>0</fill>
+</PolyStyle>
+<BalloonStyle>
+<text>
+<![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+</BalloonStyle>
+</Style>
+<Style id="Line_BUND_bf00ff_03">
+<LineStyle>
+<color>ffff00bf</color>
+<width>3.0</width>
+</LineStyle>
+<PolyStyle>
+<fill>0</fill>
+</PolyStyle>
+<BalloonStyle>
+<text>
+<![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+</BalloonStyle>
+</Style>
+<Style id="Line_Fencing_7_ffffff_03">
+<LineStyle>
+<color>ffffffff</color>
+<width>0.8</width>
+</LineStyle>
+<PolyStyle>
+<fill>0</fill>
+</PolyStyle>
+<BalloonStyle>
+<text>
+<![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+</BalloonStyle>
+</Style>
+<Style id="Line_0_000000_03">
+<LineStyle>
+<color>ff000000</color>
+<width>2.6</width>
+</LineStyle>
+<PolyStyle>
+<color>0e000000</color>
+<fill>1</fill>
+</PolyStyle>
+<BalloonStyle>
+<text>
+<![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+</BalloonStyle>
+</Style>
+<Style id="Line_Building_ffffff_03">
+<LineStyle>
+<color>ffffffff</color>
+<width>0.9</width>
+</LineStyle>
+<PolyStyle>
+<fill>0</fill>
+</PolyStyle>
+<BalloonStyle>
+<text>
+<![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+</BalloonStyle>
+</Style>
+<Style id="Line_PIT_7_ffffff_03">
+<LineStyle>
+<color>ffffffff</color>
+<width>4.0</width>
+</LineStyle>
+<PolyStyle>
+<color>008b0000</color>
+<fill>1</fill>
+</PolyStyle>
+<BalloonStyle>
+<text>
+<![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+</BalloonStyle>
+</Style>
+<Style id="Line_ML_BAOUNDARY_1_ff0000_03">
+<LineStyle>
+<color>ff0000ff</color>
+<width>0.8</width>
+</LineStyle>
+<PolyStyle>
+<fill>0</fill>
+</PolyStyle>
+<BalloonStyle>
+<text>
+<![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+</BalloonStyle>
+</Style>
+<Style id="Line_PLANTATIONS_00ff00_03">
+<LineStyle>
+<color>ff00ff00</color>
+<width>3.6</width>
+</LineStyle>
+<PolyStyle>
+<color>0900ff00</color>
+<fill>1</fill>
+</PolyStyle>
+<BalloonStyle>
+<text>
+<![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+</BalloonStyle>
+</Style>
+<Folder>
+<name>Shapes</name>
+<Folder>
+<name>0</name>
+<Placemark>
+<LookAt>
+<longitude>69.82353659</longitude>
+<latitude>21.70490777</latitude>
+<range>47</range>
+</LookAt>
+<styleUrl>#Line_0_000000_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>0</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>9</value>
+</Data>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>69.82373907,21.70496696 69.82375218,21.70492872 69.82345578,21.70487140 69.82332106,21.70484861 69.82373900,21.70496694 69.82375212,21.70492868 69.82345572,21.70487136 69.82332100,21.70484857 69.82373907,21.70496696 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+</Folder>
+<Folder>
+<name>BUND</name>
+<Placemark>
+<LookAt>
+<longitude>69.82396939</longitude>
+<latitude>21.70604441</latitude>
+<range>21</range>
+</LookAt>
+<styleUrl>#Line_BUND_bf00ff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>BUND</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>7</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82390994,21.70597548 69.82390645,21.70598456 69.82390274,21.70600376 69.82391037,21.70602501 69.82392012,21.70603675 69.82400880,21.70609736 69.82403603,21.70611334 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82396295</longitude>
+<latitude>21.70605961</latitude>
+<range>20</range>
+</LookAt>
+<styleUrl>#Line_BUND_bf00ff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>BUND</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>6</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82403241,21.70611975 69.82400449,21.70610336 69.82389969,21.70603308 69.82389349,21.70602249 69.82389457,21.70600088 69.82389510,21.70599947 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82416683</longitude>
+<latitude>21.70618316</latitude>
+<range>32</range>
+</LookAt>
+<styleUrl>#Line_BUND_bf00ff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>BUND</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>16</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82403610,21.70611337 69.82406241,21.70612881 69.82410650,21.70614554 69.82426498,21.70623022 69.82429832,21.70624632 69.82430015,21.70624788 69.82430071,21.70624855 69.82430119,21.70625038 69.82430032,21.70625148 69.82429957,21.70625259 69.82429842,21.70625295 69.82429477,21.70625274 69.82426129,21.70623657 69.82410311,21.70615206 69.82405887,21.70613526 69.82403248,21.70611978 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82468766</longitude>
+<latitude>21.70643054</latitude>
+<range>40</range>
+</LookAt>
+<styleUrl>#Line_BUND_bf00ff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>BUND</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>11</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82485934,21.70650928 69.82471123,21.70646017 69.82452202,21.70636370 69.82451314,21.70635751 69.82451253,21.70635339 69.82451684,21.70635180 69.82452007,21.70635297 69.82452287,21.70635466 69.82452642,21.70635710 69.82471439,21.70645355 69.82486280,21.70650276 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82394157</longitude>
+<latitude>21.70546509</latitude>
+<range>41</range>
+</LookAt>
+<styleUrl>#Line_BUND_bf00ff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>BUND</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>17</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82409548,21.70556578 69.82407440,21.70554289 69.82405592,21.70549466 69.82402680,21.70546977 69.82392199,21.70542946 69.82382157,21.70539284 69.82378146,21.70536480 69.82377911,21.70536268 69.82377837,21.70536087 69.82378060,21.70536034 69.82378342,21.70536114 69.82382328,21.70538992 69.82392490,21.70542463 69.82402922,21.70546640 69.82406144,21.70549312 69.82407833,21.70554082 69.82410477,21.70556985 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82416683</longitude>
+<latitude>21.70618316</latitude>
+<range>32</range>
+</LookAt>
+<styleUrl>#Line_BUND_bf00ff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>BUND</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>16</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82403610,21.70611337 69.82406241,21.70612881 69.82410650,21.70614554 69.82426498,21.70623022 69.82429832,21.70624632 69.82430015,21.70624788 69.82430071,21.70624855 69.82430119,21.70625038 69.82430032,21.70625148 69.82429957,21.70625259 69.82429842,21.70625295 69.82429477,21.70625274 69.82426129,21.70623657 69.82410311,21.70615206 69.82405887,21.70613526 69.82403248,21.70611978 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82468766</longitude>
+<latitude>21.70643054</latitude>
+<range>40</range>
+</LookAt>
+<styleUrl>#Line_BUND_bf00ff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>BUND</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>11</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82485934,21.70650928 69.82471123,21.70646017 69.82452202,21.70636370 69.82451314,21.70635751 69.82451253,21.70635339 69.82451684,21.70635180 69.82452007,21.70635297 69.82452287,21.70635466 69.82452642,21.70635710 69.82471439,21.70645355 69.82486280,21.70650276 </coordinates>
+</LineString>
+</Placemark>
+</Folder>
+<Folder>
+<name>Building</name>
+<Placemark>
+<LookAt>
+<longitude>69.82578990</longitude>
+<latitude>21.70445323</latitude>
+<range>5</range>
+</LookAt>
+<styleUrl>#Line_Building_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Building</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82577893,21.70447238 69.82580087,21.70443409 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82580001</longitude>
+<latitude>21.70444823</latitude>
+<range>3</range>
+</LookAt>
+<styleUrl>#Line_Building_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Building</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82580650,21.70443691 69.82579352,21.70445956 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82581477</longitude>
+<latitude>21.70447019</latitude>
+<range>5</range>
+</LookAt>
+<styleUrl>#Line_Building_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Building</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82579352,21.70445956 69.82583601,21.70448083 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82584251</longitude>
+<latitude>21.70446951</latitude>
+<range>3</range>
+</LookAt>
+<styleUrl>#Line_Building_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Building</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82583601,21.70448083 69.82584900,21.70445818 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82584387</longitude>
+<latitude>21.70448025</latitude>
+<range>5</range>
+</LookAt>
+<styleUrl>#Line_Building_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Building</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82585484,21.70446111 69.82583290,21.70449940 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82578906</longitude>
+<latitude>21.70446734</latitude>
+<range>2</range>
+</LookAt>
+<styleUrl>#Line_Building_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Building</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82579352,21.70445956 69.82578460,21.70447513 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82581031</longitude>
+<latitude>21.70447798</latitude>
+<range>5</range>
+</LookAt>
+<styleUrl>#Line_Building_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Building</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82578460,21.70447513 69.82583601,21.70448083 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82583155</longitude>
+<latitude>21.70448862</latitude>
+<range>2</range>
+</LookAt>
+<styleUrl>#Line_Building_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Building</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82583601,21.70448083 69.82582709,21.70449640 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82581031</longitude>
+<latitude>21.70447798</latitude>
+<range>5</range>
+</LookAt>
+<styleUrl>#Line_Building_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Building</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82582709,21.70449640 69.82579352,21.70445956 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82580591</longitude>
+<latitude>21.70448589</latitude>
+<range>6</range>
+</LookAt>
+<styleUrl>#Line_Building_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Building</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82577893,21.70447238 69.82583290,21.70449940 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82580369</longitude>
+<latitude>21.70443550</latitude>
+<range>1</range>
+</LookAt>
+<styleUrl>#Line_Building_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Building</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82580087,21.70443409 69.82580650,21.70443691 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82585192</longitude>
+<latitude>21.70445965</latitude>
+<range>1</range>
+</LookAt>
+<styleUrl>#Line_Building_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Building</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82584900,21.70445818 69.82585484,21.70446111 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82578990</longitude>
+<latitude>21.70445323</latitude>
+<range>5</range>
+</LookAt>
+<styleUrl>#Line_Building_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Building</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82577893,21.70447238 69.82580087,21.70443409 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82580001</longitude>
+<latitude>21.70444823</latitude>
+<range>3</range>
+</LookAt>
+<styleUrl>#Line_Building_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Building</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82580650,21.70443691 69.82579352,21.70445956 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82581477</longitude>
+<latitude>21.70447019</latitude>
+<range>5</range>
+</LookAt>
+<styleUrl>#Line_Building_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Building</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82579352,21.70445956 69.82583601,21.70448083 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82584251</longitude>
+<latitude>21.70446951</latitude>
+<range>3</range>
+</LookAt>
+<styleUrl>#Line_Building_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Building</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82583601,21.70448083 69.82584900,21.70445818 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82584387</longitude>
+<latitude>21.70448025</latitude>
+<range>5</range>
+</LookAt>
+<styleUrl>#Line_Building_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Building</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82585484,21.70446111 69.82583290,21.70449940 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82578906</longitude>
+<latitude>21.70446734</latitude>
+<range>2</range>
+</LookAt>
+<styleUrl>#Line_Building_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Building</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82579352,21.70445956 69.82578460,21.70447513 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82581031</longitude>
+<latitude>21.70447798</latitude>
+<range>5</range>
+</LookAt>
+<styleUrl>#Line_Building_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Building</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82578460,21.70447513 69.82583601,21.70448083 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82583155</longitude>
+<latitude>21.70448862</latitude>
+<range>2</range>
+</LookAt>
+<styleUrl>#Line_Building_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Building</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82583601,21.70448083 69.82582709,21.70449640 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82581031</longitude>
+<latitude>21.70447798</latitude>
+<range>5</range>
+</LookAt>
+<styleUrl>#Line_Building_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Building</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82582709,21.70449640 69.82579352,21.70445956 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82580591</longitude>
+<latitude>21.70448589</latitude>
+<range>6</range>
+</LookAt>
+<styleUrl>#Line_Building_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Building</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82577893,21.70447238 69.82583290,21.70449940 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82580369</longitude>
+<latitude>21.70443550</latitude>
+<range>1</range>
+</LookAt>
+<styleUrl>#Line_Building_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Building</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82580087,21.70443409 69.82580650,21.70443691 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82585192</longitude>
+<latitude>21.70445965</latitude>
+<range>1</range>
+</LookAt>
+<styleUrl>#Line_Building_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Building</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82584900,21.70445818 69.82585484,21.70446111 </coordinates>
+</LineString>
+</Placemark>
+</Folder>
+<Folder>
+<name>Fencing 7</name>
+<Placemark>
+<LookAt>
+<longitude>69.82379151</longitude>
+<latitude>21.70518486</latitude>
+<range>50</range>
+</LookAt>
+<styleUrl>#Line_Fencing_7_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Fencing 7</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>4</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82373900,21.70496692 69.82385972,21.70498855 69.82385972,21.70498855 69.82372331,21.70540280 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82351594</longitude>
+<latitude>21.70490776</latitude>
+<range>51</range>
+</LookAt>
+<styleUrl>#Line_Fencing_7_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Fencing 7</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>5</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82373900,21.70496694 69.82375212,21.70492868 69.82345572,21.70487136 69.82332100,21.70484857 69.82327976,21.70495446 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82379158</longitude>
+<latitude>21.70518489</latitude>
+<range>50</range>
+</LookAt>
+<styleUrl>#Line_Fencing_7_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Fencing 7</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>4</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82373907,21.70496696 69.82385978,21.70498858 69.82385978,21.70498858 69.82372337,21.70540283 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82351600</longitude>
+<latitude>21.70490778</latitude>
+<range>51</range>
+</LookAt>
+<styleUrl>#Line_Fencing_7_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Fencing 7</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>5</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82373907,21.70496696 69.82375218,21.70492872 69.82345578,21.70487140 69.82332106,21.70484861 69.82327982,21.70495449 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82375561</longitude>
+<latitude>21.70428875</latitude>
+<range>108</range>
+</LookAt>
+<styleUrl>#Line_Fencing_7_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Fencing 7</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>6</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82404623,21.70396897 69.82383095,21.70433860 69.82362348,21.70469522 69.82346499,21.70461594 69.82387795,21.70388227 69.82404623,21.70396897 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82321793</longitude>
+<latitude>21.70505444</latitude>
+<range>26</range>
+</LookAt>
+<styleUrl>#Line_Fencing_7_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>Fencing 7</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>4</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82327982,21.70495449 69.82322781,21.70507725 69.82320036,21.70510356 69.82315604,21.70515438 </coordinates>
+</LineString>
+</Placemark>
+</Folder>
+<Folder>
+<name>ML BAOUNDARY 1</name>
+<Placemark>
+<LookAt>
+<longitude>69.82522139</longitude>
+<latitude>21.70386264</latitude>
+<range>739</range>
+</LookAt>
+<styleUrl>#Line_ML_BAOUNDARY_1_ff0000_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>ML BAOUNDARY 1</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>9</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82733417,21.70211861 69.82531833,21.70117167 69.82310861,21.70513361 69.82414889,21.70558917 69.82385611,21.70606250 69.82483583,21.70655361 69.82563806,21.70504083 69.82733417,21.70211861 69.82733417,21.70211861 </coordinates>
+</LineString>
+</Placemark>
+</Folder>
+<Folder>
+<name>PIT 7</name>
+<Placemark>
+<LookAt>
+<longitude>69.82453704</longitude>
+<latitude>21.70548617</latitude>
+<range>300</range>
+</LookAt>
+<styleUrl>#Line_PIT_7_ffffff_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>PIT 7</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>74</value>
+</Data>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>69.82424689,21.70475070 69.82422470,21.70470108 69.82422973,21.70452953 69.82417374,21.70450937 69.82409277,21.70454165 69.82399256,21.70456452 69.82379600,21.70458562 69.82379006,21.70472160 69.82367287,21.70475227 69.82358946,21.70478459 69.82353132,21.70488600 69.82376050,21.70492022 69.82386605,21.70498490 69.82395175,21.70509846 69.82393166,21.70511265 69.82390083,21.70518359 69.82387529,21.70524018 69.82387013,21.70527060 69.82386698,21.70530009 69.82386119,21.70535325 69.82386788,21.70537093 69.82387547,21.70538678 69.82389084,21.70539657 69.82397602,21.70543376 69.82404324,21.70545314 69.82408141,21.70549413 69.82409176,21.70553866 69.82415011,21.70558881 69.82414927,21.70559185 69.82409639,21.70570101 69.82404759,21.70576821 69.82400430,21.70584000 69.82393221,21.70595590 69.82391564,21.70600653 69.82393475,21.70602860 69.82398914,21.70606069 69.82404619,21.70609534 69.82429930,21.70624286 69.82455213,21.70634374 69.82472028,21.70643438 69.82484970,21.70646297 69.82499818,21.70615301 69.82506586,21.70606551 69.82510184,21.70600197 69.82512631,21.70593736 69.82519963,21.70583346 69.82521432,21.70579053 69.82518901,21.70577465 69.82514755,21.70575051 69.82507447,21.70573502 69.82513169,21.70567219 69.82520309,21.70564633 69.82533154,21.70559980 69.82534606,21.70552523 69.82554276,21.70511575 69.82549626,21.70505926 69.82537758,21.70493381 69.82531752,21.70488941 69.82534363,21.70480976 69.82533892,21.70471099 69.82522771,21.70463513 69.82499744,21.70458810 69.82491627,21.70462999 69.82488819,21.70463459 69.82477568,21.70463079 69.82468171,21.70462252 69.82460336,21.70463629 69.82453275,21.70465956 69.82447779,21.70467121 69.82442045,21.70469133 69.82439778,21.70470011 69.82429320,21.70474015 69.82424689,21.70475070 69.82424689,21.70475070 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+</Folder>
+<Folder>
+<name>PLANTATIONS</name>
+<Placemark>
+<LookAt>
+<longitude>69.82350299</longitude>
+<latitude>21.70513007</latitude>
+<range>94</range>
+</LookAt>
+<styleUrl>#Line_PLANTATIONS_00ff00_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>PLANTATIONS</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>10</value>
+</Data>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>69.82315604,21.70515438 69.82372331,21.70540280 69.82384994,21.70499454 69.82373203,21.70497149 69.82374391,21.70493411 69.82332457,21.70485735 69.82327378,21.70498623 69.82323256,21.70508020 69.82316127,21.70515638 69.82315604,21.70515438 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+</Folder>
+<Folder>
+<name>road</name>
+<Placemark>
+<LookAt>
+<longitude>69.82413046</longitude>
+<latitude>21.70594866</latitude>
+<range>13</range>
+</LookAt>
+<styleUrl>#Line_road_000000_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>road</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>3</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82415281,21.70600259 69.82411685,21.70594345 69.82410812,21.70589473 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82394658</longitude>
+<latitude>21.70609057</latitude>
+<range>19</range>
+</LookAt>
+<styleUrl>#Line_road_000000_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>road</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>3</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82386660,21.70604555 69.82398092,21.70611046 69.82402656,21.70613560 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82413197</longitude>
+<latitude>21.70575643</latitude>
+<range>31</range>
+</LookAt>
+<styleUrl>#Line_road_000000_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>road</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>5</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82415711,21.70561813 69.82412852,21.70572959 69.82410682,21.70582226 69.82410812,21.70589473 69.82410812,21.70589473 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82417704</longitude>
+<latitude>21.70578711</latitude>
+<range>25</range>
+</LookAt>
+<styleUrl>#Line_road_000000_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>road</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>4</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82418855,21.70567470 69.82418183,21.70575097 69.82416553,21.70584341 69.82417108,21.70589951 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82433038</longitude>
+<latitude>21.70546484</latitude>
+<range>55</range>
+</LookAt>
+<styleUrl>#Line_road_000000_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>road</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>8</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82418813,21.70567433 69.82420017,21.70557357 69.82419595,21.70543643 69.82425488,21.70534846 69.82428885,21.70529660 69.82432677,21.70525535 69.82439177,21.70525921 69.82447263,21.70526272 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82417281</longitude>
+<latitude>21.70546553</latitude>
+<range>34</range>
+</LookAt>
+<styleUrl>#Line_road_000000_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>road</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>5</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82415711,21.70561813 69.82415566,21.70554559 69.82415199,21.70545673 69.82416193,21.70542607 69.82419364,21.70531292 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82433974</longitude>
+<latitude>21.70524224</latitude>
+<range>21</range>
+</LookAt>
+<styleUrl>#Line_road_000000_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>road</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>5</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82424766,21.70527684 69.82424766,21.70527684 69.82428851,21.70523670 69.82433655,21.70520765 69.82443183,21.70521418 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82437722</longitude>
+<latitude>21.70580476</latitude>
+<range>20</range>
+</LookAt>
+<styleUrl>#Line_road_000000_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>road</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>4</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82440376,21.70589381 69.82436866,21.70581682 69.82435069,21.70574268 69.82435809,21.70571571 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82432522</longitude>
+<latitude>21.70581105</latitude>
+<range>26</range>
+</LookAt>
+<styleUrl>#Line_road_000000_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>road</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>4</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82434633,21.70592611 69.82432844,21.70582746 69.82430556,21.70577502 69.82430410,21.70569600 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82466345</longitude>
+<latitude>21.70644072</latitude>
+<range>43</range>
+</LookAt>
+<styleUrl>#Line_road_000000_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>road</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>4</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82484939,21.70652806 69.82471470,21.70647790 69.82451339,21.70638112 69.82447752,21.70635338 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82420945</longitude>
+<latitude>21.70622505</latitude>
+<range>22</range>
+</LookAt>
+<styleUrl>#Line_road_000000_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>road</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>4</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82411508,21.70618002 69.82411508,21.70618002 69.82430381,21.70627007 69.82430381,21.70627007 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82424200</longitude>
+<latitude>21.70613633</latitude>
+<range>35</range>
+</LookAt>
+<styleUrl>#Line_road_000000_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>road</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>5</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82430381,21.70627007 69.82433120,21.70624885 69.82425297,21.70615021 69.82415281,21.70600259 69.82415281,21.70600259 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82448215</longitude>
+<latitude>21.70602152</latitude>
+<range>33</range>
+</LookAt>
+<styleUrl>#Line_road_000000_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>road</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>6</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82456054,21.70614924 69.82449412,21.70614629 69.82442461,21.70612282 69.82442461,21.70612282 69.82440862,21.70606711 69.82440376,21.70589381 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82426089</longitude>
+<latitude>21.70600295</latitude>
+<range>29</range>
+</LookAt>
+<styleUrl>#Line_road_000000_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>road</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>6</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82417108,21.70589951 69.82426572,21.70602125 69.82433050,21.70610639 69.82433512,21.70606971 69.82435071,21.70598629 69.82434717,21.70595205 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82427826</longitude>
+<latitude>21.70515382</latitude>
+<range>28</range>
+</LookAt>
+<styleUrl>#Line_road_000000_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>road</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>4</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82430885,21.70503081 69.82427674,21.70511492 69.82425963,21.70517634 69.82424766,21.70527684 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82423341</longitude>
+<latitude>21.70515140</latitude>
+<range>37</range>
+</LookAt>
+<styleUrl>#Line_road_000000_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>road</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>5</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82427319,21.70498988 69.82422286,21.70510351 69.82420430,21.70518835 69.82419572,21.70526958 69.82419364,21.70531292 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82500757</longitude>
+<latitude>21.70576802</latitude>
+<range>125</range>
+</LookAt>
+<styleUrl>#Line_road_000000_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>road</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>13</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82456054,21.70614924 69.82456054,21.70614924 69.82457993,21.70613337 69.82474556,21.70605314 69.82483905,21.70599455 69.82489377,21.70591820 69.82494391,21.70577597 69.82500725,21.70562416 69.82503485,21.70554256 69.82509934,21.70546376 69.82519528,21.70540973 69.82531885,21.70539070 69.82545459,21.70538680 </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LookAt>
+<longitude>69.82495356</longitude>
+<latitude>21.70589073</latitude>
+<range>143</range>
+</LookAt>
+<styleUrl>#Line_road_000000_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>road</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>14</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>69.82447752,21.70635338 69.82447442,21.70629878 69.82451386,21.70624635 69.82460485,21.70617640 69.82477918,21.70609291 69.82487506,21.70602192 69.82495407,21.70592389 69.82501744,21.70578842 69.82506886,21.70564306 69.82510024,21.70557180 69.82515757,21.70550998 69.82527344,21.70543952 69.82531876,21.70543204 69.82543270,21.70542808 </coordinates>
+</LineString>
+</Placemark>
+</Folder>
+</Folder>
+</Document>
+</kml>

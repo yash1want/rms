@@ -1,0 +1,3373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LAND USE DATA 2022-23</name>
+	<open>1</open>
+	<Style id="area1">
+		<LineStyle>
+			<color>ff7fffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf00ffff</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area13">
+		<LineStyle>
+			<color>ff7fffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf00ffff</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="inline">
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline19</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline25</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline1">
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline12">
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline15">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline17">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline24</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline18">
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline19">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline20">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline23">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline18</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline24">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline25">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline4">
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline7">
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="line1">
+		<LineStyle>
+			<color>ff333333</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="line10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="line11">
+		<LineStyle>
+			<color>ff333333</color>
+		</LineStyle>
+	</Style>
+	<Style id="line12">
+		<LineStyle>
+			<color>ff333333</color>
+		</LineStyle>
+	</Style>
+	<Style id="line120">
+		<LineStyle>
+			<color>ff7fffff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="line121">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line120</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line122</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="line122">
+		<LineStyle>
+			<color>ff7fffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="line2">
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin03">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0010</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin500</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl50</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin40">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin5003</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl503</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin41">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin5004</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl502</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin410">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin42">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin5005</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl500</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin43">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin5000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl504</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin44">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin5001</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl501</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin45">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin5002</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl505</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_shaded_dot0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_shaded_dot1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_shaded_dot1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="point10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#point12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#point14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="point12">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="point14">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00bfff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00bfff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0000">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff7fffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0010">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>b3ffffff</color>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>997f5555</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin50">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.9</scale>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+			<scale>1.2</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin500">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.9</scale>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+			<scale>1.2</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin5000">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.9</scale>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+			<scale>1.2</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin5001">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.9</scale>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+			<scale>1.2</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin5002">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.9</scale>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+			<scale>1.2</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin5003">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.9</scale>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+			<scale>1.2</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin5004">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.9</scale>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+			<scale>1.2</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin5005">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.9</scale>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+			<scale>1.2</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00bfff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>b3ffffff</color>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>997f5555</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff7fffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl20">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00bfff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl5">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.9</scale>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+			<scale>1.2</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl50">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.9</scale>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+			<scale>1.2</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl500">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.9</scale>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+			<scale>1.2</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl501">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.9</scale>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+			<scale>1.2</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl502">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.9</scale>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+			<scale>1.2</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl503">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.9</scale>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+			<scale>1.2</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl504">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.9</scale>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+			<scale>1.2</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl505">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.9</scale>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+			<scale>1.2</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_shaded_dot1">
+		<IconStyle>
+			<scale>0.933333</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>cc0055aa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_shaded_dot1">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>cc0055aa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style">
+		<LineStyle>
+			<color>ff0052a5</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>b00052a5</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style00">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>b00000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style02">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>b00000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style1">
+		<LineStyle>
+			<color>ffff00aa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b0ff00aa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style10">
+		<LineStyle>
+			<color>ffff7f00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b0ff7f00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style11">
+		<LineStyle>
+			<color>ffff7f00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b0ff7f00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style12">
+		<LineStyle>
+			<color>ffff7f00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b0ff7f00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style13">
+		<LineStyle>
+			<color>ffff7f00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b0ff7f00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style2">
+		<LineStyle>
+			<color>ffff00aa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b0ff00aa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style3">
+		<LineStyle>
+			<color>ff0052a5</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>b00052a5</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style300">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>3300ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style4">
+		<LineStyle>
+			<color>ffff7f00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b0ff7f00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style5">
+		<LineStyle>
+			<color>ff0052a5</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>b00052a5</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style6">
+		<LineStyle>
+			<color>ff0052a5</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>b00052a5</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style60">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>3300ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style7">
+		<LineStyle>
+			<color>ffff7f00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b0ff7f00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style8">
+		<LineStyle>
+			<color>ffff7f00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b0ff7f00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style9">
+		<LineStyle>
+			<color>ffff7f00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b0ff7f00</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id21">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style300</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style60</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style02</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id30">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id60">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="kml_ft_AREA_OF_MINING-2022-23">
+		<name>AREA OF MINING-2022-23</name>
+		<Placemark id="kml_1">
+			<name>kml_1</name>
+			<styleUrl>#stylemap_id00</styleUrl>
+			<Polygon>
+				<gx:drawOrder>1</gx:drawOrder>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.57307236657471,15.014533795947,0 76.5730698576119,15.0145581864408,0 76.5730554674204,15.0146550934554,0 76.57317988093691,15.0147242657513,0 76.5731612594868,15.0147566807418,0 76.5731340353697,15.014797868706,0 76.5731315341842,15.0148278461364,0 76.5734390457156,15.015234070043,0 76.57343959207979,15.0153086892074,0 76.5734247855424,15.0153150831103,0 76.5730996751612,15.0153578731774,0 76.573062732143,15.0154412919597,0 76.5730995662385,15.0156246671076,0 76.5730294311695,15.0157704851589,0 76.5725006484807,15.0157501379362,0 76.5722394169716,15.0157466232073,0 76.5720588620437,15.0157387467383,0 76.5719600397325,15.0157209558375,0 76.57196068926309,15.0156342540216,0 76.571983220267,15.0155667154535,0 76.57196314324,15.0155238981002,0 76.571623207325,15.0154872794023,0 76.5713630124407,15.0154790318141,0 76.5713374120152,15.0152635911515,0 76.57124418707861,15.015202987391,0 76.5712428368188,15.0150183170355,0 76.5714261233707,15.0148838764014,0 76.5718182486804,15.014773399766,0 76.57185097111829,15.0148892553675,0 76.5718596511425,15.0149166600314,0 76.5720612983657,15.0149787610444,0 76.5723857215367,15.0148060168805,0 76.5721520734475,15.0143521630403,0 76.5721274824283,15.0143397296632,0 76.5720663814238,15.0142608361649,0 76.5720457985615,15.0142471664027,0 76.5720548764709,15.0140811265999,0 76.57202566297789,15.0140620049425,0 76.57213036437059,15.0138479445113,0 76.5724284741048,15.0137422527772,0 76.57244917512919,15.0137730747363,0 76.5724681916157,15.0137927012532,0 76.5725136360669,15.0139554126511,0 76.57253984106011,15.0139631428907,0 76.57286612304981,15.0142585851061,0 76.5728596598121,15.0142901384103,0 76.5728893157228,15.0143887557999,0 76.5728876961379,15.0144122696825,0 76.57307236657471,15.014533795947,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder id="kml_ft_AREA_OF_DUMPING">
+		<name>AREA OF DUMPING-2022-23</name>
+		<Placemark id="kml_1">
+			<name>kml_1</name>
+			<styleUrl>#stylemap_id1</styleUrl>
+			<Polygon>
+				<gx:drawOrder>1</gx:drawOrder>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.5742262203668,15.0144144484783,4.44584024261729e-10 76.5743010756954,15.0143973911396,4.44584024261729e-10 76.5743690110498,15.0143968486999,4.44584024261729e-10 76.57446259939471,15.0144218334607,4.44584024261729e-10 76.57455701417349,15.0144399253209,4.44584024261729e-10 76.5746230582656,15.014422657071,4.44584024261729e-10 76.574665508576,15.0144110466314,4.44584024261729e-10 76.57473420001941,15.0145145573801,4.44584024261729e-10 76.5746743486813,15.0145446798397,4.44584024261729e-10 76.5746160102677,15.014570372642,4.44584024261729e-10 76.5744622409572,15.0145461659981,4.44584024261729e-10 76.5743246554312,15.0145145081977,4.44584024261729e-10 76.574226146911,15.0144880118899,4.44584024261729e-10 76.5742262203668,15.0144144484783,4.44584024261729e-10 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="kml_2">
+			<name>kml_2</name>
+			<styleUrl>#stylemap_id0</styleUrl>
+			<Polygon>
+				<gx:drawOrder>1</gx:drawOrder>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.5745808208182,15.0153069626211,0 76.5744506355279,15.0153527535943,0 76.57443275171801,15.0152373563274,0 76.57442883147159,15.0151329420591,0 76.5744019138336,15.0149848220896,0 76.5744539496864,15.0149362027277,0 76.5745137938116,15.014995552099,0 76.57455750646319,15.015139545065,0 76.5745808208182,15.0153069626211,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Dumping Area</name>
+			<Camera>
+				<gx:TimeSpan>
+					<begin>2023-06-23T06:42:20.846295699Z</begin>
+					<end>2023-06-23T06:42:21.046297699Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>76.57369958465787</longitude>
+				<latitude>15.01555514758022</latitude>
+				<altitude>975.1189583753294</altitude>
+				<heading>32.53454021213594</heading>
+				<tilt>1.065810160221205</tilt>
+				<roll>46.07357061518893</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>76.57441770294007,15.01504676586392,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="kml_ft_AREA_OF_PLANTATION">
+		<name>AREA OF PLANTATION-2022-23</name>
+		<Placemark id="kml_1">
+			<name>kml_1</name>
+			<Style>
+				<LineStyle>
+					<color>ffff0000</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>b0ff0000</color>
+				</PolyStyle>
+			</Style>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.5753055361055,15.0152556805791,4.44584024261729e-10 76.575253027808,15.0152996806849,4.44584024261729e-10 76.57466609967059,15.0144094656697,4.44584024261729e-10 76.57394985378851,15.0133245999297,4.44584024261729e-10 76.5733514049052,15.012460165556,4.44584024261729e-10 76.5733954233819,15.0124242278165,4.44584024261729e-10 76.5740081408367,15.0132873706222,4.44584024261729e-10 76.5753055361055,15.0152556805791,4.44584024261729e-10 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="kml_2">
+			<name>kml_2</name>
+			<Style>
+				<LineStyle>
+					<color>ffff0000</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>b0ff0000</color>
+				</PolyStyle>
+			</Style>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.574226146911,15.0144880118899,0 76.5743246554312,15.0145145081977,0 76.5744622409572,15.0145461659981,0 76.5746160102677,15.014570372642,0 76.5746743486813,15.0145446798397,0 76.57473420001941,15.0145145573801,0 76.574665508576,15.0144110466314,0 76.5746230582656,15.014422657071,0 76.57455701417349,15.0144399253209,0 76.57446259939471,15.0144218334607,0 76.5743690110498,15.0143968486999,0 76.5743010756954,15.0143973911396,0 76.5742262203668,15.0144144484783,0 76.574226146911,15.0144880118899,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="kml_3">
+			<name>kml_3</name>
+			<Style>
+				<LineStyle>
+					<color>ffff0000</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>b0ff0000</color>
+				</PolyStyle>
+			</Style>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.5743900569433,15.0159491812701,0 76.57441673339829,15.0159906236736,0 76.57435976429269,15.0160289911033,0 76.5744008979361,15.0160799772221,0 76.5744836443379,15.0160239594718,0 76.5750099835474,15.015668253136,0 76.5749551202998,15.0156774940214,0 76.5746278982637,15.0158471911022,0 76.5743900569433,15.0159491812701,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="kml_4">
+			<name>kml_4</name>
+			<Style>
+				<LineStyle>
+					<color>ffff0000</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>b0ff0000</color>
+				</PolyStyle>
+			</Style>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.57084196487671,15.0148667955057,0 76.5708134850049,15.0147838402603,0 76.5706920985993,15.0147924134459,0 76.5705818880986,15.0148318496744,0 76.57060025813711,15.0148936033253,0 76.57064452364359,15.0149571119716,0 76.570709911347,15.0149141176723,0 76.57084196487671,15.0148667955057,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="kml_5">
+			<name>kml_5</name>
+			<Style>
+				<LineStyle>
+					<color>ffff0000</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>b0ff0000</color>
+				</PolyStyle>
+			</Style>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.57051228524639,15.0152708812923,0 76.5705457983493,15.0153272946756,0 76.5702509560108,15.0153837372615,0 76.5702619580364,15.0153254856188,0 76.57034109530321,15.0153161364427,0 76.5704650325541,15.0152900203602,0 76.57051228524639,15.0152708812923,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder id="kml_ft_MINING_AREA">
+		<name>MINING AREA</name>
+		<Placemark id="kml_1">
+			<name>kml_1</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>b00000ff</color>
+				</PolyStyle>
+			</Style>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.5729181166554,15.0157839161441,0 76.572938785906,15.0158217207063,0 76.5729107073744,15.0158143649331,0 76.5728554919784,15.0158069137649,0 76.57280033911231,15.0157983141203,0 76.5727390736286,15.0157818685962,0 76.5726324548187,15.015726006309,0 76.57258890558531,15.0157003534493,0 76.57255719062719,15.0156852901742,0 76.5725192419419,15.0156620480617,0 76.5724116081519,15.0155811856802,0 76.5723860858069,15.0155487918443,0 76.5723641199059,15.0155189603281,0 76.5723519949031,15.015491786536,0 76.57231119488389,15.0154681771276,0 76.57228866161979,15.0154567227399,0 76.57225592440599,15.0154412254507,0 76.57222921019959,15.0154352419088,0 76.5720959644478,15.0153823667844,0 76.5719647980486,15.0153339277056,0 76.57192082214119,15.015312026106,0 76.5719143776335,15.0152991174534,0 76.57191366593599,15.0152886364361,0 76.5719155122445,15.015280605034,0 76.5719217898156,15.0152706925607,0 76.571944753758,15.0152468537851,0 76.5720719419601,15.0151744111826,0 76.5721872311471,15.0150459955581,0 76.5722573807427,15.0149599354069,0 76.5723838613124,15.0148110481337,0 76.572433429765,15.0147648697189,0 76.5725232308132,15.0146889114009,0 76.5725802228318,15.0146466069338,0 76.572696811974,15.0145934825687,0 76.57286558564979,15.0145436975238,0 76.5729954260198,15.0145188189948,0 76.5731289472583,15.0145178957271,0 76.5732775232685,15.0145083746856,0 76.5734667242717,15.0144645824523,0 76.573683852679,15.014383772802,0 76.5738582141163,15.014316736052,0 76.57409129295991,15.0142475941313,0 76.5742393690151,15.014227905794,0 76.5743578733581,15.0142231151626,0 76.57445325662439,15.0142337144632,0 76.5744924303208,15.0142529427503,0 76.5745256299973,15.0142826836163,0 76.57453043150331,15.0142970951275,0 76.5745320161258,15.0143066477175,0 76.5745303533043,15.014317372372,0 76.57452862423369,15.0143194173023,0 76.5745075494207,15.0143281187758,0 76.57445335207549,15.0143358474699,0 76.57429524284051,15.014342477889,0 76.5741081962412,15.0143790342723,0 76.5737871699083,15.0144747314404,0 76.5734739645637,15.0146230292502,0 76.5731210882051,15.0147834727362,0 76.57300241674859,15.0148509676188,0 76.5728714682823,15.0150258633293,0 76.5728072264707,15.0151091494339,0 76.5727858454034,15.0151405154795,0 76.5727616190953,15.0151616745439,0 76.572734838268,15.0151745084505,0 76.5726852897769,15.0152001890033,0 76.572622602918,15.0152303366109,0 76.5725824533818,15.0152799389514,0 76.5725716662408,15.0153225999404,0 76.5725729782957,15.0153540990963,0 76.5725725240457,15.0154260758817,0 76.5725813457157,15.0155118024347,0 76.5726117790021,15.0155088440598,0 76.5725790072871,15.0155197450504,0 76.5726205087559,15.015637604606,0 76.57266137925021,15.0156240096809,0 76.5726198777631,15.0155061501346,0 76.5726182032089,15.0155067071487,0 76.5726097316587,15.0154243831004,0 76.5726101472448,15.015358530856,0 76.57261390120929,15.0153434911717,0 76.572620522081,15.0153062499099,0 76.5726385614617,15.0152888270239,0 76.5726350662772,15.0153864639438,0 76.57264193743249,15.0154640689309,0 76.5726573985803,15.0155140508801,0 76.57270951242479,15.0155587244134,0 76.5728569340055,15.0154761168869,0 76.57285018000481,15.015306768753,0 76.5727889107653,15.0152412131617,0 76.5726988181993,15.0152465058603,0 76.5727628124389,15.01523237952,0 76.5728884643636,15.0152150833108,0 76.5729482929563,15.0152077896229,0 76.57293196007851,15.0152664078956,0 76.57292414884181,15.0153261414524,0 76.57297964254759,15.0153553943889,0 76.5730621254025,15.0153506933047,0 76.573079692512,15.015316497636,0 76.5731000047561,15.0152546078721,0 76.57306982454929,15.0151903500427,0 76.57302854316779,15.0151748170732,0 76.57307135733249,15.0151569185016,0 76.5731863533227,15.0151198340481,0 76.5734211358408,15.0150847366711,0 76.5734582916993,15.0150904608116,0 76.57346921001771,15.0151044108981,0 76.57347251822191,15.0151173204959,0 76.5734772722313,15.0151395849918,0 76.573476032185,15.0151583233403,0 76.57347335280819,15.0151685986861,0 76.57346336417331,15.0151838299655,0 76.5734933150942,15.015198785014,0 76.57350738640611,15.0151768362623,0 76.57352099546419,15.0151544447757,0 76.5735391788906,15.0151297918862,0 76.5735510397144,15.0151194530561,0 76.5735846606167,15.0151016409567,0 76.57366057506469,15.0151011158207,0 76.5737116193438,15.0150936719762,0 76.5738611596709,15.0150791650723,0 76.5739380304632,15.0150651481417,0 76.5739737614922,15.0150599374142,0 76.57400296971559,15.015061153462,0 76.5740161658193,15.015068861946,0 76.57401552935769,15.015081629647,0 76.5740025409885,15.0151022826283,0 76.5739488573289,15.0151480346916,0 76.5738316942916,15.0151977712711,0 76.5737551796873,15.0152160274255,0 76.5737130349044,15.0152425546643,0 76.57368913362831,15.0152682466079,0 76.5737167238055,15.0152924930461,0 76.573737351193,15.0152703202657,0 76.57377013632021,15.015249684284,0 76.5738436595572,15.0152321418579,0 76.5739690381284,15.0151789177187,0 76.5740313236916,15.0151258346504,0 76.5740522220819,15.0150926038286,0 76.5740543949837,15.0150490143073,0 76.5740140181417,15.0150254282384,0 76.57397177964,15.0150236696912,0 76.5739318394083,15.0150294942548,0 76.573855873422,15.0150433461985,0 76.5737070097871,15.0150577874533,0 76.57365766849389,15.015064982949,0 76.5735867734119,15.0150654733624,0 76.573510080508,15.0150564438058,0 76.57341066789439,15.0150500274659,0 76.57318338335109,15.0150875483075,0 76.5730506423938,15.0151278533408,0 76.57294279156621,15.0151720249445,0 76.57289096143229,15.0151783435424,0 76.572870283889,15.0151730681358,0 76.57286242733269,15.0151666203858,0 76.5728617545676,15.0151509116559,0 76.5728654907675,15.0151306698759,0 76.5729039843575,15.0150438758265,0 76.5730279159106,15.0148783519242,0 76.5731383984089,15.0148155145384,0 76.5734899912044,15.0146556546412,0 76.5738008511437,15.0145084673362,0 76.5741173384573,15.0144141232314,0 76.5742997379602,15.0143784750738,0 76.5744568628092,15.0143718859314,0 76.5745176860883,15.0143632123591,0 76.57455156700659,15.0143492234358,0 76.5745656050358,15.0143326209921,0 76.5745696612683,15.0143064595912,0 76.574566698542,15.0142885993867,0 76.5745580116879,15.014262526184,0 76.57451382643001,15.0142229442412,0 76.57446408858119,15.0141985305724,0 76.5743592211834,15.0141868773633,0 76.57423606805121,15.014191855924,0 76.5740832918538,15.0142121691938,0 76.57384592408179,15.0142825834042,0 76.5736703605354,15.0143500823254,0 76.57345571729429,15.0144299670561,0 76.5732719520188,15.0144725011395,0 76.5732407662295,15.0144744995931,0 76.5729292937319,15.0143912733771,0 76.57269693616129,15.0143361680438,0 76.5724988896975,15.0143517369595,0 76.57235015712411,15.0143685557779,0 76.57221630793001,15.0143920947461,0 76.5721025968468,15.0144161056543,0 76.5719818165225,15.0144634679143,0 76.5719714032949,15.0144712972282,0 76.57188608034519,15.0145338462409,0 76.5717169667365,15.0146495582458,0 76.5715027021012,15.0147716317402,0 76.5714010496911,15.0148167105073,0 76.57132894090211,15.0148446946097,0 76.571261139941,15.0148597990485,0 76.5711120996417,15.014839667973,0 76.57101010628161,15.0148274948165,0 76.57102683600991,15.0148216487928,0 76.5710442555156,15.0148085884657,0 76.5710385167434,15.0147897363377,0 76.5711490516811,15.0146994400123,0 76.5712504220358,15.0145923460763,0 76.5713025825423,15.0145320327294,0 76.5713310299769,15.0144973531228,0 76.57133292414341,15.014349555551,0 76.5713320968058,15.0142503935434,0 76.5714227849011,15.0140059332044,0 76.5715272216315,15.013903940808,0 76.5715985305026,15.0137582794039,0 76.57171804305131,15.0136342813719,0 76.5719883068214,15.0136268619007,0 76.57211107337081,15.013577048864,0 76.5721786784228,15.0135709147068,0 76.5723137563426,15.0134963465841,0 76.572394563476,15.0134243768905,0 76.572586442836,15.0132257998943,0 76.57262088878851,15.0131459804512,0 76.5726988397703,15.0130083160185,0 76.5727120837882,15.0129142053485,0 76.57272775961511,15.0128509712902,0 76.5727886354812,15.0128099590094,0 76.57288657954609,15.0128041821634,0 76.57305404391251,15.0127429260609,0 76.5731599123131,15.0126762197063,0 76.5732560744971,15.012547521495,0 76.5733540467354,15.0124639815898,0 76.57394985378851,15.0133245999297,0 76.57466609967059,15.0144094656697,0 76.57455701417349,15.0144399253209,0 76.57446259939471,15.0144218334607,0 76.5743690110498,15.0143968486999,0 76.5743010756954,15.0143973911396,0 76.57422861251339,15.0144139033785,0 76.574226146911,15.0144880118899,0 76.5744622409572,15.0145461659981,0 76.5746160102677,15.014570372642,0 76.5746743486813,15.0145446798397,0 76.57473514184031,15.0145140400025,0 76.5753096054019,15.0153841427655,0 76.5752977012571,15.0153922286673,0 76.5752245036315,15.0154268881803,0 76.5751242798522,15.0154568567025,0 76.5750004212442,15.0155276982651,0 76.57490894977229,15.015583855655,0 76.57482738325599,15.0156318891756,0 76.5747372951901,15.0156776349127,0 76.57475194239881,15.0156554924652,0 76.5747639439881,15.0156348795485,0 76.5748761303567,15.0155140031906,0 76.5749143499946,15.0154660066576,0 76.5748922884197,15.0154494114881,0 76.5748547119133,15.0154966003647,0 76.57474117518031,15.0156189316697,0 76.5747280509058,15.0156414728116,0 76.57468753285249,15.0157027246539,0 76.57462730802411,15.0157295219104,0 76.57451489948269,15.0157651577546,0 76.5743770142894,15.015807413625,0 76.57433864400009,15.0158137861392,0 76.5741585196418,15.015833245279,0 76.57400199045929,15.0158490548774,0 76.5739216127014,15.0158632790002,0 76.57388696214559,15.0158680737908,0 76.57382777996651,15.0158826105483,0 76.573762988856,15.0158950126922,0 76.57366690087331,15.0159108914381,0 76.57356744119519,15.0159246200646,0 76.57347583557041,15.0159415544503,0 76.5733506401081,15.0159543742997,0 76.57326790365551,15.0159603800991,0 76.5732376888938,15.0159592162407,0 76.57322254311769,15.0159530104837,0 76.5732096086131,15.0159330723789,0 76.57320400220379,15.0159176198051,0 76.5732039265967,15.0159072927544,0 76.5732098522155,15.0158976545007,0 76.5731639608217,15.0158569168378,0 76.5731028165094,15.0158495071855,0 76.57312367257791,15.0158467114408,0 76.5731977536324,15.0157962808833,0 76.57324486644239,15.0157483596499,0 76.5732938535037,15.0156922458334,0 76.57332361520309,15.0156559502775,0 76.5733432128426,15.0156209361431,0 76.5733690558924,15.0155739844797,0 76.5733544529956,15.0155215009694,0 76.5733265063234,15.015475463634,0 76.5732879439534,15.0154460801424,0 76.5732271197823,15.0154465008029,0 76.5732270563296,15.0154378337436,0 76.5730956401008,15.0154396238459,0 76.5729528026596,15.0155056417508,0 76.5729050572869,15.0155497260445,0 76.5729181166554,15.0157839161441,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="kml_4">
+			<name>kml_4</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>b00000ff</color>
+				</PolyStyle>
+			</Style>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.57352099546419,15.0151544447757,0 76.57350738640611,15.0151768362623,0 76.5734933150942,15.015198785014,0 76.57346336417331,15.0151838299655,0 76.57347335280819,15.0151685986861,0 76.573476032185,15.0151583233403,0 76.5734772722313,15.0151395849918,0 76.57347251822191,15.0151173204959,0 76.57346921001771,15.0151044108981,0 76.5734582916993,15.0150904608116,0 76.5734211358408,15.0150847366711,0 76.5735846606167,15.0151016409567,0 76.5735510397144,15.0151194530561,0 76.5735391788906,15.0151297918862,0 76.57352099546419,15.0151544447757,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="kml_5">
+			<name>kml_5</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>b00000ff</color>
+				</PolyStyle>
+			</Style>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.5727772032549,15.0159158256224,0 76.5726412821832,15.0159485959779,0 76.57252218052361,15.0159748687918,0 76.5724433122614,15.015980685939,0 76.57239843045529,15.0159794931785,0 76.5723317638853,15.0159673354255,0 76.5722432917959,15.0159470348491,0 76.5721644572015,15.0159182491928,0 76.5720384217896,15.0158673566519,0 76.5720369959686,15.0158663080172,0 76.5720246364194,15.0158529118703,0 76.57202756983339,15.0158420319282,0 76.5720684608076,15.0158396478429,0 76.5721853964734,15.0158587226583,0 76.57234451576799,15.0158833537702,0 76.57246617343129,15.0158895303405,0 76.5725765043767,15.0158841155593,0 76.57264241730959,15.015876794514,0 76.5726833416844,15.0158673577837,0 76.5727445529802,15.0158614423139,0 76.57280351514331,15.0158601305376,0 76.57284148017111,15.0158643550408,0 76.5728724566226,15.0158676280668,0 76.5728851148362,15.0158775649464,0 76.5728851702825,15.0158902593173,0 76.57287376443951,15.0158974037274,0 76.5727772032549,15.0159158256224,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="kml_6">
+			<name>kml_6</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>b00000ff</color>
+				</PolyStyle>
+			</Style>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.57245725156599,15.0156587982078,0 76.572535402911,15.0157094760443,0 76.5725694726535,15.0157312000414,0 76.5726210618557,15.0157597900232,0 76.5726674695067,15.0157824268636,0 76.57269373500991,15.0157982908849,0 76.5726945109878,15.0158110614008,0 76.5726914793844,15.0158212058107,0 76.5726771807329,15.0158316228309,0 76.5726359896377,15.0158411210638,0 76.5725734517456,15.0158480672373,0 76.57246620577421,15.0158533306138,0 76.57234842207551,15.0158473507231,0 76.57219140014389,15.0158230442724,0 76.57207127773719,15.0158034496255,0 76.5719211515998,15.015805682507,0 76.57185526335,15.0157934966047,0 76.57170732476401,15.0157662414033,0 76.5716577156804,15.0157613279111,0 76.5716574649484,15.0157270467247,0 76.5716067446896,15.0157273971498,0 76.5716069954135,15.015761678337,0 76.5715627870111,15.0157672400156,0 76.57138990413431,15.0157447262789,0 76.5712837896731,15.0157534087461,0 76.5712671244155,15.0157415044764,0 76.57136474890039,15.0157073360495,0 76.57137437113209,15.0156543273448,0 76.5714587287323,15.0156310550802,0 76.57160214095261,15.0156225011525,0 76.57169222522199,15.0156218787604,0 76.57178139486371,15.0156482739736,0 76.5718538190699,15.0156661412564,0 76.5719345179203,15.0157044643513,0 76.5719621263392,15.0157269327141,0 76.5720189516834,15.0157416461171,0 76.5721540510807,15.0157522741249,0 76.5721642843536,15.0157089707653,0 76.5719611386091,15.0156329070695,0 76.571983220267,15.0155667154535,0 76.57196314324,15.0155238981002,0 76.5717302200331,15.0155008964025,0 76.57162427511101,15.0154969736848,0 76.5715034783013,15.0154948346343,0 76.5713372091282,15.0154825614075,0 76.571339812484,15.0154777947265,0 76.57147393122359,15.0154724034411,0 76.57165757385231,15.0154810820185,0 76.5717685752174,15.0154922510411,0 76.5718880465684,15.0155037252804,0 76.5720371182241,15.0155070261039,0 76.57215333522571,15.0155255013704,0 76.5722362709876,15.0155434893939,0 76.57234839545799,15.0155897049311,0 76.57245725156599,15.0156587982078,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="kml_7">
+			<name>kml_7</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>b00000ff</color>
+				</PolyStyle>
+			</Style>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.572044195834,15.0154001647546,0 76.57205869213141,15.0154081392059,0 76.57206621651009,15.0154199866424,0 76.5720663439742,15.0154374099577,0 76.5720520342059,15.0154549330449,0 76.5720359247466,15.0154656688983,0 76.5719913037002,15.0154747633542,0 76.57189502201049,15.0154726314241,0 76.5717769527195,15.0154612918419,0 76.57166004178301,15.0154495281941,0 76.5714745272863,15.0154407611533,0 76.57130687815339,15.0154427118842,0 76.5712104284526,15.0154103380349,0 76.5710421555452,15.0154179016695,0 76.5709025919524,15.0154612552247,0 76.5708016808187,15.0155215032723,0 76.5706781750102,15.0156147889867,0 76.5706708054696,15.0156089089684,0 76.5705515174193,15.0156808907739,0 76.5704363059718,15.0157270994215,0 76.5703484542173,15.015746077482,0 76.5702435352283,15.015758027065,0 76.57024126252681,15.0157536653241,0 76.5701819492746,15.0157650412773,0 76.57017599299201,15.0157657196556,0 76.5701338785851,15.0157742609572,0 76.5701336105451,15.0157599832989,0 76.5704314010232,15.0157171590533,0 76.5705449956225,15.0156667411409,0 76.570661761154,15.0155962814972,0 76.5706913789485,15.0155737527124,0 76.57077777006801,15.0155004253458,0 76.5708920462525,15.0154389123706,0 76.5710376766872,15.0153936742344,0 76.5712127118443,15.0153858066479,0 76.57140278271351,15.0153086643711,0 76.5713374120152,15.0152635911515,0 76.57125440625251,15.0152138232332,0 76.5711319780744,15.0151274261731,0 76.57098426814849,15.0150872200969,0 76.5708662407453,15.0150776854412,0 76.5707372537229,15.0150869229326,0 76.5706889418406,15.0151230235997,0 76.57068205196541,15.0151310402085,0 76.5706458560213,15.0151085638803,0 76.5706540153073,15.0151017330517,0 76.5706747933932,15.0150894271794,0 76.5707392110733,15.0150723857463,0 76.5707962143654,15.0150584850566,0 76.5708757919034,15.0150616157224,0 76.5709828603062,15.0150682366783,0 76.5710910438265,15.0150978509761,0 76.5711623201026,15.0151314002694,0 76.5712482151833,15.0151825417638,0 76.5713471034334,15.0152361411972,0 76.5714288643974,15.0152788184069,0 76.5714858276304,15.0152977458074,0 76.571601498604,15.0153063868354,0 76.57165178085251,15.0153132494218,0 76.571719080279,15.0153257178492,0 76.5717927152528,15.0153375266161,0 76.5718873085689,15.0153541175503,0 76.5720028165843,15.0153888138158,0 76.572044195834,15.0154001647546,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="kml_8">
+			<name>kml_8</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>b00000ff</color>
+				</PolyStyle>
+			</Style>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.5722241324533,15.0149247288054,0 76.572156824483,15.0150051069129,0 76.5720397652094,15.0151428594897,0 76.5719317195198,15.0152141876317,0 76.5718687268629,15.0152588453595,0 76.5718219271545,15.01527024605,0 76.5716610887886,15.0152818192255,0 76.5714961400282,15.0152631767837,0 76.57144005071549,15.0152538805453,0 76.5713604975969,15.0152123557762,0 76.57126230111299,15.0151591312945,0 76.5711757186432,15.0151075805323,0 76.5711009821396,15.0150724025314,0 76.5709875797735,15.0150413596185,0 76.5708772419155,15.0150345364835,0 76.5707976615051,15.0150314057038,0 76.5707007720213,15.0150462664092,0 76.5706696097226,15.0150225230525,0 76.5706657258776,15.0150007124316,0 76.5706683875062,15.0149923174047,0 76.57067512371729,15.0149825716295,0 76.57071753648719,15.0149576659129,0 76.57079051718,15.0149311206542,0 76.57090906722421,15.014894407214,0 76.5709466713102,15.014871973687,0 76.5709655074688,15.01486763003,0 76.57100931202881,15.0148713589619,0 76.571108695796,15.0148757077541,0 76.571258699258,15.0148959689213,0 76.57134722491131,15.0148728178298,0 76.57142283711001,15.0148402285088,0 76.5715233057895,15.0148017986239,0 76.57173711265,15.0146799859265,0 76.57190799139249,15.0145630661598,0 76.57199621353,15.0144983499036,0 76.5721832655948,15.0144338837789,0 76.5722341842244,15.014427420015,0 76.5723611348447,15.0144069846551,0 76.5725068178584,15.0143873838535,0 76.5726939510522,15.014372672854,0 76.57291995306009,15.0144262709117,0 76.57312759022039,15.0144817521231,0 76.5729916635126,15.0144826920204,0 76.572856564677,15.0145085781147,0 76.5726834473531,15.0145596444498,0 76.5725608191279,15.0146155205458,0 76.5725007641758,15.0146600985867,0 76.572398631898,15.0147347489789,0 76.5723350907528,15.0148015501107,0 76.5722241324533,15.0149247288054,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="kml_12">
+			<name>kml_12</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>b00000ff</color>
+				</PolyStyle>
+			</Style>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.5733660313585,15.0164206857901,0 76.5732675680845,15.0164796179104,0 76.5731890174107,15.0165373905352,0 76.5731350530281,15.016567001926,0 76.573071887686,15.0165732863647,0 76.5730015778731,15.0165630519568,0 76.5729401979905,15.0165391112747,0 76.5728813386192,15.0165009498236,0 76.5729074543376,15.0164326196414,0 76.5728929384386,15.016345139408,0 76.5727893057869,15.0162417263381,0 76.5725707237481,15.0160998638447,0 76.572537210826,15.0160483450484,0 76.5725122041097,15.0160432001885,0 76.5724843656984,15.0160374727345,0 76.5724380802032,15.016016712486,0 76.5724442136446,15.0160168754852,0 76.5725277343949,15.0160107151794,0 76.5726498772401,15.0159837715043,0 76.57278526822751,15.0159511289491,0 76.5728788933523,15.0159332671929,0 76.5729697374092,15.01592597537,0 76.5730517775357,15.0159157451742,0 76.57311650533001,15.0159104044402,0 76.57315033221479,15.0159287656603,0 76.5731512177981,15.0159517511215,0 76.57312866937539,15.0159954160585,0 76.57308371352499,15.0160030560643,0 76.57303375746289,15.0160109593337,0 76.57296605116061,15.0160233040978,0 76.5729162926077,15.0160581981777,0 76.57289650143321,15.0160874865993,0 76.5728811873158,15.0161210628017,0 76.5728878027917,15.0161941374422,0 76.5729255064899,15.0162334921828,0 76.572988702396,15.016249297894,0 76.5730794300151,15.0162486704797,0 76.57324611538991,15.0162475176959,0 76.5733475671335,15.0162509792812,0 76.5733907367655,15.0162581121348,0 76.57343068025931,15.0162693848245,0 76.5734788531382,15.0162875062159,0 76.5734901406404,15.0162987864295,0 76.5734914428795,15.0163102200017,0 76.5734727829485,15.0163429230288,0 76.57342204580451,15.016382919494,0 76.5733660313585,15.0164206857901,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="kml_13">
+			<name>kml_13</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>b00000ff</color>
+				</PolyStyle>
+			</Style>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.5732287259377,15.0166565697674,0 76.5732711598159,15.0166042919577,0 76.57331277426501,15.0165520472859,0 76.573389665603,15.016454908671,0 76.5734388064793,15.016404618299,0 76.57349455675489,15.0163606699406,0 76.5735201482448,15.0163158187899,0 76.57351681506459,15.0162865537244,0 76.5734946043649,15.0162643573685,0 76.5734396213677,15.0162436741871,0 76.5733969844448,15.0162316413683,0 76.5733504068547,15.0162239454224,0 76.573246505691,15.0162204002606,0 76.5732205189514,15.0162205799908,0 76.5731347448211,15.0162076759156,0 76.57308471655909,15.0161993923941,0 76.5730413423738,15.016189984167,0 76.57301126854679,15.0161772478966,0 76.5729799185448,15.0161418680031,0 76.57296749167701,15.0161128293717,0 76.5729794921638,15.0160836218241,0 76.5730226610261,15.0160649856239,0 76.5731479710186,15.0160425452783,0 76.5732820530506,15.016004942599,0 76.57348763267601,15.0159773688808,0 76.5736425169454,15.015948514845,0 76.5737988687068,15.0159193873111,0 76.5739257474598,15.0158904394639,0 76.5740045287539,15.0158760585574,0 76.5741615023577,15.0158602040702,0 76.5743425377007,15.0158406465127,0 76.57438358870689,15.0158338287861,0 76.57452341967191,15.0157909766188,0 76.5746374726845,15.0157548194409,0 76.57470265538311,15.01572581616,0 76.5748410842242,15.0156555235219,0 76.57492362836589,15.0156069142868,0 76.57501494836249,15.0155508498893,0 76.5751377307913,15.0154806238487,0 76.5751845980887,15.0154690540443,0 76.5744870754139,15.015942844288,0 76.5743454789216,15.0159543729388,0 76.5743214704912,15.0159381979595,0 76.57400238872469,15.0159427322268,0 76.5738536467549,15.0159467497239,0 76.5735986848578,15.0160147006833,0 76.5736877457375,15.0161381796517,0 76.57365522128789,15.0161668660895,0 76.57368804033101,15.01622068774,0 76.57366521231759,15.0163141384195,0 76.5735752648461,15.0163544295258,0 76.5734919468829,15.0164088980478,0 76.57341168639771,15.0164788246465,0 76.57331478921679,15.0165949161112,0 76.5732287259377,15.0166565697674,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder id="kml_ft_MINERAL_STACK">
+		<name>MINERAL STACK</name>
+		<Placemark id="kml_1">
+			<name>kml_1</name>
+			<styleUrl>#stylemap_id60</styleUrl>
+			<Polygon>
+				<gx:drawOrder>1</gx:drawOrder>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.5738258419798,15.015341253247,0 76.57381975615969,15.015423988955,0 76.57379270591569,15.0154385261194,0 76.5738143364909,15.0153154211059,0 76.5738993247685,15.0152893027804,0 76.57393809651219,15.0152222997506,0 76.57396351270999,15.0152441835373,0 76.5739682319813,15.0153104418797,0 76.57391486109201,15.0153282829791,0 76.5738258419798,15.015341253247,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="kml_1">
+			<name>kml_2</name>
+			<styleUrl>#stylemap_id7</styleUrl>
+			<Polygon>
+				<gx:drawOrder>1</gx:drawOrder>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.5732271197823,15.015446500803,0 76.5732879439534,15.0154460801424,0 76.5733265063234,15.015475463634,0 76.5733544529956,15.0155215009694,0 76.5733690558924,15.0155739844797,0 76.5733432128427,15.015620936143,0 76.57332361520309,15.0156559502775,0 76.5732938535037,15.0156922458333,0 76.57324486644239,15.0157483596499,0 76.5731977536324,15.0157962808833,0 76.57312367257791,15.0158467114408,0 76.57296414138,15.0158680964622,0 76.5729181166554,15.0157839161441,0 76.5729050572869,15.0155497260445,0 76.5729528026596,15.0155056417508,0 76.5730956401008,15.0154396238459,0 76.5732270563296,15.0154378337436,0 76.5732271197823,15.015446500803,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="kml_3">
+			<name>kml_3</name>
+			<styleUrl>#stylemap_id4</styleUrl>
+			<Polygon>
+				<gx:drawOrder>1</gx:drawOrder>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.5730621254025,15.0153506933047,0 76.57297964254759,15.0153553943889,0 76.57292414884181,15.0153261414524,0 76.57293196007851,15.0152664078956,0 76.5729553652661,15.0151824072788,0 76.57301478721421,15.0151696411103,0 76.57306982454929,15.0151903500427,0 76.5731000047561,15.0152546078721,0 76.573079692512,15.015316497636,0 76.5730621254025,15.0153506933047,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="kml_4">
+			<name>kml_4</name>
+			<styleUrl>#stylemap_id30</styleUrl>
+			<Polygon>
+				<gx:drawOrder>1</gx:drawOrder>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.5726573985803,15.0155140508801,0 76.57264193743249,15.0154640689309,0 76.5726350662772,15.0153864639438,0 76.5726389035495,15.0152792709064,0 76.5726579587492,15.0152489062326,0 76.5727889107653,15.0152412131617,0 76.57285018000481,15.015306768753,0 76.5728569340055,15.0154761168869,0 76.57270951242479,15.0155587244134,0 76.5726573985803,15.0155140508801,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder id="kml_ft_AREA_OF_ROADS">
+		<name>ROADS</name>
+		<Placemark id="kml_1">
+			<name>kml_1</name>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5735846606167,15.0151016409567,0 76.5734211358408,15.0150847366711,0 76.5731863533227,15.0151198340481,0 76.57307135733249,15.0151569185016,0 76.5729502387412,15.0152075524125,0 76.5728884643636,15.0152150833108,0 76.5727628124389,15.01523237952,0 76.5726933651588,15.0152477095851,0 76.5726622437469,15.0152659540733,0 76.572620522081,15.0153062499099,0 76.57261390120929,15.0153434911717,0 76.5726101472448,15.015358530856,0 76.5726097316587,15.0154243831004,0 76.5726183573033,15.0155082045923,0 76.5725813457157,15.0155118024347,0 76.5725725240457,15.0154260758817,0 76.5725729782957,15.0153540990963,0 76.5725716662408,15.0153225999404,0 76.5725824533818,15.0152799389514,0 76.572622602918,15.0152303366109,0 76.5726852897769,15.0152001890033,0 76.572734838268,15.0151745084505,0 76.5727616190953,15.0151616745439,0 76.5727858454034,15.0151405154795,0 76.5728072264707,15.0151091494339,0 76.5728714682823,15.0150258633293,0 76.57300241674859,15.0148509676188,0 76.5731210882051,15.0147834727362,0 76.5734739645637,15.0146230292502,0 76.5737871699083,15.0144747314404,0 76.5741081962412,15.0143790342723,0 76.57429524284051,15.014342477889,0 76.57445335207549,15.0143358474699,0 76.5745075494207,15.0143281187758,0 76.57453013281889,15.0143187944301,0 76.5745320161258,15.0143066477175,0 76.57453043150331,15.0142970951275,0 76.5745256299973,15.0142826836163,0 76.5744924303208,15.0142529427503,0 76.57445325662439,15.0142337144632,0 76.5743578733581,15.0142231151626,0 76.5742393690151,15.014227905794,0 76.57409129295991,15.0142475941313,0 76.5738582141163,15.014316736052,0 76.573683852679,15.014383772802,0 76.5734667242717,15.0144645824523,0 76.5732775232685,15.0145083746856,0 76.5731289472583,15.0145178957271,0 76.5729954260198,15.0145188189948,0 76.57286558564979,15.0145436975238,0 76.572696811974,15.0145934825687,0 76.5725802228318,15.0146466069338,0 76.5725232308132,15.0146889114009,0 76.572433429765,15.0147648697189,0 76.5723838613124,15.0148110481337,0 76.5722573807427,15.0149599354069,0 76.5721872311471,15.0150459955581,0 76.5720719419601,15.0151744111826,0 76.571944753758,15.0152468537851,0 76.5719217898156,15.0152706925607,0 76.5719155122445,15.015280605034,0 76.57191366593599,15.0152886364361,0 76.5719143776335,15.0152991174534,0 76.57192082214119,15.015312026106,0 76.5719647980486,15.0153339277056,0 76.5720959644478,15.0153823667844,0 76.57222921019959,15.0154352419088,0 76.57225592440599,15.0154412254507,0 76.57228866161979,15.0154567227399,0 76.57231119488389,15.0154681771276,0 76.5723519949031,15.015491786536,0 76.5723641199059,15.0155189603281,0 76.5723860858069,15.0155487918443,0 76.5724116081519,15.0155811856802,0 76.5725192419419,15.0156620480617,0 76.57255719062719,15.0156852901742,0 76.57258890558531,15.0157003534493,0 76.5726324548187,15.015726006309,0 76.5727390736286,15.0157818685962,0 76.57280033911231,15.0157983141203,0 76.5728554919784,15.0158069137649,0 76.5729107073744,15.0158143649331,0 76.57299496045739,15.0158364368219,0 76.5731639608217,15.0158569168378,0 76.5732098522155,15.0158976545007,0 76.5732039265967,15.0159072927544,0 76.57320400220379,15.0159176198051,0 76.5732096086131,15.0159330723789,0 76.57322254311769,15.0159530104837,0 76.5732376888938,15.0159592162407,0 76.57326790365551,15.0159603800991,0 76.5733506401081,15.0159543742997,0 76.57347583557041,15.0159415544503,0 76.57356744119519,15.0159246200646,0 76.57366690087331,15.0159108914381,0 76.573762988856,15.0158950126922,0 76.57382777996651,15.0158826105483,0 76.57388696214559,15.0158680737908,0 76.5739216127014,15.0158632790002,0 76.57400199045929,15.0158490548774,0 76.5741585196418,15.015833245279,0 76.57433864400009,15.0158137861392,0 76.5743770142894,15.015807413625,0 76.57451489948269,15.0157651577546,0 76.57462730802411,15.0157295219104,0 76.57468753285249,15.0157027246539,0 76.5747280509058,15.0156414728116,0 76.57474117518031,15.0156189316697,0 76.5748547119133,15.0154966003647,0 76.5748922884197,15.0154494114881,0 76.5749143499946,15.0154660066576,0 76.5748761303567,15.0155140031906,0 76.5747639439881,15.0156348795485,0 76.57475194239881,15.0156554924652,0 76.5747372951901,15.0156776349127,0 76.57482738325599,15.0156318891756,0 76.57490894977229,15.015583855655,0 76.5750004212442,15.0155276982651,0 76.5751242798522,15.0154568567025,0 76.5752245036315,15.0154268881803,0 76.5752977012571,15.0153922286673,0 76.5751845980887,15.0154690540443,0 76.5751377307913,15.0154806238487,0 76.57501494836249,15.0155508498893,0 76.57492362836589,15.0156069142868,0 76.5748410842242,15.0156555235219,0 76.57470265538311,15.01572581616,0 76.5746374726845,15.0157548194409,0 76.57452341967191,15.0157909766188,0 76.57438358870689,15.0158338287861,0 76.5743425377007,15.0158406465127,0 76.5741615023577,15.0158602040702,0 76.5740045287539,15.0158760585574,0 76.5739257474598,15.0158904394639,0 76.5737988687068,15.0159193873111,0 76.5736425169454,15.015948514845,0 76.57348763267601,15.0159773688808,0 76.5732820530506,15.016004942599,0 76.5731479710186,15.0160425452783,0 76.5730226610261,15.0160649856239,0 76.5729794921638,15.0160836218241,0 76.57296749167701,15.0161128293717,0 76.5729799185448,15.0161418680031,0 76.57301126854679,15.0161772478966,0 76.5730413423738,15.016189984167,0 76.57308471655909,15.0161993923941,0 76.5731347448211,15.0162076759156,0 76.5732205189514,15.0162205799908,0 76.573246505691,15.0162204002606,0 76.5733504068547,15.0162239454224,0 76.5733969844448,15.0162316413683,0 76.5734396213677,15.0162436741871,0 76.5734946043649,15.0162643573685,0 76.57351681506459,15.0162865537244,0 76.5735201482448,15.0163158187899,0 76.57349455675489,15.0163606699406,0 76.5734388064793,15.016404618299,0 76.573389665603,15.016454908671,0 76.57331277426501,15.0165520472859,0 76.5732711598159,15.0166042919577,0 76.5732287259377,15.0166565697674,0 76.5731623197761,15.0167410609306,0 76.57309645025489,15.0167745767315,0 76.5730197570422,15.0167724470925,0 76.5729731021748,15.0167587096346,0 76.5729357079889,15.0167274279818,0 76.5726953541615,15.0165640547882,0 76.57264757687049,15.016547925142,0 76.57246529519411,15.0165280716907,0 76.572420551994,15.0165276800447,0 76.5723823068864,15.0165335546836,0 76.5723789352688,15.0165444114892,0 76.5723846030337,15.0165527885141,0 76.572407638664,15.0165664912692,0 76.572537803145,15.0166631204499,0 76.57246399098651,15.0166755124352,0 76.5723943237019,15.0166274770484,0 76.5723309244127,15.0166001913382,0 76.57230024767181,15.0165870364578,0 76.5722450294115,15.0165827854673,0 76.5722125038139,15.0165846738074,0 76.5721815807152,15.0165824858361,0 76.5721376537044,15.0165741927907,0 76.572066130666,15.0165657821862,0 76.5718534625326,15.0165349043098,0 76.5717511859509,15.0165116454152,0 76.5716166157728,15.0164975868461,0 76.57153862583741,15.0164941588175,0 76.5714495585645,15.0165038988226,0 76.57137835565059,15.0165130895503,0 76.5713235241829,15.0165280552205,0 76.571279051202,15.0165451893963,0 76.57117242614611,15.0165948056597,0 76.57104279414401,15.0166622255494,0 76.5709444647171,15.0167103677993,0 76.5709277304921,15.0166780808882,0 76.5710256496197,15.0166301395252,0 76.5711556115659,15.0165625480405,0 76.57126414852939,15.0165120421049,0 76.5713116103793,15.016493756404,0 76.5713708411883,15.016477589981,0 76.571445030194,15.0164680138163,0 76.5715373789326,15.0164579149655,0 76.57161944635691,15.0164615222208,0 76.57175743428969,15.0164759378452,0 76.57186045919489,15.0164993669199,0 76.5720711133753,15.0165299523878,0 76.5721434413239,15.0165384576449,0 76.57218649483831,15.0165465857827,0 76.5722127462634,15.016548443209,0 76.57223810302401,15.016546971071,0 76.5722763463129,15.0165349853127,0 76.57237115205081,15.0164986673352,0 76.572417797339,15.0164915023878,0 76.57246753979111,15.0164919377942,0 76.5726558527532,15.0165124481531,0 76.5727111911373,15.0165311304302,0 76.57278052922651,15.0165568339402,0 76.5727945732402,15.0165386669223,0 76.5726820855586,15.0164746553134,0 76.5725084899686,15.0163341613682,0 76.5724674747844,15.0163116424355,0 76.5722637300059,15.0162378343539,0 76.5721045140624,15.0162160439578,0 76.5719423117893,15.0161708149856,0 76.57181616256349,15.0161416143435,0 76.57172591766241,15.0161155828853,0 76.5715334769523,15.0160710760885,0 76.5713326145859,15.0160594402778,0 76.57122803202741,15.0160635954143,0 76.5710710468247,15.0160803839565,0 76.5709565882253,15.0160885522926,0 76.5707623280372,15.0161189369688,0 76.57068941896389,15.0161348260154,0 76.5705626348656,15.0161686091666,0 76.5704569312848,15.0161899062845,0 76.5703442358737,15.0162201641453,0 76.5702604235382,15.0162382233745,0 76.5702005226956,15.016253211101,0 76.5701758438728,15.0162585268572,0 76.5701225574057,15.0161780999802,0 76.57023514593411,15.0161347308549,0 76.5703726027906,15.0160953539793,0 76.570498778016,15.0160587998013,0 76.57059108969359,15.0160352018809,0 76.570720674322,15.0159797240157,0 76.57083198173,15.015923850065,0 76.57094317020341,15.0158743202354,0 76.57107039138479,15.0158293251164,0 76.5711364920251,15.0157992297397,0 76.5711601590135,15.0157938472048,0 76.5712837896731,15.0157534087461,0 76.57138990413431,15.0157447262789,0 76.5715627870111,15.0157672400156,0 76.57170732476401,15.0157662414033,0 76.57185526335,15.0157934966047,0 76.5719211515998,15.015805682507,0 76.57207127773719,15.0158034496255,0 76.57219140014389,15.0158230442724,0 76.57234842207551,15.0158473507231,0 76.57246620577421,15.0158533306138,0 76.5725734517456,15.0158480672373,0 76.5726359896377,15.0158411210638,0 76.5726771807329,15.0158316228309,0 76.5726914793844,15.0158212058107,0 76.5726945109878,15.0158110614008,0 76.57269373500991,15.0157982908849,0 76.5726674695067,15.0157824268636,0 76.5726210618557,15.0157597900232,0 76.5725694726535,15.0157312000414,0 76.572535402911,15.0157094760443,0 76.57245725156599,15.0156587982078,0 76.57234839545799,15.0155897049311,0 76.5722362709876,15.0155434893939,0 76.57215333522571,15.0155255013704,0 76.5720371182241,15.0155070261039,0 76.5718880465684,15.0155037252804,0 76.5717685752174,15.0154922510411,0 76.57165757385231,15.0154810820185,0 76.57147393122359,15.0154724034411,0 76.5713016059339,15.0154744085826,0 76.5712057005716,15.0154422174475,0 76.57104796147409,15.0154493076034,0 76.57091626230761,15.0154902181826,0 76.5708202401494,15.0155475473167,0 76.5706947463102,15.0156423346252,0 76.5705706636017,15.0157172096705,0 76.5704489206077,15.0157660379741,0 76.5701980357569,15.0158202349588,0 76.57016302420431,15.0158277982478,0 76.5701338785851,15.0157742609572,0 76.57017599299201,15.0157657196556,0 76.5704391092237,15.0157357524333,0 76.5705557721259,15.01568896164,0 76.57067612565569,15.0156163368924,0 76.5708016808187,15.0155215032723,0 76.5709025919524,15.0154612552247,0 76.5710421555452,15.0154179016695,0 76.5712104284526,15.0154103380349,0 76.57130687815339,15.0154427118842,0 76.5714745272863,15.0154407611533,0 76.57166004178301,15.0154495281941,0 76.5717769527195,15.0154612918419,0 76.57189502201049,15.0154726314241,0 76.5719913037002,15.0154747633542,0 76.5720359247466,15.0154656688983,0 76.5720520342059,15.0154549330449,0 76.5720663439742,15.0154374099577,0 76.57206621651009,15.0154199866424,0 76.57205869213141,15.0154081392059,0 76.572044195834,15.0154001647546,0 76.5720028165843,15.0153888138158,0 76.5718873085689,15.0153541175503,0 76.5717927152528,15.0153375266161,0 76.571719080279,15.0153257178492,0 76.57165178085251,15.0153132494218,0 76.571601498604,15.0153063868354,0 76.5714858276304,15.0152977458074,0 76.5714288643974,15.0152788184069,0 76.5713471034334,15.0152361411972,0 76.5712482151833,15.0151825417638,0 76.5711623201026,15.0151314002694,0 76.5710910438265,15.0150978509761,0 76.5709828603062,15.0150682366783,0 76.5708757919034,15.0150616157224,0 76.5707962143654,15.0150584850566,0 76.5707338047134,15.0150737041278,0 76.5706747933932,15.0150894271794,0 76.5706540153073,15.0151017330517,0 76.5706458560213,15.0151085638803,0 76.5705164428287,15.0150282030356,0 76.570514685433,15.0150218683876,0 76.57049910140999,15.0150034363042,0 76.5704816837585,15.0149828097595,0 76.5704601412866,15.0149573560787,0 76.5704358338848,15.0149266244304,0 76.5703830071535,15.0148598081045,0 76.5703752517107,15.0148580182569,0 76.5703674460576,15.0148564480739,0 76.5703371875865,15.0148270990052,0 76.57035306725101,15.0148269893888,0 76.5703618460139,15.0148219330834,0 76.5703610644529,15.0148155154383,0 76.57035773250369,15.0148092539678,0 76.57035365059549,15.0148062888605,0 76.57034253240749,15.0147985717393,0 76.57032354560459,15.0147910632164,0 76.5703028928322,15.014784639632,0 76.5702397656231,15.0147686434112,0 76.57011508553229,15.0147259395198,0 76.5699966462704,15.01469090045,0 76.570020305353,15.0146749617788,0 76.57012212808,15.0147050850092,0 76.5702463771923,15.0147476412884,0 76.57030918615349,15.0147635568666,0 76.5703312521117,15.0147704199912,0 76.5703533342113,15.0147791525804,0 76.5703693336761,15.0147899015841,0 76.57038443007021,15.0148033777908,0 76.5703853648709,15.0148042357249,0 76.57038627490761,15.0148051184525,0 76.5703871594843,15.0148060252986,0 76.5704945216751,15.0149368103542,0 76.5705133185663,15.0149596344718,0 76.5705302689263,15.0149784985406,0 76.5705458368721,15.0149947236374,0 76.5705664092868,15.0150117970203,0 76.57058504811771,15.0150129925944,0 76.5706063002643,15.0149987203873,0 76.57063792867601,15.0149742238992,0 76.5707057646933,15.0149300548577,0 76.57079676473769,15.0148937750509,0 76.5708858529179,15.0148540536638,0 76.57090352955269,15.0148277315744,0 76.57090773415329,15.0146779561769,0 76.5708882571369,15.0145127955867,0 76.5709036140783,15.0143200260225,0 76.5709725749597,15.01431326493,0 76.5709482522567,15.0145149427255,0 76.5709637621616,15.0146705063433,0 76.5709738028204,15.0148044679685,0 76.57101010628161,15.0148274948165,0 76.5711120996417,15.014839667973,0 76.571261139941,15.0148597990485,0 76.57132894090211,15.0148446946097,0 76.5714010496911,15.0148167105073,0 76.5715027021012,15.0147716317402,0 76.5717169667365,15.0146495582458,0 76.57188608034519,15.0145338462409,0 76.5719714032949,15.0144712972282,0 76.5719818165225,15.0144634679143,0 76.5721025968468,15.0144161056543,0 76.57221630793001,15.0143920947461,0 76.57235015712411,15.0143685557779,0 76.5724988896975,15.0143517369595,0 76.57269693616129,15.0143361680438,0 76.5729292937319,15.0143912733771,0 76.5732407662295,15.0144744995931,0 76.5732719520188,15.0144725011395,0 76.57345571729429,15.0144299670561,0 76.5736703605354,15.0143500823254,0 76.57384592408179,15.0142825834042,0 76.5740832918538,15.0142121691938,0 76.57423606805121,15.014191855924,0 76.5743592211834,15.0141868773633,0 76.57446408858119,15.0141985305724,0 76.57451382643001,15.0142229442412,0 76.5745580116879,15.014262526184,0 76.574566698542,15.0142885993867,0 76.5745696612683,15.0143064595912,0 76.5745656050358,15.0143326209921,0 76.57455156700659,15.0143492234358,0 76.5745176860883,15.0143632123591,0 76.5744568628092,15.0143718859314,0 76.5742997379602,15.0143784750738,0 76.5741173384573,15.0144141232314,0 76.5738008511437,15.0145084673362,0 76.5734899912044,15.0146556546412,0 76.5731383984089,15.0148155145384,0 76.5730279159106,15.0148783519242,0 76.5729039843575,15.0150438758265,0 76.5728654907675,15.0151306698759,0 76.5728617545676,15.0151509116559,0 76.57286242733269,15.0151666203858,0 76.572870283889,15.0151730681358,0 76.57289096143229,15.0151783435424,0 76.57294279156621,15.0151720249445,0 76.5730506423938,15.0151278533408,0 76.57318338335109,15.0150875483075,0 76.57341066789439,15.0150500274659,0 76.573510080508,15.0150564438058,0 76.5735867734119,15.0150654733624,0 76.57365766849389,15.015064982949,0 76.5737070097871,15.0150577874533,0 76.573855873422,15.0150433461985,0 76.5739318394083,15.0150294942548,0 76.57397177964,15.0150236696912,0 76.5740140181417,15.0150254282384,0 76.5740543949837,15.0150490143073,0 76.5740522220819,15.0150926038286,0 76.5740313236916,15.0151258346504,0 76.5739690381284,15.0151789177187,0 76.5738436595572,15.0152321418579,0 76.57377013632021,15.015249684284,0 76.573737351193,15.0152703202657,0 76.5737167238055,15.0152924930461,0 76.57368913362831,15.0152682466079,0 76.5737130349044,15.0152425546643,0 76.5737551796873,15.0152160274255,0 76.5738316942916,15.0151977712711,0 76.5739488573289,15.0151480346916,0 76.5740025409885,15.0151022826283,0 76.57401552935769,15.015081629647,0 76.5740161658193,15.015068861946,0 76.57400296971559,15.015061153462,0 76.5739737614922,15.0150599374142,0 76.5739380304632,15.0150651481417,0 76.5738611596709,15.0150791650723,0 76.5737116193438,15.0150936719762,0 76.57366057506469,15.0151011158207,0 76.5735846606167,15.0151016409567,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_2">
+			<name>kml_2</name>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5720397652094,15.0151428594897,0 76.572156824483,15.0150051069129,0 76.5722241324533,15.0149247288054,0 76.5723350907528,15.0148015501107,0 76.572398631898,15.0147347489789,0 76.5725007641758,15.0146600985867,0 76.5725608191279,15.0146155205458,0 76.5726834473531,15.0145596444498,0 76.572856564677,15.0145085781147,0 76.5729916635126,15.0144826920204,0 76.57312759022039,15.0144817521231,0 76.57291995306009,15.0144262709117,0 76.5726939510522,15.014372672854,0 76.5725068178584,15.0143873838535,0 76.5723611348447,15.0144069846551,0 76.5722341842244,15.014427420015,0 76.5721832655948,15.0144338837789,0 76.57199621353,15.0144983499036,0 76.57190799139249,15.0145630661598,0 76.57173711265,15.0146799859265,0 76.5715233057895,15.0148017986239,0 76.57142283711001,15.0148402285088,0 76.57134722491131,15.0148728178298,0 76.571258699258,15.0148959689213,0 76.571108695796,15.0148757077541,0 76.57100931202881,15.0148713589619,0 76.57096147172059,15.0148672864802,0 76.5709466713102,15.014871973687,0 76.57090906722421,15.014894407214,0 76.57079051718,15.0149311206542,0 76.57071753648719,15.0149576659129,0 76.57067512371729,15.0149825716295,0 76.5706683875062,15.0149923174047,0 76.5706657258776,15.0150007124316,0 76.5706667075701,15.0150108457832,0 76.5706696097226,15.0150225230525,0 76.5706752525977,15.0150295509931,0 76.5706834522535,15.015036888989,0 76.5707007720213,15.0150462664092,0 76.5707976615051,15.0150314057038,0 76.5708772419155,15.0150345364835,0 76.5709875797735,15.0150413596185,0 76.5711009821396,15.0150724025314,0 76.5711757186432,15.0151075805323,0 76.57126230111299,15.0151591312945,0 76.5713604975969,15.0152123557762,0 76.57144005071549,15.0152538805453,0 76.5714961400282,15.0152631767837,0 76.5716610887886,15.0152818192255,0 76.5718219271545,15.01527024605,0 76.5718687268629,15.0152588453595,0 76.5719317195198,15.0152141876317,0 76.5720397652094,15.0151428594897,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_3">
+			<name>kml_3</name>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<LineString>
+				<coordinates>
+					76.57287376443951,15.0158974037274,0 76.5728851702825,15.0158902593173,0 76.5728851148362,15.0158775649464,0 76.5728724566226,15.0158676280668,0 76.57284148017111,15.0158643550408,0 76.57280351514331,15.0158601305376,0 76.5727445529802,15.0158614423139,0 76.5726833416844,15.0158673577837,0 76.57264241730959,15.015876794514,0 76.5725765043767,15.0158841155593,0 76.57246617343129,15.0158895303405,0 76.57234451576799,15.0158833537702,0 76.5721853964734,15.0158587226583,0 76.5720684608076,15.0158396478429,0 76.57202756983339,15.0158420319282,0 76.57202366752399,15.0158565054735,0 76.5720384217896,15.0158673566519,0 76.5721644572015,15.0159182491928,0 76.5722432917959,15.0159470348491,0 76.5723317638853,15.0159673354255,0 76.57239843045529,15.0159794931785,0 76.5724433122614,15.015980685939,0 76.57252218052361,15.0159748687918,0 76.5726412821832,15.0159485959779,0 76.5727772032549,15.0159158256224,0 76.57287376443951,15.0158974037274,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_4">
+			<name>kml_4</name>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5730015778731,15.0165630519568,0 76.573071887686,15.0165732863647,0 76.5731350530281,15.016567001926,0 76.5731890174107,15.0165373905352,0 76.5732675680845,15.0164796179104,0 76.5733660313585,15.0164206857901,0 76.57342204580451,15.016382919494,0 76.5734727829485,15.0163429230288,0 76.5734914428795,15.0163102200017,0 76.5734901406404,15.0162987864295,0 76.5734788531382,15.0162875062159,0 76.57343068025931,15.0162693848245,0 76.5733907367655,15.0162581121348,0 76.5733475671335,15.0162509792812,0 76.57324611538991,15.0162475176959,0 76.5730794300151,15.0162486704797,0 76.572988702396,15.016249297894,0 76.5729255064899,15.0162334921828,0 76.5728878027917,15.0161941374422,0 76.5728811873158,15.0161210628017,0 76.57289650143321,15.0160874865993,0 76.5729162926077,15.0160581981777,0 76.57296605116061,15.0160233040978,0 76.57303375746289,15.0160109593337,0 76.57308371352499,15.0160030560643,0 76.57312866937539,15.0159954160585,0 76.5731512177981,15.0159517511215,0 76.57315033221479,15.0159287656603,0 76.57311650533001,15.0159104044402,0 76.5730517775357,15.0159157451742,0 76.5729697374092,15.01592597537,0 76.5728788933523,15.0159332671929,0 76.57278526822751,15.0159511289491,0 76.5726498772401,15.0159837715043,0 76.5725277343949,15.0160107151794,0 76.5724442136446,15.0160168754852,0 76.57239446758911,15.0160155534551,0 76.5723240566679,15.0160027128592,0 76.5722324336916,15.0159816892895,0 76.57215143473201,15.0159521133385,0 76.5720127208585,15.0159019840306,0 76.57191531233239,15.0158715601662,0 76.5718401766475,15.0158424384596,0 76.5715164507543,15.0158107087306,0 76.5713075110651,15.0158120072605,0 76.5711874559078,15.015815485619,0 76.5711456865502,15.0158249851418,0 76.5710810995574,15.0158543913611,0 76.5709537689566,15.0158994251821,0 76.57084420100909,15.0159482331375,0 76.57073270954319,15.0160041994839,0 76.5706020954301,15.0160688915513,0 76.57046988486751,15.0161131063447,0 76.5703933726451,15.0161343247705,0 76.5702889937686,15.0161570041836,0 76.5702147973153,15.0161855818032,0 76.5701830048105,15.0162014525737,0 76.57018308496269,15.0162124212773,0 76.570196563222,15.0162219263242,0 76.5702189854176,15.0162223999511,0 76.5702475208939,15.0162160327674,0 76.57031865561061,15.0161963455143,0 76.5704361517966,15.0161682077007,0 76.57054257283851,15.0161462124113,0 76.5706760628358,15.0161109346481,0 76.5707556356615,15.0160925207939,0 76.5709520450832,15.0160617999547,0 76.5710729525387,15.0160523488182,0 76.5712142391243,15.0160349698426,0 76.57133311319279,15.0160314148836,0 76.57153647331479,15.0160441164739,0 76.57173347137039,15.0160902425797,0 76.5718159276003,15.0161094932281,0 76.5719491369115,15.0161420623966,0 76.5721099156948,15.0161757736236,0 76.57216480740389,15.0161742038228,0 76.57223827038381,15.0161648870871,0 76.5722854190024,15.016172665839,0 76.5723309203502,15.016184437337,0 76.5724114091912,15.0162165131889,0 76.5724738884193,15.0162529435693,0 76.5725514399072,15.0162906509601,0 76.5726269840697,15.0163341956081,0 76.57275388481951,15.0164174705817,0 76.5728455038583,15.0164777163551,0 76.5729401979905,15.0165391112747,0 76.5730015778731,15.0165630519568,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+	<Folder id="kml_ft_MLB">
+		<name>LEASE BOUNDARY</name>
+		<Placemark id="kml_1">
+			<name>MLB</name>
+			<description>Nandi Mine Lease Boundary</description>
+			<styleUrl>#stylemap_id3</styleUrl>
+			<Polygon>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.5733527925596,15.0123439722598,0 76.57400135141251,15.0132885021834,0 76.5754024301672,15.015402790729,0 76.5721081858063,15.0176309137654,0 76.570841748229,15.0173956308428,0 76.5693089948398,15.0150743400606,0 76.5733527925596,15.0123439722598,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="kml_1">
+			<name>kml_1</name>
+			<styleUrl>#m_ylw-pushpin410</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.5733887383419,15.0123450613477,0 76.57338863386011,15.0123478409095,0 76.57338828052779,15.0123506010435,0 76.57338768103421,15.0123533207434,0 76.5733868399418,15.0123559793107,0 76.5733857636517,15.0123585565121,0 76.5733844603552,15.0123610327335,0 76.5733829399712,15.0123633891294,0 76.57338121407059,15.0123656077662,0 76.5733792957887,15.0123676717587,0 76.5733771997247,15.0123695653986,0 76.57337494183091,15.0123712742743,0 76.5733725392913,15.0123727853801,0 76.57337001039051,15.0123740872156,0 76.57336737437529,15.012375169873,0 76.5733646513071,15.0123760251128,0 76.5733618619101,15.0123766464259,0 76.5733590274135,15.0123770290838,0 76.5733561693893,15.0123771701742,0 76.573353309589,15.0123770686235,0 76.5733504697774,15.0123767252043,0 76.57334767156701,15.0123761425304,0 76.5733449362541,15.0123753250363,0 76.57334228465599,15.0123742789435,0 76.5733397369529,15.0123730122135,0 76.57333731253441,15.0123715344868,0 76.5733350298519,15.01236985701,0 76.573332906278,15.0123679925495,0 76.57333095797421,15.012365955295,0 76.57332919976839,15.0123637607513,0 76.5733276450416,15.0123614256202,0 76.5733263056262,15.0123589676735,0 76.5733251917159,15.0123564056176,0 76.5733243117883,15.0123537589513,0 76.5733236725401,15.0123510478174,0 76.5733232788365,15.0123482928492,0 76.5733231336736,15.0123455150137,0 76.57332323815631,15.0123427354519,0 76.5733235914894,15.0123399753179,0 76.5733241909838,15.012337255618,0 76.57332503207699,15.0123345970509,0 76.57332610836779,15.0123320198497,0 76.57332741166481,15.0123295436286,0 76.57332893204929,15.012327187233,0 76.57333065795019,15.0123249685966,0 76.5733325762322,15.0123229046045,0 76.5733346722963,15.012321010965,0 76.57333693019,15.0123193020898,0 76.5733393327293,15.0123177909844,0 76.5733418616296,15.0123164891492,0 76.5733444976444,15.0123154064921,0 76.5733472207119,15.0123145512527,0 76.5733500101082,15.0123139299398,0 76.573352844604,15.0123135472821,0 76.5733557026273,15.0123134061918,0 76.5733585624268,15.0123135077426,0 76.57336140223759,15.0123138511617,0 76.5733642004471,15.0123144338355,0 76.5733669357593,15.0123152513295,0 76.57336958735679,15.0123162974221,0 76.5733721350593,15.0123175641518,0 76.5733745594773,15.0123190418781,0 76.5733768421594,15.0123207193546,0 76.5733789657333,15.0123225838147,0 76.573380914037,15.0123246210688,0 76.5733826722429,15.0123268156121,0 76.57338422697001,15.0123291507427,0 76.5733855663858,15.0123316086891,0 76.57338668029659,15.0123341707446,0 76.5733875602249,15.0123368174106,0 76.5733881994738,15.0123395285443,0 76.57338859317819,15.0123422835123,0 76.5733887383419,15.0123450613477,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="kml_2">
+			<name>kml_2</name>
+			<styleUrl>#m_ylw-pushpin41</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.574040943304,15.0132871436789,0 76.57404083883139,15.01328992324,0 76.5740404855073,15.0132926833741,0 76.5740398860207,15.013295403075,0 76.5740390449341,15.0132980616441,0 76.5740379686486,15.0133006388481,0 76.57403666535539,15.0133031150729,0 76.57403514497339,15.0133054714729,0 76.5740334190735,15.0133076901145,0 76.57403150079089,15.0133097541125,0 76.5740294047249,15.0133116477587,0 76.5740271468278,15.0133133566411,0 76.57402474428361,15.0133148677543,0 76.5740222153771,15.0133161695976,0 76.5740195793548,15.0133172522634,0 76.5740168562784,15.0133181075117,0 76.57401406687229,15.0133187288338,0 76.57401123236539,15.0133191115009,0 76.57400837433001,15.0133192526007,0 76.57400551451769,15.0133191510594,0 76.5740026746932,15.0133188076497,0 76.5739998764693,15.0133182249852,0 76.5739971411424,15.0133174075004,0 76.5739944895297,15.0133163614167,0 76.5739919418118,15.0133150946956,0 76.57398951737829,15.0133136169775,0 76.5739872346807,15.0133119395087,0 76.5739851110915,15.0133100750559,0 76.57398316277261,15.0133080378086,0 76.573981404552,15.0133058432716,0 76.5739798498107,15.0133035081465,0 76.5739785103812,15.0133010502051,0 76.57397739645749,15.0132984881538,0 76.57397651651711,15.0132958414914,0 76.5739758772568,15.0132931303606,0 76.5739754835419,15.0132903753947,0 76.5739753383688,15.0132875975607,0 76.5739754428423,15.0132848179996,0 76.5739757961672,15.0132820578655,0 76.5739763956546,15.0132793381647,0 76.5739772367419,15.0132766795957,0 76.57397831302811,15.013274102392,0 76.57397961632191,15.0132716261675,0 76.5739811367043,15.0132692697678,0 76.5739828626045,15.0132670511265,0 76.5739847808873,15.0132649871289,0 76.5739868769533,15.0132630934832,0 76.57398913485029,15.0132613846011,0 76.57399153739421,15.0132598734884,0 76.5739940663003,15.0132585716454,0 76.57399670232211,15.01325748898,0 76.5739994253978,15.013256633732,0 76.5740022148033,15.0132560124102,0 76.57400504930941,15.0132556297432,0 76.5740079073439,15.0132554886435,0 76.5740107671554,15.0132555901849,0 76.57401360697899,15.0132559335946,0 76.574016405202,15.013256516259,0 76.57401914052831,15.0132573337437,0 76.5740217921402,15.0132583798271,0 76.5740243398576,15.0132596465479,0 76.57402676429059,15.0132611242657,0 76.574029046988,15.0132628017341,0 76.574031170577,15.0132646661865,0 76.5740331188958,15.0132667034334,0 76.5740348771166,15.0132688979701,0 76.5740364318581,15.0132712330947,0 76.574037771288,15.0132736910358,0 76.5740388852123,15.0132762530867,0 76.5740397651534,15.0132788997488,0 76.5740404044143,15.0132816108793,0 76.57404079813,15.013284365845,0 76.574040943304,15.0132871436789,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="kml_3">
+			<name>kml_3</name>
+			<styleUrl>#m_ylw-pushpin41</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.5754349029713,15.0154019512386,0 76.5754347985186,15.0154047307982,0 76.5754344452119,15.0154074909326,0 76.57543384574021,15.0154102106355,0 76.5754330046658,15.0154128692084,0 76.5754319283897,15.015415446418,0 76.5754306251031,15.01541792265,0 76.57542910472471,15.0154202790589,0 76.57542737882549,15.0154224977109,0 76.5754254605407,15.0154245617209,0 76.5754233644696,15.0154264553803,0 76.57542110656451,15.0154281642774,0 76.57541870400949,15.0154296754063,0 76.5754161750895,15.0154309772665,0 76.575413539051,15.0154320599501,0 76.57541081595591,15.015432915217,0 76.57540802652871,15.0154335365584,0 76.5754051919985,15.0154339192452,0 76.5754023339379,15.0154340603652,0 76.5753994740984,15.0154339588442,0 76.57539663424519,15.0154336154549,0 76.57539383599121,15.0154330328107,0 76.5753911006329,15.0154322153459,0 76.57538844898799,15.0154311692819,0 76.5753859012371,15.0154299025798,0 76.5753834767701,15.01542842488,0 76.5753811940389,15.0154267474288,0 76.5753790704161,15.0154248829925,0 76.5753771220641,15.0154228457607,0 76.57537536381081,15.0154206512379,0 76.5753738090376,15.0154183161257,0 76.5753724695774,15.0154158581957,0 76.5753713556241,15.0154132961544,0 76.5753704756557,15.0154106495004,0 76.5753698363693,15.0154079383763,0 76.57536944263011,15.0154051834154,0 76.5753692974348,15.0154024055847,0 76.57536940188839,15.015399626025,0 76.57536975519589,15.0153968658907,0 76.57537035466839,15.0153941461878,0 76.5753711957436,15.015391487615,0 76.5753722720204,15.0153889104057,0 76.57537357530759,15.015386434174,0 76.5753750956864,15.0153840777654,0 76.57537682158591,15.0153818591138,0 76.5753787398708,15.0153797951042,0 76.575380835942,15.0153779014452,0 76.5753830938469,15.0153761925485,0 76.57538549640169,15.01537468142,0 76.5753880253213,15.0153733795602,0 76.57539066135929,15.015372296877,0 76.5753933844537,15.0153714416103,0 76.57539617388019,15.0153708202692,0 76.5753990084096,15.0153704375825,0 76.57540186646931,15.0153702964627,0 76.57540472630799,15.0153703979838,0 76.57540756616039,15.015370741373,0 76.5754103644136,15.0153713240171,0 76.5754130997711,15.0153721414818,0 76.57541575141541,15.0153731875456,0 76.5754182991657,15.0153744542474,0 76.57542072363221,15.0153759319468,0 76.5754230063632,15.0153776093977,0 76.5754251299857,15.0153794738335,0 76.5754270783378,15.015381511065,0 76.5754288365912,15.0153837055874,0 76.57543039136461,15.0153860406992,0 76.5754317308252,15.0153884986287,0 76.575432844779,15.0153910606697,0 76.575433724748,15.0153937073234,0 76.5754343640352,15.0153964184473,0 76.5754347577752,15.015399173408,0 76.5754349029713,15.0154019512386,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="kml_4">
+			<name>kml_4</name>
+			<styleUrl>#m_ylw-pushpin41</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.5721460036122,15.0176284560763,0 76.5721458991186,15.0176312356381,0 76.57214554576839,15.0176339957713,0 76.5721449462509,15.0176367154697,0 76.5721441051286,15.0176393740347,0 76.572143028803,15.0176419512331,0 76.5721417254656,15.0176444274507,0 76.57214020503559,15.0176467838422,0 76.5721384790844,15.0176490024739,0 76.5721365607475,15.0176510664607,0 76.5721344646246,15.0176529600943,0 76.5721322066684,15.0176546689632,0 76.57212980406339,15.0176561800618,0 76.5721272750948,15.0176574818896,0 76.5721246390096,15.0176585645391,0 76.5721219158701,15.0176594197705,0 76.57211912640101,15.017660041075,0 76.5721162918318,15.0176604237242,0 76.5721134337353,15.0176605648059,0 76.5721105738634,15.0176604632463,0 76.5721077339814,15.0176601198183,0 76.5721049357025,15.0176595371357,0 76.5721022003235,15.017658719633,0 76.5720995486621,15.0176576735319,0 76.57209700089901,15.0176564067939,0 76.5720945764245,15.0176549290596,0 76.57209229369001,15.0176532515755,0 76.57209017006871,15.0176513871082,0 76.57208822172259,15.0176493498475,0 76.57208646347971,15.0176471552981,0 76.57208490872149,15.017644820162,0 76.57208356928039,15.0176423622109,0 76.5720824553505,15.0176398001512,0 76.5720815754094,15.0176371534819,0 76.57208093615399,15.0176344423457,0 76.5720805424494,15.017631687376,0 76.572080397292,15.0176289095397,0 76.5720805017864,15.0176261299779,0 76.5720808551374,15.0176233698447,0 76.5720814546558,15.0176206501464,0 76.5720822957789,15.0176179915815,0 76.5720833721051,15.0176154143834,0 76.57208467544309,15.017612938166,0 76.5720861958735,15.0176105817749,0 76.572087921825,15.0176083631435,0 76.57208984016211,15.0176062991572,0 76.5720919362851,15.0176044055239,0 76.5720941942411,15.0176026966554,0 76.5720965968459,15.0176011855573,0 76.57209912581401,15.0175998837298,0 76.57210176189869,15.0175988010807,0 76.5721044850375,15.0175979458496,0 76.5721072745059,15.0175973245453,0 76.5721101090744,15.0175969418963,0 76.57211296717,15.0175968008148,0 76.5721158270411,15.0175969023744,0 76.57211866692219,15.0175972458024,0 76.5721214652003,15.0175978284849,0 76.5721242005786,15.0175986459874,0 76.57212685223929,15.0175996920883,0 76.5721294000018,15.017600958826,0 76.5721318244759,15.01760243656,0 76.57213410721,15.0176041140437,0 76.57213623083121,15.0176059785106,0 76.5721381791773,15.0176080157709,0 76.5721399374202,15.0176102103199,0 76.5721414921788,15.0176125454556,0 76.5721428316203,15.0176150034064,0 76.57214394555071,15.0176175654656,0 76.5721448254925,15.0176202121346,0 76.5721454647486,15.0176229232706,0 76.57214585845389,15.0176256782402,0 76.5721460036122,15.0176284560763,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="kml_5">
+			<name>kml_5</name>
+			<styleUrl>#m_ylw-pushpin41</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.57087803968609,15.0173930031434,0 76.5708779351758,15.0173957827062,0 76.5708775818093,15.017398542839,0 76.57087698227561,15.0174012625356,0 76.5708761411378,15.0174039210974,0 76.57087506479731,15.0174064982912,0 76.5708737614457,15.0174089745029,0 76.57087224100231,15.0174113308871,0 76.57087051503871,15.0174135495103,0 76.5708685966903,15.0174156134874,0 76.5708665005571,15.0174175071103,0 76.5708642425918,15.0174192159673,0 76.570861839979,15.0174207270531,0 76.5708593110039,15.0174220288674,0 76.5708566749136,15.0174231115025,0 76.5708539517704,15.0174239667189,0 76.57085116229899,15.017424588008,0 76.570848327729,15.0174249706413,0 76.5708454696332,15.0174251117068,0 76.5708426097633,15.0174250101309,0 76.5708397698849,15.0174246666866,0 76.5708369716111,15.0174240839877,0 76.5708342362384,15.017423266469,0 76.5708315845846,15.0174222203522,0 76.5708290368306,15.017420953599,0 76.5708266123662,15.01741947585,0 76.570824329643,15.0174177983519,0 76.57082220603409,15.0174159338715,0 76.5708202577012,15.0174138965985,0 76.57081849947249,15.0174117020379,0 76.5708169447291,15.0174093668915,0 76.57081560530349,15.0174069089313,0 76.5708144913896,15.0174043468638,0 76.5708136114649,15.017401700188,0 76.57081297222609,15.0173989890465,0 76.57081257853839,15.0173962340729,0 76.57081243339771,15.0173934562342,0 76.57081253790879,15.0173906766713,0 76.5708128912762,15.0173879165385,0 76.57081349081071,15.017385196842,0 76.57081433194929,15.0173825382804,0 76.5708154082904,15.0173799610868,0 76.57081671164261,15.0173774848754,0 76.5708182320864,15.0173751284915,0 76.57081995805039,15.0173729098687,0 76.5708218763989,15.017370845892,0 76.5708239725321,15.0173689522695,0 76.5708262304973,15.0173672434129,0 76.5708286331099,15.0173657323275,0 76.5708311620845,15.0173644305136,0 76.57083379817431,15.0173633478789,0 76.57083652131681,15.0173624926627,0 76.57083931078751,15.0173618713739,0 76.57084214535681,15.0173614887408,0 76.57084500345179,15.0173613476754,0 76.57084786332069,15.0173614492514,0 76.5708507031983,15.0173617926957,0 76.5708535014713,15.0173623753944,0 76.5708562368433,15.017363192913,0 76.5708588884963,15.0173642390296,0 76.5708614362498,15.0173655057825,0 76.5708638607138,15.0173669835311,0 76.5708661434366,15.0173686610288,0 76.5708682670454,15.0173705255089,0 76.57087021537831,15.0173725627815,0 76.5708719736071,15.0173747573417,0 76.5708735283508,15.0173770924877,0 76.57087486777679,15.0173795504475,0 76.5708759816912,15.0173821125146,0 76.5708768616166,15.0173847591901,0 76.570877500856,15.0173874703313,0 76.57087789454459,15.0173902253048,0 76.57087803968609,15.0173930031434,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="kml_13">
+			<name>kml_13</name>
+			<styleUrl>#m_ylw-pushpin41</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.5693401126459,15.0150725888883,0 76.5693400081137,15.0150753684528,0 76.5693396547279,15.0150781285853,0 76.56933905517791,15.0150808482796,0 76.5693382140266,15.0150835068372,0 76.5693371376756,15.0150860840249,0 76.5693358343168,15.0150885602286,0 76.56933431386931,15.0150909166031,0 76.5693325879048,15.0150931352147,0 76.56933066955879,15.0150951991787,0 76.56932857343109,15.0150970927869,0 76.5693263154745,15.0150988016278,0 76.5693239128735,15.0151003126962,0 76.56932138391331,15.0151016144918,0 76.5693187478407,15.0151026971073,0 76.56931602471791,15.0151035523033,0 76.5693132352696,15.0151041735711,0 76.5693104007251,15.0151045561827,0 76.569307542657,15.015104697226,0 76.56930468281701,15.0151045956276,0 76.56930184297011,15.0151042521608,0 76.56929904472941,15.0151036694396,0 76.56929630939111,15.0151028518988,0 76.5692936577728,15.0151018057604,0 76.569291110055,15.0151005389862,0 76.5692886856273,15.015099061217,0 76.5692864029411,15.0150973836996,0 76.569284279369,15.0150955192009,0 76.5692823310727,15.0150934819109,0 76.5692805728799,15.0150912873346,0 76.5692790181715,15.015088952174,0 76.5692776787798,15.0150864942012,0 76.5692765648983,15.0150839321228,0 76.5692756850044,15.0150812854377,0 76.5692750457945,15.0150785742889,0 76.5692746521334,15.0150758193097,0 76.5692745070172,15.0150730414674,0 76.5692746115502,15.0150702619029,0 76.56927496493689,15.0150675017704,0 76.5692755644878,15.0150647820762,0 76.5692764056398,15.0150621235187,0 76.56927748199141,15.0150595463313,0 76.5692787853508,15.0150570701278,0 76.5692803057987,15.0150547137537,0 76.56928203176361,15.0150524951424,0 76.56928395010981,15.0150504311789,0 76.56928604623749,15.0150485375711,0 76.5692883041939,15.0150468287306,0 76.5692907067947,15.0150453176626,0 76.5692932357545,15.0150440158673,0 76.5692958718265,15.0150429332522,0 76.56929859494861,15.0150420780565,0 76.5693013843962,15.0150414567889,0 76.56930421894,15.0150410741776,0 76.5693070770072,15.0150409331344,0 76.56930993684639,15.0150410347328,0 76.5693127766924,15.0150413781996,0 76.5693155749324,15.0150419609207,0 76.56931831026991,15.0150427784613,0 76.5693209618875,15.0150438245995,0 76.5693235096048,15.0150450913735,0 76.56932593403199,15.0150465691423,0 76.56932821671791,15.0150482466593,0 76.5693303402898,15.0150501111576,0 76.5693322885861,15.0150521484472,0 76.56933404677901,15.0150543430231,0 76.56933560148769,15.0150566781833,0 76.56933694087979,15.0150591361557,0 76.5693380547618,15.0150616982338,0 76.5693389346564,15.0150643449186,0 76.569339573867,15.0150670560672,0 76.5693399675288,15.0150698110461,0 76.5693401126459,15.0150725888883,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="kml_6">
+			<name>A</name>
+			<styleUrl>#m_ylw-pushpin44</styleUrl>
+			<Point>
+				<coordinates>76.56930555555556,15.0150728151802,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_7">
+			<name>B2</name>
+			<styleUrl>#m_ylw-pushpin45</styleUrl>
+			<Point>
+				<coordinates>76.57211111111111,15.0176286828104,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_8">
+			<name>B1</name>
+			<styleUrl>#m_ylw-pushpin4</styleUrl>
+			<Point>
+				<coordinates>76.5708452365422,15.01739166666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_9">
+			<name>D</name>
+			<styleUrl>#m_ylw-pushpin43</styleUrl>
+			<Point>
+				<coordinates>76.5733559360081,15.0123452881831,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_10">
+			<name>D1</name>
+			<styleUrl>#m_ylw-pushpin40</styleUrl>
+			<Point>
+				<coordinates>76.57400555555556,15.0132873706222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_11">
+			<name>C1</name>
+			<styleUrl>#m_ylw-pushpin42</styleUrl>
+			<Point>
+				<coordinates>76.5754,15.0154,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="kml_ft_SECTION_LINES">
+		<name>SECTION LINES</name>
+		<Placemark id="kml_1">
+			<name>kml_1</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.57116504571501,15.0174754549508,0 76.5711916206909,15.0174575518701,0 76.5712181956622,15.0174396487867,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_2">
+			<name>kml_2</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5717734058543,15.0175884238679,0 76.5717999807852,15.0175705207198,0 76.5718265557116,15.0175526175691,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_3">
+			<name>kml_3</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5695910479654,15.0148816671782,0 76.56961762279251,15.0148637642959,0 76.56964419761491,15.0148458614109,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_4">
+			<name>kml_4</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.569974206811,15.0146235412833,0 76.57000078157181,15.014605638362,0 76.570027356328,15.0145877354379,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_5">
+			<name>kml_5</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5704198126881,15.0143233440931,0 76.5704463873719,15.0143054411264,0 76.5704729620511,15.014287538157,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_6">
+			<name>kml_6</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.570866090598,15.0140226930245,0 76.5708926652047,15.0140047900124,0 76.5709192398067,15.0139868869976,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_7">
+			<name>kml_7</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5714640166114,15.0136198758806,0 76.5714905911146,15.0136019728077,0 76.5715171656133,15.013584069732,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_8">
+			<name>kml_8</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.57187243547401,15.0133447262379,0 76.5718990099067,15.0133268231233,0 76.57192558433471,15.0133089200061,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_9">
+			<name>kml_9</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5723821513006,15.0130013314408,0 76.5724087256451,15.0129834282744,0 76.572435299985,15.0129655251053,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_10">
+			<name>kml_10</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5727691945381,15.0127405794506,0 76.5727957688156,15.0127226762448,0 76.5728223430886,15.0127047730363,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_11">
+			<name>kml_11</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.57319035247841,15.0124568431311,0 76.5732169266832,15.0124389398825,0 76.57324350088339,15.0124210366311,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_12">
+			<name>kml_12</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5750516005124,15.0156393753356,0 76.57507817490639,15.0156214718511,0 76.5751047492957,15.015603568364,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_13">
+			<name>kml_13</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.57463206977199,15.0159233911018,0 76.5746586442387,15.0159054876601,0 76.57468521870069,15.0158875842156,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_14">
+			<name>kml_14</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.574244507128,15.016185763675,0 76.57427108166181,15.0161678602727,0 76.57429765619101,15.0161499568676,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_15">
+			<name>kml_15</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.57373548701,15.0165303587758,0 76.573762061632,15.0165124554253,0 76.5737886362494,15.016494552072,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_16">
+			<name>kml_16</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5733276255921,15.0168064701828,0 76.5733542002849,15.0167885668738,0 76.573380774973,15.016770663562,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_17">
+			<name>kml_17</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5727802632878,15.017177017848,0 76.57280683807529,15.0171591145947,0 76.5728334128583,15.0171412113386,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_18">
+			<name>kml_18</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5723346110792,15.0174787090396,0 76.572361185944,15.0174608058316,0 76.5723877608043,15.0174429026209,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_19">
+			<name>kml_19</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.572361185944,15.0174608058316,0 76.5704463873719,15.0143054411264,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_20">
+			<name>kml_20</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5727957688156,15.0127226762448,0 76.5746586442387,15.0159054876601,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_21">
+			<name>kml_21</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.57280683807529,15.0171591145947,0 76.57089266510241,15.0140047898439,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_22">
+			<name>kml_22</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5714905911146,15.0136019728077,0 76.5733542002849,15.0167885668738,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_23">
+			<name>kml_23</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5724087256451,15.0129834282744,0 76.57427108166181,15.0161678602727,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_24">
+			<name>kml_24</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5732169266832,15.0124389398825,0 76.57507817490639,15.0156214718511,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_25">
+			<name>kml_25</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.56961762279251,15.0148637642959,0 76.5711916206909,15.0174575518701,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_26">
+			<name>kml_26</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.57000078157181,15.014605638362,0 76.5717999807852,15.0175705207198,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_27">
+			<name>kml_27</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<coordinates>
+					76.573762061632,15.0165124554253,0 76.5718990099067,15.0133268231234,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_28">
+			<name>S-1</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<coordinates>76.5732169266832,15.0124389398825,964.1</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_29">
+			<name>S-5A&apos;</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<coordinates>76.572361185944,15.0174608058316,921.9999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_30">
+			<name>S-5A</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<coordinates>76.57044398029571,15.0143014744699,921.9999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_31">
+			<name>S-1A&apos;</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<coordinates>76.5746586442387,15.0159054876601,921.9999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_32">
+			<name>S-1A</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<coordinates>76.5727957688156,15.0127226762448,921.9999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_33">
+			<name>S-7</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<coordinates>76.56961762279251,15.0148637642959,924.441</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_34">
+			<name>S-7&apos;</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<coordinates>76.5711916206909,15.0174575518701,924.441</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_35">
+			<name>S-6&apos;</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<coordinates>76.5717999807852,15.0175705207198,924.441</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_36">
+			<name>S-5&apos;</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<coordinates>76.57280683807529,15.0171591145947,921.9999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_37">
+			<name>S-5</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<coordinates>76.57089266510241,15.0140047898439,921.9999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_38">
+			<name>S-6</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<coordinates>76.57000078157181,15.014605638362,924.441</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_39">
+			<name>S-1&apos;</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<coordinates>76.57507817490639,15.0156214718511,964.1</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_40">
+			<name>S-2</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<coordinates>76.5724087256451,15.0129834282744,952.0819999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_41">
+			<name>S-2&apos;</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<coordinates>76.57427108166181,15.0161678602727,1874.082</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_42">
+			<name>S-3&apos;</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<coordinates>76.573762061632,15.0165124554253,976</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_43">
+			<name>S-3</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<coordinates>76.5718990099067,15.0133268231234,976</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_44">
+			<name>S-4</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<coordinates>76.5714905911146,15.0136019728077,933</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_45">
+			<name>S-4&apos;</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<coordinates>76.5733542002849,15.0167885668738,933</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>ENGINEERING MEASURES</name>
+		<Placemark>
+			<name>TW-1</name>
+			<styleUrl>#inline0</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					76.57102160964702,15.01482180656111,0 76.57105640703723,15.01465165984003,0 76.57105965826008,15.0145396589507,0 76.57106723838363,15.01443659459916,0 76.57107579752143,15.01430027844075,0 76.57109690963733,15.01420722077916,0 76.57111187300944,15.01410113573684,0 76.57113108039394,15.01399663114329,0 76.57116440076383,15.01390638819953,0 76.57121697667834,15.01378336631103,0 76.57127053844921,15.01365573041271,0 76.57133958995489,15.01353606735572,0 76.57140850605184,15.01345216554525,0 76.57151791215119,15.01338445500027,0 76.57168461383463,15.01328571429883,0 76.57183936741198,15.01321117141922,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>GD-1</name>
+			<styleUrl>#inline10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					76.57098262850533,15.01482155623967,0 76.57101587045523,15.01466096016539,0 76.571031347869,15.01451613032978,0 76.57103884399471,15.01435735580226,0 76.57105648366299,15.0142184788934,0 76.57107804813361,15.01410438669136,0 76.57111890151396,15.01394344292724,0 76.57117536745378,15.01379114597086,0 76.57122451470624,15.01369399630898,0 76.57129871158544,15.01353828595323,0 76.571364271409,15.0134459173893,0 76.57145707928703,15.01337686390681,0 76.57158858238785,15.01329957136489,0 76.57181793981286,15.01318290149894,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>TW-2</name>
+			<styleUrl>#inline17</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					76.57208658186173,15.01357739092437,0 76.57216828786251,15.01359019702988,0 76.57237817346189,15.01345515557487,0 76.57261970317342,15.01317339427283,0 76.57263320916378,15.01315075876019,0 76.57269056578872,15.01306710895054,0 76.57271317929802,15.01296592721523,0 76.57272585861733,15.0128905291843,0 76.57275680785476,15.01284927189534,0 76.57280634535762,15.01282232703081,0 76.5728903865251,15.01281839328817,0 76.57295397185135,15.01279759578959,0 76.57303277199614,15.01275874809442,0 76.57311472404162,15.01271556507354,0 76.57314952030164,15.01268424221398,0 76.57324643692162,15.01257872539064,0 76.57331855859658,15.01251413395832,0 76.57340046934492,15.01243980525257,0 76.57344254095241,15.01249793557225,0 76.57348309165741,15.01254264869705,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>GD-2</name>
+			<styleUrl>#inline23</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					76.5720984924675,15.01355055045405,0 76.57216174726067,15.01356200490098,0 76.57235310529055,15.01343519193031,0 76.57249379096835,15.01327874220252,0 76.57259050988075,15.01315484314637,0 76.57265967563931,15.01304576245158,0 76.57268394996201,15.01296236027149,0 76.57273198879818,15.01283269214622,0 76.57277497533832,15.01281027720734,0 76.57290100620183,15.01279181922547,0 76.57304433542002,15.01271834491938,0 76.57312533606526,15.01266022418816,0 76.57321350700791,15.01255467679594,0 76.57328587662533,15.01249719569709,0 76.57338397239722,15.01240848146234,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>TW-2</name>
+			<styleUrl>#inline13</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					76.57263923560041,15.01315007206757,0 76.57279525888502,15.01331276586995,0 76.57281743106594,15.01328932936831,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>GD-2</name>
+			<styleUrl>#inline11</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					76.57261221963127,15.01318036778045,0 76.5727824469361,15.01334807866046,0 76.57282065726443,15.01331615095427,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>TW-1</name>
+			<LookAt>
+				<longitude>76.57342937786531</longitude>
+				<latitude>15.01457906542343</latitude>
+				<altitude>0</altitude>
+				<heading>-11.23591191546267</heading>
+				<tilt>33.2737100436344</tilt>
+				<range>1416.710876505039</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_shaded_dot0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>76.57110005360036,15.01438992184551,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GD-1</name>
+			<LookAt>
+				<longitude>76.57294128851393</longitude>
+				<latitude>15.01440508616385</latitude>
+				<altitude>0</altitude>
+				<heading>-11.23562524120423</heading>
+				<tilt>44.10780309241439</tilt>
+				<range>838.3588344261009</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_shaded_dot0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>76.57126271487215,15.01351168712342,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TW-2</name>
+			<LookAt>
+				<longitude>76.57322935656602</longitude>
+				<latitude>15.01445375887977</latitude>
+				<altitude>0</altitude>
+				<heading>-11.23555066441013</heading>
+				<tilt>44.10789166546385</tilt>
+				<range>852.522997874207</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_shaded_dot0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>76.5728335232123,15.01281902110885,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GD-2</name>
+			<LookAt>
+				<longitude>76.57312902126895</longitude>
+				<latitude>15.01494168226595</latitude>
+				<altitude>0</altitude>
+				<heading>-11.23557664765662</heading>
+				<tilt>44.10807486487109</tilt>
+				<range>881.8273241584448</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_shaded_dot0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>76.57248007991504,15.01319622002525,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>UTILITIES SUCH AS PLANT, BUILDINGS ETC.</name>
+		<Folder>
+			<name>Point Features</name>
+			<description>Point Features</description>
+			<Placemark>
+				<name>WB</name>
+				<description>STATUTORY_BUILDING</description>
+				<styleUrl>#point10</styleUrl>
+				<Point>
+					<coordinates>76.57224930939999,15.0162810718,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>WT</name>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#point10</styleUrl>
+				<Point>
+					<coordinates>76.5700670948,15.0149602854,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>STAGE</name>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#point10</styleUrl>
+				<Point>
+					<coordinates>76.57019650319999,15.0150372312,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>OFFICE COMPLEX</name>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#point10</styleUrl>
+				<Point>
+					<coordinates>76.5699430457,15.0148992135,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CANTEEN</name>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#point10</styleUrl>
+				<Point>
+					<coordinates>76.5699873409,15.0150822727,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>WELCOME</name>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#point10</styleUrl>
+				<Point>
+					<coordinates>76.5701469494,15.0153048112,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>WB</name>
+				<description>STATUTORY_BUILDING</description>
+				<styleUrl>#point10</styleUrl>
+				<Point>
+					<coordinates>76.5725386741,15.0155569492,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PLANT</name>
+				<description>STATUTORY_BUILDING</description>
+				<styleUrl>#point10</styleUrl>
+				<Point>
+					<coordinates>76.57322028820001,15.0153473617,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C&amp;S</name>
+				<description>STATUTORY_BUILDING</description>
+				<styleUrl>#point10</styleUrl>
+				<Point>
+					<coordinates>76.5732441216,15.0154028015,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>WB</name>
+				<description>STATUTORY_BUILDING</description>
+				<styleUrl>#point10</styleUrl>
+				<Point>
+					<coordinates>76.5716086745,15.0157467018,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Security Gate</name>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#point10</styleUrl>
+				<Point>
+					<coordinates>76.5702788167,15.0147613701,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>View Point</name>
+				<description>STATUTORY_BUILDING</description>
+				<styleUrl>#point10</styleUrl>
+				<Point>
+					<coordinates>76.5733770919,15.0157246801,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>WB</name>
+				<description>STATUTORY_BUILDING</description>
+				<styleUrl>#point10</styleUrl>
+				<Point>
+					<coordinates>76.5716172294,15.0158339736,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>JSWSL</name>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#point10</styleUrl>
+				<Point>
+					<coordinates>76.5701385213,15.0151453082,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>MAGAZINE</name>
+				<description>STATUTORY_BUILDING</description>
+				<styleUrl>#point10</styleUrl>
+				<Point>
+					<coordinates>76.57510435794354,15.01527597354111,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Area Features</name>
+			<open>1</open>
+			<description>Area Features</description>
+			<Placemark>
+				<description>STATUTORY_BUILDING</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.5722350711,15.0163135318,694.5 76.5722478271,15.0162695359,694.5 76.5723129208,15.0162873641,694.5 76.5723001648,15.01633136,694.5 76.5722350711,15.0163135318,694.5 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.57021289550001,15.015330212,0 76.57015716860001,15.0153396349,0 76.5700957503,15.0154019233,0 76.5700069418,15.0154176536,0 76.5698622276,15.0153884177,0 76.5697479098,15.0153790625,0 76.5695613059,15.015296125,0 76.569487802,15.0151885443,0 76.5695019436,15.0150955831,0 76.5695412674,15.0150456226,0 76.5696287104,15.015001125,0 76.5697432419,15.0149404323,0 76.56986070169999,15.0148906704,0 76.56994943380001,15.0148496744,0 76.56997610419999,15.0148356524,0 76.5700027063,15.0148253906,0 76.57007450330001,15.014814097,0 76.57007450330001,15.014814097,0 76.57018342870001,15.0148133452,0 76.57018342870001,15.0148133452,0 76.5703242323,15.0148145329,0 76.57038326359999,15.01487179,0 76.5705103265,15.0150244048,0 76.570682052,15.01513104,0 76.570611879,15.0152876869,0 76.5705502648,15.0153498237,0 76.5704252938,15.0153565341,0 76.5703856503,15.0153968837,0 76.5702333023,15.0153956862,0 76.57021289550001,15.015330212,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.57025719000001,15.0150715325,973.1219999999998 76.5701920982,15.0150719818,973.1219999999998 76.570191636,15.0150087172,973.1219999999998 76.5702567277,15.0150082679,973.1219999999998 76.57025719000001,15.0150715325,973.1219999999998 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>STATUTORY_BUILDING</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.5750857772,15.0152851007,0 76.5750855539,15.0152546286,0 76.5751306384,15.0152543164,0 76.5751308617,15.0152847885,0 76.5750857772,15.0152851007,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>STATUTORY_BUILDING</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.57509902699999,15.01527316,0 76.57509896560001,15.0152647806,0 76.5751215513,15.0152646242,0 76.5751216128,15.0152730036,0 76.57509902699999,15.01527316,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>STATUTORY_BUILDING</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.5725350772,15.0155801626,0 76.5725348542,15.0155496904,0 76.5725799388,15.0155493788,0 76.5725801618,15.0155798509,0 76.5725350772,15.0155801626,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>STATUTORY_BUILDING</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.57322711979999,15.0154465006,0 76.5732266736,15.0153855563,0 76.5733641164,15.0153846057,0 76.573363215,15.0154455593,0 76.57322711979999,15.0154465006,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.5734876918,15.015695977,0 76.57348610069999,15.0157026916,0 76.5734793222,15.0157047097,0 76.57347413470001,15.0157000132,0 76.57347572579999,15.0156932986,0 76.5734825043,15.0156912805,0 76.5734876918,15.015695977,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>STATUTORY_BUILDING</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.57346340629999,15.0157140318,0 76.5734587124,15.0156893579,0 76.57349770880001,15.0156823501,0 76.5735024027,15.015707024,0 76.57346340629999,15.0157140318,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>STATUTORY_BUILDING</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.57160534010001,15.0157702968,0 76.57160511719999,15.0157398246,0 76.5716502019,15.0157395131,0 76.5716504248,15.0157699853,0 76.57160534010001,15.0157702968,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.5702710377,15.0147819104,0 76.5702592911,15.0147789337,0 76.5702658987,15.0147525878,0 76.5702780756,15.0147556733,0 76.5702710377,15.0147819104,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.5702658987,15.0147525878,972 76.5702710377,15.0147819104,972 76.5702777817,15.0147555989,972 76.5702592911,15.0147789337,972 76.5702658987,15.0147525878,972 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>STATUTORY_BUILDING</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.5736544489,15.0157621018,0 76.57364247709999,15.0157170806,0 76.57368049430001,15.0157076569,0 76.5736924661,15.0157526781,0 76.5736544489,15.0157621018,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>STATUTORY_BUILDING</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.57368860779999,15.0157368041,0 76.5736819888,15.0157136109,0 76.57374222519999,15.0156996213,0 76.5737488442,15.0157228146,0 76.57368860779999,15.0157368041,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>STATUTORY_BUILDING</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.57352335020001,15.0157031129,0 76.573518522,15.0156568498,0 76.5735575683,15.0156531229,0 76.57356239649999,15.0156993861,0 76.57352335020001,15.0157031129,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>STATUTORY_BUILDING</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.57348410989999,15.0153973695,0 76.57348415049999,15.0153973615,0 76.57348693839999,15.0154038446,0 76.5734348851,15.0154176203,0 76.5735471449,15.0154591104,0 76.57354381490001,15.0154685994,0 76.5734217765,15.015422554,0 76.5733667981,15.015435262,0 76.5733625158,15.0154075541,0 76.57340496729999,15.0153966049,0 76.573410662,15.0152745926,0 76.57340651520001,15.015265236,0 76.5732291086,15.015266463,0 76.5732292113,15.0152804894,0 76.5731721386,15.0152808841,0 76.5731719186,15.0152508276,0 76.5731719698,15.0152469276,0 76.57320675130001,15.015246687,0 76.5732066818,15.0152371897,0 76.57320325569999,15.0152371997,0 76.57320330650001,15.0152295047,0 76.57347821880001,15.0152162395,0 76.5734784134,15.0152264763,0 76.5732149209,15.0152370638,0 76.573214991,15.0152466413,0 76.57322908010001,15.0152465439,0 76.5732291209,15.0152521132,0 76.5734341819,15.0152506949,0 76.5734342778,15.0152637997,0 76.5734183603,15.0152640409,0 76.5734695789,15.0153786865,0 76.5734751838,15.0153765097,0 76.5734806801,15.0153892912,0 76.57355788549999,15.0153732855,0 76.5735595548,15.0153823921,0 76.57348410989999,15.0153973695,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.5705153017,15.0152064117,0 76.5705140993,15.0152064197,0 76.5705129019,15.0152063518,0 76.57051171649999,15.0152062088,0 76.57051055060001,15.0152059914,0 76.5705094107,15.0152057007,0 76.5705082962,15.0152053428,0 76.5705072009,15.0152049272,0 76.57050611859999,15.0152044637,0 76.570505043,15.015203962,0 76.57050396779999,15.0152034317,0 76.5705028866,15.0152028826,0 76.57050179389999,15.0152023239,0 76.5705007023,15.015201751,0 76.57049964479999,15.0152011437,0 76.57049865579999,15.015200481,0 76.5704977697,15.0151997417,0 76.5704970207,15.0151989048,0 76.5704964297,15.0151979579,0 76.57049597469999,15.0151969169,0 76.57049562500001,15.015195803,0 76.5704953498,15.0151946377,0 76.5704951183,15.0151934424,0 76.5704949008,15.015192238,0 76.5704946899,15.0151910375,0 76.5704945017,15.0151898447,0 76.5704943535,15.0151886634,0 76.57049426259999,15.0151874972,0 76.5704942462,15.0151863496,0 76.57049432159999,15.0151852244,0 76.5704945061,15.0151841251,0 76.5704948162,15.0151830552,0 76.57049524990001,15.0151820144,0 76.570495786,15.0151809982,0 76.57049640220001,15.015180002,0 76.5704970765,15.0151790214,0 76.5704977867,15.0151780517,0 76.5704985105,15.0151770883,0 76.5704992262,15.0151761268,0 76.5704999231,15.0151751649,0 76.570500604,15.015174203,0 76.5705012726,15.0151732419,0 76.5705019327,15.0151722821,0 76.570502588,15.0151713244,0 76.5705032422,15.0151703694,0 76.570503899,15.0151694177,0 76.570504562,15.01516847,0 76.5705052351,15.0151675269,0 76.570505922,15.0151665891,0 76.5705066263,15.0151656573,0 76.5705073517,15.0151647321,0 76.57050810200001,15.0151638141,0 76.5705088803,15.0151629053,0 76.57050968759999,15.0151620114,0 76.5705105243,15.0151611393,0 76.5705113911,15.0151602958,0 76.5705122884,15.0151594876,0 76.57051321679999,15.0151587216,0 76.5705141768,15.0151580045,0 76.5705151689,15.0151573432,0 76.5705161936,15.0151567443,0 76.57051725149999,15.0151562148,0 76.57051834320001,15.0151557614,0 76.570519469,15.0151553908,0 76.57052062850001,15.0151551087,0 76.5705218149,15.0151549147,0 76.57052301989999,15.0151548066,0 76.5705242352,15.0151547821,0 76.57052545249999,15.0151548391,0 76.5705266633,15.0151549754,0 76.5705278593,15.0151551888,0 76.5705290321,15.0151554771,0 76.5705301735,15.0151558381,0 76.5705312769,15.0151562689,0 76.5705323449,15.015156763,0 76.5705333826,15.0151573132,0 76.5705343951,15.015157912,0 76.5705353874,15.0151585522,0 76.5705363647,15.0151592265,0 76.570537332,15.0151599273,0 76.5705382944,15.0151606475,0 76.57053925690001,15.0151613797,0 76.5705402185,15.0151621214,0 76.57054116979999,15.0151628769,0 76.5705421002,15.015163651,0 76.5705429997,15.0151644486,0 76.5705438577,15.0151652746,0 76.5705446641,15.0151661338,0 76.5705454085,15.0151670311,0 76.5705460806,15.0151679714,0 76.5705466701,15.0151689596,0 76.5705471667,15.0151700004,0 76.57054756380001,15.015171094,0 76.5705478621,15.0151722304,0 76.5705480634,15.0151733988,0 76.5705481693,15.0151745882,0 76.5705481816,15.0151757875,0 76.5705481019,15.0151769858,0 76.570547932,15.015178172,0 76.5705476736,15.0151793353,0 76.5705473284,15.0151804646,0 76.57054689820001,15.0151815493,0 76.570546388,15.0151825868,0 76.5705458055,15.0151835817,0 76.5705451587,15.0151845386,0 76.57054445529999,15.0151854623,0 76.5705437032,15.0151863574,0 76.57054291030001,15.0151872288,0 76.5705420843,15.015188081,0 76.5705412332,15.015188919,0 76.5705403648,15.0151897473,0 76.5705394869,15.0151905708,0 76.5705386074,15.0151913941,0 76.5705377342,15.015192222,0 76.5705368749,15.0151930591,0 76.570536033,15.0151939069,0 76.5705352044,15.0151947614,0 76.570534384,15.0151956179,0 76.570533567,15.015196472,0 76.5705327486,15.0151973189,0 76.5705319237,15.0151981542,0 76.5705310875,15.0151989733,0 76.57053023509999,15.0151997716,0 76.5705293617,15.0152005445,0 76.5705284622,15.0152012875,0 76.5705275318,15.0152019959,0 76.57052656560001,15.0152026652,0 76.57052555999999,15.015203291,0 76.5705245172,15.0152038698,0 76.57052344109999,15.0152043982,0 76.5705223356,15.015204873,0 76.5705212045,15.015205291,0 76.5705200518,15.0152056487,0 76.5705188813,15.0152059429,0 76.5705176969,15.0152061704,0 76.5705165024,15.0152063277,0 76.5705153017,15.0152064117,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.5704599354,15.0151711969,0 76.5704586754,15.015171486,0 76.57045739030001,15.0151716829,0 76.5704560929,15.0151717819,0 76.57045479600001,15.0151717772,0 76.57045351239999,15.0151716633,0 76.5704522548,15.0151714346,0 76.57045103580001,15.0151710856,0 76.57044985909999,15.0151706238,0 76.5704487181,15.0151700708,0 76.5704476057,15.0151694494,0 76.5704465147,15.0151687821,0 76.57044543799999,15.0151680917,0 76.5704443692,15.0151673984,0 76.5704433077,15.0151667051,0 76.5704422554,15.0151660061,0 76.5704412147,15.0151652955,0 76.5704401876,15.0151645676,0 76.5704391762,15.0151638166,0 76.5704381827,15.0151630366,0 76.5704372093,15.0151622219,0 76.57043625830001,15.0151613675,0 76.5704353345,15.0151604737,0 76.570434443,15.0151595428,0 76.57043358929999,15.0151585771,0 76.5704327787,15.0151575787,0 76.57043201659999,15.0151565499,0 76.5704313082,15.015155493,0 76.57043065889999,15.0151544102,0 76.5704300741,15.0151533038,0 76.57042955910001,15.015152176,0 76.5704291192,15.0151510292,0 76.57042875960001,15.0151498654,0 76.5704284773,15.0151486856,0 76.5704282601,15.0151474895,0 76.57042809559999,15.0151462765,0 76.5704279711,15.015145046,0 76.570427874,15.0151437975,0 76.5704277917,15.0151425306,0 76.5704277116,15.0151412446,0 76.57042762339999,15.0151399398,0 76.5704275377,15.0151386244,0 76.57042747769999,15.0151373112,0 76.57042746659999,15.0151360128,0 76.5704275276,15.0151347422,0 76.57042768389999,15.0151335119,0 76.57042795869999,15.0151323349,0 76.5704283753,15.0151312239,0 76.5704289565,15.0151301915,0 76.570429706,15.0151292423,0 76.570430594,15.0151283667,0 76.5704315877,15.0151275538,0 76.5704326541,15.0151267929,0 76.57043376049999,15.015126073,0 76.5704348772,15.0151253842,0 76.57043599630001,15.0151247225,0 76.5704371181,15.0151240863,0 76.5704382429,15.0151234739,0 76.5704393712,15.0151228836,0 76.5704405032,15.0151223139,0 76.5704416392,15.0151217629,0 76.5704427797,15.0151212291,0 76.57044392500001,15.0151207108,0 76.5704450753,15.0151202064,0 76.57044623109999,15.0151197141,0 76.5704473927,15.0151192323,0 76.5704485604,15.0151187594,0 76.5704497346,15.0151182937,0 76.5704509155,15.015117834,0 76.5704521027,15.015117381,0 76.57045329589999,15.0151169357,0 76.5704544946,15.0151164994,0 76.57045569829999,15.0151160732,0 76.5704569067,15.0151156582,0 76.5704581193,15.0151152557,0 76.57045933560001,15.0151148666,0 76.5704605553,15.0151144922,0 76.57046177789999,15.0151141336,0 76.5704630029,15.015113792,0 76.57046423,15.0151134685,0 76.5704654586,15.0151131642,0 76.57046668869999,15.0151128804,0 76.5704679217,15.0151126195,0 76.57046915950001,15.0151123838,0 76.57047040410001,15.015112176,0 76.5704716576,15.0151119985,0 76.5704729217,15.0151118538,0 76.5704741986,15.0151117446,0 76.57047549009999,15.0151116732,0 76.5704767982,15.0151116423,0 76.57047812490001,15.0151116543,0 76.5704794686,15.0151117129,0 76.57048081729999,15.015111825,0 76.5704821576,15.0151119981,0 76.5704834758,15.0151122396,0 76.5704847584,15.015112557,0 76.5704859918,15.0151129578,0 76.5704871624,15.0151134493,0 76.5704882566,15.0151140392,0 76.5704892609,15.0151147347,0 76.570490162,15.0151155432,0 76.5704909617,15.0151164596,0 76.5704916816,15.0151174633,0 76.5704923446,15.0151185323,0 76.5704929737,15.0151196448,0 76.5704935918,15.0151207787,0 76.5704942207,15.0151219127,0 76.57049485810001,15.0151230385,0 76.5704954767,15.0151241603,0 76.5704960483,15.0151252834,0 76.57049654470001,15.0151264127,0 76.5704969376,15.0151275534,0 76.57049719920001,15.0151287105,0 76.57049731879999,15.0151298865,0 76.5704973143,15.0151310801,0 76.57049720569999,15.0151322895,0 76.5704970132,15.015133513,0 76.5704967569,15.015134749,0 76.570496457,15.0151359956,0 76.5704961336,15.0151372512,0 76.5704958068,15.015138514,0 76.57049549689999,15.0151397824,0 76.5704952175,15.0151410531,0 76.5704949532,15.0151423169,0 76.5704946801,15.0151435625,0 76.5704943746,15.0151447785,0 76.5704940128,15.015145954,0 76.570493571,15.0151470775,0 76.57049302519999,15.0151481379,0 76.57049235629999,15.0151491262,0 76.57049157199999,15.0151500468,0 76.5704906893,15.0151509088,0 76.5704897255,15.0151517214,0 76.5704886979,15.0151524938,0 76.57048762380001,15.015153235,0 76.5704865204,15.0151539544,0 76.5704854049,15.0151546609,0 76.57048429460001,15.0151553638,0 76.57048320299999,15.0151560705,0 76.5704821307,15.0151567824,0 76.5704810755,15.0151574994,0 76.570480035,15.0151582217,0 76.5704790071,15.0151589492,0 76.57047798950001,15.0151596819,0 76.57047698,15.01516042,0 76.5704759762,15.0151611634,0 76.5704749759,15.0151619122,0 76.57047397700001,15.0151626664,0 76.5704729771,15.0151634259,0 76.5704719739,15.015164191,0 76.5704709653,15.0151649609,0 76.5704699484,15.0151657299,0 76.5704689202,15.0151664895,0 76.5704678779,15.015167231,0 76.57046681849999,15.015167946,0 76.5704657389,15.0151686258,0 76.5704646362,15.0151692618,0 76.57046350749999,15.0151698455,0 76.57046234969999,15.0151703683,0 76.57046115999999,15.0151708216,0 76.5704599354,15.0151711969,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.570412183,15.0151513455,0 76.57041369620001,15.0151513086,0 76.5704151739,15.0151514188,0 76.57041655570001,15.0151517715,0 76.57041778990001,15.0151524435,0 76.570418889,15.0151533798,0 76.5704198932,15.015154468,0 76.5704208418,15.0151555991,0 76.5704217583,15.0151567245,0 76.57042265370001,15.0151578432,0 76.57042353839999,15.0151589556,0 76.5704244229,15.0151600621,0 76.5704253179,15.015161163,0 76.57042622980001,15.0151622594,0 76.5704271534,15.0151633546,0 76.5704280807,15.0151644524,0 76.57042900410001,15.0151655564,0 76.5704299157,15.0151666704,0 76.570430808,15.0151677982,0 76.570431673,15.0151689435,0 76.5704325032,15.0151701099,0 76.57043329059999,15.0151713013,0 76.5704340277,15.0151725213,0 76.57043471030001,15.015173771,0 76.57043533789999,15.0151750489,0 76.5704359102,15.0151763535,0 76.5704364268,15.0151776831,0 76.5704368873,15.0151790362,0 76.5704372915,15.0151804111,0 76.570437639,15.0151818062,0 76.5704379292,15.0151832199,0 76.57043815670001,15.0151846476,0 76.57043831030001,15.015186082,0 76.5704383787,15.0151875155,0 76.5704383505,15.0151889405,0 76.5704382143,15.0151903495,0 76.5704379589,15.0151917348,0 76.5704375748,15.0151930896,0 76.5704370716,15.0151944127,0 76.5704364687,15.0151957062,0 76.5704357859,15.015196972,0 76.57043504249999,15.0151982123,0 76.57043425809999,15.0151994289,0 76.5704334464,15.0152006235,0 76.57043260979999,15.0152017971,0 76.57043174970001,15.0152029502,0 76.5704308673,15.0152040838,0 76.57042996369999,15.0152051985,0 76.5704290403,15.0152062951,0 76.5704280983,15.0152073744,0 76.5704271388,15.0152084372,0 76.5704261632,15.0152094841,0 76.5704251727,15.0152105161,0 76.5704241684,15.0152115337,0 76.57042315149999,15.0152125381,0 76.57042212250001,15.0152135303,0 76.5704210823,15.0152145115,0 76.57042003150001,15.0152154827,0 76.570418971,15.0152164452,0 76.57041790149999,15.0152174,0 76.5704168236,15.0152183483,0 76.5704157382,15.0152192912,0 76.5704146459,15.0152202298,0 76.5704135476,15.0152211652,0 76.5704124439,15.0152220986,0 76.5704113356,15.0152230312,0 76.5704102234,15.015223964,0 76.57040910809999,15.0152248981,0 76.5704079904,15.0152258347,0 76.5704068709,15.0152267747,0 76.5704057482,15.0152277142,0 76.570404619,15.0152286459,0 76.5704034805,15.0152295625,0 76.57040232929999,15.0152304565,0 76.5704011623,15.0152313204,0 76.5703999765,15.0152321469,0 76.5703987687,15.0152329284,0 76.5703975358,15.0152336577,0 76.5703962746,15.0152343272,0 76.570394982,15.0152349297,0 76.5703936566,15.0152354616,0 76.57039229900001,15.0152359248,0 76.5703909099,15.0152363214,0 76.5703894903,15.0152366536,0 76.5703880409,15.0152369236,0 76.5703865624,15.0152371335,0 76.5703850558,15.0152372855,0 76.5703835236,15.0152373802,0 76.5703819803,15.015237408,0 76.57038044479999,15.0152373555,0 76.5703789361,15.0152372091,0 76.5703774733,15.0152369553,0 76.5703760752,15.0152365805,0 76.57037476089999,15.0152360714,0 76.5703735494,15.0152354143,0 76.57037245230001,15.0152346025,0 76.5703714528,15.015233656,0 76.5703705267,15.0152326012,0 76.57036965010001,15.0152314645,0 76.5703687991,15.0152302725,0 76.5703679497,15.0152290515,0 76.5703670778,15.015227828,0 76.5703661595,15.0152266284,0 76.5703651817,15.0152254704,0 76.5703641611,15.0152243477,0 76.5703631195,15.0152232499,0 76.5703620786,15.0152221666,0 76.5703610601,15.0152210874,0 76.5703600857,15.0152200019,0 76.5703591772,15.0152188997,0 76.57035835630001,15.0152177705,0 76.5703576447,15.0152166039,0 76.57035706409999,15.0152153895,0 76.57035663640001,15.015214117,0 76.5703563725,15.0152127811,0 76.57035625100001,15.0152113929,0 76.5703562442,15.0152099665,0 76.57035632420001,15.015208516,0 76.5703564635,15.0152070554,0 76.5703566342,15.0152055988,0 76.570356819,15.0152041573,0 76.570357026,15.0152027342,0 76.57035726780001,15.0152013315,0 76.5703575565,15.0151999513,0 76.5703579044,15.0151985958,0 76.570358324,15.015197267,0 76.57035882309999,15.0151959661,0 76.5703593968,15.0151946913,0 76.570360038,15.0151934404,0 76.5703607394,15.0151922111,0 76.57036149389999,15.0151910011,0 76.57036229409999,15.0151898081,0 76.5703631329,15.01518863,0 76.5703640032,15.0151874643,0 76.5703648976,15.015186309,0 76.57036580889999,15.0151851616,0 76.57036673,15.01518402,0 76.5703676536,15.0151828819,0 76.570368573,15.0151817451,0 76.5703694864,15.0151806095,0 76.5703703957,15.0151794762,0 76.57037130250001,15.0151783463,0 76.5703722089,15.015177221,0 76.57037311649999,15.0151761013,0 76.57037402730001,15.0151749885,0 76.570374943,15.0151738835,0 76.5703758654,15.0151727877,0 76.5703767965,15.0151717021,0 76.570377738,15.0151706278,0 76.5703786918,15.015169566,0 76.5703796597,15.0151685178,0 76.5703806435,15.0151674843,0 76.5703816451,15.0151664668,0 76.5703826662,15.0151654662,0 76.57038370870001,15.0151644837,0 76.5703847745,15.0151635206,0 76.5703858653,15.0151625778,0 76.5703869827,15.0151616567,0 76.5703881263,15.0151607595,0 76.5703892952,15.0151598886,0 76.5703904881,15.0151590465,0 76.57039170420001,15.0151582357,0 76.5703929423,15.0151574587,0 76.57039420140001,15.0151567181,0 76.5703954806,15.0151560161,0 76.5703967786,15.0151553555,0 76.57039809459999,15.0151547386,0 76.57039942750001,15.0151541679,0 76.5704007761,15.0151536459,0 76.57040213969999,15.0151531751,0 76.57040351809999,15.0151527568,0 76.5704049129,15.0151523909,0 76.5704063255,15.0151520774,0 76.5704077573,15.0151518162,0 76.57040920990001,15.0151516072,0 76.57041068469999,15.0151514503,0 76.570412183,15.0151513455,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.5703730478,15.0152051514,0 76.5703732811,15.0152039908,0 76.5703736164,15.0152028512,0 76.5703740144,15.0152017264,0 76.57037444949999,15.0152006135,0 76.5703749195,15.0151995141,0 76.5703754245,15.0151984305,0 76.5703759646,15.0151973649,0 76.5703765399,15.0151963197,0 76.57037715040001,15.0151952971,0 76.5703777964,15.0151942993,0 76.5703784773,15.015193328,0 76.5703791902,15.0151923808,0 76.57037993110001,15.0151914544,0 76.5703806959,15.015190545,0 76.57038148069999,15.0151896492,0 76.5703822816,15.0151887635,0 76.5703830944,15.0151878841,0 76.5703839153,15.0151870077,0 76.5703847403,15.0151861306,0 76.5703855653,15.0151852493,0 76.5703863864,15.0151843603,0 76.57038719960001,15.0151834599,0 76.5703880009,15.0151825446,0 76.5703887872,15.0151816119,0 76.5703895619,15.0151806662,0 76.5703903316,15.0151797155,0 76.5703911029,15.0151787679,0 76.5703918822,15.0151778312,0 76.5703926763,15.0151769135,0 76.5703934917,15.0151760228,0 76.570394335,15.015175167,0 76.57039521270001,15.015174354,0 76.5703961314,15.015173592,0 76.5703970977,15.0151728888,0 76.5703981182,15.0151722525,0 76.5703991992,15.015171691,0 76.5704003394,15.0151712107,0 76.570401527,15.0151708162,0 76.5704027494,15.0151705119,0 76.5704039941,15.0151703022,0 76.5704052486,15.0151701915,0 76.5704065003,15.0151701841,0 76.57040773670001,15.0151702845,0 76.5704089452,15.0151704969,0 76.5704101135,15.0151708258,0 76.5704112339,15.0151712702,0 76.5704123064,15.0151718207,0 76.57041333150001,15.0151724676,0 76.5704143099,15.0151732009,0 76.5704152422,15.0151740107,0 76.57041612890001,15.0151748872,0 76.5704169677,15.015175821,0 76.5704177449,15.0151768055,0 76.5704184444,15.0151778343,0 76.5704190501,15.0151789014,0 76.57041954589999,15.0151800004,0 76.5704199155,15.0151811253,0 76.57042014290001,15.0151822696,0 76.57042021229999,15.0151834273,0 76.5704201229,15.0151845913,0 76.5704198935,15.0151857536,0 76.570419544,15.0151869058,0 76.5704190945,15.01518804,0 76.570418565,15.015189148,0 76.57041797559999,15.0151902216,0 76.5704173438,15.0151912546,0 76.5704166769,15.0151922501,0 76.570415979,15.0151932137,0 76.5704152544,15.0151941508,0 76.5704145072,15.0151950672,0 76.57041374160001,15.0151959683,0 76.5704129617,15.0151968599,0 76.5704121718,15.0151977474,0 76.570411376,15.0151986364,0 76.5704105786,15.0151995325,0 76.5704097836,15.0152004413,0 76.5704089952,15.0152013684,0 76.57040821770001,15.0152023194,0 76.57040745490001,15.0152032992,0 76.5704067062,15.0152043061,0 76.5704059678,15.0152053331,0 76.5704052361,15.0152063736,0 76.5704045073,15.0152074205,0 76.57040377769999,15.0152084671,0 76.57040304349999,15.0152095066,0 76.5704023011,15.015210532,0 76.5704015466,15.0152115366,0 76.5704007763,15.0152125135,0 76.57039998659999,15.0152134558,0 76.5703991737,15.0152143567,0 76.5703983337,15.0152152094,0 76.57039746309999,15.015216007,0 76.570396558,15.0152167426,0 76.57039561480001,15.0152174095,0 76.5703946296,15.0152180007,0 76.5703935988,15.0152185094,0 76.5703925186,15.0152189288,0 76.5703913862,15.0152192526,0 76.5703902077,15.015219479,0 76.57038899449999,15.0152196094,0 76.570387758,15.0152196449,0 76.5703865097,15.0152195868,0 76.5703852609,15.0152194364,0 76.570384023,15.0152191948,0 76.5703828076,15.0152188633,0 76.5703816255,15.0152184433,0 76.5703804857,15.0152179368,0 76.57037939609999,15.0152173461,0 76.5703783646,15.0152166735,0 76.5703773993,15.0152159213,0 76.5703765082,15.0152150918,0 76.5703756993,15.0152141873,0 76.5703749804,15.0152132101,0 76.5703743596,15.0152121635,0 76.57037384340001,15.0152110582,0 76.57037343810001,15.0152099084,0 76.5703731497,15.0152087286,0 76.5703729844,15.0152075329,0 76.57037294840001,15.0152063358,0 76.5703730478,15.0152051514,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.5704653147,15.0151571451,0 76.5704644602,15.0151575338,0 76.5704636039,15.0151579095,0 76.57046274139999,15.0151582628,0 76.5704618682,15.0151585847,0 76.57046097999999,15.0151588659,0 76.57046007220001,15.0151590971,0 76.57045914139999,15.0151592695,0 76.57045819299999,15.0151593767,0 76.5704572365,15.0151594137,0 76.5704562816,15.0151593755,0 76.5704553378,15.0151592572,0 76.5704544148,15.0151590538,0 76.5704535223,15.0151587602,0 76.5704526697,15.0151583722,0 76.5704518629,15.015157895,0 76.57045110590001,15.0151573403,0 76.5704504023,15.0151567201,0 76.5704497559,15.0151560461,0 76.5704491704,15.0151553304,0 76.5704486465,15.0151545837,0 76.5704481711,15.0151538128,0 76.570447727,15.0151530229,0 76.570447297,15.0151522193,0 76.5704468639,15.0151514073,0 76.5704464106,15.0151505923,0 76.57044592130001,15.0151497792,0 76.57044540290001,15.0151489688,0 76.5704448794,15.0151481586,0 76.5704443753,15.0151473463,0 76.57044391479999,15.0151465291,0 76.5704435225,15.0151457046,0 76.57044322279999,15.0151448702,0 76.57044304,15.0151440234,0 76.5704429979,15.0151431619,0 76.5704431007,15.0151422889,0 76.57044333109999,15.0151414134,0 76.5704436709,15.015140545,0 76.57044410189999,15.0151396932,0 76.57044460580001,15.0151388673,0 76.5704451642,15.0151380769,0 76.57044576049999,15.0151373302,0 76.5704463878,15.0151366268,0 76.57044704330001,15.0151359625,0 76.5704477246,15.0151353335,0 76.57044842889999,15.0151347355,0 76.57044915359999,15.0151341647,0 76.570449896,15.0151336169,0 76.57045065360001,15.015133088,0 76.57045142360001,15.0151325742,0 76.5704522034,15.0151320713,0 76.5704529904,15.0151315752,0 76.5704537819,15.015131082,0 76.5704545753,15.0151305875,0 76.570455368,15.0151300879,0 76.5704561589,15.015129582,0 76.5704569488,15.0151290718,0 76.5704577387,15.0151285595,0 76.5704585294,15.0151280475,0 76.5704593217,15.0151275379,0 76.5704601167,15.015127033,0 76.5704609151,15.0151265352,0 76.5704617179,15.0151260465,0 76.570462526,15.0151255693,0 76.57046334010001,15.0151251059,0 76.5704641614,15.0151246584,0 76.5704649905,15.0151242292,0 76.57046582850001,15.0151238204,0 76.5704666761,15.0151234344,0 76.57046753429999,15.0151230733,0 76.570468404,15.0151227395,0 76.57046928610001,15.0151224351,0 76.5704701814,15.0151221625,0 76.5704710909,15.0151219239,0 76.5704720154,15.0151217215,0 76.5704729558,15.0151215575,0 76.5704739129,15.0151214344,0 76.5704748837,15.0151213547,0 76.5704758617,15.0151213218,0 76.57047684050001,15.0151213389,0 76.5704778133,15.0151214092,0 76.5704787736,15.0151215359,0 76.5704797149,15.0151217223,0 76.5704806304,15.0151219716,0 76.5704815136,15.0151222871,0 76.5704823579,15.015122672,0 76.57048315679999,15.0151231296,0 76.57048390360001,15.0151236628,0 76.57048459480001,15.0151242696,0 76.5704852292,15.0151249429,0 76.57048580590001,15.0151256754,0 76.5704863239,15.0151264598,0 76.57048678229999,15.0151272887,0 76.5704871802,15.0151281549,0 76.5704875166,15.0151290511,0 76.5704877906,15.0151299699,0 76.5704880012,15.015130904,0 76.5704881475,15.0151318462,0 76.5704882285,15.015132789,0 76.5704882445,15.015133727,0 76.57048819809999,15.015134658,0 76.57048809219999,15.0151355805,0 76.5704879298,15.0151364932,0 76.570487714,15.0151373944,0 76.5704874477,15.0151382827,0 76.5704871339,15.0151391566,0 76.5704867755,15.0151400146,0 76.5704863757,15.0151408552,0 76.57048593730001,15.0151416769,0 76.5704854633,15.0151424782,0 76.5704849568,15.0151432576,0 76.5704844207,15.0151440137,0 76.57048385740001,15.0151447456,0 76.57048326829999,15.0151454539,0 76.5704826546,15.0151461396,0 76.5704820174,15.0151468034,0 76.57048135789999,15.0151474462,0 76.5704806773,15.0151480687,0 76.5704799768,15.0151486718,0 76.5704792576,15.0151492563,0 76.57047852079999,15.0151498231,0 76.5704777677,15.0151503729,0 76.5704769994,15.0151509066,0 76.57047621709999,15.015151425,0 76.5704754221,15.0151519289,0 76.5704746154,15.0151524192,0 76.5704737983,15.0151528966,0 76.570472972,15.015153362,0 76.57047213760001,15.0151538162,0 76.5704712963,15.01515426,0 76.57047044940001,15.0151546943,0 76.5704695979,15.0151551198,0 76.5704687432,15.0151555374,0 76.57046788629999,15.0151559479,0 76.5704670284,15.0151563522,0 76.5704661709,15.015156751,0 76.5704653147,15.0151571451,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.5705224101,15.0151920677,0 76.57052159520001,15.0151925554,0 76.5705207613,15.0151930227,0 76.5705199025,15.0151934573,0 76.5705190126,15.0151938471,0 76.5705180856,15.0151941799,0 76.5705171158,15.0151944435,0 76.570516111,15.015194624,0 76.5705150958,15.0151947059,0 76.57051409570001,15.0151946732,0 76.5705131365,15.0151945103,0 76.5705122438,15.0151942013,0 76.5705114405,15.0151937337,0 76.5705107261,15.0151931238,0 76.57051008809999,15.0151924022,0 76.5705095138,15.0151915999,0 76.5705089906,15.0151907476,0 76.57050850740001,15.0151898747,0 76.57050806940001,15.0151889929,0 76.57050769129999,15.0151881034,0 76.5705073882,15.0151872073,0 76.5705071751,15.0151863057,0 76.57050706690001,15.0151853998,0 76.5705070738,15.0151844909,0 76.5705071891,15.0151835821,0 76.5705074027,15.0151826763,0 76.5705077044,15.0151817768,0 76.570508084,15.0151808866,0 76.57050853120001,15.015180009,0 76.570509036,15.0151791469,0 76.5705095882,15.0151783037,0 76.5705101775,15.0151774823,0 76.5705107937,15.015176686,0 76.5705114288,15.0151759172,0 76.57051208119999,15.0151751759,0 76.5705127511,15.0151744617,0 76.5705134384,15.0151737742,0 76.5705141432,15.0151731129,0 76.5705148655,15.0151724774,0 76.5705156053,15.0151718672,0 76.5705163627,15.015171282,0 76.57051713769999,15.0151707213,0 76.5705179303,15.0151701846,0 76.57051874050001,15.0151696716,0 76.5705195683,15.0151691817,0 76.5705204139,15.0151687146,0 76.5705212771,15.0151682698,0 76.5705221581,15.0151678469,0 76.5705230567,15.0151674458,0 76.57052397219999,15.0151670707,0 76.5705249026,15.0151667293,0 76.5705258464,15.0151664294,0 76.5705268019,15.0151661789,0 76.57052776739999,15.0151659856,0 76.57052874110001,15.0151658573,0 76.57052972130001,15.0151658018,0 76.57053070649999,15.0151658269,0 76.57053169469999,15.0151659405,0 76.57053268449999,15.0151661502,0 76.5705336728,15.0151664627,0 76.5705346468,15.0151668732,0 76.5705355894,15.0151673721,0 76.5705364832,15.0151679496,0 76.570537311,15.0151685962,0 76.57053805539999,15.015169302,0 76.5705386992,15.0151700574,0 76.570539225,15.0151708526,0 76.5705396156,15.0151716779,0 76.5705398537,15.0151725236,0 76.5705399262,15.0151733809,0 76.5705398428,15.0151742448,0 76.5705396211,15.0151751121,0 76.5705392782,15.0151759793,0 76.5705388315,15.015176843,0 76.5705382986,15.0151776999,0 76.5705376966,15.0151785466,0 76.570537043,15.0151793797,0 76.57053635520001,15.0151801958,0 76.57053565050001,15.0151809915,0 76.5705349438,15.015181764,0 76.57053423799999,15.0151825133,0 76.57053353240001,15.0151832403,0 76.570532826,15.0151839459,0 76.57053211820001,15.015184631,0 76.57053140799999,15.0151852964,0 76.5705306947,15.015185943,0 76.5705299775,15.0151865717,0 76.57052925550001,15.0151871834,0 76.570528528,15.0151877789,0 76.570527794,15.0151883592,0 76.5705270529,15.0151889251,0 76.57052630379999,15.0151894775,0 76.570525546,15.0151900173,0 76.5705247784,15.0151905453,0 76.5705240005,15.0151910625,0 76.5705232113,15.0151915697,0 76.5705224101,15.0151920677,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>STATUTORY_BUILDING</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.571613895,15.0158575686,0 76.5716136721,15.0158270964,0 76.57165875680001,15.0158267849,0 76.5716589797,15.0158572571,0 76.571613895,15.0158575686,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.57012009189999,15.0152062779,0 76.5701199282,15.0151838731,0 76.5701715739,15.0151835167,0 76.57017173760001,15.0152059215,0 76.57012009189999,15.0152062779,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.5700002885,15.0152736289,0 76.5699846718,15.0151540916,0 76.5700979337,15.0151422878,0 76.57011093049999,15.0152600933,0 76.5700002885,15.0152736289,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.56995797179999,15.0151570082,0 76.5699659153,15.0152060764,0 76.5698764851,15.015216027,0 76.56986854519999,15.01516745,0 76.56995797179999,15.0151570082,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.5698802112,15.0152415452,0 76.5699711404,15.0152291282,0 76.5699759786,15.0152763308,0 76.56988712899999,15.0152886556,0 76.5698802112,15.0152415452,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.5700586725,15.0153169326,0 76.57005596800001,15.0152909429,0 76.5701132518,15.0152853119,0 76.5701159563,15.0153113016,0 76.5700586725,15.0153169326,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.5699677875,15.0153258453,0 76.569965083,15.0152998556,0 76.5700223668,15.0152942246,0 76.57002507129999,15.0153202143,0 76.5699677875,15.0153258453,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.5698736022,15.0153381737,0 76.5698708977,15.0153121841,0 76.5699281815,15.0153065531,0 76.56993088599999,15.0153325428,0 76.5698736022,15.0153381737,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.56985155629999,15.0151484312,0 76.56984885190001,15.0151224415,0 76.56990613559999,15.0151168106,0 76.5699088401,15.0151428003,0 76.56985155629999,15.0151484312,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.5699740044,15.0150323517,0 76.5699690206,15.0149962658,0 76.570060713,15.0149859013,0 76.5700656968,15.0150219871,0 76.5699740044,15.0150323517,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.5696785871,15.0151302058,0 76.5696797265,15.0150779985,0 76.56975981559999,15.0150774459,0 76.5697602005,15.0151301351,0 76.5696785871,15.0151302058,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.5698077954,15.0151455033,0 76.5698076019,15.015119017,0 76.5698389879,15.0151188004,0 76.5698391814,15.0151452867,0 76.5698077954,15.0151455033,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.569835759,15.0153176885,0 76.56981485599999,15.0151500819,0 76.5698446686,15.0151477182,0 76.56986557170001,15.0153153248,0 76.569835759,15.0153176885,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.56980282630001,15.0152691775,0 76.5697979227,15.0152395925,0 76.56981562270001,15.0152376057,0 76.5698209226,15.0152672007,0 76.56980282630001,15.0152691775,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.5701372998,15.015306887,0 76.570136596,15.0152105569,0 76.5701667532,15.0152103487,0 76.570167457,15.0153066789,0 76.5701372998,15.015306887,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.5701322493,15.0151789002,0 76.5701313383,15.0150542112,0 76.5701614955,15.0150540031,0 76.5701624065,15.015178692,0 76.5701322493,15.0151789002,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#area12</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.5697458166,15.015219407,0 76.5697456135,15.0151916045,0 76.569774233,15.015191407,0 76.5697744361,15.0152192096,0 76.5697458166,15.015219407,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Line Features</name>
+			<open>1</open>
+			<description>Line Features</description>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#line10</styleUrl>
+				<LineString>
+					<coordinates>
+						76.5701307332,15.0149689224,971.111 76.5701306949,15.0149698085,971.111 76.5701305674,15.0149706868,971.111 76.57013035200001,15.0149715487,971.111 76.5701300506,15.0149723859,971.111 76.57012966630001,15.0149731903,971.111 76.5701292028,15.0149739543,971.111 76.5701286644,15.0149746705,971.111 76.57012805630001,15.0149753319,971.111 76.5701273845,15.0149759322,971.111 76.5701266554,15.0149764656,971.111 76.57012587609999,15.0149769269,971.111 76.5701250539,15.0149773118,971.111 76.5701241969,15.0149776166,971.111 76.5701233133,15.0149778382,971.111 76.5701224116,15.0149779745,971.111 76.57012150040001,15.0149780244,971.111 76.57012058869999,15.0149779871,971.111 76.5701196851,15.0149778632,971.111 76.5701187983,15.0149776538,971.111 76.5701179369,15.014977361,971.111 76.5701171092,15.0149769874,971.111 76.5701163232,15.0149765369,971.111 76.57011558630001,15.0149760136,971.111 76.5701149058,15.0149754226,971.111 76.5701142882,15.0149747697,971.111 76.5701137394,15.0149740611,971.111 76.5701132647,15.0149733035,971.111 76.57011286869999,15.0149725045,971.111 76.5701125552,15.0149716715,971.111 76.57011232710001,15.0149708127,971.111 76.5701121868,15.0149699363,971.111 76.5701121356,15.0149690507,971.111 76.5701121739,15.0149681646,971.111 76.5701123014,15.0149672863,971.111 76.57011251679999,15.0149664244,971.111 76.5701128181,15.0149655872,971.111 76.57011320239999,15.0149647828,971.111 76.570113666,15.0149640188,971.111 76.5701142044,15.0149633026,971.111 76.57011481240001,15.0149626412,971.111 76.5701154842,15.014962041,971.111 76.5701162133,15.0149615076,971.111 76.57011699269999,15.0149610462,971.111 76.5701178149,15.0149606613,971.111 76.5701186719,15.0149603565,971.111 76.5701195555,15.0149601349,971.111 76.57012045720001,15.0149599986,971.111 76.5701213684,15.0149599488,971.111 76.57012228009999,15.014959986,971.111 76.57012318370001,15.0149601099,971.111 76.5701240705,15.0149603193,971.111 76.5701249319,15.0149606122,971.111 76.5701257596,15.0149609857,971.111 76.5701265456,15.0149614362,971.111 76.5701272825,15.0149619595,971.111 76.570127963,15.0149625505,971.111 76.5701285806,15.0149632034,971.111 76.5701291294,15.0149639121,971.111 76.5701296041,15.0149646696,971.111 76.57013000009999,15.0149654686,971.111 76.5701303136,15.0149663016,971.111 76.5701305417,15.0149671604,971.111 76.570130682,15.0149680368,971.111 76.5701307332,15.0149689224,971.111 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#line12</styleUrl>
+				<LineString>
+					<coordinates>
+						76.5699913981,15.0152159973,-184.356 76.5699913614,15.0152168464,-184.356 76.56999123919999,15.015217688,-184.356 76.5699910327,15.0152185139,-184.356 76.56999074399999,15.0152193162,-184.356 76.5699903757,15.0152200871,-184.356 76.5699899315,15.0152208192,-184.356 76.56998941560001,15.0152215054,-184.356 76.56998883289999,15.0152221392,-184.356 76.5699881892,15.0152227145,-184.356 76.5699874905,15.0152232256,-184.356 76.5699867436,15.0152236677,-184.356 76.56998595580001,15.0152240366,-184.356 76.5699851345,15.0152243286,-184.356 76.5699842878,15.0152245409,-184.356 76.56998342369999,15.0152246716,-184.356 76.5699825506,15.0152247193,-184.356 76.5699816769,15.0152246837,-184.356 76.56998081099999,15.0152245649,-184.356 76.5699799612,15.0152243643,-184.356 76.5699791358,15.0152240836,-184.356 76.5699783427,15.0152237257,-184.356 76.5699775894,15.0152232939,-184.356 76.5699768833,15.0152227925,-184.356 76.5699762312,15.0152222262,-184.356 76.5699756394,15.0152216005,-184.356 76.56997511350001,15.0152209215,-184.356 76.5699746586,15.0152201956,-184.356 76.56997427909999,15.0152194298,-184.356 76.56997397870001,15.0152186316,-184.356 76.5699737602,15.0152178087,-184.356 76.5699736257,15.0152169688,-184.356 76.56997357660001,15.0152161202,-184.356 76.56997361329999,15.0152152711,-184.356 76.5699737355,15.0152144295,-184.356 76.5699739419,15.0152136036,-184.356 76.5699742307,15.0152128013,-184.356 76.56997459900001,15.0152120304,-184.356 76.5699750432,15.0152112983,-184.356 76.5699755591,15.0152106121,-184.356 76.5699761418,15.0152099783,-184.356 76.5699767855,15.015209403,-184.356 76.5699774842,15.0152088919,-184.356 76.5699782311,15.0152084498,-184.356 76.5699790189,15.0152080809,-184.356 76.5699798401,15.0152077889,-184.356 76.5699806869,15.0152075766,-184.356 76.569981551,15.0152074459,-184.356 76.5699824241,15.0152073982,-184.356 76.56998329779999,15.0152074338,-184.356 76.5699841637,15.0152075526,-184.356 76.5699850134,15.0152077532,-184.356 76.5699858389,15.0152080339,-184.356 76.569986632,15.0152083918,-184.356 76.5699873853,15.0152088236,-184.356 76.5699880913,15.015209325,-184.356 76.5699887434,15.0152098913,-184.356 76.56998933529999,15.015210517,-184.356 76.5699898612,15.015211196,-184.356 76.5699903161,15.0152119219,-184.356 76.5699906956,15.0152126877,-184.356 76.569990996,15.0152134859,-184.356 76.56999121450001,15.0152143088,-184.356 76.56999134900001,15.0152151487,-184.356 76.5699913981,15.0152159973,-184.356 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#line12</styleUrl>
+				<LineString>
+					<coordinates>
+						76.5699744865,15.0152198719,-184.356 76.56998300399999,15.0152074125,-184.356 76.56998972,15.0152211177,-184.356 76.5699744865,15.0152198719,-184.356 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#line12</styleUrl>
+				<LineString>
+					<coordinates>
+						76.56998362749999,15.0152160509,-184.356 76.5699836228,15.0152161595,-184.356 76.5699836072,15.0152162672,-184.356 76.5699835808,15.0152163729,-184.356 76.56998354380001,15.0152164756,-184.356 76.5699834967,15.0152165742,-184.356 76.5699834399,15.0152166679,-184.356 76.5699833738,15.0152167557,-184.356 76.56998329930001,15.0152168368,-184.356 76.5699832169,15.0152169104,-184.356 76.5699831275,15.0152169758,-184.356 76.569983032,15.0152170324,-184.356 76.5699829311,15.0152170796,-184.356 76.5699828261,15.0152171169,-184.356 76.5699827177,15.0152171441,-184.356 76.5699826072,15.0152171608,-184.356 76.5699824954,15.0152171669,-184.356 76.56998238360001,15.0152171624,-184.356 76.5699822728,15.0152171472,-184.356 76.5699821641,15.0152171215,-184.356 76.5699820585,15.0152170856,-184.356 76.569981957,15.0152170398,-184.356 76.5699818606,15.0152169845,-184.356 76.5699817703,15.0152169204,-184.356 76.56998168680001,15.0152168479,-184.356 76.5699816111,15.0152167679,-184.356 76.5699815438,15.015216681,-184.356 76.5699814856,15.0152165881,-184.356 76.569981437,15.0152164901,-184.356 76.56998139860001,15.015216388,-184.356 76.5699813706,15.0152162827,-184.356 76.5699813534,15.0152161752,-184.356 76.5699813472,15.0152160666,-184.356 76.5699813519,15.015215958,-184.356 76.56998136750001,15.0152158503,-184.356 76.56998139389999,15.0152157446,-184.356 76.5699814309,15.0152156419,-184.356 76.569981478,15.0152155433,-184.356 76.56998153479999,15.0152154496,-184.356 76.56998160080001,15.0152153618,-184.356 76.5699816754,15.0152152807,-184.356 76.56998175779999,15.0152152071,-184.356 76.5699818472,15.0152151417,-184.356 76.5699819427,15.0152150851,-184.356 76.5699820435,15.0152150379,-184.356 76.5699821486,15.0152150006,-184.356 76.56998225700001,15.0152149734,-184.356 76.5699823675,15.0152149567,-184.356 76.56998247919999,15.0152149506,-184.356 76.569982591,15.0152149551,-184.356 76.5699827018,15.0152149703,-184.356 76.5699828106,15.015214996,-184.356 76.5699829162,15.0152150319,-184.356 76.5699830177,15.0152150777,-184.356 76.5699831141,15.015215133,-184.356 76.5699832044,15.0152151971,-184.356 76.5699832878,15.0152152696,-184.356 76.5699833636,15.0152153497,-184.356 76.5699834309,15.0152154365,-184.356 76.5699834891,15.0152155294,-184.356 76.5699835376,15.0152156274,-184.356 76.5699835761,15.0152157295,-184.356 76.569983604,15.0152158348,-184.356 76.5699836212,15.0152159423,-184.356 76.56998362749999,15.0152160509,-184.356 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#line12</styleUrl>
+				<LineString>
+					<coordinates>
+						76.5705548717,15.0150534674,0 76.5705548569,15.0150534761,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<description>STATUTORY_BUILDING</description>
+				<styleUrl>#line2</styleUrl>
+				<LineString>
+					<coordinates>
+						76.57320563819999,15.015249232,0 76.5732151096,15.0152491665,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<description>STATUTORY_BUILDING</description>
+				<styleUrl>#line2</styleUrl>
+				<LineString>
+					<coordinates>
+						76.573414692,15.0153940967,0 76.5734193103,15.015294106,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<description>STATUTORY_BUILDING</description>
+				<styleUrl>#line2</styleUrl>
+				<LineString>
+					<coordinates>
+						76.5734193103,15.015294106,0 76.57345860629999,15.0153827702,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<description>STATUTORY_BUILDING</description>
+				<styleUrl>#line2</styleUrl>
+				<LineString>
+					<coordinates>
+						76.573414692,15.0153940967,0 76.57345860629999,15.0153827702,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<description>OFFICE_AREA</description>
+				<styleUrl>#line121</styleUrl>
+				<LineString>
+					<coordinates>
+						76.5699794184,15.0151331246,0 76.5700937056,15.015119552,0 76.5700827765,15.0150326182,0 76.56996712420001,15.0150437226,0 76.5699794184,15.0151331246,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+	<Folder id="kml_ft_GRID_LINE">
+		<name>GRID LINE</name>
+		<Placemark id="kml_18">
+			<name>kml_18</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.5764460991831,15.0114820046254,0 76.56851534705859,15.0115368136604,0 76.5685675721564,15.0186917682987,0 76.5764985880764,15.0186369319501,0 76.5764460991831,15.0114820046254,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="kml_1">
+			<name>N-1661000</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.57650364552821,15.0185725304052,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_2">
+			<name>N-1660200</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.5764504263944,15.0114755460739,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_3">
+			<name>N-1660900</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.5764988833015,15.0177740062723,1.81898940354586e-12</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_4">
+			<name>N-1660800</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.57649184208709,15.0168694879547,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_5">
+			<name>N-1660700</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.57648627968339,15.015965702287,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_6">
+			<name>N-1660600</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.5764772512,15.0150636941536,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_7">
+			<name>N-1660500</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.5764718165984,15.0141586008221,37.9012095074395</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_8">
+			<name>N-1660400</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.5764650451429,15.0132563656669,40.7958885379267</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_9">
+			<name>N-1660300</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.576458608857,15.0123526668786,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_10">
+			<name>E-669200</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.57372254692029,15.0114981763657,-3.69133521433088</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_11">
+			<name>E-669400</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.57558324584031,15.0114851581799,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_12">
+			<name>E-668700</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.56907328583441,15.0115311572051,-12.7570882227767</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_13">
+			<name>E-669300</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.5746481801953,15.0114924982973,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_14">
+			<name>E-669000</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.5718674916874,15.0115123731545,-12.7570882227767</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_15">
+			<name>E-669100</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.5727973459099,15.0115044185797,-12.7570882227512</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_16">
+			<name>E-668800</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.5700033327476,15.0115235519689,-12.7570882227767</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_17">
+			<name>E-668900</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.5709327865311,15.0115166836749,-12.7570882227858</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_19">
+			<name>E-669200</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.5737745208214,15.0186673521852,-3.69133521433088</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_20">
+			<name>E-669400</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.5756352817555,15.0186543275739,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_21">
+			<name>E-668700</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.56912510478401,15.0187003490461,-12.7570882227767</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_22">
+			<name>E-669300</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.57470018494919,15.0186616709208,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_23">
+			<name>E-669000</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.5719194037667,15.0186815553717,-12.7570882227767</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_24">
+			<name>E-669100</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.5728492889746,15.0186735975915,-12.7570882227512</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_25">
+			<name>E-668800</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.5700551826904,15.0186927406094,-12.7570882227767</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_26">
+			<name>E-668900</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.57098466745001,15.0186858691145,-12.7570882227858</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_27">
+			<name>N-1661000</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.568553892907,15.0186322198172,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_28">
+			<name>N-1660200</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.5685009360284,15.0115352082921,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_29">
+			<name>N-1660900</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.56854916019979,15.0178336926673,1.81898940354586e-12</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_30">
+			<name>N-1660800</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.56854215241491,15.0169291708748,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_31">
+			<name>N-1660700</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.5685366234169,15.0160253817864,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_32">
+			<name>N-1660600</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.5685276282579,15.0151233701176,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_33">
+			<name>N-1660500</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.5685222271065,15.0142182733653,37.9012095074395</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_34">
+			<name>N-1660400</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.568515488988,15.0133160347528,40.7958885379267</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_35">
+			<name>N-1660300</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<Point>
+				<coordinates>76.56850908609231,15.0124123325137,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="kml_36">
+			<name>kml_36</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5756679704434,15.0186426879408,-21.3047455153783 76.5756155091773,15.0114877577491,50.46602508019659 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_37">
+			<name>kml_37</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5747380754468,15.0186491283025,-21.3047455153783 76.57468564511009,15.0114941949029,50.46602508019659 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_38">
+			<name>kml_38</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<LineString>
+				<coordinates>
+					76.573808180005,15.0186555648658,-21.3047455153783 76.57375578059759,15.0115006282602,50.46602508019659 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_39">
+			<name>kml_39</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5728782841183,15.0186619976309,-21.3047455153783 76.57282591564029,15.0115070578211,50.4660250802177 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_40">
+			<name>kml_40</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5719483877869,15.0186684265975,-21.3047455153783 76.57189605023849,15.0115134835856,50.4660250802177 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_41">
+			<name>kml_41</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5710184910111,15.0186748517658,-21.3047455153783 76.5709661843922,15.0115199055536,50.4660250802177 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_42">
+			<name>kml_42</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5700885937912,15.0186812731358,-21.3047455153783 76.570036318102,15.0115263237251,50.4660250802177 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_43">
+			<name>kml_43</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5691586961274,15.0186876907074,-21.3047455153783 76.5691064513679,15.0115327381001,50.4660250802177 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_44">
+			<name>kml_44</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5685615234717,15.0178632801892,1096.79107507074 76.5764925088391,15.0178084470034,1096.79107507074 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_45">
+			<name>kml_45</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5685219423588,15.0124405948166,1096.79107507074 76.576452727797,15.0123857823316,1096.79107507074 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_46">
+			<name>kml_46</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5685285381024,15.0133443758983,1096.79107507074 76.5764593568566,15.0132895599632,1096.79107507074 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_47">
+			<name>kml_47</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<LineString>
+				<coordinates>
+					76.56853513428941,15.0142481569055,1096.79107507074 76.5764659863618,15.0141933375203,1096.79107507074 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_48">
+			<name>kml_48</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5685417309199,15.0151519378382,1096.79107507074 76.5764726163126,15.0150971150029,1096.79107507074 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_49">
+			<name>kml_49</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<LineString>
+				<coordinates>
+					76.5685483279937,15.0160557186963,1096.79107507074 76.5764792467091,15.0160008924109,1096.79107507074 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="kml_50">
+			<name>kml_50</name>
+			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<LineString>
+				<coordinates>
+					76.56855492551099,15.01695949948,1096.79107507074 76.57648587755131,15.0169046697444,1096.79107507074 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>GREEN BELT</name>
+		<Placemark id="kml_1">
+			<name>GREEN BELT</name>
+			<open>1</open>
+			<styleUrl>#stylemap_id21</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.573337549725,15.0124401522172,4.44584024261729e-10 76.57335593584691,15.0123452881646,4.44584024261729e-10 76.5740081404621,15.0132873705661,4.44584024261729e-10 76.5754045108549,15.0154023764059,4.44584024261729e-10 76.5721239258455,15.0176306744171,4.44584024261729e-10 76.57084461189309,15.0173931136957,4.44584024261729e-10 76.5693073094573,15.0150728151241,4.44584024261729e-10 76.57335593584691,15.0123452881646,4.44584024261729e-10 76.573337549725,15.0124401522172,4.44584024261729e-10 76.5694024432853,15.0150912021216,4.44584024261729e-10 76.57088706423529,15.0173319856248,4.44584024261729e-10 76.5721081018834,15.0175587248306,4.44584024261729e-10 76.5753096054019,15.0153841427655,4.44584024261729e-10 76.57394985378851,15.0133245999297,4.44584024261729e-10 76.573337549725,15.0124401522172,4.44584024261729e-10 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

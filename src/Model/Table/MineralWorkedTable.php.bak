@@ -1,0 +1,105 @@
+<?php 
+	namespace app\Model\Table;
+	use Cake\ORM\Table;
+	use App\Model\Model;
+	use Cake\ORM\TableRegistry;
+	use Cake\Core\Configure;
+	
+	class MineralWorkedTable extends Table{
+
+		var $name = "MineralWorked";			
+		public $validate = array();
+
+
+		public function getMineralName($mine_code){
+			
+			$row_count = $this->find('all',array('conditions'=>array('mine_code'=>$mine_code)))->count();
+			if ($row_count > 0) {
+				$data = $this->find('all',array('conditions'=>array('mine_code'=>$mine_code)))->first();
+				$mineral_name = $data['mineral_name'];
+			} else {
+				$mineral_name = "--";
+			}
+			
+			return $mineral_name;
+			
+		}
+
+		public function fetchMineralInfo($mine_code){
+
+        	$data = $this->find('all',array('conditions'=>array('mine_code'=>$mine_code),'order'=>array('mineral_sn'=>'ASC')))->toArray();
+        	if(count($data) > 0){
+        		$result = $data;
+        	} else {
+        		$result = [];
+        	}
+
+        	return $result;
+
+		}
+
+	    /**
+	     * returns the name of the other minerals to display in the details of mine page
+	     * @param type $mineCode
+	     * @return string 
+	     */
+	    public function getOtherMinerals($mineCode) {
+
+        	$mineral = $this->find('all',array('conditions'=>array('mine_code'=>$mineCode)))->toArray();
+
+	        if (count($mineral) < 1)
+	            return "--";
+
+	        $i = 0;
+	        $other_minerals = array();
+	        $total_minerals = count($mineral);
+
+	        $other_minerals = "";
+	        foreach ($mineral as $m) {
+	            if ($m['mineral_sn'] != 1)
+	                $other_minerals .= $m['mineral_name'];
+
+	            if ($i != ($total_minerals - 1)) {
+	                if ($i != 0)
+	                    $other_minerals .= ", ";
+	            }
+
+	            $i++;
+	        }
+
+	        return $other_minerals;
+	    }
+
+	    public function getPrimaryMineralName($mineCode) {
+
+        	$mineral = $this->find('all',array('conditions'=>array('mine_code'=>$mineCode,'mineral_sn'=>'1')))->toArray();
+
+	        return $mineral[0]['mineral_name'];
+	    }
+
+		public function getSnCalMineralName($mineCode) {
+
+			$query = $this->find()
+				->select(['mineral_name'])
+				->where(['mine_code'=>$mineCode])
+				->order(['mineral_sn'=>'ASC'])
+				->toArray();
+	
+			$i = 0;
+			$result = Array();
+			foreach ($query as $data) {
+				$result[$i] = $data['mineral_name'];
+				$i++;
+			}
+			if($i > 0) {
+				$result = implode(" , ", $result);
+			} else {
+				$result = "";
+			}
+			
+			return $result;
+
+		}
+
+	} 
+?>

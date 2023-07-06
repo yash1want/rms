@@ -1,0 +1,30 @@
+.checkboxx { width: 19px;
+float: left;
+margin-right: 10px;
+margin-left: 16px;
+height: calc(1.3rem + 2px); }
+
+.rolebox{
+    background-color: #0060ae;
+    color: antiquewhite;
+    border-radius: 19px;
+}
+
+#chk_error{
+    color: rgb(216 255 59);
+    padding-left: 31px ;
+}
+
+.roleheading {
+
+    font-size: 1.5rem;
+    padding-bottom: 18px;
+}
+
+.checkInvalid{ 
+    outline: 2px solid #c00;
+}
+
+.editbox{
+    display:none;
+}

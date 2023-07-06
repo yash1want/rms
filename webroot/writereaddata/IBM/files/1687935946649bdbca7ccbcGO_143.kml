@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>143</name>
+	<Document>
+		<name>GO 143 Afforestation 22 23.kml</name>
+		<StyleMap id="area1">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#area10</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#area11</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="area10">
+			<LineStyle>
+				<color>ffff00ff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ff00ff</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="area11">
+			<LineStyle>
+				<color>ffff00ff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ff00ff</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>Afforestation 2022 to 2023</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>78.94404357983284</longitude>
+				<latitude>10.97613905122904</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0005327067140318374</heading>
+				<tilt>30.00048399134917</tilt>
+				<range>107.0014370919868</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.94394027976597,10.9760585052521,0</coordinates>
+			</Point>
+		</Placemark>
+		<Folder>
+			<name>GO 143 AF 22 23</name>
+			<open>1</open>
+			<Document id="root_doc">
+				<name>GO 143 AF PL 22 23.kml</name>
+				<open>1</open>
+				<Schema name="go_143_aff_22_23__entities" id="go_143_aff_22_23__entities0">
+					<SimpleField type="string" name="Layer"></SimpleField>
+					<SimpleField type="int" name="PaperSpace"></SimpleField>
+					<SimpleField type="string" name="SubClasses"></SimpleField>
+					<SimpleField type="string" name="Linetype"></SimpleField>
+					<SimpleField type="string" name="EntityHandle"></SimpleField>
+					<SimpleField type="string" name="Text"></SimpleField>
+				</Schema>
+				<StyleMap id="m_ylw-pushpin1">
+					<Pair>
+						<key>normal</key>
+						<styleUrl>#s_ylw-pushpin0</styleUrl>
+					</Pair>
+					<Pair>
+						<key>highlight</key>
+						<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+					</Pair>
+				</StyleMap>
+				<StyleMap id="msn_ylw-pushpin">
+					<Pair>
+						<key>normal</key>
+						<styleUrl>#sn_ylw-pushpin0</styleUrl>
+					</Pair>
+					<Pair>
+						<key>highlight</key>
+						<styleUrl>#sh_ylw-pushpin</styleUrl>
+					</Pair>
+				</StyleMap>
+				<StyleMap id="msn_ylw-pushpin0">
+					<Pair>
+						<key>normal</key>
+						<styleUrl>#sn_ylw-pushpin</styleUrl>
+					</Pair>
+					<Pair>
+						<key>highlight</key>
+						<styleUrl>#sh_ylw-pushpin0</styleUrl>
+					</Pair>
+				</StyleMap>
+				<Style id="s_ylw-pushpin0">
+					<IconStyle>
+						<scale>1.1</scale>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+						</Icon>
+						<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+					</IconStyle>
+					<LineStyle>
+						<color>ff005500</color>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff005500</color>
+					</PolyStyle>
+				</Style>
+				<Style id="s_ylw-pushpin_hl1">
+					<IconStyle>
+						<scale>1.3</scale>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+						</Icon>
+						<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+					</IconStyle>
+					<LineStyle>
+						<color>ff005500</color>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff005500</color>
+					</PolyStyle>
+				</Style>
+				<Style id="sh_ylw-pushpin">
+					<IconStyle>
+						<scale>1.3</scale>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+						</Icon>
+						<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+					</IconStyle>
+					<BalloonStyle>
+					</BalloonStyle>
+					<LineStyle>
+						<color>ff00aaff</color>
+						<width>2.5</width>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff005500</color>
+					</PolyStyle>
+				</Style>
+				<Style id="sh_ylw-pushpin0">
+					<IconStyle>
+						<scale>1.3</scale>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+						</Icon>
+						<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+					</IconStyle>
+					<BalloonStyle>
+					</BalloonStyle>
+					<LineStyle>
+						<color>ff00aaff</color>
+						<width>2.5</width>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff005500</color>
+					</PolyStyle>
+				</Style>
+				<Style id="sn_ylw-pushpin">
+					<IconStyle>
+						<scale>1.1</scale>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+						</Icon>
+						<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+					</IconStyle>
+					<BalloonStyle>
+					</BalloonStyle>
+					<LineStyle>
+						<color>ff00aaff</color>
+						<width>2.5</width>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff005500</color>
+					</PolyStyle>
+				</Style>
+				<Style id="sn_ylw-pushpin0">
+					<IconStyle>
+						<scale>1.1</scale>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+						</Icon>
+						<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+					</IconStyle>
+					<BalloonStyle>
+					</BalloonStyle>
+					<LineStyle>
+						<color>ff00aaff</color>
+						<width>2.5</width>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff005500</color>
+					</PolyStyle>
+				</Style>
+				<Folder>
+					<name>go_143_aff_22_23__entities</name>
+					<open>1</open>
+					<Placemark>
+						<styleUrl>#msn_ylw-pushpin0</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#go_143_aff_22_23__entities0">
+								<SimpleData name="Layer">top1</SimpleData>
+								<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+								<SimpleData name="EntityHandle">24A</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<LineString>
+							<coordinates>
+								78.9435525503704,10.975921624313,0 78.94365928419541,10.9759310665488,0 78.9437309369337,10.9759376408002,0 78.943840063145,10.9759765272561,0 78.94394457021831,10.9760611555725,0 78.944049807388,10.9762313678129,0 78.9440226586028,10.9763918236537,0 78.9440306918079,10.9765688005315,0 78.9441992953531,10.976686479847,0 78.9443215463521,10.9767727357455,0 78.94437164601371,10.9767785155582,0 78.94442355773539,10.97681175587022,0 78.94442655798125,10.9768310544803,0 78.9443668343812,10.9767851887605,0 78.9443185057706,10.9767787900845,0 78.94402350782021,10.9765739729642,0 78.9440168124368,10.9763925483361,0 78.94404450894309,10.9762319679796,0 78.9439404137686,10.9760634635944,0 78.94383503108619,10.9759798832975,0 78.9437290752996,10.9759426671116,0 78.9435493901486,10.9759284676452,0 78.9435525503704,10.975921624313,0 
+							</coordinates>
+						</LineString>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#msn_ylw-pushpin</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#go_143_aff_22_23__entities0">
+								<SimpleData name="Layer">top1</SimpleData>
+								<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+								<SimpleData name="EntityHandle">24B</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<LineString>
+							<coordinates>
+								78.94377946054961,10.9758960477249,0 78.94384473743079,10.9759004325482,0 78.94391806250241,10.9758585472948,0 78.94402532603669,10.9757966279786,0 78.9441079410462,10.9757956550146,0 78.9442298107968,10.9758361967546,0 78.9443621587922,10.9758544662898,0 78.9444989988073,10.9758245158599,0 78.944586711448,10.9757933284686,0 78.94462125784931,10.975762287268,0 78.9446229216008,10.9754678196879,0 78.94459547173869,10.9752343350947,0 78.94465488377659,10.9751647892421,0 78.94472249766871,10.9750732173811,0 78.94475391896231,10.9750226380086,0 78.9449921831596,10.9749529813348,0 78.94503767987131,10.9750886358393,0 78.945098399297,10.9752758820885,0 78.945144295124,10.9755307058364,0 78.94517632085051,10.9756434726043,0 78.9452333216461,10.9758266549501,0 78.9452438332962,10.9758273515938,0 78.9452347233095,10.9758021033456,0 78.9451513223384,10.9755347305297,0 78.9451241233199,10.9753835520443,0 78.9451045648736,10.9752745876933,0 78.94502723131831,10.9750379635737,0 78.9449955146216,10.9749474392461,0 78.9449841629587,10.9749496012754,0 78.944750317694,10.9750189646697,0 78.94466124903251,10.9751467845298,0 78.9445896343983,10.9752342213194,0 78.9446132023341,10.9754316202362,0 78.9446163934748,10.9755415280208,0 78.9446174100708,10.9757612381257,0 78.9445839864228,10.9757906867707,0 78.94449617328711,10.9758211990668,0 78.9443615957376,10.9758507262742,0 78.9442304385511,10.9758327545486,0 78.94410820271329,10.9757925770344,0 78.9440243381794,10.9757934877092,0 78.9439739848842,10.975822227018,0 78.94386514605461,10.9758842638886,0 78.94384341939281,10.9758972438906,0 78.9437795137394,10.9758922682784,0 78.94377946054961,10.9758960477249,0 
+							</coordinates>
+						</LineString>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#m_ylw-pushpin1</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#go_143_aff_22_23__entities0">
+								<SimpleData name="Layer">0</SimpleData>
+								<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+								<SimpleData name="EntityHandle">24D</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<LineString>
+							<coordinates>
+								78.9477806987049,10.9795020576268,0 78.947942569313,10.9795701447262,0 78.9480229020516,10.9796202049048,0 78.9481182337645,10.9796354119192,0 78.94823061934299,10.9796031573247,0 78.9482706835647,10.9795005066182,0 78.9481976667974,10.9793883550278,0 78.9481787476921,10.9792785100269,0 78.9480512627356,10.9793601813033,0 78.9479743087871,10.9793907328807,0 78.94785895171491,10.9794258802191,0 78.9477806987049,10.9795020576268,0 
+							</coordinates>
+						</LineString>
+					</Placemark>
+				</Folder>
+			</Document>
+			<Folder>
+				<name>Area Features</name>
+				<description>Area Features</description>
+				<Placemark>
+					<name>Kallakudi Limestone Mines Go.No.143_Lease_Boundary</name>
+					<description><![CDATA[Unknown Area Type<BR><BR><B>Name</B> = Kallakudi Limestone Mines Go.No.143_Lease_Boundary]]></description>
+					<styleUrl>#area1</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									78.9452083804,10.9743771701,0 78.94513947,10.9737531037,0 78.94557059189999,10.9736840928,0 78.9460056388,10.9736447996,0 78.9460684293,10.9742371247,0 78.9456306223,10.9742792916,0 78.9452083804,10.9743771701,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Kallakudi Limestone Mines Go.No.143_Lease_Boundary</name>
+					<description><![CDATA[Unknown Area Type<BR><BR><B>Name</B> = Kallakudi Limestone Mines Go.No.143_Lease_Boundary]]></description>
+					<styleUrl>#area1</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									78.94284432950001,10.9753716815,0 78.94310308270001,10.975313043,0 78.94315086410001,10.9754975884,0 78.9429098218,10.9755457099,0 78.94284432950001,10.9753716815,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Kallakudi Limestone Mines Go.No.143_Lease_Boundary</name>
+					<description><![CDATA[Unknown Area Type<BR><BR><B>Name</B> = Kallakudi Limestone Mines Go.No.143_Lease_Boundary]]></description>
+					<styleUrl>#area1</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									78.94718144629999,10.9764072356,0 78.94714342429999,10.9758635695,0 78.9469597399,10.9759139647,0 78.94693020450001,10.9754233962,0 78.94728707,10.9753866203,0 78.9472577376,10.9758228785,0 78.9472403906,10.9758394847,0 78.9473007615,10.9763580821,0 78.94718144629999,10.9764072356,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Kallakudi Limestone Mines Go.No.143_Lease_Boundary</name>
+					<description><![CDATA[Unknown Area Type<BR><BR><B>Name</B> = Kallakudi Limestone Mines Go.No.143_Lease_Boundary]]></description>
+					<styleUrl>#area1</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									78.94585936670001,10.9774953566,0 78.94596321669999,10.9778875551,0 78.9456334867,10.9779620222,0 78.9457218891,10.9781381032,0 78.94546930689999,10.9782302641,0 78.9447161471,10.9776569683,0 78.945478616,10.9776102072,0 78.94585936670001,10.9774953566,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Kallakudi Limestone Mines Go.No.143_Lease_Boundary</name>
+					<description><![CDATA[Unknown Area Type<BR><BR><B>Name</B> = Kallakudi Limestone Mines Go.No.143_Lease_Boundary]]></description>
+					<styleUrl>#area1</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									78.9460346461,10.9772296197,0 78.94600660250001,10.9768266136,0 78.9461717974,10.9768762314,0 78.9462668574,10.9770968875,0 78.9460346461,10.9772296197,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Kallakudi Limestone Mines Go.No.143_Lease_Boundary</name>
+					<description><![CDATA[Unknown Area Type<BR><BR><B>Name</B> = Kallakudi Limestone Mines Go.No.143_Lease_Boundary]]></description>
+					<styleUrl>#area1</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									78.9474413808,10.9776150287,0 78.94774926159999,10.978194894,0 78.9480815057,10.9790452805,0 78.9482121225,10.9790033724,0 78.9483182754,10.9796388421,0 78.94801576570001,10.9796923267,0 78.94755157589999,10.9794350671,0 78.9474930133,10.9792879305,0 78.94737588949999,10.979336419,0 78.9471500099,10.9792085991,0 78.94741933660001,10.9791238801,0 78.9474045386,10.9790717993,0 78.9470452167,10.9791512564,0 78.9469477058,10.9790964393,0 78.9473780326,10.9790182567,0 78.9472998327,10.9787941775,0 78.9466960741,10.9789543271,0 78.9458402395,10.9784493776,0 78.94586772140001,10.9784397833,0 78.9464328546,10.9782599597,0 78.9464660526,10.9782915748,0 78.94709597950001,10.9781698171,0 78.946964751,10.9777317203,0 78.9474413808,10.9776150287,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Kallakudi Limestone Mines Go.No.143_Lease_Boundary</name>
+					<description><![CDATA[Unknown Area Type<BR><BR><B>Name</B> = Kallakudi Limestone Mines Go.No.143_Lease_Boundary]]></description>
+					<styleUrl>#area1</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									78.9449777932,10.9744228658,0 78.9452465001,10.9757861714,0 78.94542621630001,10.9757818346,0 78.94545918990001,10.9760578551,0 78.9459045361,10.9759782541,0 78.945903982,10.9762522817,0 78.9456783525,10.9763520817,0 78.9457039637,10.9765773436,0 78.945472358,10.9765763173,0 78.9454782041,10.9767493232,0 78.94572260619999,10.9767413125,0 78.94588090800001,10.9767843057,0 78.9458874247,10.9771310893,0 78.9456395545,10.9772024654,0 78.9456260585,10.9771078334,0 78.94526613009999,10.9771776856,0 78.94534694870001,10.9775090715,0 78.94498586669999,10.977562872,0 78.9444440292,10.9774814996,0 78.94427513860001,10.9773648006,0 78.9442078979,10.9769808032,0 78.9441093909,10.9770212544,0 78.9440735508,10.9772737583,0 78.9438412601,10.9771025893,0 78.9433286176,10.9767246305,0 78.9430183564,10.975863128,0 78.9432120093,10.9758429436,0 78.94370263250001,10.9757877412,0 78.9436314756,10.9754330928,0 78.9433798833,10.9754618081,0 78.9433447735,10.975265027,0 78.9435368968,10.9752284531,0 78.9435021483,10.9750587721,0 78.9437493304,10.9750182586,0 78.94378670570001,10.9751903978,0 78.9444586163,10.9751350649,0 78.9443684221,10.9745694254,0 78.9449777932,10.9744228658,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+						<innerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									78.94438633359999,10.975398683,0 78.9443935414,10.9756950346,0 78.9445616089,10.9757004718,0 78.9445488905,10.975383493,0 78.94438633359999,10.975398683,0 
+								</coordinates>
+							</LinearRing>
+							<LinearRing>
+								<coordinates>
+									78.94516188919999,10.9767884547,0 78.9451194925,10.9765340301,0 78.944564906,10.976644374,0 78.94441434940001,10.9766607548,0 78.94443750720001,10.9768614068,0 78.94516188919999,10.9767884547,0 
+								</coordinates>
+							</LinearRing>
+							<LinearRing>
+								<coordinates>
+									78.9453638996,10.9767387643,0 78.9453516305,10.9763293114,0 78.94519827160001,10.9763213732,0 78.9452606043,10.9767508694,0 78.9453638996,10.9767387643,0 
+								</coordinates>
+							</LinearRing>
+							<LinearRing>
+								<coordinates>
+									78.9453891783,10.9768967184,0 78.9450974163,10.976925229,0 78.94512231340001,10.9770498805,0 78.9454091305,10.9770213897,0 78.9453891783,10.9768967184,0 
+								</coordinates>
+							</LinearRing>
+						</innerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Placemark>
+			<name>Afforestation 2022 to 2023</name>
+			<LookAt>
+				<longitude>78.94437783993826</longitude>
+				<latitude>10.97597099780072</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0004786794344758179</heading>
+				<tilt>30.00043980622274</tilt>
+				<range>98.43755536063803</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.94441749524674,10.97583576333087,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>GO 143 total afforestation upto 22.kml</name>
+		<Schema name="klk_afforestation_pg_georefernced__entities" id="klk_afforestation_pg_georefernced__entities">
+			<SimpleField type="string" name="Layer"></SimpleField>
+			<SimpleField type="int" name="PaperSpace"></SimpleField>
+			<SimpleField type="string" name="SubClasses"></SimpleField>
+			<SimpleField type="string" name="Linetype"></SimpleField>
+			<SimpleField type="string" name="EntityHandle"></SimpleField>
+			<SimpleField type="string" name="Text"></SimpleField>
+		</Schema>
+		<Style id="area100">
+			<LineStyle>
+				<color>ffff00ff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ff00ff</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="area1000">
+			<LineStyle>
+				<color>ffff00ff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ff00ff</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="area110">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#area120</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#area100</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="area1100">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#area12</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#area1000</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="area12">
+			<LineStyle>
+				<color>ffff00ff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ff00ff</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="area120">
+			<LineStyle>
+				<color>ffff00ff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ff00ff</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin2">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="m_ylw-pushpin20">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin2</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_ylw-pushpin1">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_ylw-pushpin1</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_ylw-pushpin00</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_ylw-pushpin00">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_ylw-pushpin00</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_ylw-pushpin1</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin2">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff00ff00</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>8000ff00</color>
+			</PolyStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl2">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff00ff00</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>8000ff00</color>
+			</PolyStyle>
+		</Style>
+		<Style id="sh_ylw-pushpin1">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff00ff00</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>8000ff00</color>
+			</PolyStyle>
+		</Style>
+		<Style id="sh_ylw-pushpin00">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff00ff00</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>8000ff00</color>
+			</PolyStyle>
+		</Style>
+		<Style id="sn_ylw-pushpin1">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff00ff00</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>8000ff00</color>
+			</PolyStyle>
+		</Style>
+		<Style id="sn_ylw-pushpin00">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff00ff00</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>8000ff00</color>
+			</PolyStyle>
+		</Style>
+		<Placemark>
+			<name>Total Afforestation upto 2022</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>78.94436282435659</longitude>
+				<latitude>10.97667658024842</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0004880451276305659</heading>
+				<tilt>30.00235328134706</tilt>
+				<range>523.9389202059067</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.94356362001921,10.97629096418544,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Total Afforestation upto 2022</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>78.94436282435659</longitude>
+				<latitude>10.97667658024842</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0004880451276305659</heading>
+				<tilt>30.00235328134706</tilt>
+				<range>523.9389202059067</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.94523657693328,10.9777665126328,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Total Afforestation upto 2022</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>78.94436282435659</longitude>
+				<latitude>10.97667658024842</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0004880451276305659</heading>
+				<tilt>30.00235328134706</tilt>
+				<range>523.9389202059067</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.94395325932176,10.97682687252519,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Total Afforestation upto 2022</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>78.94541606641836</longitude>
+				<latitude>10.97713955402648</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0002866585247052486</heading>
+				<tilt>30.00313765170015</tilt>
+				<range>698.5635008907969</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.94712705535424,10.97556481180542,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Total Afforestation upto 2022</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>78.94436282435659</longitude>
+				<latitude>10.97667658024842</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0004880451276305659</heading>
+				<tilt>30.00235328134706</tilt>
+				<range>523.9389202059067</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.94453680424417,10.97710197105703,0</coordinates>
+			</Point>
+		</Placemark>
+		<Folder>
+			<name>GO 143 total afforestation upto 22</name>
+			<Placemark>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#klk_afforestation_pg_georefernced__entities">
+						<SimpleData name="Layer">Afforestation</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+						<SimpleData name="EntityHandle">25F</SimpleData>
+						<SimpleData name="Text">ANSI31</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.94693810259039,10.97543223656854,0 78.94727768681358,10.97539520024243,0 78.94725143793522,10.97581405186347,0 78.94723187755132,10.97583880871122,0 78.94729029140777,10.97635328367303,0 78.94719079672481,10.97638391562632,0 78.94717460748147,10.9762057780755,0 78.94715347483628,10.9758512531705,0 78.94697000677645,10.97590061480923,0 78.94694787814198,10.97554008582886,0 78.94693810259039,10.97543223656854,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.94596730035488,10.97841775712825,0 78.94624061381317,10.97832932208367,0 78.94658256943293,10.97848917417448,0 78.94702434931983,10.97856990630882,0 78.94715180425713,10.97869964204367,0 78.94711290150366,10.97880507038831,0 78.9469877391841,10.97882785268885,0 78.9468601957025,10.97889121312766,0 78.94669435549599,10.97893606173742,0 78.94640130308827,10.97872170478156,0 78.94618371139752,10.9785784889334,0 78.94596730035488,10.97841775712825,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin20</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#klk_afforestation_pg_georefernced__entities">
+						<SimpleData name="Layer">Afforestation</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+						<SimpleData name="EntityHandle">25E</SimpleData>
+						<SimpleData name="Text">ANSI31</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.944320791777,10.9773213600381,0 78.94423967603136,10.97712277362718,0 78.94423803612432,10.97684129642727,0 78.9443604787767,10.97688309335138,0 78.94451940571703,10.97697232206278,0 78.9446784447465,10.9771239942211,0 78.94496187151481,10.9773385503249,0 78.94519955752401,10.9775173906591,0 78.94499395244674,10.97755092649136,0 78.9445531165708,10.9774960792037,0 78.94434307267829,10.9773552024291,0 78.944320791777,10.9773213600381,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<open>1</open>
+				<styleUrl>#m_ylw-pushpin20</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#klk_afforestation_pg_georefernced__entities">
+						<SimpleData name="Layer">Afforestation</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+						<SimpleData name="EntityHandle">25D</SimpleData>
+						<SimpleData name="Text">ANSI31</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.94369549886571,10.97685271431553,0 78.94382069484493,10.97673256223927,0 78.94395714309738,10.97661968179636,0 78.9439834078056,10.9766230366145,0 78.9440596171586,10.9767091333217,0 78.94421330056315,10.97684951567485,0 78.94420307122033,10.97691662600761,0 78.94422090232038,10.97697109841421,0 78.94417356474723,10.97697080041565,0 78.94410224086575,10.97700791832609,0 78.9440670657861,10.977204380663,0 78.9439343109747,10.9771265171257,0 78.94379411525919,10.9770163236063,0 78.94371918240677,10.97691190966672,0 78.94369549886571,10.97685271431553,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<open>1</open>
+				<styleUrl>#m_ylw-pushpin20</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#klk_afforestation_pg_georefernced__entities">
+						<SimpleData name="Layer">Afforestation</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+						<SimpleData name="EntityHandle">25C</SimpleData>
+						<SimpleData name="Text">ANSI31</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.9430759084976,10.9759353337038,0 78.9433976459793,10.9759184327164,0 78.9436370452308,10.9760032228576,0 78.94379463271549,10.9760387775217,0 78.94392627657309,10.9761649265896,0 78.943962652406,10.976334839127,0 78.9439205433633,10.9765105584598,0 78.943811983186,10.976664946013,0 78.9436177272909,10.97680466589321,0 78.94344428577547,10.9766114052812,0 78.9432032408908,10.9762259362492,0 78.9430787441362,10.9759351356991,0 78.9430759084976,10.9759353337038,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.9448152374179,10.97766137133468,0 78.9453380115107,10.97762786814154,0 78.94573446357026,10.97788856427383,0 78.94561658071042,10.97795864206515,0 78.94570429093041,10.97812399164949,0 78.94555106056646,10.97818772816918,0 78.94525682597515,10.97802035931542,0 78.94506841082898,10.97785145872635,0 78.9448152374179,10.97766137133468,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Folder>
+				<name>Area Features</name>
+				<description>Area Features</description>
+				<Placemark>
+					<name>Kallakudi Limestone Mines Go.No.143_Lease_Boundary</name>
+					<description><![CDATA[Unknown Area Type<BR><BR><B>Name</B> = Kallakudi Limestone Mines Go.No.143_Lease_Boundary]]></description>
+					<styleUrl>#area110</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									78.9452083804,10.9743771701,0 78.94513947,10.9737531037,0 78.94557059189999,10.9736840928,0 78.9460056388,10.9736447996,0 78.9460684293,10.9742371247,0 78.9456306223,10.9742792916,0 78.9452083804,10.9743771701,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Kallakudi Limestone Mines Go.No.143_Lease_Boundary</name>
+					<description><![CDATA[Unknown Area Type<BR><BR><B>Name</B> = Kallakudi Limestone Mines Go.No.143_Lease_Boundary]]></description>
+					<styleUrl>#area110</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									78.94284432950001,10.9753716815,0 78.94310308270001,10.975313043,0 78.94315086410001,10.9754975884,0 78.9429098218,10.9755457099,0 78.94284432950001,10.9753716815,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Kallakudi Limestone Mines Go.No.143_Lease_Boundary</name>
+					<description><![CDATA[Unknown Area Type<BR><BR><B>Name</B> = Kallakudi Limestone Mines Go.No.143_Lease_Boundary]]></description>
+					<styleUrl>#area110</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									78.94718144629999,10.9764072356,0 78.94714342429999,10.9758635695,0 78.9469597399,10.9759139647,0 78.94693020450001,10.9754233962,0 78.94728707,10.9753866203,0 78.9472577376,10.9758228785,0 78.9472403906,10.9758394847,0 78.9473007615,10.9763580821,0 78.94718144629999,10.9764072356,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Kallakudi Limestone Mines Go.No.143_Lease_Boundary</name>
+					<description><![CDATA[Unknown Area Type<BR><BR><B>Name</B> = Kallakudi Limestone Mines Go.No.143_Lease_Boundary]]></description>
+					<styleUrl>#area1100</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									78.94585936670001,10.9774953566,0 78.94596321669999,10.9778875551,0 78.9456334867,10.9779620222,0 78.9457218891,10.9781381032,0 78.94546930689999,10.9782302641,0 78.9447161471,10.9776569683,0 78.945478616,10.9776102072,0 78.94585936670001,10.9774953566,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Kallakudi Limestone Mines Go.No.143_Lease_Boundary</name>
+					<description><![CDATA[Unknown Area Type<BR><BR><B>Name</B> = Kallakudi Limestone Mines Go.No.143_Lease_Boundary]]></description>
+					<styleUrl>#area110</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									78.9460346461,10.9772296197,0 78.94600660250001,10.9768266136,0 78.9461717974,10.9768762314,0 78.9462668574,10.9770968875,0 78.9460346461,10.9772296197,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Kallakudi Limestone Mines Go.No.143_Lease_Boundary</name>
+					<description><![CDATA[Unknown Area Type<BR><BR><B>Name</B> = Kallakudi Limestone Mines Go.No.143_Lease_Boundary]]></description>
+					<styleUrl>#area110</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									78.9474413808,10.9776150287,0 78.94774926159999,10.978194894,0 78.9480815057,10.9790452805,0 78.9482121225,10.9790033724,0 78.9483182754,10.9796388421,0 78.94801576570001,10.9796923267,0 78.94755157589999,10.9794350671,0 78.9474930133,10.9792879305,0 78.94737588949999,10.979336419,0 78.9471500099,10.9792085991,0 78.94741933660001,10.9791238801,0 78.9474045386,10.9790717993,0 78.9470452167,10.9791512564,0 78.9469477058,10.9790964393,0 78.9473780326,10.9790182567,0 78.9472998327,10.9787941775,0 78.9466960741,10.9789543271,0 78.9458402395,10.9784493776,0 78.94586772140001,10.9784397833,0 78.9464328546,10.9782599597,0 78.9464660526,10.9782915748,0 78.94709597950001,10.9781698171,0 78.946964751,10.9777317203,0 78.9474413808,10.9776150287,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Kallakudi Limestone Mines Go.No.143_Lease_Boundary</name>
+					<description><![CDATA[Unknown Area Type<BR><BR><B>Name</B> = Kallakudi Limestone Mines Go.No.143_Lease_Boundary]]></description>
+					<styleUrl>#area110</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									78.9449777932,10.9744228658,0 78.9452465001,10.9757861714,0 78.94542621630001,10.9757818346,0 78.94545918990001,10.9760578551,0 78.9459045361,10.9759782541,0 78.945903982,10.9762522817,0 78.9456783525,10.9763520817,0 78.9457039637,10.9765773436,0 78.945472358,10.9765763173,0 78.9454782041,10.9767493232,0 78.94572260619999,10.9767413125,0 78.94588090800001,10.9767843057,0 78.9458874247,10.9771310893,0 78.9456395545,10.9772024654,0 78.9456260585,10.9771078334,0 78.94526613009999,10.9771776856,0 78.94534694870001,10.9775090715,0 78.94498586669999,10.977562872,0 78.9444440292,10.9774814996,0 78.94427513860001,10.9773648006,0 78.9442078979,10.9769808032,0 78.9441093909,10.9770212544,0 78.9440735508,10.9772737583,0 78.9438412601,10.9771025893,0 78.9433286176,10.9767246305,0 78.9430183564,10.975863128,0 78.9432120093,10.9758429436,0 78.94370263250001,10.9757877412,0 78.9436314756,10.9754330928,0 78.9433798833,10.9754618081,0 78.9433447735,10.975265027,0 78.9435368968,10.9752284531,0 78.9435021483,10.9750587721,0 78.9437493304,10.9750182586,0 78.94378670570001,10.9751903978,0 78.9444586163,10.9751350649,0 78.9443684221,10.9745694254,0 78.9449777932,10.9744228658,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+						<innerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									78.94438633359999,10.975398683,0 78.9443935414,10.9756950346,0 78.9445616089,10.9757004718,0 78.9445488905,10.975383493,0 78.94438633359999,10.975398683,0 
+								</coordinates>
+							</LinearRing>
+							<LinearRing>
+								<coordinates>
+									78.94516188919999,10.9767884547,0 78.9451194925,10.9765340301,0 78.944564906,10.976644374,0 78.94441434940001,10.9766607548,0 78.94443750720001,10.9768614068,0 78.94516188919999,10.9767884547,0 
+								</coordinates>
+							</LinearRing>
+							<LinearRing>
+								<coordinates>
+									78.9453638996,10.9767387643,0 78.9453516305,10.9763293114,0 78.94519827160001,10.9763213732,0 78.9452606043,10.9767508694,0 78.9453638996,10.9767387643,0 
+								</coordinates>
+							</LinearRing>
+							<LinearRing>
+								<coordinates>
+									78.9453891783,10.9768967184,0 78.9450974163,10.976925229,0 78.94512231340001,10.9770498805,0 78.9454091305,10.9770213897,0 78.9453891783,10.9768967184,0 
+								</coordinates>
+							</LinearRing>
+						</innerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Placemark>
+			<name>Total Afforestation upto 2022</name>
+			<LookAt>
+				<longitude>78.94482887074778</longitude>
+				<latitude>10.97721132240411</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0005375909097318494</heading>
+				<tilt>27.49628176524245</tilt>
+				<range>544.902295170472</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.94632028750236,10.97846979838061,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+</Folder>
+</kml>

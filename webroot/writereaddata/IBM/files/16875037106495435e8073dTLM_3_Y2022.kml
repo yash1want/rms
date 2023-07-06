@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>TLM_3_Y2022.kml</name>
+	<open>1</open>
+	<Schema name="entities" id="entities">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="int" name="PaperSpace"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Schema name="entities" id="entities0">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="int" name="PaperSpace"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Style id="style">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style0">
+		<LineStyle>
+			<color>ff7f0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>667f0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style1">
+		<LineStyle>
+			<color>ff00aa00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600aa00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style10">
+		<LineStyle>
+			<color>ff00aa00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600aa00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style11">
+		<LineStyle>
+			<color>ff00aa00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600aa00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style12">
+		<LineStyle>
+			<color>ff7f0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>667f0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style13">
+		<LineStyle>
+			<color>ff00aa00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600aa00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style14">
+		<LineStyle>
+			<color>ff00aa00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600aa00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style15">
+		<LineStyle>
+			<color>ff00aa00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600aa00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style16">
+		<LineStyle>
+			<color>ff00aa00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600aa00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style2">
+		<LineStyle>
+			<color>ff00aa00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600aa00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style3">
+		<LineStyle>
+			<color>ff7f0055</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>667f0055</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style4">
+		<LineStyle>
+			<color>ff7f0055</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>667f0055</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style5">
+		<LineStyle>
+			<color>ff7f0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>667f0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style6">
+		<LineStyle>
+			<color>ff7f0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>667f0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style7">
+		<LineStyle>
+			<color>ff00aa00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600aa00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style8">
+		<LineStyle>
+			<color>ff00aa00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600aa00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style9">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style16</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>entities</name>
+		<open>1</open>
+		<Placemark>
+			<name>working pit</name>
+			<styleUrl>#stylemap_id0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#entities">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">2353D</SimpleData>
+					<SimpleData name="Text">ANGLE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.0476896759283,15.0075011016892,0 78.04772512311639,15.0078108500465,0 78.0476989152135,15.0079253233079,0 78.0476131668516,15.0079823742114,0 78.0468302930535,15.0081930393375,0 78.04683030198581,15.0081936730866,0 78.0466642832239,15.0082497501098,0 78.0466195557488,15.0080582649157,0 78.04678384554791,15.0079793724629,0 78.0467080485125,15.0077166137297,0 78.04657943786241,15.0072344063905,0 78.0464751836269,15.0068340531142,0 78.04711773175617,15.00639764354736,0 78.04741169330708,15.00646145363489,0 78.04758494011089,15.0065486386905,0 78.047865590269,15.0074570050349,0 78.0476896759283,15.0075011016892,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>grren belt</name>
+			<styleUrl>#stylemap_id4</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#entities">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">23544</SimpleData>
+					<SimpleData name="Text">ANGLE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.04676089067399,15.0079673402798,0 78.0466429625523,15.0080123902692,0 78.04637868828721,15.0068870122188,0 78.0464735927969,15.0068338401973,0 78.04676089067399,15.0079673402798,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>green belt</name>
+			<styleUrl>#stylemap_id5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#entities">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">23555</SimpleData>
+					<SimpleData name="Text">ANGLE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.0511687677854,15.0073798138546,0 78.05117502335639,15.0075024242097,0 78.04990493887099,15.0077950642737,0 78.049220894546,15.0079471429336,0 78.0480737483136,15.0081010491261,0 78.0468315083948,15.0082792688063,0 78.046830307945,15.0081940958974,0 78.0475881676922,15.0079992413258,0 78.04813927986081,15.0079520557544,0 78.0493729563325,15.0078221429132,0 78.04976508885341,15.0077447700326,0 78.050454535603,15.0075138201609,0 78.0511687677854,15.0073798138546,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>old quarries reject dump</name>
+			<styleUrl>#stylemap_id3</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#entities">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">2357C</SimpleData>
+					<SimpleData name="Text">ANGLE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.0574273668026,15.002507517779,0 78.0570265206144,15.0026269484225,0 78.05701905879491,15.0025934926797,0 78.057018919342,15.002538495591,0 78.057024192798,15.0025273305514,0 78.0570512832827,15.0024735238042,0 78.0570644290561,15.0024259687112,0 78.0570716584634,15.0023690429214,0 78.0570713256768,15.002325502555,0 78.0570812891645,15.0023024700528,0 78.0570994567622,15.0022673043535,0 78.0571149446624,15.0022287794845,0 78.0570990742734,15.0021844640772,0 78.0570740443296,15.0021419584069,0 78.05705855276079,15.0021051563349,0 78.05705038081609,15.0020584488021,0 78.0570251451075,15.0020242624253,0 78.05701123879091,15.002007641605,0 78.05700860128771,15.0019904477325,0 78.05699566327149,15.0019645084012,0 78.05697987774499,15.0019320541862,0 78.0569710710855,15.0018895424667,0 78.05696536856389,15.0018591757401,0 78.0569559816841,15.0018177782305,0 78.0569629510932,15.0017835030069,0 78.0569774593487,15.0017547388203,0 78.0569987622208,15.0017330643771,0 78.0570480407923,15.0016907552586,0 78.057100537819,15.001657424853,0 78.05712467808721,15.0016309105617,0 78.0571721318566,15.0016022523037,0 78.05721801745889,15.0016047077396,0 78.057262847178,15.0016049061722,0 78.057316968523,15.0016136837222,0 78.0573743968172,15.0016345199843,0 78.05741986870881,15.0016633296514,0 78.0574273668026,15.002507517779,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>old quarries reject dump</name>
+			<styleUrl>#stylemap_id2</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#entities">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">2359A</SimpleData>
+					<SimpleData name="Text">ANGLE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.0561583275742,15.002863864035,0 78.05617126812049,15.0028788742919,0 78.0554327267447,15.0030916004413,0 78.05541761276,15.0030355480097,0 78.0554353038569,15.0029861230482,0 78.0554563081039,15.0029576621099,0 78.0555037766925,15.0029276993396,0 78.05554015137901,15.0029267510414,0 78.0555793666438,15.0029380269828,0 78.0556101877398,15.0029567737728,0 78.055655299008,15.0029654412186,0 78.05569408686191,15.0029545047106,0 78.0557322761934,15.002962127982,0 78.0557565162226,15.0029488487066,0 78.05575924243109,15.0029285640057,0 78.0557621208429,15.0029033238069,0 78.0557699970598,15.0028755205624,0 78.0557872639899,15.0028655853757,0 78.0558328200851,15.002820375085,0 78.0558716728119,15.0027753487584,0 78.0559073987899,15.0027647898549,0 78.0559566798955,15.0027544287681,0 78.05600926247379,15.0027534282133,0 78.0560314844499,15.0027603690627,0 78.05606386696221,15.0027794627985,0 78.0560934094738,15.0028056940207,0 78.0561213844336,15.002824923973,0 78.0561583275742,15.002863864035,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>green belt</name>
+			<styleUrl>#stylemap_id6</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#entities">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">235A2</SimpleData>
+					<SimpleData name="Text">ANGLE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.04417158228971,15.0036373400566,0 78.04409289979409,15.0034882668821,0 78.04490671064561,15.0030750740641,0 78.04580258133799,15.0027279581498,0 78.0458821205716,15.0028391598944,0 78.04417158228971,15.0036373400566,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>green belt</name>
+			<styleUrl>#stylemap_id7</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#entities">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">235AB</SimpleData>
+					<SimpleData name="Text">ANGLE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.0456598450388,15.0040576819769,0 78.04560413356209,15.0040790090512,0 78.04566294415091,15.0041626830411,0 78.0455209398695,15.0042490412085,0 78.0454036219101,15.0040596464731,0 78.04559299366819,15.0038980494804,0 78.0456598450388,15.0040576819769,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>green belt</name>
+			<styleUrl>#stylemap_id8</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#entities">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">235B3</SimpleData>
+					<SimpleData name="Text">ANGLE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.0459735560393,15.0049999723844,0 78.04592576129831,15.0050249453976,0 78.0458447436567,15.0050621861469,0 78.04554120658329,15.004408758229,0 78.04567548464441,15.0043698302792,0 78.0459735560393,15.0049999723844,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ML boundary</name>
+			<styleUrl>#stylemap_id1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#entities0">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+					<SimpleData name="EntityHandle">23524</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					78.0466869243179,15.0083553023925,253.4168 78.0471774349391,15.0083200611846,253.4168 78.04924053632431,15.0079804019298,253.4168 78.0498866969259,15.0078353680862,253.4168 78.0511716858264,15.0075411573328,253.4168 78.051232832528,15.0075277805433,253.4168 78.0514176576818,15.0076818704425,253.4168 78.0520264093408,15.0084190441548,253.4168 78.0518784099018,15.0075513665882,253.4168 78.0526462352925,15.0073990434722,253.4168 78.0534609943784,15.0071812381705,253.4168 78.0538823688144,15.0068575586938,253.4168 78.0539761819789,15.0067449054698,253.4168 78.0538974563452,15.0061274519186,253.4168 78.05431788227089,15.0059034601316,253.4168 78.0540634696147,15.0052032216971,253.4168 78.054604724052,15.0048049548158,253.4168 78.05500449280041,15.0045121769102,253.4168 78.0550242298718,15.004425324724,253.4168 78.0544494101091,15.004378477541,253.4168 78.0542459317404,15.0037477950088,253.4168 78.0553294608227,15.0032247869408,253.4168 78.05510124457381,15.0027500720312,253.4168 78.0552086189883,15.0024953478519,253.4168 78.0550714861413,15.0022382806517,253.4168 78.05476808349771,15.0020906007322,253.4168 78.05329791667521,15.0026870591474,253.4168 78.0531871191464,15.0021631665698,253.4168 78.05398753324489,15.0015229328929,253.4168 78.053941147215,15.00071229566,253.4168 78.0532487408492,14.9998604888019,253.4168 78.0529948009238,14.9995511869773,253.4168 78.05513837032881,14.9999092402036,253.4168 78.0549909093986,15.0015766785143,253.4168 78.0554327267447,15.0030916004413,253.4168 78.056379468918,15.0028197332208,253.4168 78.0574273668026,15.002507517779,253.4168 78.05741448742521,15.0010575068525,253.4168 78.057966124625,15.0006065509598,253.4168 78.05720489451291,14.9996408836326,253.4168 78.0561695786708,14.9974762044688,253.4168 78.0556747186923,14.995987609531,253.4168 78.0538683184168,14.9973560902072,253.4168 78.0524389751219,14.9981262965582,253.4168 78.0522313260887,14.9985450924565,253.4168 78.05189639211881,14.9988401547177,253.4168 78.0509623789571,14.9993748006654,253.4168 78.05057085151429,14.9995311786834,253.4168 78.0504701070053,15.000327939663,253.4168 78.05041824053239,15.0005843350578,253.4168 78.05039170168941,15.0011794747168,253.4168 78.05008163564079,15.0013312549085,253.4168 78.049164027164,15.0018827782076,253.4168 78.0484186094191,15.0021228010371,253.4168 78.0480554550839,15.0018609740058,253.4168 78.0479100312434,15.0018181873446,253.4168 78.0478324048207,15.0020264229959,253.4168 78.0468060484712,15.001843957033,253.4168 78.0464859584025,15.0019434029167,253.4168 78.045798647211,15.0027281834061,253.4168 78.0449223623352,15.003061190615,253.4168 78.04376596132499,15.0036464491385,253.4168 78.0442068965536,15.0040978184679,253.4168 78.0447549212462,15.0039224631488,253.4168 78.04523363663399,15.003706227031,253.4168 78.0460847982127,15.0057628002924,253.4168 78.0462375149082,15.0064581514829,253.4168 78.04631506927851,15.0068112718296,253.4168 78.0466869243179,15.0083553023925,253.4168 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

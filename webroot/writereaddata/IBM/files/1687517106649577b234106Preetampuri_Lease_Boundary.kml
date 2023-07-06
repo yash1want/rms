@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>topografix_kml.kml</name>
+	<LookAt>
+		<longitude>75.74801389</longitude>
+		<latitude>27.58397222</latitude>
+		<altitude>0</altitude>
+		<heading>0</heading>
+		<tilt>0</tilt>
+		<range>548</range>
+	</LookAt>
+	<Style id="Line_Route_0dd5fc_03">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="Line_Route_0dd5fc_030">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Line_Route_0dd5fc_03</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Line_Route_0dd5fc_031</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="Line_Route_0dd5fc_031">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Routes</name>
+		<Folder>
+			<name>Route</name>
+			<Placemark>
+				<LookAt>
+					<longitude>75.74801389</longitude>
+					<latitude>27.58397222</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>548</range>
+				</LookAt>
+				<styleUrl>#Line_Route_0dd5fc_030</styleUrl>
+				<MultiGeometry>
+					<LineString>
+						<coordinates>
+							75.74797221999999,27.58616667,0 75.74802778,27.58591667,0 75.74822222,27.58597222,0 75.74877778,27.58352778,0 75.74841667,27.5835,0 75.74883333,27.58172222,0 75.74808333,27.58161111,0 75.74772222,27.58336111,0 75.74780556,27.58338889,0 75.74772222,27.58383333,0 75.74747222000001,27.58377778,0 75.74719444,27.58511111,0 75.74744444,27.58513889,0 75.74719444,27.58625,0 75.74769444,27.58633333,0 75.74775,27.58633333,0 75.74797221999999,27.58616667,0 
+						</coordinates>
+					</LineString>
+				</MultiGeometry>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

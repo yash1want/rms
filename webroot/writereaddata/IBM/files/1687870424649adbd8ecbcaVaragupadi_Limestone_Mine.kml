@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Varagupadi Limestone Mine</name>
+	<Schema name="Afforestation" id="S_Afforestation_SSDSSDD">
+		<SimpleField type="long" name="OID_"><displayName>&lt;b&gt;OID_&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FolderPath"><displayName>&lt;b&gt;FolderPath&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="SymbolID"><displayName>&lt;b&gt;SymbolID&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="AltMode"><displayName>&lt;b&gt;AltMode&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Base"><displayName>&lt;b&gt;Base&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="Clamped"><displayName>&lt;b&gt;Clamped&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="Extruded"><displayName>&lt;b&gt;Extruded&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Snippet"><displayName>&lt;b&gt;Snippet&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="PopupInfo"><displayName>&lt;b&gt;PopupInfo&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Shape_Leng"><displayName>&lt;b&gt;Shape_Leng&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Shape_Area"><displayName>&lt;b&gt;Shape_Area&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Schema name="Excavation" id="S_Excavation_SSDSSDD">
+		<SimpleField type="long" name="OID_"><displayName>&lt;b&gt;OID_&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FolderPath"><displayName>&lt;b&gt;FolderPath&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="SymbolID"><displayName>&lt;b&gt;SymbolID&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="AltMode"><displayName>&lt;b&gt;AltMode&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Base"><displayName>&lt;b&gt;Base&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="Clamped"><displayName>&lt;b&gt;Clamped&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="Extruded"><displayName>&lt;b&gt;Extruded&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Snippet"><displayName>&lt;b&gt;Snippet&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="PopupInfo"><displayName>&lt;b&gt;PopupInfo&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Shape_Leng"><displayName>&lt;b&gt;Shape_Leng&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Shape_Area"><displayName>&lt;b&gt;Shape_Area&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Schema name="ML_BOUNDARY" id="S_ML_BOUNDARY_I">
+		<SimpleField type="int" name="Id"><displayName>&lt;b&gt;Id&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="falseColor">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>OID_</b></td><td>$[Excavation/OID_]</td></tr>
+  <tr><td><b>Name</b></td><td>$[Excavation/Name]</td></tr>
+  <tr><td><b>FolderPath</b></td><td>$[Excavation/FolderPath]</td></tr>
+  <tr><td><b>SymbolID</b></td><td>$[Excavation/SymbolID]</td></tr>
+  <tr><td><b>AltMode</b></td><td>$[Excavation/AltMode]</td></tr>
+  <tr><td><b>Base</b></td><td>$[Excavation/Base]</td></tr>
+  <tr><td><b>Clamped</b></td><td>$[Excavation/Clamped]</td></tr>
+  <tr><td><b>Extruded</b></td><td>$[Excavation/Extruded]</td></tr>
+  <tr><td><b>Snippet</b></td><td>$[Excavation/Snippet]</td></tr>
+  <tr><td><b>PopupInfo</b></td><td>$[Excavation/PopupInfo]</td></tr>
+  <tr><td><b>Shape_Leng</b></td><td>$[Excavation/Shape_Leng]</td></tr>
+  <tr><td><b>Shape_Area</b></td><td>$[Excavation/Shape_Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff005555</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff55ff</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<StyleMap id="falseColor0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor1">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[ML_BOUNDARY/Id]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor3">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>OID_</b></td><td>$[Afforestation/OID_]</td></tr>
+  <tr><td><b>Name</b></td><td>$[Afforestation/Name]</td></tr>
+  <tr><td><b>FolderPath</b></td><td>$[Afforestation/FolderPath]</td></tr>
+  <tr><td><b>SymbolID</b></td><td>$[Afforestation/SymbolID]</td></tr>
+  <tr><td><b>AltMode</b></td><td>$[Afforestation/AltMode]</td></tr>
+  <tr><td><b>Base</b></td><td>$[Afforestation/Base]</td></tr>
+  <tr><td><b>Clamped</b></td><td>$[Afforestation/Clamped]</td></tr>
+  <tr><td><b>Extruded</b></td><td>$[Afforestation/Extruded]</td></tr>
+  <tr><td><b>Snippet</b></td><td>$[Afforestation/Snippet]</td></tr>
+  <tr><td><b>PopupInfo</b></td><td>$[Afforestation/PopupInfo]</td></tr>
+  <tr><td><b>Shape_Leng</b></td><td>$[Afforestation/Shape_Leng]</td></tr>
+  <tr><td><b>Shape_Area</b></td><td>$[Afforestation/Shape_Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffaaaa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff55</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor5">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>OID_</b></td><td>$[Afforestation/OID_]</td></tr>
+  <tr><td><b>Name</b></td><td>$[Afforestation/Name]</td></tr>
+  <tr><td><b>FolderPath</b></td><td>$[Afforestation/FolderPath]</td></tr>
+  <tr><td><b>SymbolID</b></td><td>$[Afforestation/SymbolID]</td></tr>
+  <tr><td><b>AltMode</b></td><td>$[Afforestation/AltMode]</td></tr>
+  <tr><td><b>Base</b></td><td>$[Afforestation/Base]</td></tr>
+  <tr><td><b>Clamped</b></td><td>$[Afforestation/Clamped]</td></tr>
+  <tr><td><b>Extruded</b></td><td>$[Afforestation/Extruded]</td></tr>
+  <tr><td><b>Snippet</b></td><td>$[Afforestation/Snippet]</td></tr>
+  <tr><td><b>PopupInfo</b></td><td>$[Afforestation/PopupInfo]</td></tr>
+  <tr><td><b>Shape_Leng</b></td><td>$[Afforestation/Shape_Leng]</td></tr>
+  <tr><td><b>Shape_Area</b></td><td>$[Afforestation/Shape_Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffaaaa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff55</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor6">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>OID_</b></td><td>$[Excavation/OID_]</td></tr>
+  <tr><td><b>Name</b></td><td>$[Excavation/Name]</td></tr>
+  <tr><td><b>FolderPath</b></td><td>$[Excavation/FolderPath]</td></tr>
+  <tr><td><b>SymbolID</b></td><td>$[Excavation/SymbolID]</td></tr>
+  <tr><td><b>AltMode</b></td><td>$[Excavation/AltMode]</td></tr>
+  <tr><td><b>Base</b></td><td>$[Excavation/Base]</td></tr>
+  <tr><td><b>Clamped</b></td><td>$[Excavation/Clamped]</td></tr>
+  <tr><td><b>Extruded</b></td><td>$[Excavation/Extruded]</td></tr>
+  <tr><td><b>Snippet</b></td><td>$[Excavation/Snippet]</td></tr>
+  <tr><td><b>PopupInfo</b></td><td>$[Excavation/PopupInfo]</td></tr>
+  <tr><td><b>Shape_Leng</b></td><td>$[Excavation/Shape_Leng]</td></tr>
+  <tr><td><b>Shape_Area</b></td><td>$[Excavation/Shape_Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff005555</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff55ff</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor7">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[ML_BOUNDARY/Id]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>Mining Lease Boundary</name>
+		<Placemark>
+			<styleUrl>#falseColor2</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ML_BOUNDARY_I">
+					<SimpleData name="Id">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9081151936967,11.15442324942292,0 78.90753032866566,11.15420981373084,0 78.90753138814624,11.15407969675688,0 78.90730038370934,11.15402380940534,0 78.90771157528781,11.15318922672913,0 78.90764405399625,11.15281197597689,0 78.90775950069984,11.15267494751747,0 78.907963761088,11.15258990333406,0 78.90813785538586,11.15225000342644,0 78.90837756505674,11.15220582432546,0 78.90915025604629,11.1523818203636,0 78.90902448736063,11.15316746578556,0 78.91070859475951,11.1524983952639,0 78.91092116140125,11.15277152007738,0 78.91107069343668,11.15273354594758,0 78.91115709453059,11.1528722443358,0 78.91040921634369,11.1532657674188,0 78.90960139360728,11.15373356291106,0 78.90860840516991,11.15397351903663,0 78.90820324054967,11.15405420630493,0 78.9081151936967,11.15442324942292,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder id="layer 0">
+		<name>Excavation</name>
+		<Placemark>
+			<styleUrl>#falseColor4</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Excavation_SSDSSDD">
+					<SimpleData name="OID_">0</SimpleData>
+					<SimpleData name="Name">Placemark</SimpleData>
+					<SimpleData name="FolderPath">EXCAVATION.shp/EXCAVATION</SimpleData>
+					<SimpleData name="SymbolID">0</SimpleData>
+					<SimpleData name="AltMode">0</SimpleData>
+					<SimpleData name="Base">0</SimpleData>
+					<SimpleData name="Clamped">-1</SimpleData>
+					<SimpleData name="Extruded">0</SimpleData>
+					<SimpleData name="Snippet"></SimpleData>
+					<SimpleData name="PopupInfo"></SimpleData>
+					<SimpleData name="Shape_Leng">0.00939579</SimpleData>
+					<SimpleData name="Shape_Area">3.01097e-06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.90790089000127,11.15419289800002,0.3545000000012806 78.90775155300126,11.15417170699999,0.3545000000012806 78.90766789000129,11.15410257299999,0.3545000000012806 78.90762080500127,11.153970926,0.3545000000012806 78.90759678300121,11.15377910299996,0.3545000000012806 78.90763062600125,11.153650098,0.3545000000012806 78.90770129100122,11.153438053,0.3545000000012806 78.90778129900129,11.15318506799997,0.3545000000012806 78.90781073700124,11.15305240399998,0.3545000000012806 78.90786965300124,11.152843412,0.3545000000012806 78.90793088600122,11.15271902000002,0.3545000000012806 78.90799509900127,11.152628935,0.3545000000012806 78.90806456700126,11.15252889699995,0.3545000000012806 78.90816757700124,11.15239340500001,0.3545000000012806 78.90820493300124,11.15231907999998,0.3545000000012806 78.90831397400119,11.15228811700002,0.3545000000012806 78.90842877700122,11.15229847899995,0.3545000000012806 78.90860742600125,11.15237074399998,0.3545000000012806 78.90881529400127,11.15245577700002,0.3545000000012806 78.90908391100123,11.152503811,0.3545000000012806 78.90900203600125,11.15298248899999,0.3545000000012806 78.90897117700125,11.15323385799997,0.3545000000012806 78.91066492000118,11.15256644699998,0.3545000000012806 78.9108017670012,11.15274565399998,0.3545000000012806 78.91088806900119,11.15286471999996,-3.06600000000617 78.91083518100116,11.152929936,-3.06600000000617 78.91075510700125,11.15300961999996,-3.06600000000617 78.91063598700123,11.15307278499999,-3.06600000000617 78.91049733300123,11.15314013699997,-3.06600000000617 78.91041411700122,11.15318820800003,-3.06600000000617 78.91034202600122,11.15323046900001,-3.06600000000617 78.91025397100124,11.15328971999999,-3.06600000000617 78.91016807100117,11.15334370799999,-3.06600000000617 78.90997903600123,11.15345073999997,-2.043999999994412 78.90988550300121,11.15349375500001,-3.06600000000617 78.90978402600125,11.15352684800003,-3.06600000000617 78.90969742400124,11.15357251400001,-3.06600000000617 78.90959260400119,11.15360570899996,-1.807700000004843 78.9094308270012,11.15364880800001,0.3545000000012806 78.90857773800127,11.15393481500001,0.3545000000012806 78.90820307300125,11.154015379,0.3545000000012806 78.90816318400118,11.154052486,0.3545000000012806 78.90806709700126,11.15419729399999,0.3545000000012806 78.90790089000127,11.15419289800002,0.3545000000012806 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder id="layer 0">
+		<name>Afforestation</name>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Afforestation_SSDSSDD">
+					<SimpleData name="OID_">0</SimpleData>
+					<SimpleData name="Name">Afforestation-1</SimpleData>
+					<SimpleData name="FolderPath">AFFORESTATION.shp</SimpleData>
+					<SimpleData name="SymbolID">0</SimpleData>
+					<SimpleData name="AltMode">0</SimpleData>
+					<SimpleData name="Base">0</SimpleData>
+					<SimpleData name="Clamped">-1</SimpleData>
+					<SimpleData name="Extruded">0</SimpleData>
+					<SimpleData name="Snippet"></SimpleData>
+					<SimpleData name="PopupInfo"></SimpleData>
+					<SimpleData name="Shape_Leng">0.00150877</SimpleData>
+					<SimpleData name="Shape_Area">4.45935e-08</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.90758504100127,11.15348341900003,0 78.90751814300125,11.15369480999998,0 78.90748474400125,11.153839051,0 78.90749668200124,11.15400285200001,0 78.90751719600125,11.15401907799999,0 78.90753029600126,11.15407168699999,0 78.90731487500126,11.15401723999996,0 78.90748371900128,11.15367502300002,0 78.90758892300124,11.15344550899998,0 78.90758504100127,11.15348341900003,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Afforestation_SSDSSDD">
+					<SimpleData name="OID_">0</SimpleData>
+					<SimpleData name="Name">Afforestation-2r</SimpleData>
+					<SimpleData name="FolderPath">AFFORESTATION.shp</SimpleData>
+					<SimpleData name="SymbolID">0</SimpleData>
+					<SimpleData name="AltMode">0</SimpleData>
+					<SimpleData name="Base">0</SimpleData>
+					<SimpleData name="Clamped">-1</SimpleData>
+					<SimpleData name="Extruded">0</SimpleData>
+					<SimpleData name="Snippet"></SimpleData>
+					<SimpleData name="PopupInfo"></SimpleData>
+					<SimpleData name="Shape_Leng">0.0019758</SimpleData>
+					<SimpleData name="Shape_Area">6.49984e-08</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.90852487000126,11.15232698099999,0 78.90839353500127,11.15228304199995,0 78.90830039200127,11.15227766800003,0 78.90819299300125,11.15231279099998,0 78.90815241300122,11.15238512000001,0 78.90812414600123,11.15242475999997,0 78.90806869300128,11.15250394499997,0 78.90802957200124,11.15247723000003,0 78.90814661200126,11.152259933,0 78.90838126200124,11.15221516100005,0 78.90882634100126,11.15232330400001,0 78.90880588200129,11.15243259499998,0 78.90871641800123,11.15240481899996,0 78.90852487000126,11.15232698099999,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Afforestation_SSDSSDD">
+					<SimpleData name="OID_">0</SimpleData>
+					<SimpleData name="Name">Afforestation-3</SimpleData>
+					<SimpleData name="FolderPath">AFFORESTATION.shp</SimpleData>
+					<SimpleData name="SymbolID">0</SimpleData>
+					<SimpleData name="AltMode">0</SimpleData>
+					<SimpleData name="Base">0</SimpleData>
+					<SimpleData name="Clamped">-1</SimpleData>
+					<SimpleData name="Extruded">0</SimpleData>
+					<SimpleData name="Snippet"></SimpleData>
+					<SimpleData name="PopupInfo"></SimpleData>
+					<SimpleData name="Shape_Leng">0.00390385</SimpleData>
+					<SimpleData name="Shape_Area">7.99987e-08</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.90851718100122,11.15396068299999,0 78.90885561000124,11.15386114199999,0 78.90912840300119,11.15378901799998,0 78.90935286400122,11.15371924199996,0 78.90956746400127,11.15368075300001,0 78.90973214300119,11.15359632999998,0 78.90981644600117,11.15354425299999,0 78.91024247800125,11.153321147,0 78.91025991100129,11.153341983,0 78.90999998400129,11.15348714200002,0 78.90990548200126,11.15354085099999,0 78.9096246300012,11.153709093,0 78.90957052300121,11.15373096100005,0 78.90915233500118,11.15383117099999,0 78.90874423800126,11.15393251099998,0 78.90845460300125,11.15399729699999,0 78.90845861600125,11.15397342500001,0 78.90851718100122,11.15396068299999,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

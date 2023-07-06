@@ -1,0 +1,1780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>GPS device</name>
+	<snippet>Created 05/24/23 14:26:17</snippet>
+	<LookAt>
+		<gx:TimeSpan>
+			<begin>2019-02-13T03:25:47Z</begin>
+			<end>2019-02-13T04:01:56Z</end>
+		</gx:TimeSpan>
+		<longitude>77.73402400000001</longitude>
+		<latitude>8.183368</latitude>
+		<altitude>0</altitude>
+		<heading>0</heading>
+		<tilt>0</tilt>
+		<range>1300</range>
+	</LookAt>
+	<Style id="waypoint_h">
+		<IconStyle>
+			<scale>0</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint_n">
+		<IconStyle>
+			<scale>0</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="waypoint">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#waypoint_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#waypoint_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Waypoints</name>
+		<Placemark>
+			<name>VJ74001</name>
+			<TimeStamp><when>2019-02-13T04:01:56Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.731647,8.186313999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74002</name>
+			<TimeStamp><when>2019-02-13T03:25:47Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.733394,8.186069,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74003</name>
+			<TimeStamp><when>2019-02-13T03:26:54Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.733456,8.186108000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74004</name>
+			<TimeStamp><when>2019-02-13T03:27:19Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.73414099999999,8.18571,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74005</name>
+			<TimeStamp><when>2019-02-13T03:27:52Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.733409,8.185822,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74006</name>
+			<TimeStamp><when>2019-02-13T03:31:53Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.731606,8.186120000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74007</name>
+			<TimeStamp><when>2019-02-13T03:32:20Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.731568,8.185938999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74008</name>
+			<TimeStamp><when>2019-02-13T03:33:05Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.73089899999999,8.182756,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74009</name>
+			<TimeStamp><when>2019-02-13T03:33:40Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.73125400000001,8.180422,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74010</name>
+			<TimeStamp><when>2019-02-13T03:34:02Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.731273,8.181092,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74011</name>
+			<TimeStamp><when>2019-02-13T03:34:23Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.731618,8.181307,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74012</name>
+			<TimeStamp><when>2019-02-13T03:34:40Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.731753,8.181251,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74013</name>
+			<TimeStamp><when>2019-02-13T03:34:58Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.731746,8.180815000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74014</name>
+			<TimeStamp><when>2019-02-13T03:35:14Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.73201400000001,8.180834000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74015</name>
+			<TimeStamp><when>2019-02-13T03:35:36Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.732691,8.181054,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74016</name>
+			<TimeStamp><when>2019-02-13T03:35:59Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.732472,8.181768,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74017</name>
+			<TimeStamp><when>2019-02-13T03:36:30Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.732725,8.181609,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74018</name>
+			<TimeStamp><when>2019-02-13T03:36:59Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.732742,8.181716,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74019</name>
+			<TimeStamp><when>2019-02-13T03:37:18Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.734436,8.18187,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74020</name>
+			<TimeStamp><when>2019-02-13T03:37:40Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.73436599999999,8.181606,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74021</name>
+			<TimeStamp><when>2019-02-13T03:38:15Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.735259,8.182511,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74022</name>
+			<TimeStamp><when>2019-02-13T03:38:40Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.73544800000001,8.182165,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74023</name>
+			<TimeStamp><when>2019-02-13T03:39:04Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.736975,8.182377000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74024</name>
+			<TimeStamp><when>2019-02-13T03:39:30Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.736659,8.184314000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74025</name>
+			<TimeStamp><when>2019-02-13T03:39:58Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.736204,8.184913999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74026</name>
+			<TimeStamp><when>2019-02-13T03:40:37Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.73535200000001,8.185345999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74027</name>
+			<TimeStamp><when>2019-02-13T03:47:44Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.73338,8.185644,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74028</name>
+			<TimeStamp><when>2019-02-13T03:48:13Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.735801,8.185359,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74029</name>
+			<TimeStamp><when>2019-02-13T03:48:43Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.736233,8.185280000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74030</name>
+			<TimeStamp><when>2019-02-13T03:49:08Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.736434,8.185131,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74031</name>
+			<TimeStamp><when>2019-02-13T03:49:34Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.73666900000001,8.185117,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74032</name>
+			<TimeStamp><when>2019-02-13T03:49:58Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.73660099999999,8.184803000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74033</name>
+			<TimeStamp><when>2019-02-13T03:50:19Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.73697900000001,8.183622,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74034</name>
+			<TimeStamp><when>2019-02-13T03:50:37Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.737116,8.183633,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74035</name>
+			<TimeStamp><when>2019-02-13T03:50:58Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.73714800000001,8.183075000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74036</name>
+			<TimeStamp><when>2019-02-13T03:51:17Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.737139,8.1824,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74037</name>
+			<TimeStamp><when>2019-02-13T03:51:49Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.73226800000001,8.184211,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74038</name>
+			<TimeStamp><when>2019-02-13T03:52:09Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.73242000000001,8.18417,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74039</name>
+			<TimeStamp><when>2019-02-13T03:52:36Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.73242999999999,8.184089,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74040</name>
+			<TimeStamp><when>2019-02-13T03:53:03Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.73253099999999,8.184041000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74041</name>
+			<TimeStamp><when>2019-02-13T03:53:29Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.732175,8.183279000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74042</name>
+			<TimeStamp><when>2019-02-13T03:53:53Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.731729,8.183564000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74043</name>
+			<TimeStamp><when>2019-02-13T03:54:33Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.73197999999999,8.183992999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74044</name>
+			<TimeStamp><when>2019-02-13T03:55:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.73290900000001,8.184043000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74045</name>
+			<TimeStamp><when>2019-02-13T03:55:24Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.73311,8.183980999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74046</name>
+			<TimeStamp><when>2019-02-13T03:55:49Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.732957,8.183039000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VJ74047</name>
+			<TimeStamp><when>2019-02-13T03:56:10Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>77.732703,8.18308,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Routes</name>
+		<Folder>
+			<name>VJ74001 to VJ74001</name>
+			<Folder>
+				<name>Points</name>
+				<Placemark>
+					<name>VJ74001</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.731647 </td></tr>
+                <tr><td>Latitude: 8.186314 </td></tr>
+                <tr><td>Time: 2019-02-13T04:01:56Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.731647</longitude>
+						<latitude>8.186313999999999</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T04:01:56Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.731647,8.186313999999999,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74002</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.733394 </td></tr>
+                <tr><td>Latitude: 8.186069 </td></tr>
+                <tr><td>Time: 2019-02-13T03:25:47Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.733394</longitude>
+						<latitude>8.186069</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:25:47Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.733394,8.186069,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74003</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.733456 </td></tr>
+                <tr><td>Latitude: 8.186108 </td></tr>
+                <tr><td>Time: 2019-02-13T03:26:54Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.733456</longitude>
+						<latitude>8.186108000000001</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:26:54Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.733456,8.186108000000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74004</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.734141 </td></tr>
+                <tr><td>Latitude: 8.185710 </td></tr>
+                <tr><td>Time: 2019-02-13T03:27:19Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.73414099999999</longitude>
+						<latitude>8.18571</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:27:19Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.73414099999999,8.18571,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74005</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.733409 </td></tr>
+                <tr><td>Latitude: 8.185822 </td></tr>
+                <tr><td>Time: 2019-02-13T03:27:52Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.733409</longitude>
+						<latitude>8.185822</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:27:52Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.733409,8.185822,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74006</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.731606 </td></tr>
+                <tr><td>Latitude: 8.186120 </td></tr>
+                <tr><td>Time: 2019-02-13T03:31:53Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.731606</longitude>
+						<latitude>8.186120000000001</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:31:53Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.731606,8.186120000000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74001</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.731647 </td></tr>
+                <tr><td>Latitude: 8.186314 </td></tr>
+                <tr><td>Time: 2019-02-13T04:01:56Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.731647</longitude>
+						<latitude>8.186313999999999</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T04:01:56Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.731647,8.186313999999999,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Placemark>
+				<name>Path</name>
+				<styleUrl>#waypoint</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						77.731647,8.186313999999999,0 77.733394,8.186069,0 77.733456,8.186108000000001,0 77.73414099999999,8.18571,0 77.733409,8.185822,0 77.731606,8.186120000000001,0 77.731647,8.186313999999999,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>VJ74007 to VJ74007</name>
+			<Folder>
+				<name>Points</name>
+				<Placemark>
+					<name>VJ74007</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.731568 </td></tr>
+                <tr><td>Latitude: 8.185939 </td></tr>
+                <tr><td>Time: 2019-02-13T03:32:20Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.731568</longitude>
+						<latitude>8.185938999999999</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:32:20Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.731568,8.185938999999999,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74008</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.730899 </td></tr>
+                <tr><td>Latitude: 8.182756 </td></tr>
+                <tr><td>Time: 2019-02-13T03:33:05Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.73089899999999</longitude>
+						<latitude>8.182756</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:33:05Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.73089899999999,8.182756,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74009</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.731254 </td></tr>
+                <tr><td>Latitude: 8.180422 </td></tr>
+                <tr><td>Time: 2019-02-13T03:33:40Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.73125400000001</longitude>
+						<latitude>8.180422</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:33:40Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.73125400000001,8.180422,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74010</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.731273 </td></tr>
+                <tr><td>Latitude: 8.181092 </td></tr>
+                <tr><td>Time: 2019-02-13T03:34:02Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.731273</longitude>
+						<latitude>8.181092</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:34:02Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.731273,8.181092,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74011</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.731618 </td></tr>
+                <tr><td>Latitude: 8.181307 </td></tr>
+                <tr><td>Time: 2019-02-13T03:34:23Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.731618</longitude>
+						<latitude>8.181307</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:34:23Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.731618,8.181307,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74012</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.731753 </td></tr>
+                <tr><td>Latitude: 8.181251 </td></tr>
+                <tr><td>Time: 2019-02-13T03:34:40Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.731753</longitude>
+						<latitude>8.181251</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:34:40Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.731753,8.181251,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74013</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.731746 </td></tr>
+                <tr><td>Latitude: 8.180815 </td></tr>
+                <tr><td>Time: 2019-02-13T03:34:58Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.731746</longitude>
+						<latitude>8.180815000000001</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:34:58Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.731746,8.180815000000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74014</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.732014 </td></tr>
+                <tr><td>Latitude: 8.180834 </td></tr>
+                <tr><td>Time: 2019-02-13T03:35:14Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.73201400000001</longitude>
+						<latitude>8.180834000000001</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:35:14Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.73201400000001,8.180834000000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74016</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.732472 </td></tr>
+                <tr><td>Latitude: 8.181768 </td></tr>
+                <tr><td>Time: 2019-02-13T03:35:59Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.732472</longitude>
+						<latitude>8.181768</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:35:59Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.732472,8.181768,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74017</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.732725 </td></tr>
+                <tr><td>Latitude: 8.181609 </td></tr>
+                <tr><td>Time: 2019-02-13T03:36:30Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.732725</longitude>
+						<latitude>8.181609</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:36:30Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.732725,8.181609,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74018</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.732742 </td></tr>
+                <tr><td>Latitude: 8.181716 </td></tr>
+                <tr><td>Time: 2019-02-13T03:36:59Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.732742</longitude>
+						<latitude>8.181716</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:36:59Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.732742,8.181716,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74019</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.734436 </td></tr>
+                <tr><td>Latitude: 8.181870 </td></tr>
+                <tr><td>Time: 2019-02-13T03:37:18Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.734436</longitude>
+						<latitude>8.18187</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:37:18Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.734436,8.18187,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74020</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.734366 </td></tr>
+                <tr><td>Latitude: 8.181606 </td></tr>
+                <tr><td>Time: 2019-02-13T03:37:40Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.73436599999999</longitude>
+						<latitude>8.181606</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:37:40Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.73436599999999,8.181606,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74021</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.735259 </td></tr>
+                <tr><td>Latitude: 8.182511 </td></tr>
+                <tr><td>Time: 2019-02-13T03:38:15Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.735259</longitude>
+						<latitude>8.182511</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:38:15Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.735259,8.182511,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74022</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.735448 </td></tr>
+                <tr><td>Latitude: 8.182165 </td></tr>
+                <tr><td>Time: 2019-02-13T03:38:40Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.73544800000001</longitude>
+						<latitude>8.182165</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:38:40Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.73544800000001,8.182165,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74023</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.736975 </td></tr>
+                <tr><td>Latitude: 8.182377 </td></tr>
+                <tr><td>Time: 2019-02-13T03:39:04Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.736975</longitude>
+						<latitude>8.182377000000001</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:39:04Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.736975,8.182377000000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74024</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.736659 </td></tr>
+                <tr><td>Latitude: 8.184314 </td></tr>
+                <tr><td>Time: 2019-02-13T03:39:30Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.736659</longitude>
+						<latitude>8.184314000000001</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:39:30Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.736659,8.184314000000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74025</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.736204 </td></tr>
+                <tr><td>Latitude: 8.184914 </td></tr>
+                <tr><td>Time: 2019-02-13T03:39:58Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.736204</longitude>
+						<latitude>8.184913999999999</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:39:58Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.736204,8.184913999999999,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74026</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.735352 </td></tr>
+                <tr><td>Latitude: 8.185346 </td></tr>
+                <tr><td>Time: 2019-02-13T03:40:37Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.73535200000001</longitude>
+						<latitude>8.185345999999999</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:40:37Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.73535200000001,8.185345999999999,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74027</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.733380 </td></tr>
+                <tr><td>Latitude: 8.185644 </td></tr>
+                <tr><td>Time: 2019-02-13T03:47:44Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.73338</longitude>
+						<latitude>8.185644</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:47:44Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.73338,8.185644,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74007</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.731568 </td></tr>
+                <tr><td>Latitude: 8.185939 </td></tr>
+                <tr><td>Time: 2019-02-13T03:32:20Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.731568</longitude>
+						<latitude>8.185938999999999</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:32:20Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.731568,8.185938999999999,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Placemark>
+				<name>Path</name>
+				<styleUrl>#waypoint</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						77.731568,8.185938999999999,0 77.73089899999999,8.182756,0 77.73125400000001,8.180422,0 77.731273,8.181092,0 77.731618,8.181307,0 77.731753,8.181251,0 77.731746,8.180815000000001,0 77.73201400000001,8.180834000000001,0 77.732472,8.181768,0 77.732725,8.181609,0 77.732742,8.181716,0 77.734436,8.18187,0 77.73436599999999,8.181606,0 77.735259,8.182511,0 77.73544800000001,8.182165,0 77.736975,8.182377000000001,0 77.736659,8.184314000000001,0 77.736204,8.184913999999999,0 77.73535200000001,8.185345999999999,0 77.73338,8.185644,0 77.731568,8.185938999999999,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>VJ74028 to VJ74028</name>
+			<Folder>
+				<name>Points</name>
+				<Placemark>
+					<name>VJ74028</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.735801 </td></tr>
+                <tr><td>Latitude: 8.185359 </td></tr>
+                <tr><td>Time: 2019-02-13T03:48:13Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.735801</longitude>
+						<latitude>8.185359</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:48:13Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.735801,8.185359,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74029</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.736233 </td></tr>
+                <tr><td>Latitude: 8.185280 </td></tr>
+                <tr><td>Time: 2019-02-13T03:48:43Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.736233</longitude>
+						<latitude>8.185280000000001</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:48:43Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.736233,8.185280000000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74030</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.736434 </td></tr>
+                <tr><td>Latitude: 8.185131 </td></tr>
+                <tr><td>Time: 2019-02-13T03:49:08Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.736434</longitude>
+						<latitude>8.185131</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:49:08Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.736434,8.185131,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74031</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.736669 </td></tr>
+                <tr><td>Latitude: 8.185117 </td></tr>
+                <tr><td>Time: 2019-02-13T03:49:34Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.73666900000001</longitude>
+						<latitude>8.185117</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:49:34Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.73666900000001,8.185117,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74032</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.736601 </td></tr>
+                <tr><td>Latitude: 8.184803 </td></tr>
+                <tr><td>Time: 2019-02-13T03:49:58Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.73660099999999</longitude>
+						<latitude>8.184803000000001</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:49:58Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.73660099999999,8.184803000000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74028</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.735801 </td></tr>
+                <tr><td>Latitude: 8.185359 </td></tr>
+                <tr><td>Time: 2019-02-13T03:48:13Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.735801</longitude>
+						<latitude>8.185359</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:48:13Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.735801,8.185359,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Placemark>
+				<name>Path</name>
+				<styleUrl>#waypoint</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						77.735801,8.185359,0 77.736233,8.185280000000001,0 77.736434,8.185131,0 77.73666900000001,8.185117,0 77.73660099999999,8.184803000000001,0 77.735801,8.185359,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>VJ74033 to VJ74033</name>
+			<Folder>
+				<name>Points</name>
+				<Placemark>
+					<name>VJ74033</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.736979 </td></tr>
+                <tr><td>Latitude: 8.183622 </td></tr>
+                <tr><td>Time: 2019-02-13T03:50:19Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.73697900000001</longitude>
+						<latitude>8.183622</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:50:19Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.73697900000001,8.183622,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74036</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.737139 </td></tr>
+                <tr><td>Latitude: 8.182400 </td></tr>
+                <tr><td>Time: 2019-02-13T03:51:17Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.737139</longitude>
+						<latitude>8.1824</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:51:17Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.737139,8.1824,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74035</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.737148 </td></tr>
+                <tr><td>Latitude: 8.183075 </td></tr>
+                <tr><td>Time: 2019-02-13T03:50:58Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.73714800000001</longitude>
+						<latitude>8.183075000000001</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:50:58Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.73714800000001,8.183075000000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74034</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.737116 </td></tr>
+                <tr><td>Latitude: 8.183633 </td></tr>
+                <tr><td>Time: 2019-02-13T03:50:37Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.737116</longitude>
+						<latitude>8.183633</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:50:37Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.737116,8.183633,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74033</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.736979 </td></tr>
+                <tr><td>Latitude: 8.183622 </td></tr>
+                <tr><td>Time: 2019-02-13T03:50:19Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.73697900000001</longitude>
+						<latitude>8.183622</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:50:19Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.73697900000001,8.183622,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Placemark>
+				<name>Path</name>
+				<styleUrl>#waypoint</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						77.73697900000001,8.183622,0 77.737139,8.1824,0 77.73714800000001,8.183075000000001,0 77.737116,8.183633,0 77.73697900000001,8.183622,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>VJ74037 to VJ74037</name>
+			<Folder>
+				<name>Points</name>
+				<Placemark>
+					<name>VJ74037</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.732268 </td></tr>
+                <tr><td>Latitude: 8.184211 </td></tr>
+                <tr><td>Time: 2019-02-13T03:51:49Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.73226800000001</longitude>
+						<latitude>8.184211</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:51:49Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.73226800000001,8.184211,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74038</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.732420 </td></tr>
+                <tr><td>Latitude: 8.184170 </td></tr>
+                <tr><td>Time: 2019-02-13T03:52:09Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.73242000000001</longitude>
+						<latitude>8.18417</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:52:09Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.73242000000001,8.18417,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74039</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.732430 </td></tr>
+                <tr><td>Latitude: 8.184089 </td></tr>
+                <tr><td>Time: 2019-02-13T03:52:36Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.73242999999999</longitude>
+						<latitude>8.184089</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:52:36Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.73242999999999,8.184089,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74040</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.732531 </td></tr>
+                <tr><td>Latitude: 8.184041 </td></tr>
+                <tr><td>Time: 2019-02-13T03:53:03Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.73253099999999</longitude>
+						<latitude>8.184041000000001</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:53:03Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.73253099999999,8.184041000000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74041</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.732175 </td></tr>
+                <tr><td>Latitude: 8.183279 </td></tr>
+                <tr><td>Time: 2019-02-13T03:53:29Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.732175</longitude>
+						<latitude>8.183279000000001</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:53:29Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.732175,8.183279000000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74042</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.731729 </td></tr>
+                <tr><td>Latitude: 8.183564 </td></tr>
+                <tr><td>Time: 2019-02-13T03:53:53Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.731729</longitude>
+						<latitude>8.183564000000001</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:53:53Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.731729,8.183564000000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74043</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.731980 </td></tr>
+                <tr><td>Latitude: 8.183993 </td></tr>
+                <tr><td>Time: 2019-02-13T03:54:33Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.73197999999999</longitude>
+						<latitude>8.183992999999999</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:54:33Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.73197999999999,8.183992999999999,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74037</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.732268 </td></tr>
+                <tr><td>Latitude: 8.184211 </td></tr>
+                <tr><td>Time: 2019-02-13T03:51:49Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.73226800000001</longitude>
+						<latitude>8.184211</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:51:49Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.73226800000001,8.184211,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Placemark>
+				<name>Path</name>
+				<styleUrl>#waypoint</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						77.73226800000001,8.184211,0 77.73242000000001,8.18417,0 77.73242999999999,8.184089,0 77.73253099999999,8.184041000000001,0 77.732175,8.183279000000001,0 77.731729,8.183564000000001,0 77.73197999999999,8.183992999999999,0 77.73226800000001,8.184211,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>VJ74044 to VJ74044</name>
+			<Folder>
+				<name>Points</name>
+				<Placemark>
+					<name>VJ74044</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.732909 </td></tr>
+                <tr><td>Latitude: 8.184043 </td></tr>
+                <tr><td>Time: 2019-02-13T03:55:00Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.73290900000001</longitude>
+						<latitude>8.184043000000001</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:55:00Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.73290900000001,8.184043000000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74045</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.733110 </td></tr>
+                <tr><td>Latitude: 8.183981 </td></tr>
+                <tr><td>Time: 2019-02-13T03:55:24Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.73311</longitude>
+						<latitude>8.183980999999999</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:55:24Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.73311,8.183980999999999,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74046</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.732957 </td></tr>
+                <tr><td>Latitude: 8.183039 </td></tr>
+                <tr><td>Time: 2019-02-13T03:55:49Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.732957</longitude>
+						<latitude>8.183039000000001</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:55:49Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.732957,8.183039000000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74047</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.732703 </td></tr>
+                <tr><td>Latitude: 8.183080 </td></tr>
+                <tr><td>Time: 2019-02-13T03:56:10Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.732703</longitude>
+						<latitude>8.18308</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:56:10Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.732703,8.18308,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>VJ74044</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+                <tr><td>Longitude: 77.732909 </td></tr>
+                <tr><td>Latitude: 8.184043 </td></tr>
+                <tr><td>Time: 2019-02-13T03:55:00Z </td></tr>
+              </table>]]></description>
+					<LookAt>
+						<longitude>77.73290900000001</longitude>
+						<latitude>8.184043000000001</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0.1</range>
+					</LookAt>
+					<TimeStamp><when>2019-02-13T03:55:00Z</when>
+</TimeStamp>
+					<styleUrl>#waypoint</styleUrl>
+					<Point>
+						<coordinates>77.73290900000001,8.184043000000001,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Placemark>
+				<name>Path</name>
+				<styleUrl>#waypoint</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						77.73290900000001,8.184043000000001,0 77.73311,8.183980999999999,0 77.732957,8.183039000000001,0 77.732703,8.18308,0 77.73290900000001,8.184043000000001,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

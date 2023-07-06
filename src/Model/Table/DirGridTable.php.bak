@@ -1,0 +1,40 @@
+<?php 
+	namespace app\Model\Table;
+	use Cake\ORM\Table;
+	use App\Model\Model;
+	use Cake\ORM\TableRegistry;
+	use Cake\Core\Configure;
+	
+	class DirGridTable extends Table{
+
+		var $name = "DirGrid";
+		public $validate = array();
+
+        /**
+         * HERE I AM USING IF OF THE FIELD AS THE KEY AS THIS MASTER IS CREATED AT 
+         * VERY LAST AND EARLIER THIS IS HARD CODED EVERY WHERE AND ALL THOSE FORMS
+         * AND FUNCTIONS NEEDS ID AS THE KEY
+         * 
+         * DON'T CHANGE IT UNLESS YOU ARE VERY SURE OF WHAT YOU ARE DOING
+         * 
+         * @author Uday Shankar Singh <usingh@ubicsindia.com, udayshankar1306@gmail.com>
+         * @return Array
+         */
+        public function getGridByIdKey(){
+
+            $query = $this->query()
+                    ->select(['id','grid_space'])
+                    ->toArray();
+            
+            $result = Array();
+            foreach($query as $data){
+                $result[$data['id']] = $data['grid_space'];
+            }
+            
+            return $result;
+
+        }
+
+
+	}
+?>

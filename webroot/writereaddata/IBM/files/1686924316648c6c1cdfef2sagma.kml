@@ -1,0 +1,3681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>sagma.csv</name>
+	<open>1</open>
+	<Schema name="sagma" id="S_sagma_ISSSIIII">
+		<SimpleField type="int" name="Sr__No_"><displayName>&lt;b&gt;Sr. No.&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="BP_No_"><displayName>&lt;b&gt;BP No.&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="LATITUDE"><displayName>&lt;b&gt;LATITUDE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="LONGITUDE"><displayName>&lt;b&gt;LONGITUDE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="unnamed"><displayName>&lt;b&gt;&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="unnamed_2"><displayName>&lt;b&gt;&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="unnamed_3"><displayName>&lt;b&gt;&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="unnamed_4"><displayName>&lt;b&gt;&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Sr. No.</b></td><td>$[sagma/Sr__No_]</td></tr>
+  <tr><td><b>BP No.</b></td><td>$[sagma/BP_No_]</td></tr>
+  <tr><td><b>LATITUDE</b></td><td>$[sagma/LATITUDE]</td></tr>
+  <tr><td><b>LONGITUDE</b></td><td>$[sagma/LONGITUDE]</td></tr>
+  <tr><td><b></b></td><td>$[sagma/unnamed]</td></tr>
+  <tr><td><b></b></td><td>$[sagma/unnamed_2]</td></tr>
+  <tr><td><b></b></td><td>$[sagma/unnamed_3]</td></tr>
+  <tr><td><b></b></td><td>$[sagma/unnamed_4]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Sr. No.</b></td><td>$[sagma/Sr__No_]</td></tr>
+  <tr><td><b>BP No.</b></td><td>$[sagma/BP_No_]</td></tr>
+  <tr><td><b>LATITUDE</b></td><td>$[sagma/LATITUDE]</td></tr>
+  <tr><td><b>LONGITUDE</b></td><td>$[sagma/LONGITUDE]</td></tr>
+  <tr><td><b></b></td><td>$[sagma/unnamed]</td></tr>
+  <tr><td><b></b></td><td>$[sagma/unnamed_2]</td></tr>
+  <tr><td><b></b></td><td>$[sagma/unnamed_3]</td></tr>
+  <tr><td><b></b></td><td>$[sagma/unnamed_4]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>0.9</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.06364</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>sagma</name>
+		<open>1</open>
+		<Placemark>
+			<name>BP 1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">1</SimpleData>
+					<SimpleData name="BP_No_">BP 1</SimpleData>
+					<SimpleData name="LATITUDE">24 38 28.483</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 40.711</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.8279752777778,24.64124527777777,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-1/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">2</SimpleData>
+					<SimpleData name="BP_No_">BP-1/1</SimpleData>
+					<SimpleData name="LATITUDE">24 38 28.306</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.479</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.8284663888889,24.64119611111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">3</SimpleData>
+					<SimpleData name="BP_No_">BP-2</SimpleData>
+					<SimpleData name="LATITUDE">24 38 28.214</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 43.391</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.8287197222222,24.64117055555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-3</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">4</SimpleData>
+					<SimpleData name="BP_No_">BP-3</SimpleData>
+					<SimpleData name="LATITUDE">24 38 26.382</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 43.205</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82866805555558,24.64066166666665,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-3/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">5</SimpleData>
+					<SimpleData name="BP_No_">BP-3/1</SimpleData>
+					<SimpleData name="LATITUDE">24 38 24.757</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 43.276</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82868777777776,24.64021027777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-3/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">6</SimpleData>
+					<SimpleData name="BP_No_">BP-3/2</SimpleData>
+					<SimpleData name="LATITUDE">24 38 23.133</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 43.344</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82870666666669,24.63975916666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-4</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">7</SimpleData>
+					<SimpleData name="BP_No_">BP-4</SimpleData>
+					<SimpleData name="LATITUDE">24 38 21.377</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 43.399</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82872194444445,24.63927138888891,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-4/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">8</SimpleData>
+					<SimpleData name="BP_No_">BP-4/1</SimpleData>
+					<SimpleData name="LATITUDE">24 38 19.768</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 43.141</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82865027777781,24.63882444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-4/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">9</SimpleData>
+					<SimpleData name="BP_No_">BP-4/2</SimpleData>
+					<SimpleData name="LATITUDE">24 38 18.242</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.943</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82859527777778,24.63840055555558,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-5</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">10</SimpleData>
+					<SimpleData name="BP_No_">BP-5</SimpleData>
+					<SimpleData name="LATITUDE">24 38 17.441</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.722</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82853388888888,24.63817805555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-6</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">11</SimpleData>
+					<SimpleData name="BP_No_">BP-6</SimpleData>
+					<SimpleData name="LATITUDE">24 38 17.331</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 43.263</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82868416666666,24.63814749999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-6/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">12</SimpleData>
+					<SimpleData name="BP_No_">BP-6/1</SimpleData>
+					<SimpleData name="LATITUDE">24 38 15.706</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 43.294</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82869277777773,24.63769611111108,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-7</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">13</SimpleData>
+					<SimpleData name="BP_No_">BP-7</SimpleData>
+					<SimpleData name="LATITUDE">24 38 14.087</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 43.325</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82870138888887,24.6372463888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-7/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">14</SimpleData>
+					<SimpleData name="BP_No_">BP-7/1</SimpleData>
+					<SimpleData name="LATITUDE">24 38 14.302</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 41.562</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82821166666666,24.63730611111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-8</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">15</SimpleData>
+					<SimpleData name="BP_No_">BP-8</SimpleData>
+					<SimpleData name="LATITUDE">24 38 14.528</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 39.712</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82769777777777,24.63736888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-8/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">16</SimpleData>
+					<SimpleData name="BP_No_">BP-8/1</SimpleData>
+					<SimpleData name="LATITUDE">24 38 14.743</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 37.949</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82720805555556,24.63742861111113,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-9</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">17</SimpleData>
+					<SimpleData name="BP_No_">BP-9</SimpleData>
+					<SimpleData name="LATITUDE">24 38 14.999</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 35.854</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82662611111112,24.63749972222221,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-9/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">18</SimpleData>
+					<SimpleData name="BP_No_">BP-9/1</SimpleData>
+					<SimpleData name="LATITUDE">24 38 13.382</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 35.663</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82657305555558,24.63705055555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-9/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">19</SimpleData>
+					<SimpleData name="BP_No_">BP-9/2</SimpleData>
+					<SimpleData name="LATITUDE">24 38 11.768</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 35.472</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82652000000003,24.63660222222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-9/3</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">20</SimpleData>
+					<SimpleData name="BP_No_">BP-9/3</SimpleData>
+					<SimpleData name="LATITUDE">24 38 10.15</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 35.28</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82646666666665,24.63615277777775,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-10</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">21</SimpleData>
+					<SimpleData name="BP_No_">BP-10</SimpleData>
+					<SimpleData name="LATITUDE">24 38 7.86</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 35.009</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82639138888887,24.63551666666665,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-10/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">22</SimpleData>
+					<SimpleData name="BP_No_">BP-10/1</SimpleData>
+					<SimpleData name="LATITUDE">24 38 7.732</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 36.782</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82688388888893,24.63548111111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-11</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">23</SimpleData>
+					<SimpleData name="BP_No_">BP-11</SimpleData>
+					<SimpleData name="LATITUDE">24 38 7.6</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 38.604</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82738999999999,24.63544444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-11/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">24</SimpleData>
+					<SimpleData name="BP_No_">BP-11/1</SimpleData>
+					<SimpleData name="LATITUDE">24 38 7.696</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 40.379</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82788305555557,24.63547111111112,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-11/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">25</SimpleData>
+					<SimpleData name="BP_No_">BP-11/2</SimpleData>
+					<SimpleData name="LATITUDE">24 38 7.792</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.155</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82837638888888,24.63549777777775,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-12</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">26</SimpleData>
+					<SimpleData name="BP_No_">BP-12</SimpleData>
+					<SimpleData name="LATITUDE">24 38 7.844</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 43.109</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82864138888887,24.63551222222224,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-12/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">27</SimpleData>
+					<SimpleData name="BP_No_">BP-12/1</SimpleData>
+					<SimpleData name="LATITUDE">24 38 6.223</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.972</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82860333333332,24.63506194444441,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-12/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">28</SimpleData>
+					<SimpleData name="BP_No_">BP-12/2</SimpleData>
+					<SimpleData name="LATITUDE">24 38 4.602</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.836</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82856555555553,24.63461166666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-13</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">29</SimpleData>
+					<SimpleData name="BP_No_">BP-13</SimpleData>
+					<SimpleData name="LATITUDE">24 38 3.41</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.738</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.8285383333333,24.63428055555558,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-13/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">30</SimpleData>
+					<SimpleData name="BP_No_">BP-13/1</SimpleData>
+					<SimpleData name="LATITUDE">24 38 1.785</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.784</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.8285511111111,24.63382916666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-13/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">31</SimpleData>
+					<SimpleData name="BP_No_">BP-13/2</SimpleData>
+					<SimpleData name="LATITUDE">24 38 0.16</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.824</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.8285622222222,24.63337777777777,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-14</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">32</SimpleData>
+					<SimpleData name="BP_No_">BP-14</SimpleData>
+					<SimpleData name="LATITUDE">24 37 58.128</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.816</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82856,24.63281333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-14/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">33</SimpleData>
+					<SimpleData name="BP_No_">BP-14/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 56.503</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.774</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82854833333336,24.63236194444448,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-14/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">34</SimpleData>
+					<SimpleData name="BP_No_">BP-14/2</SimpleData>
+					<SimpleData name="LATITUDE">24 37 54.878</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.733</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82853694444441,24.63191055555557,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-14/3</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">35</SimpleData>
+					<SimpleData name="BP_No_">BP-14/3</SimpleData>
+					<SimpleData name="LATITUDE">24 37 53.253</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.683</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82852305555554,24.63145916666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-14/4</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">36</SimpleData>
+					<SimpleData name="BP_No_">BP-14/4</SimpleData>
+					<SimpleData name="LATITUDE">24 37 51.628</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.62</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82850555555557,24.63100777777775,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-14/5</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">37</SimpleData>
+					<SimpleData name="BP_No_">BP-14/5</SimpleData>
+					<SimpleData name="LATITUDE">24 37 50.003</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.557</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82848805555555,24.63055638888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-15</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">38</SimpleData>
+					<SimpleData name="BP_No_">BP-15</SimpleData>
+					<SimpleData name="LATITUDE">24 37 48.966</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.516</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82847666666669,24.63026833333332,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-15/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">39</SimpleData>
+					<SimpleData name="BP_No_">BP-15/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 47.341</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.453</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82845916666668,24.62981694444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-15/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">40</SimpleData>
+					<SimpleData name="BP_No_">BP-15/2</SimpleData>
+					<SimpleData name="LATITUDE">24 37 45.717</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.39</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82844166666666,24.62936583333335,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-15/3</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">41</SimpleData>
+					<SimpleData name="BP_No_">BP-15/3</SimpleData>
+					<SimpleData name="LATITUDE">24 37 44.092</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.327</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82842416666665,24.62891444444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-15/4</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">42</SimpleData>
+					<SimpleData name="BP_No_">BP-15/4</SimpleData>
+					<SimpleData name="LATITUDE">24 37 42.468</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.263</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82840638888888,24.62846333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-16</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">43</SimpleData>
+					<SimpleData name="BP_No_">BP-16</SimpleData>
+					<SimpleData name="LATITUDE">24 37 40.413</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.201</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82838916666668,24.62789250000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-16/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">44</SimpleData>
+					<SimpleData name="BP_No_">BP-16/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 38.788</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.242</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82840055555555,24.62744111111114,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-16/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">45</SimpleData>
+					<SimpleData name="BP_No_">BP-16/2</SimpleData>
+					<SimpleData name="LATITUDE">24 37 37.163</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.283</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82841194444443,24.62698972222224,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-16/3</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">46</SimpleData>
+					<SimpleData name="BP_No_">BP-16/3</SimpleData>
+					<SimpleData name="LATITUDE">24 37 35.537</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.324</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82842333333333,24.62653805555557,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-16/4</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">47</SimpleData>
+					<SimpleData name="BP_No_">BP-16/4</SimpleData>
+					<SimpleData name="LATITUDE">24 37 33.912</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.366</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.828435,24.62608666666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-17</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">48</SimpleData>
+					<SimpleData name="BP_No_">BP-17</SimpleData>
+					<SimpleData name="LATITUDE">24 37 31.894</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.416</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82844888888889,24.62552611111109,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-18</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">49</SimpleData>
+					<SimpleData name="BP_No_">BP-18</SimpleData>
+					<SimpleData name="LATITUDE">24 37 31.828</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 42.242</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82840055555555,24.6255077777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-18/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">50</SimpleData>
+					<SimpleData name="BP_No_">BP-18/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 30.405</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 41.381</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82816138888887,24.62511250000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-18/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">51</SimpleData>
+					<SimpleData name="BP_No_">BP-18/2</SimpleData>
+					<SimpleData name="LATITUDE">24 37 28.99</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 40.506</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82791833333336,24.62471944444447,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-19</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">52</SimpleData>
+					<SimpleData name="BP_No_">BP-19</SimpleData>
+					<SimpleData name="LATITUDE">24 37 27.356</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 39.495</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82763749999997,24.62426555555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-19/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">53</SimpleData>
+					<SimpleData name="BP_No_">BP-19/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 25.89</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 38.728</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82742444444445,24.62385833333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-20</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">54</SimpleData>
+					<SimpleData name="BP_No_">BP-20</SimpleData>
+					<SimpleData name="LATITUDE">24 37 24.38</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 38.039</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82723305555555,24.62343888888891,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-21</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">55</SimpleData>
+					<SimpleData name="BP_No_">BP-21</SimpleData>
+					<SimpleData name="LATITUDE">24 37 24.714</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 36.01</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82666944444441,24.62353166666669,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-21/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">56</SimpleData>
+					<SimpleData name="BP_No_">BP-21/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 24.997</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 34.258</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82618277777776,24.62361027777775,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-21/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">57</SimpleData>
+					<SimpleData name="BP_No_">BP-21/2</SimpleData>
+					<SimpleData name="LATITUDE">24 37 25.538</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 32.582</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82571722222225,24.62376055555553,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-21/3</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">58</SimpleData>
+					<SimpleData name="BP_No_">BP-21/3</SimpleData>
+					<SimpleData name="LATITUDE">24 37 26.112</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 30.917</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.8252547222222,24.62391999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-21/4</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">59</SimpleData>
+					<SimpleData name="BP_No_">BP-21/4</SimpleData>
+					<SimpleData name="LATITUDE">24 37 26.667</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 29.246</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82479055555554,24.62407416666665,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-21/5</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">60</SimpleData>
+					<SimpleData name="BP_No_">BP-21/5</SimpleData>
+					<SimpleData name="LATITUDE">24 37 27.236</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 27.58</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82432777777775,24.62423222222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-22</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">61</SimpleData>
+					<SimpleData name="BP_No_">BP-22</SimpleData>
+					<SimpleData name="LATITUDE">24 37 27.923</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 25.585</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82377361111112,24.62442305555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-22/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">62</SimpleData>
+					<SimpleData name="BP_No_">BP-22/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 28.642</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 23.99</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82333055555556,24.62462277777775,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-22/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">63</SimpleData>
+					<SimpleData name="BP_No_">BP-22/2</SimpleData>
+					<SimpleData name="LATITUDE">24 37 29.425</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 22.25</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82284722222221,24.62484027777776,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-23</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">64</SimpleData>
+					<SimpleData name="BP_No_">BP-23</SimpleData>
+					<SimpleData name="LATITUDE">24 37 30.599</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 20.212</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82228111111114,24.62516638888888,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-23/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">65</SimpleData>
+					<SimpleData name="BP_No_">BP-23/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 31.287</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 18.6</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82183333333332,24.62535750000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-23/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">66</SimpleData>
+					<SimpleData name="BP_No_">BP-23/2</SimpleData>
+					<SimpleData name="LATITUDE">24 37 32.034</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 17.021</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82139472222225,24.625565,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-23/3</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">67</SimpleData>
+					<SimpleData name="BP_No_">BP-23/3</SimpleData>
+					<SimpleData name="LATITUDE">24 37 32.795</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 15.45</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82095833333334,24.62577638888887,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-24</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">68</SimpleData>
+					<SimpleData name="BP_No_">BP-24</SimpleData>
+					<SimpleData name="LATITUDE">24 37 33.302</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 14.438</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82067722222223,24.62591722222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-24/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">69</SimpleData>
+					<SimpleData name="BP_No_">BP-24/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 33.922</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 12.794</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82022055555559,24.62608944444447,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-24/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">70</SimpleData>
+					<SimpleData name="BP_No_">BP-24/2</SimpleData>
+					<SimpleData name="LATITUDE">24 37 34.542</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 11.15</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81976388888887,24.62626166666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-25</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">71</SimpleData>
+					<SimpleData name="BP_No_">BP-25</SimpleData>
+					<SimpleData name="LATITUDE">24 37 34.926</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 10.13</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81948055555556,24.62636833333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-25/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">72</SimpleData>
+					<SimpleData name="BP_No_">BP-25/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 35.632</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 8.527</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81903527777774,24.62656444444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-25/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">73</SimpleData>
+					<SimpleData name="BP_No_">BP-25/2</SimpleData>
+					<SimpleData name="LATITUDE">24 37 36.337</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 6.925</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81859027777777,24.62676027777779,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-25/3</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">74</SimpleData>
+					<SimpleData name="BP_No_">BP-25/3</SimpleData>
+					<SimpleData name="LATITUDE">24 37 37.045</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 5.324</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81814555555553,24.62695694444442,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-26</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">75</SimpleData>
+					<SimpleData name="BP_No_">BP-26</SimpleData>
+					<SimpleData name="LATITUDE">24 37 37.668</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 3.962</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81776722222219,24.62712999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-27</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">76</SimpleData>
+					<SimpleData name="BP_No_">BP-27</SimpleData>
+					<SimpleData name="LATITUDE">24 37 37.849</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 3.855</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81773750000002,24.62718027777777,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-27/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">77</SimpleData>
+					<SimpleData name="BP_No_">BP-27/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 38.584</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 2.269</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81729694444442,24.62738444444442,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-27/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">78</SimpleData>
+					<SimpleData name="BP_No_">BP-27/2</SimpleData>
+					<SimpleData name="LATITUDE">24 37 39.144</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 0.599</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81683305555556,24.62754000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-28</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">79</SimpleData>
+					<SimpleData name="BP_No_">BP-28</SimpleData>
+					<SimpleData name="LATITUDE">24 37 39.406</SimpleData>
+					<SimpleData name="LONGITUDE">80 48 59.596</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81655444444442,24.62761277777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-28/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">80</SimpleData>
+					<SimpleData name="BP_No_">BP-28/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 39.776</SimpleData>
+					<SimpleData name="LONGITUDE">80 48 57.865</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81607361111111,24.62771555555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-28/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">81</SimpleData>
+					<SimpleData name="BP_No_">BP-28/2</SimpleData>
+					<SimpleData name="LATITUDE">24 37 40.184</SimpleData>
+					<SimpleData name="LONGITUDE">80 48 56.143</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81559527777777,24.62782888888891,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-29</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">82</SimpleData>
+					<SimpleData name="BP_No_">BP-29</SimpleData>
+					<SimpleData name="LATITUDE">24 37 40.451</SimpleData>
+					<SimpleData name="LONGITUDE">80 48 55.193</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81533138888891,24.62790305555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-30</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">83</SimpleData>
+					<SimpleData name="BP_No_">BP-30</SimpleData>
+					<SimpleData name="LATITUDE">24 37 40.613</SimpleData>
+					<SimpleData name="LONGITUDE">80 48 54.119</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81503305555555,24.62794805555557,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-31</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">84</SimpleData>
+					<SimpleData name="BP_No_">BP-31</SimpleData>
+					<SimpleData name="LATITUDE">24 37 41.347</SimpleData>
+					<SimpleData name="LONGITUDE">80 48 54.136</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81503777777776,24.62815194444446,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-32</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">85</SimpleData>
+					<SimpleData name="BP_No_">BP-32</SimpleData>
+					<SimpleData name="LATITUDE">24 37 43.245</SimpleData>
+					<SimpleData name="LONGITUDE">80 48 54.844</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81523444444444,24.62867916666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-32/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">86</SimpleData>
+					<SimpleData name="BP_No_">BP-32/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 44.615</SimpleData>
+					<SimpleData name="LONGITUDE">80 48 55.799</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81549972222223,24.62905972222221,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-33</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">87</SimpleData>
+					<SimpleData name="BP_No_">BP-33</SimpleData>
+					<SimpleData name="LATITUDE">24 37 45.997</SimpleData>
+					<SimpleData name="LONGITUDE">80 48 56.496</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81569333333333,24.62944361111109,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-33/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">88</SimpleData>
+					<SimpleData name="BP_No_">BP-33/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 47.553</SimpleData>
+					<SimpleData name="LONGITUDE">80 48 57.012</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81583666666664,24.62987583333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-33/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">89</SimpleData>
+					<SimpleData name="BP_No_">BP-33/2</SimpleData>
+					<SimpleData name="LATITUDE">24 37 49.099</SimpleData>
+					<SimpleData name="LONGITUDE">80 48 57.563</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.8159897222222,24.63030527777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-34</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">90</SimpleData>
+					<SimpleData name="BP_No_">BP-34</SimpleData>
+					<SimpleData name="LATITUDE">24 37 51.284</SimpleData>
+					<SimpleData name="LONGITUDE">80 48 58.326</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81620166666663,24.63091222222221,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-34/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">91</SimpleData>
+					<SimpleData name="BP_No_">BP-34/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 51.027</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 0.082</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81668944444444,24.63084083333332,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-34/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">92</SimpleData>
+					<SimpleData name="BP_No_">BP-34/2</SimpleData>
+					<SimpleData name="LATITUDE">24 37 50.741</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 1.833</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81717583333328,24.6307613888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-35</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">93</SimpleData>
+					<SimpleData name="BP_No_">BP-35</SimpleData>
+					<SimpleData name="LATITUDE">24 37 50.322</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 4.013</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81778138888886,24.63064500000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-35/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">94</SimpleData>
+					<SimpleData name="BP_No_">BP-35/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 50.156</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 5.782</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81827277777781,24.63059888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-36</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">95</SimpleData>
+					<SimpleData name="BP_No_">BP-36</SimpleData>
+					<SimpleData name="LATITUDE">24 37 49.945</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 8.035</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81889861111108,24.6305402777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-36/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">96</SimpleData>
+					<SimpleData name="BP_No_">BP-36/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 49.63</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 9.78</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.81938333333336,24.6304527777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-36/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">97</SimpleData>
+					<SimpleData name="BP_No_">BP-36/2</SimpleData>
+					<SimpleData name="LATITUDE">24 37 49.305</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 11.523</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.8198675,24.63036249999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-37</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">98</SimpleData>
+					<SimpleData name="BP_No_">BP-37</SimpleData>
+					<SimpleData name="LATITUDE">24 37 48.974</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 13.049</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.8202913888889,24.63027055555557,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-37/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">99</SimpleData>
+					<SimpleData name="BP_No_">BP-37/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 48.726</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 14.806</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82077944444444,24.63020166666665,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-37/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">100</SimpleData>
+					<SimpleData name="BP_No_">BP-37/2</SimpleData>
+					<SimpleData name="LATITUDE">24 37 48.478</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 16.564</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82126777777781,24.63013277777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-37/3</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">101</SimpleData>
+					<SimpleData name="BP_No_">BP-37/3</SimpleData>
+					<SimpleData name="LATITUDE">24 37 48.274</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 18.328</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82175777777775,24.63007611111114,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-38</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">102</SimpleData>
+					<SimpleData name="BP_No_">BP-38</SimpleData>
+					<SimpleData name="LATITUDE">24 37 48.149</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 19.729</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82214694444444,24.63004138888888,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-39</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">103</SimpleData>
+					<SimpleData name="BP_No_">BP-39</SimpleData>
+					<SimpleData name="LATITUDE">24 37 47.382</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 19.434</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82206500000001,24.62982833333332,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-39/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">104</SimpleData>
+					<SimpleData name="BP_No_">BP-39/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 46.621</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 21.006</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82250166666667,24.62961694444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-40</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">105</SimpleData>
+					<SimpleData name="BP_No_">BP-40</SimpleData>
+					<SimpleData name="LATITUDE">24 37 46.273</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 21.831</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82273083333331,24.62952027777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-41</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">106</SimpleData>
+					<SimpleData name="BP_No_">BP-41</SimpleData>
+					<SimpleData name="LATITUDE">24 37 45.119</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 21.256</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82257111111107,24.6291997222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-42</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">107</SimpleData>
+					<SimpleData name="BP_No_">BP-42</SimpleData>
+					<SimpleData name="LATITUDE">24 37 44.348</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 21.222</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82256166666669,24.62898555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-43</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">108</SimpleData>
+					<SimpleData name="BP_No_">BP-43</SimpleData>
+					<SimpleData name="LATITUDE">24 37 43.867</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 21.365</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82260138888887,24.62885194444446,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-43/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">109</SimpleData>
+					<SimpleData name="BP_No_">BP-43/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 42.308</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 20.861</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82246138888888,24.62841888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-44</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">110</SimpleData>
+					<SimpleData name="BP_No_">BP-44</SimpleData>
+					<SimpleData name="LATITUDE">24 37 40.939</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 20.449</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82234694444448,24.62803861111114,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-45</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">111</SimpleData>
+					<SimpleData name="BP_No_">BP-45</SimpleData>
+					<SimpleData name="LATITUDE">24 37 39.455</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 20.106</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82225166666665,24.6276263888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-45/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">112</SimpleData>
+					<SimpleData name="BP_No_">BP-45/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 39.008</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 21.816</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82272666666667,24.62750222222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-45/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">113</SimpleData>
+					<SimpleData name="BP_No_">BP-45/2</SimpleData>
+					<SimpleData name="LATITUDE">24 37 38.535</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 23.517</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82319916666667,24.62737083333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-45/3</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">114</SimpleData>
+					<SimpleData name="BP_No_">BP-45/3</SimpleData>
+					<SimpleData name="LATITUDE">24 37 38.048</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 25.214</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82367055555555,24.62723555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-45/4</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">115</SimpleData>
+					<SimpleData name="BP_No_">BP-45/4</SimpleData>
+					<SimpleData name="LATITUDE">24 37 37.564</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 26.912</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82414222222224,24.62710111111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-46</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">116</SimpleData>
+					<SimpleData name="BP_No_">BP-46</SimpleData>
+					<SimpleData name="LATITUDE">24 37 37.075</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 28.664</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82462888888888,24.62696527777777,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-47</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">117</SimpleData>
+					<SimpleData name="BP_No_">BP-47</SimpleData>
+					<SimpleData name="LATITUDE">24 37 38.603</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 29.203</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82477861111114,24.62738972222224,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-48</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">118</SimpleData>
+					<SimpleData name="BP_No_">BP-48</SimpleData>
+					<SimpleData name="LATITUDE">24 37 39.441</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 29.526</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82486833333331,24.62762250000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-49</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">119</SimpleData>
+					<SimpleData name="BP_No_">BP-49</SimpleData>
+					<SimpleData name="LATITUDE">24 37 40.68</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 30.057</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82501583333332,24.6279666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-50</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">120</SimpleData>
+					<SimpleData name="BP_No_">BP-50</SimpleData>
+					<SimpleData name="LATITUDE">24 37 40.985</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 30.06</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82501666666666,24.6280513888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-51</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">121</SimpleData>
+					<SimpleData name="BP_No_">BP-51</SimpleData>
+					<SimpleData name="LATITUDE">24 37 41.474</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 28.503</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82458416666668,24.6281872222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-51/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">122</SimpleData>
+					<SimpleData name="BP_No_">BP-51/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 43.049</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 28.941</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82470583333334,24.62862472222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-51/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">123</SimpleData>
+					<SimpleData name="BP_No_">BP-51/2</SimpleData>
+					<SimpleData name="LATITUDE">24 37 44.622</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 29.39</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82483055555554,24.62906166666669,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-52</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">124</SimpleData>
+					<SimpleData name="BP_No_">BP-52</SimpleData>
+					<SimpleData name="LATITUDE">24 37 46.075</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 29.809</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82494694444442,24.62946527777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-53</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">125</SimpleData>
+					<SimpleData name="BP_No_">BP-53</SimpleData>
+					<SimpleData name="LATITUDE">24 37 46.801</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 30.23</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82506388888891,24.62966694444443,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-54</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">126</SimpleData>
+					<SimpleData name="BP_No_">BP-54</SimpleData>
+					<SimpleData name="LATITUDE">24 37 48.655</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 30.622</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82517277777777,24.63018194444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-55</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">127</SimpleData>
+					<SimpleData name="BP_No_">BP-55</SimpleData>
+					<SimpleData name="LATITUDE">24 37 49.634</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 30.521</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82514472222221,24.63045388888888,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-55/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">128</SimpleData>
+					<SimpleData name="BP_No_">BP-55/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 51.243</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 30.769</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82521361111112,24.63090083333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-56</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">129</SimpleData>
+					<SimpleData name="BP_No_">BP-56</SimpleData>
+					<SimpleData name="LATITUDE">24 37 53.349</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 31.122</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82531166666668,24.63148583333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-56/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">130</SimpleData>
+					<SimpleData name="BP_No_">BP-56/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 54.972</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 31.231</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82534194444445,24.63193666666668,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-57</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">131</SimpleData>
+					<SimpleData name="BP_No_">BP-57</SimpleData>
+					<SimpleData name="LATITUDE">24 37 56.017</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 31.346</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82537388888885,24.63222694444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-57/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">132</SimpleData>
+					<SimpleData name="BP_No_">BP-57/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 55.863</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 33.117</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82586583333331,24.63218416666665,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-58</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">133</SimpleData>
+					<SimpleData name="BP_No_">BP-58</SimpleData>
+					<SimpleData name="LATITUDE">24 37 55.775</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 34.377</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82621583333334,24.63215972222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-58/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">134</SimpleData>
+					<SimpleData name="BP_No_">BP-58/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 55.751</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 36.156</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82671000000001,24.63215305555557,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-59</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">135</SimpleData>
+					<SimpleData name="BP_No_">BP-59</SimpleData>
+					<SimpleData name="LATITUDE">24 37 55.794</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 37.857</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82718250000001,24.632165,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-60</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">136</SimpleData>
+					<SimpleData name="BP_No_">BP-60</SimpleData>
+					<SimpleData name="LATITUDE">24 37 55.691</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 37.856</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82718222222225,24.63213638888888,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-61</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">137</SimpleData>
+					<SimpleData name="BP_No_">BP-61</SimpleData>
+					<SimpleData name="LATITUDE">24 37 55.566</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 38.102</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82725055555557,24.63210166666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-61/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">138</SimpleData>
+					<SimpleData name="BP_No_">BP-61/1</SimpleData>
+					<SimpleData name="LATITUDE">24 37 57.068</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 38.786</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82744055555554,24.63251888888887,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-62</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">139</SimpleData>
+					<SimpleData name="BP_No_">BP-62</SimpleData>
+					<SimpleData name="LATITUDE">24 37 57.699</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 39.081</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.8275225,24.63269416666669,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-63</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">140</SimpleData>
+					<SimpleData name="BP_No_">BP-63</SimpleData>
+					<SimpleData name="LATITUDE">24 37 58.455</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 39.277</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82757694444443,24.63290416666668,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-63/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">141</SimpleData>
+					<SimpleData name="BP_No_">BP-63/1</SimpleData>
+					<SimpleData name="LATITUDE">24 38 0.071</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 39.475</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82763194444443,24.63335305555553,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-63/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">142</SimpleData>
+					<SimpleData name="BP_No_">BP-63/2</SimpleData>
+					<SimpleData name="LATITUDE">24 38 1.688</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 39.657</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82768249999998,24.6338022222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-64</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">143</SimpleData>
+					<SimpleData name="BP_No_">BP-64</SimpleData>
+					<SimpleData name="LATITUDE">24 38 3.783</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 39.842</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82773388888887,24.63438416666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-65</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">144</SimpleData>
+					<SimpleData name="BP_No_">BP-65</SimpleData>
+					<SimpleData name="LATITUDE">24 38 3.975</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 38.605</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82739027777779,24.63443749999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-65/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">145</SimpleData>
+					<SimpleData name="BP_No_">BP-65/1</SimpleData>
+					<SimpleData name="LATITUDE">24 38 3.908</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 36.828</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82689666666668,24.63441888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-65/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">146</SimpleData>
+					<SimpleData name="BP_No_">BP-65/2</SimpleData>
+					<SimpleData name="LATITUDE">24 38 3.837</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 35.051</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82640305555555,24.63439916666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-66</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">147</SimpleData>
+					<SimpleData name="BP_No_">BP-66</SimpleData>
+					<SimpleData name="LATITUDE">24 38 3.692</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 33.102</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.8258616666667,24.63435888888888,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-66/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">148</SimpleData>
+					<SimpleData name="BP_No_">BP-66/1</SimpleData>
+					<SimpleData name="LATITUDE">24 38 3.326</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 31.369</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82538027777775,24.63425722222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-67</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">149</SimpleData>
+					<SimpleData name="BP_No_">BP-67</SimpleData>
+					<SimpleData name="LATITUDE">24 38 2.993</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 29.818</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82494944444443,24.63416472222221,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-68</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">150</SimpleData>
+					<SimpleData name="BP_No_">BP-68</SimpleData>
+					<SimpleData name="LATITUDE">24 38 3.122</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 29.63</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82489722222219,24.63420055555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-68/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">151</SimpleData>
+					<SimpleData name="BP_No_">BP-68/1</SimpleData>
+					<SimpleData name="LATITUDE">24 38 4.723</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 29.94</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82498333333332,24.6346452777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-68/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">152</SimpleData>
+					<SimpleData name="BP_No_">BP-68/2</SimpleData>
+					<SimpleData name="LATITUDE">24 38 6.33</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 30.208</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82505777777777,24.63509166666665,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-69</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">153</SimpleData>
+					<SimpleData name="BP_No_">BP-69</SimpleData>
+					<SimpleData name="LATITUDE">24 38 8.096</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 30.516</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82514333333337,24.63558222222219,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-70</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">154</SimpleData>
+					<SimpleData name="BP_No_">BP-70</SimpleData>
+					<SimpleData name="LATITUDE">24 38 8.313</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 29.851</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82495861111113,24.6356425,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-71</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">155</SimpleData>
+					<SimpleData name="BP_No_">BP-71</SimpleData>
+					<SimpleData name="LATITUDE">24 38 8.193</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 28.389</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82455249999998,24.63560916666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-71/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">156</SimpleData>
+					<SimpleData name="BP_No_">BP-71/1</SimpleData>
+					<SimpleData name="LATITUDE">24 38 8.453</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 26.633</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82406472222222,24.63568138888887,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-72</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">157</SimpleData>
+					<SimpleData name="BP_No_">BP-72</SimpleData>
+					<SimpleData name="LATITUDE">24 38 8.583</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 25.751</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82381972222221,24.63571750000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-73</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">158</SimpleData>
+					<SimpleData name="BP_No_">BP-73</SimpleData>
+					<SimpleData name="LATITUDE">24 38 8.779</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 24.424</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82345111111114,24.63577194444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-73/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">159</SimpleData>
+					<SimpleData name="BP_No_">BP-73/1</SimpleData>
+					<SimpleData name="LATITUDE">24 38 10.284</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 25.097</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82363805555555,24.63619000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-73/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">160</SimpleData>
+					<SimpleData name="BP_No_">BP-73/2</SimpleData>
+					<SimpleData name="LATITUDE">24 38 11.807</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 25.72</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82381111111111,24.63661305555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-73/3</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">161</SimpleData>
+					<SimpleData name="BP_No_">BP-73/3</SimpleData>
+					<SimpleData name="LATITUDE">24 38 13.356</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 26.259</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82396083333333,24.63704333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-74</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">162</SimpleData>
+					<SimpleData name="BP_No_">BP-74</SimpleData>
+					<SimpleData name="LATITUDE">24 38 14.765</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 26.749</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82409694444443,24.63743472222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-74/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">163</SimpleData>
+					<SimpleData name="BP_No_">BP-74/1</SimpleData>
+					<SimpleData name="LATITUDE">24 38 16.363</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 27.079</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82418861111113,24.63787861111112,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-74/2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">164</SimpleData>
+					<SimpleData name="BP_No_">BP-74/2</SimpleData>
+					<SimpleData name="LATITUDE">24 38 17.96</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 27.409</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82428027777779,24.63832222222224,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-74/3</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">165</SimpleData>
+					<SimpleData name="BP_No_">BP-74/3</SimpleData>
+					<SimpleData name="LATITUDE">24 38 19.557</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 27.743</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82437305555557,24.63876583333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-75</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">166</SimpleData>
+					<SimpleData name="BP_No_">BP-75</SimpleData>
+					<SimpleData name="LATITUDE">24 38 20.679</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 27.993</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82444249999996,24.6390775,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-75/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">167</SimpleData>
+					<SimpleData name="BP_No_">BP-75/1</SimpleData>
+					<SimpleData name="LATITUDE">24 38 20.3</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 29.722</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82492277777779,24.63897222222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-76</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">168</SimpleData>
+					<SimpleData name="BP_No_">BP-76</SimpleData>
+					<SimpleData name="LATITUDE">24 38 19.773</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 32.122</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82558944444446,24.63882583333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-76/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">169</SimpleData>
+					<SimpleData name="BP_No_">BP-76/1</SimpleData>
+					<SimpleData name="LATITUDE">24 38 21.391</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 32.308</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82564111111112,24.6392752777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-77</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">170</SimpleData>
+					<SimpleData name="BP_No_">BP-77</SimpleData>
+					<SimpleData name="LATITUDE">24 38 22.839</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 32.507</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82569638888891,24.6396775,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-78</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">171</SimpleData>
+					<SimpleData name="BP_No_">BP-78</SimpleData>
+					<SimpleData name="LATITUDE">24 38 23.04</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 33.855</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82607083333333,24.63973333333332,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-79</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">172</SimpleData>
+					<SimpleData name="BP_No_">BP-79</SimpleData>
+					<SimpleData name="LATITUDE">24 38 23.661</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 33.959</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82609972222225,24.63990583333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-80</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">173</SimpleData>
+					<SimpleData name="BP_No_">BP-80</SimpleData>
+					<SimpleData name="LATITUDE">24 38 24.409</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 33.987</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82610749999999,24.64011361111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-80/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">174</SimpleData>
+					<SimpleData name="BP_No_">BP-80/1</SimpleData>
+					<SimpleData name="LATITUDE">24 38 23.981</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 35.703</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82658416666665,24.63999472222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-81</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">175</SimpleData>
+					<SimpleData name="BP_No_">BP-81</SimpleData>
+					<SimpleData name="LATITUDE">24 38 23.489</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 37.682</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82713388888884,24.63985805555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-81/1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">176</SimpleData>
+					<SimpleData name="BP_No_">BP-81/1</SimpleData>
+					<SimpleData name="LATITUDE">24 38 23.061</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 39.398</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82761055555557,24.63973916666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-82</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">177</SimpleData>
+					<SimpleData name="BP_No_">BP-82</SimpleData>
+					<SimpleData name="LATITUDE">24 38 22.568</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 41.377</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.8281602777778,24.63960222222219,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-83</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">178</SimpleData>
+					<SimpleData name="BP_No_">BP-83</SimpleData>
+					<SimpleData name="LATITUDE">24 38 24.826</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 41.677</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82824361111115,24.64022944444448,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-84</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">179</SimpleData>
+					<SimpleData name="BP_No_">BP-84</SimpleData>
+					<SimpleData name="LATITUDE">24 38 25.014</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 40.973</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82804805555556,24.64028166666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-85</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">180</SimpleData>
+					<SimpleData name="BP_No_">BP-85</SimpleData>
+					<SimpleData name="LATITUDE">24 38 26.554</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 41.138</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82809388888889,24.64070944444442,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-86</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_sagma_ISSSIIII">
+					<SimpleData name="Sr__No_">181</SimpleData>
+					<SimpleData name="BP_No_">BP-86</SimpleData>
+					<SimpleData name="LATITUDE">24 38 26.904</SimpleData>
+					<SimpleData name="LONGITUDE">80 49 40.323</SimpleData>
+					<SimpleData name="unnamed">0</SimpleData>
+					<SimpleData name="unnamed_2">0</SimpleData>
+					<SimpleData name="unnamed_3">0</SimpleData>
+					<SimpleData name="unnamed_4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>80.82786750000001,24.64080666666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							80.82786763965539,24.6408062765084,0 80.82809550393762,24.64070929551135,0 80.82804784472896,24.64028513036995,0 80.82824457670631,24.64022964083312,0 80.82816656177815,24.63961048784938,0 80.82761156515922,24.63973633159451,0 80.82713355396812,24.63985739477844,0 80.826583883748,24.63999820651087,0 80.82610818284515,24.64011858767708,0 80.8261029807275,24.63990556379378,0 80.82607464202712,24.63973955057018,0 80.8256980749519,24.63968134564231,0 80.82564521721416,24.63927770816086,0 80.82558760945608,24.63883065578613,0 80.82492625732462,24.63897312948986,0 80.82444631869242,24.63908145668713,0 80.8243778495091,24.63877262052844,0 80.82428389193142,24.63832807723409,0 80.82419176927122,24.63788491841267,0 80.82409847265713,24.6374458945223,0 80.82396317596969,24.63704638897471,0 80.82381455254911,24.63661702336115,0 80.82364280781749,24.63619766328184,0 80.82345010474545,24.63577791599044,0 80.82382189641771,24.63572343157896,0 80.8240647593226,24.63568417727321,0 80.82455409177523,24.63561328537192,0 80.82495921451823,24.6356430297392,0 80.82514749613888,24.63558637454873,0 80.82505565345801,24.63509906161245,0 80.82498715046366,24.63464811355427,0 80.8248940245322,24.63419925227695,0 80.82495290086798,24.63416865928878,0 80.82538407597674,24.6342658875595,0 80.82586088907605,24.63435767453988,0 80.82640708027314,24.63440256015377,0 80.82689868506006,24.63442099108538,0 80.82738926693051,24.63443921759907,0 80.8277371894202,24.63438971392447,0 80.8276861081002,24.63380585364587,0 80.82763318160251,24.63335590203204,0 80.82757954263394,24.63290973931997,0 80.82752264506772,24.63269227762258,0 80.82744474456187,24.63251997512105,0 80.82725112824195,24.63210442679076,0 80.82718471940532,24.63213751310101,0 80.82718448885541,24.63216746080399,0 80.82670961387664,24.63216091914882,0 80.82621509194396,24.63216151709405,0 80.82586819892857,24.63218635255365,0 80.82537484931338,24.63223023616326,0 80.82534375058164,24.63194020044496,0 80.82531257409913,24.63148882754833,0 80.82521509955349,24.6309046262677,0 80.82514676111886,24.63045829433294,0 80.82517428165836,24.63018706138871,0 80.82506726501592,24.62967010765112,0 80.82494743381001,24.62946938423121,0 80.82483155217625,24.62906812887551,0 80.82470869143761,24.62862792044157,0 80.824588654443,24.62818635260555,0 80.82502001513834,24.62805608374779,0 80.82501592419123,24.62796946975145,0 80.8248715617821,24.62762946484489,0 80.82477930244171,24.62738927590674,0 80.82462915040099,24.62697086652097,0 80.82414595631116,24.62710225961393,0 80.82367250187886,24.62724048106866,0 80.82320236108878,24.62737565008678,0 80.82272973803673,24.62750531559271,0 80.82225207349262,24.62762904378102,0 80.82234814314155,24.62803923490926,0 80.82245975355393,24.62842029562851,0 80.82260377243867,24.62885401034175,0 80.8225610015436,24.62899141626495,0 80.82257108121169,24.62920191237766,0 80.82273125893201,24.62952337927561,0 80.82250283742762,24.62962046441263,0 80.82206335377026,24.62982724617224,0 80.82214902179196,24.63004495963257,0 80.82175525647216,24.63007762522271,0 80.82127523912582,24.63013732437429,0 80.820780215605,24.63020376743392,0 80.82029124710866,24.63027502247247,0 80.81986836779529,24.63036755335877,0 80.81938698359494,24.63045659849892,0 80.81890181742212,24.63053878889706,0 80.81827759915446,24.63060580409277,0 80.81777854148245,24.63064957773983,0 80.81717444575227,24.63077390467839,0 80.81668868426048,24.63084824235327,0 80.81620413978804,24.63091485140134,0 80.81599229190682,24.63031205906908,0 80.81583600676078,24.6298824666785,0 80.81569458152114,24.62944574962871,0 80.81550284132135,24.62906780373599,0 80.81523597895344,24.62868324079509,0 80.81503897869601,24.62815474048399,0 80.815033334408,24.62794936601398,0 80.81533107687589,24.62790704155139,0 80.81559736022015,24.62782815755717,0 80.81607680993022,24.62771970498475,0 80.81655551703265,24.62761582595115,0 80.81682969372092,24.62754137451796,0 80.81729911402353,24.62738766051508,0 80.81773866094881,24.62718391803032,0 80.81776766397567,24.62713196449492,0 80.81814890718186,24.62695920413151,0 80.81858586805993,24.62676776941842,0 80.81903371730981,24.62657170658308,0 80.81948174335109,24.62636867041948,0 80.81976621148712,24.6262673553812,0 80.82022069628533,24.62609436294454,0 80.82067456578564,24.62591767553531,0 80.82096155689885,24.62578192843862,0 80.82139532694622,24.62557047791925,0 80.82183337974391,24.62536418273697,0 80.82228007063819,24.62517432481091,0 80.82284733696476,24.6248438429711,0 80.82333810108179,24.62463384700653,0 80.82377591292648,24.62442705553349,0 80.82432862761846,24.6242369529806,0 80.82479315030112,24.62407988868918,0 80.82525181996884,24.62392421137687,0 80.82571550654913,24.62375998837815,0 80.82618816622092,24.6236181253384,0 80.82666950962533,24.62353807613352,0 80.82722863156752,24.62344080627923,0 80.82742424353778,24.62385735220401,0 80.82764076440472,24.62427375327783,0 80.82791736879005,24.62471956486381,0 80.82816089064097,24.62511250780597,0 80.82840078196988,24.62551179173326,0 80.82844922738632,24.62553061870374,0 80.82844199337777,24.62609188978049,0 80.82842459225103,24.62653944314039,0 80.82841405077949,24.62699291301852,0 80.82840076300748,24.62743678237686,0 80.82838888543992,24.62789296561116,0 80.82840929801009,24.62846886375314,0 80.82842651816703,24.62891719898353,0 80.82844371003708,24.62937155483901,0 80.82845870354903,24.62982237684123,0 80.82848019041768,24.63027480491354,0 80.82849076484817,24.63055896301199,0 80.82850277768237,24.63100870691681,0 80.82853128936173,24.63146323284238,0 80.82853958085877,24.6319123773765,0 80.82855084273916,24.63236426752395,0 80.82856161705756,24.63281748090796,0 80.82856749172024,24.63337992443869,0 80.82855184678475,24.63383374230162,0 80.82854225913789,24.63428423264634,0 80.82856821540182,24.63461682382052,0 80.82860160420513,24.6350658875687,0 80.82864758939115,24.635517960025,0 80.828375675182,24.63550506029725,0 80.82788437904912,24.63547465705138,0 80.82739299225443,24.63544807865362,0 80.82688264583251,24.63548497817998,0 80.8263947450711,24.63551678465536,0 80.82646865181418,24.63615292012484,0 80.82652395215133,24.63659838649574,0 80.82657356845141,24.637056145502,0 80.8266235452472,24.63750036722877,0 80.82720783448634,24.63743403875985,0 80.82769212482745,24.63737214112717,0 80.82821595404111,24.63730915927825,0 80.82870383757691,24.63725209565622,0 80.82869364566271,24.63769884347636,0 80.82868652436839,24.63814842161174,0 80.8285336034868,24.63817897519668,0 80.82859748527311,24.63840433004152,0 80.82865013800571,24.63882323811467,0 80.82871981048744,24.63927099699634,0 80.82870911343508,24.63976204332911,0 80.82869200977427,24.64021634612192,0 80.82866887668688,24.64066324932616,0 80.82872038745279,24.64116741196652,0 80.82846899080799,24.64119832139505,0 80.82797291844989,24.6412509106127,0 80.82786763965539,24.6408062765084,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Plantation</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							80.82647755291902,24.62844141304103,0 80.82617362390796,24.62847999328987,0 80.82605486664308,24.62805068602008,0 80.82606416723019,24.62771218632741,0 80.82608219077447,24.62739619313181,0 80.82661653502541,24.62713371793189,0 80.82648115999245,24.62674955098209,0 80.82616705170757,24.62632983331186,0 80.8258072299941,24.62619874062013,0 80.82563773793862,24.62609330484085,0 80.82555632264133,24.62541411516273,0 80.82579499434604,24.62496386702121,0 80.82625231346613,24.62470372379043,0 80.82650898913433,24.62457752074602,0 80.82709406800694,24.62444050334135,0 80.82722722177206,24.62440311888085,0 80.82722352337191,24.6246567640265,0 80.82708312618567,24.62493245934809,0 80.82693590850096,24.62510011960289,0 80.82687907720295,24.6252134899383,0 80.82701593441169,24.62524663469569,0 80.82718449858105,24.62531714307432,0 80.82731073046419,24.62552607706239,0 80.82748276934225,24.62566480807661,0 80.82769261909812,24.62564454020826,0 80.82815464724979,24.62558633270377,0 80.8283641314967,24.62551727344146,0 80.82841042021026,24.62594726240266,0 80.82837637148252,24.62690808283989,0 80.82836684733488,24.62746514190511,0 80.82794450017363,24.62788446486682,0 80.82827090756635,24.62815354129204,0 80.82823963007958,24.62837371626016,0 80.82802438652151,24.6285502278219,0 80.82778343295587,24.62856094386056,0 80.82783143718656,24.62890212949739,0 80.82777060061456,24.62926280712022,0 80.82731097157675,24.62903731118728,0 80.82696096825906,24.6288581586484,0 80.82699257014998,24.62853446092103,0 80.82647755291902,24.62844141304103,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Plantation</name>
+			<LookAt>
+				<longitude>80.83013214881169</longitude>
+				<latitude>24.62649179642398</latitude>
+				<altitude>0</altitude>
+				<heading>0.003939901019406885</heading>
+				<tilt>0</tilt>
+				<range>1068.723543026811</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>80.82751550650759,24.62662869030121,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

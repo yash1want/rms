@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>kml File, MAIOM (11.00Ha).KMZ</name>
+	<Style id="area1">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area3">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff8080</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area4">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff408000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="line1">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+	</Style>
+	<Style id="line3">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffd4aa</color>
+		</LineStyle>
+	</Style>
+	<Style id="line4">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff80ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="line5">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00bfff</color>
+		</LineStyle>
+	</Style>
+	<Style id="line6">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff408000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="line7">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7faa55</color>
+			<width>2.1</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="line70">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line71</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="line71">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7faa55</color>
+			<width>2.1</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="point1">
+		<IconStyle>
+			<Icon>
+				<href>kml_symbol_dot - red_0.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="point3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#point37</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#point317</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="point30">
+		<IconStyle>
+			<Icon>
+				<href>kml_symbol_no symbol_0_0.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffffaa</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="point31">
+		<IconStyle>
+			<Icon>
+				<href>kml_symbol_no symbol_0_0.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aa55</color>
+			<scale>0.7</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="point310">
+		<IconStyle>
+			<Icon>
+				<href>kml_symbol_no symbol_0_0.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aa55</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="point311">
+		<IconStyle>
+			<Icon>
+				<href>kml_symbol_no symbol_0_0.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aa55</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="point312">
+		<IconStyle>
+			<Icon>
+				<href>kml_symbol_no symbol_0_0.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aa55</color>
+			<scale>0.7</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="point313">
+		<IconStyle>
+			<Icon>
+				<href>kml_symbol_no symbol_0_0.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aa55</color>
+			<scale>0.7</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="point314">
+		<IconStyle>
+			<Icon>
+				<href>kml_symbol_no symbol_0_0.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aa55</color>
+			<scale>0.7</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="point315">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#point30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#point316</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="point316">
+		<IconStyle>
+			<Icon>
+				<href>kml_symbol_no symbol_0_0.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffffaa</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="point317">
+		<IconStyle>
+			<Icon>
+				<href>kml_symbol_no symbol_0_0.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff55ff</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="point318">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#point35</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#point313</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="point319">
+		<IconStyle>
+			<Icon>
+				<href>kml_symbol_no symbol_0_0.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aa55</color>
+			<scale>0.7</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="point32">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#point314</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#point319</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="point33">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#point31</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#point312</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="point34">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#point38</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#point310</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="point35">
+		<IconStyle>
+			<Icon>
+				<href>kml_symbol_no symbol_0_0.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aa55</color>
+			<scale>0.7</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="point36">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#point311</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#point39</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="point37">
+		<IconStyle>
+			<Icon>
+				<href>kml_symbol_no symbol_0_0.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff55ff</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="point38">
+		<IconStyle>
+			<Icon>
+				<href>kml_symbol_no symbol_0_0.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aa55</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="point39">
+		<IconStyle>
+			<Icon>
+				<href>kml_symbol_no symbol_0_0.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00aa55</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Folder>
+		<name>Point Features</name>
+		<open>1</open>
+		<description>Point Features</description>
+		<Placemark>
+			<name>BP 1</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2903257765,21.3656063708,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1A</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2904554449,21.3653821705,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1B</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2906989236,21.3649759582,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1C</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2909453935,21.3646173079,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1D</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.29118763060001,21.3642480687,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1E</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2914406381,21.3638691984,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1F</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2916753846,21.363492708,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1G</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.29189763620001,21.363120944,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1H</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2921709039,21.3627420675,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1I</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2924216146,21.3623563556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1J</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2926686113,21.3619886067,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1K</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2929314093,21.3616058901,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1L</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2932297838,21.3612255725,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1M</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2935391008,21.3608699923,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-2</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2938786993,21.3605932135,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2A</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2937771709,21.3605082393,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2B</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.293444968,21.3604153288,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2C</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2932319012,21.3603679302,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2D</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2931141183,21.3603017879,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2E</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.29299941799999,21.3601640851,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2F</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.29287639739999,21.3599896029,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2G</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2926024871,21.3596158289,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2H</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2924705538,21.3594116116,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP 3</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2923604242,21.3592462271,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3A</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.29191464,21.3593358881,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3B</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2914345044,21.3594328385,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP 4</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.29097117249999,21.3595451454,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4A</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2909640929,21.3596394293,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4B</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2909334106,21.3600768708,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4C</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2909287766,21.3605367744,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4D</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2909792096,21.3609756245,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-5</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2909712292,21.3613633262,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5A</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2906090649,21.3616780128,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-6</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2903338255,21.3619071816,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>6A</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.29039626380001,21.3623442756,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>6B</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2904848527,21.3627927826,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>6C</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2905745993,21.3632393338,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>6D</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.29065280259999,21.3636455503,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP 7</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2906683058,21.3637950144,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7A</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.290492298,21.3642188406,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7B</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.29033007869999,21.3646412432,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7C</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.2902320276,21.3648133201,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP 8</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.29010311810001,21.3650822002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8A</name>
+			<description>Unknown Point Feature</description>
+			<styleUrl>#point1</styleUrl>
+			<Point>
+				<coordinates>80.29016522729999,21.3651893529,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>REST SHELTER</name>
+			<description>REST_SHELTER</description>
+			<styleUrl>#point3</styleUrl>
+			<Point>
+				<coordinates>80.29269959639798,21.36113351612053,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Backfilled Area</name>
+			<LookAt>
+				<longitude>80.29196547736774</longitude>
+				<latitude>21.36039486888723</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0001602317425463816</heading>
+				<tilt>26.96666057106827</tilt>
+				<range>284.339608888251</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>80.29168100151003,21.36035223366814,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rain Water Harvesting</name>
+			<LookAt>
+				<longitude>80.29315393936564</longitude>
+				<latitude>21.36054585233641</latitude>
+				<altitude>0</altitude>
+				<heading>0.0002781105475216881</heading>
+				<tilt>25.49516042186876</tilt>
+				<range>282.5179277410837</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>80.29317430662358,21.36069281209463,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rain Water Harvesting</name>
+			<LookAt>
+				<longitude>80.29181690059364</longitude>
+				<latitude>21.3601458473625</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0001844154984271612</heading>
+				<tilt>25.9158118109895</tilt>
+				<range>206.54792904773</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#point315</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>80.29120985173412,21.36005209874599,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Plantation</name>
+			<LookAt>
+				<longitude>80.29185169190902</longitude>
+				<latitude>21.36338167347863</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0001199669841975323</heading>
+				<tilt>22.84585083618431</tilt>
+				<range>366.7492843116253</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#point34</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>80.2910570917962,21.36373763211053,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Plantation</name>
+			<LookAt>
+				<longitude>80.29211826248141</longitude>
+				<latitude>21.36311407111331</latitude>
+				<altitude>0</altitude>
+				<heading>-2.268307493547526e-05</heading>
+				<tilt>23.02101077508079</tilt>
+				<range>454.8880916284801</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#point33</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>80.29164924666924,21.36294507345021,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Plantation</name>
+			<LookAt>
+				<longitude>80.29286447870204</longitude>
+				<latitude>21.36253080678431</latitude>
+				<altitude>0</altitude>
+				<heading>0.0001133320518643967</heading>
+				<tilt>27.86015098509948</tilt>
+				<range>496.3387817680486</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#point318</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>80.29203833568741,21.36226007341261,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Plantation</name>
+			<LookAt>
+				<longitude>80.293214475049</longitude>
+				<latitude>21.36179877903925</latitude>
+				<altitude>0</altitude>
+				<heading>0.0001548616059065012</heading>
+				<tilt>30.00173246937502</tilt>
+				<range>385.7127417896446</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#point32</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>80.29250466499452,21.36155732829955,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Plantation</name>
+			<LookAt>
+				<longitude>80.29352816895098</longitude>
+				<latitude>21.36072578435958</latitude>
+				<altitude>0</altitude>
+				<heading>0.0002619498694118732</heading>
+				<tilt>30.00154162393903</tilt>
+				<range>343.203979765923</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#point36</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>80.29357985611503,21.36059513641663,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Area Features</name>
+		<description>Area Features</description>
+		<Document>
+			<name>backfilled area.KMZ</name>
+			<open>1</open>
+			<Style id="area10">
+				<IconStyle>
+					<Icon>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffff00</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff000000</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Folder>
+				<name>Area Features</name>
+				<open>1</open>
+				<description>Area Features</description>
+				<Document>
+					<name>plantation (2020-21).KMZ</name>
+					<Style id="area11">
+						<IconStyle>
+							<Icon>
+							</Icon>
+						</IconStyle>
+						<LineStyle>
+							<color>ff7faa55</color>
+							<width>1.2</width>
+						</LineStyle>
+						<PolyStyle>
+							<color>ff000000</color>
+							<fill>0</fill>
+						</PolyStyle>
+					</Style>
+					<Style id="area12">
+						<IconStyle>
+							<Icon>
+							</Icon>
+						</IconStyle>
+						<LineStyle>
+							<color>ff7faa55</color>
+							<width>1.2</width>
+						</LineStyle>
+						<PolyStyle>
+							<color>ff000000</color>
+							<fill>0</fill>
+						</PolyStyle>
+					</Style>
+					<StyleMap id="area13">
+						<Pair>
+							<key>normal</key>
+							<styleUrl>#area11</styleUrl>
+						</Pair>
+						<Pair>
+							<key>highlight</key>
+							<styleUrl>#area12</styleUrl>
+						</Pair>
+					</StyleMap>
+					<StyleMap id="m_ylw-pushpin1">
+						<Pair>
+							<key>normal</key>
+							<styleUrl>#s_ylw-pushpin1</styleUrl>
+						</Pair>
+						<Pair>
+							<key>highlight</key>
+							<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+						</Pair>
+					</StyleMap>
+					<Style id="s_ylw-pushpin1">
+						<IconStyle>
+							<Icon>
+							</Icon>
+						</IconStyle>
+						<LabelStyle>
+							<color>ff00aa55</color>
+							<scale>0.7</scale>
+						</LabelStyle>
+					</Style>
+					<Style id="s_ylw-pushpin_hl1">
+						<IconStyle>
+							<Icon>
+							</Icon>
+						</IconStyle>
+						<LabelStyle>
+							<color>ff00aa55</color>
+							<scale>0.7</scale>
+						</LabelStyle>
+					</Style>
+					<Folder>
+						<name>Area Features</name>
+						<description>Area Features</description>
+						<Placemark>
+							<description>PLANTATION</description>
+							<styleUrl>#area13</styleUrl>
+							<Polygon>
+								<outerBoundaryIs>
+									<LinearRing>
+										<coordinates>
+											80.2907154748,21.3641096026,0 80.29111091359999,21.3643638122,0 80.2909453935,21.3646173079,0 80.2906989236,21.3649759582,0 80.2904554449,21.3653821705,0 80.2903257765,21.3656063708,0 80.29016522729999,21.3651893529,0 80.29010311810001,21.3650822002,0 80.29018640939999,21.3649084709,0 80.2907154748,21.3641096026,0 
+										</coordinates>
+									</LinearRing>
+								</outerBoundaryIs>
+							</Polygon>
+						</Placemark>
+					</Folder>
+					<Placemark>
+						<name>Plantation</name>
+						<LookAt>
+							<longitude>80.29117542753247</longitude>
+							<latitude>21.3642409030598</latitude>
+							<altitude>0</altitude>
+							<heading>-0.0004940790895525964</heading>
+							<tilt>32.72522815341273</tilt>
+							<range>385.2145312159269</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin1</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>80.29050381442759,21.36446710952708,0</coordinates>
+						</Point>
+					</Placemark>
+				</Document>
+				<Placemark>
+					<description>BACKFILLED_AREA</description>
+					<styleUrl>#area10</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									80.29259718110001,21.36052758,0 80.2924210721,21.3606794237,0 80.29206247010001,21.3607810588,0 80.292031126,21.3608225932,0 80.29115068829999,21.3608931657,0 80.2911453673,21.3610921272,0 80.2910472798,21.3610912611,0 80.291050822,21.3609191762,0 80.29100137109999,21.3604888741,0 80.29100316669999,21.3602490225,0 80.29160826410001,21.3601244629,0 80.291595477,21.3600880474,0 80.2915708651,21.3600567949,0 80.29155324369999,21.3600205005,0 80.291542081,21.3599845841,0 80.2915395694,21.3599293719,0 80.2915396177,21.3599293622,0 80.2914193578,21.3599438732,0 80.2910113993,21.3599944967,0 80.2910241248,21.359811218,0 80.2910396771,21.3595985322,0 80.2919398725,21.3593995011,0 80.2919398725,21.3593995011,0 80.29232593890001,21.3593224675,0 80.2924458694,21.3595042759,0 80.292554373,21.3601750714,0 80.29259718110001,21.36052758,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Placemark>
+			<description>SAFTY_ZONE_11HA</description>
+			<styleUrl>#area1</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							80.29287178929999,21.3615674612,0 80.29260757820001,21.3619522355,0 80.292360106,21.3623206921,0 80.2921100084,21.3627054605,0 80.2918360022,21.3630853607,0 80.291612591,21.3634590642,0 80.2913787291,21.3638341357,0 80.29112615149999,21.364212362,0 80.2908841597,21.3645812269,0 80.29063691730001,21.3649410012,0 80.2903921019,21.3653494433,0 80.2903390641,21.3654411473,0 80.29023141490001,21.3651615343,0 80.29018378009999,21.3650793534,0 80.2902970051,21.3648431879,0 80.29039636749999,21.3646688095,0 80.2905600502,21.3642425959,0 80.29074197040001,21.3638045323,0 80.2907245147,21.3636362456,0 80.2906457382,21.3632270526,0 80.290555961,21.3627803504,0 80.2904677211,21.3623336115,0 80.2904106223,21.3619338971,0 80.2906576946,21.3617281805,0 80.2910429586,21.3613934223,0 80.2910516198,21.3609726394,0 80.2910011483,21.3605334565,0 80.291005723,21.3600794139,0 80.2910362609,21.3596440277,0 80.2910396771,21.3595985322,0 80.2914511924,21.3594987851,0 80.29192988210001,21.3594021266,0 80.29232593890001,21.3593224675,0 80.2924089223,21.359447086,0 80.29254167720001,21.3596525751,0 80.2928163957,21.3600274523,0 80.292940633,21.3602036603,0 80.2930653746,21.3603534181,0 80.2932043038,21.3604314354,0 80.2934262492,21.3604808091,0 80.2937410119,21.360568842,0 80.2937693252,21.3605925388,0 80.2934869427,21.3608226853,0 80.29317256660001,21.3611840812,0 80.29287178929999,21.3615674612,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<description>RAINWATER_HARVESTING</description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							80.2930943266,21.3605502314,0 80.2931040789,21.3605398904,0 80.29311256290001,21.3605311417,0 80.2931199217,21.3605237433,0 80.2931262988,21.3605174531,0 80.2931318373,21.360512029,0 80.2931366804,21.360507229,0 80.29314097149999,21.3605028111,0 80.2931448538,21.3604985332,0 80.2931484953,21.3604942105,0 80.2931521629,21.3604898876,0 80.2931561484,21.360485666,0 80.2931607435,21.3604816474,0 80.2931662399,21.3604779336,0 80.2931729294,21.3604746262,0 80.2931811035,21.360471827,0 80.29319105419999,21.3604696377,0 80.2932029935,21.360468144,0 80.293216816,21.3604673691,0 80.2932323368,21.3604673198,0 80.2932493707,21.3604680033,0 80.2932677328,21.3604694268,0 80.29328723819999,21.3604715972,0 80.29330770190001,21.3604745218,0 80.2933289388,21.3604782075,0 80.2933507517,21.360482664,0 80.2933728941,21.3604879109,0 80.2933951073,21.36049397,0 80.2934171326,21.3605008635,0 80.29343871109999,21.3605086134,0 80.29345958419999,21.3605172416,0 80.29347949300001,21.3605267703,0 80.29349817889999,21.3605372213,0 80.29351540090001,21.3605486092,0 80.2935309894,21.3605609173,0 80.2935447925,21.3605741215,0 80.29355665849999,21.3605881977,0 80.2935664355,21.3606031217,0 80.2935739716,21.3606188694,0 80.2935791152,21.3606354165,0 80.2935817143,21.3606527389,0 80.2935816489,21.360670768,0 80.2935789265,21.3606892569,0 80.2935735863,21.3607079141,0 80.2935656674,21.3607264485,0 80.293555209,21.3607445685,0 80.2935422505,21.3607619829,0 80.29352683090001,21.3607784002,0 80.2935089895,21.3607935291,0 80.2934888651,21.3608072297,0 80.293466995,21.3608199677,0 80.29344401589999,21.3608323604,0 80.2934205648,21.360845025,0 80.2933972786,21.3608585787,0 80.2933747939,21.3608736388,0 80.2933537478,21.3608908224,0 80.293334777,21.3609107468,0 80.2933183185,21.3609337552,0 80.29330400880001,21.3609590947,0 80.293291285,21.3609857383,0 80.2932795836,21.3610126591,0 80.29326834139999,21.3610388302,0 80.2932569953,21.3610632247,0 80.2932449819,21.3610848156,0 80.2932317381,21.3611025759,0 80.2932168422,21.3611157465,0 80.2932004386,21.3611246389,0 80.29318281330001,21.3611298322,0 80.29316425250001,21.3611319058,0 80.29314504209999,21.3611314387,0 80.2931254682,21.3611290101,0 80.29310581679999,21.3611251994,0 80.293086374,21.3611205857,0 80.29306737269999,21.3611156436,0 80.293048834,21.3611104291,0 80.2930307259,21.3611048938,0 80.29301301629999,21.3610989891,0 80.2929956732,21.3610926665,0 80.2929786646,21.3610858774,0 80.2929619585,21.3610785733,0 80.2929455229,21.3610707057,0 80.29292936980001,21.3610622544,0 80.2929136879,21.3610533123,0 80.29289871,21.361044001,0 80.2928846688,21.3610344418,0 80.29287179710001,21.361024756,0 80.2928603277,21.3610150652,0 80.29285049329999,21.3610054906,0 80.2928425267,21.3609961537,0 80.2928365747,21.3609871426,0 80.29283244,21.3609784128,0 80.2928298395,21.3609698865,0 80.29282849000001,21.3609614859,0 80.2928281083,21.3609531332,0 80.29282841120001,21.3609447507,0 80.2928291156,21.3609362605,0 80.2928299382,21.3609275848,0 80.2928306944,21.3609186338,0 80.2928315934,21.3609092695,0 80.29283294290001,21.3608993415,0 80.2928350506,21.3608886999,0 80.2928382243,21.3608771944,0 80.29284277159999,21.3608646748,0 80.2928490004,21.360850991,0 80.2928572184,21.3608359928,0 80.2928675858,21.3608196418,0 80.2928796739,21.3608023463,0 80.2928929065,21.3607846262,0 80.29290670730001,21.3607670015,0 80.2929205001,21.3607499923,0 80.29293370870001,21.3607341186,0 80.2929457569,21.3607199003,0 80.2929560685,21.3607078575,0 80.2929642534,21.3606983189,0 80.2929706659,21.360690849,0 80.2929758463,21.3606848208,0 80.29298033489999,21.3606796074,0 80.29298467220001,21.3606745821,0 80.2929893984,21.360669118,0 80.2929950541,21.3606625882,0 80.29300217940001,21.3606543659,0 80.2930111535,21.3606440152,0 80.2930217099,21.3606318643,0 80.293033421,21.3606184325,0 80.2930458591,21.3606042389,0 80.2930585964,21.3605898028,0 80.29307120519999,21.3605756433,0 80.29308325789999,21.3605622798,0 80.2930943266,21.3605502314,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<description>PLANTATION</description>
+			<styleUrl>#area4</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							80.2931586009,21.3613163048,0 80.29263550490001,21.3620364098,0 80.2922324005,21.3617904729,0 80.2927992052,21.361010164,0 80.2931586009,21.3613163048,0 80.2931586009,21.3613163048,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<description>PLANTATION</description>
+			<styleUrl>#area4</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							80.2922324601,21.3617910628,0 80.29263550490001,21.3620364098,0 80.2921709039,21.3627420675,0 80.2921235556,21.3628077145,0 80.2917226367,21.3625566653,0 80.291764935,21.3624980202,0 80.292011558,21.3621185986,0 80.2921785835,21.3618708303,0 80.2922324601,21.3617910628,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<description>PLANTATION</description>
+			<styleUrl>#area4</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							80.291623714,21.3635755784,0 80.2914406381,21.3638691984,0 80.29118039700001,21.3642480382,0 80.29111091359999,21.3643638122,0 80.2907154748,21.3641096026,0 80.290779454,21.3640075024,0 80.290994365,21.3636780248,0 80.2912113635,21.3633453452,0 80.29162439069999,21.3635759563,0 80.291623714,21.3635755784,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Line Features</name>
+		<description>Line Features</description>
+		<Placemark>
+			<description>LEASE_BOUNDARY</description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					80.2903257765,21.3656063708,0 80.29016522729999,21.3651893529,0 80.29010311810001,21.3650822002,0 80.2902320276,21.3648133201,0 80.29033007869999,21.3646412432,0 80.290492298,21.3642188406,0 80.2906683058,21.3637950144,0 80.29065280259999,21.3636455503,0 80.2905745993,21.3632393338,0 80.2904848527,21.3627927826,0 80.29039626380001,21.3623442756,0 80.2903338255,21.3619071816,0 80.2906090649,21.3616780128,0 80.2909712292,21.3613633262,0 80.2909792096,21.3609756245,0 80.2909287766,21.3605367744,0 80.2909334106,21.3600768708,0 80.2909640929,21.3596394293,0 80.29097117249999,21.3595451454,0 80.2914345044,21.3594328385,0 80.29191464,21.3593358881,0 80.2923604242,21.3592462271,0 80.2924705538,21.3594116116,0 80.2926024871,21.3596158289,0 80.29287639739999,21.3599896029,0 80.29299941799999,21.3601640851,0 80.2931141183,21.3603017879,0 80.2932319012,21.3603679302,0 80.293444968,21.3604153288,0 80.2937771709,21.3605082393,0 80.2938786993,21.3605932135,0 80.2935391008,21.3608699923,0 80.2932297838,21.3612255725,0 80.2929314093,21.3616058901,0 80.2926686113,21.3619886067,0 80.2924216146,21.3623563556,0 80.2921709039,21.3627420675,0 80.29189763620001,21.363120944,0 80.2916753846,21.363492708,0 80.2914406381,21.3638691984,0 80.29118763060001,21.3642480687,0 80.2909453935,21.3646173079,0 80.2906989236,21.3649759582,0 80.2904554449,21.3653821705,0 80.2903257765,21.3656063708,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description>RAINWATER_HARVESTING</description>
+			<styleUrl>#line3</styleUrl>
+			<LineString>
+				<coordinates>
+					80.29100316669999,21.3602490225,0 80.291005723,21.3600794139,0 80.2910113993,21.3599944967,0 80.2913645416,21.3599506788,0 80.2915391242,21.3599290808,0 80.291542081,21.3599845841,0 80.2915583322,21.3600309812,0 80.2915708651,21.3600567949,0 80.29158291340001,21.3600720939,0 80.291595477,21.3600880474,0 80.2916024669,21.3601079533,0 80.29160826410001,21.3601244629,0 80.29100316669999,21.3602490225,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description>REST_SHELTER</description>
+			<styleUrl>#line4</styleUrl>
+			<LineString>
+				<coordinates>
+					80.2926155119,21.3611169801,0 80.29261594570001,21.3610266344,0 80.29271239179999,21.3610270407,0 80.2927119582,21.3611173864,0 80.2926155119,21.3611169801,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description>MINE_ROAD</description>
+			<styleUrl>#line5</styleUrl>
+			<LineString>
+				<coordinates>
+					80.2904105809,21.3656494071,0 80.2905399023,21.3654258067,0 80.2907815988,21.3650225674,0 80.2910270385,21.3646654158,0 80.2912696029,21.3642956776,0 80.29152318360001,21.3639159486,0 80.2917591094,21.3635375665,0 80.2919798148,21.3631683884,0 80.2922520978,21.3627908769,0 80.2925036261,21.3624039069,0 80.2927499887,21.3620371017,0 80.2930109026,21.3616571287,0 80.2932128385,21.3613997349,0 80.29316274670001,21.3613668567,0 80.2931087539,21.3613263797,0 80.2930228861,21.3612509079,0 80.2928792833,21.3611277975,0 80.2927738203,21.3610386007,0 80.29263617620001,21.3609388463,0 80.2925216199,21.3608589474,0 80.2923794431,21.3607449116,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description>MINE_ROAD</description>
+			<styleUrl>#line5</styleUrl>
+			<LineString>
+				<coordinates>
+					80.2925374416,21.3602223464,0 80.29260873,21.3602715171,0 80.2926533601,21.3606869345,0 80.2926495305,21.3608310352,0 80.2926463739,21.3608974088,0 80.2926459485,21.3608994802,0 80.2926600844,21.3609093394,0 80.2927992052,21.361010164,0 80.2929058819,21.3611003873,0 80.29304976420001,21.3612237374,0 80.29313467670001,21.3612983694,0 80.29318641570001,21.3613371569,0 80.29323597370001,21.3613702461,0 80.29330607359999,21.3612808942,0 80.29360864500001,21.3609330683,0 80.29394200590001,21.3606613732,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description>MINE_ROAD</description>
+			<styleUrl>#line5</styleUrl>
+			<LineString>
+				<coordinates>
+					80.2925250016,21.3602495375,0 80.29258586810001,21.3602847784,0 80.292625835,21.3606748705,0 80.29262202610001,21.3608181923,0 80.2926190523,21.360880721,0 80.2925463154,21.3608299897,0 80.29249596690001,21.3607896067,0 80.29243556740001,21.3607209884,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description>PLANTATION</description>
+			<styleUrl>#line6</styleUrl>
+			<LineString>
+				<coordinates>
+					80.2912113635,21.3633453452,0 80.2917226367,21.3625566653,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description>PLANTATION</description>
+			<styleUrl>#line70</styleUrl>
+			<LineString>
+				<coordinates>
+					80.2933812995,21.3603999808,0 80.29319138069999,21.360554612,0 80.2927998764,21.3610107316,0 80.2931040333,21.3612714361,0 80.2931586009,21.3613163048,0 80.2935318673,21.3608699619,0 80.2938786993,21.3605932135,0 80.2937771709,21.3605082393,0 80.293444968,21.3604153288,0 80.2933812995,21.3603999808,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Hisri New</name>
+	<open>1</open>
+	<LookAt>
+		<longitude>84.58714252493287</longitude>
+		<latitude>23.48197338791421</latitude>
+		<altitude>0</altitude>
+		<heading>-4.74061789729493</heading>
+		<tilt>7.459688663297226</tilt>
+		<range>1268.33203633989</range>
+		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+	</LookAt>
+	<Document>
+		<name>BACKFILLING.shp</name>
+		<Schema name="BACKFILLING" id="S_BACKFILLING_SSISDISD">
+			<SimpleField type="long" name="FID_"><displayName>&lt;b&gt;FID_&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Entity"><displayName>&lt;b&gt;Entity&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Layer"><displayName>&lt;b&gt;Layer&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="Color"><displayName>&lt;b&gt;Color&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Linetype"><displayName>&lt;b&gt;Linetype&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="Elevation"><displayName>&lt;b&gt;Elevation&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="LineWt"><displayName>&lt;b&gt;LineWt&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="RefName"><displayName>&lt;b&gt;RefName&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="falseColor">
+			<IconStyle>
+				<scale>0</scale>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>FID_</b></td><td>$[BACKFILLING/FID_]</td></tr>
+  <tr><td><b>Entity</b></td><td>$[BACKFILLING/Entity]</td></tr>
+  <tr><td><b>Layer</b></td><td>$[BACKFILLING/Layer]</td></tr>
+  <tr><td><b>Color</b></td><td>$[BACKFILLING/Color]</td></tr>
+  <tr><td><b>Linetype</b></td><td>$[BACKFILLING/Linetype]</td></tr>
+  <tr><td><b>Elevation</b></td><td>$[BACKFILLING/Elevation]</td></tr>
+  <tr><td><b>LineWt</b></td><td>$[BACKFILLING/LineWt]</td></tr>
+  <tr><td><b>RefName</b></td><td>$[BACKFILLING/RefName]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[BACKFILLING/AREA]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff00aa55</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="falseColor0">
+			<IconStyle>
+				<scale>0</scale>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>FID_</b></td><td>$[BACKFILLING/FID_]</td></tr>
+  <tr><td><b>Entity</b></td><td>$[BACKFILLING/Entity]</td></tr>
+  <tr><td><b>Layer</b></td><td>$[BACKFILLING/Layer]</td></tr>
+  <tr><td><b>Color</b></td><td>$[BACKFILLING/Color]</td></tr>
+  <tr><td><b>Linetype</b></td><td>$[BACKFILLING/Linetype]</td></tr>
+  <tr><td><b>Elevation</b></td><td>$[BACKFILLING/Elevation]</td></tr>
+  <tr><td><b>LineWt</b></td><td>$[BACKFILLING/LineWt]</td></tr>
+  <tr><td><b>RefName</b></td><td>$[BACKFILLING/RefName]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[BACKFILLING/AREA]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff00aa55</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="falseColor1">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor0</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Folder id="layer 0">
+			<name>BACKFILLING</name>
+			<open>1</open>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BACKFILLING_SSISDISD">
+						<SimpleData name="FID_">0</SimpleData>
+						<SimpleData name="Entity">LWPolyline</SimpleData>
+						<SimpleData name="Layer">BACK FILL</SimpleData>
+						<SimpleData name="Color">5</SimpleData>
+						<SimpleData name="Linetype">BYBLOCK</SimpleData>
+						<SimpleData name="Elevation">0</SimpleData>
+						<SimpleData name="LineWt">25</SimpleData>
+						<SimpleData name="RefName"></SimpleData>
+						<SimpleData name="AREA">5.83091</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.58660259714657,23.48246239035748,0 84.58652711556103,23.48236034148797,0 84.58646108798438,23.48231755783459,0 84.5863311729114,23.48228820725554,0 84.58596753512175,23.48220605310929,0 84.58598278865703,23.48202787172768,0 84.5860042891959,23.48189395771884,0 84.5860400544792,23.48179915874102,0 84.58623322228318,23.48161179092239,0 84.58656561644874,23.48149164858624,0 84.58680465119242,23.48146978142763,0 84.58687067035372,23.48126746369606,0 84.58684897234677,23.48109262491577,0 84.58678548442309,23.4810113958188,0 84.58659516514471,23.48091164347154,0 84.58650105016922,23.48066105718494,0 84.58645712741702,23.48051279171504,0 84.58649084671838,23.48036275243264,0 84.58651690854515,23.48023385049963,0 84.58661108985415,23.48005676661499,0 84.58675734802523,23.47994499819296,0 84.58699073673951,23.47993314245601,0 84.58709303413518,23.47994243913043,0 84.5872408868736,23.47995587570405,0 84.58727853381133,23.47979492188274,0 84.58734089821888,23.47976774207041,0 84.58749638701157,23.47991665072982,0 84.5875985982892,23.47994001147764,0 84.58767606371804,23.48004749289368,0 84.58771456539944,23.48010001748228,0 84.58783455435201,23.48027252742957,0 84.58786957131598,23.480323214031,0 84.58797284985623,23.48047235837416,0 84.58805403817861,23.4805897377802,0 84.58812546405558,23.48069305445965,0 84.58812804919216,23.48093165778634,0 84.58813432762418,23.48137121852855,0 84.5881370714874,23.48157897013247,0 84.58829196322995,23.48159092280716,0 84.58841741734109,23.48165987767242,0 84.58852077937343,23.48170413898471,0 84.58881197777509,23.48172997659456,0 84.5888739174747,23.48176079820299,0 84.58894630332166,23.48185364053513,0 84.58895321726271,23.48205546150287,0 84.58904240112214,23.48228742117334,0 84.5891437659766,23.48229637476832,0 84.58923993145127,23.48227129836729,0 84.58928604933499,23.48231001000143,0 84.58928471994822,23.48238310496927,0 84.58927101093745,23.48245485205466,0 84.58866872163071,23.48263739992528,0 84.58837003699888,23.48272388970266,0 84.58809216146598,23.482800389542,0 84.58808611775736,23.4827671659853,0 84.58769947193512,23.48286354509483,0 84.58768316905308,23.48258225723147,0 84.58767250828633,23.48240030194559,0 84.58758194565361,23.48240812394396,0 84.58755256644487,23.48241066144825,0 84.58754404958297,23.48241255725364,0 84.5874974148698,23.48242293786804,0 84.58749383962474,23.48242405919468,0 84.58747626930119,23.48242956988446,0 84.58744538236557,23.48243925713994,0 84.58740101329437,23.48245317286523,0 84.58734043872177,23.48246184291499,0 84.58727422204402,23.48247232989819,0 84.58722633981633,23.48248057353912,0 84.5871192198573,23.48250084153996,0 84.58707809634247,23.48250864993901,0 84.58703203936595,23.4825242378359,0 84.58700204249828,23.48256348783043,0 84.58695299845054,23.48265887408037,0 84.58672616088018,23.48267869185803,0 84.58674474052084,23.48266522148901,0 84.58660390984623,23.48251520507756,0 84.58660259714657,23.48246239035748,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>BAUXITE_STOCK_YARD.shp</name>
+		<Schema name="BAUXITE_STOCK_YARD" id="S_BAUXITE_STOCK_YARD_SSISDISD">
+			<SimpleField type="long" name="FID_"><displayName>&lt;b&gt;FID_&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Entity"><displayName>&lt;b&gt;Entity&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Layer"><displayName>&lt;b&gt;Layer&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="Color"><displayName>&lt;b&gt;Color&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Linetype"><displayName>&lt;b&gt;Linetype&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="Elevation"><displayName>&lt;b&gt;Elevation&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="LineWt"><displayName>&lt;b&gt;LineWt&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="RefName"><displayName>&lt;b&gt;RefName&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="falseColor2">
+			<IconStyle>
+				<scale>0</scale>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>FID_</b></td><td>$[BACKFILLING/FID_]</td></tr>
+  <tr><td><b>Entity</b></td><td>$[BACKFILLING/Entity]</td></tr>
+  <tr><td><b>Layer</b></td><td>$[BACKFILLING/Layer]</td></tr>
+  <tr><td><b>Color</b></td><td>$[BACKFILLING/Color]</td></tr>
+  <tr><td><b>Linetype</b></td><td>$[BACKFILLING/Linetype]</td></tr>
+  <tr><td><b>Elevation</b></td><td>$[BACKFILLING/Elevation]</td></tr>
+  <tr><td><b>LineWt</b></td><td>$[BACKFILLING/LineWt]</td></tr>
+  <tr><td><b>RefName</b></td><td>$[BACKFILLING/RefName]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[BACKFILLING/AREA]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff7f55ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="falseColor3">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor4</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor2</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="falseColor4">
+			<IconStyle>
+				<scale>0</scale>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>FID_</b></td><td>$[BACKFILLING/FID_]</td></tr>
+  <tr><td><b>Entity</b></td><td>$[BACKFILLING/Entity]</td></tr>
+  <tr><td><b>Layer</b></td><td>$[BACKFILLING/Layer]</td></tr>
+  <tr><td><b>Color</b></td><td>$[BACKFILLING/Color]</td></tr>
+  <tr><td><b>Linetype</b></td><td>$[BACKFILLING/Linetype]</td></tr>
+  <tr><td><b>Elevation</b></td><td>$[BACKFILLING/Elevation]</td></tr>
+  <tr><td><b>LineWt</b></td><td>$[BACKFILLING/LineWt]</td></tr>
+  <tr><td><b>RefName</b></td><td>$[BACKFILLING/RefName]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[BACKFILLING/AREA]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff7f55ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>BAUXITE_STOCK_YARD</name>
+			<Placemark>
+				<styleUrl>#falseColor3</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BAUXITE_STOCK_YARD_SSISDISD">
+						<SimpleData name="FID_">0</SimpleData>
+						<SimpleData name="Entity">LWPolyline</SimpleData>
+						<SimpleData name="Layer">bxt stock</SimpleData>
+						<SimpleData name="Color">7</SimpleData>
+						<SimpleData name="Linetype">Continuous</SimpleData>
+						<SimpleData name="Elevation">0</SimpleData>
+						<SimpleData name="LineWt">25</SimpleData>
+						<SimpleData name="RefName"></SimpleData>
+						<SimpleData name="AREA">0.260385</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.59008097412901,23.48210598746688,0 84.58998114932216,23.48212959253338,0 84.58991166375301,23.48214278556121,0 84.58979818078502,23.48215555827138,0 84.58971557696516,23.48216774507879,0 84.58960470625344,23.48216535134937,0 84.58952204631566,23.48215916189119,0 84.58947229116778,23.48213111826992,0 84.5894319996758,23.48204105580935,0 84.58940337480472,23.48189726921164,0 84.58954084699963,23.48184457802855,0 84.58975986189544,23.48186351801932,0 84.58989208770299,23.48187495250464,0 84.59015558504917,23.48190708670866,0 84.59026873214863,23.48191933732478,0 84.59033452697741,23.48192980467956,0 84.59035785779429,23.48193351639194,0 84.59037214391138,23.48194663471581,0 84.59037874408183,23.48196544796912,0 84.5903825610233,23.48199012107584,0 84.59037942843712,23.48201567390881,0 84.5903677589326,23.48204060619141,0 84.59035396635348,23.48206500694311,0 84.59029549153253,23.48206794959854,0 84.5901291570607,23.48209620615356,0 84.59008097412901,23.48210598746688,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>DUMP.shp</name>
+		<Schema name="DUMP" id="S_DUMP_SSISDISD">
+			<SimpleField type="long" name="FID_"><displayName>&lt;b&gt;FID_&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Entity"><displayName>&lt;b&gt;Entity&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Layer"><displayName>&lt;b&gt;Layer&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="Color"><displayName>&lt;b&gt;Color&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Linetype"><displayName>&lt;b&gt;Linetype&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="Elevation"><displayName>&lt;b&gt;Elevation&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="LineWt"><displayName>&lt;b&gt;LineWt&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="RefName"><displayName>&lt;b&gt;RefName&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="falseColor40">
+			<IconStyle>
+				<scale>0</scale>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>FID_</b></td><td>$[BACKFILLING/FID_]</td></tr>
+  <tr><td><b>Entity</b></td><td>$[BACKFILLING/Entity]</td></tr>
+  <tr><td><b>Layer</b></td><td>$[BACKFILLING/Layer]</td></tr>
+  <tr><td><b>Color</b></td><td>$[BACKFILLING/Color]</td></tr>
+  <tr><td><b>Linetype</b></td><td>$[BACKFILLING/Linetype]</td></tr>
+  <tr><td><b>Elevation</b></td><td>$[BACKFILLING/Elevation]</td></tr>
+  <tr><td><b>LineWt</b></td><td>$[BACKFILLING/LineWt]</td></tr>
+  <tr><td><b>RefName</b></td><td>$[BACKFILLING/RefName]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[BACKFILLING/AREA]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff00aaff</color>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="falseColor5">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor6</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor40</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="falseColor6">
+			<IconStyle>
+				<scale>0</scale>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>FID_</b></td><td>$[BACKFILLING/FID_]</td></tr>
+  <tr><td><b>Entity</b></td><td>$[BACKFILLING/Entity]</td></tr>
+  <tr><td><b>Layer</b></td><td>$[BACKFILLING/Layer]</td></tr>
+  <tr><td><b>Color</b></td><td>$[BACKFILLING/Color]</td></tr>
+  <tr><td><b>Linetype</b></td><td>$[BACKFILLING/Linetype]</td></tr>
+  <tr><td><b>Elevation</b></td><td>$[BACKFILLING/Elevation]</td></tr>
+  <tr><td><b>LineWt</b></td><td>$[BACKFILLING/LineWt]</td></tr>
+  <tr><td><b>RefName</b></td><td>$[BACKFILLING/RefName]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[BACKFILLING/AREA]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff00aaff</color>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>DUMP</name>
+			<Placemark>
+				<styleUrl>#falseColor5</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_DUMP_SSISDISD">
+						<SimpleData name="FID_">0</SimpleData>
+						<SimpleData name="Entity">LWPolyline</SimpleData>
+						<SimpleData name="Layer">DUMP</SimpleData>
+						<SimpleData name="Color">14</SimpleData>
+						<SimpleData name="Linetype">Continuous</SimpleData>
+						<SimpleData name="Elevation">-9.3275</SimpleData>
+						<SimpleData name="LineWt">30</SimpleData>
+						<SimpleData name="RefName"></SimpleData>
+						<SimpleData name="AREA">0.149038</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.58715315049136,23.48149740669818,-9.327499999999873 84.58711312825511,23.48145650467357,-9.327499999999873 84.5871013158304,23.48138631978168,-9.327499999999873 84.58712075823796,23.48132506917481,-9.327499999999873 84.5870967811,23.48114997964505,-9.327499999999873 84.5871085793144,23.48106776553749,-9.327499999999873 84.58711849815136,23.48103962577254,-9.327499999999873 84.58715022616802,23.48096378255259,-9.327499999999873 84.58720351808002,23.48087452576239,-9.327499999999873 84.58725352714394,23.48082506866445,-9.327499999999873 84.58733359955829,23.48078023138944,-9.327499999999873 84.58739968365389,23.48078125469896,-9.327499999999873 84.58743352828147,23.48078177877083,-9.327499999999873 84.58751592675299,23.48077984661095,-9.327499999999873 84.58758787651279,23.48080455716915,-9.327499999999873 84.5876384618399,23.48084286016637,-9.327499999999873 84.58770215834642,23.48086657706169,-9.327499999999873 84.58777304633678,23.48094393836022,-9.327499999999873 84.58779782780253,23.4809848339732,-9.327499999999873 84.58780503174262,23.48108946182394,-9.327499999999873 84.5877976044336,23.48111505948401,-9.327499999999873 84.58780431006761,23.48113776894348,-9.327499999999873 84.58780770886973,23.48116068668535,-9.327499999999873 84.58780853746673,23.48116627382122,-9.327499999999873 84.58782129413829,23.48120742702663,-9.327499999999873 84.58784480029455,23.48134308792034,-9.327499999999873 84.58782099324191,23.48133270378084,-9.327499999999873 84.58780169566177,23.48125551365846,-9.327499999999873 84.58777864013224,23.48119514024847,-9.327499999999873 84.58775190210565,23.48113827587255,-9.327499999999873 84.58773193882986,23.48110702053842,-9.327499999999873 84.5876957739592,23.48104943874025,-9.327499999999873 84.5876311895196,23.48102809245255,-9.327499999999873 84.5875972697588,23.48102565056339,-9.327499999999873 84.58759426083373,23.48099359838659,-9.327499999999873 84.58758740881126,23.48094880403069,-9.327499999999873 84.58758479278698,23.48093250447486,-9.327499999999873 84.58756458799702,23.4809037019226,-9.327499999999873 84.5875384176644,23.48088388584806,-9.327499999999873 84.58749950625567,23.48087052203908,-9.327499999999873 84.58743694360921,23.48087198906198,-9.327499999999873 84.58736021840186,23.48087091751357,-9.327499999999873 84.58731586566205,23.48089575323165,-9.327499999999873 84.58728230421156,23.4809289442677,-9.327499999999873 84.58725272529692,23.48097498922453,-9.327499999999873 84.5872253710955,23.48102834811569,-9.327499999999873 84.58720441214427,23.4810878088523,-9.327499999999873 84.58719570846118,23.48114845948642,-9.327499999999873 84.58720574499283,23.48120408382051,-9.327499999999873 84.58720051643176,23.4812486112459,-9.327499999999873 84.58715483296923,23.48138813377087,-9.327499999999873 84.58715667460096,23.48145647407637,-9.327499999999873 84.58715315049136,23.48149740669818,-9.327499999999873 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor5</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_DUMP_SSISDISD">
+						<SimpleData name="FID_">0</SimpleData>
+						<SimpleData name="Entity">LWPolyline</SimpleData>
+						<SimpleData name="Layer">DUMP</SimpleData>
+						<SimpleData name="Color">14</SimpleData>
+						<SimpleData name="Linetype">Continuous</SimpleData>
+						<SimpleData name="Elevation">-5.48441</SimpleData>
+						<SimpleData name="LineWt">30</SimpleData>
+						<SimpleData name="RefName"></SimpleData>
+						<SimpleData name="AREA">1.04192</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.58740171302055,23.47987486215322,-5.484411109447819 84.58763202073534,23.48010087450801,-5.484411109447819 84.58774917580479,23.4802583893025,-5.484411109447819 84.58780308758003,23.48034875780834,-5.484411109447819 84.58783801731909,23.48043654950153,-5.484411109447819 84.58782570427014,23.4805750054235,-5.484411109447819 84.58781325689218,23.48071514289041,-5.484411109447819 84.5878144456392,23.4807418200694,-5.484411109447819 84.58781553747507,23.4807663224243,-5.484411109447819 84.5877608808476,23.48075620796715,-5.484411109447819 84.58766236449732,23.48072536472459,-5.484411109447819 84.58754797589258,23.48070700711316,-5.484411109447819 84.58747520014794,23.48070613459043,-5.484411109447819 84.58741058084719,23.48070208291831,-5.484411109447819 84.58727853427479,23.48071897575304,-5.484411109447819 84.58719063675117,23.4807320884777,-5.484411109447819 84.58700454577655,23.48072861370619,-5.484411109447819 84.58675115797791,23.48073566286065,-5.484411109447819 84.58667074292019,23.48069714365327,-5.484411109447819 84.58658267049304,23.48060395139017,-5.484411109447819 84.58654104794175,23.48046834545572,-5.484411109447819 84.5865416534217,23.48039934936564,-5.484411109447819 84.586547589918,23.48038020305766,-5.484411109447819 84.58653575245518,23.48034163664468,-5.484411109447819 84.58653635793094,23.48027264055376,-5.484411109447819 84.58661108985415,23.48005676661499,-5.484411109447819 84.58675734802523,23.47994499819296,-5.484411109447819 84.58699073673951,23.47993314245601,-5.484411109447819 84.5872408868736,23.47995587570405,-5.484411109447819 84.58727853381133,23.47979492188274,-5.484411109447819 84.58734089821888,23.47976774207041,-5.484411109447819 84.58740171302055,23.47987486215322,-5.484411109447819 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor5</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_DUMP_SSISDISD">
+						<SimpleData name="FID_">0</SimpleData>
+						<SimpleData name="Entity">LWPolyline</SimpleData>
+						<SimpleData name="Layer">DUMP</SimpleData>
+						<SimpleData name="Color">14</SimpleData>
+						<SimpleData name="Linetype">Continuous</SimpleData>
+						<SimpleData name="Elevation">2080.63</SimpleData>
+						<SimpleData name="LineWt">30</SimpleData>
+						<SimpleData name="RefName"></SimpleData>
+						<SimpleData name="AREA">0.0174285</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.58691573288358,23.48090103426734,2080.627943590232 84.58677015149676,23.48099086617385,2080.627943590232 84.58669494857635,23.48098209825547,2080.627943590232 84.58683094221298,23.48087846787199,2080.627943590232 84.58697563523295,23.480842597349,2080.627943590232 84.58707519200006,23.48084114500903,2080.627943590232 84.5869800452238,23.48086974504269,2080.627943590232 84.58691573288358,23.48090103426734,2080.627943590232 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor5</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_DUMP_SSISDISD">
+						<SimpleData name="FID_">0</SimpleData>
+						<SimpleData name="Entity">LWPolyline</SimpleData>
+						<SimpleData name="Layer">DUMP</SimpleData>
+						<SimpleData name="Color">14</SimpleData>
+						<SimpleData name="Linetype">Continuous</SimpleData>
+						<SimpleData name="Elevation">-9.3275</SimpleData>
+						<SimpleData name="LineWt">30</SimpleData>
+						<SimpleData name="RefName"></SimpleData>
+						<SimpleData name="AREA">0.0738713</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.58708170843146,23.48183762862905,-9.327499999999873 84.58717955541088,23.48186258171197,-9.327499999999873 84.5872901639903,23.48191200380782,-9.327499999999873 84.58737623383679,23.48195156448048,-9.327499999999873 84.58744488029244,23.48199794177605,-9.327499999999873 84.58752007256908,23.482038257063,-9.327499999999873 84.58759899525127,23.48207608067732,-9.327499999999873 84.58766471315359,23.48212131131188,-9.327499999999873 84.58770530510243,23.48215669815597,-9.327499999999873 84.58774830903644,23.48221551981984,-9.327499999999873 84.58782962752367,23.48232674875365,-9.327499999999873 84.5878733286338,23.48237962311426,-9.327499999999873 84.58791303867645,23.48244537361407,-9.327499999999873 84.58793990751565,23.4824898620592,-9.327499999999873 84.58795216755551,23.4825431111634,-9.327499999999873 84.58795150231425,23.48257966815332,-9.327499999999873 84.58788906733035,23.48267286913521,-9.327499999999873 84.58788193183507,23.48263825955225,-9.327499999999873 84.5878793914485,23.48255179535816,-9.327499999999873 84.58786314325594,23.48249772994418,-9.327499999999873 84.58782946906543,23.48242835230027,-9.327499999999873 84.58775854119341,23.48234593224533,-9.327499999999873 84.58771906856305,23.4822877281525,-9.327499999999873 84.58767658486708,23.48222478861936,-9.327499999999873 84.5876527861958,23.48218937262386,-9.327499999999873 84.58762756749212,23.48216542898571,-9.327499999999873 84.58757583885942,23.48212685998112,-9.327499999999873 84.58751936243033,23.48209301032852,-9.327499999999873 84.58748689560822,23.4820735510321,-9.327499999999873 84.58743859450523,23.48204926733913,-9.327499999999873 84.58742495599506,23.48203959437642,-9.327499999999873 84.58737181099558,23.48200190184876,-9.327499999999873 84.58736022135685,23.48199308418852,-9.327499999999873 84.58735156094895,23.48198630241405,-9.327499999999873 84.58730208274473,23.48194755710217,-9.327499999999873 84.58713650663027,23.48188345902209,-9.327499999999873 84.58710298632315,23.48187191532222,-9.327499999999873 84.58705349900889,23.48185487289922,-9.327499999999873 84.58703755139878,23.48183924011263,-9.327499999999873 84.58708170843146,23.48183762862905,-9.327499999999873 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor5</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_DUMP_SSISDISD">
+						<SimpleData name="FID_">0</SimpleData>
+						<SimpleData name="Entity">LWPolyline</SimpleData>
+						<SimpleData name="Layer">DUMP</SimpleData>
+						<SimpleData name="Color">14</SimpleData>
+						<SimpleData name="Linetype">Continuous</SimpleData>
+						<SimpleData name="Elevation">0</SimpleData>
+						<SimpleData name="LineWt">30</SimpleData>
+						<SimpleData name="RefName"></SimpleData>
+						<SimpleData name="AREA">0.0141177</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.58796152750608,23.48221979946083,0 84.58797255767466,23.48223205141516,0 84.58797866701298,23.48223883746924,0 84.5879860393128,23.48225106854807,0 84.58799959077015,23.48226848772289,0 84.58802231892514,23.48228115010176,0 84.58802994679417,23.48228620682875,0 84.58804159349972,23.48229392775313,0 84.58805627548843,23.48231498695748,0 84.58807963804479,23.48233140479205,0 84.58808532113319,23.48234691844473,0 84.58808990597298,23.48237586897358,0 84.58808917516053,23.48241603190864,0 84.58808430513271,23.48244967574903,0 84.58808580708092,23.48254182576509,0 84.58809113739858,23.48260003491447,0 84.58808753417007,23.48267020402811,0 84.58811101223309,23.48279492416825,0 84.58809216146598,23.482800389542,0 84.58808611775736,23.4827671659853,0 84.58807568690402,23.48271134631341,0 84.58806787980221,23.48267139311822,0 84.58807152694656,23.48260036899424,0 84.58806624046183,23.48254263842335,0 84.58806574877862,23.4824903421251,0 84.58806470367989,23.48244868400743,0 84.58806962565085,23.48241468136045,0 84.58807031077252,23.48237702973807,0 84.58806621176915,23.48235114695199,0 84.58806301364289,23.48234241672753,0 84.58804167619174,23.48232742201578,0 84.58802714674412,23.48230658160686,0 84.58801153137621,23.48229622974421,0 84.58798603249949,23.48228202373101,0 84.58796948140586,23.48226074879152,0 84.58796244665028,23.48224907771593,0 84.58794120103379,23.48222547876926,0 84.58792077288632,23.48221307596411,0 84.5879157551401,23.48220877150348,0 84.58796152750608,23.48221979946083,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor5</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_DUMP_SSISDISD">
+						<SimpleData name="FID_">0</SimpleData>
+						<SimpleData name="Entity">LWPolyline</SimpleData>
+						<SimpleData name="Layer">DUMP</SimpleData>
+						<SimpleData name="Color">14</SimpleData>
+						<SimpleData name="Linetype">Continuous</SimpleData>
+						<SimpleData name="Elevation">-9.3275</SimpleData>
+						<SimpleData name="LineWt">30</SimpleData>
+						<SimpleData name="RefName"></SimpleData>
+						<SimpleData name="AREA">0.20737</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.58867070565701,23.48162036859017,-9.327499999999873 84.58882268804769,23.48163211885569,-9.327499999999873 84.58881414519561,23.48172587441669,-9.327499999999873 84.58867778790152,23.48179594485146,-9.327499999999873 84.58863152583803,23.48184062023178,-9.327499999999873 84.58858792596131,23.48188272468942,-9.327499999999873 84.58852050911641,23.48199711578046,-9.327499999999873 84.58851208279673,23.48205957026896,-9.327499999999873 84.5885036453252,23.48209978384686,-9.327499999999873 84.58848211355208,23.48218554968609,-9.327499999999873 84.58846324050252,23.48227915014,-9.327499999999873 84.58845148676058,23.48234290293245,-9.327499999999873 84.58842998906199,23.48239358238157,-9.327499999999873 84.58844619056401,23.48246323450519,-9.327499999999873 84.58844064091635,23.48248500413217,-9.327499999999873 84.5884572831511,23.48253236220428,-9.327499999999873 84.5885386644958,23.4826104873926,-9.327499999999873 84.58855435210734,23.48262554731103,-9.327499999999873 84.58860142841927,23.48265712963522,-9.327499999999873 84.58841522638635,23.48271080430709,-9.327499999999873 84.58841647237307,23.48267819861718,-9.327499999999873 84.58839991269336,23.48264051599728,-9.327499999999873 84.58836079657705,23.48261139154627,-9.327499999999873 84.58829828838215,23.48257715289643,-9.327499999999873 84.58827917284675,23.48255838725663,-9.327499999999873 84.58824470719627,23.48251358590672,-9.327499999999873 84.58824332816165,23.48247781906427,-9.327499999999873 84.58825334507895,23.4824398529059,-9.327499999999873 84.58827440989545,23.48238644705935,-9.327499999999873 84.58828573254358,23.48234308245436,-9.327499999999873 84.58829328404018,23.48230594876016,-9.327499999999873 84.58830565959403,23.48224648080201,-9.327499999999873 84.58832927730606,23.48216919852491,-9.327499999999873 84.5883417697322,23.4821200040425,-9.327499999999873 84.58834505335177,23.48207985176931,-9.327499999999873 84.58835206158356,23.48204712950334,-9.327499999999873 84.58836525883497,23.48201236571793,-9.327499999999873 84.58838179959389,23.4819830504938,-9.327499999999873 84.58840657206402,23.48194465849718,-9.327499999999873 84.58844289988177,23.48189233323694,-9.327499999999873 84.5885219804244,23.48178169827538,-9.327499999999873 84.58859865416652,23.48169453789875,-9.327499999999873 84.58867070565701,23.48162036859017,-9.327499999999873 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor5</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_DUMP_SSISDISD">
+						<SimpleData name="FID_">0</SimpleData>
+						<SimpleData name="Entity">LWPolyline</SimpleData>
+						<SimpleData name="Layer">DUMP</SimpleData>
+						<SimpleData name="Color">14</SimpleData>
+						<SimpleData name="Linetype">Continuous</SimpleData>
+						<SimpleData name="Elevation">-1044.99</SimpleData>
+						<SimpleData name="LineWt">30</SimpleData>
+						<SimpleData name="RefName"></SimpleData>
+						<SimpleData name="AREA">0.228237</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.5885434169054,23.48219138014097,-1044.987261367962 84.58859363347722,23.48209428976044,-1044.987261367962 84.58861991160728,23.48207063050308,-1044.987261367962 84.58869700586047,23.48202608064896,-1044.987261367962 84.58874929453822,23.48200969137039,-1044.987261367962 84.58880828658998,23.48200802140378,-1044.987261367962 84.58886495823327,23.48201871058628,-1044.987261367962 84.58890164858951,23.48204618509974,-1044.987261367962 84.58891767931418,23.48206563577893,-1044.987261367962 84.58893531392226,23.48210225310654,-1044.987261367962 84.58897368413436,23.48219134544093,-1044.987261367962 84.58901312110856,23.48228115925012,-1044.987261367962 84.58902959092508,23.48234117277023,-1044.987261367962 84.58902047819051,23.48237010214685,-1044.987261367962 84.58900025879068,23.48240084647021,-1044.987261367962 84.58899032929332,23.4824098838035,-1044.987261367962 84.58899100295717,23.48240988369762,-1044.987261367962 84.58899108622364,23.48241035849155,-1044.987261367962 84.58899034650597,23.48241159378485,-1044.987261367962 84.5889854578311,23.48241676262089,-1044.987261367962 84.58895865009862,23.48243917418554,-1044.987261367962 84.58895436746046,23.48244318020593,-1044.987261367962 84.58891078036817,23.4824837128112,-1044.987261367962 84.58889729048587,23.48249578300781,-1044.987261367962 84.58888415759198,23.48250095220452,-1044.987261367962 84.58886478267834,23.48250857829995,-1044.987261367962 84.58884372141529,23.48251518896809,-1044.987261367962 84.58881611887988,23.48252275490069,-1044.987261367962 84.58878940771227,23.48252855922819,-1044.987261367962 84.58875874050717,23.48253346722387,-1044.987261367962 84.58868774343703,23.4825356741954,-1044.987261367962 84.58865652502351,23.48253540897839,-1044.987261367962 84.5886326203025,23.48252357036218,-1044.987261367962 84.58860210061992,23.48250011281552,-1044.987261367962 84.58858266521895,23.48246597528755,-1044.987261367962 84.58857206253015,23.48243495544758,-1044.987261367962 84.5885440092833,23.48238940298749,-1044.987261367962 84.58851681961902,23.48229921007567,-1044.987261367962 84.5885434169054,23.48219138014097,-1044.987261367962 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>LEASE_BOUNDARY.shp</name>
+		<Schema name="LEASE_BOUNDARY" id="S_LEASE_BOUNDARY_SSISDISD">
+			<SimpleField type="long" name="FID_"><displayName>&lt;b&gt;FID_&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Entity"><displayName>&lt;b&gt;Entity&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Layer"><displayName>&lt;b&gt;Layer&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="Color"><displayName>&lt;b&gt;Color&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Linetype"><displayName>&lt;b&gt;Linetype&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="Elevation"><displayName>&lt;b&gt;Elevation&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="LineWt"><displayName>&lt;b&gt;LineWt&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="RefName"><displayName>&lt;b&gt;RefName&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="falseColor60">
+			<IconStyle>
+				<scale>0</scale>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>FID_</b></td><td>$[BACKFILLING/FID_]</td></tr>
+  <tr><td><b>Entity</b></td><td>$[BACKFILLING/Entity]</td></tr>
+  <tr><td><b>Layer</b></td><td>$[BACKFILLING/Layer]</td></tr>
+  <tr><td><b>Color</b></td><td>$[BACKFILLING/Color]</td></tr>
+  <tr><td><b>Linetype</b></td><td>$[BACKFILLING/Linetype]</td></tr>
+  <tr><td><b>Elevation</b></td><td>$[BACKFILLING/Elevation]</td></tr>
+  <tr><td><b>LineWt</b></td><td>$[BACKFILLING/LineWt]</td></tr>
+  <tr><td><b>RefName</b></td><td>$[BACKFILLING/RefName]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[BACKFILLING/AREA]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>1.1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff0000ff</color>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="falseColor7">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor8</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor60</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="falseColor8">
+			<IconStyle>
+				<scale>0</scale>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>FID_</b></td><td>$[BACKFILLING/FID_]</td></tr>
+  <tr><td><b>Entity</b></td><td>$[BACKFILLING/Entity]</td></tr>
+  <tr><td><b>Layer</b></td><td>$[BACKFILLING/Layer]</td></tr>
+  <tr><td><b>Color</b></td><td>$[BACKFILLING/Color]</td></tr>
+  <tr><td><b>Linetype</b></td><td>$[BACKFILLING/Linetype]</td></tr>
+  <tr><td><b>Elevation</b></td><td>$[BACKFILLING/Elevation]</td></tr>
+  <tr><td><b>LineWt</b></td><td>$[BACKFILLING/LineWt]</td></tr>
+  <tr><td><b>RefName</b></td><td>$[BACKFILLING/RefName]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[BACKFILLING/AREA]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>1.1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff0000ff</color>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>LEASE_BOUNDARY</name>
+			<Placemark>
+				<styleUrl>#falseColor7</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_LEASE_BOUNDARY_SSISDISD">
+						<SimpleData name="FID_">0</SimpleData>
+						<SimpleData name="Entity">LWPolyline</SimpleData>
+						<SimpleData name="Layer">LEASE BOUNDARY</SimpleData>
+						<SimpleData name="Color">1</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO05W100</SimpleData>
+						<SimpleData name="Elevation">-1053.36</SimpleData>
+						<SimpleData name="LineWt">60</SimpleData>
+						<SimpleData name="RefName"></SimpleData>
+						<SimpleData name="AREA">14.5591</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.58820964567765,23.48151663811908,-1053.3555 84.5900046786155,23.48165514672378,-1053.3555 84.59064021663907,23.48170412887676,-1053.3555 84.59085252584832,23.48172046909206,-1053.3555 84.59112687453238,23.4817399017517,-1053.3555 84.59115026700145,23.48198095922852,-1053.3555 84.59054422884776,23.48215776308404,-1053.3555 84.59016865547004,23.48226634625349,-1053.3555 84.58978087844531,23.48237895680729,-1053.3555 84.58943330654053,23.48248168283742,-1053.3555 84.58880625433358,23.48266811016095,-1053.3555 84.58844044300827,23.48277536234561,-1053.3555 84.58817563324122,23.48284715007749,-1053.3555 84.58763376648056,23.48300425171523,-1053.3555 84.58762318010075,23.48281285645774,-1053.3555 84.58760334236717,23.48247426793568,-1053.3555 84.58756465836154,23.48247760910315,-1053.3555 84.58751787928584,23.48248802185113,-1053.3555 84.58741858616555,23.48251916373404,-1053.3555 84.58734225183031,23.48253008947755,-1053.3555 84.58725977662679,23.48254337843668,-1053.3555 84.58720025171864,23.48255405995339,-1053.3555 84.58713995828555,23.4825649986718,-1053.3555 84.58709903780846,23.48257367153551,-1053.3555 84.58707882685007,23.48258051189719,-1053.3555 84.58706533425544,23.48259816655652,-1053.3555 84.58702629107422,23.48267121994183,-1053.3555 84.58700461990121,23.48272536839902,-1053.3555 84.58699612270027,23.48272507019253,-1053.3555 84.58693149465448,23.48272739492213,-1053.3555 84.58680259231375,23.48273840181029,-1053.3555 84.58670545115412,23.48274917075438,-1053.3555 84.58669707976277,23.48274949312604,-1053.3555 84.58669144434596,23.48274634776995,-1053.3555 84.58667405117718,23.48272654674992,-1053.3555 84.58665052913726,23.48270187491846,-1053.3555 84.58660864733407,23.4826599371054,-1053.3555 84.58655904380167,23.48260270609587,-1053.3555 84.58650569945054,23.4825526940329,-1053.3555 84.5865000875271,23.48254707672628,-1053.3555 84.58649534138237,23.48253793881953,-1053.3555 84.58649482052857,23.4825350873453,-1053.3555 84.58649776930592,23.48252929246357,-1053.3555 84.58650181073307,23.48252405977222,-1053.3555 84.58650182262987,23.48251073677863,-1053.3555 84.58650412329825,23.4825005240311,-1053.3555 84.58650434154019,23.48248560709881,-1053.3555 84.58648699978325,23.48246237324665,-1053.3555 84.58645726666764,23.48242507458105,-1053.3555 84.58643666502712,23.48241331597948,-1053.3555 84.58641566259205,23.48240560633484,-1053.3555 84.58632311669646,23.48238418805129,-1053.3555 84.58616635896647,23.48234594963002,-1053.3555 84.58592788334734,23.48228719147468,-1053.3555 84.58586577399323,23.48227873516311,-1053.3555 84.58584559037433,23.48223702999735,-1053.3555 84.58580082964853,23.48213945174052,-1053.3555 84.58573508855592,23.48211916445698,-1053.3555 84.58565744443239,23.48209897385315,-1053.3555 84.58552744242236,23.48208884367533,-1053.3555 84.58548795879619,23.48210161095473,-1053.3555 84.58540502778612,23.48210807091394,-1053.3555 84.58526416501628,23.48213958412721,-1053.3555 84.58508778668725,23.48217948961349,-1053.3555 84.58493105015894,23.48221531348456,-1053.3555 84.58480772886024,23.4822226302876,-1053.3555 84.58472630080234,23.48222942843465,-1053.3555 84.58464894958924,23.48223633102851,-1053.3555 84.58456340427637,23.48223297933358,-1053.3555 84.58445634401163,23.48221065735708,-1053.3555 84.58442024291388,23.48220408307576,-1053.3555 84.58437139288002,23.48219348266772,-1053.3555 84.58433583316217,23.48217135705067,-1053.3555 84.58432673356873,23.48211085889358,-1053.3555 84.58435950929139,23.48205550409356,-1053.3555 84.58442384698436,23.48196583012991,-1053.3555 84.58444659260687,23.48193279737841,-1053.3555 84.58443126587282,23.48181731254883,-1053.3555 84.58453058091574,23.48175044563087,-1053.3555 84.58459075557839,23.48170879318673,-1053.3555 84.58461420180491,23.481689990806,-1053.3555 84.58462519127896,23.48167669543672,-1053.3555 84.58462960210302,23.48165126751755,-1053.3555 84.58462129730789,23.48161148910642,-1053.3555 84.58462278156249,23.48159947422321,-1053.3555 84.58462991607986,23.48158960405901,-1053.3555 84.58465887380129,23.48156414013596,-1053.3555 84.58476399154,23.48147731763397,-1053.3555 84.58488829888786,23.48139255751772,-1053.3555 84.58493618284461,23.48135064033624,-1053.3555 84.58495379024244,23.48119767826887,-1053.3555 84.5849727763006,23.48101697383589,-1053.3555 84.5853548855283,23.48084552881575,-1053.3555 84.58533612746452,23.48076034478676,-1053.3555 84.58529510412599,23.48058769217535,-1053.3555 84.58525673155243,23.48044467741168,-1053.3555 84.58524038856139,23.48036080334019,-1053.3555 84.58521317214547,23.48031845029308,-1053.3555 84.5851905537677,23.48028726315285,-1053.3555 84.5851846293457,23.48027857930989,-1053.3555 84.58518140414664,23.48027142862736,-1053.3555 84.58518046957646,23.48025627549729,-1053.3555 84.58519141286246,23.48023524229907,-1053.3555 84.58521382344553,23.4801818635257,-1053.3555 84.58525969855567,23.48006807068739,-1053.3555 84.58529933356931,23.47997532889998,-1053.3555 84.58535235580551,23.47985202611752,-1053.3555 84.58539398192487,23.47975151831032,-1053.3555 84.5854236999517,23.4796849066602,-1053.3555 84.5854358155633,23.47965355283183,-1053.3555 84.58545164518047,23.4796127668827,-1053.3555 84.58545894146125,23.47953600996955,-1053.3555 84.58545366744875,23.47934014612269,-1053.3555 84.58549095565598,23.47929390885879,-1053.3555 84.58555148018725,23.47920216183617,-1053.3555 84.5856207741043,23.47909540055387,-1053.3555 84.58565748940426,23.47903303295999,-1053.3555 84.5856842656022,23.47899300469936,-1053.3555 84.58570971269855,23.47896399146354,-1053.3555 84.58575508067736,23.4789425666995,-1053.3555 84.58578658484531,23.47893621101816,-1053.3555 84.58583641975224,23.47892582440999,-1053.3555 84.58586517281412,23.47886689266638,-1053.3555 84.58591493755533,23.47875850452776,-1053.3555 84.58596382043515,23.47864406041493,-1053.3555 84.58599822682146,23.47857436456204,-1053.3555 84.58602038334163,23.47852582143217,-1053.3555 84.58602569476602,23.47849342164771,-1053.3555 84.58603100586573,23.47842584959588,-1053.3555 84.5860245708957,23.47827622637814,-1053.3555 84.58600921028879,23.4781497070351,-1053.3555 84.58644590309183,23.47822535265763,-1053.3555 84.58664244366149,23.4782619158292,-1053.3555 84.58670781878764,23.47852688976727,-1053.3555 84.58708272210795,23.4790735323457,-1053.3555 84.58728686219966,23.47936519492344,-1053.3555 84.58745313183461,23.47960207550575,-1053.3555 84.58761007339363,23.47982272017317,-1053.3555 84.58778691857721,23.48007752306016,-1053.3555 84.58792503846962,23.48027755474653,-1053.3555 84.58805922266106,23.48047132969878,-1053.3555 84.58819868131012,23.48067305489788,-1053.3555 84.58820020356016,23.4808453371828,-1053.3555 84.58820711062556,23.48132470512446,-1053.3555 84.58820964567765,23.48151663811908,-1053.3555 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>PLANTATION_&amp;_RECLAIMATION.shp</name>
+		<Schema name="PLANTATION_%26_RECLAIMATION" id="S_PLANTATION__26_RECLAIMATION_SSISDISD">
+			<SimpleField type="long" name="FID_"><displayName>&lt;b&gt;FID_&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Entity"><displayName>&lt;b&gt;Entity&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Layer"><displayName>&lt;b&gt;Layer&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="Color"><displayName>&lt;b&gt;Color&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Linetype"><displayName>&lt;b&gt;Linetype&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="Elevation"><displayName>&lt;b&gt;Elevation&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="LineWt"><displayName>&lt;b&gt;LineWt&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="RefName"><displayName>&lt;b&gt;RefName&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="falseColor10">
+			<IconStyle>
+				<scale>0</scale>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>FID_</b></td><td>$[BACKFILLING/FID_]</td></tr>
+  <tr><td><b>Entity</b></td><td>$[BACKFILLING/Entity]</td></tr>
+  <tr><td><b>Layer</b></td><td>$[BACKFILLING/Layer]</td></tr>
+  <tr><td><b>Color</b></td><td>$[BACKFILLING/Color]</td></tr>
+  <tr><td><b>Linetype</b></td><td>$[BACKFILLING/Linetype]</td></tr>
+  <tr><td><b>Elevation</b></td><td>$[BACKFILLING/Elevation]</td></tr>
+  <tr><td><b>LineWt</b></td><td>$[BACKFILLING/LineWt]</td></tr>
+  <tr><td><b>RefName</b></td><td>$[BACKFILLING/RefName]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[BACKFILLING/AREA]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff00ff00</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="falseColor80">
+			<IconStyle>
+				<scale>0</scale>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>FID_</b></td><td>$[BACKFILLING/FID_]</td></tr>
+  <tr><td><b>Entity</b></td><td>$[BACKFILLING/Entity]</td></tr>
+  <tr><td><b>Layer</b></td><td>$[BACKFILLING/Layer]</td></tr>
+  <tr><td><b>Color</b></td><td>$[BACKFILLING/Color]</td></tr>
+  <tr><td><b>Linetype</b></td><td>$[BACKFILLING/Linetype]</td></tr>
+  <tr><td><b>Elevation</b></td><td>$[BACKFILLING/Elevation]</td></tr>
+  <tr><td><b>LineWt</b></td><td>$[BACKFILLING/LineWt]</td></tr>
+  <tr><td><b>RefName</b></td><td>$[BACKFILLING/RefName]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[BACKFILLING/AREA]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff00ff00</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="falseColor9">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor10</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor80</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Folder id="layer 0">
+			<name>PLANTATION_&amp;_RECLAIMATION</name>
+			<Placemark>
+				<styleUrl>#falseColor9</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_PLANTATION__26_RECLAIMATION_SSISDISD">
+						<SimpleData name="FID_">0</SimpleData>
+						<SimpleData name="Entity">LWPolyline</SimpleData>
+						<SimpleData name="Layer">Plantation &amp; Reclaimation</SimpleData>
+						<SimpleData name="Color">3</SimpleData>
+						<SimpleData name="Linetype">Continuous</SimpleData>
+						<SimpleData name="Elevation">1032.98</SimpleData>
+						<SimpleData name="LineWt">30</SimpleData>
+						<SimpleData name="RefName"></SimpleData>
+						<SimpleData name="AREA">0.567572</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.58699332833034,23.48017745625192,1032.975034456131 84.58717746659772,23.48019423412141,1032.975034456131 84.58722931774219,23.48025893085218,1032.975034456131 84.58729787250537,23.48030415044162,1032.975034456131 84.58739493885508,23.48032379929796,1032.975034456131 84.58743957240199,23.48034596582577,1032.975034456131 84.5876168006693,23.48040872282125,1032.975034456131 84.58764317983155,23.48041806373026,1032.975034456131 84.58767291155355,23.48043527710159,1032.975034456131 84.58773653448272,23.48046418177005,1032.975034456131 84.58774173612835,23.4804690269021,1032.975034456131 84.58777813385291,23.48048304951753,1032.975034456131 84.58779611002878,23.48050344390995,1032.975034456131 84.58781542433805,23.48054050448404,1032.975034456131 84.58782540791917,23.48057834186447,1032.975034456131 84.587819154974,23.48065286404633,1032.975034456131 84.58781325689218,23.48071514289041,1032.975034456131 84.58781563438617,23.4807684972483,1032.975034456131 84.5877608808476,23.48075620796715,1032.975034456131 84.58766236449732,23.48072536472459,1032.975034456131 84.58754797589258,23.48070700711316,1032.975034456131 84.58747520014794,23.48070613459043,1032.975034456131 84.58743277926921,23.48070347477682,1032.975034456131 84.58741058084719,23.48070208291831,1032.975034456131 84.58727853427479,23.48071897575304,1032.975034456131 84.58725977239715,23.48072177469112,1032.975034456131 84.58719063675117,23.4807320884777,1032.975034456131 84.58707993719929,23.48073002147438,1032.975034456131 84.58700454577662,23.48072861370619,1032.975034456131 84.58676294018709,23.48073533509312,1032.975034456131 84.58668494793643,23.48064954790637,1032.975034456131 84.58663547252023,23.48056121343295,1032.975034456131 84.58662456408531,23.48042130355351,1032.975034456131 84.58668194528771,23.48028575319258,1032.975034456131 84.5868117878281,23.48018652948576,1032.975034456131 84.58699332833034,23.48017745625192,1032.975034456131 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor9</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_PLANTATION__26_RECLAIMATION_SSISDISD">
+						<SimpleData name="FID_">0</SimpleData>
+						<SimpleData name="Entity">LWPolyline</SimpleData>
+						<SimpleData name="Layer">Plantation &amp; Reclaimation</SimpleData>
+						<SimpleData name="Color">3</SimpleData>
+						<SimpleData name="Linetype">Continuous</SimpleData>
+						<SimpleData name="Elevation">0</SimpleData>
+						<SimpleData name="LineWt">30</SimpleData>
+						<SimpleData name="RefName"></SimpleData>
+						<SimpleData name="AREA">3.14318</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.58715483296923,23.48138813377087,0 84.58720051643176,23.4812486112459,0 84.58720574499283,23.48120408382051,0 84.58719570846118,23.48114845948642,0 84.58720441214427,23.4810878088523,0 84.5872253710955,23.48102834811569,0 84.58725272529692,23.48097498922453,0 84.58728230421156,23.4809289442677,0 84.58731586566205,23.48089575323165,0 84.58736021840186,23.48087091751357,0 84.58743694360921,23.48087198906198,0 84.58749950625567,23.48087052203908,0 84.5875384176644,23.48088388584806,0 84.58756458799702,23.4809037019226,0 84.58758479278698,23.48093250447486,0 84.58759426083373,23.48099359838659,0 84.5875972697588,23.48102565056339,0 84.5876311895196,23.48102809245255,0 84.5876957739592,23.48104943874025,0 84.58772779278195,23.48110041919331,0 84.58775190210565,23.48113827587255,0 84.58776527111631,23.48116670806091,0 84.58777864013224,23.48119514024847,0 84.58780169566177,23.48125551365846,0 84.58782099324191,23.48133270378084,0 84.58784480029455,23.48134308792034,0 84.58789211683971,23.48135298708607,0 84.58795026064205,23.48144328660921,0 84.58799304924406,23.48149879380169,0 84.58801970843696,23.48154997171532,0 84.58808205932866,23.48157622931997,0 84.5881370714874,23.48157897013247,0 84.58823379817214,23.48158643434839,0 84.5884699399968,23.48160479373784,0 84.58867070565474,23.48162036858997,0 84.5888226880502,23.48163211885589,0 84.58881414519561,23.48172587441669,0 84.58867778790152,23.48179594485146,0 84.58858792596131,23.48188272468942,0 84.5885635819003,23.48192526319006,0 84.58852050911641,23.48199711578046,0 84.58851208279673,23.48205957026896,0 84.58848265316395,23.4821828473746,0 84.58847124459402,23.48223998009096,0 84.58844902927832,23.48234869629204,0 84.58842998906199,23.48239358238157,0 84.58844619056401,23.48246323450519,0 84.58844064091635,23.48248500413217,0 84.5884572831511,23.48253236220428,0 84.58855435210734,23.48262554731103,0 84.58860142841922,23.48265712963526,0 84.58841522638635,23.48271080430709,0 84.58837003699888,23.48272388970266,0 84.588111012233,23.48279492416825,0 84.58770223176505,23.48291344062785,0 84.58768166316338,23.48255655509025,0 84.58767250828633,23.48240030194559,0 84.58755256644487,23.48241066144825,0 84.5874974148698,23.48242293786804,0 84.58740101329437,23.48245317286523,0 84.587273307538,23.48247247724948,0 84.58718605539173,23.48248809587827,0 84.58711921985717,23.48250084153996,0 84.58707809634247,23.48250864993901,0 84.58703203936595,23.4825242378359,0 84.58700204249828,23.48256348783043,0 84.58695299845054,23.48265887408037,0 84.58672616088018,23.48267869185803,0 84.58674474052084,23.48266522148901,0 84.58660390984623,23.48251520507756,0 84.58660259714657,23.48246239035748,0 84.58652711556103,23.48236034148797,0 84.58646108798438,23.48231755783459,0 84.58613162201556,23.48224312423071,0 84.58613416597888,23.48214635097254,0 84.58619140902569,23.48185983056394,0 84.58627803983518,23.4817038100832,0 84.58658258793112,23.48166014366133,0 84.58696282767234,23.48148349026694,0 84.58702702940087,23.48148448460419,0 84.58715315049136,23.48149740669818,0 84.58715667460096,23.48145647407637,0 84.58715483296923,23.48138813377087,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>QUARRY.shp</name>
+		<Schema name="QUARRY" id="S_QUARRY_SSISDISD">
+			<SimpleField type="long" name="FID_"><displayName>&lt;b&gt;FID_&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Entity"><displayName>&lt;b&gt;Entity&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Layer"><displayName>&lt;b&gt;Layer&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="Color"><displayName>&lt;b&gt;Color&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Linetype"><displayName>&lt;b&gt;Linetype&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="Elevation"><displayName>&lt;b&gt;Elevation&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="LineWt"><displayName>&lt;b&gt;LineWt&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="RefName"><displayName>&lt;b&gt;RefName&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="falseColor100">
+			<IconStyle>
+				<scale>0</scale>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>FID_</b></td><td>$[BACKFILLING/FID_]</td></tr>
+  <tr><td><b>Entity</b></td><td>$[BACKFILLING/Entity]</td></tr>
+  <tr><td><b>Layer</b></td><td>$[BACKFILLING/Layer]</td></tr>
+  <tr><td><b>Color</b></td><td>$[BACKFILLING/Color]</td></tr>
+  <tr><td><b>Linetype</b></td><td>$[BACKFILLING/Linetype]</td></tr>
+  <tr><td><b>Elevation</b></td><td>$[BACKFILLING/Elevation]</td></tr>
+  <tr><td><b>LineWt</b></td><td>$[BACKFILLING/LineWt]</td></tr>
+  <tr><td><b>RefName</b></td><td>$[BACKFILLING/RefName]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[BACKFILLING/AREA]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="falseColor11">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor12</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor100</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="falseColor12">
+			<IconStyle>
+				<scale>0</scale>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>FID_</b></td><td>$[BACKFILLING/FID_]</td></tr>
+  <tr><td><b>Entity</b></td><td>$[BACKFILLING/Entity]</td></tr>
+  <tr><td><b>Layer</b></td><td>$[BACKFILLING/Layer]</td></tr>
+  <tr><td><b>Color</b></td><td>$[BACKFILLING/Color]</td></tr>
+  <tr><td><b>Linetype</b></td><td>$[BACKFILLING/Linetype]</td></tr>
+  <tr><td><b>Elevation</b></td><td>$[BACKFILLING/Elevation]</td></tr>
+  <tr><td><b>LineWt</b></td><td>$[BACKFILLING/LineWt]</td></tr>
+  <tr><td><b>RefName</b></td><td>$[BACKFILLING/RefName]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[BACKFILLING/AREA]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>QUARRY</name>
+			<Placemark>
+				<styleUrl>#falseColor11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_QUARRY_SSISDISD">
+						<SimpleData name="FID_">0</SimpleData>
+						<SimpleData name="Entity">LWPolyline</SimpleData>
+						<SimpleData name="Layer">QUARRY</SimpleData>
+						<SimpleData name="Color">7</SimpleData>
+						<SimpleData name="Linetype">BENCH</SimpleData>
+						<SimpleData name="Elevation">0</SimpleData>
+						<SimpleData name="LineWt">40</SimpleData>
+						<SimpleData name="RefName"></SimpleData>
+						<SimpleData name="AREA">9.24908</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.58740101329437,23.48245317286523,0 84.58732389175117,23.48246432677543,0 84.58723412383023,23.4824790992906,0 84.58707809634247,23.48250864993901,0 84.58703203936595,23.4825242378359,0 84.58700204249828,23.48256348783043,0 84.58695299845054,23.48265887408037,0 84.58672616088018,23.48267869185803,0 84.58667316286379,23.48262462089041,0 84.58657520888335,23.48251772324367,0 84.58657804258286,23.48246497055038,0 84.5865079741331,23.48237440824277,0 84.58645402968575,23.48234683043833,0 84.58594276103214,23.48222078774597,0 84.58591636311648,23.48221719362245,0 84.58590454411119,23.48219182189553,0 84.58592632590468,23.48217857693644,0 84.58589429193005,23.48210804816581,0 84.58584690752764,23.4820518670228,0 84.58579574531075,23.48197753787456,0 84.58580206472413,23.48189763511435,0 84.58582717765175,23.48183855183972,0 84.58587031276716,23.48175998662039,0 84.58592593539525,23.48165867678631,0 84.5859987312494,23.48160762018636,0 84.58607947209741,23.48156416477225,0 84.58618937010898,23.48152546086845,0 84.58627408702557,23.48150446564981,0 84.58636462232516,23.4814671507249,0 84.58644034014709,23.48144790382466,0 84.58651857624345,23.48139084758957,0 84.58654636848028,23.48136769512534,0 84.58663589291875,23.48129311624243,0 84.58667166776591,23.48112143682515,0 84.58657606594744,23.48109206970278,0 84.58647261108261,23.48106179903708,0 84.58631767019841,23.48104375996856,0 84.58621304742849,23.48102778675753,0 84.58612949106889,23.48100203180715,0 84.58604649426094,23.48096593279162,0 84.58597688682353,23.48094057174571,0 84.58588197479753,23.48093374377688,0 84.58585492504785,23.48092711203801,0 84.58578752232465,23.48091140999274,0 84.58569440281946,23.48089118964059,0 84.58561855108373,23.48084157850763,0 84.58563173201712,23.48076159172039,0 84.58562856707125,23.48067938775184,0 84.5856228267894,23.4806113212022,0 84.58560939712278,23.48047550895224,0 84.58560767790442,23.48031189991572,0 84.58561249398304,23.48012585437291,0 84.58559075511948,23.47979902113891,0 84.58559636634988,23.47972357157516,0 84.58562276894723,23.47966848652024,0 84.58572068173238,23.47956971955311,0 84.58591476473646,23.47944356294263,0 84.58599406279205,23.47942348088482,0 84.58604900066831,23.4793961494075,0 84.58609149577467,23.47938013704942,0 84.58616139315262,23.47935965251471,0 84.58627307528441,23.47936141855974,0 84.58641651577865,23.4793709532459,0 84.58644248678536,23.47936537345559,0 84.58648977567157,23.47934973561161,0 84.58658399589011,23.47936509055245,0 84.58667593592781,23.47934434394985,0 84.58677617163239,23.47933835069117,0 84.58691859917292,23.47934825157655,0 84.58710665234251,23.47935804845813,0 84.58722299538634,23.47941729020741,0 84.58728841570451,23.47958760201315,0 84.58734899314338,23.47963202536858,0 84.58737207606583,23.47965539945209,0 84.58742814798298,23.47975602463132,0 84.58746638207487,23.47978459900223,0 84.58749311360522,23.47981640660574,0 84.58753191117921,23.47985554977281,0 84.58758627281257,23.47992241691191,0 84.5875985982892,23.47994001147764,0 84.58768972715926,23.48006645056867,0 84.58771456539944,23.48010001748228,0 84.58775325741307,23.48015543843231,0 84.58783455435201,23.48027252742957,0 84.58782658022302,23.4802747068459,0 84.58781166555987,23.48028816992906,0 84.58783929927223,23.48033947521181,0 84.58786198846656,23.48038160037688,0 84.58787151652722,23.48043510506292,0 84.58787004797442,23.4804961258846,0 84.58785246920969,23.48071597591062,0 84.58786454543008,23.48095038309721,0 84.58786889716556,23.48103520300594,0 84.58786941144075,23.48121250265542,0 84.58789986300974,23.48130025856416,0 84.58794405360595,23.48135844644156,0 84.58796393135145,23.48138462040312,0 84.58798425611816,23.48142508247377,0 84.58805842218409,23.48152129377374,0 84.58813638142387,23.48152672180844,0 84.5881370714874,23.48157897013247,0 84.58878034935481,23.48162887433912,0 84.58927837180433,23.48166703827189,0 84.58974383371982,23.48170295310028,0 84.58989580514111,23.48171467884218,0 84.59016844780827,23.48173570091754,0 84.5903968530874,23.48175330461656,0 84.59049132783359,23.48176547143759,0 84.59054560191909,23.48177722393217,0 84.59060089756564,23.48177765063784,0 84.59065875786746,23.48177809711341,0 84.59071021741904,23.48178137023443,0 84.59077282643274,23.48178535250174,0 84.59079695767774,23.48178688737097,0 84.59085336724695,23.48179916270057,0 84.59093983830699,23.48179957497031,0 84.59098567352437,23.48185927925974,0 84.59100937426878,23.48189218619499,0 84.59101122992041,23.48192619066443,0 84.59097756241506,23.48196034244936,0 84.59085786192439,23.48198940930364,0 84.59079956144119,23.48199493340054,0 84.59074023794587,23.48202885059323,0 84.59060395766257,23.48206933675266,0 84.5903808600125,23.48213432839732,0 84.59008956480126,23.48221834243757,0 84.58994581690992,23.4822600869429,0 84.58988280392896,23.48227121646237,0 84.58978633669967,23.48230030782648,0 84.58971394114285,23.48231383709483,0 84.5896244275739,23.48234176276297,0 84.58932498190215,23.48243793514247,0 84.58902478801349,23.48253078034855,0 84.58860142841922,23.48265712963526,0 84.58841522638635,23.48271080430709,0 84.58837003699888,23.48272388970266,0 84.588111012233,23.48279492416825,0 84.58770223176505,23.48291344062785,0 84.58767250828633,23.48240030194559,0 84.58755256644487,23.48241066144825,0 84.5874974148698,23.48242293786804,0 84.58740101329437,23.48245317286523,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+</Folder>
+</kml>

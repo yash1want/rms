@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:globalmapper="http://www.bluemarblegeo.com/globalmapper">
+<Document>
+  <!-- Begin Style Definitions -->
+  <Style id="area1">
+    <LineStyle>
+      <color>FF00FFFF</color>
+      <width>3</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>BF000000</color>
+      <fill>0</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="area2">
+    <LineStyle>
+      <color>FF00FFFF</color>
+      <width>2</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>00000000</color>
+      <fill>0</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="point1">
+    <IconStyle><Icon><href>kml_symbol_dot_0.png</href></Icon></IconStyle>
+  </Style>
+  <Folder>
+    <name>Point Features</name>
+    <description>Point Features</description>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.6827777041,30.6138874092,1876.886</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <name>SCP-2</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.6818852682,30.6155221150,2004.276</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <name>SCP-3</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.6804269905,30.6141143717,1978.973</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <name>SCP-5A</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.6782038171,30.6123888857,1879.594</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <name>SCP-6</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.6766724679,30.6137085918,1893.693</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Area Features</name>
+    <description>Area Features</description>
+    <Placemark>
+      <description>Unknown Area Type</description>
+      <name>Untitled Polygon</name>
+      <styleUrl>#area1</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.6775477969,30.6139017132,0
+              77.6777429014,30.6122298410,0
+              77.6818609446,30.6140290599,0
+              77.6816199123,30.6160177636,0
+              77.6775477969,30.6139017132,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Area Type</description>
+      <name>Untitled Polygon</name>
+      <styleUrl>#area2</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.6765074413,30.6138388033,0
+              77.6765087101,30.6138309944,0
+              77.6765088691,30.6138231100,0
+              77.6765099585,30.6138171604,0
+              77.6765101737,30.6138111316,0
+              77.6767052967,30.6121392531,0
+              77.6767259439,30.6120299897,0
+              77.6767679988,30.6119095185,0
+              77.6768290289,30.6117952820,0
+              77.6769078462,30.6116895038,0
+              77.6770029167,30.6115942426,0
+              77.6771123899,30.6115113526,0
+              77.6772341349,30.6114424470,0
+              77.6773657823,30.6113888671,0
+              77.6775047697,30.6113516557,0
+              77.6776483920,30.6113315369,0
+              77.6777938537,30.6113289025,0
+              77.6779383237,30.6113438037,0
+              77.6780789901,30.6113759504,0
+              77.6782131232,30.6114247206,0
+              77.6823311492,30.6132239284,0
+              77.6824133325,30.6132639664,0
+              77.6825310671,30.6133379046,0
+              77.6826357589,30.6134252953,0
+              77.6827253700,30.6135244376,0
+              77.6827981564,30.6136334017,0
+              77.6828527012,30.6137500670,0
+              77.6828879428,30.6138721625,0
+              77.6829031951,30.6139973120,0
+              77.6828981603,30.6141230873,0
+              77.6826571479,30.6161118008,0
+              77.6826500037,30.6161588014,0
+              77.6826172846,30.6162814212,0
+              77.6825651526,30.6163989092,0
+              77.6824946225,30.6165089787,0
+              77.6824070668,30.6166094872,0
+              77.6823041898,30.6166984785,0
+              77.6821879938,30.6167742204,0
+              77.6820607405,30.6168352386,0
+              77.6819249068,30.6168803455,0
+              77.6817831365,30.6169086631,0
+              77.6816381892,30.6169196402,0
+              77.6814928861,30.6169130631,0
+              77.6813500556,30.6168890599,0
+              77.6812124776,30.6168480977,0
+              77.6810828222,30.6167909699,0
+              77.6770106784,30.6146748988,0
+              77.6770049733,30.6146714438,0
+              77.6769988104,30.6146686378,0
+              77.6769527726,30.6146399589,0
+              77.6769057360,30.6146125191,0
+              77.6768989605,30.6146072427,0
+              77.6768914919,30.6146027197,0
+              77.6768863982,30.6145986116,0
+              77.6768807469,30.6145950911,0
+              77.6768397716,30.6145611494,0
+              77.6767976085,30.6145283149,0
+              77.6767917480,30.6145222742,0
+              77.6767850799,30.6145168963,0
+              77.6767806969,30.6145122150,0
+              77.6767756670,30.6145080485,0
+              77.6767405523,30.6144695050,0
+              77.6767040828,30.6144319145,0
+              77.6766992513,30.6144252272,0
+              77.6766935136,30.6144190989,0
+              77.6766899264,30.6144139356,0
+              77.6766856159,30.6144092042,0
+              77.6766570452,30.6143668090,0
+              77.6766269794,30.6143251944,0
+              77.6766232710,30.6143179905,0
+              77.6766185752,30.6143112313,0
+              77.6766158538,30.6143056864,0
+              77.6766123466,30.6143004822,0
+              77.6765908759,30.6142550607,0
+              77.6765677988,30.6142102317,0
+              77.6765652857,30.6142026516,0
+              77.6765617232,30.6141953929,0
+              77.6765599206,30.6141895743,0
+              77.6765572849,30.6141839986,0
+              77.6765433319,30.6141364344,0
+              77.6765276930,30.6140892642,0
+              77.6765264241,30.6140814553,0
+              77.6765240642,30.6140738383,0
+              77.6765232154,30.6140678595,0
+              77.6765215026,30.6140620207,0
+              77.6765153390,30.6140132398,0
+              77.6765074425,30.6139646462,0
+              77.6765074424,30.6139567605,0
+              77.6765063312,30.6139489337,0
+              77.6765064527,30.6139429108,0
+              77.6765056961,30.6139369227,0
+              77.6765074417,30.6138878746,0
+              77.6765074413,30.6138388033,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>

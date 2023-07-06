@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PMCP FILE KARNATAKA LIMPO IRON ORE MINE.kml</name>
+	<Style id="line1">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="line11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area20">
+		<LineStyle>
+			<color>ff00aa55</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf00aa55</color>
+		</PolyStyle>
+	</Style>
+	<Style id="area200">
+		<LineStyle>
+			<color>ff00aa55</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf00aa55</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area21">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area22</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area200</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area2">
+		<LineStyle>
+			<color>ff00aa55</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf00aa55</color>
+		</PolyStyle>
+	</Style>
+	<Style id="line10">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="area22">
+		<LineStyle>
+			<color>ff00aa55</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf00aa55</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area210">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>PMCP FILE KARNATAKA LIMPO IRON ORE MINE</name>
+		<open>1</open>
+		<Placemark>
+			<open>1</open>
+			<description>MINE_LEASE_BOUNDARY</description>
+			<styleUrl>#area21</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.7166042187,13.3385208095,0 76.7165349096,13.3385250473,0 76.71651004410001,13.3383539891,0 76.7133495044,13.3375628912,0 76.7137053782,13.341699161,0 76.717001045,13.341731686,0 76.71653492270001,13.3385251371,0 76.7166042317,13.3385208993,0 76.7170809405,13.341800267,0 76.7136416834,13.3417663251,0 76.7132723508,13.3374736093,0 76.7165720544,13.338299541,0 76.7166042187,13.3385208095,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<open>1</open>
+			<description>MINE_LEASE_BOUNDARY</description>
+			<styleUrl>#area21</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.7166042187,13.3385208095,0 76.7165349096,13.3385250473,0 76.71651004410001,13.3383539891,0 76.7133495044,13.3375628912,0 76.7137053782,13.341699161,0 76.717001045,13.341731686,0 76.71653492270001,13.3385251371,0 76.7166042317,13.3385208993,0 76.7170809405,13.341800267,0 76.7136416834,13.3417663251,0 76.7132723508,13.3374736093,0 76.7165720544,13.338299541,0 76.7166042187,13.3385208095,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>LAST two year Afforestation Area</name>
+			<open>1</open>
+			<description>MINE_LEASE_BOUNDARY</description>
+			<styleUrl>#area210</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.7166042187,13.3385208095,0 76.7165349096,13.3385250473,0 76.71651004410001,13.3383539891,0 76.7133495044,13.3375628912,0 76.7137053782,13.341699161,0 76.717001045,13.341731686,0 76.71653492270001,13.3385251371,0 76.7166042317,13.3385208993,0 76.7170809405,13.341800267,0 76.7136416834,13.3417663251,0 76.7132723508,13.3374736093,0 76.7165720544,13.338299541,0 76.7166042187,13.3385208095,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<open>1</open>
+			<description>MINE_LEASE_BOUNDARY</description>
+			<styleUrl>#line11</styleUrl>
+			<LineString>
+				<coordinates>
+					76.7170809405,13.341800267,0 76.7136416834,13.3417663251,0 76.7132723508,13.3374736093,0 76.7165720544,13.338299541,0 76.7170809405,13.341800267,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

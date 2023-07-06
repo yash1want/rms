@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Redimangudi Limestone Mine</name>
+	<open>1</open>
+	<Document>
+		<name>i,Mining Lease Boundary (2.185 Ha).kml</name>
+		<Style id="line1">
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>2.5</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id="line10">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line11</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line1</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="line11">
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>2.5</width>
+			</LineStyle>
+		</Style>
+		<Placemark>
+			<description>I.MINING LEASE BOU</description>
+			<styleUrl>#line10</styleUrl>
+			<LineString>
+				<coordinates>
+					78.8164252015,10.9830906539,0 78.8164252015,10.9830906539,0 78.81646988369999,10.9837163109,0 78.8176542331,10.983525862,0 78.81773288639999,10.9838190003,0 78.8182020747,10.9836633471,0 78.81841856130001,10.9836146289,0 78.81870867320001,10.9835938754,0 78.8186301657,10.9829441631,0 78.8186097465,10.9828448627,0 78.81884877970001,10.9828101961,0 78.8188140314,10.9826598258,0 78.8178477156,10.9828014286,0 78.8177843803,10.9828107095,0 78.81747158490001,10.9828147987,0 78.8164252015,10.9830906539,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>ii,Pit Area (0.592 Ha).kml</name>
+		<StyleMap id="area1">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#area11</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#area10</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="area10">
+			<LineStyle>
+				<color>ffffff00</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>bf7cf0ff</color>
+			</PolyStyle>
+		</Style>
+		<Style id="area11">
+			<LineStyle>
+				<color>ffffff00</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>bf7cf0ff</color>
+			</PolyStyle>
+		</Style>
+		<Placemark>
+			<description>PIT AREA</description>
+			<styleUrl>#area1</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.81803450629999,10.9829217667,0 78.81804795639999,10.9829200292,0 78.8181130477,10.9829148755,0 78.81821031370001,10.9829157076,0 78.81829893680001,10.982920884,0 78.8183427286,10.9829277931,0 78.8183948217,10.9829330494,0 78.8184375946,10.9829336944,0 78.818445681,10.9829442957,0 78.8184450399,10.9829814853,0 78.8184444633,10.9829825248,0 78.8184235607,10.9830103809,0 78.81835552450001,10.9831216453,0 78.81829035200001,10.9832062762,0 78.81827587550001,10.98321088,0 78.81821210459999,10.9832247962,0 78.81812245650001,10.9832543779,0 78.8180166385,10.9832843537,0 78.8178074227,10.9833314231,0 78.8176495734,10.9833740209,0 78.817601169,10.9833803817,0 78.81754043470001,10.9833853294,0 78.8174065975,10.9834069052,0 78.8172787993,10.9834203426,0 78.8171514925,10.9834406908,0 78.8171280263,10.9834460459,0 78.81709075889999,10.983429082,0 78.8170609596,10.9834140605,0 78.81704208070001,10.9833958446,0 78.8170566001,10.983270909,0 78.8171075708,10.9830935283,0 78.8171369503,10.9830750118,0 78.8172992966,10.9830240536,0 78.8174086854,10.9829917588,0 78.8174865448,10.9829668219,0 78.81760927009999,10.9829585957,0 78.8177025327,10.9829491342,0 78.8178346716,10.9829403851,0 78.81803450629999,10.9829217667,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>iii,Dump Area (0.025 Ha).kml</name>
+		<Style id="area12">
+			<LineStyle>
+				<color>ffffffaa</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>bfffffaa</color>
+			</PolyStyle>
+		</Style>
+		<Style id="area13">
+			<LineStyle>
+				<color>ffffffaa</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>bfffffaa</color>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="area14">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#area12</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#area13</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<description>DUMP AREA</description>
+			<styleUrl>#area14</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.8184353397,10.983522166,0 78.8184276571,10.9834951399,0 78.81842040310001,10.9834608694,0 78.8184178497,10.9834299414,0 78.818454864,10.983413408,0 78.8185026426,10.9834034381,0 78.8185546924,10.9833993475,0 78.8185897286,10.9834034316,0 78.81859963869999,10.9834283636,0 78.81860405170001,10.9834676855,0 78.81860484329999,10.9834838546,0 78.8186018861,10.9835022985,0 78.81859322450001,10.9835130699,0 78.8185801347,10.9835208264,0 78.81855976529999,10.9835242914,0 78.81852247800001,10.9835283137,0 78.8184898622,10.9835257869,0 78.8184529701,10.9835261166,0 78.8184353397,10.983522166,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>iv,Afforestation (0.08 Ha).kml</name>
+		<Style id="area15">
+			<LineStyle>
+				<color>ff00ff00</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>bf7fff55</color>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="area16">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#area15</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#area17</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="area17">
+			<LineStyle>
+				<color>ff00ff00</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>bf7fff55</color>
+			</PolyStyle>
+		</Style>
+		<Placemark>
+			<description>AFFORESTATION</description>
+			<styleUrl>#area16</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.817450745,10.9828218901,0 78.8174673505,10.9828758037,0 78.817219017,10.9829497925,0 78.8170199589,10.9830000181,0 78.81679551960001,10.9830597103,0 78.81644135419999,10.983152419,0 78.8164323835,10.9830907179,0 78.81694748629999,10.9829541772,0 78.81739288529999,10.9828365329,0 78.817450745,10.9828218901,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>v,Road (0.22 Ha).kml</name>
+		<StyleMap id="area18">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#area110</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#area19</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="area19">
+			<LineStyle>
+				<color>ff7e9dbd</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff7faaaa</color>
+			</PolyStyle>
+		</Style>
+		<Style id="area110">
+			<LineStyle>
+				<color>ff7e9dbd</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff7faaaa</color>
+			</PolyStyle>
+		</Style>
+		<Placemark>
+			<description>ROAD</description>
+			<styleUrl>#area18</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.81799308630001,10.9828027433,0 78.8180052797,10.9827783395,0 78.818026803,10.982786629,0 78.81805782950001,10.9827883841,0 78.8181021356,10.9827829286,0 78.8181520488,10.9827756466,0 78.8182046578,10.9827683669,0 78.8182834034,10.9827569814,0 78.8183478708,10.9827506581,0 78.8183955992,10.982742442,0 78.8184540848,10.982739196,0 78.8184791533,10.9827505524,0 78.8184937904,10.9827842533,0 78.8184998702,10.9828238397,0 78.8185047918,10.9828772198,0 78.8185037323,10.98289027,0 78.8185037323,10.98289027,0 78.8185037323,10.98289027,0 78.8185037323,10.98289027,0 78.8185037323,10.98289027,0 78.8185037323,10.98289027,0 78.8184921939,10.9829499044,0 78.8184652261,10.9829480658,0 78.81847304670001,10.9829004387,0 78.81847304670001,10.9829004387,0 78.81847304670001,10.9829004387,0 78.81847304670001,10.9829004387,0 78.81847304670001,10.9829004387,0 78.81847304670001,10.9829004387,0 78.81847727,10.9828775724,0 78.8184726172,10.9828271064,0 78.81846718769999,10.9827917544,0 78.81845810599999,10.9827708446,0 78.8184488319,10.9827666433,0 78.8183987342,10.9827694238,0 78.81835158609999,10.98277754,0 78.8182867471,10.9827838996,0 78.8182085473,10.9827952063,0 78.8181559559,10.9828024836,0 78.8181058369,10.9828097956,0 78.8180587495,10.9828155935,0 78.8180208909,10.982813452,0 78.81799308630001,10.9828027433,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Document>
+</Folder>
+</kml>

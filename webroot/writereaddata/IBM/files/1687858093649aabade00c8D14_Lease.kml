@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>D14_Lease.kml</name>
+	<Schema name="D11_ML" id="D11_ML">
+		<SimpleField type="string" name="Longitude"></SimpleField>
+		<SimpleField type="string" name="Latitude"></SimpleField>
+		<SimpleField type="string" name="Type"></SimpleField>
+		<SimpleField type="string" name="Point-ID"></SimpleField>
+	</Schema>
+	<Schema name="EXPL" id="EXPL">
+		<SimpleField type="string" name="Longitude"></SimpleField>
+		<SimpleField type="string" name="Latitude"></SimpleField>
+		<SimpleField type="string" name="Type"></SimpleField>
+		<SimpleField type="string" name="Point-ID"></SimpleField>
+	</Schema>
+	<Style id="s_ylw-pushpin4">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin130">
+		<IconStyle>
+			<color>ff000055</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl12">
+		<IconStyle>
+			<color>ff000055</color>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin130</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="style30000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style31100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style31200</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl7">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.472727</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="style31100">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style31200">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>D14_Lease</name>
+		<open>1</open>
+		<Placemark>
+			<name>D14 LEASE</name>
+			<description><![CDATA[<p>Layer: LEASE
+<br/>Area: 322.368]]></description>
+			<styleUrl>#style30000</styleUrl>
+			<ExtendedData>
+				<Data name="Layer">
+					<displayName>Layer</displayName>
+					<value>LEASE</value>
+				</Data>
+				<Data name="Area">
+					<displayName>Area</displayName>
+					<value>322.368</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							81.2210961139,18.6173737099,0 81.2318426481,18.6262779452,0 81.24574411570001,18.6122358982,0 81.23546619,18.6031117308,0 81.2210961139,18.6173737099,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>A71</name>
+			<styleUrl>#m_ylw-pushpin6</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#EXPL">
+					<SimpleData name="Longitude">81-14-44.6788</SimpleData>
+					<SimpleData name="Latitude">18-36-44.0492</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A71</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.24574411111109,18.6122358888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A64</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 13- 54.6335</SimpleData>
+					<SimpleData name="Latitude">N18- 37- 34.6006</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A64</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23184263888891,18.6262779444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A72</name>
+			<styleUrl>#m_ylw-pushpin6</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#EXPL">
+					<SimpleData name="Longitude">81-14-07.6783</SimpleData>
+					<SimpleData name="Latitude">18-36-11.2022</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A72</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.2354661944444,18.6031117222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A11</name>
+			<styleUrl>#m_ylw-pushpin6</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#EXPL">
+					<SimpleData name="Longitude">81-13-15.9460</SimpleData>
+					<SimpleData name="Latitude">18-37-02.5454</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A11</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.22109611111109,18.6173737222222,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

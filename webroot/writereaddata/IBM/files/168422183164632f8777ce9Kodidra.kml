@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Kodidra.kml</name>
+	<Style id="inline081">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline10150">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline081</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline11601</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline11601">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Kodidra</name>
+		<styleUrl>#inline10150</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						70.52042623570418,20.96651377814029,0 70.52084006464119,20.96633344280697,0 70.52081873232174,20.96572232153756,0 70.52046127261808,20.96561665355382,0 70.52046285741702,20.96529816263508,0 70.52033985903142,20.9646492314788,0 70.52003149554281,20.96439678561995,0 70.51992149717319,20.96402984426605,0 70.52041780700974,20.96357957662212,0 70.52039787662383,20.96294338450801,0 70.51861004074854,20.96269714676695,0 70.51878124481489,20.96433156417951,0 70.51948670960199,20.96444261492403,0 70.51963068187283,20.96492323275541,0 70.5191981003011,20.96492215901972,0 70.51918931334444,20.96517690051544,0 70.51913129564822,20.96544174600871,0 70.51951255699011,20.96549374931119,0 70.52007353792115,20.96583952039901,0 70.52028253916616,20.96617491263703,0 70.52042623570418,20.96651377814029,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

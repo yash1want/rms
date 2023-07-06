@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Land Use Data-ML No.2486.kml</name>
+	<open>1</open>
+	<Style id="featureStyle-Color [A=255, R=255, G=0, B=0]">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon56.png</href>
+				<x>32</x>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/>$[description]]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="featureStyle-Color [A=255, R=255, G=255, B=255]">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#featureStyle-Color [A=255, R=255, G=255, B=255]1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#featureStyle-Color [A=255, R=255, G=255, B=255]0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="featureStyle-Color [A=255, R=255, G=255, B=255]0">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon56.png</href>
+				<x>32</x>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/>$[description]]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7f00aa</color>
+		</LineStyle>
+	</Style>
+	<Style id="featureStyle-Color [A=255, R=255, G=255, B=255]1">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon56.png</href>
+				<x>32</x>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/>$[description]]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7f00aa</color>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Lease Boundary</name>
+		<open>1</open>
+		<styleUrl>#featureStyle-Color [A=255, R=255, G=0, B=0]</styleUrl>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<LineString>
+			<coordinates>
+				75.3820673972881,16.1694421003918,-80.4636007415392 75.38224206650921,16.1706325213829,-80.4598616808248 75.3854444941187,16.1697784788305,-80.46498462503629 75.38530523659909,16.1692901590925,-80.4664692111825 75.3820673972881,16.1694421003918,-80.4636007415392 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Mining Pit</name>
+		<open>1</open>
+		<styleUrl>#featureStyle-Color [A=255, R=255, G=255, B=255]</styleUrl>
+		<LineString>
+			<coordinates>
+				75.3821476634822,16.1695062148361,-80.4634518616713 75.38215809408671,16.1696065565901,-80.4631338074188 75.38218265300181,16.1697379127629,-80.4627253994713 75.3822478363337,16.1701331529696,-80.4614894803434 75.38227746574459,16.1702887816515,-80.4610054914416 75.38230602871531,16.1703981794658,-80.46067088758311 75.38231075681711,16.1704643058991,-80.4604593602987 75.38233564589071,16.1705235974657,-80.4602848879461 75.3826887433077,16.1704545301452,-80.4607694505916 75.3827871353721,16.1704270792979,-80.4609310950069 75.3828053064308,16.1704119824899,-80.4609935498941 75.3829125430682,16.1704088384285,-80.46108262511819 75.3829822956444,16.170388160951,-80.4612011344427 75.3831803015196,16.170344196823,-80.4614895643833 75.3833879473612,16.1703002132661,-80.4617850222858 75.3834221222113,16.1702775070657,-80.4618839265118 75.38342887671379,16.1702312621071,-80.46203923072279 75.3834014582677,16.1702086668599,-80.4620925642765 75.38342683853701,16.1701667027228,-80.46224760442701 75.3833963406684,16.1700806947427,-80.4625047775062 75.3833059845379,16.1700519278101,-80.462531936557 75.3832893279717,16.1700199509415,-80.4626236237459 75.38321739775451,16.1699750265963,-80.4627167788987 75.3831712362804,16.1698220278711,-80.4631799498799 75.3831451571217,16.1697752538723,-80.46331272476939 75.38314604592421,16.1697458256301,-80.4634089644272 75.3833019569129,16.1696984892131,-80.4636772540052 75.383356529267,16.1695747591949,-80.4641191479969 75.3833054774806,16.1694564575692,-80.46446575460151 75.3829514945419,16.1694723166515,-80.4641540638617 75.3821476634822,16.1695062148361,-80.4634518616713 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

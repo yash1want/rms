@@ -1,0 +1,206 @@
+<?php 
+	namespace app\Model\Table;
+	use Cake\ORM\Table;
+	use App\Model\Model;
+	use Cake\ORM\TableRegistry;
+	use Cake\Core\Configure;
+	use Cake\ORM\Locator\LocatorAwareTrait;
+	
+	class DirMineralGradeTable extends Table{
+
+		var $name = "DirMineralGrade";			
+		public $validate = array();
+
+		// Function retruns grade name in hindi version, Done by pravin bhakre 03-09-2020
+		public function getGradsArrByMinInHindi($mineral_name) {
+			$gradeArr = $this->find('all')
+			        ->select(['id', 'grade_code', 'grade_name_h'])
+			        ->where(['mineral_name'=>$mineral_name])
+			        ->order(['id'=>'ASC'])
+			        ->toArray();
+
+			$result = array();
+			foreach ($gradeArr as $tmpArr) {
+			  // $splitStrArr = split(',', $tmpArr['grade_name_h']);
+			  $splitStrArr = explode(',', $tmpArr['grade_name_h']);
+			  if (!empty($splitStrArr[1]))
+			    $result[trim($splitStrArr[1])][$tmpArr['id']] = $splitStrArr[0];
+			  else
+			    $result[''][$tmpArr['id']] = $splitStrArr[0];
+			}
+			//echo "<pre>";
+			//print_r($gradeArr);die;
+			//print_r($result);die;
+			return $result;
+		}
+
+		//get minral grade array
+		public function getGradsArrByMin($mineral_name, $return_date = null, $primary_min = null) {
+			
+			$type = null;
+			$return_date = ($return_date == null) ? '2021-01-01' : $return_date;
+			$cutoffDate = Configure::read('cutoff_date');
+			
+			//set version = 1, if date of return is after cut off date
+			//set version = 0, if date of return is before cut off date
+			if($return_date >= $cutoffDate){
+				$version = 1;
+			} else {
+				$version = 0;
+			}
+			
+			$gradeArr = $this->find('all')
+			        ->select(['id', 'grade_code', 'grade_name'])
+			        ->where(['mineral_name'=>$mineral_name, 'version'=>$version, 'type IS'=>NULL])
+			        ->order(['id'=>'ASC'])
+			        ->toArray();
+
+			$result = array();
+			foreach ($gradeArr as $tmpArr) {
+				$splitStrArr = explode(',', $tmpArr['grade_name']);
+				if (!empty($splitStrArr[1]))
+				$result[trim($splitStrArr[1])][$tmpArr['id']] = $splitStrArr[0];
+				else
+				$result[''][$tmpArr['id']] = $splitStrArr[0];
+			}
+			
+			return $result;
+
+		}
+		
+		//GET MINERAL GRADE ARRAY FOR ROM ONLY
+		public function getGradsArrByMinRom($mineral_name) {
+			
+			$gradeArr = $this->find('all')
+			        ->select(['id', 'grade_code', 'grade_name'])
+			        ->where(['mineral_name'=>$mineral_name, 'version'=>1, 'type'=>'ROM'])
+			        ->order(['id'=>'ASC'])
+			        ->toArray();
+
+			$result = array();
+			foreach ($gradeArr as $tmpArr) {
+				$splitStrArr = explode(',', $tmpArr['grade_name']);
+				if (!empty($splitStrArr[1])) {
+					$result[trim($splitStrArr[1])][$tmpArr['id']] = $splitStrArr[0];
+				}
+				else {
+					$result[''][$tmpArr['id']] = $splitStrArr[0];
+				}
+			}
+			return $result;
+
+		}
+
+		//get minral grade bu minaral name
+		public function getGradsbyName($mineralName, $returnDate = null) {
+
+			$type = null;
+			$cutoffDate = Configure::read('cutoff_date');
+			$returnDate = ($returnDate ==  null) ? $cutoffDate : $returnDate;
+
+			//set version = 1, if date of return is after cut off date
+			//set version = 0, if date of return is before cut off date
+			if($returnDate >= $cutoffDate){
+				$version = 1;
+			} else {
+				$version = 0;
+			}
+
+			$gradeArr = $this->find('all')
+			        ->select(['id', 'grade_code', 'grade_name'])
+			        ->where(['mineral_name'=>$mineralName])
+					->where(['version'=>$version])
+			        ->order(['id'=>'ASC'])
+			        ->toArray();
+
+			$result = array();
+			$result[""] = "Select";
+			foreach ($gradeArr as $tmpArr) {
+			  $result[$tmpArr['id']] = $tmpArr['grade_name'];
+			}
+
+			return $result;
+
+		}
+
+		//get mineral grade by mineral name
+		public function getGradsbyNameForMMS($mineralName) {
+
+		  $mineralName = str_replace('_',' ',$mineralName);
+		  $gradeArr = $this->find('all')
+		          ->select(['id', 'grade_code', 'grade_name'])
+		          //->where(['REPLACE(LOWER(mineral_name)," ", "_")'=>$mineralName])
+		          ->where(['LOWER(mineral_name)'=>$mineralName])
+		          ->order(['id'=>'ASC'])
+		          ->toArray();
+
+		  $result = array();
+		  $result[""] = "Select";
+		  foreach ($gradeArr as $tmpArr) {
+		    $result[$tmpArr['id']] = $tmpArr['grade_name'];
+		  }
+
+		  return $result;
+		}
+
+
+		/**
+		 * returns the grade name by id
+		 * @param type $id
+		 * @return type 
+		 */
+		public function getGradeName($id) {
+		  $query = $this->find('all')
+		          ->select(['grade_name'])
+		          ->where(['id'=>$id])
+		          ->toArray();
+
+		  if (count($query) > 0)
+		    return $query[0]['grade_name'];
+		  else
+		    return array();
+		}
+
+		public function getAllMineralGradeinfo($mineralName, $returnDate) {
+			
+			$returnDate = ($returnDate ==  null) ? '2021-01-01' : $returnDate;
+			$cutoffDate = Configure::read('cutoff_date');
+
+			//set version = 1, if date of return is after cut off date
+			//set version = 0, if date or return is before cut off date
+			if($returnDate >= $cutoffDate){
+				$version = 1;
+			} else {
+				$version = 0;
+			}
+
+			$query = $this->find()
+				->select(['id','grade_name'])
+				->where(['mineral_name'=>$mineralName])
+				->where(['version'=>$version])
+				->order(['id'=>'ASC'])
+				->toArray();
+
+			$data = Array();
+			$datareturn = Array();
+
+			//    $data[''] = '--- Select grade ---';
+			$i = 0;
+			foreach ($query as $m) {
+				$data[$m['id']] = $m['grade_name'];
+				$i++;
+			}
+			
+			//if $mineralName is NIL then manually assign NIL value to the option
+			if(count($query) == 0 && $mineralName == 'NIL'){
+				$data[0] = 'NIL';
+			}
+
+			$datareturn['gradeData'] = $data;
+			return $datareturn;
+
+		}
+	
+
+	} 
+?>

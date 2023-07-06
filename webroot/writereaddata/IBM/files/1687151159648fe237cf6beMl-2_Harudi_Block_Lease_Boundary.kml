@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Ml-2 Harudi Block.kml</name>
+	<StyleMap id="area1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area10">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area11">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Lease Boundary</name>
+		<description>Area Features</description>
+		<Placemark>
+			<description><![CDATA[Lease Boundary<BR><BR><B>ELEVATION</B> = 0]]></description>
+			<styleUrl>#area1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							68.7041866668,23.5310940985,0 68.6978372608,23.5299329354,0 68.6966553836,23.5297724677,0 68.6843214006,23.5280972731,0 68.6757416646,23.5280041528,0 68.6679201237,23.5295690238,0 68.67077909299999,23.5157463276,0 68.67311882520001,23.5014121993,0 68.67874602329999,23.503439658,0 68.6911545024,23.5060521915,0 68.69354879879999,23.505970296,0 68.6937594011,23.5063441252,0 68.6936161637,23.5066151881,0 68.70711285740001,23.5094106017,0 68.707312473,23.5123824902,0 68.7049214721,23.5185409485,0 68.70393372309999,23.5221158682,0 68.7041866668,23.5310940985,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

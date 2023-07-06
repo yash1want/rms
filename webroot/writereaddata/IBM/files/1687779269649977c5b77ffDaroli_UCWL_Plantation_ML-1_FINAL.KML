@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Daroli_UCWL_Plantation.kml</name>
+	<open>1</open>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_grn-blank1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_grn-blank2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_grn-blank0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_grn-blank2">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<color>ff005500</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_grn-blank0">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_grn-blank1">
+		<IconStyle>
+			<color>ff005500</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7faa55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff1f3e26</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7faa55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00391c</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7faa55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff005500</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff005500</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff55</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7faa55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>f0005500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff005500</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff55</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000055</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80000055</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>99ffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank1">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<color>ff005500</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_grn-blank2">
+		<IconStyle>
+			<color>ff005500</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_grn-blank0">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7faa55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff005500</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff005500</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff55</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff005500</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff55</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7faa55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>f0005500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7faa55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00391c</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7faa55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff1f3e26</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000055</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80000055</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin20">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>99ffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>ML-1 703.3051</name>
+		<styleUrl>#msn_ylw-pushpin20</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.94223411484047,24.57294172562639,0 73.94207364136109,24.59213243364855,0 73.93230017813667,24.59206560467602,0 73.93224637560859,24.59829659144618,0 73.92943010830524,24.59827320970657,0 73.9293355942181,24.60956294730187,0 73.92750785339925,24.60954829517481,0 73.92738568750931,24.62381792757562,0 73.91902743388323,24.62375938320688,0 73.91904496431216,24.62153698483487,0 73.91954085356518,24.6215419780048,0 73.91956611207573,24.61857615490892,0 73.91907293028692,24.61857238202614,0 73.91939070255758,24.58126057656295,0 73.93395982628081,24.58136555525078,0 73.93403392969104,24.57289931081549,0 73.94223411484047,24.57294172562639,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>PLANTATION 2022-23 NEAR MANDERIYA PIT 2.95 HECT.</name>
+		<LookAt>
+			<longitude>73.92431969997513</longitude>
+			<latitude>24.61302763974054</latitude>
+			<altitude>0</altitude>
+			<heading>90.5534036150874</heading>
+			<tilt>1.298688726417524</tilt>
+			<range>2429.198289407085</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.92565448713735,24.58314750130059,0 73.92576752174902,24.58296448990135,0 73.92588240611026,24.58281276251995,0 73.92593278581394,24.58266621758492,0 73.92594734753342,24.58248235861214,0 73.92595308443819,24.58234748201497,0 73.92605483733411,24.58236813599358,0 73.92617167728471,24.5823812306033,0 73.92617926629187,24.58232591728234,0 73.92636904768544,24.58232591720419,0 73.92680807886407,24.58231225437288,0 73.92703658312483,24.58194688526662,0 73.92739846427847,24.58176132585815,0 73.92757595743228,24.58170667044188,0 73.92777841164168,24.58202998484181,0 73.92779615443911,24.58217575596368,0 73.92770674337775,24.58256608820582,0 73.92754299664028,24.58291331392932,0 73.92739271983307,24.5832135397054,0 73.92725289616941,24.5834525981615,0 73.92715994078227,24.58362980387183,0 73.92697025918758,24.58386687497373,0 73.92685666555818,24.58388770639981,0 73.92659643922147,24.58388845187627,0 73.92664628573712,24.58361518110107,0 73.9265003186982,24.58358172120593,0 73.92642382085207,24.58376566606814,0 73.92641714470899,24.58382625785706,0 73.92634563215765,24.58381468134633,0 73.92619952096599,24.58379441132254,0 73.92628008222566,24.5835039429345,0 73.92607133072568,24.58348545356617,0 73.9258687726694,24.58331362328911,0 73.92565448713735,24.58314750130059,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>PLANTATION 2022-23 NEAR MANDERIYA PIT 2.95 HECT.</name>
+		<LookAt>
+			<longitude>73.92671724362438</longitude>
+			<latitude>24.58279742546014</latitude>
+			<altitude>0</altitude>
+			<heading>-2.256913650579808e-10</heading>
+			<tilt>45.00000079069317</tilt>
+			<range>1000.1243983371</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>73.92671416476712,24.58279513540524,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>RETAINING WALL 2022- 23</name>
+		<styleUrl>#msn_ylw-pushpin2</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.9196039067055,24.6153091228716,0 73.91962297233654,24.6151528684112,0 73.91963801279827,24.61505008675845,0 73.91964516912415,24.61495434724552,0 73.91965716982151,24.61485995068842,0 73.91964648891712,24.61478213208916,0 73.919638876121,24.61476004058727,0 73.91960540378005,24.61475189513715,0 73.91956873974028,24.614750886584,0 73.91952107922749,24.61474448047077,0 73.91947898795334,24.61474815764715,0 73.91941254198504,24.61474134518804,0 73.91935102513288,24.61473319364676,0 73.91928743759971,24.61470104179577,0 73.91920989511119,24.6146861607571,0 73.91914681148863,24.61469045414601,0 73.91909666844342,24.61471562892126,0 73.91909587427574,24.61469786596379,0 73.91914022236271,24.61467134551119,0 73.91920353506424,24.61466447786782,0 73.91923983155127,24.61466632416695,0 73.91928411498334,24.6146759296486,0 73.91932445822037,24.61469289747062,0 73.91936365013953,24.61470557994227,0 73.91941769652179,24.61470935697319,0 73.91946335803686,24.61470748318451,0 73.91951584488301,24.61471086399377,0 73.91956268361355,24.61471230292288,0 73.91959671738412,24.61471564493854,0 73.91962974106188,24.61472509347031,0 73.91964441009989,24.61473385809221,0 73.91966557199072,24.61480934817509,0 73.91965824920497,24.61501824373131,0 73.91963996336612,24.61514863729384,0 73.91961723457175,24.61530486123643,0 73.91960153974787,24.61545410007534,0 73.91960642797291,24.61538078828503,0 73.91959146903993,24.61559497442878,0 73.91958225282468,24.61564033100306,0 73.91954613204535,24.61566931481119,0 73.91951394296589,24.61569122847765,0 73.91950982215468,24.61567715989275,0 73.91952596394984,24.61566758292962,0 73.91956671613291,24.61564525741062,0 73.9196039067055,24.6153091228716,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>RETAINING WALL 2022- 23</name>
+		<LookAt>
+			<longitude>73.91969566791077</longitude>
+			<latitude>24.61536104465255</latitude>
+			<altitude>0</altitude>
+			<heading>0.0002715332171496359</heading>
+			<tilt>34.50842187413045</tilt>
+			<range>304.4004777131914</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>73.91964190969223,24.61474429375176,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>RETAINING WALL 2022- 23</name>
+		<styleUrl>#msn_ylw-pushpin2</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.91950752624619,24.6161422534118,0 73.91954248129586,24.6160878454812,0 73.91952627142541,24.61602980140574,0 73.91951985790448,24.6159847018527,0 73.91951253977415,24.61592025060268,0 73.91950461231261,24.61583303944047,0 73.91949536024947,24.6157855955249,0 73.91948449108919,24.61577399332729,0 73.91946113099321,24.6157739968866,0 73.9194590963457,24.6157602048798,0 73.91950432001292,24.61576248676774,0 73.91951578030877,24.61584882225621,0 73.91953307725767,24.61600366198005,0 73.91955904699628,24.61609943959667,0 73.91951159635492,24.61615578812,0 73.91950752624619,24.6161422534118,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>RETAINING WALL 2022- 23</name>
+		<LookAt>
+			<longitude>73.91969566791077</longitude>
+			<latitude>24.61536104465255</latitude>
+			<altitude>0</altitude>
+			<heading>0.0002715332171496359</heading>
+			<tilt>34.50842187413045</tilt>
+			<range>304.4004777131914</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>73.9194898054312,24.61577886491941,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>PLANTATION 2022-23 NEAR NALA 1.15 HECT.</name>
+		<styleUrl>#msn_ylw-pushpin3</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.91989403672073,24.61620313520975,0 73.9203245689781,24.61609781946204,0 73.92062075784727,24.61602193895993,0 73.92083512414315,24.6159746823983,0 73.92101239745051,24.61595149714644,0 73.92140808494742,24.61586713030488,0 73.92154628877267,24.61583971061762,0 73.92167757709156,24.61582079529654,0 73.92183075465476,24.6158141692265,0 73.92191539589415,24.61582195142616,0 73.9219969666413,24.61587126627733,0 73.92209217949912,24.61589780156431,0 73.92219283757568,24.61589780161166,0 73.92237385188012,24.61591893391051,0 73.92257550421235,24.61599318826485,0 73.92269417473437,24.61607266394807,0 73.9228132738545,24.61609313468184,0 73.92285352388987,24.6161453218863,0 73.92283007199713,24.61621557481187,0 73.92273447637081,24.61622622276087,0 73.92258608994774,24.61622150697978,0 73.92244901413181,24.61622718786926,0 73.92234544384931,24.61623287653638,0 73.92223389534404,24.61623335000925,0 73.92209225204093,24.61624047939777,0 73.9220268114565,24.61624385795083,0 73.92192642707208,24.61626072974184,0 73.92174509800444,24.61629464182713,0 73.92154649646936,24.61633735095542,0 73.92131694924082,24.61635884468078,0 73.92084998294122,24.61636932114014,0 73.92033099683279,24.61638462144749,0 73.91990258120522,24.61637058449234,0 73.91989403672073,24.61620313520975,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>PLANTATION 2022-23 NEAR NALA 1.15 HECT.</name>
+		<LookAt>
+			<longitude>73.9215061186439</longitude>
+			<latitude>24.61642757273372</latitude>
+			<altitude>0</altitude>
+			<heading>-0.0003137080323743713</heading>
+			<tilt>26.55534990708017</tilt>
+			<range>572.6242622725465</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank1</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>73.92244977340539,24.61602410631452,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Old Plantation 2.29Ha_Plantation</name>
+		<styleUrl>#msn_ylw-pushpin1</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.91960706367537,24.62094477875409,0 73.91965465915059,24.62077793307942,0 73.91971809784793,24.6206144530897,0 73.91977768015222,24.62046391856475,0 73.91989170957011,24.62018628137515,0 73.91970029670495,24.62002879686652,0 73.91954566120522,24.61995680076549,0 73.91958522304779,24.61926543057228,0 73.91957581001226,24.6187779614115,0 73.91966005751588,24.61869158374811,0 73.91996872161184,24.61866429135559,0 73.92015729870764,24.61933527186564,0 73.92026077763011,24.61956772392366,0 73.92053478393515,24.62007997522043,0 73.92052916710986,24.62018302330318,0 73.92054622604641,24.62035314091201,0 73.92065799688859,24.62052262202145,0 73.92072843557806,24.62086019185161,0 73.92082654730044,24.62146611946066,0 73.92038093112926,24.62150297385636,0 73.92021653910878,24.62139593078066,0 73.92008140600585,24.62123200266753,0 73.91999271150277,24.62110154615089,0 73.91977487694028,24.62102181527814,0 73.91960706367537,24.62094477875409,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Old Plantation 2.29Ha_Plantation</name>
+		<LookAt>
+			<longitude>73.92078581042726</longitude>
+			<latitude>24.61972916707103</latitude>
+			<altitude>0</altitude>
+			<heading>-0.0003697633517593452</heading>
+			<tilt>35.56635541125389</tilt>
+			<range>858.0811794307247</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank2</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>73.92001639329406,24.61986268096473,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Old Plantation 0.44 Hact.</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.91905335834369,24.6224470878593,0 73.91905303715191,24.62237654551839,0 73.91910470981061,24.62235140311195,0 73.91931217388147,24.62228242494272,0 73.91949857571115,24.62219624802846,0 73.91970728112062,24.62218543612792,0 73.91988106794747,24.62215045843853,0 73.92062259745398,24.62200049725771,0 73.920648123177,24.62226527134165,0 73.91993859743629,24.62237328859801,0 73.91960513685609,24.62241996066827,0 73.91932021952812,24.62251951581149,0 73.91904446830027,24.62262944536496,0 73.91905335834369,24.6224470878593,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Old Plantation 0.44 Hact.</name>
+		<LookAt>
+			<longitude>73.92060330252075</longitude>
+			<latitude>24.62079695025068</latitude>
+			<altitude>0</altitude>
+			<heading>-0.0005853995199406259</heading>
+			<tilt>30.96483083950353</tilt>
+			<range>625.8739811339584</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank2</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>73.92005618906431,24.62212962094209,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Old Plantation 1.57 Hact.</name>
+		<LookAt>
+			<longitude>73.92078581042729</longitude>
+			<latitude>24.61972916707104</latitude>
+			<altitude>0</altitude>
+			<heading>-0.0003697633517378766</heading>
+			<tilt>35.56635541125389</tilt>
+			<range>858.0811794307918</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin4</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.92123660186279,24.62340708745804,0 73.92056963835776,24.62330296445011,0 73.92027642752203,24.62322309118104,0 73.9199249195263,24.62311722556219,0 73.9194030655688,24.62303566005884,0 73.9193287656127,24.62299933705722,0 73.91913670594043,24.62271760385538,0 73.91942014719486,24.62257078809805,0 73.91979420904573,24.62249600174548,0 73.92023301625824,24.62242780449449,0 73.92062273422295,24.62241003603978,0 73.92083545969032,24.62236290779999,0 73.92085474849253,24.62264023597311,0 73.92102597874155,24.62264855807974,0 73.92115631482558,24.62267803650994,0 73.92124184952698,24.62280750140526,0 73.92123660186279,24.62340708745804,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Old Plantation 1.57 Hact.</name>
+		<LookAt>
+			<longitude>73.92060330252075</longitude>
+			<latitude>24.62079695025068</latitude>
+			<altitude>0</altitude>
+			<heading>-0.0005853995199406259</heading>
+			<tilt>30.96483083950353</tilt>
+			<range>625.8739811339584</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank2</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>73.92025742342155,24.6228535050761,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Old Plantation 1.79 Hact.</name>
+		<styleUrl>#msn_ylw-pushpin5</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.92261419714255,24.62377416503832,0 73.92235173195687,24.62377201126124,0 73.92205194788838,24.62365885475033,0 73.92183592030408,24.62355638250788,0 73.92122597105434,24.62344679755534,0 73.92123893610024,24.62336764711657,0 73.9212295133245,24.62311648667017,0 73.92123743901425,24.6227525231114,0 73.92154564366895,24.62270573253049,0 73.92203252201503,24.62262805848904,0 73.92236128366831,24.62259696294094,0 73.9226315877314,24.62260678633652,0 73.92299388252496,24.62266173446457,0 73.92298825056355,24.62298120910414,0 73.9227716009147,24.62301765385629,0 73.92278950223202,24.62376838681867,0 73.92261419714255,24.62377416503832,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Old Plantation 1.79 Hact.</name>
+		<LookAt>
+			<longitude>73.92384533850419</longitude>
+			<latitude>24.62184456944724</latitude>
+			<altitude>0</altitude>
+			<heading>0.0009577133285931163</heading>
+			<tilt>25.42253337538453</tilt>
+			<range>853.3933865693257</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank2</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>73.92215387245142,24.62288516746081,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Old Plantation 2.11 Hact.</name>
+		<styleUrl>#msn_ylw-pushpin5</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.92277928085318,24.62300866814885,0 73.92299728628016,24.62299919767622,0 73.92339301503252,24.62292071353905,0 73.92337980097238,24.62245808183379,0 73.92385651074291,24.62247139885723,0 73.92405285130548,24.62218192902519,0 73.92414726226778,24.62211574427852,0 73.92416377671681,24.62192074076002,0 73.92417594071669,24.62165451398753,0 73.92446907382103,24.62155239500013,0 73.9244020208872,24.62117776872795,0 73.92445725835617,24.62096018100447,0 73.92456151969077,24.6207231725033,0 73.92458188364469,24.62012483640789,0 73.92480190606473,24.62016428701147,0 73.92487659858909,24.62072075792751,0 73.92484452646396,24.62125828885006,0 73.92484855185262,24.62145702063416,0 73.92477381054454,24.62169463738012,0 73.92467537943979,24.62205022904224,0 73.92452119285804,24.62240060027451,0 73.92432198854806,24.62266841123552,0 73.92403706054681,24.62280393051758,0 73.92372037793781,24.62281280520428,0 73.92343288766288,24.62298315973885,0 73.92341259043987,24.62308500448937,0 73.92336841321706,24.6232739958785,0 73.92347703328069,24.62357308405502,0 73.92365099088904,24.62379813585084,0 73.92279633737112,24.62376843374063,0 73.9227876829402,24.6235942264789,0 73.92278189934605,24.62325892164591,0 73.92278094493174,24.62319878890051,0 73.92278700698373,24.62308731781033,0 73.92277928085318,24.62300866814885,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Old Plantation 2.11 Hact.</name>
+		<LookAt>
+			<longitude>73.9262572264232</longitude>
+			<latitude>24.62201451505562</latitude>
+			<altitude>0</altitude>
+			<heading>0.001962393009420057</heading>
+			<tilt>25.4250641883817</tilt>
+			<range>1509.738716510922</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>73.92447478697387,24.62180005933805,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Ishwaria 14.37 kml.kml</name>
+	<StyleMap id="m_ylw-pushpin8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin12">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2.8</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2.8</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Ishwaria 14.37 KML</name>
+		<styleUrl>#m_ylw-pushpin8</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				69.93680027609784,21.71824310464082,0 69.92965931186914,21.71465864649569,0 69.93029693762034,21.71354974629157,0 69.93212662949334,21.71449681280694,0 69.93507542894814,21.71518941241976,0 69.93671460831251,21.71581786981065,0 69.93780159339612,21.71664060312625,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

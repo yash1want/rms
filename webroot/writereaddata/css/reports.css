@@ -1,0 +1,152 @@
+.reportLink {
+    color: #495057;
+}
+
+.reportLink:hover {
+    color: #495057;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.reportHeading {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: rgba(13,27,62,0.7);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.reportHeadingMain {
+    text-align: center;
+    padding: 5px;
+    background-color: #495057;
+}
+
+.backToList {
+    margin: 5px;
+    background-color: #495057;
+    color: white;
+    font-weight: 600;
+}
+.backToList:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+.backToReport{
+    background-color: #495057;
+    font-weight: bold;
+}
+
+.labelForm {
+    font-weight: 600 !important;
+    margin: 7px;
+}
+
+.labelSubmit{
+    float: right;
+}
+
+.backToListReport {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.tHeadFont{
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: underline;
+    font-weight: 500 !important;
+    color: #6c757d;
+    font-size: 26px;
+}
+
+.tHeadDate{
+    text-align: left;
+    padding-top: 15px;
+    text-decoration: underline;
+    font-weight:bold;
+    font-size: 19px;
+    font-weight: 500;
+    color: #6c757d;
+}
+.tBodyCenter {
+    text-align: center;
+}
+
+.reporticoBack {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.noReport {
+    text-align: center;
+    font-weight: bold;
+}
+
+.ui-datepicker-calendar {
+	display: none !important;
+}
+
+.compulsoryField{
+    color: red;
+}
+
+.fsStyle {
+    border: #ccc 2px solid;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.groupWeight{
+    font-weight: bold;
+    text-align: left !important;
+}
+
+.ms-options-wrap > .ms-options {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    background: white;
+    z-index: 2000;
+    border: 1px solid #aaa;
+    /* overflow: auto; */
+    visibility: visible;
+}
+.tableHead{
+    text-align: center;
+    background-color: #495057;
+    color: white;
+    vertical-align: middle;
+}
+
+.table thead th {
+    vertical-align: middle;
+}
+
+.dataTables_wrapper .dataTables_filter {
+    float: left;
+    text-align: left;
+    padding-left: 13px;
+}
+
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled, table.dataTable thead .sorting_desc_disabled {
+    cursor: pointer;
+     position: unset; 
+}
+
+table.table-bordered.dataTable tbody th, table.table-bordered.dataTable tbody td {
+    border: 1px solid #ccc;
+}
+
+.table thead th {
+    vertical-align: middle;
+}
+
+.reptdet{ 	cursor: pointer;
+			font-weight: bold;
+			background-color: paleturquoise;
+			}

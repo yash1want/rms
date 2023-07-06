@@ -1,0 +1,1142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Temporary Places</name>
+	<open>1</open>
+	<Document>
+		<name>Boundary pillar.shp</name>
+		<Schema name="Boundary pillar" id="S_Boundary_pillar_SSSD">
+			<SimpleField type="string" name="NAME"><displayName>&lt;b&gt;NAME&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="GM_TYPE"><displayName>&lt;b&gt;GM_TYPE&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="ELEVATION"><displayName>&lt;b&gt;ELEVATION&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="hlightPointStyle">
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[Boundary pillar/NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Boundary pillar/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Boundary pillar/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Boundary pillar/ELEVATION]</td></tr>
+</table>
+]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id="normPointStyle">
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[Boundary pillar/NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Boundary pillar/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Boundary pillar/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Boundary pillar/ELEVATION]</td></tr>
+</table>
+]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id="pointStyleMap">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#normPointStyle</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#hlightPointStyle</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Folder id="layer 0">
+			<name>Boundary pillar</name>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Boundary_pillar_SSSD">
+						<SimpleData name="NAME">BP-13</SimpleData>
+						<SimpleData name="LAYER">BOUNDARY_PILLARS</SimpleData>
+						<SimpleData name="GM_TYPE">Text</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>78.89072546492166,19.8457392280735,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Boundary_pillar_SSSD">
+						<SimpleData name="NAME">BP-14</SimpleData>
+						<SimpleData name="LAYER">BOUNDARY_PILLARS</SimpleData>
+						<SimpleData name="GM_TYPE">Text</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>78.89032752950311,19.84719482939191,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Boundary_pillar_SSSD">
+						<SimpleData name="NAME">BP-1</SimpleData>
+						<SimpleData name="LAYER">BOUNDARY_PILLARS</SimpleData>
+						<SimpleData name="GM_TYPE">Text</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>78.88974639062621,19.84725519292168,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Boundary_pillar_SSSD">
+						<SimpleData name="NAME">BP-2</SimpleData>
+						<SimpleData name="LAYER">BOUNDARY_PILLARS</SimpleData>
+						<SimpleData name="GM_TYPE">Text</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>78.89152823424115,19.84966145197122,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Boundary_pillar_SSSD">
+						<SimpleData name="NAME">BP-3</SimpleData>
+						<SimpleData name="LAYER">BOUNDARY_PILLARS</SimpleData>
+						<SimpleData name="GM_TYPE">Text</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>78.89244580386675,19.85115402751697,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Boundary_pillar_SSSD">
+						<SimpleData name="NAME">BP-4</SimpleData>
+						<SimpleData name="LAYER">BOUNDARY_PILLARS</SimpleData>
+						<SimpleData name="GM_TYPE">Text</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>78.89229933338881,19.85259769116432,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Boundary_pillar_SSSD">
+						<SimpleData name="NAME">BP-5</SimpleData>
+						<SimpleData name="LAYER">BOUNDARY_PILLARS</SimpleData>
+						<SimpleData name="GM_TYPE">Text</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>78.8926484416214,19.85332817924375,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Boundary_pillar_SSSD">
+						<SimpleData name="NAME">BP-6</SimpleData>
+						<SimpleData name="LAYER">BOUNDARY_PILLARS</SimpleData>
+						<SimpleData name="GM_TYPE">Text</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>78.89444331656576,19.85306224854784,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Boundary_pillar_SSSD">
+						<SimpleData name="NAME">BP-7</SimpleData>
+						<SimpleData name="LAYER">BOUNDARY_PILLARS</SimpleData>
+						<SimpleData name="GM_TYPE">Text</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>78.89449274665526,19.85253890980098,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Boundary_pillar_SSSD">
+						<SimpleData name="NAME">BP-8</SimpleData>
+						<SimpleData name="LAYER">BOUNDARY_PILLARS</SimpleData>
+						<SimpleData name="GM_TYPE">Text</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>78.89458791357536,19.85177832117127,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Boundary_pillar_SSSD">
+						<SimpleData name="NAME">BP-9</SimpleData>
+						<SimpleData name="LAYER">BOUNDARY_PILLARS</SimpleData>
+						<SimpleData name="GM_TYPE">Text</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>78.89377253115059,19.85007521825489,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Boundary_pillar_SSSD">
+						<SimpleData name="NAME">BP-10</SimpleData>
+						<SimpleData name="LAYER">BOUNDARY_PILLARS</SimpleData>
+						<SimpleData name="GM_TYPE">Text</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>78.89384936074292,19.84986552611004,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Boundary_pillar_SSSD">
+						<SimpleData name="NAME">BP-11</SimpleData>
+						<SimpleData name="LAYER">BOUNDARY_PILLARS</SimpleData>
+						<SimpleData name="GM_TYPE">Text</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>78.89318531731499,19.84883286564274,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Boundary_pillar_SSSD">
+						<SimpleData name="NAME">BP-12</SimpleData>
+						<SimpleData name="LAYER">BOUNDARY_PILLARS</SimpleData>
+						<SimpleData name="GM_TYPE">Text</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>78.8928224519593,19.84896881940795,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>crusher.shp</name>
+		<Schema name="crusher" id="S_crusher_SSD">
+			<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="GM_TYPE"><displayName>&lt;b&gt;GM_TYPE&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="ELEVATION"><displayName>&lt;b&gt;ELEVATION&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="falseColor">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[crusher/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[crusher/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[crusher/ELEVATION]</td></tr>
+</table>
+]]></text>
+			</BalloonStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>crusher</name>
+			<Placemark>
+				<styleUrl>#falseColor</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_crusher_SSD">
+						<SimpleData name="LAYER">0</SimpleData>
+						<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.89188617521165,19.84925402917224,0 78.89192003177357,19.84925442956951,0 78.89191946377592,19.84929742920457,0 78.89188560720481,19.84929702880633,0 78.89188617521165,19.84925402917224,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>lease boundary.shp</name>
+		<Schema name="lease boundary" id="S_lease_boundary_SSD">
+			<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="GM_TYPE"><displayName>&lt;b&gt;GM_TYPE&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="ELEVATION"><displayName>&lt;b&gt;ELEVATION&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="falseColor0">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[lease boundary/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[lease boundary/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[lease boundary/ELEVATION]</td></tr>
+</table>
+]]></text>
+			</BalloonStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>lease boundary</name>
+			<Placemark>
+				<styleUrl>#falseColor0</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_lease_boundary_SSD">
+						<SimpleData name="LAYER">LE</SimpleData>
+						<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.89055509081028,19.8473126758025,0 78.89069209672174,19.84583525272821,0 78.89304136049725,19.84892358237987,0 78.8931438713736,19.84890341768108,0 78.8938765312797,19.85000649445196,0 78.89371908406191,19.85010012036802,0 78.89460793937654,19.85192175825803,0 78.8944516322087,19.85263147682183,0 78.89446231855958,19.85302430089382,0 78.89272139222329,19.85328239591222,0 78.8926395844116,19.85258540998576,0 78.89280499290386,19.85116292840568,0 78.89182889537067,19.84963152808685,0 78.8898362954227,19.84740964630292,0 78.89055509081028,19.8473126758025,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>office.shp</name>
+		<Schema name="office" id="S_office_SSD">
+			<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="GM_TYPE"><displayName>&lt;b&gt;GM_TYPE&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="ELEVATION"><displayName>&lt;b&gt;ELEVATION&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="falseColor1">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[office/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[office/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[office/ELEVATION]</td></tr>
+</table>
+]]></text>
+			</BalloonStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>office</name>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_office_SSD">
+						<SimpleData name="LAYER">0</SimpleData>
+						<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.89173017884787,19.84881797769531,0 78.89166039088526,19.84881715229672,0 78.8916608918499,19.8487792309971,0 78.89173067979596,19.84878005639393,0 78.89173017884787,19.84881797769531,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>pit.shp</name>
+		<Schema name="pit" id="S_pit_SSD">
+			<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="GM_TYPE"><displayName>&lt;b&gt;GM_TYPE&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="ELEVATION"><displayName>&lt;b&gt;ELEVATION&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="falseColor2">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[pit/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[pit/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[pit/ELEVATION]</td></tr>
+</table>
+]]></text>
+			</BalloonStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>pit</name>
+			<Placemark>
+				<styleUrl>#falseColor2</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_pit_SSD">
+						<SimpleData name="LAYER">0</SimpleData>
+						<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.89045188852788,19.84744443387067,0 78.8904583241424,19.8474457627763,0 78.89046730885785,19.84744896643012,0 78.89047667910387,19.84745461969274,0 78.89048476491621,19.84745984448382,0 78.89049175927322,19.84746586544499,0 78.89049706936878,19.84746982242905,0 78.8905068587885,19.84747609354979,0 78.8905115344498,19.84747942909024,0 78.89051961648248,19.84748485727729,0 78.89053442887723,19.84748734360688,0 78.89055381507863,19.84750099542035,0 78.89056077537653,19.84750884828855,0 78.89057169742057,19.84752368976324,0 78.89057554562636,19.84753678445681,0 78.89058746644173,19.84755642512674,0 78.8905910506479,19.84756055700302,0 78.89059911376472,19.84756700284045,0 78.89060400847647,19.84757013856512,0 78.89061728754511,19.8475740244178,0 78.89062865194542,19.84757665696606,0 78.89063351638335,19.84758142086882,0 78.8906346906394,19.84758775218829,0 78.89062705001631,19.84759332587991,0 78.89061233512564,19.84759715295125,0 78.89060384858385,19.84760189821775,0 78.89059560758369,19.84760501872209,0 78.89059063338851,19.84760615750787,0 78.89058388787872,19.84760991378936,0 78.89057789366852,19.84761958692821,0 78.89057584920056,19.84762436412161,0 78.89057717101434,19.84763436268411,0 78.89058046005762,19.84764276531406,0 78.89058461436211,19.84765097872177,0 78.89059002997476,19.84766084181036,0 78.89059870482116,19.84766913047523,0 78.89060568783584,19.84767576212506,0 78.89061478984691,19.84768426152765,0 78.89062642540451,19.84769544992541,0 78.89064685428637,19.84771943491369,0 78.89065524900002,19.84773227202606,0 78.89065948489365,19.8477417750398,0 78.89066349198224,19.84775326935598,0 78.89066276130048,19.84776160123372,0 78.89065802685053,19.84776859670585,0 78.89065240081753,19.84777194954154,0 78.89064242761943,19.8477717835115,0 78.89061979968278,19.84777122534355,0 78.89059196671872,19.84776169241762,0 78.89056632087176,19.84774821534081,0 78.89052797784824,19.84772370107287,0 78.89046891733472,19.84768496107451,0 78.89042637602357,19.84765705661572,0 78.89039736224242,19.84763105354099,0 78.89036943620403,19.84759524981868,0 78.89034329745414,19.84756347890306,0 78.89031964843532,19.84753849462226,0 78.89029943464595,19.84752146932696,0 78.89027171008179,19.847502605479,0 78.89025313252374,19.84749203650199,0 78.89022504238221,19.84747277180435,0 78.89020674578033,19.84745634497689,0 78.8901973392226,19.84744348583394,0 78.89019345264522,19.84742999124018,0 78.8901948699684,19.84741861522729,0 78.89020353696384,19.84740638277827,0 78.89021663576987,19.84739666697499,0 78.89022694615262,19.84738869606146,0 78.89024204782307,19.84738243343688,0 78.89025813666967,19.84737863010423,0 78.89027512269799,19.84737712742901,0 78.89029434411724,19.84738086728903,0 78.89030768715963,19.84738581218884,0 78.89032303235911,19.84739609815948,0 78.89033715337142,19.84740688726868,0 78.89034870165187,19.8474157106894,0 78.89035563405061,19.84742266577502,0 78.89036446093382,19.84742965256841,0 78.89037552277507,19.84743683937284,0 78.89039449343072,19.84745591939161,0 78.89040624092398,19.84746328041128,0 78.89041790122498,19.84746608020032,0 78.89042892431614,19.84746610091918,0 78.89043441960361,19.84745772405826,0 78.89043785752375,19.84744882453986,0 78.8904444946253,19.84744388668861,0 78.89045188852788,19.84744443387067,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor2</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_pit_SSD">
+						<SimpleData name="LAYER">0</SimpleData>
+						<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.89163326200423,19.84847541413287,0 78.89161939455992,19.84846084363159,0 78.89161658163151,19.84844621381835,0 78.89161907567166,19.84842718286537,0 78.8916253304173,19.84841057420768,0 78.89164205218482,19.84839277234458,0 78.89165215366263,19.84838773663425,0 78.89166811691319,19.84838481175148,0 78.89168508301744,19.84838843662068,0 78.89170062027064,19.84839978637046,0 78.8917139827815,19.84841624842678,0 78.89174512246713,19.84843274954321,0 78.89177041887706,19.84845281953424,0 78.8917836067269,19.8484767555602,0 78.89179613489129,19.84851118023415,0 78.89182063752067,19.84852795664681,0 78.8918632779887,19.84854754340463,0 78.89189929647546,19.84855647917096,0 78.8919245102759,19.84856144586773,0 78.89194104909417,19.84856896334649,0 78.89196144770705,19.84858513521841,0 78.89197969700888,19.84860435005801,0 78.89199283082304,19.8486234796054,0 78.89200252148412,19.848648828971,0 78.89200296791485,19.84866454418285,0 78.89200117421922,19.84867166994544,0 78.89199958455002,19.8486777521397,0 78.89199077114701,19.84869505859113,0 78.89198341232442,19.84870366260843,0 78.89197669111691,19.84870773945026,0 78.89196777490646,19.84871073263556,0 78.89195496403693,19.84871470830715,0 78.89192281183898,19.84875141003601,0 78.89190020094291,19.84876621798583,0 78.89187442987719,19.84877224670532,0 78.89184657125054,19.84877143400349,0 78.89181790975249,19.8487641503576,0 78.89179702826351,19.84875542548458,0 78.89178014155488,19.84874030934408,0 78.89177178583408,19.84873301451414,0 78.89176280250892,19.8487197752258,0 78.89174945684272,19.848695391491,0 78.891734906878,19.84866493272353,0 78.8917186555484,19.8486293241363,0 78.8917039286212,19.84860119113613,0 78.89169543308005,19.84858644075813,0 78.8916885231509,19.84857625738538,0 78.89168769402397,19.84855305359346,0 78.89168532550211,19.84852320380242,0 78.89167540195616,19.84850665283734,0 78.89165524261676,19.8484903264483,0 78.89163326200423,19.84847541413287,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor2</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_pit_SSD">
+						<SimpleData name="LAYER">0</SimpleData>
+						<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.89255770713908,19.84909779534196,0 78.89256230051177,19.84909370490573,0 78.89256819253184,19.84909088599979,0 78.89257340619845,19.84908899345906,0 78.89257922854462,19.84908992383276,0 78.8925863417964,19.84909254236027,0 78.89259628964815,19.84909677057785,0 78.89261782875589,19.84909894557663,0 78.89263030558938,19.84910047606553,0 78.89263514898846,19.84910336776709,0 78.89264040200032,19.84910775449463,0 78.89264028282338,19.84912070849926,0 78.89263772772328,19.84913393258368,0 78.89264071178036,19.84914540168163,0 78.89265060089177,19.84916136880917,0 78.89268284866135,19.84918868561971,0 78.8926875271509,19.84920088193826,0 78.89269038002875,19.84920915797208,0 78.89268955271194,19.8492196170106,0 78.89268632184904,19.84923168174253,0 78.89268212014781,19.84923639941098,0 78.89267574524909,19.8492388366926,0 78.89266460814609,19.84924209240458,0 78.89265211092963,19.84924188448826,0 78.8926451592701,19.84924132008673,0 78.89263540678827,19.84923816558064,0 78.89263170747398,19.84923286771685,0 78.89263091140073,19.8492246259017,0 78.8926313947568,19.84921565718441,0 78.89263111463045,19.84920517988838,0 78.89262372445035,19.84919992343235,0 78.89260149640062,19.84919464956996,0 78.89258923578986,19.84918698286685,0 78.89257896816218,19.8491812682822,0 78.89257187263513,19.84917475363814,0 78.89256455571127,19.84916802218503,0 78.89256016176842,19.84916176561356,0 78.8925560050638,19.84915487344641,0 78.89255568068539,19.84914804503973,0 78.89255740954741,19.84913997137539,0 78.89255589105085,19.84912459442256,0 78.89255470132444,19.84910367901499,0 78.89255770713908,19.84909779534196,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor2</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_pit_SSD">
+						<SimpleData name="LAYER">0</SimpleData>
+						<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.8912838440677,19.84810595602577,0 78.89122155224635,19.84796262015891,0 78.89121066533419,19.84788051865248,0 78.89121869021018,19.84780742928236,0 78.89124090330859,19.84772775936322,0 78.89126609236234,19.84764074680822,0 78.89128408820513,19.84759909008355,0 78.89130968835964,19.84756575157759,0 78.8913668011993,19.84752374227108,0 78.89145095313671,19.84747044823949,0 78.89147191348121,19.84745442326243,0 78.89149282993195,19.84744444720984,0 78.8915087418851,19.84743977448671,0 78.8915199853995,19.84743936305758,0 78.8915351287737,19.84744200911639,0 78.89155100696279,19.84744765982158,0 78.89159186274162,19.84747663230283,0 78.89161704935866,19.84749938641139,0 78.8916607513512,19.84753886766897,0 78.89170934896401,19.84758738898142,0 78.89176662430168,19.84764255576196,0 78.89179016163961,19.84766016727437,0 78.8918249076071,19.84768164392575,0 78.89184797935251,19.8476930348898,0 78.8918768741957,19.84770859396099,0 78.89190355234359,19.84772833315551,0 78.89192423498939,19.8477460301226,0 78.89193774728027,19.84776807690277,0 78.89195422123491,19.84777740561029,0 78.89197394597103,19.84779000411913,0 78.891990265746,19.84780502631905,0 78.89200753481634,19.847825679224,0 78.89201823103254,19.84784270077269,0 78.89203782191977,19.84789492852229,0 78.89204373919644,19.84792708629514,0 78.89204619432233,19.84795036060546,0 78.89204538410284,19.84797546674766,0 78.89204088797874,19.84801917576718,0 78.89203370811958,19.84806775434167,0 78.89203198466033,19.84811006777715,0 78.89203382181309,19.8481336181149,0 78.89203693197705,19.84815176302236,0 78.8920453495672,19.848201007725,0 78.89204719373265,19.84822791452778,0 78.89204421275507,19.84824520172545,0 78.89203006696461,19.84826972786518,0 78.89200258060059,19.8482914993384,0 78.89196989551647,19.8483047431036,0 78.89193618620892,19.84831321957437,0 78.89189775496565,19.8483153938369,0 78.89185710004726,19.84830908972619,0 78.89181116884622,19.84829847712199,0 78.89177435583538,19.84829364382067,0 78.89173659229868,19.84829188992552,0 78.89166719052992,19.84828903127653,0 78.89163296118954,19.84828930562667,0 78.8916038206803,19.84828797665581,0 78.89156842680227,19.84828682471951,0 78.89150651901002,19.84828153105884,0 78.89147179368372,19.84827645099599,0 78.89143802892869,19.8482677291248,0 78.8913984448584,19.84825187576082,0 78.89136990491251,19.84823423658794,0 78.89135210179997,19.84821536922055,0 78.89134376681534,19.84819947322471,0 78.89133298907872,19.84818453221124,0 78.89130645919782,19.84815482717118,0 78.89129115648058,19.84812952967416,0 78.8912838440677,19.84810595602577,0 78.8912838440677,19.84810595602573,0 78.8912838440677,19.84810595602577,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>road.shp</name>
+		<Schema name="road" id="S_road_SSD">
+			<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="GM_TYPE"><displayName>&lt;b&gt;GM_TYPE&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="ELEVATION"><displayName>&lt;b&gt;ELEVATION&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="style5">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[road/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[road/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[road/ELEVATION]</td></tr>
+</table>
+]]></text>
+			</BalloonStyle>
+			<PolyStyle>
+				<color>ff00ffff</color>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>road</name>
+			<Placemark>
+				<styleUrl>#style5</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_road_SSD">
+						<SimpleData name="LAYER">ROAD</SimpleData>
+						<SimpleData name="GM_TYPE">Unknown Line Type</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						78.88990700103615,19.84713373510672,0 78.89001136187028,19.8472075942761,0 78.89009814602606,19.84725775646106,0 78.89016046604765,19.84729771118827,0 78.89022255895662,19.84735313676516,0 78.89027588422886,19.84740972259182,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#style5</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_road_SSD">
+						<SimpleData name="LAYER">ROAD</SimpleData>
+						<SimpleData name="GM_TYPE">Unknown Line Type</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						78.88988650859244,19.84715965908959,0 78.88999215561762,19.84723442854166,0 78.89007962214843,19.84728498515272,0 78.89013899294456,19.84732304907174,0 78.89019800628525,19.84737572576199,0 78.8902503480861,19.84743126799364,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#style5</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_road_SSD">
+						<SimpleData name="LAYER">ROAD</SimpleData>
+						<SimpleData name="GM_TYPE">Unknown Line Type</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						78.89065948489365,19.8477417750398,0 78.89071386017764,19.84779087452887,0 78.89078206564852,19.8478438763522,0 78.89085178810821,19.8478894161959,0 78.89095910860385,19.84795076525229,0 78.89102123210739,19.84798996092064,0 78.89107614668177,19.84803551298121,0 78.89112230563826,19.84808388371231,0 78.89115140628263,19.84814028904763,0 78.89117165418587,19.84822672448963,0 78.89117951449651,19.8482841225162,0 78.89120348300021,19.84834459894695,0 78.89123339680133,19.84839513828502,0 78.89128255256232,19.84845210003698,0 78.89132296878516,19.84849202963449,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#style5</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_road_SSD">
+						<SimpleData name="LAYER">ROAD</SimpleData>
+						<SimpleData name="GM_TYPE">Unknown Line Type</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						78.89141823689245,19.84825980244385,0 78.89134420884176,19.84851165368124,0 78.8913960631827,19.84855507282356,0 78.89145116470137,19.84860277864829,0 78.89151350129856,19.84865351730672,0 78.89154807096433,19.84868353642807,0 78.89162147202181,19.84874440926444,0 78.89166342551493,19.84878398525193,0 78.89165978935979,19.84879689888258,0 78.89163626793574,19.84880451020562,0 78.89158146382577,19.84881346836512,0 78.89155034104262,19.84882073820957,0 78.89148244347768,19.84883792178057,0 78.89143936198543,19.84884748708544,0 78.89138515715929,19.84885569913712,0 78.89134475742345,19.8488573354377,0 78.89128404330744,19.84886381159914,0 78.89124565805906,19.84887293812308,0 78.89119886173872,19.84888406446093,0 78.89114144027418,19.84889815386529,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#style5</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_road_SSD">
+						<SimpleData name="LAYER">ROAD</SimpleData>
+						<SimpleData name="GM_TYPE">Unknown Line Type</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						78.8906415381291,19.84775956940118,0 78.8906993277912,19.84780273141475,0 78.89077215536724,19.84785602381276,0 78.8908418112665,19.84790376379061,0 78.89093223861886,19.84795770336973,0 78.89101666081574,19.84801030418856,0 78.8910933251351,19.84807297835457,0 78.89112526930489,19.84811852148036,0 78.89114657712101,19.84817886914523,0 78.89115751353414,19.84824228071403,0 78.89117114245921,19.84830485410421,0 78.89119257537301,19.84835999052884,0 78.89121808150777,19.84840087553482,0 78.89126691968896,19.84845928755496,0 78.89132173882454,19.84851385387954,0 78.89138395140856,19.84856714185117,0 78.8914386335148,19.84861363160094,0 78.89149879967657,19.84866549458165,0 78.89154876813002,19.84870818174206,0 78.89161333912737,19.84876268483302,0 78.89163916692691,19.8487862746727,0 78.89157811448632,19.84880004755402,0 78.89152338831106,19.84880865939346,0 78.89145556250249,19.84882420030162,0 78.89141268428271,19.84883350953385,0 78.89135724701622,19.84883924237636,0 78.891308714312,19.84884157880682,0 78.89127605917356,19.84884770581412,0 78.89123692651106,19.84885685838854,0 78.89120189557634,19.84886746379129,0 78.89113378969245,19.8488798104374,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#style5</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_road_SSD">
+						<SimpleData name="LAYER">ROAD</SimpleData>
+						<SimpleData name="GM_TYPE">Unknown Line Type</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						78.89058342229934,19.84775138781653,0 78.89057830605999,19.84779162628753,0 78.89057148777182,19.84781288911275,0 78.89055307376471,19.84784771271123,0 78.89052665001252,19.84787326440515,0 78.89047834040804,19.84790136682511,0 78.89044272542891,19.8479220845761,0 78.89041975016535,19.84794079116262,0 78.89039602485435,19.84797318943496,0 78.89037515197349,19.84800417764496,0 78.89035612554845,19.84802263094809,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#style5</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_road_SSD">
+						<SimpleData name="LAYER">ROAD</SimpleData>
+						<SimpleData name="GM_TYPE">Unknown Line Type</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						78.89056632087176,19.84774821534081,0 78.89055632799727,19.84779746352007,0 78.89054363912224,19.84783247107972,0 78.8905163229316,19.84786014849767,0 78.8904857514619,19.84787781065557,0 78.89044285189595,19.84790071883101,0 78.89042260710251,19.8479145553493,0 78.89039877501021,19.84793507815847,0 78.89037719940679,19.84795941513011,0 78.89035390636637,19.84799059549836,0 78.89034605271512,19.84800039237566,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#style5</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_road_SSD">
+						<SimpleData name="LAYER">ROAD</SimpleData>
+						<SimpleData name="GM_TYPE">Unknown Line Type</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						78.89172916473171,19.84881080529775,0 78.89174266309806,19.84885643294773,0 78.89175869187206,19.8489053054188,0 78.89178363049486,19.84895956048117,0 78.89180571203582,19.84900438898356,0 78.89182331892289,19.84903995197111,0 78.89183723754486,19.84907996486911,0 78.8918440458644,19.8491081058907,0 78.89184853410814,19.84914148461069,0 78.89185313799634,19.84917572336108,0 78.89185001870622,19.84921594835238,0 78.8918482175106,19.84924424753957,0 78.89188323291648,19.84924624613874,0 78.89193103382684,19.8492547547729,0 78.89194770859137,19.84926204422969,0 78.89197108224822,19.84926804276636,0 78.8920108454551,19.84925678410552,0 78.89205578541002,19.84924021146078,0 78.89210072551315,19.84922973995488,0 78.89213718056544,19.84922356838439,0 78.89219547598657,19.84921915761787,0 78.89225329262125,19.84922082085138,0 78.89232085180265,19.84923035934126,0 78.89236304397413,19.84922968130208,0 78.89240800547122,19.84923136438087,0 78.89246761695257,19.84922955142213,0 78.89254351100989,19.84922449486292,0 78.89261254429793,19.84922120242915,0 78.89263104778763,19.84922209523022,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#style5</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_road_SSD">
+						<SimpleData name="LAYER">ROAD</SimpleData>
+						<SimpleData name="GM_TYPE">Unknown Line Type</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						78.89171418314807,19.84881641733411,0 78.8917319273654,19.84888280479056,0 78.89175981237175,19.84894982741777,0 78.89179670626596,19.84902400993694,0 78.89181479330591,19.84907381215053,0 78.89183101187528,19.8491371836258,0 78.89183170098029,19.84918523009292,0 78.89183105079047,19.8492202091401,0 78.89182500360772,19.84923924845219,0 78.89181954448357,19.849243643398,0 78.89173193576744,19.84924847619384,0 78.89166666704934,19.84925850897089,0 78.89160713096351,19.84927165071191,0 78.8915477023944,19.84928744703919,0 78.89150678944134,19.84929705799346,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#style5</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_road_SSD">
+						<SimpleData name="LAYER">ROAD</SimpleData>
+						<SimpleData name="GM_TYPE">Unknown Line Type</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						78.89263170747398,19.84923286771685,0 78.89255741078131,19.84923477650561,0 78.89250197863782,19.84923782780307,0 78.89243452724895,19.8492449149487,0 78.89240457205143,19.84924722133263,0 78.89234292922798,19.84924713199992,0 78.89228270636193,19.84924192277116,0 78.89220283696643,19.84923754772151,0 78.89214226266598,19.84923794217546,0 78.89208992046053,19.8492431660147,0 78.89204989701226,19.8492551215605,0 78.89200770261016,19.84927223379536,0 78.89198089443516,19.84927809862782,0 78.89194090213373,19.84927509573893,0 78.89188069368959,19.8492651970254,0 78.89182438559256,19.84926215638038,0 78.89175430750946,19.84926472942117,0 78.89168204609233,19.84927710685168,0 78.89161800727176,19.84929099983169,0 78.89155531680818,19.84930776534135,0 78.89152223085337,19.84931435450976,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#style5</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_road_SSD">
+						<SimpleData name="LAYER">ROAD</SimpleData>
+						<SimpleData name="GM_TYPE">Unknown Line Type</SimpleData>
+						<SimpleData name="ELEVATION">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						78.89132296878516,19.84849202963449,0 78.8913953474716,19.84824578979721,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Document>
+</Folder>
+</kml>

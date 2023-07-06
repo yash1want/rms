@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+  <!-- Begin Style Definitions -->
+  <Style id="area1">
+    <LineStyle>
+      <color>FF00FF00</color>
+      <width>1</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>BF000000</color>
+      <fill>0</fill>
+      <outline>1</outline>
+    </PolyStyle>
+    <IconStyle><Icon></Icon></IconStyle>
+  </Style>
+  <Folder>
+    <name>Area Features</name>
+    <description>Area Features</description>
+    <Placemark>
+      <description>M_L_BOUNDARY</description>
+      <styleUrl>#area1</styleUrl>
+      <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>1</extrude>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              85.3051827934,21.9215207254,0
+              85.3078617224,21.9189542204,0
+              85.3095885548,21.9167413467,0
+              85.3113689701,21.9145629838,0
+              85.3132584256,21.9122998893,0
+              85.3152291940,21.9096904866,0
+              85.3177698450,21.9097076472,0
+              85.3187504904,21.9099118889,0
+              85.3189989258,21.9109970052,0
+              85.3193868867,21.9112905315,0
+              85.3201169989,21.9119119240,0
+              85.3195573099,21.9139199788,0
+              85.3185077129,21.9154254828,0
+              85.3185857173,21.9162516159,0
+              85.3185823920,21.9170698400,0
+              85.3193934421,21.9176014725,0
+              85.3200948228,21.9197929516,0
+              85.3159617902,21.9209385626,0
+              85.3129688865,21.9218063944,0
+              85.3117330432,21.9218705239,0
+              85.3104667377,21.9217974446,0
+              85.3091962738,21.9217286935,0
+              85.3083779004,21.9216830261,0
+              85.3051827934,21.9215207254,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>

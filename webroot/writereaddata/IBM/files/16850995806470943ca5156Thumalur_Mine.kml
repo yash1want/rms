@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Thumalur Mine.kmz</name>
+	<open>1</open>
+	<Style id="inline">
+		<LineStyle>
+			<color>ffff0055</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="inline0">
+		<LineStyle>
+			<color>ffff0055</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline0060">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline524</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1017</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline1017">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline524">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Thumalur Mine</name>
+		<styleUrl>#inline0060</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						78.56860196405897,14.44905148803326,0 78.57317610398478,14.45196089646184,0 78.576104156859,14.45124985834637,0 78.57743601897234,14.4495846215348,0 78.57994229998309,14.45030027382586,0 78.58163240705775,14.45099933772768,0 78.58223495408743,14.45088533189849,0 78.58321952978757,14.45088269892621,0 78.58440795990917,14.45094202029958,0 78.58560294698187,14.45092384477997,0 78.58696295778974,14.45079021483631,0 78.59009491065926,14.45078159901616,0 78.59335275494442,14.44938534356953,0 78.59250812787847,14.44845325933145,0 78.59386171054337,14.44808899226311,0 78.59465119582768,14.44885459839174,0 78.59852499079885,14.44730260134219,0 78.59515451788843,14.44588611083918,0 78.59072764890338,14.4409633107135,0 78.58965846364211,14.44108460609263,0 78.58755265109508,14.44503007009097,0 78.5767280419571,14.447125405767,0 78.57518619546228,14.4474363632007,0 78.57378476103142,14.44761986513481,0 78.57285959776394,14.44767361416848,0 78.56860196405897,14.44905148803326,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Plant-2021-22</name>
+		<open>1</open>
+		<LookAt>
+			<longitude>78.59225392133914</longitude>
+			<latitude>14.44840034183893</latitude>
+			<altitude>0</altitude>
+			<heading>8.02907292387003</heading>
+			<tilt>34.41300104753773</tilt>
+			<range>234.4227059396752</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#inline1</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						78.59205275457319,14.44862744085411,0 78.59207945787141,14.4485926529376,0 78.59209638282756,14.44831426893335,0 78.59211939946162,14.44792182817688,0 78.59208208156261,14.44795103199861,0 78.59204309685654,14.44832105470517,0 78.59203370005348,14.44866244381355,0 78.59205275457319,14.44862744085411,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

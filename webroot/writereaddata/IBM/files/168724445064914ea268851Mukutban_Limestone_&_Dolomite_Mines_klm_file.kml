@@ -1,0 +1,1321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Mukutban Limestone &amp; Dolomite Mines.kml</name>
+	<Schema parent="Placemark" name="S_Prop_dgps_points_DDD">
+		<SimpleField type="double" name="Dgps_Point"></SimpleField>
+		<SimpleField type="double" name="X_COORD"></SimpleField>
+		<SimpleField type="double" name="Y_COORD"></SimpleField>
+	</Schema>
+	<Schema parent="Placemark" name="S_Mukutban_ML_SS">
+		<SimpleField type="wstring" name="LAYER"></SimpleField>
+		<SimpleField type="wstring" name="LINETYPE"></SimpleField>
+	</Schema>
+	<Style id="default+icon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy14">
+		<IconStyle>
+			<scale>0.55</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon49.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffaaaa</color>
+			<scale>0.88</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="default+icon=http://maps.google.com/mapfiles/kml/pal4/icon57.png_copy13">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon57.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffaaaa</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default+icon=http://maps.google.com/mapfiles/kml/pal4/icon57.png_copy13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#default+icon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin60">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl000">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="style1_copy0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style1_copy1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style1_copy2000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="style1_copy002">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style1_copy100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style1_copy20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="style1_copy0020">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style1_copy10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style1_copy200</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style1_copy1">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style1_copy10">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style1_copy100">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style1_copy20">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style1_copy200">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style1_copy2000">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Mukutban Limestone &amp; Dolomite Mines</name>
+		<open>1</open>
+		<Folder>
+			<name>Mukutban Limestone &amp; Dolomite Mines</name>
+			<open>1</open>
+			<S_Mukutban_ML_SS>
+				<name>Mukutban Limestone &amp; Dolomite Mines_M/s RCCPL Pvt. Ltd. _ 572.17_ML_Boundary</name>
+				<styleUrl>#style1_copy002</styleUrl>
+				<LineString>
+					<coordinates>
+						78.84881800199415,19.79150741934934,0 78.84799826699614,19.79211026834942,0 78.84820483905061,19.79296745233157,0 78.84834128899743,19.79342894634529,0 78.84803553236829,19.7934563772526,0 78.84657017873238,19.79362053114744,0 78.84638977823752,19.79363015443672,0 78.844972979991,19.79388429534748,0 78.84492942136657,19.79371809541546,0 78.84476834761267,19.79306273842866,0 78.84461335437834,19.792468767823,0 78.84446169044385,19.79180879947336,0 78.84432893798939,19.79119459635243,0 78.84246320313022,19.79162442358196,0 78.8417849532908,19.79180858576794,0 78.84077038799435,19.79203368334787,0 78.84075945306211,19.79223816545053,0 78.84080383166913,19.79250626810904,0 78.84089036087698,19.79280512723605,0 78.84102086730584,19.79324877652743,0 78.84117988084785,19.79379139276245,0 78.84135864782743,19.79440297280155,0 78.84151171750389,19.79498001163474,0 78.84167342141978,19.79545763002286,0 78.84189251163352,19.7961691651928,0 78.84205272799613,19.7966467083489,0 78.84016471207325,19.79768951672216,0 78.83850655003258,19.79856262927086,0 78.83868939408872,19.79902937114677,0 78.83894007099478,19.79966972534939,0 78.83714325599396,19.799936509349,0 78.83711296799397,19.79983611834893,0 78.83565866674127,19.79994021025634,0 78.83276085290022,19.80014087128613,0 78.83276085171103,19.80014087157123,0 78.83070088586769,19.80045292022562,0 78.82801418105272,19.8008294122312,0 78.82696281257697,19.80123425382868,0 78.82505741695276,19.80223542822199,0 78.8240399983074,19.80286698189902,0 78.82078246072975,19.80074898126207,0 78.81947222136603,19.80069051127977,0 78.81983543357417,19.79166312459827,0 78.82038328443241,19.78171041896039,0 78.82096416948775,19.77992693852993,0 78.8218757792778,19.77718824839886,0 78.82311964591102,19.77374427622921,0 78.8284345865971,19.77412227889925,0 78.82824904799402,19.77633901934977,0 78.82811548625024,19.77802940335227,0 78.8279711389863,19.77983045334969,0 78.82780835796409,19.78123758531292,0 78.82763027550936,19.78288889895023,0 78.82757871399299,19.7835657693476,0 78.82742581714413,19.78458545337062,0 78.8273809558014,19.78564163627547,0 78.82731450648768,19.78676152876529,0 78.82875263445823,19.7866563268601,0 78.82987535500679,19.78657550534838,0 78.83078850809926,19.78540260960981,0 78.83111687183306,19.78489018170266,0 78.83157914499921,19.78433229033916,0 78.83176157710307,19.7840029507474,0 78.83198949399244,19.78365631735661,0 78.83356888105261,19.78365129753457,0 78.83448444700031,19.7836848263475,0 78.83581274503783,19.7834249333401,0 78.83700283885535,19.78308770345149,0 78.83816401015383,19.78275555001453,0 78.83929684099317,19.78252389961347,0 78.84040563080478,19.78234552676222,0 78.84164732099541,19.78231334661651,0 78.84275605698362,19.78256374661817,0 78.84386918375662,19.78274088182183,0 78.84492971147777,19.78289956225471,0 78.84492971778928,19.78289956249352,0 78.84601988262837,19.78294080948546,0 78.84646851407174,19.78294058326405,0 78.84645509899616,19.78396412234554,0 78.84510577299734,19.78436770634488,0 78.84516577299155,19.78534870135503,0 78.84461942799032,19.78556049735233,0 78.84466446298597,19.78585854334897,0 78.84663901667621,19.78548361671583,0 78.8481534719474,19.78521352027538,0 78.8481831015132,19.78534468848467,0 78.84840717478745,19.78640318493748,0 78.84847380199392,19.78674627635012,0 78.84868764683348,19.78676346419111,0 78.8499142051615,19.78677287365568,0 78.85087580899534,19.7868010063503,0 78.85096208598925,19.78897248935099,0 78.85112370899351,19.79025996234536,0 78.85032217728876,19.79032192784354,0 78.84856392799618,19.79045385334638,0 78.84863057286049,19.79074292660435,0 78.84881800199415,19.79150741934934,0 
+					</coordinates>
+				</LineString>
+				<LAYER>ML_Boundary</LAYER>
+				<LINETYPE>ByLayer</LINETYPE>
+			</S_Mukutban_ML_SS>
+			<S_Mukutban_ML_SS>
+				<name>Mukutban Limestone &amp; Dolomite Mines_M/s RCCPL Pvt. Ltd. _ 572.17_ML_Boundary Part</name>
+				<styleUrl>#style1_copy0</styleUrl>
+				<LineString>
+					<coordinates>
+						78.83365772459483,19.77985104463137,0 78.83332402023346,19.78080017279963,0 78.83326900200285,19.78084662434991,0 78.83170433508107,19.78041951689227,0 78.83011896400046,19.77995533334951,0 78.82896752921897,19.77991506793954,0 78.82997913999384,19.77765187934861,0 78.83077661899783,19.77777342935067,0 78.83084870599669,19.77766549334753,0 78.83248487498494,19.77813959535211,0 78.83272615996805,19.77737518332883,0 78.83282055041678,19.77740848653958,0 78.83425693199818,19.77783084734599,0 78.83426860790468,19.77797995978187,0 78.8337803040028,19.77937055934589,0 78.83365772459483,19.77985104463137,0 
+					</coordinates>
+				</LineString>
+				<LAYER>ML_Boundary</LAYER>
+				<LINETYPE>ByLayer</LINETYPE>
+			</S_Mukutban_ML_SS>
+			<Placemark>
+				<name>Mukutban Limestone &amp; Dolomite Mines ML Boundary</name>
+				<styleUrl>#style1_copy0020</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						78.82796531263629,19.77984300760052,0 78.82896926743365,19.77992122046491,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Folder id="layer 0_copy1">
+				<name>Mukutban Limestone &amp; Dolomite Mines_M/s RCCPL Pvt. Ltd. _ 572.17_Boundary pillar</name>
+				<S_Prop_dgps_points_DDD>
+					<name>82</name>
+					<description><![CDATA[Dgps_Point = 82<br>X_COORD = 271582<br>Y_COORD = 2.1907e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.81954484838002,19.79888560628259,0</coordinates>
+					</Point>
+					<Dgps_Point>82</Dgps_Point>
+					<X_COORD>271581.943738</X_COORD>
+					<Y_COORD>2190698.93318</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>100</name>
+					<description><![CDATA[Dgps_Point = 100<br>X_COORD = 272645<br>Y_COORD = 2.18833e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82997914107398,19.77765187930017,0</coordinates>
+					</Point>
+					<Dgps_Point>100</Dgps_Point>
+					<X_COORD>272645.257</X_COORD>
+					<Y_COORD>2188333.888</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>99</name>
+					<description><![CDATA[Dgps_Point = 99<br>X_COORD = 272729<br>Y_COORD = 2.18835e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.83077662034675,19.77777342578588,0</coordinates>
+					</Point>
+					<Dgps_Point>99</Dgps_Point>
+					<X_COORD>272729.013</X_COORD>
+					<Y_COORD>2188346.274</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>98</name>
+					<description><![CDATA[Dgps_Point = 98<br>X_COORD = 272736<br>Y_COORD = 2.18833e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.83084870501227,19.77766549322416,0</coordinates>
+					</Point>
+					<Dgps_Point>98</Dgps_Point>
+					<X_COORD>272736.415</X_COORD>
+					<Y_COORD>2188334.227</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>97</name>
+					<description><![CDATA[Dgps_Point = 97<br>X_COORD = 272909<br>Y_COORD = 2.18838e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.83248486998366,19.77813959569659,0</coordinates>
+					</Point>
+					<Dgps_Point>97</Dgps_Point>
+					<X_COORD>272908.573</X_COORD>
+					<Y_COORD>2188384.522</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>96</name>
+					<description><![CDATA[Dgps_Point = 96<br>X_COORD = 272933<br>Y_COORD = 2.1883e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.83272616364823,19.77737518001504,0</coordinates>
+					</Point>
+					<Dgps_Point>96</Dgps_Point>
+					<X_COORD>272932.779</X_COORD>
+					<Y_COORD>2188299.563</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>95</name>
+					<description><![CDATA[Dgps_Point = 95<br>X_COORD = 273094<br>Y_COORD = 2.18835e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.83425693307944,19.77783084626289,0</coordinates>
+					</Point>
+					<Dgps_Point>95</Dgps_Point>
+					<X_COORD>273093.864</X_COORD>
+					<Y_COORD>2188347.96</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>94</name>
+					<description><![CDATA[Dgps_Point = 94<br>X_COORD = 273046<br>Y_COORD = 2.18852e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.83378030525132,19.77937055657826,0</coordinates>
+					</Point>
+					<Dgps_Point>94</Dgps_Point>
+					<X_COORD>273046.091</X_COORD>
+					<Y_COORD>2188519.074</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>93</name>
+					<description><![CDATA[Dgps_Point = 93<br>X_COORD = 272995<br>Y_COORD = 2.18868e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.8332690053806,19.78084662112605,0</coordinates>
+					</Point>
+					<Dgps_Point>93</Dgps_Point>
+					<X_COORD>272994.595</X_COORD>
+					<Y_COORD>2188683.188</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>92</name>
+					<description><![CDATA[Dgps_Point = 92<br>X_COORD = 272830<br>Y_COORD = 2.18864e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.83170433740477,19.78041951726841,0</coordinates>
+					</Point>
+					<Dgps_Point>92</Dgps_Point>
+					<X_COORD>272830.000245</X_COORD>
+					<Y_COORD>2188638.00008</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>91</name>
+					<description><![CDATA[Dgps_Point = 91<br>X_COORD = 272663<br>Y_COORD = 2.18859e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.83011896632384,19.77995533372565,0</coordinates>
+					</Point>
+					<Dgps_Point>91</Dgps_Point>
+					<X_COORD>272663.182</X_COORD>
+					<Y_COORD>2188588.736</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>90</name>
+					<description><![CDATA[Dgps_Point = 90<br>X_COORD = 272542<br>Y_COORD = 2.18859e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82896752922325,19.77991506732583,0</coordinates>
+					</Point>
+					<Dgps_Point>90</Dgps_Point>
+					<X_COORD>272542.444784</X_COORD>
+					<Y_COORD>2188585.82555</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>89</name>
+					<description><![CDATA[Dgps_Point = 89<br>X_COORD = 272753<br>Y_COORD = 2.19086e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.83070088587195,19.80045291961131,0</coordinates>
+					</Point>
+					<Dgps_Point>89</Dgps_Point>
+					<X_COORD>272753.278397</X_COORD>
+					<Y_COORD>2190857.42564</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>88</name>
+					<description><![CDATA[Dgps_Point = 88<br>X_COORD = 272472<br>Y_COORD = 2.1909e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82801418105691,19.80082941161689,0</coordinates>
+					</Point>
+					<Dgps_Point>88</Dgps_Point>
+					<X_COORD>272472.261419</X_COORD>
+					<Y_COORD>2190902.72556</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>87</name>
+					<description><![CDATA[Dgps_Point = 87<br>X_COORD = 272264<br>Y_COORD = 2.19101e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82601011756697,19.80173484324828,0</coordinates>
+					</Point>
+					<Dgps_Point>87</Dgps_Point>
+					<X_COORD>272263.535541</X_COORD>
+					<Y_COORD>2191005.67383</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>86</name>
+					<description><![CDATA[Dgps_Point = 86<br>X_COORD = 272059<br>Y_COORD = 2.19113e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82403999831166,19.80286698128472,0</coordinates>
+					</Point>
+					<Dgps_Point>86</Dgps_Point>
+					<X_COORD>272058.692132</X_COORD>
+					<Y_COORD>2191133.67984</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>85</name>
+					<description><![CDATA[Dgps_Point = 85<br>X_COORD = 271892<br>Y_COORD = 2.19102e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82246702628711,19.80184427302883,0</coordinates>
+					</Point>
+					<Dgps_Point>85</Dgps_Point>
+					<X_COORD>271892.396288</X_COORD>
+					<Y_COORD>2191022.56867</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>84</name>
+					<description><![CDATA[Dgps_Point = 84<br>X_COORD = 271714<br>Y_COORD = 2.1909e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.8207824607349,19.8007489806476,0</coordinates>
+					</Point>
+					<Dgps_Point>84</Dgps_Point>
+					<X_COORD>271714.300238</X_COORD>
+					<Y_COORD>2190903.57312</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>83</name>
+					<description><![CDATA[Dgps_Point = 83<br>X_COORD = 271577<br>Y_COORD = 2.1909e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.81947222137033,19.8006905106655,0</coordinates>
+					</Point>
+					<Dgps_Point>83</Dgps_Point>
+					<X_COORD>271576.910149</X_COORD>
+					<Y_COORD>2190898.86982</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>81</name>
+					<description><![CDATA[Dgps_Point = 81<br>X_COORD = 271587<br>Y_COORD = 2.1905e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.81961747160166,19.79708070137738,0</coordinates>
+					</Point>
+					<Dgps_Point>81</Dgps_Point>
+					<X_COORD>271586.977328</X_COORD>
+					<Y_COORD>2190498.99653</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>80</name>
+					<description><![CDATA[Dgps_Point = 80<br>X_COORD = 271592<br>Y_COORD = 2.1903e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.81969009103553,19.79527579594994,0</coordinates>
+					</Point>
+					<Dgps_Point>80</Dgps_Point>
+					<X_COORD>271592.010918</X_COORD>
+					<Y_COORD>2190299.05988</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>79</name>
+					<description><![CDATA[Dgps_Point = 79<br>X_COORD = 271597<br>Y_COORD = 2.1901e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.81976270668198,19.79347089000029,0</coordinates>
+					</Point>
+					<Dgps_Point>79</Dgps_Point>
+					<X_COORD>271597.044508</X_COORD>
+					<Y_COORD>2190099.12323</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>78</name>
+					<description><![CDATA[Dgps_Point = 78<br>X_COORD = 271602<br>Y_COORD = 2.1899e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.8198354335784,19.79166312398424,0</coordinates>
+					</Point>
+					<Dgps_Point>78</Dgps_Point>
+					<X_COORD>271602.086073</X_COORD>
+					<Y_COORD>2189898.86982</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>77</name>
+					<description><![CDATA[Dgps_Point = 77<br>X_COORD = 271610<br>Y_COORD = 2.1897e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.81993473270661,19.78985935617297,0</coordinates>
+					</Point>
+					<Dgps_Point>77</Dgps_Point>
+					<X_COORD>271609.91857</X_COORD>
+					<Y_COORD>2189699.02325</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>76</name>
+					<description><![CDATA[Dgps_Point = 76<br>X_COORD = 271618<br>Y_COORD = 2.1895e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82003402745295,19.7880555877575,0</coordinates>
+					</Point>
+					<Dgps_Point>76</Dgps_Point>
+					<X_COORD>271617.751068</X_COORD>
+					<Y_COORD>2189499.17668</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>75</name>
+					<description><![CDATA[Dgps_Point = 75<br>X_COORD = 271626<br>Y_COORD = 2.1893e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82013331781776,19.78625181873787,0</coordinates>
+					</Point>
+					<Dgps_Point>75</Dgps_Point>
+					<X_COORD>271625.583565</X_COORD>
+					<Y_COORD>2189299.33011</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>74</name>
+					<description><![CDATA[Dgps_Point = 74<br>X_COORD = 271633<br>Y_COORD = 2.1891e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82023260380151,19.78444804911408,0</coordinates>
+					</Point>
+					<Dgps_Point>74</Dgps_Point>
+					<X_COORD>271633.416063</X_COORD>
+					<Y_COORD>2189099.48354</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>73</name>
+					<description><![CDATA[Dgps_Point = 73<br>X_COORD = 271641<br>Y_COORD = 2.1889e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82033188540458,19.78264427888618,0</coordinates>
+					</Point>
+					<Dgps_Point>73</Dgps_Point>
+					<X_COORD>271641.24856</X_COORD>
+					<Y_COORD>2188899.63697</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>72</name>
+					<description><![CDATA[Dgps_Point = 72<br>X_COORD = 271645<br>Y_COORD = 2.1888e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82038328436815,19.78171041959133,0</coordinates>
+					</Point>
+					<Dgps_Point>72</Dgps_Point>
+					<X_COORD>271645.303649</X_COORD>
+					<Y_COORD>2188796.17117</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>71</name>
+					<description><![CDATA[Dgps_Point = 71<br>X_COORD = 271682<br>Y_COORD = 2.18867e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82074476908015,19.78060983081321,0</coordinates>
+					</Point>
+					<Dgps_Point>71</Dgps_Point>
+					<X_COORD>271681.620631</X_COORD>
+					<Y_COORD>2188673.82662</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>70</name>
+					<description><![CDATA[Dgps_Point = 70<br>X_COORD = 271739<br>Y_COORD = 2.18848e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82131125549108,19.77888505090076,0</coordinates>
+					</Point>
+					<Dgps_Point>70</Dgps_Point>
+					<X_COORD>271738.5345</X_COORD>
+					<Y_COORD>2188482.09553</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>69</name>
+					<description><![CDATA[Dgps_Point = 69<br>X_COORD = 271795<br>Y_COORD = 2.18829e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82187577928204,19.77718824778519,0</coordinates>
+					</Point>
+					<Dgps_Point>69</Dgps_Point>
+					<X_COORD>271795.284</X_COORD>
+					<Y_COORD>2188293.465</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>68</name>
+					<description><![CDATA[Dgps_Point = 68<br>X_COORD = 271858<br>Y_COORD = 2.1881e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82250237855851,19.7754533655422,0</coordinates>
+					</Point>
+					<Dgps_Point>68</Dgps_Point>
+					<X_COORD>271858.486923</X_COORD>
+					<Y_COORD>2188100.53501</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>67</name>
+					<description><![CDATA[Dgps_Point = 67<br>X_COORD = 271921<br>Y_COORD = 2.18791e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82311964591526,19.77374427561562,0</coordinates>
+					</Point>
+					<Dgps_Point>67</Dgps_Point>
+					<X_COORD>271920.75008</X_COORD>
+					<Y_COORD>2187910.47371</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>66</name>
+					<description><![CDATA[Dgps_Point = 66<br>X_COORD = 272079<br>Y_COORD = 2.18792e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82462927615811,19.77385165781743,0</coordinates>
+					</Point>
+					<Dgps_Point>66</Dgps_Point>
+					<X_COORD>272079.131066</X_COORD>
+					<Y_COORD>2187920.32889</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>65</name>
+					<description><![CDATA[Dgps_Point = 65<br>X_COORD = 272279<br>Y_COORD = 2.18793e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82653192870995,19.77398697803123,0</coordinates>
+					</Point>
+					<Dgps_Point>65</Dgps_Point>
+					<X_COORD>272278.744997</X_COORD>
+					<Y_COORD>2187932.74978</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>64</name>
+					<description><![CDATA[Dgps_Point = 64<br>X_COORD = 272478<br>Y_COORD = 2.18795e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.8284345866013,19.77412227828566,0</coordinates>
+					</Point>
+					<Dgps_Point>64</Dgps_Point>
+					<X_COORD>272478.358928</X_COORD>
+					<Y_COORD>2187945.17067</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>63</name>
+					<description><![CDATA[Dgps_Point = 63<br>X_COORD = 272463<br>Y_COORD = 2.18818e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82825831998036,19.77622824322714,0</coordinates>
+					</Point>
+					<Dgps_Point>63</Dgps_Point>
+					<X_COORD>272462.87571</X_COORD>
+					<Y_COORD>2188178.57791</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>62</name>
+					<description><![CDATA[Dgps_Point = 62<br>X_COORD = 272450<br>Y_COORD = 2.18838e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82811548625443,19.7780294027386,0</coordinates>
+					</Point>
+					<Dgps_Point>62</Dgps_Point>
+					<X_COORD>272450.464276</X_COORD>
+					<Y_COORD>2188378.19254</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>61</name>
+					<description><![CDATA[Dgps_Point = 61<br>X_COORD = 272438<br>Y_COORD = 2.18858e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82797114267898,19.77983045136927,0</coordinates>
+					</Point>
+					<Dgps_Point>61</Dgps_Point>
+					<X_COORD>272437.895</X_COORD>
+					<Y_COORD>2188577.797</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>60</name>
+					<description><![CDATA[Dgps_Point = 60<br>X_COORD = 272428<br>Y_COORD = 2.18868e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82786408714246,19.78075584774688,0</coordinates>
+					</Point>
+					<Dgps_Point>60</Dgps_Point>
+					<X_COORD>272427.989834</X_COORD>
+					<Y_COORD>2188680.4</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>59</name>
+					<description><![CDATA[Dgps_Point = 59<br>X_COORD = 272416<br>Y_COORD = 2.18881e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82773599824912,19.78190856429769,0</coordinates>
+					</Point>
+					<Dgps_Point>59</Dgps_Point>
+					<X_COORD>272416.203515</X_COORD>
+					<Y_COORD>2188808.2</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>58</name>
+					<description><![CDATA[Dgps_Point = 58<br>X_COORD = 272402<br>Y_COORD = 2.18899e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82757871598889,19.78356577094268,0</coordinates>
+					</Point>
+					<Dgps_Point>58</Dgps_Point>
+					<X_COORD>272402.075</X_COORD>
+					<Y_COORD>2188991.896</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>57</name>
+					<description><![CDATA[Dgps_Point = 57<br>X_COORD = 272388<br>Y_COORD = 2.18910e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82742581714837,19.78458545275671,0</coordinates>
+					</Point>
+					<Dgps_Point>57</Dgps_Point>
+					<X_COORD>272387.5</X_COORD>
+					<Y_COORD>2189105</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>56</name>
+					<description><![CDATA[Dgps_Point = 56<br>X_COORD = 272384<br>Y_COORD = 2.18922e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82738095580568,19.78564163566156,0</coordinates>
+					</Point>
+					<Dgps_Point>56</Dgps_Point>
+					<X_COORD>272384.3</X_COORD>
+					<Y_COORD>2189222</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>55</name>
+					<description><![CDATA[Dgps_Point = 55<br>X_COORD = 272379<br>Y_COORD = 2.18935e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82731450429311,19.78676152861877,0</coordinates>
+					</Point>
+					<Dgps_Point>55</Dgps_Point>
+					<X_COORD>272378.928</X_COORD>
+					<Y_COORD>2189346.083</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>54</name>
+					<description><![CDATA[Dgps_Point = 54<br>X_COORD = 272530<br>Y_COORD = 2.18933e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.8287526344625,19.7866563262462,0</coordinates>
+					</Point>
+					<Dgps_Point>54</Dgps_Point>
+					<X_COORD>272529.5</X_COORD>
+					<Y_COORD>2189332.5</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>53</name>
+					<description><![CDATA[Dgps_Point = 53<br>X_COORD = 272647<br>Y_COORD = 2.18932e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.82987535896939,19.78657550719107,0</coordinates>
+					</Point>
+					<Dgps_Point>53</Dgps_Point>
+					<X_COORD>272647.051</X_COORD>
+					<Y_COORD>2189322.042</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>52</name>
+					<description><![CDATA[Dgps_Point = 52<br>X_COORD = 272741<br>Y_COORD = 2.18919e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.83078850810355,19.78540260899586,0</coordinates>
+					</Point>
+					<Dgps_Point>52</Dgps_Point>
+					<X_COORD>272741.087388</X_COORD>
+					<Y_COORD>2189190.95259</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>51</name>
+					<description><![CDATA[Dgps_Point = 51<br>X_COORD = 272822<br>Y_COORD = 2.18907e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.83157914626123,19.78433229139343,0</coordinates>
+					</Point>
+					<Dgps_Point>51</Dgps_Point>
+					<X_COORD>272822.431</X_COORD>
+					<Y_COORD>2189071.386</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>50</name>
+					<description><![CDATA[Dgps_Point = 50<br>X_COORD = 272864<br>Y_COORD = 2.189e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.8319894982653,19.78365631913111,0</coordinates>
+					</Point>
+					<Dgps_Point>50</Dgps_Point>
+					<X_COORD>272864.479</X_COORD>
+					<Y_COORD>2188995.992</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>49</name>
+					<description><![CDATA[Dgps_Point = 49<br>X_COORD = 273030<br>Y_COORD = 2.18899e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.83356889519214,19.78365025191942,0</coordinates>
+					</Point>
+					<Dgps_Point>49</Dgps_Point>
+					<X_COORD>273030</X_COORD>
+					<Y_COORD>2188993.2</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>48</name>
+					<description><![CDATA[Dgps_Point = 48<br>X_COORD = 273126<br>Y_COORD = 2.189e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.83448444820841,19.78368482933487,0</coordinates>
+					</Point>
+					<Dgps_Point>48</Dgps_Point>
+					<X_COORD>273126.004</X_COORD>
+					<Y_COORD>2188995.8</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>47</name>
+					<description><![CDATA[Dgps_Point = 47<br>X_COORD = 273265<br>Y_COORD = 2.18897e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.83581274836976,19.78342492914026,0</coordinates>
+					</Point>
+					<Dgps_Point>47</Dgps_Point>
+					<X_COORD>273264.849</X_COORD>
+					<Y_COORD>2188965.243</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>46</name>
+					<description><![CDATA[Dgps_Point = 46<br>X_COORD = 273389<br>Y_COORD = 2.18893e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.8370028388596,19.78308770283766,0</coordinates>
+					</Point>
+					<Dgps_Point>46</Dgps_Point>
+					<X_COORD>273389.099761</X_COORD>
+					<Y_COORD>2188926.31087</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>45</name>
+					<description><![CDATA[Dgps_Point = 45<br>X_COORD = 273510<br>Y_COORD = 2.18889e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.83816400737199,19.7827555760583,0</coordinates>
+					</Point>
+					<Dgps_Point>45</Dgps_Point>
+					<X_COORD>273510.327</X_COORD>
+					<Y_COORD>2188887.983</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>44</name>
+					<description><![CDATA[Dgps_Point = 44<br>X_COORD = 273629<br>Y_COORD = 2.18886e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.83929684064073,19.78252390290228,0</coordinates>
+					</Point>
+					<Dgps_Point>44</Dgps_Point>
+					<X_COORD>273628.727</X_COORD>
+					<Y_COORD>2188860.816</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>43</name>
+					<description><![CDATA[Dgps_Point = 43<br>X_COORD = 273745<br>Y_COORD = 2.18884e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84040563080902,19.78234552614843,0</coordinates>
+					</Point>
+					<Dgps_Point>43</Dgps_Point>
+					<X_COORD>273744.682729</X_COORD>
+					<Y_COORD>2188839.58288</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>41</name>
+					<description><![CDATA[Dgps_Point = 41<br>X_COORD = 273991<br>Y_COORD = 2.18886e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84275605277942,19.78256375051301,0</coordinates>
+					</Point>
+					<Dgps_Point>41</Dgps_Point>
+					<X_COORD>273991.329</X_COORD>
+					<Y_COORD>2188860.602</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>42</name>
+					<description><![CDATA[Dgps_Point = 42<br>X_COORD = 273875<br>Y_COORD = 2.18883e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.8416473224618,19.78231334150512,0</coordinates>
+					</Point>
+					<Dgps_Point>42</Dgps_Point>
+					<X_COORD>273874.774</X_COORD>
+					<Y_COORD>2188834.359</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>40</name>
+					<description><![CDATA[Dgps_Point = 40<br>X_COORD = 274108<br>Y_COORD = 2.18888e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84386918376062,19.782740881208,0</coordinates>
+					</Point>
+					<Dgps_Point>40</Dgps_Point>
+					<X_COORD>274108.241404</X_COORD>
+					<Y_COORD>2188878.72662</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>38</name>
+					<description><![CDATA[Dgps_Point = 38<br>X_COORD = 274334<br>Y_COORD = 2.1889e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84601988263255,19.78294080887163,0</coordinates>
+					</Point>
+					<Dgps_Point>38</Dgps_Point>
+					<X_COORD>274333.92831</X_COORD>
+					<Y_COORD>2188897.99138</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>37</name>
+					<description><![CDATA[Dgps_Point = 37<br>X_COORD = 274381<br>Y_COORD = 2.1889e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84646851407592,19.78294058265023,0</coordinates>
+					</Point>
+					<Dgps_Point>37</Dgps_Point>
+					<X_COORD>274380.946954</X_COORD>
+					<Y_COORD>2188897.36784</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>39</name>
+					<description><![CDATA[Dgps_Point = 39<br>X_COORD = 274228<br>Y_COORD = 2.1889e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84501170947529,19.78290266431176,0</coordinates>
+					</Point>
+					<Dgps_Point>39</Dgps_Point>
+					<X_COORD>274228.21257</X_COORD>
+					<Y_COORD>2188895.11349</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>36</name>
+					<description><![CDATA[Dgps_Point = 36<br>X_COORD = 274381<br>Y_COORD = 2.18901e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84645509561591,19.78396412224255,0</coordinates>
+					</Point>
+					<Dgps_Point>36</Dgps_Point>
+					<X_COORD>274380.983</X_COORD>
+					<Y_COORD>2189010.71</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>35</name>
+					<description><![CDATA[Dgps_Point = 35<br>X_COORD = 274240<br>Y_COORD = 2.18906e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84510577496965,19.78436771016092,0</coordinates>
+					</Point>
+					<Dgps_Point>35</Dgps_Point>
+					<X_COORD>274240.137</X_COORD>
+					<Y_COORD>2189057.195</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>34</name>
+					<description><![CDATA[Dgps_Point = 34<br>X_COORD = 274248<br>Y_COORD = 2.18917e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.8451657692591,19.78534869780059,0</coordinates>
+					</Point>
+					<Dgps_Point>34</Dgps_Point>
+					<X_COORD>274247.808</X_COORD>
+					<Y_COORD>2189165.728</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>33</name>
+					<description><![CDATA[Dgps_Point = 33<br>X_COORD = 274191<br>Y_COORD = 2.18919e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.8446194270639,19.78556049350077,0</coordinates>
+					</Point>
+					<Dgps_Point>33</Dgps_Point>
+					<X_COORD>274190.848</X_COORD>
+					<Y_COORD>2189189.907</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>32</name>
+					<description><![CDATA[Dgps_Point = 32<br>X_COORD = 274196<br>Y_COORD = 2.18922e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84466445980168,19.78585853978123,0</coordinates>
+					</Point>
+					<Dgps_Point>32</Dgps_Point>
+					<X_COORD>274195.988</X_COORD>
+					<Y_COORD>2189222.846</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>31</name>
+					<description><![CDATA[Dgps_Point = 31<br>X_COORD = 274402<br>Y_COORD = 2.18918e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84663901668036,19.78548361610196,0</coordinates>
+					</Point>
+					<Dgps_Point>31</Dgps_Point>
+					<X_COORD>274402.4</X_COORD>
+					<Y_COORD>2189178.7</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>30</name>
+					<description><![CDATA[Dgps_Point = 30<br>X_COORD = 274561<br>Y_COORD = 2.18915e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84815347195163,19.78521351966147,0</coordinates>
+					</Point>
+					<Dgps_Point>30</Dgps_Point>
+					<X_COORD>274560.74</X_COORD>
+					<Y_COORD>2189146.776</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>29</name>
+					<description><![CDATA[Dgps_Point = 29<br>X_COORD = 274596<br>Y_COORD = 2.18932e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84847380216662,19.7867462793582,0</coordinates>
+					</Point>
+					<Dgps_Point>29</Dgps_Point>
+					<X_COORD>274596.47</X_COORD>
+					<Y_COORD>2189316.053</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>28</name>
+					<description><![CDATA[Dgps_Point = 28<br>X_COORD = 274747<br>Y_COORD = 2.18932e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84991420516577,19.78677287304173,0</coordinates>
+					</Point>
+					<Dgps_Point>28</Dgps_Point>
+					<X_COORD>274747.465501</X_COORD>
+					<Y_COORD>2189317.07817</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>27</name>
+					<description><![CDATA[Dgps_Point = 27<br>X_COORD = 274848<br>Y_COORD = 2.18932e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.85087581247829,19.78680100211552,0</coordinates>
+					</Point>
+					<Dgps_Point>27</Dgps_Point>
+					<X_COORD>274848.284</X_COORD>
+					<Y_COORD>2189318.912</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>26</name>
+					<description><![CDATA[Dgps_Point = 26<br>X_COORD = 274854<br>Y_COORD = 2.18943e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.85091649649814,19.78782505647331,0</coordinates>
+					</Point>
+					<Dgps_Point>26</Dgps_Point>
+					<X_COORD>274853.988161</X_COORD>
+					<Y_COORD>2189432.23888</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>25</name>
+					<description><![CDATA[Dgps_Point = 25<br>X_COORD = 274860<br>Y_COORD = 2.18956e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.85096208619105,19.78897248550371,0</coordinates>
+					</Point>
+					<Dgps_Point>25</Dgps_Point>
+					<X_COORD>274860.38</X_COORD>
+					<Y_COORD>2189559.219</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>24</name>
+					<description><![CDATA[Dgps_Point = 24<br>X_COORD = 274879<br>Y_COORD = 2.1897e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.85112370749076,19.79025995845276,0</coordinates>
+					</Point>
+					<Dgps_Point>24</Dgps_Point>
+					<X_COORD>274879.129</X_COORD>
+					<Y_COORD>2189701.55</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>23</name>
+					<description><![CDATA[Dgps_Point = 23<br>X_COORD = 274743<br>Y_COORD = 2.18971e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84982471720014,19.79035925460094,0</coordinates>
+					</Point>
+					<Dgps_Point>23</Dgps_Point>
+					<X_COORD>274743.134188</X_COORD>
+					<Y_COORD>2189714.27389</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>22</name>
+					<description><![CDATA[Dgps_Point = 22<br>X_COORD = 274611<br>Y_COORD = 2.18973e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84856392488624,19.79045385478823,0</coordinates>
+					</Point>
+					<Dgps_Point>22</Dgps_Point>
+					<X_COORD>274611.136</X_COORD>
+					<Y_COORD>2189726.428</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>21</name>
+					<description><![CDATA[Dgps_Point = 21<br>X_COORD = 274639<br>Y_COORD = 2.18984e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84881800252984,19.7915074208025,0</coordinates>
+					</Point>
+					<Dgps_Point>21</Dgps_Point>
+					<X_COORD>274639.247</X_COORD>
+					<Y_COORD>2189842.738</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>20</name>
+					<description><![CDATA[Dgps_Point = 20<br>X_COORD = 274554<br>Y_COORD = 2.18991e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84799826392459,19.79211026889562,0</coordinates>
+					</Point>
+					<Dgps_Point>20</Dgps_Point>
+					<X_COORD>274554.188</X_COORD>
+					<Y_COORD>2189910.577</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>19</name>
+					<description><![CDATA[Dgps_Point = 19<br>X_COORD = 274592<br>Y_COORD = 2.19006e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84834128664791,19.79342894676316,0</coordinates>
+					</Point>
+					<Dgps_Point>19</Dgps_Point>
+					<X_COORD>274591.994</X_COORD>
+					<Y_COORD>2190056.121</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>18</name>
+					<description><![CDATA[Dgps_Point = 18<br>X_COORD = 274388<br>Y_COORD = 2.19008e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84639006817862,19.79362934032303,0</coordinates>
+					</Point>
+					<Dgps_Point>18</Dgps_Point>
+					<X_COORD>274387.792</X_COORD>
+					<Y_COORD>2190080.911</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>17</name>
+					<description><![CDATA[Dgps_Point = 17<br>X_COORD = 274240<br>Y_COORD = 2.19011e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84497297790585,19.79388429563493,0</coordinates>
+					</Point>
+					<Dgps_Point>17</Dgps_Point>
+					<X_COORD>274239.643</X_COORD>
+					<Y_COORD>2190111.031</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>16</name>
+					<description><![CDATA[Dgps_Point = 16<br>X_COORD = 274199<br>Y_COORD = 2.18995e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84460521302151,19.7923947288439,0</coordinates>
+					</Point>
+					<Dgps_Point>16</Dgps_Point>
+					<X_COORD>274199</X_COORD>
+					<Y_COORD>2189946.6</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>15</name>
+					<description><![CDATA[Dgps_Point = 15<br>X_COORD = 274168<br>Y_COORD = 2.18981e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84432893798694,19.79119459194096,0</coordinates>
+					</Point>
+					<Dgps_Point>15</Dgps_Point>
+					<X_COORD>274168.353</X_COORD>
+					<Y_COORD>2189814.092</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>14</name>
+					<description><![CDATA[Dgps_Point = 14<br>X_COORD = 274020<br>Y_COORD = 2.18985e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84290887213996,19.791521751955,0</coordinates>
+					</Point>
+					<Dgps_Point>14</Dgps_Point>
+					<X_COORD>274019.992001</X_COORD>
+					<Y_COORD>2189852.212</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>13</name>
+					<description><![CDATA[Dgps_Point = 13<br>X_COORD = 273925<br>Y_COORD = 2.18988e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84199565332582,19.79177462906893,0</coordinates>
+					</Point>
+					<Dgps_Point>13</Dgps_Point>
+					<X_COORD>273924.644</X_COORD>
+					<Y_COORD>2189881.431</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>12</name>
+					<description><![CDATA[Dgps_Point = 12<br>X_COORD = 273797<br>Y_COORD = 2.18991e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84077039153615,19.7920336839006,0</coordinates>
+					</Point>
+					<Dgps_Point>12</Dgps_Point>
+					<X_COORD>273796.603</X_COORD>
+					<Y_COORD>2189911.752</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>11</name>
+					<description><![CDATA[Dgps_Point = 11<br>X_COORD = 273822<br>Y_COORD = 2.19004e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84099791056146,19.79317562239464,0</coordinates>
+					</Point>
+					<Dgps_Point>11</Dgps_Point>
+					<X_COORD>273822.060937</X_COORD>
+					<Y_COORD>2190037.88122</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>10</name>
+					<description><![CDATA[Dgps_Point = 10<br>X_COORD = 273873<br>Y_COORD = 2.19021e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.8414651842277,19.79470995514637,0</coordinates>
+					</Point>
+					<Dgps_Point>10</Dgps_Point>
+					<X_COORD>273873.199</X_COORD>
+					<Y_COORD>2190207.135</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>9</name>
+					<description><![CDATA[Dgps_Point = 9<br>X_COORD = 273938<br>Y_COORD = 2.19042e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84205272986651,19.79664670520906,0</coordinates>
+					</Point>
+					<Dgps_Point>9</Dgps_Point>
+					<X_COORD>273937.509</X_COORD>
+					<Y_COORD>2190420.783</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>8</name>
+					<description><![CDATA[Dgps_Point = 8<br>X_COORD = 273754<br>Y_COORD = 2.19053e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.84029042469513,19.79762008231677,0</coordinates>
+					</Point>
+					<Dgps_Point>8</Dgps_Point>
+					<X_COORD>273754.201937</X_COORD>
+					<Y_COORD>2190530.91175</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>7</name>
+					<description><![CDATA[Dgps_Point = 7<br>X_COORD = 273569<br>Y_COORD = 2.19064e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.83850655003677,19.79856262865663,0</coordinates>
+					</Point>
+					<Dgps_Point>7</Dgps_Point>
+					<X_COORD>273568.593</X_COORD>
+					<Y_COORD>2190637.658</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>6</name>
+					<description><![CDATA[Dgps_Point = 6<br>X_COORD = 273616<br>Y_COORD = 2.19076e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.83894007291968,19.79966972131062,0</coordinates>
+					</Point>
+					<Dgps_Point>6</Dgps_Point>
+					<X_COORD>273615.591</X_COORD>
+					<Y_COORD>2190759.653</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>5</name>
+					<description><![CDATA[Dgps_Point = 5<br>X_COORD = 273428<br>Y_COORD = 2.19079e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.83714325755943,19.79993650661822,0</coordinates>
+					</Point>
+					<Dgps_Point>5</Dgps_Point>
+					<X_COORD>273427.672</X_COORD>
+					<Y_COORD>2190791.599</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>4</name>
+					<description><![CDATA[Dgps_Point = 4<br>X_COORD = 273424<br>Y_COORD = 2.19078e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.83711297159245,19.79983612066292,0</coordinates>
+					</Point>
+					<Dgps_Point>4</Dgps_Point>
+					<X_COORD>273424.356</X_COORD>
+					<Y_COORD>2190780.525</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>3</name>
+					<description><![CDATA[Dgps_Point = 3<br>X_COORD = 273272<br>Y_COORD = 2.19079e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.83565866674554,19.79994020964207,0</coordinates>
+					</Point>
+					<Dgps_Point>3</Dgps_Point>
+					<X_COORD>273272.1</X_COORD>
+					<Y_COORD>2190794</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>1</name>
+					<description><![CDATA[Dgps_Point = 1<br>X_COORD = 272969<br>Y_COORD = 2.19082e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.83276085368539,19.80014087065847,0</coordinates>
+					</Point>
+					<Dgps_Point>1</Dgps_Point>
+					<X_COORD>272968.70902</X_COORD>
+					<Y_COORD>2190820.10722</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<S_Prop_dgps_points_DDD>
+					<name>2</name>
+					<description><![CDATA[Dgps_Point = 2<br>X_COORD = 273120<br>Y_COORD = 2.19081e+06<br>]]></description>
+					<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+					<Point>
+						<coordinates>78.83420975952686,19.80004054613439,0</coordinates>
+					</Point>
+					<Dgps_Point>2</Dgps_Point>
+					<X_COORD>273120.404407</X_COORD>
+					<Y_COORD>2190807.05361</Y_COORD>
+				</S_Prop_dgps_points_DDD>
+				<Placemark>
+					<name>TIPESHWAR WILDLIFE SANCTURY</name>
+					<Camera>
+						<longitude>78.76473236099909</longitude>
+						<latitude>19.55759435968579</latitude>
+						<altitude>62897.61646106546</altitude>
+						<heading>-3.972175217267609</heading>
+						<tilt>18.87300346498365</tilt>
+						<roll>1.242483760261316</roll>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</Camera>
+					<styleUrl>#m_ylw-pushpin60</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>78.44887374400804,19.88840277836782,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

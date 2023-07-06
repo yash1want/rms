@@ -1,0 +1,2248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Sadanandapuram Manganese Mine -Ms RBSSD&amp;FNDas- 56.838 Ha.kml</name>
+	<Schema name="RBSSD symbology" id="S_RBSSD_symbology_DS">
+		<SimpleField type="long" name="FID"><displayName>&lt;b&gt;FID&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Area"><displayName>&lt;b&gt;Area&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="falseColor">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7faaff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor96</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor89</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor62</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor52</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor2">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor3">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor66</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor56</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor5">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor26</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor24</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor7">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000036</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor8">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7f0055</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor9">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor10">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor11">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor12">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor13">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7f0055</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor14">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor15">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor16">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor17">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor29</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor18">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor19">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor35</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor20">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor21">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor95</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor85</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor22">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor23">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor24">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00003b</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor25">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor103</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor70</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor26">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00003b</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor27">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor22</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor79</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor28">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor29">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7f0055</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor30">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor31">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor32">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor33">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor47</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor34">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7faaaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor35">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7f0055</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor36">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor31</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor37">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor59</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor28</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor38">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor39">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7f5500</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor40">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7faaaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor41">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor42">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor44</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor43">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor44">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor45">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor46">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor47">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor48">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor43</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor49">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor50">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor65</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor51">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor52">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor53">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor23</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor88</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor54">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7faaaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor55">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor51</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor56">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor57">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7f5500</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor58">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7faaff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor59">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor60">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor61">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor92</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor68</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor62">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor63">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor90</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor64">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor58</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor65">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor66">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor67">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor76</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor68">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor69">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor75</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor70">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7f0055</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor71">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor98</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor73</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor72">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor73">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor74">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor75">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000036</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor76">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor77">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor34</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor54</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor78">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7faaaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor79">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor80">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor81">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor82">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor74</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor32</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor83">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor87</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor84">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor41</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor85">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7f0055</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor86">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor39</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor57</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor87">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor88">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor89">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor90">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor91">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor72</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor16</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor92">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor93">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor60</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor49</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor94">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor102</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor80</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor95">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7f0055</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor96">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor97">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor78</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor98">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor99">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor38</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor18</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor100">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor101">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor46</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor81</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor102">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor103">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>FID</b></td><td>$[RBSSD symbology/FID]</td></tr>
+  <tr><td><b>Area</b></td><td>$[RBSSD symbology/Area]</td></tr>
+  <tr><td><b>Name</b></td><td>$[RBSSD symbology/Name]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7f0055</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>Sadanandapuram Manganese Mine -M/s RBSSD&amp;FNDas- 56.838 Ha</name>
+		<open>1</open>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- Garland drain</name>
+			<styleUrl>#falseColor91</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">7</SimpleData>
+					<SimpleData name="Area">412.217</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Garland Drain</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54949287185032,18.24971496652156,0 83.5494922962344,18.24971509616605,0 83.54949170686182,18.24971504951041,0 83.54949116142444,18.24971483112154,0 83.54949071331349,18.24971446237687,0 83.5494904063932,18.24971397937167,0 83.54949027070705,18.24971342938598,0 83.54949031953696,18.24971286625608,0 83.54949054810312,18.24971234510511,0 83.54949093403185,18.24971191694696,0 83.54949143954572,18.24971162369278,0 83.54957097225825,18.24968051336099,0 83.54957098618036,18.24968050797678,0 83.54962420337905,18.24966016152358,0 83.54971622100489,18.24961670950887,0 83.54976996231989,18.24958491837574,0 83.54985633754869,18.24952223420901,0 83.54993930375208,18.24946178411771,0 83.55001300884915,18.24940516681091,0 83.55001313252194,18.24940507947961,0 83.55009965767614,18.24934903204671,0 83.55019570504896,18.24928324086441,0 83.55027476345718,18.24922248770379,0 83.55027505993694,18.24922230079278,0 83.55036791800705,18.24917507396513,0 83.55047261203099,18.24911732789577,0 83.55054259203001,18.24907338775132,0 83.55054267733578,18.24907333723437,0 83.55065512591699,18.24901063206935,0 83.55072441483128,18.24897039114112,0 83.55072454570154,18.24897032176078,0 83.55079728456656,18.24893528340337,0 83.55094131621581,18.24883587398675,0 83.55094131906513,18.24883587202404,0 83.55110200814501,18.24872539915486,0 83.55110203858594,18.2487253786587,0 83.55127433032213,18.2486117830254,0 83.55127435908001,18.24861176443487,0 83.55132937429848,18.2485768993626,0 83.55132992155076,18.24857666208265,0 83.55133051909478,18.24857660092549,0 83.55133110652947,18.24857672207294,0 83.55133162447544,18.24857701327916,0 83.55141372386824,18.24864195596003,0 83.55141406812679,18.24864231297361,0 83.55146982120266,18.24871858367464,0 83.55157328332636,18.24881198661335,0 83.55182859753965,18.24888634288637,0 83.55194597929362,18.24891217111293,0 83.55214767744883,18.24891540966587,0 83.55226364513076,18.24891052571891,0 83.55226425989093,18.24891059684229,0 83.55226481760361,18.24891085398396,0 83.55226525841073,18.24891126954551,0 83.55226553500147,18.24891179892553,0 83.55227814382006,18.24895095629095,0 83.55227822201091,18.2489513511748,0 83.55228441209016,18.24902954868267,0 83.5522844145986,18.24902978447102,0 83.55228162698057,18.24907802012237,0 83.55228069800216,18.24912066599536,0 83.55228069713702,18.24912069472219,0 83.55227873466804,18.24917173187441,0 83.55228631269016,18.24921411088851,0 83.5522863186834,18.2492141465491,0 83.55229614804189,18.24927661670251,0 83.5523129326187,18.24933751210076,0 83.55231296857913,18.24933767145536,0 83.552321011079,18.24938319664051,0 83.55232101338983,18.24938321002684,0 83.55232781540315,18.24942355781859,0 83.55232783916453,18.24942381320909,0 83.55232970679835,18.24952507008422,0 83.55232970579686,18.24952516874862,0 83.55232688586869,18.24959792148785,0 83.55232688313329,18.24959797252443,0 83.55232144619235,18.24967739574454,0 83.55232034907607,18.24973470828086,0 83.55232795894625,18.2497789618948,0 83.55233855255995,18.24983966173615,0 83.5523385729884,18.2498398234404,0 83.55234524732322,18.24992467186157,0 83.55235429197772,18.25001275710123,0 83.55236565484928,18.25007374992414,0 83.55236568409697,18.25007406234355,0 83.55236583363546,18.25013717856352,0 83.55238534893022,18.25018745561704,0 83.55240943120462,18.2502112748368,0 83.55246017064479,18.25025187710974,0 83.55255155973337,18.25028319272541,0 83.55255157857897,18.25028319929111,0 83.55265657076448,18.25032038224623,0 83.5526566793764,18.25032042441581,0 83.55272450720339,18.25034913182591,0 83.55281760823988,18.25037079177046,0 83.55299746762127,18.25036691025783,0 83.55299777572957,18.25036692769153,0 83.55307746539835,18.25037772636236,0 83.55319349960622,18.25038543898882,0 83.55327875896064,18.25038170770718,0 83.55327900725155,18.25038171244451,0 83.55335675768816,18.25038809488205,0 83.553357477764,18.25038829685808,0 83.55342632321594,18.25042299373269,0 83.55342690284728,18.25042344583413,0 83.5534703541739,18.25047406335263,0 83.55347056983271,18.25047437570573,0 83.5535160565844,18.25055798462552,0 83.55351623512909,18.25055847406473,0 83.55353799446675,18.25066577230886,0 83.5535380155661,18.25066590107525,0 83.55355119212584,18.25077101083319,0 83.55357531851688,18.25088191136323,0 83.55357535071325,18.25088243815472,0 83.55357522217274,18.25088295135233,0 83.55357494386868,18.25088340714537,0 83.55354048569281,18.25092456185813,0 83.55350697527281,18.25100571402943,0 83.5535067982804,18.25100604062099,0 83.55344646332468,18.25109407173131,0 83.55344645676881,18.25109408123115,0 83.55338107524506,18.25118817645636,0 83.55338100208286,18.25118827449266,0 83.55330894160606,18.2512783259139,0 83.55330887978045,18.25127839914052,0 83.55325282730922,18.25134135904186,0 83.55322741463193,18.25138226570307,0 83.55323074722254,18.25142686194145,0 83.55323851931827,18.25148220078001,0 83.55325229478343,18.25152453554766,0 83.5532523245808,18.25152463758596,0 83.55326628376133,18.25157849417447,0 83.55328313065753,18.25161859053346,0 83.55328326672033,18.25161926934894,0 83.553283125961,18.25161994728969,0 83.55305671581522,18.25214866875789,0 83.55305652568167,18.25214900565732,0 83.55301999445366,18.25219994846286,0 83.55301990972991,18.25220005756966,0 83.55283977748724,18.25241466567702,0 83.55278637310219,18.2524791735812,0 83.55270718206491,18.25257801667316,0 83.55260163114963,18.25278695873561,0 83.55246363909912,18.25311964084319,0 83.55240234503741,18.25328218591283,0 83.5524020605543,18.2532826803331,0 83.55228624418341,18.25342540834778,0 83.5522050249168,18.25359685111561,0 83.55213531105964,18.25381566376645,0 83.55212836880044,18.25387050655735,0 83.55212820681764,18.25387105000736,0 83.55212787699723,18.25387151903353,0 83.55212741162445,18.25387186772433,0 83.55212685625311,18.25387206194749,0 83.55212626524678,18.2538720826911,0 83.55212569645745,18.25387192792458,0 83.55212520556205,18.25387161279757,0 83.55212484061293,18.25387116815693,0 83.55212463733373,18.25387063752719,0 83.5521246156229,18.25387007285,0 83.55213157780905,18.25381507264949,0 83.55213164606158,18.25381476355522,0 83.55220144395628,18.25359568714832,0 83.55220153022287,18.25359546835026,0 83.55228289184875,18.25342372508909,0 83.55228312004262,18.25342336322851,0 83.5523988896548,18.25328069284144,0 83.55246009248947,18.25311838970464,0 83.55246011355662,18.25311833648137,0 83.55259814179506,18.25278556714604,0 83.55259819674654,18.25278544749367,0 83.55270386136688,18.25257628035642,0 83.55270406273161,18.25257596761503,0 83.55278338030168,18.25247696659241,0 83.55278339874212,18.25247694395064,0 83.55283681637803,18.25241242004203,0 83.55283682428308,18.25241241055901,0 83.55301691598606,18.25219785075545,0 83.55305329314734,18.25214712279741,0 83.55327933691773,18.25161925693028,0 83.55326272641427,18.25157972319447,0 83.55326264576819,18.25157948450308,0 83.55324866829221,18.25152555732356,0 83.55323486203311,18.25148312791721,0 83.55323479360129,18.2514828319311,0 83.55322699252478,18.25142728673526,0 83.55322698053222,18.25142717515767,0 83.5532236016038,18.25138195882083,0 83.55322364753282,18.25138141459077,0 83.5532238615822,18.25138090834469,0 83.55324965820807,18.25133938364469,0 83.55324984387516,18.25133913529847,0 83.55330596828939,18.25127609458989,0 83.55337796056058,18.25118612840499,0 83.55344330392207,18.25109208810468,0 83.55350352962809,18.25100421639653,0 83.55353707351946,18.25092298317159,0 83.55353735581905,18.25092251778342,0 83.55357143614577,18.25088181435155,0 83.55354747428372,18.2507716700924,0 83.5535474481411,18.250771517329,0 83.55353427005788,18.25066639540028,0 83.55351257584039,18.25055941826201,0 83.55346730630355,18.25047620860077,0 83.55342422187584,18.25042601849114,0 83.55335605263978,18.25039166241719,0 83.55327880762944,18.25038532146963,0 83.5531935636745,18.25038905207749,0 83.55319334600813,18.25038904961466,0 83.55307713566391,18.25038132528097,0 83.55307700141981,18.25038131174132,0 83.55299739818729,18.25037052478363,0 83.55281744517255,18.25037440831721,0 83.5528169553009,18.25037435750741,0 83.55272344880287,18.25035260323255,0 83.55272313043689,18.25035249974785,0 83.55265520188347,18.2503237497065,0 83.55255027409113,18.25028658955638,0 83.55245857723706,18.25025516848112,0 83.55245800168262,18.2502548530526,0 83.55240692739174,18.25021398282807,0 83.55240678156152,18.25021385303909,0 83.55238235485973,18.25018969315384,0 83.55238194208016,18.25018906635287,0 83.55236217191442,18.25013813267519,0 83.55236205396142,18.25013750875008,0 83.55236190403434,18.25007422794804,0 83.5523505570531,18.25001332041275,0 83.55235053683241,18.25001318024791,0 83.55234148284272,18.24992500407562,0 83.55234147912726,18.24992496309301,0 83.55233480957538,18.24984017545258,0 83.55232422962604,18.24977955389856,0 83.55232422888999,18.24977954964988,0 83.55231659082348,18.24973513206079,0 83.55231656613091,18.249734806218,0 83.55231766720067,18.24967728722239,0 83.55231767091493,18.24967720237311,0 83.55232310901327,18.24959776226977,0 83.55232592604165,18.2495250843863,0 83.55232406169033,18.24942400535923,0 83.55231728219816,18.24938379115195,0 83.55230925509373,18.24933835310898,0 83.55229246617569,18.24927744195582,0 83.55229242485554,18.24927725050488,0 83.55228258307807,18.24921470141481,0 83.55227497534393,18.24917215623556,0 83.55227494961947,18.24917178576239,0 83.55227691870884,18.24912057646362,0 83.55227784805089,18.24907791394027,0 83.55227785051676,18.2490778519467,0 83.55228063310811,18.24902970329131,0 83.55227446831724,18.24895182522288,0 83.55226235150752,18.24891419581537,0 83.55214778644377,18.24891902069131,0 83.55214767145139,18.24891902218819,0 83.55194571703588,18.24891577952106,0 83.55194532460531,18.24891573371026,0 83.55182768510537,18.24888984877063,0 83.55182755818642,18.24888981636771,0 83.55157175661884,18.24881531816063,0 83.5515710095837,18.24881490334249,0 83.55146708422514,18.24872108220655,0 83.55146683272403,18.24872080359937,0 83.55141111561767,18.24864458210353,0 83.55133029452749,18.24858065059217,0 83.5512764631178,18.24861476544347,0 83.55110420099631,18.24872834155259,0 83.55094352845576,18.2488388030525,0 83.5507993764579,18.24893829553387,0 83.5507991205494,18.2489384441934,0 83.5507263144206,18.24897351495225,0 83.55065707506903,18.24901372709639,0 83.55065704604776,18.24901374361353,0 83.55054462623271,18.24907643273831,0 83.55047464248163,18.24912037523914,0 83.55047454941679,18.24912043005917,0 83.55036977987463,18.24917821778274,0 83.55036972302275,18.24917824790712,0 83.55027699372543,18.24922540924264,0 83.55019803354827,18.24928608691749,0 83.55019795024079,18.24928614738583,0 83.5501018402021,18.24935198149424,0 83.55010179955946,18.2493520085705,0 83.55001531759463,18.24940802802782,0 83.54994165357579,18.24946461378078,0 83.54994161539732,18.24946464234541,0 83.54985862847275,18.24952510753518,0 83.54985862559089,18.24952510963079,0 83.54977217720528,18.24958784688965,0 83.54977202892262,18.24958794422879,0 83.54971813436021,18.24961982601708,0 83.54971797683102,18.24961990955578,0 83.54962581190919,18.24966343112617,0 83.54962567665304,18.24966348881086,0 83.54957239761417,18.24968385890755,0 83.54949287185032,18.24971496652156,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- Garland drain</name>
+			<styleUrl>#falseColor42</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">7</SimpleData>
+					<SimpleData name="Area">184.78</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Garland Drain</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54854488631277,18.25218755516195,0 83.54854439742364,18.25218787311941,0 83.54854382962799,18.25218803116882,0 83.54854323850543,18.25218801383917,0 83.54854268191934,18.25218782282684,0 83.54854221435215,18.25218747682941,0 83.54854188157259,18.25218700971558,0 83.54854171615547,18.25218646720962,0 83.54854173429293,18.25218590241589,0 83.54854193420965,18.25218537062028,0 83.54854229633629,18.25218492387864,0 83.54890103271134,18.25186257247067,0 83.5489013972872,18.25186231598632,0 83.54890181523842,18.25186214969066,0 83.54920349667002,18.25178096342695,0 83.54920407490984,18.25178089688122,0 83.54920464690497,18.2517810016931,0 83.54945908361903,18.25186813474387,0 83.54945930717844,18.25186822723681,0 83.54988127647694,18.25207461333498,0 83.55002994547857,18.25207559105344,0 83.55003040907893,18.25207564936376,0 83.5501831741293,18.25211368090252,0 83.55018356889228,18.25211382589534,0 83.55028810405297,18.25216571011542,0 83.55033758449763,18.25217242292553,0 83.55033812315087,18.25217257667818,0 83.55052105607643,18.25224490499359,0 83.5507443637848,18.25215466627046,0 83.55085678243863,18.2521742704941,0 83.551042731721,18.25213045702377,0 83.55130818706662,18.25202308544614,0 83.55149327358509,18.25193753351432,0 83.55149346602052,18.25193745677335,0 83.55169902052354,18.25186793638231,0 83.55169959988937,18.25186783353394,0 83.55170018424906,18.25186790614613,0 83.55170071681022,18.25186814716186,0 83.55175081409105,18.25190081425209,0 83.55181254158818,18.25193259260856,0 83.55181307711315,18.25193300381331,0 83.55189438225625,18.25202318436773,0 83.55189459120747,18.25202346689394,0 83.5519566808134,18.25212725953246,0 83.55195685891833,18.25212766525611,0 83.55198543163868,18.25222440977247,0 83.55201587618517,18.25230140980146,0 83.55209290689798,18.25236517663951,0 83.55218693249897,18.25240201891734,0 83.55218700300976,18.25240204815967,0 83.55228645950429,18.25244561194353,0 83.55228695193102,18.25244592487601,0 83.5522873190472,18.25244636788288,0 83.55228752491688,18.25244689759952,0 83.55228754938814,18.25244746217362,0 83.55228739006559,18.25244800634074,0 83.55228706254478,18.25244847683394,0 83.55228659888574,18.25244882759812,0 83.55228604447467,18.25244902429805,0 83.55228545358113,18.25244904767935,0 83.552284884046,18.25244889545324,0 83.55218546249392,18.25240534697497,0 83.55209118595268,18.25236840637068,0 83.55209066540887,18.25236810036898,0 83.55201303917067,18.25230384054819,0 83.5520127265461,18.25230350874449,0 83.55201250865859,18.25230311380724,0 83.55198186629059,18.25222561344647,0 83.551981815364,18.25222546568447,0 83.55195328351284,18.25212885954087,0 83.55189139926564,18.25202541018906,0 83.55181044081797,18.25193561417488,0 83.55174893370109,18.25190394927374,0 83.55174876478405,18.25190385108927,0 83.55169937791254,18.25187164723801,0 83.55149482595174,18.25194082856036,0 83.55130979077887,18.25202635675964,0 83.55130970449585,18.25202639412243,0 83.55104412986452,18.25213381394987,0 83.55104397607055,18.25213386876186,0 83.5508578869515,18.2521800996583,0 83.55074108025867,18.25216250189685,0 83.55051784901326,18.25225055731532,0 83.55033677160964,18.25217596098713,0 83.55028725321229,18.25216924302818,0 83.55028664757323,18.25216905761873,0 83.55018201498903,18.25211712504441,0 83.55002968385577,18.25207920153156,0 83.54988080165184,18.2520782224111,0 83.54987995333778,18.25207802405828,0 83.54945769317538,18.25187149569911,0 83.54920394007912,18.25178459675735,0 83.54890328558703,18.25186550665948,0 83.54854488631277,18.25218755516195,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- Garland drain</name>
+			<styleUrl>#falseColor94</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">7</SimpleData>
+					<SimpleData name="Area">249.497</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Garland Drain</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54716725283991,18.26013057128419,0 83.54716689970559,18.2601310245616,0 83.54716641724804,18.26013135139476,0 83.54716585269362,18.26013151979098,0 83.54716526130481,18.26013151326648,0 83.547164700971,18.26013133245987,0 83.54716422654138,18.26013099506987,0 83.54716388445654,18.26013053412243,0 83.54716370820212,18.26012999473837,0 83.5471637150311,18.26012942971634,0 83.54716390427501,18.2601288943647,0 83.54718002313929,18.26009951343057,0 83.54718019733343,18.26009925290701,0 83.54725774083285,18.26000263534454,0 83.54728052517306,18.25996508809148,0 83.54728054135192,18.25996506193903,0 83.54729954332804,18.25993492757423,0 83.54730231320457,18.25989253593503,0 83.54730237317735,18.25989218376102,0 83.54731456294087,18.25984844448506,0 83.54733146161601,18.25977577330679,0 83.54733970685754,18.25973507303895,0 83.54733973975898,18.25973493845725,0 83.54735815774484,18.25967079017712,0 83.54736259701934,18.25962427874158,0 83.54736260495032,18.25962421016019,0 83.54736697173105,18.25959208427844,0 83.54737004365937,18.25945097515685,0 83.54736870016644,18.25935889172202,0 83.54736761069758,18.25928421877555,0 83.54736762596836,18.25928396313212,0 83.54737533937568,18.25922668456563,0 83.54737896115499,18.25916237388086,0 83.54737906379013,18.25916187636587,0 83.54740482741236,18.25909127132685,0 83.54743571260768,18.25898025753217,0 83.54743592483264,18.25897978235412,0 83.54743626918088,18.25897938402259,0 83.54746466560249,18.25895476428234,0 83.54750453214275,18.25885246769802,0 83.54750332998638,18.25877007300132,0 83.54748185110043,18.25862655067765,0 83.54748184793225,18.25862606154927,0 83.54750657233785,18.258444875578,0 83.54750387622391,18.25833819851414,0 83.5475038871845,18.25833795590241,0 83.54752213183338,18.25818072827633,0 83.54754173784171,18.2579614970777,0 83.54752707239618,18.25781575189809,0 83.54752709362459,18.25781525908418,0 83.54754933634611,18.25769720744876,0 83.54754949773917,18.25769673573001,0 83.54754978742164,18.25769632379085,0 83.54760737545786,18.2576347710509,0 83.54760793723189,18.25763436034448,0 83.54760861769149,18.25763417569842,0 83.54765764159595,18.25763001899448,0 83.54767202370762,18.25761928074051,0 83.54768439439437,18.25758794268036,0 83.5476884022483,18.25753204615064,0 83.54768940502213,18.25748355712296,0 83.54768946224671,18.25748315038264,0 83.54770595543177,18.25742078203376,0 83.54770612490404,18.25742036621734,0 83.54770639590994,18.25742000279229,0 83.54776364563878,18.25736044553856,0 83.54781505904799,18.25729116225345,0 83.54781509487265,18.25729111558054,0 83.54790465919632,18.2571782671344,0 83.54794074368353,18.25711579290976,0 83.54804023121642,18.25691971036072,0 83.54806157474856,18.25686067586096,0 83.54810351517568,18.25673179413946,0 83.54810123368473,18.25669180699818,0 83.54810128609721,18.25669127536457,0 83.54813960967216,18.25654312266657,0 83.5481493940482,18.25647227149153,0 83.54815515415419,18.25639810389091,0 83.54815515881569,18.25639805345893,0 83.54816470153706,18.25630906465113,0 83.54816473372487,18.25630886998736,0 83.54820435525329,18.25613236549206,0 83.54821267524375,18.25603923428288,0 83.54821135824996,18.2559489789157,0 83.54819835220188,18.25587333914741,0 83.54814329154117,18.25579278194298,0 83.54808040965236,18.25573328197003,0 83.54800310491026,18.2556684334022,0 83.5479109212875,18.25560319666642,0 83.54791058155797,18.25560288688638,0 83.54787284840565,18.25555868599267,0 83.54787254036673,18.2555581710824,0 83.54785238071746,18.25550610383765,0 83.54785228025514,18.25550571859277,0 83.5478433711321,18.25544259823051,0 83.54784335518478,18.2554422978203,0 83.54784615572898,18.25536048593319,0 83.54784624356472,18.25535999778127,0 83.54787740097036,18.25526635979211,0 83.54787742562065,18.25526629059258,0 83.54789720734483,18.25521423656322,0 83.54789751333159,18.25521371845962,0 83.54798277053077,18.25511281797317,0 83.54798285258062,18.25511272720786,0 83.548046370073,18.25504700673124,0 83.54804670847263,18.25504673041163,0 83.54809804466625,18.25501394948002,0 83.5481165466657,18.25499824695969,0 83.54811704482432,18.25499794240783,0 83.54811761710175,18.25499779984231,0 83.54811820747955,18.25499783321849,0 83.54811875816743,18.25499803926931,0 83.54811921526029,18.25499839782502,0 83.5481195340145,18.25499887378768,0 83.54811968322838,18.25499942056679,0 83.54811964829572,18.25499998463982,0 83.54811943263604,18.2550005107913,0 83.54811905735954,18.25500094751791,0 83.54810045830006,18.25501673241266,0 83.5481002533046,18.25501688370948,0 83.54804899552066,18.2550496145727,0 83.54798567268584,18.25511513364175,0 83.54790065320027,18.25521575280055,0 83.54788099225628,18.25526748900923,0 83.5478499257265,18.25536085389349,0 83.5478471389016,18.25544226505403,0 83.54785599897826,18.25550503791785,0 83.547875976936,18.25555663589722,0 83.54791336164601,18.25560042862239,0 83.54800541818952,18.25566557542594,0 83.54800554026046,18.25566566955205,0 83.54808294663826,18.25573060337845,0 83.54808302960781,18.25573067730775,0 83.5481460945464,18.25579035048499,0 83.54814634710652,18.2557906462287,0 83.54820173556512,18.25587168302017,0 83.54820201815242,18.25587237774761,0 83.54821511168045,18.25594852626722,0 83.54821513650091,18.25594879387411,0 83.54821645676861,18.25603927347417,0 83.54821645010382,18.25603945224924,0 83.54820811199245,18.25613278632135,0 83.54820807680908,18.25613301146542,0 83.54816845191307,18.25630953098002,0 83.54815892242176,18.25639839643094,0 83.5481531602822,18.25647259023692,0 83.5481531492224,18.25647269284033,0 83.54814334403331,18.25654369473961,0 83.54814330506083,18.2565438918158,0 83.54810502405979,18.25669187994263,0 83.54810730867729,18.25673192186629,0 83.5481072262457,18.25673255638549,0 83.5480651761401,18.25686177515445,0 83.54806515778039,18.25686182862068,0 83.54804376793426,18.2569209912249,0 83.54804368220351,18.25692118936984,0 83.5479441238374,18.25711741153404,0 83.54794407787985,18.25711749632613,0 83.5479079031258,18.25718012683479,0 83.54790775432843,18.25718034547945,0 83.5478181256281,18.25729327504131,0 83.54776666068631,18.25736262777215,0 83.54776651087207,18.25736280484287,0 83.54770950375456,18.25742210970789,0 83.54769318063222,18.25748383497611,0 83.54769218122146,18.25753216143314,0 83.54769217717028,18.2575322491905,0 83.54768814716014,18.25758845474463,0 83.54768802996614,18.25758896865059,0 83.54767537403934,18.25762102929709,0 83.54767512823425,18.25762146189824,0 83.547674769305,18.25762181502142,0 83.54765952924127,18.25763319385653,0 83.54765905927717,18.25763345072809,0 83.54765853237784,18.2576335697787,0 83.54760969615813,18.25763771056925,0 83.54755296242978,18.25769835018694,0 83.54753086060576,18.25781565403206,0 83.54754551754299,18.25796131462425,0 83.54754551935586,18.25796164121764,0 83.54752589671547,18.25818105844742,0 83.54752589206679,18.25818110370342,0 83.54750765883426,18.25833823297646,0 83.54751035539152,18.25844492748932,0 83.54751034007865,18.25844520457831,0 83.54748563024947,18.2586262837594,0 83.54750708972766,18.25876967637982,0 83.5475071085761,18.25876990684435,0 83.54750831735994,18.25885275565624,0 83.54750819872795,18.25885341103455,0 83.5474680480994,18.25895643658832,0 83.54746784189184,18.25895681893235,0 83.54746754690517,18.25895714384777,0 83.54743922303975,18.25898170068217,0 83.5474084628143,18.2590922652932,0 83.54740842088604,18.25909239589017,0 83.54738272194891,18.25916282366435,0 83.5473791108018,18.259226945582,0 83.54737909807778,18.25922707901547,0 83.547371392861,18.25928429676972,0 83.547372480459,18.25935884137581,0 83.54737382441159,18.25945095617728,0 83.54737382418642,18.2594510189073,0 83.54737074944676,18.25959225730799,0 83.54737073411366,18.25959245234614,0 83.54736635878332,18.2596246411315,0 83.54736190757536,18.25967127760766,0 83.54736184804113,18.25967159137399,0 83.54734340488422,18.2597358273279,0 83.54733516847075,18.25977648402299,0 83.54733515792083,18.2597765325246,0 83.54731824509317,18.2598492645711,0 83.5473182264414,18.25984933757319,0 83.54730607483928,18.25989293992176,0 83.54730328784001,18.2599355936308,0 83.54730320580148,18.25993601877408,0 83.54730302036533,18.25993641311105,0 83.5472837879346,18.25996691294431,0 83.54726095044474,18.26000454778615,0 83.54726081516408,18.26000474091286,0 83.54718329631834,18.26010132775978,0 83.54716725283991,18.26013057128419,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- retaining wall</name>
+			<styleUrl>#falseColor17</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">8</SimpleData>
+					<SimpleData name="Area">152.034</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Retaining wall</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55070149143366,18.24905306547758,0 83.55070273254199,18.24905260703306,0 83.55070406117467,18.24905253747442,0 83.55070534727582,18.24905286361058,0 83.55070646495297,18.24905355351699,0 83.55070730479996,18.24905453966084,0 83.55070778460691,18.24905572551149,0 83.55070785740692,18.2490569949897,0 83.55070751607364,18.24905822383,0 83.55070679401935,18.249059291745,0 83.55070576192361,18.24906009419971,0 83.5501115282583,18.24938970185651,0 83.54988324381715,18.24958243125268,0 83.54988266168789,18.24958284395307,0 83.54937295952709,18.24988346411687,0 83.54937173184341,18.24988395446847,0 83.54937040565837,18.2498840583381,0 83.54936911078812,18.24988376555818,0 83.54936797398359,18.24988310478806,0 83.54936710652321,18.24988214070857,0 83.54936659331996,18.24988096769049,0 83.54936648460985,18.24987970055705,0 83.54936679103405,18.24987846334407,0 83.54936748259773,18.24987737715858,0 83.54936849160573,18.24987654832398,0 83.54987788422095,18.24957611073732,0 83.55010621214738,18.24938334463472,0 83.55010689300316,18.24938287545215,0 83.55070149143366,18.24905306547758,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- retaining wall</name>
+			<styleUrl>#falseColor21</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">8</SimpleData>
+					<SimpleData name="Area">553.355</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Retaining wall</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55070619377317,18.24905981971987,0 83.55070502029986,18.24906041910577,0 83.55070371040914,18.24906064267741,0 83.55070239232238,18.24906046855009,0 83.55070119506293,18.24905991376863,0 83.55070023582699,18.24905903263883,0 83.55069960851131,18.24905791141187,0 83.55069937452181,18.24905665984123,0 83.55069955676299,18.24905540043945,0 83.55070013739594,18.24905425648543,0 83.55070105958414,18.24905333995742,0 83.55132388753127,18.2486028102464,0 83.55132501540287,18.24860222624555,0 83.55132627421943,18.24860199015181,0 83.55132754945008,18.24860212344554,0 83.55132872507072,18.24860261399938,0 83.55132969411996,18.24860341718126,0 83.55143904205755,18.24872624290574,0 83.55143923471543,18.24872647606858,0 83.55151417539118,18.24882432473863,0 83.55170299881036,18.24887593690057,0 83.55186801306127,18.24891966831582,0 83.55199663632862,18.24893863797659,0 83.55225125376292,18.24893916534717,0 83.55225258669873,18.24893937299244,0 83.55225378429382,18.24893996946794,0 83.55225472578446,18.24894089462585,0 83.55225531623212,18.24894205517463,0 83.55225549609685,18.24894333408621,0 83.55224937706625,18.249169256578,0 83.55228459482311,18.2493274725086,0 83.55228461260229,18.24932755674957,0 83.55230388473274,18.24942413049953,0 83.5523131027005,18.2494703819976,0 83.55231316437671,18.2494714644837,0 83.55230491533507,18.24957051918398,0 83.55230096716259,18.24972456261104,0 83.55230780491456,18.24979730666909,0 83.55232033783415,18.24983868432867,0 83.55232049377264,18.24983951271447,0 83.55233292292316,18.24999924600986,0 83.55233292641009,18.24999929478876,0 83.55234187279736,18.25013659214097,0 83.55239743846222,18.25022745350249,0 83.55247288188178,18.25028385010448,0 83.552569004147,18.25032123163906,0 83.55265929678018,18.25034779687308,0 83.55265931622354,18.2503478026423,0 83.5527411004112,18.25037227468585,0 83.55280748334387,18.25038829228226,0 83.55301792437423,18.25038731605688,0 83.55303208406906,18.25036839540616,0 83.55303279600768,18.25036765724155,0 83.55305985040148,18.25034577854769,0 83.55306127856403,18.25034501720019,0 83.55306290182919,18.25034482707063,0 83.55317393985685,18.25035242488597,0 83.55322312643885,18.25035306352099,0 83.55332039094834,18.25035380591514,0 83.55332121048446,18.25035388845539,0 83.55339130243139,18.25036760747935,0 83.55339250903864,18.25036803336348,0 83.55343594462737,18.25039101195555,0 83.55343737224767,18.25039224152272,0 83.55346689029692,18.25043265710384,0 83.55346693172157,18.2504327148761,0 83.55351233333117,18.25049721867964,0 83.55351286275531,18.25049827180463,0 83.55353053048488,18.25055216754238,0 83.55354227306326,18.25058592328726,0 83.55354232290496,18.25058607662093,0 83.55355048292573,18.25061305037816,0 83.55355057418014,18.25061341397943,0 83.55356586082269,18.25068963499596,0 83.5535658723163,18.25068969471516,0 83.55357641530934,18.25074687277952,0 83.55357643053459,18.25074696102317,0 83.55358241041735,18.25078416624,0 83.55358241119217,18.25078417108033,0 83.55358946462847,18.25082841087883,0 83.55358948071125,18.25082852204007,0 83.55359691803788,18.250885741547,0 83.55359693076723,18.25088663297054,0 83.55359203531383,18.25093506856787,0 83.55359298429192,18.25098676372215,0 83.55359295922257,18.2509872812437,0 83.55358537560984,18.2510528631042,0 83.55358494416676,18.2510542496675,0 83.55356132891244,18.25109889874869,0 83.55356083190584,18.25109963074248,0 83.55351273328812,18.25115610740742,0 83.55351261213015,18.25115624344888,0 83.55348795473707,18.2511827276655,0 83.55348772933429,18.25118295187515,0 83.55339539566147,18.2512680289678,0 83.55339526045098,18.25126814826625,0 83.55325992380041,18.25138247461748,0 83.55325325931153,18.25143433480067,0 83.55327493655541,18.25150072693857,0 83.55327500785722,18.25150097206109,0 83.55330292195309,18.25161006426173,0 83.55332442219679,18.25165656335742,0 83.55332476289443,18.25165779235732,0 83.55332468943239,18.25165906179804,0 83.55332420900162,18.251660247418,0 83.55332336863012,18.25166123316037,0 83.55332225057911,18.25166192253381,0 83.5533209642914,18.25166224805769,0 83.55331963567778,18.2516621778674,0 83.5533183947921,18.25166171883375,0 83.55331736310097,18.25166091589004,0 83.55331664159355,18.25165984763412,0 83.55329498952018,18.25161302016825,0 83.55329474846077,18.25161234308298,0 83.55326677677465,18.25150302579252,0 83.55324486621316,18.25143591904968,0 83.55324470493861,18.2514342136417,0 83.55325167761588,18.25137995528909,0 83.55325213539685,18.25137855784142,0 83.55325308186548,18.25137740615399,0 83.55338955733744,18.25126211778262,0 83.55348170756373,18.2511772097226,0 83.55350619460324,18.25115090848197,0 83.55355394434116,18.25109484146938,0 83.55357700549372,18.25105124002569,0 83.55358447479681,18.25098664672358,0 83.55358352633658,18.25093497964088,0 83.5535835453764,18.25093451776947,0 83.55358841900426,18.25088629813746,0 83.55358104676428,18.2508295793573,0 83.55357400256041,18.25078539745269,0 83.55356803017283,18.25074823885761,0 83.55355750081652,18.25069113473474,0 83.55354225702153,18.25061512734408,0 83.55353417472759,18.25058841051653,0 83.5535224470167,18.25055469750622,0 83.55352242434607,18.25055463039615,0 83.55350493024595,18.25050126431103,0 83.55345989385533,18.25043727938468,0 83.55343096133895,18.25039766550302,0 83.5533889580186,18.25037544461929,0 83.55331990903032,18.25036192973292,0 83.55322304658198,18.25036119040804,0 83.55322302276862,18.25036119016255,0 83.55317370112253,18.25036054977413,0 83.55317345511524,18.2503605397689,0 83.5530640228348,18.25035305182859,0 83.55303869531168,18.25037353401505,0 83.55302357884393,18.25039373313815,0 83.55302264199749,18.25039464109282,0 83.55302145679951,18.25039522697672,0 83.55302013992798,18.25039543311199,0 83.55280698543724,18.25039642192714,0 83.55280592344518,18.25039629828312,0 83.55273890195315,18.2503801266086,0 83.55273867224854,18.2503800645817,0 83.55265678383044,18.25035556134998,0 83.55256632230366,18.25032894642571,0 83.55256597057912,18.25032882655376,0 83.55246912539293,18.25029116387854,0 83.55246810805772,18.25029060056886,0 83.55239155622445,18.25023337538799,0 83.55239050480877,18.25023222500448,0 83.55233401872704,18.25013985856522,0 83.55233344603279,18.25013806097267,0 83.55232443843916,18.24999982420492,0 83.55231204402583,18.24984053723726,0 83.55229952028026,18.24979918985942,0 83.55229936968597,18.24979842368641,0 83.55229247355742,18.24972505854701,0 83.55229245778251,18.24972459556416,0 83.55229641476662,18.2495702086368,0 83.5522964268918,18.24956998579913,0 83.55230463980003,18.24947136504768,0 83.55229552900859,18.24942565129998,0 83.55227626559012,18.24932912118408,0 83.55224095256322,18.24917047721923,0 83.55224086094267,18.24916952674121,0 83.55224688033127,18.24894728355468,0 83.55199629622268,18.24894676453637,0 83.55199565666379,18.24894671698577,0 83.55186646844631,18.24892766400566,0 83.55186598052113,18.24892756373402,0 83.55170070885613,18.24888376410086,0 83.55170067583731,18.24888375521313,0 83.55151043438451,18.24883175545231,0 83.55150917176627,18.24883118198356,0 83.55150817197045,18.24883024832845,0 83.55143246228238,18.24873139556971,0 83.55132581838564,18.24861160717423,0 83.55070619377317,18.24905981971987,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- retaining wall</name>
+			<styleUrl>#falseColor19</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">8</SimpleData>
+					<SimpleData name="Area">249.405</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Retainig wall earth bound</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54717143854617,18.26013266743344,0 83.54717108541185,18.26013312071085,0 83.5471706029543,18.26013344754401,0 83.5471700383999,18.26013361594027,0 83.54716944701111,18.26013360941577,0 83.54716888667726,18.2601334286092,0 83.54716841224756,18.26013309121921,0 83.54716807016275,18.26013263027177,0 83.54716789390831,18.26013209088775,0 83.54716790073725,18.26013152586572,0 83.54716808998114,18.26013099051404,0 83.54718402038147,18.26010195310452,0 83.54718419457568,18.26010169258092,0 83.54726152816818,18.2600053365548,0 83.54726179865948,18.26000495040149,0 83.5472845936571,18.25996738558407,0 83.54728460983596,18.25996735943163,0 83.54730377137399,18.2599369720236,0 83.54730409504872,18.25993628371699,0 83.54730423824525,18.25993554163855,0 83.54730700063381,18.25989326458206,0 83.54730706060656,18.25989291240805,0 83.54731913472642,18.25984958807996,0 83.54731917202902,18.25984944207971,0 83.54733607777978,18.25977674046474,0 83.54733609887946,18.25977664346265,0 83.54734431219845,18.2597361007659,0 83.54734434509989,18.25973596618419,0 83.54736273741867,18.2596719072942,0 83.54736285642879,18.25967128006837,0 83.5473672951246,18.25962477468278,0 83.54736730305558,18.2596247061014,0 83.54737166481306,18.25959261716881,0 83.54737169547366,18.25959222716406,0 83.54737476880616,18.25945105336609,0 83.54737476925639,18.25945092790833,0 83.54737342553214,18.25935882878927,0 83.54737234074241,18.25928447669348,0 83.54737235601323,18.25928422105001,0 83.54738003103932,18.25922722748478,0 83.54738005648517,18.25922696064083,0 83.54738364414646,18.25916325574696,0 83.54738374678152,18.25916275823197,0 83.54740930159566,18.25909272542477,0 83.54740938544471,18.25909246425425,0 83.54743992146631,18.25898270552022,0 83.54744013369123,18.25898223034213,0 83.54744047803945,18.2589818320106,0 83.54746809841971,18.25895788509871,0 83.54746861332607,18.2589573179509,0 83.54746897326639,18.25895665055999,0 83.54750905392247,18.25885380455269,0 83.547509213216,18.25885324117274,0 83.5475092612095,18.25885265940219,0 83.54750805448992,18.25876995210294,0 83.54750801680279,18.25876949129211,0 83.54748662074839,18.25862652247649,0 83.5474866175802,18.25862603334811,0 83.54751126790626,18.25844539021198,0 83.54751129852077,18.25844483623903,0 83.5475086083303,18.25833839366535,0 83.54750861929089,18.25833815105362,0 83.54752219063734,18.25822119671265,0 83.54752683015835,18.25818121450979,0 83.54752683945556,18.25818112399863,0 83.54754645379138,18.25796179961645,0 83.54754645016745,18.25796114676484,0 83.54753183882703,18.25781593932157,0 83.54753186005541,18.25781544650766,0 83.54755375053624,18.25769926434809,0 83.54755391192926,18.25769879262934,0 83.54755420161177,18.25769838069014,0 83.54760965387891,18.2576391107569,0 83.54761021565298,18.25763870005047,0 83.54761089611259,18.25763851540437,0 83.54763199938388,18.25763672607345,0 83.54765852566253,18.25763447692638,0 83.54765914680075,18.25763436628672,0 83.54765964983905,18.25763417658846,0 83.54766018262507,18.25763385207761,0 83.54767528337004,18.25762257726332,0 83.5476757214339,18.25762218384247,0 83.54767602632801,18.25762178769703,0 83.54767628880485,18.25762127091341,0 83.54768886548754,18.2575894110117,0 83.54768909956171,18.25758838457648,0 83.54769311854398,18.25753233282093,0 83.54769312664605,18.25753215731268,0 83.54769411919669,18.25748416255983,0 83.54769417642127,18.25748375581954,0 83.54771024445118,18.25742299517247,0 83.54771041392354,18.25742257935601,0 83.54771068492936,18.25742221593096,0 83.5477671666507,18.25736345763845,0 83.54776746620456,18.2573631035851,0 83.547818870372,18.25729383275167,0 83.54781890619667,18.25729378607877,0 83.54790846615424,18.25718094313014,0 83.54790876365171,18.25718050598362,0 83.54794489331692,18.25711795353816,0 83.54794498522791,18.25711778396141,0 83.54804450819843,18.25692163155729,0 83.54804467962214,18.25692123535489,0 83.54806604632682,18.25686213675712,0 83.5480660830457,18.25686202982626,0 83.54810810379502,18.25673290126601,0 83.54810822758724,18.25673235298791,0 83.54810824784586,18.25673179243175,0 83.54810599087841,18.25669223512804,0 83.54810604329093,18.25669170349434,0 83.54814421000152,18.25654415719248,0 83.54814428793138,18.25654376311619,0 83.54815408271884,18.25647283653538,0 83.54815410483731,18.25647263133904,0 83.54815986203766,18.25639850112491,0 83.54815986669918,18.25639845069297,0 83.54816937634769,18.25630977027732,0 83.5481694085355,18.2563095756136,0 83.54820898843661,18.25613325653626,0 83.54820905878582,18.25613280636012,0 83.54821738784278,18.25603957363562,0 83.54821740117029,18.25603921614047,0 83.54821608253629,18.25594884853615,0 83.54821603291258,18.25594831350793,0 83.5482029667328,18.25587232404057,0 83.54820278617591,18.25587169273932,0 83.54820247316245,18.25587111062145,0 83.54814719321871,18.25579023259449,0 83.548146688453,18.25578964152214,0 83.54808371483465,18.2557300547539,0 83.54808354890473,18.25572990690357,0 83.54800619332771,18.25566501569248,0 83.5480059492121,18.25566482746045,0 83.54799834031598,18.25565944278171,0 83.54791420943492,18.2555999048271,0 83.54791386970544,18.25559959504706,0 83.54787700765883,18.25555641457395,0 83.54787669961991,18.25555589966375,0 83.54785699420042,18.25550500558184,0 83.54785689373801,18.255504620337,0 83.54784810723254,18.25544236872046,0 83.54784809128525,18.25544206831033,0 83.54785085753348,18.25536125823949,0 83.54785094536918,18.25536077008761,0 83.54788187558761,18.25526781486118,0 83.54788190023788,18.25526774566165,0 83.54790138001272,18.25521648618435,0 83.54790168599952,18.25521596808075,0 83.54798634891591,18.2551157709149,0 83.54798643096576,18.25511568014959,0 83.54804946181486,18.25505046319307,0 83.54804980021453,18.2550501868735,0 83.5481007245761,18.25501766891826,0 83.54810113444644,18.25501736641364,0 83.54811968503306,18.25500162265742,0 83.54812018319161,18.25500131810555,0 83.54812075546909,18.25500117554007,0 83.54812134584687,18.25500120891625,0 83.54812189653477,18.25500141496703,0 83.5481223536276,18.25500177352274,0 83.54812267238187,18.25500224948541,0 83.54812282159575,18.25500279626451,0 83.5481227866631,18.2550033603375,0 83.54812257100345,18.25500388648898,0 83.54812219572692,18.25500432321563,0 83.54810359666742,18.25502010811066,0 83.54810349688536,18.25502018711799,0 83.54810298439675,18.25502056535998,0 83.54810287918339,18.25502063764948,0 83.54805208726265,18.2550530710345,0 83.54798925107103,18.25511808658344,0 83.54790482586829,18.2552180024216,0 83.54788546687359,18.25526894407817,0 83.54785462753104,18.25536162619975,0 83.547851875002,18.25544203554394,0 83.54786061246115,18.25550393966197,0 83.54788013618906,18.25555436447845,0 83.54791664979344,18.25559713678303,0 83.54800059051409,18.25565654016416,0 83.54800823093711,18.25566194715386,0 83.54800829299495,18.25566199300658,0 83.54800859817232,18.25566222832195,0 83.54800865818542,18.25566227659537,0 83.54808606456254,18.25572721042057,0 83.54808610662796,18.25572724679036,0 83.548086314052,18.25572743161363,0 83.54808635495617,18.25572746917315,0 83.54814941989447,18.25578714234931,0 83.54814955437475,18.2557872838285,0 83.54815018577496,18.25578802318779,0 83.54815030385474,18.25578817745235,0 83.54820569231411,18.25586921424255,0 83.54820579099079,18.25586937643213,0 83.54820623902032,18.25587020964231,0 83.54820638108036,18.25587055889014,0 83.54820663951915,18.25587146249857,0 83.54820668136979,18.25587164578856,0 83.54821977489974,18.25594779430761,0 83.54821979252512,18.25594792766953,0 83.54821985457625,18.25594859668677,0 83.54821986177124,18.25594873093178,0 83.54822118204146,18.25603921053152,0 83.54822118102715,18.25603929999791,0 83.54822116436516,18.25603974693552,0 83.54822115871468,18.25603983624412,0 83.5482128206058,18.25613317031615,0 83.54821280673049,18.25613328341831,0 83.54821271877209,18.25613384627843,0 83.54821269746414,18.25613395832029,0 83.54817312672365,18.25631023660614,0 83.54816363030528,18.25639879366486,0 83.54815787306967,18.25647292435274,0 83.5481578683066,18.25647297572988,0 83.54815784065717,18.25647323223845,0 83.54815783436044,18.25647328346471,0 83.54814802917326,18.25654428536399,0 83.54814801255252,18.25654438441936,0 83.54814791512138,18.25654487710981,0 83.54814789276965,18.25654497513064,0 83.5481097812535,18.25669230807232,0 83.54811202742236,18.25673167609725,0 83.54811202909889,18.25673183673011,0 83.548112000117,18.25673263866163,0 83.54811195873754,18.25673295718116,0 83.54811178164044,18.25673374154761,0 83.54811173891174,18.25673389691442,0 83.54806968880946,18.25686311568394,0 83.54806967984759,18.25686314248542,0 83.54806963394839,18.25686327615098,0 83.54806962455058,18.25686330281577,0 83.54804823470589,18.25692246542035,0 83.54804819492075,18.25692256570936,0 83.54804798059388,18.25692306107167,0 83.54804793464827,18.2569231589276,0 83.5479483762864,18.25711938109351,0 83.54794835389423,18.25711942377981,0 83.54794823900049,18.25711963576,0 83.5479482154351,18.2571196778658,0 83.54791204068231,18.25718230837514,0 83.54791197041975,18.25718242026695,0 83.54791159842644,18.25718296687867,0 83.54791151989166,18.25718307363152,0 83.54782193695223,18.2572959455395,0 83.54777051581372,18.25736523924447,0 83.54777044383006,18.25736533003776,0 83.54777006929454,18.25736577271458,0 83.54776999146397,18.25736585899208,0 83.54771379277406,18.25742432284648,0 83.5476978948068,18.25748444041288,0 83.5476969060735,18.25753225062895,0 83.54769690460635,18.2575322945312,0 83.54769689447846,18.25753251392466,0 83.54769689189436,18.25753255777982,0 83.54769286188572,18.25758876333383,0 83.54769282297389,18.25758902438469,0 83.54769252998881,18.25759030914954,0 83.54769245170667,18.25759056200464,0 83.54767979578064,18.2576226226513,0 83.54767972773276,18.25762277379575,0 83.5476793522073,18.25762351315797,0 83.5476791744501,18.2576237946147,0 83.54767866487759,18.25762445669637,0 83.54767843666849,18.25762470270703,0 83.54767780993063,18.25762526557414,0 83.54767767921048,18.2576253726867,0 83.54766243914675,18.25763675152205,0 83.54766229133122,18.2576368513759,0 83.54766152895455,18.25763731572657,0 83.54766120680596,18.25763747274429,0 83.54766036582588,18.25763778988205,0 83.54766001827572,18.25763788541103,0 83.54765912947369,18.25763804372803,0 83.54765895012456,18.25763806724962,0 83.54763233358075,18.25764032405029,0 83.54761197457934,18.25764205027521,0 83.54755737661991,18.25770040708615,0 83.54753562703665,18.25781584145545,0 83.54755022163998,18.25796088253484,0 83.5475502302891,18.25796104579229,0 83.5475502348214,18.25796186227569,0 83.54755022798514,18.25796202561163,0 83.54753060535074,18.25818144284114,0 83.54753060317545,18.25818146548311,0 83.54753059155387,18.25818157862324,0 83.54753058908044,18.25818160123728,0 83.5475259482492,18.25822159473971,0 83.54751239094065,18.25833842812755,0 83.54751507981393,18.25844481849334,0 83.54751507773535,18.25844495731922,0 83.54751503945306,18.25844565004162,0 83.54751502621876,18.2584457883047,0 83.54749039989743,18.25862625555816,0 83.54751176795583,18.25876903728424,0 83.54751178124336,18.2587691522281,0 83.54751182836446,18.25876972838945,0 83.54751183392534,18.25876984391009,0 83.5475130427114,18.2588526927217,0 83.54751303705065,18.25885285980549,0 83.5475129683831,18.25885369218469,0 83.54751290881195,18.25885402128364,0 83.54751268089967,18.25885482735013,0 83.54751262749966,18.25885498654571,0 83.54747247687355,18.25895801210012,0 83.54747238572543,18.25895820915805,0 83.54747187020668,18.2589591650182,0 83.54747161781381,18.25895952118198,0 83.54747088034721,18.25896033347049,0 83.54747072269396,18.2589604875082,0 83.54744343189849,18.25898414867011,0 83.54741303003878,18.25909342518047,0 83.54741301036744,18.25909349085781,0 83.54741290554681,18.25909381735016,0 83.54741288328989,18.25909388226979,0 83.54738740494038,18.25916370553037,0 83.54738382979684,18.25922718817443,0 83.54738382473037,18.25922725500389,0 83.54738379292041,18.25922758858753,0 83.54738378526287,18.25922765519149,0 83.54737612290579,18.25928455468757,0 83.54737720582466,18.25935877844295,0 83.54737854977974,18.25945089324406,0 83.5473785499522,18.25945092461001,0 83.54737854938941,18.25945108143508,0 83.5473785489918,18.25945111279915,0 83.54737547425601,18.25959235119944,0 83.54737546935486,18.25959244891696,0 83.54737543102208,18.25959293651236,0 83.54737542059007,18.259593033833,0 83.54737105688862,18.25962513707258,0 83.54736661388131,18.25967168764102,0 83.54736659137643,18.259671845782,0 83.54736644254096,18.25967263019789,0 83.5473664055117,18.25967278582329,0 83.54734801022516,18.25973685505477,0 83.54733980819775,18.25977734201831,0 83.54733980309688,18.25977736630368,0 83.54733977672197,18.25977748755757,0 83.54733977127297,18.25977751177384,0 83.54732285844727,18.2598502438205,0 83.54732284951881,18.25985028041423,0 83.54732280288943,18.2598504629194,0 83.54732279316609,18.25985049932776,0 83.54731076226857,18.2598936685687,0 83.54730800449887,18.25993587495037,0 83.54730797684181,18.25993608987573,0 83.54730777174534,18.25993715273393,0 83.54730763703981,18.25993756544052,0 83.54730717344948,18.25993855128293,0 83.54730706833749,18.2599387431313,0 83.54728785641875,18.25996921043686,0 83.54726503886542,18.26000681242598,0 83.5472649744796,18.26000691107032,0 83.54726463627782,18.2600073938871,0 83.54726456538293,18.26000748836949,0 83.54718729356063,18.26010376743369,0 83.54717143854617,18.26013266743344,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- retaining wall</name>
+			<styleUrl>#falseColor25</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">8</SimpleData>
+					<SimpleData name="Area">184.641</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Retainig wall earth bound</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54854812378346,18.25219084426602,0 83.54854763489438,18.25219116222348,0 83.54854706709868,18.25219132027293,0 83.54854647597621,18.25219130294327,0 83.54854591938999,18.25219111193095,0 83.5485454518228,18.25219076593356,0 83.54854511904324,18.25219029881969,0 83.54854495362612,18.25218975631377,0 83.54854497176358,18.25218919152004,0 83.5485451716803,18.25218865972439,0 83.54854553380687,18.25218821298275,0 83.54890342743089,18.25186661884471,0 83.54890379200673,18.25186636236035,0 83.54890420995797,18.25186619606466,0 83.54920332403431,18.25178570070772,0 83.54920390227404,18.25178563416199,0 83.54920447426917,18.25178573897391,0 83.54945720193285,18.25187228675069,0 83.54945742549226,18.25187237924366,0 83.54987942450201,18.25207877987229,0 83.54988014374942,18.25207903584761,0 83.54988090543202,18.25207912614339,0 83.55002932394554,18.25208010221441,0 83.55002978754594,18.25208016052465,0 83.5501814677997,18.25211792199807,0 83.55018186256272,18.25211806699089,0 83.55028614096319,18.25216982377207,0 83.55028665585372,18.25217002863708,0 83.55028719947614,18.25217014782378,0 83.55033621660523,18.25217679777773,0 83.55033675525847,18.25217695153038,0 83.55052206653967,18.25226021216361,0 83.55052273962657,18.25226043354316,0 83.55052334461807,18.25226050058413,0 83.55052405286894,18.25226043227489,0 83.55073968420184,18.25217161100308,0 83.55085352024899,18.25218356680978,0 83.55086132453368,18.25218281344341,0 83.55104422856868,18.25213473985034,0 83.55104453612039,18.25213463023935,0 83.55131005113289,18.25202723452626,0 83.55131022369221,18.25202715980364,0 83.5514950965444,18.25194170663318,0 83.55149528897975,18.2519416298922,0 83.55169833712348,18.25187295717501,0 83.55169891648931,18.2518728543266,0 83.551699500849,18.25187292693876,0 83.55170003341016,18.25187316795448,0 83.55174819115955,18.25190457032798,0 83.55174852893583,18.25190476666329,0 83.55180953121219,18.25193617166413,0 83.55181006673725,18.25193658286888,0 83.55189050514163,18.25202580207123,0 83.55189071409283,18.25202608459743,0 83.55195229030329,18.25212901901754,0 83.55195246840815,18.25212942474123,0 83.55198089470298,18.25222567348249,0 83.55198099654432,18.25222596897224,0 83.55201159634936,18.25230336168396,0 83.5520118360639,18.25230384133472,0 83.55201211051623,18.25230421328363,0 83.55201252409772,18.25230461060717,0 83.55208739886463,18.2523693757676,0 83.55219092821572,18.25241684492513,0 83.55228315504665,18.25245790370378,0 83.55228364543746,18.2524582195415,0 83.55228400967771,18.25245866471028,0 83.55228421211297,18.2524591956339,0 83.55228423292756,18.25245976034186,0 83.55228407008394,18.25246030355662,0 83.55228373952248,18.2524607721045,0 83.55228327360074,18.25246112012083,0 83.55228271792636,18.25246131353932,0 83.55228212689269,18.25246133342681,0 83.55228155835424,18.25246117783655,0 83.55218932176507,18.25242011471369,0 83.55218930230427,18.25242010592068,0 83.55208551586448,18.25237251888557,0 83.55208506506408,18.25237222950621,0 83.5520099501631,18.25230725663424,0 83.55200987852204,18.25230719132349,0 83.55200931738902,18.2523066522487,0 83.55200911273381,18.2523064193285,0 83.5520086542241,18.25230579793744,0 83.55200849337393,18.25230553550984,0 83.55200815048833,18.25230484942169,0 83.55200808796774,18.25230470944087,0 83.55197744560114,18.25222720907918,0 83.55197741847199,18.25222713572234,0 83.55197729115552,18.25222676631727,0 83.55197726735815,18.25222669191211,0 83.55194889300257,18.25213061902586,0 83.55188752215081,18.25202802789256,0 83.55180743044194,18.25193919323037,0 83.55174669215035,18.25190792413334,0 83.55174660634731,18.25190787715276,0 83.55174618405466,18.25190763169154,0 83.55174610094066,18.25190758048766,0 83.55169869451252,18.25187666803067,0 83.55149664891111,18.25194500167921,0 83.55131184873359,18.25203042125834,0 83.55131180583703,18.25203044045622,0 83.55131159012946,18.25203053386318,0 83.55131154674292,18.25203055202806,0 83.55104597210708,18.25213797185869,0 83.55104589583313,18.25213800086045,0 83.55104551134809,18.25213813789036,0 83.55104543382809,18.25213816370055,0 83.55086273559324,18.25218636589706,0 83.55085373040636,18.2521863236224,0 83.55082533222823,18.25218459192585,0 83.55073991094774,18.25217550390679,0 83.55052453424491,18.2522640163154,0 83.55052352033567,18.25226411410473,0 83.55052311272213,18.25226411121101,0 83.55052210044566,18.2522639990375,0 83.55052170295914,18.25226391271559,0 83.5505207393896,18.25226359579574,0 83.55052055026256,18.252263522456,0 83.55033540371716,18.25218033583933,0 83.5502865888833,18.25217371333003,0 83.55028643185483,18.25217368551584,0 83.550285654257,18.25217351503109,0 83.55028535035278,18.25217342199427,0 83.55028461385304,18.25217312895528,0 83.55028446914663,18.25217306439676,0 83.55018030865944,18.25212136613992,0 83.55002906232278,18.25208371269249,0 83.54988076912406,18.25208273744584,0 83.54988054938927,18.25208272374556,0 83.54987945861176,18.25208259443632,0 83.54987903155693,18.25208249458239,0 83.54987800154917,18.25208212800958,0 83.54987780002465,18.25208204321097,0 83.5494558114891,18.25187564770593,0 83.5492037674433,18.25178933403815,0 83.54890568030669,18.25186955303348,0 83.54854812378346,18.25219084426602,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Road/Ramp</name>
+			<styleUrl>#falseColor45</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">5</SimpleData>
+					<SimpleData name="Area">5546.13</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Internal Ramp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54626239131819,18.25938251174847,0 83.54626226428809,18.2593881610457,0 83.54626031628989,18.25939349634218,0 83.54625673800695,18.2593979953818,0 83.54625187970657,18.25940121776728,0 83.54624621695307,18.2594028480689,0 83.5462403040563,18.25940272670134,0 83.54623471981203,18.25940086554487,0 83.54623001084509,18.25939744678256,0 83.54622663810208,18.25939280506663,0 83.54622493173049,18.25938739476079,0 83.54617651918079,18.25904837651459,0 83.54614925512055,18.25888121875763,0 83.54614914963405,18.25888046915613,0 83.54613940775702,18.25879823756564,0 83.5461393755641,18.25879794444083,0 83.54613030198453,18.25870828401822,0 83.5461302773478,18.25870507133039,0 83.54614288818125,18.25855798876834,0 83.54614374623488,18.2585538941413,0 83.54618395506151,18.25843538195979,0 83.54618548961379,18.25843204919609,0 83.5462506749177,18.25832210845734,0 83.5462513866611,18.25832100268946,0 83.54631307206232,18.25823246471199,0 83.54640532269057,18.25795907079596,0 83.5464054267736,18.25795877131944,0 83.54654197923526,18.25757705290272,0 83.54654280598896,18.25757511625556,0 83.54674201272076,18.25717623981041,0 83.54674234999804,18.25717559765512,0 83.54701765015511,18.25667646275359,0 83.54726821951597,18.25619574723532,0 83.54743326550313,18.25584930336476,0 83.54748269443347,18.25568250317394,0 83.54750494372701,18.25540945792769,0 83.54750544381722,18.25540650734192,0 83.5475716228953,18.2551518644776,0 83.54757348448275,18.25514737761776,0 83.54775535072957,18.25483777065305,0 83.54775578033569,18.25483707611211,0 83.54794450312228,18.25454696401492,0 83.5480346374586,18.25428989231967,0 83.54812019250777,18.25400810498984,0 83.54816428937197,18.25376524582051,0 83.54816196019267,18.25349979086948,0 83.54816198994807,18.2534986152608,0 83.54817196690897,18.2533307920101,0 83.54817245205861,18.2533276268598,0 83.54822968051894,18.25309833087795,0 83.54823076512842,18.25309524781791,0 83.54834969690921,18.25283693428207,0 83.54835369918568,18.25283137316686,0 83.54839189048532,18.25279524082286,0 83.54847548703448,18.25255922831616,0 83.54847645252637,18.25255700347813,0 83.54859881411643,18.25232090395228,0 83.54860039749202,18.25231838684951,0 83.54870400043457,18.25218048017831,0 83.54870764040301,18.25217683876322,0 83.54877369900832,18.2521269873025,0 83.54878065095077,18.25212368272361,0 83.54886886092106,18.25210173187419,0 83.54887336158883,18.25210115057551,0 83.54900069616438,18.25209945425993,0 83.54900177487195,18.25209946930682,0 83.54911056171869,18.25210395595072,0 83.54911451023656,18.2521045220767,0 83.54932962783609,18.25215804743653,0 83.54933021689129,18.25215820376544,0 83.54971699394065,18.25226731682027,0 83.54971792289912,18.25226760400766,0 83.54997155838556,18.25235298981285,0 83.55034953197959,18.25244568774294,0 83.5503567872628,18.25244919145734,0 83.5505924464271,18.25263303203802,0 83.55059439159561,18.25263478244156,0 83.55102851005795,18.2530848581312,0 83.55119747874295,18.253207008777,0 83.55119821637879,18.25320757021389,0 83.55132891197489,18.25331224322115,0 83.55140061513258,18.25336162749175,0 83.55143711375327,18.25336636176124,0 83.55149305556313,18.25334140659295,0 83.55157361239998,18.25329691070498,0 83.55169025193548,18.25316979931976,0 83.55182844369892,18.25298903682974,0 83.55183407425794,18.25298415069325,0 83.5520327896225,18.2528716855648,0 83.55203568150256,18.25287035177132,0 83.55222570813079,18.25280103783733,0 83.55222896188322,18.25280016022411,0 83.55234268716829,18.25277975947338,0 83.55242555282327,18.25274164736863,0 83.55252223516028,18.25267866567593,0 83.55259847807746,18.25259197436831,0 83.55260090953107,18.25258967039322,0 83.55270224909133,18.25250966735687,0 83.55270777429034,18.25250663624159,0 83.55271403962855,18.25250553120273,0 83.55281706931721,18.25250423121257,0 83.5528216063954,18.25250470035714,0 83.55282589356982,18.25250619475894,0 83.55292835401774,18.25255602502425,0 83.5529331399715,18.25255934447405,0 83.55293661809789,18.25256391452386,0 83.5529384479334,18.25256928782547,0 83.55293845036103,18.25257493840279,0 83.55293662514293,18.25258031313793,0 83.552933150944,18.25258488591437,0 83.55292836784297,18.25258820911676,0 83.55292274404314,18.25258995744684,0 83.55291683004133,18.25258995976583,0 83.55291120474146,18.2525882158467,0 83.55281290274939,18.25254040799306,0 83.55272119651779,18.25254156511086,0 83.55262631518927,18.25261646967198,0 83.55254950461621,18.25270380644495,0 83.55254568130043,18.25270710984539,0 83.55244567759964,18.25277225517987,0 83.55244322797297,18.25277360622471,0 83.55235683138164,18.25281334230414,0 83.55235212073889,18.2528148194049,0 83.55223760597134,18.25283536178222,0 83.55205067039732,18.25290354823302,0 83.55185668192723,18.25301333813783,0 83.55172028406434,18.25319175414851,0 83.55171923327042,18.25319300759186,0 83.55159998454053,18.25332296244974,0 83.55159523174281,18.25332669187842,0 83.5515112614885,18.25337307318682,0 83.55150979768858,18.25337380217733,0 83.5514480730652,18.25340133701162,0 83.55144291860027,18.25340282745411,0 83.55143753343157,18.25340286863009,0 83.55139084982295,18.25339681325785,0 83.55138638561283,18.25339569070288,0 83.55138233929846,18.25339356777189,0 83.55130624491774,18.25334115912415,0 83.55130515534343,18.25334034933311,0 83.55117429191974,18.25323554190789,0 83.55100435075563,18.25311268823098,0 83.55100185608205,18.25311052510862,0 83.55056749922984,18.252660202218,0 83.55033610146269,18.25247968599727,0 83.54996135762997,18.2523877801688,0 83.54995977563664,18.25238732085138,0 83.54970582022486,18.25230182735022,0 83.54931980466614,18.25219292912682,0 83.54910692566882,18.25213996077999,0 83.54900068365284,18.25213557909366,0 83.54887617577459,18.25213723775651,0 83.5487940182054,18.2521576824825,0 83.54873316089673,18.25220360876456,0 83.54863200882805,18.25233825309372,0 83.54851089206755,18.25257195078588,0 83.54842626892737,18.25281086173682,0 83.54842166404946,18.25281790563681,0 83.54838285408613,18.25285462329944,0 83.54826605817084,18.25310829796255,0 83.54820961603231,18.25333444360361,0 83.54819976933254,18.25350007632882,0 83.54820210772105,18.25376657424492,0 83.54820183019353,18.25376981277424,0 83.54815726273809,18.25401526397453,0 83.54815679250235,18.25401720859027,0 83.54807083834413,18.25430031064332,0 83.54807060777721,18.25430101581172,0 83.54797964840641,18.2545604407407,0 83.54797777912268,18.25456423764149,0 83.54778811226994,18.2548558010892,0 83.54760770013534,18.25516293270122,0 83.54754251357495,18.25541375677925,0 83.54752024028282,18.25568709727033,0 83.54751958236194,18.25569061552286,0 83.54746925129136,18.25586046015134,0 83.54746826785414,18.25586302207945,0 83.54730249192856,18.25621099830084,0 83.5473022081149,18.25621156748271,0 83.54705139509339,18.25669275065522,0 83.54705119739674,18.25669311927946,0 83.54677597158563,18.25719211957683,0 83.54657739903691,18.25758972635033,0 83.54644125465502,18.25797030424865,0 83.54634825087862,18.2582459303667,0 83.54634599527856,18.25825039641411,0 83.54628323484621,18.25834047742724,0 83.54621932860408,18.25844826095406,0 83.5461803887963,18.25856303288067,0 83.54616809543882,18.25870641302514,0 83.54617699173747,18.25879432146287,0 83.54618667175589,18.25887603075636,0 83.54621390252926,18.2590429842135,0 83.54621395443381,18.25904332359447,0 83.54626239131819,18.25938251174847,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Road/Ramp</name>
+			<styleUrl>#falseColor63</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">5</SimpleData>
+					<SimpleData name="Area">479.893</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-External ramp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55130784841607,18.25591904894883,0 83.55131082810202,18.25592392995255,0 83.55131208329205,18.25592945180589,0 83.55131149111925,18.25593507399141,0 83.55130910954944,18.25594024617041,0 83.55130517170723,18.25594446205393,0 83.55130006305588,18.25594730896188,0 83.55129428366587,18.25594850821894,0 83.55128839926435,18.25594794243348,0 83.55128298585778,18.2559456669884,0 83.5512785733481,18.25594190462035,0 83.55117191076941,18.25581718857258,0 83.55117087826977,18.25581586170397,0 83.55108523404886,18.25569457525104,0 83.5510836328038,18.25569181447495,0 83.55095214551146,18.25540938514695,0 83.55095133153638,18.25540729914849,0 83.55086668050008,18.25514131098284,0 83.55086622765651,18.25513958762175,0 83.55083306187008,18.25498062572526,0 83.55083282723349,18.25497497958922,0 83.55083443019669,18.25496954051863,0 83.55083771385051,18.2549648409276,0 83.55084235676789,18.25496134084473,0 83.55084790446774,18.2549593828825,0 83.55085381390261,18.25495915869979,0 83.55085950661611,18.25496069024116,0 83.55086442536587,18.25496382758862,0 83.55086808867054,18.25496826363691,0 83.55087013794025,18.25497356415477,0 83.55090312175309,18.25513165370579,0 83.5509871624172,18.25539572381273,0 83.55111750145964,18.25567568663733,0 83.55120173390235,18.25579497375076,0 83.55130784841607,18.25591904894883,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Road/Ramp</name>
+			<styleUrl>#falseColor36</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">5</SimpleData>
+					<SimpleData name="Area">287.468</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Internal Ramp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55106562844675,18.25315502139268,0 83.55106024847373,18.25315267485607,0 83.55105589074208,18.25314885472114,0 83.55105298181689,18.25314393492945,0 83.55105180644409,18.25313839706453,0 83.55105247967713,18.25313278321126,0 83.55105493561513,18.25312764289265,0 83.5510589338536,18.25312347927892,0 83.55106408301712,18.25312069993352,0 83.55106987906969,18.25311957691796,0 83.55107575465355,18.25312022016094,0 83.55116116677895,18.25314290790231,0 83.55133562087825,18.25309730940817,0 83.55134421879222,18.2530970017565,0 83.55151546604668,18.25312883644231,0 83.55170849673915,18.25316334886559,0 83.55171406812542,18.2531652442731,0 83.55171875380823,18.25316869187347,0 83.55172209512041,18.25317335419156,0 83.55172376499094,18.25317877484728,0 83.55172359996111,18.2531844232292,0 83.55172161618509,18.25318974643424,0 83.55171800784854,18.25319422339009,0 83.55171312816036,18.25319741586101,0 83.55170745477868,18.2531990113456,0 83.55170154305368,18.25319885366669,0 83.55150844566161,18.2531643293229,0 83.55150831243299,18.25316430502954,0 83.55134133516073,18.25313326413528,0 83.55116611405442,18.2531790631087,0 83.55116108720581,18.25317970315923,0 83.55115606316839,18.25317904326621,0 83.55106562844675,18.25315502139268,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Road/Ramp</name>
+			<styleUrl>#falseColor37</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">5</SimpleData>
+					<SimpleData name="Area">3957.71</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Internal Ramp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54858582047586,18.25935515718254,0 83.54859139355823,18.25935704860108,0 83.54859608212212,18.25936049284913,0 83.54859942721841,18.25936515277961,0 83.54860110140562,18.25937057224628,0 83.54860094080254,18.25937622075394,0 83.54859896113011,18.2593815453874,0 83.54859535617202,18.25938602493437,0 83.54859047880687,18.2593892209055,0 83.54858480646512,18.25939082045683,0 83.54857889439512,18.25939066701302,0 83.54838890685562,18.25935684076829,0 83.5483826025728,18.25935454870327,0 83.54837754196291,18.25935028775855,0 83.54837436939182,18.25934460047883,0 83.54834189246112,18.25924783217853,0 83.54834104931784,18.25924088434682,0 83.54836152218381,18.25899517446043,0 83.54837162569943,18.25883811703328,0 83.54837836466402,18.25866555143871,0 83.54836662143566,18.25849598270266,0 83.54836696935619,18.25849114445857,0 83.54841352281117,18.25827534644435,0 83.54841530262435,18.25827059233221,0 83.54851970361108,18.25808073533009,0 83.54851977680357,18.25808060355142,0 83.54857998435216,18.25797327638463,0 83.5485942558894,18.25780617199222,0 83.54859516701345,18.25780191898092,0 83.54865870698562,18.25762016955509,0 83.5486718094305,18.25752593317975,0 83.54866013420616,18.25750151081634,0 83.54864284705717,18.25749703991037,0 83.54859348266223,18.25752025439267,0 83.54853746936051,18.25763403326435,0 83.5485359922797,18.25763650628694,0 83.54843249480275,18.25778183169269,0 83.54842665259959,18.25778712356523,0 83.54824940276814,18.25788959636635,0 83.5481178333646,18.25799957488728,0 83.54802372012659,18.25809502116764,0 83.54795429277142,18.2581689226457,0 83.54792821842265,18.25834341333044,0 83.54792820310622,18.25834351380919,0 83.547898416561,18.25853514033312,0 83.54787468518749,18.25871629759451,0 83.54787285701256,18.25872209103911,0 83.54786912855509,18.25872698238168,0 83.54780936568928,18.25878268588573,0 83.54780381361068,18.25878627446436,0 83.54779729980271,18.2587877861768,0 83.54779064335264,18.25878703093069,0 83.54774930691165,18.25877496764884,0 83.54774342891368,18.25877210149145,0 83.54773894031155,18.25876747951365,0 83.5477071891122,18.25872041489361,0 83.54770507195678,18.25871612882587,0 83.54770419473573,18.25871146411001,0 83.5476986346419,18.25859652929994,0 83.54769862528356,18.25859508500806,0 83.5477063241762,18.25837757860341,0 83.54770632789894,18.2583774812108,0 83.54771203026456,18.25823857420538,0 83.54770423025184,18.25802167398863,0 83.5476968822942,18.25794137084593,0 83.54769696220671,18.25793751412707,0 83.5477207639742,18.257759118857,0 83.54772151416267,18.25775589047236,0 83.54775351629497,18.25766048916758,0 83.54775512857212,18.25765700145102,0 83.54785142201997,18.25749693245749,0 83.54785308458567,18.25749460889206,0 83.54795220667704,18.25737693377062,0 83.54807643492633,18.25722331078209,0 83.54807651273624,18.25722321522452,0 83.54819707057983,18.257076178764,0 83.54819873336818,18.25707440527372,0 83.54829100886447,18.25698816996547,0 83.54835267989095,18.25688237146982,0 83.54838001085368,18.2568150917085,0 83.54839350607845,18.2567403550536,0 83.548379108267,18.25666047810266,0 83.54833671168524,18.2565429697981,0 83.54833579398939,18.25653906710585,0 83.54832157371207,18.25641608577773,0 83.54832146123844,18.25641435435904,0 83.54831732586608,18.25613096829271,0 83.54831753390526,18.25612803268235,0 83.54833564576056,18.25601287483213,0 83.54832374213244,18.25590946312873,0 83.54830294761565,18.25585933282726,0 83.548302413429,18.25585786317303,0 83.54827431039246,18.25576826618839,0 83.54820048113498,18.25561836608298,0 83.54819937670356,18.25561552732076,0 83.54816831301282,18.25550909414493,0 83.54816782383749,18.2555068988696,0 83.54815411953463,18.25541882892091,0 83.54813875435134,18.25532336113364,0 83.5481387267083,18.25532318350653,0 83.54812926575863,18.25526024014256,0 83.54812934981392,18.25525459765629,0 83.54813125233126,18.2552492553815,0 83.54818153214397,18.25515805983083,0 83.54823290216098,18.25503922908847,0 83.54824718742934,18.25494823793142,0 83.54821096590848,18.254923445137,0 83.54816583030242,18.25490849698276,0 83.54809865405286,18.25493023575491,0 83.54794589025578,18.25504861119308,0 83.54773649975927,18.25523429604345,0 83.54764681857807,18.25540581900377,0 83.54761011304386,18.25548530857905,0 83.54760725277636,18.25548967996067,0 83.54760321642027,18.2554931011691,0 83.54752468802252,18.25554252064398,0 83.54751930091764,18.25554485238518,0 83.5475134233245,18.25554547947332,0 83.5475076305831,18.25554434052454,0 83.54750248972732,18.25554154702719,0 83.54749850398015,18.25553737242824,0 83.54749606349429,18.25553222536671,0 83.54749540716142,18.25552660967276,0 83.54749659922776,18.2555210750498,0 83.54749952300553,18.25551616326526,0 83.5475038922947,18.25551235511874,0 83.54757777131285,18.25546586159763,0 83.54761241196375,18.25539084376964,0 83.54761279620448,18.25539006273884,0 83.54770421370512,18.25521521898576,0 83.54770826467153,18.25521005265508,0 83.54792063409889,18.2550217261608,0 83.54792158640667,18.25502093648875,0 83.54807747271782,18.25490014145529,0 83.54808331569508,18.25489706258218,0 83.54815983720869,18.25487229960963,0 83.54816596825049,18.25487134517873,0 83.54817209205027,18.25487234114864,0 83.54822593723166,18.25489017376958,0 83.54823075487451,18.25489255644136,0 83.54827860501143,18.25492530875174,0 83.54828337543462,18.25493004561093,0 83.54828605550982,18.25493609995316,0 83.54828629018802,18.25494266971565,0 83.54826994742866,18.25504676637338,0 83.54826872495255,18.25505098191458,0 83.54821613825935,18.25517262717113,0 83.54821539134247,18.25517414988216,0 83.54816755935497,18.25526090569921,0 83.54817613512107,18.25531795988567,0 83.54819149320447,18.25541338343485,0 83.54819150730115,18.25541347249913,0 83.54820504548957,18.25550047480541,0 83.54823536586878,18.25560436111008,0 83.54830911731928,18.25575410318131,0 83.54831012081657,18.25575660852116,0 83.54833839404229,18.25584674804037,0 83.54835982648103,18.25589841618521,0 83.54836104300715,18.25590309610107,0 83.54837349381205,18.25601126115382,0 83.54837339723099,18.25601591937571,0 83.5483551496027,18.25613194065342,0 83.54835925082726,18.2564129824909,0 83.5483731400448,18.2565331004934,0 83.54841534851528,18.2566500873544,0 83.54841610629192,18.25665290804528,0 83.54843131660853,18.25673729255686,0 83.54843131565553,18.25674342827927,0 83.54841694504599,18.25682301291835,0 83.54841593946549,18.2568264772198,0 83.54838745196916,18.25689660402012,0 83.54838634427627,18.25689885679037,0 83.54832270290677,18.25700803550628,0 83.54831940625451,18.25701215905151,0 83.54822606189862,18.25709939327112,0 83.54810631322488,18.25724544287464,0 83.54798200908841,18.25739915974408,0 83.54798177688667,18.25739944107628,0 83.54788346356831,18.25751615607182,0 83.54778890626676,18.25767333911649,0 83.54775804697492,18.2577653335673,0 83.54773472174725,18.2579401574372,0 83.54774193641663,18.25801900373521,0 83.54774199709618,18.25801995650464,0 83.54774983819499,18.25823799792132,0 83.54774983481992,18.25823932591507,0 83.5477441072278,18.25837884816399,0 83.54773643567381,18.25859558353839,0 83.54774172571882,18.25870493558641,0 83.54776696886726,18.25874235335162,0 83.54779097953832,18.25874936042626,0 83.54783799296104,18.25870554037263,0 83.54786092974523,18.25853044902565,0 83.54786098848056,18.25853003886467,0 83.54789079908943,18.25833825780152,0 83.54791767732594,18.25815838772452,0 83.54791926114814,18.25815330250272,0 83.54792232323204,18.25814887641866,0 83.54799573734211,18.25807073128474,0 83.54799604579314,18.25807041081213,0 83.54809094081826,18.25797417168958,0 83.5480922529182,18.25797296339691,0 83.54822575413637,18.25786137009427,0 83.54822841496775,18.25785951080859,0 83.54840355571666,18.25775825733878,0 83.54850389478044,18.25761736683931,0 83.54856208968569,18.25749915655927,0 83.54856571054698,18.2574941866264,0 83.54857084727946,18.25749063953746,0 83.54863255218693,18.25746162171312,0 83.54863907831214,18.25745984927288,0 83.54864583910933,18.25746039261805,0 83.54867858012507,18.25746886029609,0 83.54868363425567,18.25747096301829,0 83.5486878385379,18.257474369475,0 83.54869083543052,18.25747878997377,0 83.54870845882738,18.25751565477686,0 83.54870996028886,18.25752049162666,0 83.54871000285992,18.25752553656177,0 83.54869594637694,18.25762663480083,0 83.54869513725106,18.25762997834415,0 83.5486317507676,18.25781128884653,0 83.54861734526209,18.25797996229326,0 83.54861516572322,18.25798702519048,0 83.54855313565282,18.25809760126374,0 83.54845001213397,18.25828513521699,0 83.54840451442429,18.25849603954886,0 83.54841615315455,18.25866409883595,0 83.54841618125499,18.25866596462176,0 83.54840939737981,18.25883968121479,0 83.54840937491986,18.25884011578517,0 83.54839924700048,18.25899755309887,0 83.54839922299008,18.25899787835753,0 83.54837903271044,18.25924019735416,0 83.54840692521866,18.25932330585932,0 83.54858582047586,18.25935515718254,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Road/Ramp</name>
+			<styleUrl>#falseColor67</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">5</SimpleData>
+					<SimpleData name="Area">523.707</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Internal Ramp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54821867449057,18.25491000593261,0 83.54821633073918,18.25491519386609,0 83.54821242377898,18.25491943589466,0 83.54820733605027,18.25492231677891,0 83.54820156557561,18.25492355451775,0 83.54819567720925,18.25492302795267,0 83.54819024734581,18.25492078862743,0 83.5481858074982,18.2549170557429,0 83.54818279226981,18.2549121946999,0 83.54818149681199,18.25490668133126,0 83.54818204793311,18.25490105532396,0 83.5482344721227,18.2547052220496,0 83.54823372017195,18.25454884540665,0 83.54823045313459,18.25432493220746,0 83.54822411863371,18.25399682399878,0 83.5481958496577,18.25382096042248,0 83.54816709292771,18.25377616915786,0 83.54816482727517,18.25377094965351,0 83.5481643606314,18.25376531667471,0 83.54816573867453,18.25375982161666,0 83.54816882651198,18.25375500237389,0 83.54817332188458,18.2537513306875,0 83.54817878475399,18.25374916596754,0 83.54818468037649,18.25374872011182,0 83.54819043164775,18.25375003676385,0 83.54819547559333,18.25375298704051,0 83.5481993184769,18.25375728214826,0 83.5482300676175,18.25380517676314,0 83.54823263846151,18.25381187862448,0 83.54826167837962,18.25399253806122,0 83.5482618942326,18.25399494662364,0 83.54826825297306,18.25432430669014,0 83.54826825435167,18.2543243880328,0 83.54827152326209,18.25454842628343,0 83.54827152489918,18.25454859506114,0 83.54827228842326,18.25470737132344,0 83.548271699098,18.25471192960383,0 83.54821867449057,18.25491000593261,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Road/Ramp</name>
+			<styleUrl>#falseColor0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">5</SimpleData>
+					<SimpleData name="Area">3252.68</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Internal Ramp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.5500038813438,18.25238595418772,0 83.55000431549752,18.25238031884476,0 83.55000655099985,18.25237508750025,0 83.55001036902411,18.25237077223462,0 83.55001539583547,18.25236779545612,0 83.55002113937468,18.25236644855237,0 83.55002703742417,18.25236686336775,0 83.55003251264196,18.25236899929719,0 83.5500370290758,18.25237264726104,0 83.55004014462561,18.25237745017127,0 83.55004155431969,18.25238293788571,0 83.55005825706384,18.25257338103052,0 83.5501207114993,18.25292349198264,0 83.55012094800156,18.25292758037865,0 83.55010218922695,18.25323419612421,0 83.5501157746338,18.2536338697313,0 83.55011578077632,18.25363481898425,0 83.55010294417498,18.25424490739237,0 83.55010289630486,18.25424587909549,0 83.55006499732308,18.254734522977,0 83.5500244017415,18.255342099169,0 83.55007141524926,18.25552276134238,0 83.55007194080231,18.25552605311352,0 83.55009836805154,18.25595308809146,0 83.55009817473933,18.25595694018027,0 83.55007678792293,18.25608781581731,0 83.55007540596078,18.25609231956889,0 83.55007285608939,18.25609633103932,0 83.54991408475671,18.25628542935912,0 83.5499112194225,18.25628817651734,0 83.54972825084901,18.25642941361608,0 83.54968466109553,18.25650471555992,0 83.54970565037355,18.25663872129751,0 83.54979008971456,18.25683891706323,0 83.54979143624125,18.25684476558342,0 83.54980866902444,18.25717398024751,0 83.54980868185606,18.25717427294905,0 83.54981926984858,18.25747389649774,0 83.54981801713937,18.25748099798107,0 83.54972694871134,18.2577068747669,0 83.54962409531633,18.25807612710125,0 83.54959022985133,18.25825364355538,0 83.54962147616556,18.25841317786463,0 83.54962152965361,18.25841953608018,0 83.54958276397326,18.25863671440607,0 83.54958204790398,18.25863943241189,0 83.54950599041671,18.25885562381666,0 83.54950363608378,18.25886011982855,0 83.54950007581579,18.25886382161634,0 83.54949558547456,18.25886644235281,0 83.54942147858281,18.25889710977597,0 83.54941559705452,18.25889853016298,0 83.5494095474802,18.25889809738788,0 83.5494039529213,18.25889585602323,0 83.54939938957608,18.25889203691308,0 83.54939632743542,18.25888703339756,0 83.54936893127343,18.25881913528731,0 83.54936770524159,18.2588138013997,0 83.54935779599322,18.258667019073,0 83.5493577850158,18.2586668431026,0 83.54933902129794,18.25833913274951,0 83.54933962602912,18.25833351177698,0 83.54934201917553,18.25832834445685,0 83.54934596647921,18.25832413660243,0 83.5493510815507,18.25832130010771,0 83.54935686369106,18.25832011262851,0 83.54936274690429,18.25832069040346,0 83.54936815530071,18.25832297687595,0 83.54937255946891,18.25832674823018,0 83.5493755282982,18.25833163529981,0 83.54937677117884,18.25833715970446,0 83.5493955299272,18.25866478203445,0 83.5494052471754,18.25880871987437,0 83.54942452071812,18.25885648702713,0 83.54947283582017,18.25883649293994,0 83.54954574299423,18.25862925633766,0 83.54958369311403,18.25841664731684,0 83.54955242640301,18.2582570086904,0 83.54955241027295,18.25825044815208,0 83.54958703717345,18.25806894060453,0 83.54958736660966,18.25806753436537,0 83.54969067595505,18.25769664541913,0 83.54969130361002,18.25769479813717,0 83.5497813554759,18.25747144285102,0 83.54977090249838,18.25717563819249,0 83.54975383617351,18.25684960221671,0 83.54966975229952,18.25665024912552,0 83.54966859035962,18.25664617148781,0 83.54964632302593,18.25650400582729,0 83.54964641461122,18.25649812923296,0 83.5496484762263,18.25649259189245,0 83.5496969558551,18.25640884264771,0 83.5497016179562,18.25640353512313,0 83.54988587253871,18.25626130535353,0 83.55004021224801,18.25607748518932,0 83.55006050836947,18.25595328417457,0 83.55003430431282,18.25552985427043,0 83.5499870063948,18.25534809902577,0 83.54998648628928,18.25534259062935,0 83.55002727475217,18.25473212966106,0 83.55002728803998,18.25473194558267,0 83.55006515663013,18.25424369492428,0 83.55007797314057,18.25363456767376,0 83.55006437605823,18.25323454803579,0 83.55006439830991,18.25323290786834,0 83.55008308144171,18.25292752960671,0 83.55002085403301,18.25257869091917,0 83.55002065134182,18.25257716461905,0 83.5500038813438,18.25238595418772,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Road/Ramp</name>
+			<styleUrl>#falseColor33</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">5</SimpleData>
+					<SimpleData name="Area">1029.29</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Internal Ramp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54988044354586,18.25627460291031,0 83.54988121482062,18.25626900057891,0 83.54988376030848,18.25626390016118,0 83.54988783083922,18.25625980092139,0 83.54989302796088,18.25625710412165,0 83.54989884294302,18.25625607374342,0 83.54990470657492,18.25625681064728,0 83.54991004488352,18.25625924269992,0 83.54991433531821,18.25626313183518,0 83.54991715790125,18.25626809735741,0 83.54991823633856,18.25627365320683,0 83.5499215025975,18.25639230462848,0 83.54994963592668,18.25652994031796,0 83.54994968752165,18.25653020305527,0 83.54997118941016,18.25664435191356,0 83.5500594020567,18.25683936232098,0 83.55006094054352,18.25684718997455,0 83.55004858087183,18.25716884440056,0 83.55005466767138,18.25742644096392,0 83.55005466954064,18.25742652974582,0 83.55006207271452,18.25782710654739,0 83.55006200444808,18.2578289916125,0 83.55002588419154,18.25822544451329,0 83.55001209687426,18.25844933911738,0 83.55000734263724,18.25854871137936,0 83.55000615168255,18.25855424621307,0 83.55000322886217,18.25855915853246,0 83.54999886028195,18.25856296748542,0 83.54999347356896,18.25856530022502,0 83.54998759601231,18.25856592840641,0 83.54998180294841,18.25856479053872,0 83.54997666144283,18.25856199800444,0 83.54997267478207,18.25855782415629,0 83.54997023320824,18.25855267755971,0 83.54996957571957,18.25854706199953,0 83.54997433562717,18.25844757166452,0 83.54997434854187,18.25844733560263,0 83.54998815875273,18.25822307001996,0 83.54998819733351,18.25822256456776,0 83.55002425496131,18.25782680002327,0 83.55001687014499,18.25742721184081,0 83.55001077180292,18.25716912442772,0 83.55001077971387,18.25716805419138,0 83.55002300323851,18.25684994472314,0 83.54993562011121,18.25665676803489,0 83.5499343677988,18.25665280201126,0 83.54991250416862,18.25653673261865,0 83.54988409521938,18.25639774838041,0 83.54988375126851,18.25639476149503,0 83.54988044354586,18.25627460291031,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Road/Ramp</name>
+			<styleUrl>#falseColor93</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">5</SimpleData>
+					<SimpleData name="Area">965.035</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Internal Ramp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54978147510941,18.25747435954986,0 83.54978244760349,18.25746878587766,0 83.54978517520567,18.25746377212365,0 83.5497893909191,18.25745980906892,0 83.54979468208036,18.25745728464485,0 83.54980053075379,18.25745644595953,0 83.54980636443061,18.25745737510933,0 83.54981161207006,18.25745998114252,0 83.54981575999686,18.25746400896251,0 83.54981840218296,18.25746906429834,0 83.54981927999263,18.25747465229857,0 83.54981758447566,18.25767452896159,0 83.54987036018771,18.25791229991587,0 83.54987069455559,18.25791767378722,0 83.54983981462503,18.2582438188459,0 83.54983763888045,18.25851912195253,0 83.54983758889567,18.2585203051655,0 83.54980888478326,18.25889465162141,0 83.54980765458703,18.25889986668671,0 83.54972276039165,18.2591088511341,0 83.5497201682724,18.25912077913101,0 83.54971927929898,18.2591236495647,0 83.54966829991507,18.2592489837367,0 83.54966555895201,18.25925358216794,0 83.54966154063175,18.25925722417204,0 83.54965658993513,18.25925959707559,0 83.54949888501504,18.2593091866898,0 83.5494944433355,18.25931003738891,0 83.54948991735706,18.25930985401908,0 83.5492890918797,18.25927839911616,0 83.54928347707228,18.25927662393032,0 83.54927871123168,18.25927327790618,0 83.54927526087168,18.25926868857598,0 83.54927346373744,18.25926330517546,0 83.54927349574496,18.25925765466931,0 83.54927535376089,18.25925229016859,0 83.54927885590955,18.25924773678796,0 83.54928365937617,18.25924444024392,0 83.54928929396397,18.25924272322511,0 83.54929520812033,18.25924275380525,0 83.54949146418302,18.25927349301715,0 83.54963629352426,18.25922795207821,0 83.54968347081592,18.25911196550798,0 83.54968606209547,18.25910004138709,0 83.54968694809007,18.25909717828285,0 83.54977138608207,18.25888931698684,0 83.5497998382891,18.2585182568266,0 83.54980201531471,18.25824279921088,0 83.5498020916492,18.25824130844314,0 83.54983278539954,18.25791713051655,0 83.54978017347209,18.25768009723451,0 83.54977976285515,18.25767620413974,0 83.54978147510941,18.25747435954986,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Road</name>
+			<styleUrl>#falseColor99</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">5</SimpleData>
+					<SimpleData name="Area">2064.68</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-External ramp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55148787267898,18.2486084122033,0 83.55148578055422,18.24860312701769,0 83.55148550013674,18.24859748278785,0 83.55148705887547,18.24859203201034,0 83.55149030419012,18.24858730824524,0 83.55149491840653,18.24858377388751,0 83.55150044985315,18.24858177490465,0 83.55150635707351,18.24858150697098,0 83.55151206182785,18.24858299631359,0 83.55151700569529,18.24858609714534,0 83.55152070473572,18.24859050593527,0 83.55158187232392,18.24869289578491,0 83.55167480464763,18.24876608856431,0 83.55181020389297,18.24881148686671,0 83.55201293182957,18.24883588337636,0 83.55218947450585,18.24884535706599,0 83.55219149392404,18.24884556992068,0 83.55228256193914,18.24885993716596,0 83.55229053723235,18.24886310659484,0 83.55234231161035,18.24889877362617,0 83.55234710256737,18.24890357661049,0 83.55234975491419,18.24890970858466,0 83.55237221375747,18.24901180381034,0 83.55237261002772,18.24901499613031,0 83.55237857915427,18.24921202605504,0 83.5524146408593,18.24945689182674,0 83.55241482244644,18.24945909671537,0 83.55241887504377,18.24968342572298,0 83.55243853483205,18.24996764348203,0 83.55244723797318,18.25009242571194,0 83.55246227180017,18.25014147201592,0 83.55248599084645,18.25017892387705,0 83.55252175562691,18.25020317142266,0 83.55260522327866,18.25023522126164,0 83.5527178578598,18.25027332623358,0 83.55283989949204,18.25030129366223,0 83.5531005419473,18.25029414167823,0 83.55310138834125,18.25029413656676,0 83.55328237003785,18.25029691568909,0 83.55328609040697,18.25029732737566,0 83.55342006832377,18.25032521923648,0 83.55342791664941,18.250328812202,0 83.5535205968781,18.25040029051239,0 83.55352417743023,18.25040394300514,0 83.55352657148491,18.25040839410367,0 83.55358481608465,18.25056788677702,0 83.55358555655194,18.25057055454966,0 83.55361738380346,18.25073510095872,0 83.55364280438829,18.25083518508674,0 83.55364315702836,18.25083695420595,0 83.55366042063899,18.25095544227523,0 83.5536603650644,18.25096077817999,0 83.55364894003192,18.25102919377086,0 83.55364760782349,18.25103355093301,0 83.55360547289423,18.25112612005882,0 83.55360217932254,18.2511310091876,0 83.55350505924868,18.25123395797242,0 83.55350451092113,18.25123451502686,0 83.55341875515093,18.2513180203685,0 83.55341537592055,18.25132062970629,0 83.55334122830311,18.25136549306643,0 83.5533156523105,18.25140421479294,0 83.55331992676433,18.25146291463397,0 83.55334445882259,18.25153771806541,0 83.55334450432991,18.25153785883653,0 83.55336784633688,18.25161112282852,0 83.55339052798996,18.25164750330871,0 83.55339272250576,18.25165275045423,0 83.55339311257575,18.25165838872624,0 83.55339166001703,18.25166386621138,0 83.55338850701605,18.2516686467352,0 83.55338396221032,18.25167226234673,0 83.55337847047713,18.25167435912456,0 83.55337256938576,18.25167473182148,0 83.55336683657625,18.25167334395518,0 83.55336183321612,18.25167033137983,0 83.55335804906925,18.25166598898726,0 83.55333419241275,18.25162772383709,0 83.55333234878043,18.25162374054356,0 83.55330836061353,18.25154844839176,0 83.55328318674778,18.25147168790611,0 83.55328236753996,18.25146754114074,0 83.55327750949543,18.25140082681848,0 83.55327803644656,18.25139516189099,0 83.55328038101841,18.25138993440531,0 83.55331153127399,18.25134277333058,0 83.55331740365142,18.25133715379642,0 83.55339330258191,18.25129123080337,0 83.5534772463825,18.25120948989557,0 83.55357203440677,18.25110901314137,0 83.55361198491175,18.25102124316813,0 83.55362258781247,18.25095775076511,0 83.55360584362644,18.25084282757722,0 83.55358052223845,18.25074313391914,0 83.55358030382381,18.25074215679931,0 83.55354864479544,18.25057847992793,0 83.55349265456027,18.25042516036121,0 83.55340765119753,18.25035960272029,0 83.55327988092813,18.2503330031854,0 83.55310120408433,18.25033025945988,0 83.55283847503416,18.25033746870436,0 83.5528335238828,18.25033697807358,0 83.55270807577557,18.25030823001041,0 83.55270617535928,18.25030769240861,0 83.55259223266512,18.25026914489651,0 83.55259149320199,18.25026887797822,0 83.55250558838212,18.25023589231837,0 83.55250169832829,18.25023386363519,0 83.55246091259949,18.25020621202223,0 83.55245567921361,18.25020083294761,0 83.55242865227024,18.25015815797793,0 83.55242668391584,18.25015388404033,0 83.55241037511301,18.25010067822525,0 83.55240965495976,18.25009680290123,0 83.55240081304144,18.24997003051156,0 83.55238112259069,18.24968536858681,0 83.55238108425787,18.24968448923802,0 83.55237704376992,18.24946082786903,0 83.55234099754908,18.24921606688379,0 83.55234082106261,18.24921407288151,0 83.55233487050049,18.24901765434663,0 83.55231426473664,18.24892398291526,0 83.5522720263957,18.24889488519595,0 83.55218633897242,18.24888136681517,0 83.55201015887047,18.24887191258586,0 83.55200885678288,18.24887179943868,0 83.55180348251372,18.24884708447093,0 83.55179958570329,18.24884620722154,0 83.55165911603639,18.24879910884881,0 83.55165335209182,18.24879600340068,0 83.55155515187415,18.24871866166374,0 83.55155075865436,18.2487136785286,0 83.55148787267898,18.2486084122033,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Road/Ramp</name>
+			<styleUrl>#falseColor48</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">5</SimpleData>
+					<SimpleData name="Area">2896.36</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Internal Ramp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54818046561012,18.25208640853731,0 83.54817962195573,18.25209200134381,0 83.54817701075531,18.25209707132696,0 83.54817288761113,18.25210112220152,0 83.54816765612532,18.25210375743947,0 83.54816182839214,18.25210471908535,0 83.54815597487108,18.25210391300651,0 83.54815066854553,18.25210141810754,0 83.54814642883584,18.25209747860661,0 83.54814367075427,18.25209248012958,0 83.54814266428104,18.25208691196234,0 83.54813926614344,18.25185397144626,0 83.54813963807692,18.25185014592596,0 83.5481817706675,18.25165073072936,0 83.54818379079587,18.25164550751982,0 83.54818738024214,18.2516411205629,0 83.54849554322823,18.25136544699988,0 83.54849735514028,18.25136401729825,0 83.54873721912161,18.25119758402352,0 83.54874112357652,18.25119549966976,0 83.5487454312824,18.2511943501657,0 83.54895465504819,18.25116336744195,0 83.54896138410618,18.25116352976987,0 83.54930562542107,18.25123165898809,0 83.54931042923319,18.25123327957348,0 83.54970682567757,18.25142785599429,0 83.55018389949502,18.25160020877167,0 83.55057157355979,18.25168218789891,0 83.55081004430622,18.25172007341556,0 83.55102640506493,18.25170261370312,0 83.55133150544613,18.25162798007508,0 83.55156337904533,18.25153486418564,0 83.5515678098965,18.25153366616748,0 83.55166699738716,18.25151898762042,0 83.55167298066031,18.25151901776483,0 83.55167865431874,18.251520833184,0 83.5519446333533,18.25165381235296,0 83.55195050530007,18.2516583849021,0 83.55212584384391,18.25186335167134,0 83.55232921162137,18.2520001657024,0 83.55233109723427,18.2520016152781,0 83.55243965352152,18.252096625985,0 83.55244390523274,18.25210208599301,0 83.55244574034499,18.2521086617037,0 83.55245346944304,18.25221243731936,0 83.55245292081865,18.25221821987096,0 83.55237631322639,18.25250268233954,0 83.55237479780727,18.25250647689421,0 83.55230523074501,18.2526350273421,0 83.55230150501016,18.2526397842323,0 83.55229636535542,18.25264312861091,0 83.55198772235163,18.25277931995771,0 83.55198754981696,18.2527793950891,0 83.55164427747944,18.25292689274802,0 83.55148504667807,18.25305682502484,0 83.55141827927854,18.25313758946621,0 83.55141393268825,18.25314142116853,0 83.55140855957013,18.2531437819959,0 83.55140268588252,18.25314444085399,0 83.55139688658312,18.25314333324911,0 83.55139172934791,18.25314056760135,0 83.55138771900306,18.2531364146317,0 83.55138524810913,18.25313128086178,0 83.55138455853425,18.2531256688209,0 83.55138571777876,18.2531201278547,0 83.55138861236752,18.25311520035161,0 83.55145652829724,18.25303304662215,0 83.55145908584007,18.25303050756583,0 83.55162178221144,18.25289774740488,0 83.55162630531309,18.25289500943116,0 83.55197195769288,18.25274648913082,0 83.55227462753116,18.25261293351373,0 83.55234023387368,18.25249170197992,0 83.55241554137008,18.2522120673075,0 83.55240856528501,18.25211840184208,0 83.5523064554846,18.25202903322241,0 83.55210196341272,18.25189146282302,0 83.55209821012112,18.25188812521567,0 83.55192368061159,18.25168410416482,0 83.55166663758729,18.25155559265694,0 83.5515758886869,18.2515690223963,0 83.5513448683147,18.2516617956531,0 83.55134223251012,18.25166264215405,0 83.55103425463221,18.25173797968375,0 83.55103115723767,18.25173847992311,0 83.55081086848351,18.25175625661899,0 83.55080617727693,18.25175607609287,0 83.55056487806728,18.25171774122963,0 83.5505638938546,18.25171755911974,0 83.55017440196002,18.25163519559554,0 83.55017180139207,18.25163445505631,0 83.54969245431958,18.25146128102788,0 83.54969050186922,18.25146045233428,0 83.54929544025497,18.2512665311403,0 83.54895706526929,18.25119956294375,0 83.5487557365024,18.2512293765491,0 83.54852052208422,18.25139258367175,0 83.54821763172538,18.25166354055017,0 83.54817709560308,18.25185539979522,0 83.54818046561012,18.25208640853731,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Road/Ramp</name>
+			<styleUrl>#falseColor53</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">5</SimpleData>
+					<SimpleData name="Area">596.809</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Internal Ramp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54885587952755,18.25120795973497,0 83.54885172183616,18.25121197822132,0 83.54884646797585,18.25121457244975,0 83.54884063223101,18.25121548847904,0 83.54883478584527,18.25121463664188,0 83.54882950110367,18.25121210032193,0 83.54882529531375,18.25120812779198,0 83.54882258016744,18.25120310791099,0 83.54882162144226,18.25119753205997,0 83.54882251298466,18.25119194604212,0 83.548825167524,18.25118689665573,0 83.54908417272306,18.25084212982673,0 83.54908741849795,18.25083879416822,0 83.54909143444161,18.25083634041638,0 83.5494494001163,18.25067426897627,0 83.54945344624501,18.25067294835286,0 83.54998300385749,18.25056201314768,0 83.54998890759771,18.25056168132854,0 83.5499946297051,18.25056310886491,0 83.54999961006003,18.25056615601956,0 83.55000336115067,18.25057052451584,0 83.5500055157943,18.25057578673498,0 83.55000586307909,18.25058142757438,0 83.55000436901038,18.2505868948694,0 83.55000117983774,18.2505916534431,0 83.5499966077396,18.25059523749307,0 83.54999110026472,18.2505972961874,0 83.54946364428758,18.25070779114583,0 83.54911203664302,18.25086698396291,0 83.54885587952755,18.25120795973497,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Road/Ramp</name>
+			<styleUrl>#falseColor1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">5</SimpleData>
+					<SimpleData name="Area">855.739</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Internal Ramp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55087013794025,18.25497356415477,0 83.55087037257805,18.25497921029061,0 83.55086876961592,18.25498464936133,0 83.55086548596273,18.25498934895288,0 83.55086084304524,18.25499284903631,0 83.55085529534462,18.25499480699902,0 83.55084938590848,18.25499503118193,0 83.5508436931939,18.25499349964044,0 83.55083877444349,18.25499036229246,0 83.55083511113899,18.25498592624361,0 83.55083306187008,18.25498062572526,0 83.55079274311483,18.25478737948705,0 83.55079239854473,18.25478468282576,0 83.55077460134889,18.25441689232886,0 83.55077463984003,18.25441463647144,0 83.55083799644024,18.2536480564981,0 83.55083859438996,18.25364475941961,0 83.55092130795312,18.25335279594022,0 83.55092135550173,18.25335263119676,0 83.55099755768525,18.25309340214773,0 83.55100002784148,18.2530882680523,0 83.55100403758927,18.25308411455527,0 83.55100919442646,18.25308134822983,0 83.55101499356594,18.25308023986311,0 83.5510208673478,18.25308089794962,0 83.55102624080537,18.25308325807135,0 83.55103058794741,18.25308708920316,0 83.55103348324542,18.25309201632727,0 83.55103464328728,18.25309755714256,0 83.55103395451999,18.2531031692754,0 83.55095777657232,18.25336231606826,0 83.5508755459403,18.25365257511486,0 83.55081242107944,18.25441635318601,0 83.55083009787175,18.25478165384413,0 83.55087013794025,18.25497356415477,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- Boundary Line</name>
+			<styleUrl>#falseColor55</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">1</SimpleData>
+					<SimpleData name="Area">568726</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- Boundary Line</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.5474222221975,18.2602305557178,0 83.54596944435308,18.25965555556363,0 83.54602560555556,18.25869244166667,0 83.54695080783779,18.25591484812362,0 83.54751666657809,18.25372222231467,0 83.54832499994721,18.25076111129508,0 83.54972222213736,18.24949722225094,0 83.55133055550864,18.24854166666908,0 83.55181944437028,18.24870555565019,0 83.5521138888207,18.24875000019187,0 83.55235277770237,18.24871666676661,0 83.55252777770467,18.24871944456504,0 83.55248333323708,18.24890277785556,0 83.5524416666142,18.24929444446462,0 83.55261111108155,18.24930277795032,0 83.55263055547448,18.24966666685353,0 83.55248611101509,18.24969722230314,0 83.55246666662539,18.2501027778291,0 83.55404444439718,18.25019166666907,0 83.55381111105289,18.25102777797074,0 83.55362499991863,18.25113611125025,0 83.55089166657444,18.2567638889916,0 83.54945833326173,18.25969722242023,0 83.5474222221975,18.2602305557178,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- Pit Area</name>
+			<styleUrl>#falseColor64</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">2</SimpleData>
+					<SimpleData name="Area">204354</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- Pit Area</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54746629826582,18.25961091589491,0 83.54750718524986,18.25939639586601,0 83.54749649496627,18.25913015364102,0 83.54758589782642,18.25900321375014,0 83.54761348389626,18.25892664914105,0 83.54764038683788,18.25885762667886,0 83.54775364223634,18.25867927320559,0 83.54775291906735,18.25847004090467,0 83.54777246398818,18.25834586779847,0 83.54777684195034,18.25814027751343,0 83.54775380977641,18.25789238772765,0 83.54776565232851,18.25783300272422,0 83.54786089648951,18.25768834741821,0 83.54802047504064,18.2574805953226,0 83.54818005322699,18.25727284313638,0 83.54825264207608,18.25704245152444,0 83.54839441133697,18.2569708390833,0 83.54858280964076,18.25682623121402,0 83.54866898640205,18.25666481272692,0 83.54861593717341,18.25643550186175,0 83.54850280782068,18.25615602044526,0 83.54832656404119,18.25562418833243,0 83.5482855966095,18.25536091491028,0 83.54834377950196,18.25521382003153,0 83.54840263267158,18.25495365087595,0 83.54843355877107,18.25484682447974,0 83.54846635192025,18.25470893566725,0 83.54843854485357,18.25460365957297,0 83.54839027162511,18.25458358196072,0 83.54836041584143,18.25452523000893,0 83.54831475307246,18.25441720682629,0 83.54830538829367,18.25433197830797,0 83.54835442074462,18.25419387320453,0 83.54830549320248,18.25390337339612,0 83.54826664464655,18.2537732480117,0 83.54836066187183,18.25362586791393,0 83.54839359676204,18.25337864873192,0 83.54843377002555,18.25326003061284,0 83.54845032081074,18.25277790043985,0 83.54848934022715,18.25252583191188,0 83.5485183918846,18.25245174481007,0 83.54858968380792,18.25232145660972,0 83.54865190071463,18.2522212008537,0 83.54871905757913,18.25214017108937,0 83.54882924692527,18.25209441558741,0 83.54893089021253,18.25207502186147,0 83.5491518727414,18.25210472554367,0 83.54926847248827,18.25213387203677,0 83.5496098731433,18.25217164029245,0 83.54977686540087,18.2522537001719,0 83.54993642684529,18.2523317088965,0 83.55014253095543,18.25240612917831,0 83.55028359123844,18.2527062397326,0 83.55037843749365,18.25324514551564,0 83.55044524662112,18.25345943254404,0 83.55057473769067,18.25392441907696,0 83.55058180368798,18.25399693896657,0 83.5505946216705,18.25406290642879,0 83.55064286559487,18.25433531615964,0 83.55064415129685,18.25452970081253,0 83.5506490070598,18.25475522831285,0 83.55071837948913,18.2550392013427,0 83.55078999294665,18.25515696515041,0 83.55085550331894,18.25528223021089,0 83.55087047619232,18.25535029377623,0 83.55088959510961,18.25548953322992,0 83.55090004690275,18.25567340772923,0 83.55097659364502,18.25570355065814,0 83.55107669385286,18.25575118725573,0 83.55103973264534,18.25586671698587,0 83.55088318272362,18.2560075287209,0 83.55083224066281,18.25602898375281,0 83.5508291932439,18.25624568587266,0 83.55090891482132,18.25629737193889,0 83.55089145913742,18.2563957742832,0 83.55087931396571,18.25645264926784,0 83.55086716878849,18.25650952425244,0 83.5508774599973,18.25660844754996,0 83.55085215667441,18.2567023000345,0 83.5508121175767,18.25680470098318,0 83.55080461348855,18.25689404930772,0 83.55080779416967,18.25692461870134,0 83.54945833365298,18.25969722250264,0 83.5474222221975,18.2602305557178,0 83.54730927047775,18.26018605755248,0 83.54739237296026,18.26002667442587,0 83.54741359955598,18.25988467110201,0 83.54746629826582,18.25961091589491,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Dump-1</name>
+			<styleUrl>#falseColor97</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">3</SimpleData>
+					<SimpleData name="Area">129025</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- Dump-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54805681507735,18.25248534607852,0 83.54798684410424,18.25237349496662,0 83.54801937838091,18.25215491578355,0 83.54804626438562,18.25210171960377,0 83.54842564401984,18.25081722399237,0 83.54868184435423,18.25057826468607,0 83.54929733298557,18.25012174375733,0 83.54947911620538,18.25000026391678,0 83.55004066307139,18.24962601189405,0 83.55012719437811,18.24957107479314,0 83.55074087064419,18.24918146127477,0 83.55098730384459,18.24896598544463,0 83.55130346730964,18.248813372249,0 83.55173457395314,18.24903971135781,0 83.55196110906394,18.24907172028304,0 83.5521172667611,18.24923584378915,0 83.55217188372653,18.2493597698978,0 83.55216916990049,18.24970557397797,0 83.55207305453031,18.24997113895714,0 83.55217889598647,18.2502699285361,0 83.55221714410334,18.25033957740349,0 83.5522967617208,18.25043918538587,0 83.55243925181297,18.25051816178062,0 83.55282973896713,18.25049154351047,0 83.55294028855614,18.25047512022154,0 83.55308458579486,18.25042533660463,0 83.55328002685616,18.25040788904527,0 83.55340871088343,18.25044549741997,0 83.55349352721231,18.25061650739915,0 83.55352841416324,18.25077185984002,0 83.55349109799931,18.25085886355429,0 83.55347344880062,18.25090053140558,0 83.5533813274083,18.25099988991836,0 83.55320341856289,18.25114553667517,0 83.55308582191071,18.25159914932342,0 83.55294426910895,18.25179692356508,0 83.55282288982841,18.25209979126076,0 83.55265798677375,18.25240027162711,0 83.55210013556224,18.25235895775187,0 83.55204200604497,18.25223041081586,0 83.55201940039962,18.25211830068144,0 83.55192686749291,18.25200378423428,0 83.55183658813064,18.25188404373456,0 83.55177139143484,18.25183334484671,0 83.55169418025103,18.25183734251427,0 83.55146716753814,18.25192644081465,0 83.55091108603848,18.25213567698763,0 83.55033275094463,18.25209738302379,0 83.54984108031191,18.25199994864411,0 83.54948762352211,18.25165751457549,0 83.54884512470052,18.25158593915921,0 83.54861518944848,18.25190063890044,0 83.54845865969992,18.25219392062974,0 83.54843851104374,18.25235263976701,0 83.54827423782642,18.2524839344447,0 83.54816730659479,18.2525001984347,0 83.54805681507735,18.25248534607852,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Dump-2</name>
+			<styleUrl>#falseColor77</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">3</SimpleData>
+					<SimpleData name="Area">63979</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- Dump-2</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54802966953753,18.25504029545854,0 83.54787928471181,18.25517477318218,0 83.54781642327299,18.25536369192834,0 83.54785907040942,18.25558827665232,0 83.54792475532101,18.25574931550693,0 83.54806896183135,18.2559343860021,0 83.5480521698347,18.25603491980858,0 83.54801420857881,18.25617062606389,0 83.54811269397482,18.25642881223473,0 83.54805944024527,18.25684602671562,0 83.54798889992033,18.25701705741558,0 83.54787511408956,18.25719629640291,0 83.54768716512785,18.25737652310044,0 83.54755321890282,18.25750369471983,0 83.54748223808632,18.25754772588431,0 83.54739462368163,18.25791579270425,0 83.54738275579467,18.25816334217545,0 83.54733137298375,18.25863947468643,0 83.54736728795091,18.25917929297974,0 83.54730678549038,18.2596338689496,0 83.54725294485922,18.2599246321528,0 83.54713828530726,18.26011673978296,0 83.54603928856137,18.25968542789995,0 83.54605563346352,18.25922154804227,0 83.54610898029655,18.2586538669937,0 83.54618836111035,18.25838458947521,0 83.54631068542231,18.25808639175122,0 83.54640925926468,18.25788118808872,0 83.5464400423317,18.25772268065154,0 83.54703022117849,18.25601391105748,0 83.54716575069266,18.25584561494815,0 83.54725684312757,18.25566853057355,0 83.54727406529435,18.25528450571596,0 83.54731348600821,18.25517058668786,0 83.54739433080817,18.25508010329868,0 83.54749460747279,18.25507004541196,0 83.5475294403285,18.25511101404117,0 83.54770765166539,18.25512390544467,0 83.54794512851366,18.25470741675338,0 83.54804667625196,18.25458294902981,0 83.54808675597438,18.25435780769719,0 83.54820333002847,18.25390049805831,0 83.54822607783132,18.25405175063266,0 83.54821394940289,18.25423726788574,0 83.5482304571334,18.25474296005572,0 83.54814176771502,18.25497447214646,0 83.54802966953753,18.25504029545854,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Stokyard</name>
+			<styleUrl>#falseColor6</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">4</SimpleData>
+					<SimpleData name="Area">27446.3</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- Stockyard</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55090005409188,18.25219202339082,0 83.55098577754246,18.25235364362717,0 83.55126891265974,18.25238276741355,0 83.55138359387418,18.25278987743033,0 83.55138011422417,18.25304792062163,0 83.55185294192597,18.25285028169964,0 83.55245150730447,18.2528370303286,0 83.55201057219301,18.25396414474296,0 83.55140269890354,18.25391164891783,0 83.55091138587557,18.25377448395636,0 83.55098918864327,18.25401412819726,0 83.5510040300104,18.25428577931022,0 83.55103890366092,18.254564089385,0 83.55102472934213,18.25483439585373,0 83.55089095975931,18.25498162741459,0 83.55080310158594,18.25492330947128,0 83.55073949696737,18.25437555678288,0 83.55067223915046,18.25400452350006,0 83.55079694713839,18.25384808524774,0 83.55080472572769,18.25363738422983,0 83.55053447201919,18.25359077302142,0 83.55047573581089,18.25291929221358,0 83.55071552969673,18.25283471396989,0 83.55063914251934,18.25223236420059,0 83.55075299366285,18.25218717960768,0 83.55090005409188,18.25219202339082,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Nursury</name>
+			<styleUrl>#falseColor27</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">6</SimpleData>
+					<SimpleData name="Area">14023.1</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- Nursery</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55096757226794,18.25383083881063,0 83.55175961105118,18.25401316102299,0 83.55196048894027,18.25411783598957,0 83.55192035155996,18.25447160171448,0 83.55139282370696,18.25571201370013,0 83.55110417091589,18.2555336946064,0 83.55096757226794,18.25383083881063,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- Existing afforestation</name>
+			<styleUrl>#falseColor61</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">6</SimpleData>
+					<SimpleData name="Area">32061.7</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- Existing Afforestation</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55133055550864,18.24854166666908,0 83.55181944437028,18.24870555565019,0 83.5521138888207,18.24875000019187,0 83.55235277770237,18.24871666676661,0 83.55252777770467,18.24871944456504,0 83.55248333323708,18.24890277785556,0 83.5524416666142,18.24929444446462,0 83.55261111108155,18.24930277795032,0 83.55263055547448,18.24966666685353,0 83.55248611101509,18.24969722230314,0 83.55246666662539,18.2501027778291,0 83.55404444439718,18.25019166666907,0 83.55381111105289,18.25102777797074,0 83.55362499991863,18.25113611125025,0 83.55330987587286,18.25073505567394,0 83.55280741377248,18.25045177384735,0 83.55221714410334,18.25033957740349,0 83.55217889598647,18.2502699285361,0 83.55207305453042,18.24997113895714,0 83.55212135299973,18.24978503423559,0 83.55201852510162,18.24949183945142,0 83.55202084409957,18.24930430032127,0 83.55191507718126,18.24924255889897,0 83.55174488780403,18.24910783703679,0 83.5513066246517,18.24905746598974,0 83.55101811660074,18.24909902201172,0 83.55072632571176,18.24919066717086,0 83.54933543998909,18.25009627810714,0 83.54921361427193,18.25018383993637,0 83.54868184435423,18.25057826468607,0 83.54842564401984,18.25081722399237,0 83.5483621249996,18.25072672429308,0 83.54972222213736,18.24949722225094,0 83.55133055550864,18.24854166666908,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- Existing afforestation on Dump</name>
+			<styleUrl>#falseColor50</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">6</SimpleData>
+					<SimpleData name="Area">27378.1</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- Afforestation on Dump</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.5513901584372,18.25013989221215,0 83.55118347397286,18.24987871368482,0 83.5509392306128,18.24986362687458,0 83.55008723966256,18.25017384714086,0 83.54944136383978,18.25056293808592,0 83.54851825880165,18.25100086658598,0 83.54842466743163,18.25081751094256,0 83.54868086776794,18.25057855163733,0 83.54929635640316,18.25012203071135,0 83.549478139624,18.25000055087152,0 83.54986850863692,18.2497396788194,0 83.55003968649341,18.24962629885139,0 83.55043586789992,18.2493747701556,0 83.5507398940702,18.24918174823523,0 83.55101714002784,18.24909930897341,0 83.55130564807968,18.24905775295291,0 83.55174391123273,18.24910812400212,0 83.55191410060968,18.24924284586523,0 83.55201986752786,18.24930458728808,0 83.55201754852891,18.24949212641835,0 83.55212037642571,18.24978532120319,0 83.55207207795524,18.24997142592463,0 83.5513901584372,18.25013989221215,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-afforestation</name>
+			<styleUrl>#falseColor71</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">6</SimpleData>
+					<SimpleData name="Area">1029.26</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- Existing Afforestation</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55275518749374,18.25246099086079,0 83.55322238413152,18.25180721550554,0 83.55327749034859,18.25183219069618,0 83.5532698198063,18.2518690866163,0 83.5531389485016,18.25213683775683,0 83.55306886501414,18.25227045066589,0 83.55296965275254,18.25236397793738,0 83.55282727574587,18.25249552522256,0 83.55275518749374,18.25246099086079,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-afforestation</name>
+			<styleUrl>#falseColor84</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">6</SimpleData>
+					<SimpleData name="Area">4621.15</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- Existing Afforestation</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55192035155996,18.25447160171448,0 83.55196048894027,18.25411783598957,0 83.55175961105118,18.25401316102299,0 83.55198392377133,18.25386125824739,0 83.55215342369208,18.25367891905541,0 83.55244865685711,18.2531096389942,0 83.552357967106,18.25285631525217,0 83.55265894943203,18.2526185445851,0 83.55273132380852,18.25261065290431,0 83.55220788282827,18.2540262283178,0 83.55173867346679,18.25502984337806,0 83.55167679008981,18.25501162204625,0 83.55192035155996,18.25447160171448,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Settling Tank</name>
+			<styleUrl>#falseColor101</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">7</SimpleData>
+					<SimpleData name="Area">49.421</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- Settling Tank</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55220679272043,18.25237698200384,0 83.55231023671132,18.2523878449862,0 83.55229240456117,18.25244299018756,0 83.55219819980717,18.252400098345,0 83.55220679272043,18.25237698200384,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Settling Tank</name>
+			<styleUrl>#falseColor82</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">7</SimpleData>
+					<SimpleData name="Area">179.443</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- Settling Tank</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55203574195428,18.25385976107033,0 83.55218752096592,18.25388608487403,0 83.5521594813074,18.25399767207043,0 83.55202260680072,18.25395006982441,0 83.55203574195428,18.25385976107033,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Settling Tank</name>
+			<styleUrl>#falseColor83</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">7</SimpleData>
+					<SimpleData name="Area">289.319</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- Settling Tank</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55348204873958,18.25094239413115,0 83.55354982518871,18.25097310906358,0 83.55352600772147,18.25106119802087,0 83.55346231373483,18.25115363526113,0 83.55339003567485,18.25120529987073,0 83.55333598208784,18.25117658241827,0 83.55348204873958,18.25094239413115,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Settling Tank</name>
+			<styleUrl>#falseColor4</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">7</SimpleData>
+					<SimpleData name="Area">86.871</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- Settling Tank</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55327312990279,18.2516876929821,0 83.55332723145567,18.25171968076808,0 83.55327291952626,18.25182943797013,0 83.55322238413152,18.25180721550554,0 83.55327312990279,18.2516876929821,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Sub grade Stock</name>
+			<styleUrl>#falseColor69</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">4</SimpleData>
+					<SimpleData name="Area">4381.7</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- Stockyard</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55135262789632,18.25225178696283,0 83.55151484240383,18.25225308689579,0 83.55164741365388,18.25227209723421,0 83.55179366259564,18.25229698538739,0 83.55200174337877,18.25233663242041,0 83.5520878506273,18.2524004159627,0 83.55224697734526,18.25250045315219,0 83.55225244302521,18.25256444652778,0 83.55205137050517,18.25269439542379,0 83.55186939383033,18.25276694923731,0 83.55168689851962,18.25280401361415,0 83.55159431494928,18.2527931276844,0 83.55147943231492,18.25274444559392,0 83.55137476361074,18.25265060765086,0 83.55132744335047,18.25251271687718,0 83.55128955319186,18.25227600357011,0 83.55135262789632,18.25225178696283,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha-Rest selter </name>
+			<styleUrl>#falseColor86</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RBSSD_symbology_DS">
+					<SimpleData name="FID">9</SimpleData>
+					<SimpleData name="Area">176.669</SimpleData>
+					<SimpleData name="Name">SDPM Mn Mine - RBSSD&amp;FNDas- 56.838 Ha- Site services</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55107708387344,18.25213750102291,0 83.55110564016849,18.25223148825691,0 83.55095631955726,18.25227546853705,0 83.5509371682874,18.25217399691183,0 83.55107708387344,18.25213750102291,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

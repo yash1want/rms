@@ -1,0 +1,113 @@
+var final_submt_btn = $("#hidden_final_sub").val();
+var sub_btn = $("#hidden_final_sub_btn").val();
+var payment_module_status = $('#payment_module_status').val();
+var loginusertype = $("#loginusertype").val();
+var formview = $("#formview").val();
+var commentsectionview = $("#commentsectionview").val();
+var hidecommentbox = $("#hidecommentbox").val();												
+
+if(payment_module_status == 'view-all'){
+  final_submt_btn = 'view_all';
+  commentsectionview = 'view_all';       // 24-05-2022
+}else if(payment_module_status == 'edit'){
+  final_submt_btn = 'view_all';
+  if(current_action !="paymentDetail"){  // 24-05-2022
+	   commentsectionview = 'view_all';    
+  }
+}
+
+ $(document).ready(function()
+ {
+    $('#main_outer_form').ready(function(){
+        input();
+    });
+});
+ 
+function input()
+{
+		if(final_submt_btn == 'view_all'){
+
+		  $("#main_outer_form :input").prop("disabled", true);
+		  $("#main_outer_form :input[type='radio']").prop("disabled", true);
+		  $("#main_outer_form :input[type='select']").prop("disabled", true);
+		  $("#main_outer_form :input[type='submit']").css('display','none');
+		  $("#main_outer_form :input[type='reset']").css('display','none');
+		  $("#main_outer_form :input[type='button']").prop("disabled", true);
+		  $("#main_outer_form :input[type='hidden']").prop("disabled", false);
+		  $("#add_more").remove();
+		  if(sub_btn == 'yes' && payment_module_status == 'edit'){
+			$(".remove_btn_btn").show();
+		  }else{
+			$(".remove_btn_btn").remove();
+		  }
+
+		}
+		
+		if(formview == 'view_all'){
+
+		  $("#main_outer_form :input").prop("disabled", true);
+		  $("#main_outer_form :input[type='radio']").prop("disabled", true);
+		  $("#main_outer_form :input[type='select']").prop("disabled", true);
+		  $("#main_outer_form :input[type='submit']").css('display','none');
+		  $("#main_outer_form :input[type='reset']").css('display','none');
+		  $("#main_outer_form :input[type='button']").prop("disabled", true);
+		  $("#main_outer_form :input[type='hidden']").prop("disabled", false);
+		  $("#add_more").remove();
+		  $(".remove_btn_btn").remove();
+		  //$(".commentboxf").css('display','none');	
+		  $("#showuploadmodelhref").css('display','none');
+		}
+		
+		if(commentsectionview == 'view_all'){
+			
+			$(".cmnt-edit").css('display','none');
+			$(".cmnt-del").css('display','none');
+			$("#btnSubmit").css('display','none');
+			$("#btnApproved").css('display','none');
+			$("#save_comment").css('display','none');
+			$("#referred_back_final_submit").css('display','none');
+			$("#final_submt_btn").css('display','none');
+			$("#btnReject").css('display','none');
+			$(".commentboxf").css('display','none');
+			
+		}else if(hidecommentbox == "true"){
+			
+			$(".commentboxf").css('display','none');
+			$("#save_comment").css('display','none');
+			
+		}else{
+			$(".cmnt-edit").css('display','none');
+			$(".cmnt-del").css('display','none');
+		}
+
+		if(payment_module_status == 'edit-all'){
+			$("#main_outer_form #payment_transaction_id").prop("disabled", false);
+			$("#main_outer_form #payment_trasaction_date").prop("disabled", false);
+			$("#main_outer_form #payment_receipt_document").prop("disabled", false);
+		}else if(payment_module_status == 'view-all'){
+			$("#main_outer_form #payment_transaction_id").prop("disabled", true);
+			$("#main_outer_form #payment_trasaction_date").prop("disabled", true);
+			$("#main_outer_form #payment_receipt_document").prop("disabled", true);
+		}else if(payment_module_status == 'edit'){
+			var curCntrl = $('#current_controller').val();
+			var curAction = $('#current_action').val();
+			$("#main_outer_form input[name='bharatkosh_payment_done']").prop("disabled", false);
+			$("#main_outer_form #payment_transaction_id").prop("disabled", false);
+			$("#main_outer_form #payment_trasaction_date").prop("disabled", false);
+			$("#main_outer_form #payment_receipt_document").prop("disabled", false);
+			$("#main_outer_form #payment_amount").prop("disabled", false);
+			$("#main_outer_form #applicant_comment").prop("disabled", false);
+			
+			if(curCntrl == 'Payment' && curAction == 'paymentDetail'){
+				$("#main_outer_form #btnSubmit").prop("disabled", false);
+				$("#main_outer_form #btnSubmit").show();
+			}
+			if(sub_btn == 'yes'){
+				$("#main_outer_form #final_submt_btn").prop("disabled", false);
+			}
+	  }
+
+}
+  
+ 
+

@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Durgaiburu_LULC.kml</name>
+	<Schema name="DURGAIBURU_BOUNDARY_L" id="S_DURGAIBURU_BOUNDARY_L_DD0">
+		<SimpleField type="double" name="AREA_AC"><displayName>&lt;b&gt;AREA_AC&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="AREA_HA"><displayName>&lt;b&gt;AREA_HA&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="PolyStyle701">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ffff55ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle70">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle7000">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="PolyStyle700">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PolyStyle701</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PolyStyle7010</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="PolyStyle7004">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle70042">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle70041">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff7f00ff</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle70040">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle7010">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ffff55ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="PolyStyle7011">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PolyStyle7000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PolyStyle70</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="PolyStyle70131">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PolyStyle7051</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PolyStyle7004</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="PolyStyle70130">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PolyStyle705</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PolyStyle70041</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="PolyStyle7013">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PolyStyle7052</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PolyStyle70040</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="PolyStyle70132">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PolyStyle7050</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PolyStyle70042</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="PolyStyle7051">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle705">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff7f00ff</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle7050">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle7052">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor01">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>AREA_AC</b></td><td>$[DURGAIBURU_BOUNDARY_L/AREA_AC]</td></tr>
+  <tr><td><b>AREA_HA</b></td><td>$[DURGAIBURU_BOUNDARY_L/AREA_HA]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor07">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>AREA_AC</b></td><td>$[DURGAIBURU_BOUNDARY_L/AREA_AC]</td></tr>
+  <tr><td><b>AREA_HA</b></td><td>$[DURGAIBURU_BOUNDARY_L/AREA_HA]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor11">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>AREA_AC</b></td><td>$[DURGAIBURU_BOUNDARY_L/AREA_AC]</td></tr>
+  <tr><td><b>AREA_HA</b></td><td>$[DURGAIBURU_BOUNDARY_L/AREA_HA]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor17">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>AREA_AC</b></td><td>$[DURGAIBURU_BOUNDARY_L/AREA_AC]</td></tr>
+  <tr><td><b>AREA_HA</b></td><td>$[DURGAIBURU_BOUNDARY_L/AREA_HA]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor07</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor17</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff55ff</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin8">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin9">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin8">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff55ff</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin9">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Durgaiburu</name>
+		<open>1</open>
+		<Placemark>
+			<name>Second Level Dump-4</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							85.36870082413074,22.22229717876242,0 85.36936884912105,22.22211901314233,0 85.36939427261881,22.22135376947001,0 85.37005560332472,22.22107339300711,0 85.37064801573035,22.22241626422976,0 85.37092455117148,22.22311616471581,0 85.37072582722307,22.22323050092215,0 85.370310416682,22.22344772224809,0 85.36938525612666,22.22397444797376,0 85.36787838233897,22.2248193563224,0 85.36764159823851,22.22466159903248,0 85.3676389871694,22.22421042588503,0 85.36783380624472,22.22343567291656,0 85.36826080472255,22.22262125701468,0 85.36870082413074,22.22229717876242,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ranichua Dump-1</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							85.36008954189724,22.21863459501895,0 85.36001518795391,22.21908961650749,0 85.36078098555285,22.22098628788829,0 85.36103290375792,22.22185630950394,0 85.36066735204166,22.22251565699999,0 85.36039740351659,22.22235881212153,0 85.36047082738801,22.22181594775437,0 85.36028514975203,22.22151174091786,0 85.35880050603409,22.22019658082392,0 85.35853230708418,22.21923345065629,0 85.35823823951087,22.21895211430918,0 85.35792389220798,22.21892786292888,0 85.35765500580905,22.21880578397732,0 85.3575042351022,22.2183433925801,0 85.35732957700255,22.21793002663171,0 85.3573589605955,22.21771661339405,0 85.35769801774894,22.21753974311045,0 85.35813001558711,22.21741271050181,0 85.3585440274243,22.21737577183904,0 85.35893558984131,22.21771585095524,0 85.3594737395305,22.21798445188657,0 85.35970672727143,22.21789386790252,0 85.36016211953984,22.21821779872119,0 85.36008954189724,22.21863459501895,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Plantation-3(Ranichua Dump)</name>
+			<open>1</open>
+			<styleUrl>#PolyStyle70132</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							85.35970720495293,22.21789688439814,0 85.35946906587374,22.21798057018914,0 85.35893724641267,22.21771184928299,0 85.35854069257104,22.21737290762872,0 85.35868952628236,22.2173568974628,0 85.359415484016,22.2176759189858,0 85.35970720495293,22.21789688439814,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Plantation-2(Ranichua)</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							85.35753540521118,22.22052441013515,0 85.35782000316594,22.22037060746484,0 85.35807371998747,22.22059841831637,0 85.35846562878271,22.22087209954588,0 85.35860930942684,22.22142667788843,0 85.35830852549799,22.22156856371984,0 85.35811336561653,22.22149514346681,0 85.35800480972352,22.22105257025291,0 85.35753540521118,22.22052441013515,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Plantation -1(OTHill)</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							85.36981511603756,22.22866053943267,0 85.36980676875619,22.22810104631716,0 85.37018753921755,22.22793226251362,0 85.37064613684117,22.22812880962173,0 85.37065740992101,22.22830331049387,0 85.37033571426257,22.22851578353247,0 85.37014607249297,22.22871233147276,0 85.36986676032436,22.22893783910895,0 85.36981511603756,22.22866053943267,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>OTHill Dump-2</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin4</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							85.37065434242268,22.22830136367906,0 85.37120002587402,22.22881543843072,0 85.37174118123141,22.22958538412363,0 85.37166040361083,22.23010230402931,0 85.37220193208627,22.23082790697726,0 85.37217444382664,22.23119251948756,0 85.37217629095011,22.23152371510001,0 85.37183033734721,22.23187299797346,0 85.37067963977674,22.2306611340923,0 85.37033168762166,22.23014087866449,0 85.36993358246706,22.22950203336231,0 85.36988458453531,22.2290984211903,0 85.36986214312527,22.22893620057129,0 85.37012159786873,22.22873926427339,0 85.37033536160763,22.22850879847611,0 85.37052396180133,22.22838283015239,0 85.37065434242268,22.22830136367906,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ML Boundary</name>
+			<open>1</open>
+			<styleUrl>#falseColor3</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_DURGAIBURU_BOUNDARY_L_DD0">
+					<SimpleData name="AREA_AC">3567.59</SimpleData>
+					<SimpleData name="AREA_HA">1443.76</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							85.33661653799703,22.18830555467727,0 85.33708985691094,22.18864015596411,0 85.33757890921531,22.18894624112173,0 85.33929390910554,22.18998661571877,0 85.34007037842629,22.1902908453335,0 85.34060405874027,22.19029389463016,0 85.34143377277655,22.1897790192579,0 85.34180297076881,22.18980428553289,0 85.34219340867502,22.18998748246916,0 85.34323981209785,22.19068634364749,0 85.34390898997076,22.1913885315806,0 85.34487024126564,22.19212953039139,0 85.3458041294187,22.19323585903461,0 85.34650151859138,22.19416055937287,0 85.34698792645912,22.19469599553704,0 85.34784321673261,22.19528535608017,0 85.34847120209612,22.19556414479768,0 85.34898934689211,22.1953615018682,0 85.34935421647809,22.19509995229772,0 85.34933623620246,22.19466246768998,0 85.34888888199431,22.1938586007317,0 85.34785174201022,22.19258277198261,0 85.34727683171764,22.1917166714277,0 85.34719133089278,22.19081499303662,0 85.3476309306164,22.18991139474564,0 85.34782589480416,22.18912575065069,0 85.3474844319331,22.18841619112975,0 85.3600454146507,22.18835485623667,0 85.36690751096592,22.19494276477332,0 85.36880383558537,22.19782934924605,0 85.36973986297572,22.20058699752166,0 85.36945049868827,22.20097839104006,0 85.36942359714448,22.20130789270261,0 85.36943178877813,22.20193167227241,0 85.3693438851278,22.2022103802607,0 85.36908199875099,22.20222209450743,0 85.36878054714943,22.20232660801024,0 85.36826380875311,22.20240745621845,0 85.36785674369617,22.20232451699972,0 85.36726932959913,22.20185981461167,0 85.36693237486089,22.20170588706732,0 85.36680051990119,22.2017905914045,0 85.36665202536619,22.2019826626128,0 85.36653422132019,22.20284892094223,0 85.36647063148037,22.20368704739743,0 85.36622835082831,22.20400004858168,0 85.36588691096132,22.2042331956903,0 85.36533217376275,22.20427063909336,0 85.36396983585905,22.20424261390743,0 85.36324657912679,22.20420666707567,0 85.36315636743352,22.20401936803056,0 85.36328371983075,22.20299549312838,0 85.36334749413891,22.20214303280828,0 85.36319124635007,22.20167548193774,0 85.36294666836034,22.20152247519471,0 85.36274544977321,22.20161364748423,0 85.36238686912584,22.20199716219893,0 85.36198259969883,22.20233720275876,0 85.36158685802876,22.20260563887557,0 85.36111630205505,22.20268692893574,0 85.36083752136445,22.2028275001807,0 85.36053614665617,22.20292482987837,0 85.35998191419593,22.20291924683462,0 85.35924016688602,22.20270865280113,0 85.35848059096236,22.20292801018127,0 85.35787955300007,22.20275467348199,0 85.35704675305095,22.20265068464609,0 85.3566224089401,22.20273003834198,0 85.35636317749879,22.20295443624113,0 85.35657933050476,22.20312389308544,0 85.35813772345749,22.20394492656333,0 85.35860307038132,22.20453269090049,0 85.35913033676279,22.20509240266666,0 85.35965034280503,22.20539395901556,0 85.36040026222814,22.20534416376235,0 85.36112130201145,22.2052399091176,0 85.3618210739138,22.20519916085244,0 85.3622054095717,22.20525082138529,0 85.36265250800825,22.20542259434738,0 85.36318699087518,22.20580433836214,0 85.36355385845434,22.2062560847496,0 85.36422257539004,22.20668099391185,0 85.36440198521859,22.20670071926241,0 85.36462085369283,22.2066372034968,0 85.36475771248116,22.20645338146816,0 85.36498010986922,22.20608522146668,0 85.36516759469917,22.20596164860901,0 85.36532755160941,22.20599909981359,0 85.36562614574626,22.20625301076949,0 85.36579464434561,22.2066609417018,0 85.36608034168508,22.20692069652561,0 85.36623409250156,22.20694016228626,0 85.36642667868357,22.20693014717811,0 85.36661450922357,22.20677670560278,0 85.36685545597504,22.20646847003827,0 85.36692458188499,22.20603902803715,0 85.36705254695937,22.20551459058649,0 85.36735308984483,22.20504565107375,0 85.36777537420882,22.20458987994899,0 85.36815612818761,22.20439655203919,0 85.36861268516986,22.20430554282082,0 85.3690873126864,22.20431627324929,0 85.36959084276907,22.20404650850411,0 85.3700161517296,22.20388349287291,0 85.37062059138289,22.20376408809189,0 85.37093415818013,22.20383294189335,0 85.3713825787937,22.2044467890435,0 85.37194468568241,22.20577269220425,0 85.37216038778399,22.20653953662049,0 85.37246411029817,22.20746258806589,0 85.37267512434492,22.20808003212601,0 85.37265734292379,22.2090655835263,0 85.37246152294783,22.20991194969209,0 85.37224990051546,22.2104594516535,0 85.37175103862882,22.2103230305602,0 85.37138641213274,22.21022977020724,0 85.37109731910914,22.21026272147371,0 85.37066419678098,22.2105451428978,0 85.37016802558145,22.21073134587264,0 85.36939228016031,22.21068175591274,0 85.3685910823226,22.2106139848005,0 85.36793025765381,22.21061333279937,0 85.36730529715958,22.21084005386997,0 85.36628225167692,22.21109264690777,0 85.36574840487924,22.21115083019988,0 85.36529412294438,22.21137567275917,0 85.365082747624,22.21189926987695,0 85.36539385230581,22.21251414293154,0 85.36624509703745,22.21278555213673,0 85.36692833160561,22.21295729570386,0 85.36754929752989,22.2130409717087,0 85.36815867357363,22.21305305809395,0 85.36901251867306,22.21300785170904,0 85.36976944911318,22.21246581897766,0 85.37073904016766,22.21184227420621,0 85.37139717962624,22.21152028618025,0 85.37191128810531,22.21144776713284,0 85.37210933079128,22.21152143776395,0 85.37220052483372,22.21173622327161,0 85.37211091192921,22.21238531030705,0 85.37175243914577,22.2132037615089,0 85.37147132939384,22.21354505711692,0 85.37067490015944,22.21406280579881,0 85.36948421790885,22.21493982556426,0 85.36947902574731,22.21538902623895,0 85.37002900278314,22.21576732097485,0 85.37144540325313,22.21668001022763,0 85.37197618526987,22.21694340380262,0 85.37237573443066,22.21701431140669,0 85.37288940806542,22.21698121507573,0 85.37361079903989,22.21673990489305,0 85.3743143021146,22.21626900664362,0 85.37505057609799,22.21610908643434,0 85.37674084493209,22.21586309747714,0 85.37700967187551,22.21591954635987,0 85.37733225193561,22.21632302993358,0 85.37734620694664,22.21678317642221,0 85.37733837302225,22.21746414803239,0 85.37723650592649,22.21795300984838,0 85.37714822502926,22.21837629175131,0 85.37710100287484,22.21913453380118,0 85.37696561204645,22.21974851730002,0 85.37639050244367,22.22010122556078,0 85.37634414932631,22.22022621937508,0 85.37627325368304,22.22081097513525,0 85.37621234949808,22.22108517653204,0 85.37605058365558,22.22120304403108,0 85.37579272093633,22.22130800367286,0 85.37505989576586,22.22142614149174,0 85.37472408073252,22.22161395825349,0 85.37438109174231,22.22186741780224,0 85.37428196491049,22.22211733981061,0 85.37429279911203,22.22229069729661,0 85.37439303941005,22.2225007929508,0 85.37460993261008,22.22261049433674,0 85.37488518680745,22.22266701151612,0 85.37526978304525,22.22270072396039,0 85.37557773546314,22.22270379956541,0 85.3759247323793,22.2226594715097,0 85.37622157307625,22.22251308208699,0 85.37657070126102,22.22228357631581,0 85.37700385054353,22.2220011410105,0 85.37721169470841,22.22178217227176,0 85.37743291932172,22.22151554375138,0 85.37791108550709,22.22066601348764,0 85.37816472833707,22.22036983642689,0 85.37841030611087,22.22021695741336,0 85.37857076409189,22.22021258266208,0 85.37868466492553,22.22035112266475,0 85.37884432861529,22.22097402247552,0 85.37903318788538,22.22184812616647,0 85.37900553401927,22.22202110010364,0 85.37884833070122,22.22230031715245,0 85.37849121032559,22.22266715307552,0 85.37794796410195,22.22303810630813,0 85.37763691788588,22.22330383956849,0 85.37756338965494,22.22355999321107,0 85.37760561923936,22.22379340497154,0 85.37773187212615,22.22397388770327,0 85.37849232289319,22.22424433150538,0 85.37922001129397,22.22457418662176,0 85.3793758741495,22.22497003155559,0 85.37942390490709,22.22525726785486,0 85.37943841489721,22.22566962666144,0 85.37957012641601,22.22593380018693,0 85.3798505698489,22.2260978952147,0 85.38013811612153,22.22620231932581,0 85.38042041352713,22.22620513062557,0 85.38053016913754,22.22614648229857,0 85.38055933178464,22.22584209248062,0 85.38071818276717,22.22541951139058,0 85.38090780840604,22.22511074475436,0 85.38121175150752,22.22490467571949,0 85.38177791828547,22.2247729046117,0 85.38242182738203,22.22457618924663,0 85.38283116007828,22.22413219995342,0 85.38435617784404,22.22487619877041,0 85.38432072616108,22.22573014718331,0 85.38429815481329,22.22713981740838,0 85.38442707028048,22.22764889896833,0 85.38472791685821,22.22827319659345,0 85.38499444451183,22.22853273108258,0 85.38584967058256,22.2289355142492,0 85.38668531191037,22.2293679695126,0 85.38738820355422,22.22962585453043,0 85.38790373474308,22.22999538797483,0 85.3885735956963,22.23033657856529,0 85.38893965115041,22.23087190352517,0 85.38931028237924,22.23156857476475,0 85.38938850434262,22.23202338387676,0 85.38897438481979,22.23344709980875,0 85.38898953655058,22.23380569796863,0 85.38919717550829,22.23416620312128,0 85.38965504955637,22.23452918654096,0 85.39036104283669,22.23451825468226,0 85.39074615492677,22.23451011838683,0 85.39031927029633,22.23480459968194,0 85.38940665678761,22.23548856186547,0 85.38909628440713,22.23569458174746,0 85.38881963184296,22.23575755596458,0 85.38814578256178,22.23576282534271,0 85.38694449708873,22.23587636851598,0 85.38578668753757,22.23611579098831,0 85.38449235122732,22.23650917567877,0 85.38277226715279,22.2370954611997,0 85.38240584930345,22.23715155715015,0 85.38150653065354,22.23723221869447,0 85.38013607054665,22.2375471462045,0 85.37972281303293,22.23777004441903,0 85.37909540855124,22.2381999004394,0 85.37868164231345,22.23790901734843,0 85.3781714261098,22.23763509348184,0 85.3772450435881,22.23727935138414,0 85.37639249590917,22.23719915041248,0 85.37508266793509,22.23726372793149,0 85.37392545289606,22.2374493032749,0 85.37289497581123,22.2377735429104,0 85.37197260633069,22.23818249570879,0 85.37146330118735,22.23783089727966,0 85.37110750727921,22.23752265413469,0 85.37030699397737,22.23682761116271,0 85.36995796693378,22.23648956308862,0 85.36975106695479,22.23606930221683,0 85.36968022233134,22.23553689769209,0 85.36940881661388,22.23514586009566,0 85.36914189301406,22.23492214161265,0 85.36823826099912,22.23426787378253,0 85.36762770464469,22.23379576644335,0 85.36756363072783,22.23323355884663,0 85.36751287369306,22.23262966628575,0 85.3674857055845,22.232205233194,0 85.36741058075079,22.2320431785515,0 85.3671568442182,22.23178971913368,0 85.36692635045864,22.23174558587975,0 85.36664272863634,22.23185624495466,0 85.36595205481899,22.23220775115472,0 85.36522509825876,22.23236771876488,0 85.36434560992969,22.23240069306913,0 85.36392027644872,22.23255771433827,0 85.363612720422,22.23251877507174,0 85.36331980026131,22.23232465645604,0 85.36269886616564,22.23164333450734,0 85.36213783379493,22.23077741732974,0 85.36063312641907,22.22884457662805,0 85.36053924980064,22.22864051166948,0 85.36100132275577,22.22697840125494,0 85.36095617683293,22.22644625324848,0 85.36086718902449,22.22637366749079,0 85.36067318711935,22.226503141931,0 85.36023197990266,22.22692285375146,0 85.35998134606722,22.22695617107188,0 85.35981543820149,22.22687683501356,0 85.35912012705084,22.22597371016477,0 85.35869548574249,22.22552136990049,0 85.35808068686559,22.22541957951241,0 85.35738373711312,22.22520942390258,0 85.35703986306329,22.22498491005143,0 85.35652011011054,22.22443601865134,0 85.3559414977139,22.22343250149588,0 85.35571931841046,22.2232271373103,0 85.35528500607433,22.22305547247128,0 85.35497307940015,22.22284322578805,0 85.34387005542429,22.21017848592973,0 85.34421744704241,22.21009838414701,0 85.34478105634132,22.21018178042937,0 85.34531294163025,22.21023498194184,0 85.34571123265965,22.21019123881177,0 85.34599169954497,22.20979980182466,0 85.34625425004714,22.20929467506996,0 85.34621354576744,22.20893581788163,0 85.34599809793507,22.20870661412378,0 85.3454296193903,22.20849174353466,0 85.34527092718804,22.20834675270847,0 85.34522360048173,22.20800575021615,0 85.34493019606337,22.20785938932259,0 85.34479821560784,22.20762505887142,0 85.34474289482729,22.206871765022,0 85.34451539353576,22.2065767223135,0 85.34431800510021,22.20644925925099,0 85.34390069030979,22.20647488376478,0 85.34346900322321,22.2066317901286,0 85.3434364722584,22.20721691638133,0 85.34359088278605,22.2088195345057,0 85.343427844473,22.20904488903566,0 85.34303449833698,22.20921413215082,0 85.33288521301904,22.19754265852045,0 85.33262225808717,22.18840924221543,0 85.33661653799703,22.18830555467727,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Mining</name>
+			<open>1</open>
+			<styleUrl>#PolyStyle70130</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							85.34948871907379,22.20397988464126,0 85.34992273926282,22.20428108270445,0 85.35023708317149,22.20485520839427,0 85.35061566141734,22.20589563996482,0 85.35082148644283,22.20639154881159,0 85.35105896338547,22.20670364590548,0 85.35161344805626,22.20736251228021,0 85.35239860454527,22.20811823484658,0 85.35265789965318,22.20895015996611,0 85.35315618776875,22.20968174083342,0 85.35420545486937,22.20869709247718,0 85.35405992534758,22.20660888516421,0 85.35309218645658,22.2061194279366,0 85.3531196849747,22.20585833804994,0 85.35401312523507,22.20596175213751,0 85.35437875747263,22.20627958007938,0 85.35456347199847,22.20705197603883,0 85.35453849653813,22.20792408779564,0 85.35462274513294,22.20865095972625,0 85.3550558555708,22.20856029378782,0 85.35566988219871,22.20856023723802,0 85.35618346841038,22.20863258992683,0 85.35675435720312,22.20894928426227,0 85.3569212431477,22.20915255196933,0 85.3570166156737,22.20950517462207,0 85.35681670149522,22.21008598804361,0 85.35715917339589,22.21067992191709,0 85.3570682529037,22.2112035707421,0 85.35730738501434,22.21166141643506,0 85.3576830214777,22.21210211259341,0 85.35768013666518,22.21252914610275,0 85.35806977928502,22.21280500813157,0 85.35814914050761,22.2130432790443,0 85.35834314444833,22.21326916865535,0 85.35916036098195,22.21350888274837,0 85.35976326340246,22.21415080628845,0 85.3603030736128,22.21496186180444,0 85.36116145140299,22.21548086104129,0 85.36234290628418,22.21546502199673,0 85.36310886984877,22.21615124116447,0 85.36374007603126,22.21629558520374,0 85.36396969916071,22.21680238066033,0 85.36351034085796,22.21800443865392,0 85.36324801020551,22.21852558719038,0 85.36392495389342,22.21957802201344,0 85.36469613531673,22.21980836163507,0 85.36535049678005,22.22028799796592,0 85.36586987111727,22.22078744561749,0 85.36675285826239,22.22092123393215,0 85.36762031494609,22.22037550064503,0 85.36808766911702,22.21987167810859,0 85.3679455707053,22.21907267736987,0 85.36840539255765,22.2189662590118,0 85.36970434201487,22.22028893786865,0 85.37004683945024,22.22110942397114,0 85.36938475895268,22.22136741657714,0 85.36937185400656,22.22211792884678,0 85.36870367903417,22.22229609247235,0 85.36826067212154,22.22263437231183,0 85.36782188777885,22.22344264600756,0 85.36764507139161,22.22417836649419,0 85.36764295058198,22.22465758847953,0 85.36787245007152,22.22481127855723,0 85.36891056827123,22.22517984602125,0 85.3702057270947,22.22573122467514,0 85.37069649633878,22.22625479507493,0 85.37103761343072,22.22736409280974,0 85.37120278893661,22.22814063372557,0 85.37207308624703,22.22864176239803,0 85.37230365845892,22.22877254018113,0 85.37279241510949,22.22903358326035,0 85.37260955491362,22.22997944293757,0 85.37227211058791,22.23141439801009,0 85.37218065298984,22.23151093150408,0 85.37220039555558,22.23082699071736,0 85.37193953094661,22.23046771607404,0 85.3716683226229,22.23010267853946,0 85.3717363309776,22.2295865836278,0 85.37116408040093,22.22876028988289,0 85.37065413827803,22.2283027542987,0 85.37048522327927,22.22841108018307,0 85.37033085479862,22.22851842613729,0 85.37015486209575,22.22869542404105,0 85.36986870356161,22.22894560517061,0 85.36994294739344,22.22951918547248,0 85.37029309185941,22.23007910246492,0 85.37067447966785,22.23065916361347,0 85.3697897573371,22.23069814351933,0 85.36915075418787,22.23039021984358,0 85.36853053961894,22.23041551844367,0 85.36793382687407,22.23042671343235,0 85.36752245826352,22.23046863313064,0 85.36690877149502,22.23014539539984,0 85.36634148376081,22.23002341388754,0 85.36553533689506,22.22963378152351,0 85.36508117760698,22.22944916620912,0 85.3643339139883,22.22908967549287,0 85.36365544792773,22.22851697829666,0 85.36315278150698,22.22808787749237,0 85.36316279245287,22.22734735390067,0 85.36354772356999,22.2271645367225,0 85.36379575904438,22.22710660331989,0 85.36401022202666,22.227024996023,0 85.36481793332955,22.22620644558181,0 85.36516771111842,22.22552524860632,0 85.36526806606086,22.22446474958646,0 85.36531919673389,22.22398106296206,0 85.36491167878268,22.22281819510523,0 85.36429022570384,22.2225463222957,0 85.36311280581531,22.22186501826317,0 85.36221139638428,22.22124935327438,0 85.36140994906494,22.22016961663126,0 85.36077347481184,22.21925398974656,0 85.36017086908952,22.21821988174815,0 85.35971081427681,22.2178913533968,0 85.35941455825181,22.21767333442428,0 85.35868087066775,22.21735905787251,0 85.35854128559234,22.21737210558033,0 85.3581414909027,22.21740625631231,0 85.35770220865564,22.21754141176976,0 85.35736570983019,22.21771215384941,0 85.35733309714888,22.21793594827745,0 85.35749653626422,22.21832610721792,0 85.35765654324467,22.21880575714665,0 85.35793044151346,22.21893664229139,0 85.35824892094676,22.21894923811178,0 85.35852615311614,22.21924619687356,0 85.35794468369041,22.21946051332404,0 85.35767822170141,22.22013495319897,0 85.35782181634254,22.22036709562182,0 85.3575368838641,22.22052305151488,0 85.35800497565198,22.22104780490065,0 85.35811626410516,22.22149513985574,0 85.35830839226134,22.22156897239616,0 85.35860934191605,22.22142274459101,0 85.35792831413779,22.22231162454654,0 85.35700290658777,22.22235493584359,0 85.35588606758493,22.2215386997759,0 85.35511681876733,22.22134778864041,0 85.35405512940395,22.21992348863494,0 85.35397835258358,22.21844166800221,0 85.3532127599717,22.2172075673117,0 85.35359473359378,22.21640389936347,0 85.3541818268279,22.21683308584876,0 85.35453782952476,22.21612581426705,0 85.3540832988775,22.21489698454414,0 85.35370007859319,22.21416226409024,0 85.35329369685427,22.21380262698972,0 85.35266400860749,22.21419532062851,0 85.35268834426444,22.21396892958578,0 85.35270700152105,22.21384374310631,0 85.35291014800053,22.21308174475181,0 85.35291395057379,22.21277386875725,0 85.35274812272405,22.21253711529339,0 85.35193493229065,22.21257356635789,0 85.35175588172073,22.21255099263354,0 85.35165152081373,22.21332153970005,0 85.34993993357244,22.2125968027381,0 85.34820172816595,22.21298464376295,0 85.34795042532218,22.21168734375583,0 85.34762861628359,22.21094403834379,0 85.34759355353154,22.21025002522437,0 85.3480479335233,22.20974052867548,0 85.34895893517904,22.20965036122861,0 85.34959155633263,22.2095024092866,0 85.35007995065662,22.20934766187231,0 85.35094445685125,22.20849019327057,0 85.35056527391633,22.20765002378259,0 85.35044251040669,22.20687627090823,0 85.35007829736313,22.20608571874747,0 85.34979254200103,22.20577073050176,0 85.34910202622181,22.20524986065043,0 85.34868036171918,22.20475706691799,0 85.34948871907379,22.20397988464126,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Mines Road</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							85.35461669585959,22.20785013276723,0 85.3547918955889,22.20804953091899,0 85.35494519087672,22.20814717198539,0 85.35512293697919,22.20814370037224,0 85.35533645403437,22.20802439068416,0 85.35554931234789,22.20791691026716,0 85.35577252484829,22.20778843558646,0 85.35597420621343,22.20759222234625,0 85.3561656203763,22.20756095962031,0 85.35640751738264,22.20766105854375,0 85.35661869619443,22.2078081065164,0 85.35675436246419,22.20792483940722,0 85.35689755410218,22.20807469894308,0 85.35703064352138,22.20813994189316,0 85.35716511388868,22.20816591798308,0 85.35735761175795,22.20813721833887,0 85.35747657299838,22.20811711099327,0 85.35758004998431,22.20814373481534,0 85.35765460286876,22.20824033674408,0 85.35769342919252,22.20834548607559,0 85.3577726354478,22.20855515766334,0 85.35783555117085,22.20856702251014,0 85.35783696217513,22.20847928668858,0 85.35781169337373,22.20831711212837,0 85.35770014466654,22.20807727248863,0 85.35765627468729,22.20792589057615,0 85.35773409764937,22.20779347648305,0 85.35788665470052,22.20780225352159,0 85.35796715617924,22.20788926602318,0 85.35806855508406,22.20810219102618,0 85.35814174516895,22.20837650398408,0 85.35825540604309,22.20860358289932,0 85.35835581039544,22.2088465636684,0 85.35834809319138,22.20904534129756,0 85.35830950852873,22.20921032511977,0 85.35824550026972,22.20937729845835,0 85.35828938291301,22.20951102649966,0 85.35846835268957,22.20971466553247,0 85.35891626868533,22.20990122577354,0 85.35917187791075,22.21000807305113,0 85.35931110038305,22.21013228131508,0 85.35933891394232,22.21027894839623,0 85.35932348178183,22.21050048284719,0 85.35940294473647,22.21065726692714,0 85.35950494425688,22.21084192495728,0 85.35960657999738,22.21086428426496,0 85.35977778783487,22.21073627224099,0 85.35996235719573,22.21063023170903,0 85.36040201941218,22.21059194796873,0 85.36087849695519,22.21065026214077,0 85.36118233506647,22.21073098570147,0 85.36146230426098,22.21091877337189,0 85.36171275262807,22.21106553802161,0 85.36192941588571,22.21126662794837,0 85.36220782278367,22.21153309655707,0 85.36227068700914,22.21152946943813,0 85.36221548841824,22.2114219542904,0 85.3619806831407,22.21109621857387,0 85.36176627212292,22.21080057071347,0 85.36165149015027,22.21056930126776,0 85.36170331334722,22.21045398153154,0 85.3618871952622,22.21050356991641,0 85.36210265948741,22.21070580712142,0 85.36232993424314,22.2108897582717,0 85.36246458275134,22.21095060918833,0 85.3625377836677,22.21089732069353,0 85.36240199167723,22.21067800581439,0 85.36216774235164,22.210317558055,0 85.36208486099753,22.21007173494166,0 85.36215883913856,22.20971226551814,0 85.36232882685556,22.20956946108339,0 85.3628452515815,22.20967017916059,0 85.36307201717705,22.20964180826942,0 85.36336614677178,22.20961967888786,0 85.36362517310832,22.20950944313004,0 85.36403750192619,22.20936222873797,0 85.36425605228273,22.2092686524464,0 85.36451187186658,22.20920408478249,0 85.3648839902547,22.209118814298,0 85.36540689639992,22.20897873065054,0 85.36581979532701,22.20876246728446,0 85.36621714915174,22.20862808320898,0 85.3666142697804,22.20844006338631,0 85.36685485350738,22.20829440698076,0 85.36733582129112,22.20835452399009,0 85.36732182789589,22.2080061176683,0 85.36734831513866,22.20761395608709,0 85.36739117420106,22.2073785361341,0 85.36753218732999,22.20716162831365,0 85.36766948021005,22.2069707179269,0 85.36787359855174,22.20682993580686,0 85.36802422278851,22.20681446891619,0 85.36827030602663,22.20686150003954,0 85.36828459953547,22.20697577950614,0 85.36811535219069,22.20691575678743,0 85.36792330880458,22.20690942438943,0 85.36771476099638,22.20703946148725,0 85.36758304781807,22.2072180347733,0 85.36748535763815,22.20741682123873,0 85.36743394856128,22.20767771540816,0 85.36742321104656,22.20798898015612,0 85.3674466258269,22.20845879733701,0 85.36792387559757,22.20859078359391,0 85.36819554899719,22.20852573176664,0 85.36844245377991,22.20824129839812,0 85.36875819571796,22.20810215199094,0 85.36894467220105,22.2080871336415,0 85.36916179467367,22.20807727923586,0 85.36941832569786,22.20814720722726,0 85.36962329679812,22.20820232997673,0 85.369992123678,22.20823131457255,0 85.37034584806757,22.20819013447547,0 85.37065349648938,22.20814419179253,0 85.37090960897581,22.2081495283389,0 85.37113380710935,22.2082351112279,0 85.37131814286781,22.20833987191798,0 85.37151323450125,22.20844026787098,0 85.37172809861059,22.20852031037297,0 85.37188910751289,22.20845593329684,0 85.37204546935673,22.20837460938259,0 85.37225858875307,22.20827438507828,0 85.37244272258924,22.20829173051161,0 85.37241774259394,22.20837457077638,0 85.3722387573041,22.20844176118836,0 85.37199803517046,22.20860287597706,0 85.37177246904032,22.20868268352183,0 85.37136656519824,22.20851999814497,0 85.37087721241042,22.20830369200305,0 85.37047541662776,22.20832764707058,0 85.37002025930794,22.20836260861156,0 85.36965052908901,22.2083169738281,0 85.36943846905814,22.20825919801026,0 85.36916594052114,22.20817953696144,0 85.36894841035343,22.20819451443493,0 85.36874785817996,22.2082170344479,0 85.36847322871844,22.2083691005383,0 85.36826719097509,22.20858536024246,0 85.36815406812575,22.20872932037381,0 85.36793914768175,22.20871757905554,0 85.36755428264139,22.20861060729627,0 85.36723475320724,22.20851363244524,0 85.36688634537703,22.20852247642898,0 85.36664204628238,22.20857859057948,0 85.36633458579817,22.20872832550125,0 85.36587588588104,22.20891430800084,0 85.3654389046159,22.20908084475346,0 85.3649226043748,22.20925085790143,0 85.36462542659959,22.20939198472373,0 85.36460027409844,22.20952750348396,0 85.36455278864499,22.20963670132752,0 85.36451352785379,22.20973607599186,0 85.36448382097419,22.20981022998472,0 85.36453730931729,22.20988980453544,0 85.36470682573405,22.20998831882871,0 85.36488626081062,22.2099360288009,0 85.36506881377741,22.20988051198679,0 85.36526440283701,22.2097567306508,0 85.36559925743836,22.20960283644881,0 85.3659965086152,22.20966577804995,0 85.36629692111018,22.20978664979288,0 85.36647219668502,22.20981403446178,0 85.36669102390591,22.20973247174467,0 85.36692696776035,22.20966051418718,0 85.3671180095902,22.20960633467982,0 85.36724107681627,22.20936835371544,0 85.36735283414026,22.20915120121957,0 85.36744955418288,22.20899137646161,0 85.36770795302783,22.20898111653428,0 85.36792769276366,22.2091944923896,0 85.36806733396244,22.20981114376261,0 85.368140149882,22.21008769267277,0 85.36820424586088,22.21030775557426,0 85.36864864772167,22.21031588558862,0 85.36928202631856,22.21032809493174,0 85.37008798059493,22.21040162896945,0 85.37067964389179,22.21053396206276,0 85.37015525113837,22.21072789010931,0 85.36964705183962,22.21068956886575,0 85.36895284019926,22.21064296614181,0 85.3686213871284,22.21061765734544,0 85.36806397307141,22.21036064038403,0 85.36799394584069,22.2101034935071,0 85.36782899819963,22.20925624349668,0 85.36766259480781,22.20906672480424,0 85.36750179423802,22.20910843001242,0 85.36720142721154,22.209672245933,0 85.36675100910182,22.20985420403389,0 85.366353229387,22.21001410844586,0 85.36621816378545,22.209995975363,0 85.3661133903055,22.20984435844493,0 85.36591363166899,22.209734202133,0 85.36559034561108,22.20974567907608,0 85.36527761526906,22.20990030743341,0 85.36509746211085,22.20996287195583,0 85.36489464865492,22.21003834183072,0 85.36474242665861,22.21008414765791,0 85.36464445391718,22.21013035448199,0 85.3645685400172,22.21008990785355,0 85.36449114095947,22.20995303158405,0 85.36438338515674,22.20980469260867,0 85.36444200925943,22.20959617093061,0 85.36443500050376,22.20945325241729,0 85.36438520421811,22.20941078632202,0 85.36428136464353,22.20937812057787,0 85.36410443768195,22.20945803075842,0 85.36393735943768,22.20953407570598,0 85.36374192705151,22.20964362773961,0 85.36341398873299,22.20979811395128,0 85.36313752886889,22.20981856885182,0 85.36284973658725,22.20981316843611,0 85.36254919197584,22.20975964180975,0 85.36232303192131,22.20971970528794,0 85.36224838767829,22.20990688044178,0 85.36221448495016,22.21009876130465,0 85.36229306512574,22.210294361436,0 85.36243787048302,22.21061211074316,0 85.36266515848209,22.21083985497079,0 85.36268833513856,22.21100941143133,0 85.36257143111054,22.21112014427214,0 85.36238865164556,22.21107567886424,0 85.36215777836179,22.21091864658906,0 85.36192515502336,22.21065231148738,0 85.36184545520257,22.21065704759786,0 85.36183413629956,22.21075120843416,0 85.3618803201109,22.21087965478586,0 85.36210475424963,22.21116213980388,0 85.36244279422628,22.21158640527822,0 85.36241480684942,22.21172084990512,0 85.36231218907261,22.21177335589076,0 85.36190821357894,22.21140560445436,0 85.36163429327081,22.2111666824398,0 85.36121966532205,22.21087646730693,0 85.36087664259301,22.21075063391301,0 85.3604349904501,22.21071351049038,0 85.36001221800464,22.21073228655698,0 85.35983896908,22.21086630490452,0 85.35964425987495,22.21098082845932,0 85.35946789542996,22.21094776457935,0 85.35934989953034,22.21076815080834,0 85.35924999406173,22.21053579243959,0 85.35926999991511,22.21026486788307,0 85.35916747481748,22.21009071515848,0 85.35891505218089,22.20999968396731,0 85.35845756382295,22.20979954619065,0 85.35822886054923,22.20961431783553,0 85.35816668741128,22.20945739606171,0 85.35818620902525,22.20924456921048,0 85.35826349893287,22.2090049063891,0 85.35827324980905,22.20884567802446,0 85.35809888066484,22.20848900219434,0 85.3580163125709,22.20824590419908,0 85.35794459051024,22.20794973054458,0 85.35787429420492,22.20789438936348,0 85.35780215184293,22.20794508043156,0 85.35783492755021,22.2080978709845,0 85.35791857252897,22.20834011531249,0 85.35797715701214,22.20862576260106,0 85.35787751608497,22.20872070050163,0 85.35768958434015,22.20872372929012,0 85.35765451708005,22.20866984927385,0 85.3576634595029,22.20847764723175,0 85.35755894825719,22.20824498357138,0 85.35737482804804,22.20822653826242,0 85.35714945681754,22.20829224182991,0 85.35690623583828,22.20820629978412,0 85.35668085731061,22.20797889422579,0 85.35637780687604,22.20774753154074,0 85.35615547052339,22.20763746730963,0 85.35602470334022,22.20768585434773,0 85.35580740056065,22.20786372118652,0 85.35558844748179,22.20797983311287,0 85.35537141136832,22.20809977310915,0 85.35513632655365,22.20822542556671,0 85.35490599063351,22.20831424335063,0 85.35514862572199,22.20827940896504,0 85.35543465889857,22.20815304605635,0 85.35574372242435,22.20800833481357,0 85.35612232938198,22.20790371680876,0 85.35640615008356,22.20804522131269,0 85.35663784222429,22.208313331667,0 85.35685791035456,22.20844105446475,0 85.35697849971488,22.2084663031087,0 85.35720683218334,22.20852388169017,0 85.35740826585435,22.20869163052563,0 85.35749474665717,22.20898946987161,0 85.35755904071389,22.20933012058626,0 85.35759341393155,22.20963720557526,0 85.35756235112999,22.20974466026984,0 85.35746735255714,22.20987480777754,0 85.35751348840169,22.21004938448116,0 85.35778042945434,22.21016930255404,0 85.35802938364604,22.21036096892301,0 85.35812838930859,22.21052085370527,0 85.35810336920203,22.21071797708413,0 85.35801243184864,22.21086597424694,0 85.35802290299294,22.21105167465953,0 85.35816615041685,22.21115843751511,0 85.35843282036382,22.21130873557488,0 85.35866606770375,22.21150215299656,0 85.35875683487426,22.21165454160654,0 85.35874536957853,22.21182323376711,0 85.35873223701189,22.21203953740189,0 85.35895898739176,22.21216260135734,0 85.35921410384802,22.21211126836661,0 85.35945183865815,22.21212837390684,0 85.35955481444816,22.21215459305426,0 85.35976215660106,22.21213255094821,0 85.35992712272015,22.21199949814591,0 85.36010641735415,22.21194526156437,0 85.36024995177881,22.21204881546511,0 85.36041139613324,22.21222829829416,0 85.36050797085134,22.21237875372583,0 85.36057445348013,22.21253615858215,0 85.36055738054708,22.21276593881731,0 85.36054002067668,22.2128878028941,0 85.36057801107683,22.21301531349549,0 85.3606575377104,22.21312690528156,0 85.3608351773718,22.21321027457871,0 85.36096871946611,22.21323948937421,0 85.36105587386253,22.21337527397426,0 85.36114603369181,22.2135589768171,0 85.36123271070142,22.21367285111042,0 85.36138986944235,22.21387424668071,0 85.36152935068533,22.21404587655302,0 85.3617373391042,22.21420142097401,0 85.36193184316518,22.21429325901862,0 85.3621805191484,22.21440604466228,0 85.36247116662473,22.21459977603238,0 85.36247663431105,22.21472016947998,0 85.36236780363473,22.21469913845314,0 85.36226714865819,22.21457123277437,0 85.36201587112551,22.21439359068532,0 85.36172745233735,22.21426367562453,0 85.36147324208699,22.21407416657222,0 85.36131040867724,22.21386022053796,0 85.36117638680992,22.21370415622892,0 85.36099798623329,22.21339110154382,0 85.36080101515626,22.21329897284974,0 85.36057758295323,22.21315941759027,0 85.36045884920021,22.21294750444319,0 85.36049528312842,22.21272948062357,0 85.36049700494624,22.2125110319301,0 85.36034872775227,22.21226628431746,0 85.36019679331942,22.21209323481858,0 85.36008811739688,22.21201972031838,0 85.35996900385605,22.2120847375903,0 85.35977346746708,22.21220147248154,0 85.35953692449733,22.21223175092765,0 85.35943312226455,22.21219537662685,0 85.35922535870986,22.2121698204578,0 85.35897367283997,22.21225160144472,0 85.35866720512463,22.21208930677945,0 85.35865585489462,22.21179912736903,0 85.35867953318201,22.21166780196361,0 85.35859128105859,22.2115182483955,0 85.35839905354695,22.21136664218248,0 85.3581498865931,22.21123697947122,0 85.35796483888305,22.21109945675049,0 85.35790281636243,22.21094886994352,0 85.35795464371851,22.21079083885216,0 85.35804816098512,22.21061497777727,0 85.35800600505728,22.21043909543169,0 85.35775081845156,22.21025381673555,0 85.35747270740416,22.21011590242656,0 85.35739002276068,22.20994071089355,0 85.35738520941662,22.2098199349308,0 85.35750506600128,22.20963851652132,0 85.35747642784419,22.20933032993004,0 85.35742365858982,22.20899725427994,0 85.35731948009378,22.2087067994691,0 85.35717496517331,22.20858406633434,0 85.3569828677752,22.20856016379308,0 85.35683742434094,22.2085237548513,0 85.35660129175096,22.20838775062481,0 85.35635671913296,22.20808045930505,0 85.35615696385699,22.20796665196821,0 85.35578583617908,22.20807135825929,0 85.35547012813019,22.2082128889305,0 85.35515629027772,22.20834388944167,0 85.35488378749571,22.2084120456258,0 85.35472479807127,22.20835536514226,0 85.35459556445481,22.20805805506667,0 85.35461669585959,22.20785013276723,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Magazine Level Colony</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin8</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							85.37511119641961,22.21854726414874,0 85.37588422948964,22.21921209798569,0 85.37551174070315,22.21958692884998,0 85.37488153568118,22.22004843258233,0 85.37551866184653,22.22111232662491,0 85.37414778650256,22.221496944327,0 85.3734299179763,22.22043982330975,0 85.37379337123097,22.21968942220471,0 85.37404021559816,22.21941841886568,0 85.37430503418678,22.21898626582839,0 85.37479861341295,22.21828924527934,0 85.37511119641961,22.21854726414874,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Infrastructure</name>
+			<open>1</open>
+			<styleUrl>#PolyStyle700</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							85.35673220232468,22.21536284845318,0 85.35722963558513,22.21520880370286,0 85.35788953568168,22.21539837038184,0 85.35809648662752,22.21512956657344,0 85.35806686643873,22.21464699666691,0 85.35805347041317,22.21442935951837,0 85.35824204020921,22.21442935795193,0 85.35841112916866,22.21502609024065,0 85.35881742777485,22.21599505627921,0 85.35923375015534,22.21639335871932,0 85.35931764317876,22.21602173529925,0 85.3598578964888,22.21653357818923,0 85.35974054647275,22.21709314297432,0 85.35885082481197,22.21636167623153,0 85.35827656254197,22.21606549603467,0 85.35755813255933,22.21581792912269,0 85.35710946930024,22.21598801981008,0 85.35666076016943,22.21649127586344,0 85.3564024580718,22.2164364880039,0 85.35617022117022,22.2161650637703,0 85.35673220232468,22.21536284845318,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Fines Dump</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							85.36264871655598,22.21339489264014,0 85.36295085473272,22.21241031927163,0 85.36319533221742,22.21167426859747,0 85.3634293442956,22.21100819971399,0 85.36379512981902,22.21049827831965,0 85.36420959353561,22.21038924779307,0 85.36462168326425,22.21013855565045,0 85.36486939053682,22.21003217274121,0 85.36554644915208,22.20985362585193,0 85.36629352871896,22.21001263986959,0 85.36692373650661,22.21011764989976,0 85.36744297563824,22.21019150670477,0 85.36801587699384,22.21033363000542,0 85.36863348615702,22.21061182273749,0 85.36795408737777,22.21061694872837,0 85.36728970718795,22.21084110775146,0 85.36636861423187,22.21107769906909,0 85.3657457155296,22.21113802331336,0 85.36529661330698,22.21137633632781,0 85.36509221373382,22.21191185529192,0 85.36540258209993,22.21253981843748,0 85.36685164609096,22.21294124202707,0 85.36747267694423,22.21304666712554,0 85.36812649392397,22.21305326035473,0 85.36899955235825,22.21301742732648,0 85.36970729319599,22.2125009495682,0 85.37032328998633,22.21210433359808,0 85.37074275201964,22.2118594671068,0 85.37135774305129,22.21152805093759,0 85.37190778564145,22.21145955370974,0 85.37210254764975,22.21151845585928,0 85.37220309656765,22.21172743127703,0 85.37211338275141,22.21237344703725,0 85.37196808672962,22.21273699680178,0 85.3707784192236,22.2127673874704,0 85.36907147140663,22.21374023001654,0 85.36862771404095,22.21363867613504,0 85.36813166444918,22.21355765935424,0 85.36759167229394,22.21364108663472,0 85.36661341638646,22.21376067602521,0 85.36577208625344,22.21411050291465,0 85.36503269904243,22.2142986385205,0 85.36388689592914,22.21447271677641,0 85.36318399277567,22.21449852748423,0 85.36264871655598,22.21339489264014,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Conveyor</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin3</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							85.36282430205598,22.21492492513572,0 85.36483499964555,22.21466581835453,0 85.36661234954009,22.21448152218852,0 85.36991329320657,22.21408022763631,0 85.37078624673202,22.21399082286176,0 85.37026035208865,22.21436921578164,0 85.36959829621733,22.21446514821441,0 85.36764764618978,22.2146969508372,0 85.36562026093812,22.2148918439722,0 85.36435637213638,22.21501274624856,0 85.36353251733954,22.21511766707248,0 85.36237721504213,22.21530891634289,0 85.36185975050977,22.2153740930369,0 85.36116675126654,22.2154832059263,0 85.36072091843256,22.21521413578778,0 85.36282430205598,22.21492492513572,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>DRP</name>
+			<open>1</open>
+			<styleUrl>#falseColor9</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							85.37700930336194,22.21591769750473,0 85.37733641765368,22.21633850539909,0 85.37733986582656,22.21745206141752,0 85.37715305755877,22.21838024987284,0 85.37709768168959,22.21914403460415,0 85.3769690143213,22.21975472653774,0 85.37638959805811,22.22010935929596,0 85.37634699770264,22.22022555166807,0 85.37627836279967,22.22079820414523,0 85.37622028932854,22.2210977545405,0 85.37606300424768,22.22119456463649,0 85.37580250805888,22.22130708152896,0 85.37505372083461,22.22143128472611,0 85.37472814709481,22.22161319384983,0 85.37438160893529,22.22186445436618,0 85.37428656885284,22.22211796431887,0 85.37428918346568,22.22229306757736,0 85.374406027661,22.22251187904857,0 85.37382237393705,22.22310599271828,0 85.37320917599736,22.22372361650614,0 85.37333282952517,22.22455295222437,0 85.3734651691294,22.22535973460883,0 85.37389610848491,22.2279594490582,0 85.37449577740448,22.2289227723816,0 85.38156365257227,22.23722771524117,0 85.38014169534307,22.23754320087962,0 85.37972055484848,22.23777744242593,0 85.37909391183462,22.23819103765288,0 85.37861107188715,22.23786358689767,0 85.37818084007212,22.23763433726247,0 85.37723967248564,22.23727617305159,0 85.37643424058096,22.23719780273929,0 85.37433316311478,22.23572565291239,0 85.37221766510328,22.23416384448252,0 85.3687461160429,22.23155030902771,0 85.36687978154947,22.23136086047317,0 85.364245418011,22.2305847058505,0 85.36292177255091,22.22955657947865,0 85.36246723774025,22.22850367733195,0 85.36235776821982,22.22632032685564,0 85.36226978243535,22.22484797406491,0 85.36049546344913,22.2230527119842,0 85.35922042795829,22.22194658290476,0 85.35853149828499,22.22260862163212,0 85.35713770702471,22.22380139267407,0 85.35577304403809,22.22260717389246,0 85.35431136987043,22.22125583076783,0 85.35335780804515,22.22026928715463,0 85.35257242126295,22.21945014862687,0 85.35246764287737,22.21825794288001,0 85.35176101753784,22.21751078720134,0 85.35102733679662,22.21672832522569,0 85.35014889062887,22.21574751125058,0 85.34740430963747,22.21277437076647,0 85.34641729680339,22.21155037182041,0 85.34697689306617,22.20940615723331,0 85.34934369014051,22.20773515889012,0 85.34482987670789,22.2040491355714,0 85.34750258163257,22.20145960596137,0 85.35308242262145,22.20584553952137,0 85.35462286723933,22.20418176061976,0 85.35737306679563,22.20643793005777,0 85.35893039405302,22.20488650523552,0 85.35914284644194,22.20509747663417,0 85.35966056832791,22.20539898075354,0 85.36041004386821,22.20534529831529,0 85.36110447087937,22.20523699650111,0 85.36183129774361,22.20520122727083,0 85.36222322857029,22.2052573766702,0 85.36266963131979,22.20542936751133,0 85.3631768286218,22.20579489181642,0 85.3635473513426,22.20624184608189,0 85.36422775070727,22.20668506490461,0 85.36440162705136,22.20670037877022,0 85.36462200104883,22.20663566989527,0 85.36476551251285,22.20644774982076,0 85.36497400798476,22.20609100385699,0 85.36515816583778,22.20596323126294,0 85.36532385951314,22.2059986720151,0 85.36562924301492,22.20625681259389,0 85.36579532113971,22.20666070758339,0 85.36607575678137,22.20691615343133,0 85.36624281471275,22.20693847951844,0 85.3664314713676,22.20692499751245,0 85.36661527922351,22.20677459666057,0 85.36685479074649,22.20646893714807,0 85.36692710946959,22.20603240167519,0 85.36704965153568,22.20552713237799,0 85.36733892304945,22.20506022750396,0 85.36778332584673,22.20457332727026,0 85.36815880465092,22.20439669489896,0 85.36860776175668,22.20430282812591,0 85.36909857718486,22.20431240321816,0 85.36961010593019,22.20403525998945,0 85.37004408133313,22.20387969775884,0 85.3706316375314,22.20376677622909,0 85.37092508074039,22.20382915629077,0 85.37138828821331,22.20444473442204,0 85.37193609326323,22.20572547201789,0 85.37212440383655,22.20643830520951,0 85.37244866544242,22.20739654454861,0 85.3726696844669,22.20807054540686,0 85.37266663038901,22.20865838984262,0 85.37265902487269,22.20886481399926,0 85.37266046597456,22.20906770067688,0 85.37258390308502,22.20939063563319,0 85.37246324066945,22.20990922666904,0 85.37224949692047,22.21046011085638,0 85.37139875583938,22.21023228522629,0 85.37110326980635,22.21025514880502,0 85.37069794705897,22.2105320470062,0 85.37017197673651,22.21072962000565,0 85.36944847660705,22.21068430103147,0 85.3685925165496,22.21060949487124,0 85.36793493401019,22.2106172285757,0 85.36732736531607,22.21082812462587,0 85.36693111254343,22.21093363847495,0 85.36626560573181,22.21109577293796,0 85.36576111471325,22.21114329579856,0 85.36566918153218,22.21119150558194,0 85.36530373520614,22.21136875071353,0 85.36508655488271,22.21189811027793,0 85.36539404275591,22.21251949313813,0 85.36621661547514,22.21277211036087,0 85.36684697553937,22.21293922957925,0 85.36752279562026,22.21304437744299,0 85.36815145916586,22.2130500875588,0 85.36902023024305,22.21300696099134,0 85.36928908595419,22.21281144321592,0 85.36974261651996,22.21248382915816,0 85.37020614529723,22.21218522528767,0 85.3707446887323,22.21183905113168,0 85.37085189833248,22.211791240048,0 85.37116222310767,22.21163436602743,0 85.37139466102659,22.21151867041201,0 85.3716051890988,22.21149004247627,0 85.3719128505258,22.21145237071715,0 85.37210345486571,22.21151810962728,0 85.37220346098027,22.21173691763343,0 85.3721699088525,22.21195133696247,0 85.37211308390188,22.21237215655073,0 85.37201960953105,22.21258500671003,0 85.37191367330506,22.21283744352179,0 85.37175522455942,22.21319607926225,0 85.37148031661417,22.21353973967416,0 85.37095356918906,22.2138821348071,0 85.37056712408602,22.21415158977265,0 85.37001528109151,22.21455171490153,0 85.36976632606908,22.2147319348324,0 85.36948758570878,22.21492569451987,0 85.36948166743829,22.21538678079433,0 85.37003818560402,22.21577528511283,0 85.3714848298205,22.21669848352894,0 85.37198775715791,22.21694388679853,0 85.37237642256927,22.2170140830992,0 85.37288670177288,22.21698526227752,0 85.373622772605,22.21673657374738,0 85.37431400953812,22.21626488787336,0 85.37503264534887,22.21611139559628,0 85.37675983108787,22.21586838089271,0 85.37700930336194,22.21591769750473,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bai-Hill Dump-3</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin7</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							85.35170601740774,22.2129377974563,0 85.35174949094763,22.21253615368432,0 85.35193578163674,22.21258140722273,0 85.35241625436434,22.21255103017253,0 85.35273788279493,22.2125377997165,0 85.35291257878498,22.21276846453174,0 85.35290595001969,22.21308380115969,0 85.35269619931842,22.21386121824292,0 85.35266626223525,22.21420194627194,0 85.35199250797253,22.21493680266976,0 85.35136906699418,22.21441929345013,0 85.35165095131691,22.21399861097722,0 85.35166867603296,22.21332780952113,0 85.35170601740774,22.2129377974563,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Afforestation-6</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							85.36578710195624,22.21410525242991,0 85.36662526154643,22.21375744594722,0 85.36758342011147,22.21364953605107,0 85.36804328441954,22.21355140783979,0 85.3685989223583,22.21363941514743,0 85.36907539134265,22.21373448580766,0 85.37078731613732,22.21276668117189,0 85.37198095821972,22.212742282827,0 85.37183483214355,22.21301531676162,0 85.37175246582474,22.213200444333,0 85.37147900995585,22.21354225347447,0 85.37079158711877,22.21398518168658,0 85.36926204031019,22.21415386355627,0 85.36776716309254,22.21434801528879,0 85.36643576940044,22.21449532897438,0 85.36487834011241,22.21465474769981,0 85.36311583769131,22.21488187558104,0 85.36318563487445,22.21449962799977,0 85.36409138484353,22.21444927582551,0 85.36503820089835,22.2143017022931,0 85.36578710195624,22.21410525242991,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Afforestation-4</name>
+			<open>1</open>
+			<styleUrl>#PolyStyle70131</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							85.35703490522836,22.21429966590858,0 85.35760745563549,22.21423949660579,0 85.35815708698357,22.21416069537504,0 85.35846777463263,22.21428083312644,0 85.35863108628564,22.21450734720341,0 85.35880039997326,22.21501422002536,0 85.3588929032779,22.21535758497087,0 85.35931806961891,22.21602088879238,0 85.35923772529033,22.21639829267626,0 85.3588126805456,22.21599448629238,0 85.35860903031502,22.21549954858126,0 85.35841450279351,22.21502377301015,0 85.35824143500034,22.21443611173898,0 85.35805330828356,22.21442717591919,0 85.35807780853619,22.21481076299813,0 85.35809878772585,22.21512337706916,0 85.35789048547228,22.21540095835888,0 85.35723555284021,22.21521024250016,0 85.35674023670542,22.21535122703869,0 85.35617090931812,22.21616676345003,0 85.35640247707512,22.21643538180459,0 85.35666634671752,22.21649255827811,0 85.3571085363386,22.21598557677474,0 85.35755675229827,22.21581838620212,0 85.35827721945596,22.21606589430778,0 85.35884551138018,22.21635783460982,0 85.35938871717242,22.21679611492464,0 85.35924005399423,22.21726356092868,0 85.3582057920317,22.21700984366427,0 85.35751784239272,22.21716956427562,0 85.35679254865539,22.21772586509136,0 85.35628082836502,22.21680543979355,0 85.35596622801975,22.2160562124888,0 85.35574488216123,22.21520648084153,0 85.35544519191002,22.21477133195783,0 85.35554105201932,22.21434225533759,0 85.35607603013068,22.21388307622655,0 85.35703490522836,22.21429966590858,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Afforestation-3</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin9</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							85.35326448990261,22.2138078820775,0 85.3537078486079,22.21417991753021,0 85.3540960909444,22.21494284662569,0 85.35455524502142,22.21613389285881,0 85.35416968202549,22.21684531045972,0 85.35360117319215,22.21641051355134,0 85.35307647170039,22.21583411701599,0 85.35254529372902,22.21536231887935,0 85.35208810512466,22.21501882407515,0 85.3526613335311,22.21418644754193,0 85.35326448990261,22.2138078820775,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Afforestation-1</name>
+			<open>1</open>
+			<styleUrl>#PolyStyle7011</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							85.36429847052953,22.21894013777542,0 85.36521276653866,22.21938347840254,0 85.36601441097349,22.21955010689006,0 85.36700077744649,22.21933124509473,0 85.36753803635914,22.21916634683212,0 85.36794139521777,22.21905729211516,0 85.36808739873416,22.21985896329491,0 85.36758527278946,22.22039093341473,0 85.36675473221047,22.22089806990008,0 85.36587051039959,22.22078723627045,0 85.36537801488312,22.22031136589822,0 85.36472041606197,22.21979715179535,0 85.36392767941012,22.21957713188442,0 85.36324171800118,22.21853241299633,0 85.36350230305528,22.21800496109414,0 85.36429847052953,22.21894013777542,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>afforestation</name>
+			<open>1</open>
+			<styleUrl>#PolyStyle7013</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							85.34613410277245,22.20294454315369,0 85.34657744228765,22.20267526711324,0 85.3472269586244,22.20256787718104,0 85.34813857756644,22.20256771440955,0 85.34910405833136,22.20295850709585,0 85.34960207197892,22.20340127132417,0 85.34977768728858,22.20369965604209,0 85.35006503098029,22.20418787617071,0 85.35046090346746,22.20478558954026,0 85.35024654359857,22.20487783212364,0 85.34990916289341,22.20428899825985,0 85.34949194295356,22.20395714494329,0 85.34868285617381,22.20478245298255,0 85.34731797367751,22.20425707525985,0 85.34690053196972,22.20405308802733,0 85.34618706404365,22.2036566750647,0 85.34603693087028,22.20337771141913,0 85.34613410277245,22.20294454315369,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

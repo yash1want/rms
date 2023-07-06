@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="entities" id="entities">
+	<SimpleField name="Layer" type="string"></SimpleField>
+	<SimpleField name="SubClasses" type="string"></SimpleField>
+	<SimpleField name="ExtendedEntity" type="string"></SimpleField>
+	<SimpleField name="Linetype" type="string"></SimpleField>
+	<SimpleField name="EntityHandle" type="string"></SimpleField>
+	<SimpleField name="Text" type="string"></SimpleField>
+</Schema>
+<Folder><name>entities</name>
+  <Placemark>
+	<Style><LineStyle><color>FF0000ff</color><width>1417.32</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#entities">
+		<SimpleData name="Layer">0</SimpleData>
+		<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+		<SimpleData name="Linetype">DASHDOTX2</SimpleData>
+		<SimpleData name="EntityHandle">291</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>73.6827409091292,24.2132063330159,-505 73.6795537359891,24.2128711730718,-505 73.6802676620705,24.2406554121535,-505 73.6908469385665,24.2426360080235,-505 73.6926181505486,24.2412010277788,-505 73.695961054946,24.2144440989566,-505 73.6942002885567,24.2142591021629,-505 73.6917298098412,24.215903071664,-505 73.6899590789533,24.213965141172,-505 73.6827409088478,24.2132063343568,-505</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FF0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#entities">
+		<SimpleData name="Layer">Mining Lease Boundary</SimpleData>
+		<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+		<SimpleData name="Linetype">DASHDOT</SimpleData>
+		<SimpleData name="EntityHandle">292</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>73.6954031889328,24.3496807260754 73.6900236881284,24.3487608416271 73.6877119403554,24.3617073501277 73.6820942490675,24.3710482708078 73.6888064215941,24.3809958766629 73.7012487349132,24.3795783310549 73.7380301229401,24.3704576594648 73.7523904777536,24.3557144114292 73.7333178051006,24.3389710906146 73.7052929946017,24.3385944940463 73.7003420207532,24.3171821574177 73.6732878379317,24.3169587450618 73.6730081775002,24.3468521343451 73.6831383498816,24.3471773013202 73.6900236881276,24.3487608416281</coordinates></LineString>
+  </Placemark>
+</Folder>
+</Document></kml>

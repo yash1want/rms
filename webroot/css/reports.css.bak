@@ -1,0 +1,113 @@
+.reportLink {
+    color: #495057;
+}
+
+.reportLink:hover {
+    color: #495057;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.reportHeading {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.reportHeadingMain {
+    text-align: center;
+    padding: 5px;
+    background-color: #495057;
+}
+
+.backToList {
+    margin: 5px;
+    background-color: #495057;
+    color: white;
+    font-weight: 600;
+}
+.backToList:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+.backToReport{
+    background-color: #495057;
+    font-weight: bold;
+}
+
+.labelForm {
+    float: right;
+}
+
+.backToListReport {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.tHeadFont{
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: underline;
+    font-weight:bold;
+    font-weight: 500;
+    color: #6c757d;
+}
+.tBodyCenter {
+    text-align: center;
+}
+
+.reporticoBack {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.noReport {
+    text-align: center;
+    font-weight: bold;
+}
+
+.ui-datepicker-calendar {
+	display: none !important;
+}
+
+.compulsoryField{
+    color: red;
+}
+
+.fsStyle {
+    border: #ccc 2px solid;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.groupWeight{
+    font-weight: bold;
+}
+
+.ms-options-wrap > .ms-options {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    background: white;
+    z-index: 2000;
+    border: 1px solid #aaa;
+    /* overflow: auto; */
+    visibility: visible;
+}
+.tableHead{
+    text-align: center;
+    background-color: #495057;
+    color: white;
+}
+
+table.dataTable.table thead th.sorting::after, table.dataTable.table thead td.sorting::after {
+    content: "material-icons";
+    color: rgb(221, 221, 221);
+    font-size: 0.8em;
+}
+
+table.dataTable.table thead th.sorting_asc:after, table.dataTable.table thead td.sorting_asc:after {
+    content: "";
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Surda-Rev.kml</name>
+	<Style id="style0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal2/icon56.png</href>
+				<x>224</x>
+				<y>224</y>
+				<w>32</w>
+				<h>32</h>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+	</Style>
+	<Style id="style">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal2/icon56.png</href>
+				<x>224</x>
+				<y>224</y>
+				<w>32</w>
+				<h>32</h>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="stylemap_id7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Surda-Rev</name>
+		<open>1</open>
+		<description>Perimeter: 8.431 km</description>
+		<styleUrl>#stylemap_id7</styleUrl>
+		<MultiGeometry>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.42552530883636,22.57189293969409,0 86.4329447329455,22.54529222499804,0 86.44583632138803,22.54895298845693,0 86.43950530142857,22.5714854473675,0 86.42552530883636,22.57189293969409,0 
+				</coordinates>
+			</LineString>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

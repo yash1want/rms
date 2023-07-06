@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:globalmapper="http://www.bluemarblegeo.com/globalmapper">
+<Document>
+  <!-- Begin Style Definitions -->
+  <Style id="area1">
+    <LineStyle>
+      <color>FF000000</color>
+      <width>1</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>BF000000</color>
+      <fill>0</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Folder>
+    <name>Area Features</name>
+    <description>Area Features</description>
+    <Placemark>
+      <description><![CDATA[Lease Boundary<BR><BR><B>GM_LAYER</B> = Lease Boundary<BR><B>LAYER</B> = Lease Boundary<BR><B>NAME</B> = Lease Boundary]]></description>
+      <name>Lease Boundary</name>
+      <styleUrl>#area1</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              68.6913580157,23.7114887136,0
+              68.6981138050,23.7129020847,0
+              68.6980267162,23.7166413852,0
+              68.6979378318,23.7211574778,0
+              68.6978391285,23.7256735486,0
+              68.6977502278,23.7301896357,0
+              68.6976841513,23.7333147575,0
+              68.6949975819,23.7325417181,0
+              68.6894400503,23.7301822034,0
+              68.6866501277,23.7316488750,0
+              68.6866625216,23.7264642371,0
+              68.6866847225,23.7212796156,0
+              68.6866971090,23.7160949707,0
+              68.6906509062,23.7159855036,0
+              68.6913580157,23.7114887136,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[100M Buffer<BR><BR><B>GM_LAYER</B> = 100M Buffer<BR><B>LAYER</B> = 100M Buffer<BR><B>NAME</B> = Lease Boundary Buffer 100M]]></description>
+      <name>Lease Boundary Buffer 100M</name>
+      <styleUrl>#area1</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              68.6856818038,23.7264614607,0
+              68.6857040435,23.7212768397,0
+              68.6857185619,23.7152187392,0
+              68.6897983776,23.7151058066,0
+              68.6905397098,23.7103915732,0
+              68.6991113497,23.7121848438,0
+              68.6990071745,23.7166592402,0
+              68.6989183356,23.7211747364,0
+              68.6988196660,23.7256908081,0
+              68.6987308050,23.7302065988,0
+              68.6986393066,23.7345355524,0
+              68.6946444542,23.7333860825,0
+              68.6894878741,23.7311968060,0
+              68.6856656300,23.7332061372,0
+              68.6856818038,23.7264614607,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>

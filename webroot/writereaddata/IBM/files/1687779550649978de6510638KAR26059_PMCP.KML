@@ -1,0 +1,2591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Halki Limestone Mine.kml</name>
+	<open>1</open>
+	<Schema name="1" id="1">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="int" name="PaperSpace"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Schema name="2" id="2">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="int" name="PaperSpace"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Schema name="3" id="3">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="int" name="PaperSpace"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Schema name="Fenching" id="Fenching">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="int" name="PaperSpace"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Schema name="KML1" id="KML1">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="int" name="PaperSpace"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Schema name="KML2" id="KML2">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="int" name="PaperSpace"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Schema name="KML2" id="KML20">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="int" name="PaperSpace"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Schema name="Planttaion" id="Planttaion">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="int" name="PaperSpace"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<StyleMap id="m_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff55</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff55</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7faaaa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d7faaaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff5555</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff55</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff55</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff5555</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7faaaa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d7faaaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d7faaaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff55aa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff55aa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d7faaaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style3">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style1">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style2">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style12">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style4">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style8">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style9">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style14">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style0">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style10">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style15">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style17">
+		<LineStyle>
+			<color>ff7fffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style00">
+		<LineStyle>
+			<color>ff00aaaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style000">
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style11">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff5555</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style100">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff5555</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style110">
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style120">
+		<LineStyle>
+			<color>ff7fffaa</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style1200">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff5555</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style13">
+		<LineStyle>
+			<color>ff00aaaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style140">
+		<LineStyle>
+			<color>ff00aaaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style16">
+		<LineStyle>
+			<color>ff00aaaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style18">
+		<LineStyle>
+			<color>ff00aaaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style20">
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style21">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff5555</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style22">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style30">
+		<LineStyle>
+			<color>ff00aaaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style300">
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style31">
+		<LineStyle>
+			<color>ff00aaaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style41">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style40">
+		<LineStyle>
+			<color>ff00aaaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style400">
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style5">
+		<LineStyle>
+			<color>ff7fffaa</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style50">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff5555</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style500">
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style6">
+		<LineStyle>
+			<color>ff7fffaa</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style60">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style7">
+		<LineStyle>
+			<color>ff7fffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style70">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff5555</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style81">
+		<LineStyle>
+			<color>ff00aaaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style80">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style91">
+		<LineStyle>
+			<color>ff7fffaa</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style90">
+		<LineStyle>
+			<color>ff00aaaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style300</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style500</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style140</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style16</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style81</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style60</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style80</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style70</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style1200</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id22">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id21">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id31">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id32">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style91</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style120</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id30">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style400</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id41">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style50</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id40">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style41</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style22</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style21</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id50">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style17</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id60">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style90</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id70">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style31</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style18</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Planttaion</name>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">242</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2425511312845,16.2289620195761,0 75.2425208048231,16.2290124742714,0 75.2425215200502,16.2290148835584,0 75.2425492640853,16.2290574435396,0 75.2425874011186,16.2290996590014,0 75.2426325756437,16.2291824351479,0 75.24269693094639,16.2292666574945,0 75.2426543706712,16.2292870644959,0 75.24259283727621,16.2292065351803,0 75.2425485619663,16.2291254066959,0 75.2425116180644,16.2290845119509,0 75.24247838286399,16.2290335283812,0 75.2424703374558,16.2290064268979,0 75.2425095107947,16.2289412535181,0 75.242535861856,16.228885347292,0 75.24254257067319,16.2286438708363,0 75.2425015827654,16.2285132357287,0 75.2424792119001,16.2284583971283,0 75.2423995210729,16.228371518611,0 75.2423357331688,16.2283253357643,0 75.2422370297086,16.228274180206,0 75.2420828420354,16.2281814458511,0 75.2419405072568,16.228131426137,0 75.24196429588881,16.2280916878752,0 75.2421034230903,16.2281405803671,0 75.2422604753062,16.2282350375647,0 75.2423609630748,16.2282871178818,0 75.24243138272359,16.2283381021485,0 75.242519708578,16.2284343945072,0 75.2425458060322,16.2284983682121,0 75.2425895429997,16.2286377649149,0 75.2425823761286,16.228895730702,0 75.2425511312845,16.2289620195761,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">243</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2664528589644,16.2223683173767,0 75.2663787565974,16.2223711636253,0 75.26697072776859,16.2204514422756,0 75.2670771058601,16.2203439242992,0 75.2664528589644,16.2223683173767,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">244</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2608171682631,16.2225184928473,0 75.2607450864496,16.2224709229611,0 75.2633257019455,16.2216040925554,0 75.26334874735809,16.2216681333967,0 75.2608171682631,16.2225184928473,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">245</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2521370108574,16.2308819686762,0 75.2517227708622,16.2308473542871,0 75.251704313052,16.2307777577477,0 75.2521205431361,16.2308125384801,0 75.2531832432515,16.2302015804984,0 75.25318958364819,16.2302329973388,0 75.25324419863171,16.2302454341561,0 75.2521370108574,16.2308819686762,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">246</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2541437944836,16.2245267143937,0 75.2541610752388,16.2245924276975,0 75.2475043753914,16.2262262858878,0 75.24749579438689,16.2261584373634,0 75.2541437944836,16.2245267143937,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">247</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2459822553669,16.2265998506302,0 75.24509610389011,16.226817327782,0 75.2450868009924,16.2267496565117,0 75.2459733715563,16.2265320764776,0 75.2459822553669,16.2265998506302,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">248</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2473699381565,16.226259280503,0 75.2469708023883,16.2263572388933,0 75.2469596714414,16.2262900162092,0 75.2473602871676,16.2261916945871,0 75.2473699381565,16.226259280503,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">249</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.25056590897699,16.2306826269695,0 75.2505598611922,16.2307501757722,0 75.2391124326484,16.2297932259794,0 75.23866799975281,16.2294966217589,0 75.237773962612,16.2285441967377,0 75.2443663463218,16.2269264657068,0 75.24483068773471,16.2268824647617,0 75.2379043376977,16.2285821594627,0 75.2387145470299,16.2294452813213,0 75.2391370156589,16.229727227082,0 75.25056590897699,16.2306826269695,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">24A</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2555610532219,16.2244582602872,0 75.2555247289655,16.2242576957671,0 75.255949665806,16.2241533857975,0 75.25686691776809,16.2238453104877,0 75.25691082111869,16.2242850538825,0 75.2555610532219,16.2244582602872,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">24B</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2574907485556,16.2257087224609,0 75.25748542844001,16.2257052873219,0 75.2574798777576,16.225702211509,0 75.2574741224669,16.2256995094064,0 75.25746818948311,16.225697193651,0 75.25746210655259,16.2256952750725,0 75.2574559021227,16.2256937626435,0 75.2574496052093,16.225692663437,0 75.2574432452605,16.2256919825935,0 75.2574368520193,16.2256917232971,0 75.25743045538449,16.2256918867604,0 75.25743045538449,16.2256918867604,0 75.2572520589036,16.2257023517636,0 75.2572520589036,16.2257023517636,0 75.2572463481679,16.2257025179324,0 75.25724063758079,16.2257023470639,0 75.2572349484326,16.2257018397952,0 75.257229301934,16.2257009980173,0 75.25722371913631,16.2256998248688,0 75.2572182208535,16.2256983247233,0 75.2572128275846,16.2256965031738,0 75.2570450082486,16.2256342054945,0 75.2570450082486,16.2256342054945,0 75.2570392837286,16.2256318667966,0 75.2570337325391,16.2256291660933,0 75.25702837917279,16.2256261153002,0 75.25702324724929,16.225622727878,0 75.2570183594113,16.2256190187724,0 75.2570137372246,16.2256150043484,0 75.2570094010829,16.2256107023182,0 75.2570053701178,16.2256061316628,0 75.25700166211431,16.2256013125486,0 75.2569982934326,16.2255962662382,0 75.2569952789358,16.2255910149965,0 75.25699263192421,16.2255855819926,0 75.2569903640766,16.2255799911976,0 75.25698848539911,16.2255742672789,0 75.2569870041806,16.225568435491,0 75.2569859269563,16.2255625215646,0 75.2569852584792,16.2255565515927,0 75.2569850016986,16.2255505519154,0 75.25698515774729,16.2255445490041,0 75.2569857259369,16.2255385693444,0 75.2571015684712,16.2246461745105,0 75.2582431883849,16.2245821345906,0 75.2582431883849,16.2245821345906,0 75.2582494318403,16.2245819860491,0 75.2582556716447,16.2245822402258,0 75.25826188000021,16.2245828959885,0 75.2582680292489,16.2245839504158,0 75.2582740919962,16.2245853988103,0 75.25828004123289,16.2245872347194,0 75.25828585045539,16.2245894499643,0 75.2582914937839,16.2245920346761,0 75.25829694607771,16.2245949773402,0 75.25830218304711,16.224598264847,0 75.2583071813616,16.2246018825509,0 75.2583119187541,16.2246058143353,0 75.2583163741195,16.2246100426841,0 75.2583205276096,16.2246145487604,0 75.25832436072071,16.2246193124898,0 75.2583278563764,16.2246243126502,0 75.2583309990037,16.224629526966,0 75.25833377460241,16.2246349322077,0 75.2583361708073,16.2246405042952,0 75.2583381769434,16.2246462184052,0 75.2583397840733,16.2246520490816,0 75.25834098503741,16.224657970349,0 75.25848681917481,16.2255303534721,0 75.25848681917481,16.2255303534721,0 75.2584876330036,16.2255365943199,0 75.2584879956715,16.2255428747363,0 75.2584879054224,16.2255491643148,0 75.2584873626933,16.2255554326047,0 75.2584863701117,16.2255616492582,0 75.2584849324831,16.2255677841777,0 75.2584830567678,16.2255738076612,0 75.25848075204691,16.2255796905462,0 75.2584780294786,16.2255854043508,0 75.258474902244,16.225590921412,0 75.2584713854836,16.225596215019,0 75.2584674962236,16.2256012595431,0 75.2584632532936,16.2256060305613,0 75.25845867723569,16.225610504975,0 75.2584537902046,16.2256146611213,0 75.2584486158609,16.2256184788784,0 75.25844317925571,16.2256219397629,0 75.25843750671039,16.2256250270189,0 75.2584316256883,16.2256277256995,0 75.2584255646622,16.2256300227393,0 75.2584193529764,16.2256319070171,0 75.2584130207045,16.2256333694103,0 75.2584065985041,16.2256344028387,0 75.258400117468,16.2256350022991,0 75.25840088626821,16.2256349571963,0 75.25840088626821,16.2256349571963,0 75.25839438554939,16.2256355591493,0 75.2583879441211,16.2256365977067,0 75.2583815933595,16.2256380678096,0 75.2583753641993,16.225639962297,0 75.2583692869827,16.225642271941,0 75.258363391312,16.2256449854913,0 75.2583577059049,16.2256480897301,0 75.2583522584551,16.2256515695367,0 75.2583470754973,16.2256554079608,0 75.2583421822777,16.2256595863055,0 75.2583376026312,16.2256640842181,0 75.2583333588653,16.2256688797892,0 75.25832947165151,16.2256739496595,0 75.25832595992441,16.2256792691336,0 75.2583228407898,16.2256848123003,0 75.258320129441,16.2256905521588,0 75.25831783908509,16.2256964607502,0 75.25831598087839,16.2257025092937,0 75.2583145638723,16.2257086683267,0 75.2583135949692,16.2257149078486,0 75.25831307888851,16.2257211974664,0 75.25831301814431,16.2257275065435,0 75.2583134130324,16.2257338043482,0 75.2583449675282,16.226052363662,0 75.25812158918831,16.226052635456,0 75.2579869671641,16.2260219870848,0 75.2577800917209,16.2259097072829,0 75.2574907485556,16.2257087224609,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2579777804584,16.2251440341472,0 75.25806995785,16.2251315164337,0 75.2580449150956,16.2249593855913,0 75.25795273778211,16.2249719032929,0 75.2579777804584,16.2251440341472,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">24C</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2634144507615,16.2230473281402,0 75.2628802130637,16.2232129717808,0 75.26209845140539,16.2234509180774,0 75.26169466675719,16.223580449002,0 75.2616377073916,16.2235034667893,0 75.2620696493855,16.2233649032524,0 75.2628518591434,16.2231268205827,0 75.2633508063486,16.222972119032,0 75.2634144507615,16.2230473281402,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">24D</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2621365428444,16.2235698534098,0 75.2618886392757,16.2236493790298,0 75.261873896663,16.2236064811961,0 75.262122141814,16.2235268460012,0 75.2629036526359,16.2232889760449,0 75.2634576530901,16.2231172048069,0 75.2634894753343,16.2231548093464,0 75.2629178296162,16.22333205164,0 75.2621365428444,16.2235698534098,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">24E</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.24170965921719,16.2277291753631,0 75.2415403141361,16.2277695189255,0 75.2412311819096,16.2278435342895,0 75.2409640799344,16.2279164788563,0 75.2405144008119,16.2280303600239,0 75.2402071145867,16.2281076790929,0 75.24001723967559,16.2281720921592,0 75.2398867758249,16.2282043112929,0 75.2396705479909,16.2282461104765,0 75.2396613686265,16.2282017882729,0 75.2398763855275,16.2281602231773,0 75.2400036702422,16.2281287891587,0 75.2401934451517,16.2280644100168,0 75.2405025734376,16.2279866274538,0 75.2409517840667,16.2278728649351,0 75.24121918847,16.2277998377773,0 75.2415290864439,16.2277256390731,0 75.241753620127,16.227672147741,0 75.24177315587811,16.2276672344981,0 75.24182976124619,16.2277239447239,0 75.2418146370545,16.2277727368209,0 75.2418004907059,16.2279902164194,0 75.2417537971304,16.2279873814464,0 75.24176755359051,16.227775896591,0 75.24170965921719,16.2277291753631,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">24F</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.24238503763721,16.2275820790552,0 75.2420776443566,16.2276407788277,0 75.2419704633668,16.2276670715835,0 75.2419589492697,16.2276232610711,0 75.2420673439817,16.2275966705753,0 75.24237527398169,16.2275378683136,0 75.242970661887,16.2274060444166,0 75.24332018939459,16.2273297249262,0 75.24378494804169,16.2272337130144,0 75.2443149268025,16.2271628372846,0 75.2446920742415,16.2271274046664,0 75.2450106810581,16.2270944003853,0 75.24543870498439,16.2270336133764,0 75.2459215510121,16.2269565637689,0 75.2463254210538,16.2268842160978,0 75.24662017199149,16.2268085709487,0 75.2468905030739,16.2267866986942,0 75.24698579285651,16.2268432197213,0 75.2470897773799,16.2269545698318,0 75.2470550404348,16.2269848486753,0 75.2469555707352,16.2268783331738,0 75.2468791083284,16.2268329795828,0 75.24662819192839,16.2268532810062,0 75.24633570645069,16.2269283447429,0 75.24592962859261,16.2270010879163,0 75.2454459197422,16.2270782752095,0 75.2450165793156,16.2271392491858,0 75.2446968323637,16.2271723715743,0 75.244320400653,16.2272077369526,0 75.24379305779981,16.2272782601768,0 75.24333023801999,16.2273738715492,0 75.24298104426811,16.2274501181654,0 75.24238503763721,16.2275820790552,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">250</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2573937009813,16.2277770443363,0 75.25737181513909,16.2277762963815,0 75.25709460793659,16.2277537299149,0 75.2565580470807,16.2276900319668,0 75.2561078708398,16.227634930811,0 75.25584378547789,16.2276003495691,0 75.25546902519309,16.2275541801024,0 75.25517191320181,16.2275102908526,0 75.2548440712045,16.2274648926201,0 75.25434163567741,16.2273983814426,0 75.2532502388536,16.2272306062324,0 75.2528676349218,16.2271787459594,0 75.2522977991908,16.2269358553727,0 75.2523342534011,16.226876601007,0 75.25252960035699,16.2269621713908,0 75.2526405856707,16.2270170339721,0 75.252852295338,16.2271060642483,0 75.25318015605571,16.2271676997421,0 75.2538172874321,16.2272530277206,0 75.2566337227361,16.2276331359646,0 75.25692028741859,16.2276718087694,0 75.25750830559249,16.2277111524954,0 75.2573937009813,16.2277770443363,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">251</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2507900153564,16.2306348524341,0 75.2509052629665,16.2304922766458,0 75.2509282727392,16.2304210012626,0 75.2508983589158,16.2301802708134,0 75.25088570351861,16.229977595963,0 75.2508724061949,16.2297646402215,0 75.2508316921808,16.2296193366432,0 75.2507258740213,16.2293932288829,0 75.25072379790321,16.2293884294708,0 75.2507220109466,16.2293835226398,0 75.2507205190678,16.2293785246356,0 75.250719327206,16.2293734520057,0 75.25071843930741,16.2293683215448,0 75.2506957059702,16.2292088861613,0 75.25061062742169,16.2288327826571,0 75.250574696851,16.2284751972032,0 75.2505598190418,16.2279706324075,0 75.25057733394119,16.2275305244004,0 75.2505577245044,16.2273669126657,0 75.2505430889497,16.2270572453021,0 75.2505135490059,16.2266619307483,0 75.2505415473447,16.2266599778967,0 75.2505711140672,16.2270556500631,0 75.250585721984,16.2273647317258,0 75.25060546759789,16.2275294794621,0 75.2505879058036,16.2279707674053,0 75.2506027296253,16.2284734988616,0 75.2506384068483,16.2288285624708,0 75.2507233649247,16.2292041331743,0 75.25074665458401,16.2293674700414,0 75.2507475717597,16.2293727435207,0 75.2507488100659,16.2293779553829,0 75.25075036516991,16.2293830873918,0 75.2507522316304,16.229388121591,0 75.2507544029169,16.2293930403661,0 75.2508581994917,16.2296101478626,0 75.2509002537834,16.2297602346625,0 75.2509137242548,16.2299759628685,0 75.25092632960791,16.2301778358114,0 75.25095686069341,16.2304235333692,0 75.2509305376949,16.2305050718801,0 75.2508121400142,16.2306515447261,0 75.2507900153564,16.2306348524341,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">252</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2614065797023,16.2229074689871,0 75.2606039724453,16.2232723564966,0 75.25991904374381,16.2228201646115,0 75.2604764212371,16.2226329780515,0 75.26081719931391,16.2225185133391,0 75.2614065797023,16.2229074689871,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">253</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.25663083935621,16.2253874179089,0 75.25673189524321,16.2248809151152,0 75.25700760518851,16.2249408819717,0 75.25691788401321,16.2255127593866,0 75.25663083935621,16.2253874179089,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">254</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2518047912195,16.2265513182002,0 75.25179578666931,16.2266228267923,0 75.2515898357312,16.226600575722,0 75.2513692625925,16.2265746687756,0 75.2511170954396,16.2265385103769,0 75.2511228655399,16.2264711655331,0 75.2518047912195,16.2265513182002,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">255</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.25154151777841,16.2266975948134,0 75.2517469849527,16.2267197936526,0 75.251882921507,16.2267399843191,0 75.25212817361979,16.2267996241919,0 75.25212182246408,16.22684929780574,0 75.25109088938736,16.22669693245107,0 75.2510947683852,16.2266392562645,0 75.2513209445371,16.2266716878184,0 75.25154151777841,16.2266975948134,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">256</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2437719724368,16.2271624375533,0 75.243767009907,16.2271435627436,0 75.2447025679398,16.2269139669951,0 75.2447713412277,16.2269060574713,0 75.2449238996802,16.2268953447269,0 75.2450443382801,16.2268883089036,0 75.2451924289043,16.2268722024498,0 75.2452867570844,16.2268488963291,0 75.2454368069133,16.2268145994153,0 75.24553850143199,16.2268054262688,0 75.2456333476046,16.2267975149627,0 75.2457526270798,16.226780716279,0 75.2459008591733,16.2267548729853,0 75.24603072514969,16.2267425136779,0 75.2461269704354,16.226740558521,0 75.2461951867124,16.2267443656159,0 75.2462426535625,16.2267536581216,0 75.246370670551,16.2267233463152,0 75.2464722264514,16.2266939500239,0 75.24667513355099,16.2266366490803,0 75.24670571725051,16.2266199823127,0 75.2467892874612,16.2266002276576,0 75.2468998300192,16.2265979717057,0 75.24701569625201,16.2265951239255,0 75.24702388383611,16.2265954503118,0 75.2470348665029,16.226650473406,0 75.2469929600599,16.2267028803064,0 75.2469087346559,16.2267126492708,0 75.2466073401005,16.2267370348555,0 75.24630896442871,16.2268136102641,0 75.24590862689119,16.2268853251319,0 75.2454271613791,16.2269621544424,0 75.2450012438521,16.2270226423038,0 75.2446844612508,16.2270554576133,0 75.2443061686471,16.227090997815,0 75.2437719724368,16.2271624375533,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">257</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.25947115799001,16.2254657154734,0 75.25928288135989,16.2255699160013,0 75.2589418164461,16.225714579982,0 75.2587738271303,16.2257800996669,0 75.25873943922841,16.2256978013537,0 75.25890615071511,16.2256327800572,0 75.2592414695292,16.2254905533226,0 75.25941717093551,16.2253933124898,0 75.2598094437605,16.2250552686655,0 75.26031439334029,16.2245131377647,0 75.2607976737729,16.2240088986336,0 75.261088343465,16.2237272765321,0 75.26115339092669,16.2237899445583,0 75.26086392144509,16.2240704039007,0 75.2603822403472,16.2245729745153,0 75.25987435486481,16.225118257688,0 75.25947115799001,16.2254657154734,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">258</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2519760330084,16.2303219421812,0 75.2531438686858,16.2301421414271,0 75.2531600369215,16.2302149221695,0 75.2521205431361,16.2308125384801,0 75.2517833447103,16.2307843618007,0 75.2516381327998,16.2303672915005,0 75.25144177716859,16.2298033257487,0 75.25135528759949,16.2293013093113,0 75.2514964881271,16.2286419989816,0 75.25186853933459,16.2287134517347,0 75.25183710449571,16.2289755449741,0 75.2517852929642,16.2294075308627,0 75.2519760330084,16.2303219421812,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">259</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.25894818331859,16.2258151219151,0 75.2593055180747,16.2256658916271,0 75.2594824473218,16.2255681581154,0 75.2595495617431,16.2255250828952,0 75.2596739741728,16.2254249654992,0 75.2600235821435,16.2250897240319,0 75.2604326690094,16.2246358429356,0 75.26091162244499,16.2241361181969,0 75.2612105752312,16.2238510335506,0 75.26126315340311,16.2239025107074,0 75.2609661172996,16.2241857036319,0 75.2604883705006,16.2246841695514,0 75.2600782465916,16.2251392013813,0 75.2597243898132,16.225478517146,0 75.2595943570787,16.2255831573441,0 75.2595217793825,16.2256297389974,0 75.25933904999511,16.2257306764444,0 75.25897991417099,16.2258806589124,0 75.2588281156206,16.2259546148838,0 75.2587883451933,16.2258929947433,0 75.25894818331859,16.2258151219151,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">25A</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.25521123944419,16.2272646567122,0 75.25550691486841,16.2273083337584,0 75.2558800963667,16.2273543087214,0 75.256144106322,16.2273888800916,0 75.2565931264152,16.227443839737,0 75.25712578992891,16.2275070750166,0 75.2573948925338,16.2275289817143,0 75.257807264622,16.227543074247,0 75.2576587600427,16.2276284571853,0 75.2573893070488,16.2276192487224,0 75.25711615219321,16.2275970121473,0 75.2565815400982,16.2275335455472,0 75.25613194200599,16.227478515158,0 75.2558678943911,16.2274439388586,0 75.2554939235619,16.2273978666533,0 75.2551975299035,16.2273540835128,0 75.25486896770251,16.227308585549,0 75.2543666077938,16.2272420843826,0 75.25351295503459,16.2271225030864,0 75.2528360356076,16.2270038862412,0 75.2527706565418,16.2269786189182,0 75.2526195705007,16.2269088111858,0 75.2523966341636,16.2268015865369,0 75.25243833497269,16.2267206582701,0 75.252660608646,16.2268275641928,0 75.2528082588085,16.2268957844094,0 75.2528620237275,16.2269165631643,0 75.2535280227046,16.2270332664058,0 75.2543797630446,16.2271525798092,0 75.2548819569317,16.2272190590005,0 75.25521123944419,16.2272646567122,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">25B</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2475510023535,16.2268969337858,0 75.24744306653599,16.2269643117733,0 75.2473296153548,16.2269988007499,0 75.24726055818709,16.2269929984447,0 75.2472023151347,16.2269734570952,0 75.2471457734725,16.2269371468606,0 75.24709091488781,16.2268647431733,0 75.2470916780551,16.2266772890303,0 75.24704357124151,16.2264362743387,0 75.24702647966539,16.2263435742794,0 75.2470719441262,16.226332416137,0 75.2470895731547,16.2264280310738,0 75.2471373802631,16.2266675439685,0 75.24718939455011,16.2268694424052,0 75.2473138692106,16.2269133772086,0 75.24743889516731,16.2268562295897,0 75.24754808906449,16.2267933836752,0 75.2476037349016,16.2266369686196,0 75.2476655808662,16.2265577124204,0 75.24772803315889,16.2265113969376,0 75.2478361262489,16.2264781662511,0 75.2484547635875,16.226461273685,0 75.2488185245918,16.2264408877118,0 75.2488172820826,16.2264012099736,0 75.2488461622834,16.2263311754414,0 75.248863522593,16.2262931030156,0 75.24890345140361,16.2262170409112,0 75.24894517703849,16.2262374862038,0 75.24890582410259,16.2263124513303,0 75.2488893149757,16.2263486570673,0 75.2488643396854,16.2264092222206,0 75.24886666466431,16.2264834664815,0 75.2484567795952,16.2265064373942,0 75.247844442719,16.2265316068866,0 75.247761846345,16.2265587402387,0 75.2477147744054,16.2265898092323,0 75.24766025001109,16.2266908647346,0 75.2475989985129,16.2268306821906,0 75.2475510023535,16.2268969337858,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">25C</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.24846000520991,16.2265786993285,0 75.2489180048412,16.2265530319118,0 75.2489201723463,16.2265891317916,0 75.2484616180182,16.2266148302955,0 75.24808000521951,16.22662525087,0 75.2480789478048,16.2265891047357,0 75.24846000520991,16.2265786993285,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Planttaion">
+					<SimpleData name="Layer">Planttaion2023</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">25D</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2385737103186,16.2289036789433,0 75.238685064622,16.2290613215274,0 75.23863139946781,16.2291082139228,0 75.2382362966511,16.2285007040976,0 75.2385329843941,16.2284279030016,0 75.23879849899819,16.2287223809144,0 75.2385737103186,16.2289036789433,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Lease Boundary</name>
+		<styleUrl>#stylemap_id10</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#KML1">
+				<SimpleData name="Layer">0</SimpleData>
+				<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+				<SimpleData name="EntityHandle">61B</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				75.2665448277309,16.222597975181,0 75.26645282150049,16.2223682903033,0 75.2670770965521,16.2203439604715,0 75.2559295038406,16.2240883798675,0 75.2377739345839,16.2285442329297,0 75.238668040428,16.2294993156784,0 75.23911239525231,16.229793253142,0 75.2521369827971,16.2308819777497,0 75.2665448277309,16.222597975181,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>7.5 Lease Boundary</name>
+		<styleUrl>#stylemap_id0</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#KML1">
+				<SimpleData name="Layer">Index</SimpleData>
+				<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+				<SimpleData name="EntityHandle">7F0</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				75.25212051471139,16.2308125770293,0 75.2664579355058,16.2225690757149,0 75.2663787296616,16.2223712045173,0 75.26697070117081,16.2204514832649,0 75.2559496385544,16.2241534249759,0 75.23790430966289,16.2285821956762,0 75.23871451884339,16.2294453176679,0 75.2391369874229,16.229727263498,0 75.25212051471139,16.2308125770293,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Canal</name>
+		<styleUrl>#stylemap_id30</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#KML1">
+				<SimpleData name="Layer">SAFETY DISTANCE</SimpleData>
+				<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+				<SimpleData name="Linetype">DASHED2</SimpleData>
+				<SimpleData name="EntityHandle">859</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				75.255564675918,16.2245934218175,0 75.2555051723253,16.2243629187077,0 75.25527102982539,16.2233172809907,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Canal</name>
+		<styleUrl>#stylemap_id20</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#KML1">
+				<SimpleData name="Layer">SAFETY DISTANCE</SimpleData>
+				<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+				<SimpleData name="Linetype">DASHED2</SimpleData>
+				<SimpleData name="EntityHandle">7FE</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				75.2507671909799,16.2309389548644,0 75.25086935530121,16.2308070250115,0 75.2510421508908,16.230544487778,0 75.2510421508908,16.230544487778,0 75.25104524134311,16.2305394374977,0 75.2510479862172,16.2305342041884,0 75.2510503739523,16.2305288098912,0 75.25105239449221,16.2305232773253,0 75.2511002010056,16.230377458133,0 75.2511270840764,16.2302621718376,0 75.2511803506933,16.2299411962474,0 75.2512606646272,16.2293595648078,0 75.2513273586015,16.22898746072,0 75.25142382684351,16.2285206473086,0 75.25155827180041,16.2279363602485,0 75.25162166158169,16.2276190981046,0 75.2518901660258,16.2272750305754,0 75.2523969467408,16.2267103119281,0 75.2528506831879,16.2262346916645,0 75.2533668678746,16.2256839792667,0 75.2536012037956,16.2254628116663,0 75.2540652198888,16.2250358230315,0 75.2544445347164,16.2247012442614,0 75.25461561540899,16.2246587104073,0 75.2554658740091,16.2245406790002,0 75.2554658740091,16.2245406790002,0 75.2554722126482,16.2245400111187,0 75.2554785836501,16.2245397618611,0 75.2554849574303,16.2245399323847,0 75.2554913043914,16.2245405218977,0 75.2554975950604,16.2245415276626,0 75.25550380022599,16.224542945009,0 75.2555098910737,16.2245447673553,0 75.25551583932,16.2245469862393,0 75.2555216173435,16.2245495913573,0 75.2555271983132,16.2245525706121,0 75.2555325563132,16.2245559101691,0 75.2555376664631,16.2245595945209,0 75.2555425050332,16.2245636065586,0 75.25554704955501,16.2245679276518,0 75.25555127892549,16.2245725377351,0 75.2555551735051,16.224577415401,0 75.25555871520871,16.2245825379995,0 75.2555618875902,16.2245878817431,0 75.255564675918,16.2245934218175,0 75.25564942254741,16.2247775002222,0 75.2558042435743,16.2249851011885,0 75.2559346715783,16.225116053694,0 75.2559912858499,16.2251672432558,0 75.25606109108369,16.2252108306759,0 75.25617859506229,16.225265710309,0 75.25636950367969,16.2253556539895,0 75.25648643271521,16.2254107431931,0 75.2567947656496,16.2255578261809,0 75.25700526804761,16.2256530829679,0 75.25743766258221,16.225850129928,0 75.25770633214211,16.2259757297635,0 75.25783270052069,16.226035306369,0 75.25803446478029,16.2261229499565,0 75.2581049786119,16.2261487437084,0 75.2581987577846,16.2261617232248,0 75.25848272332129,16.2261359386407,0 75.25874865178579,16.2260974565197,0 75.259176048062,16.2260358042478,0 75.2596365517263,16.2259729645334,0 75.2600443190653,16.2259341382933,0 75.2604633499008,16.2259005370559,0 75.2610735762003,16.2258234592367,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Folder>
+		<name>Working Area</name>
+		<Placemark>
+			<styleUrl>#stylemap_id21</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#3">
+					<SimpleData name="Layer">Prod 2022-23</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+					<SimpleData name="Linetype">Continuous</SimpleData>
+					<SimpleData name="EntityHandle">325</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					75.2487928279393,16.2266379436738,0 75.2486642804044,16.2266489204745,0 75.24852130631101,16.2266623403747,0 75.2482902463411,16.2266666176641,0 75.24805759490251,16.2266877059802,0 75.248029881335,16.2266962633443,0 75.2480007804554,16.2267497706776,0 75.24793583563191,16.2267694258728,0 75.24787599678631,16.2267858846857,0 75.2478295359915,16.2268269272795,0 75.24780537937779,16.2268643001303,0 75.24779856048509,16.2269116668046,0 75.2478044452285,16.2269551272002,0 75.24769274207659,16.2270128910346,0 75.24746086452841,16.2270803767622,0 75.24732505532469,16.227102278942,0 75.2472403927207,16.2271139075666,0 75.2471466661482,16.2271068663079,0 75.2470726008553,16.2270687205766,0 75.24700053333061,16.2270696899663,0 75.24700041243911,16.2270696976571,0 75.2468603289705,16.2270715936369,0 75.2468603289705,16.2270715936369,0 75.2466635904012,16.2270896703,0 75.2466512892846,16.2270871092244,0 75.246639620351,16.2270822578996,0 75.2465832190873,16.2270506245869,0 75.24634787414681,16.2270450041486,0 75.2462048259689,16.2270772563842,0 75.2461544919805,16.2270685233761,0 75.24596770022499,16.2270732338061,0 75.2458443314233,16.2270786361518,0 75.24562747117859,16.2271121896017,0 75.24543241918811,16.2271533287121,0 75.2453923405496,16.2271480711022,0 75.2452851250389,16.2271535577519,0 75.24524503853441,16.227155499474,0 75.24516602819649,16.2271601069565,0 75.24516602819649,16.2271601069565,0 75.2449293391373,16.2271940715267,0 75.24491996286361,16.2271983988021,0 75.2449067707081,16.2272158977562,0 75.2448939452606,16.2272210925717,0 75.2447521333881,16.2272367072045,0 75.24466490399649,16.2272352369517,0 75.2446188219273,16.227244397709,0 75.24452945169941,16.2272691068857,0 75.2443310542544,16.2272930956483,0 75.24431631787439,16.2272974282943,0 75.2442995193703,16.2273144481494,0 75.2442885196612,16.2273194740964,0 75.24415269272239,16.2273318549913,0 75.2440336266386,16.2273356438358,0 75.2439288327012,16.227319777427,0 75.24378436578149,16.227350877818,0 75.2437262087424,16.2273705033395,0 75.2436371145063,16.2273869884846,0 75.2434858887395,16.2274259497364,0 75.24339934974731,16.2274434091633,0 75.24301993082599,16.22751539633,0 75.2429479841571,16.2275271039486,0 75.2428687819197,16.2275570872102,0 75.2427176645143,16.2275915910423,0 75.2426904316338,16.2275962036193,0 75.2426718057398,16.2276036493495,0 75.2426566855018,16.2276391434364,0 75.2426311139624,16.2277098206891,0 75.24260082061301,16.2277467772498,0 75.2425819303734,16.2277799808033,0 75.24255608517311,16.2278205382147,0 75.2425170469015,16.2278425357747,0 75.2424992851456,16.2278637390744,0 75.2425119515232,16.2279195855581,0 75.2425143035664,16.2279558919553,0 75.242522253516,16.2280055535577,0 75.2425411580582,16.2280471498978,0 75.2425655916842,16.2281301289028,0 75.2426144748506,16.2282466644064,0 75.2427029347603,16.2284384832305,0 75.2427256257421,16.2284727281089,0 75.2427479264513,16.228510782173,0 75.2427998052363,16.228640676203,0 75.2428184386134,16.2287582898812,0 75.2428507114733,16.2289309452286,0 75.2428641655258,16.2289589361261,0 75.2429727246637,16.2289819068466,0 75.2429727246637,16.2289819068466,0 75.2430219183412,16.2291114417343,0 75.24311846068269,16.2292309691879,0 75.2431254419908,16.2292548750439,0 75.2431347938698,16.2292624659963,0 75.2431608211856,16.2292651832735,0 75.2431652675068,16.2292678714869,0 75.2431672379401,16.2292695181767,0 75.243184287085,16.2293320781575,0 75.24324105615069,16.2295365319273,0 75.2432535499299,16.2296030495304,0 75.243266426715,16.2296299563607,0 75.2433545773779,16.2296958862121,0 75.243520465643,16.2296772903061,0 75.2436558155984,16.2296973914039,0 75.24371513675911,16.2296929886093,0 75.2438200214055,16.2296924652518,0 75.24386712370971,16.2296989321825,0 75.2439035846276,16.2297078055733,0 75.2440180573649,16.2297149317651,0 75.24412893920869,16.2296907094315,0 75.244241379073,16.2296836169169,0 75.2443538466232,16.2297047710191,0 75.2444831765951,16.2297601546166,0 75.2446127268252,16.2297708668566,0 75.2447893084268,16.2297726201254,0 75.24492538599431,16.229778463542,0 75.24505970745309,16.2297992877468,0 75.24523119883099,16.2298237263013,0 75.24537571750579,16.2298611395387,0 75.24537571750579,16.2298611395387,0 75.2453774259118,16.2298616385621,0 75.2453790980408,16.2298622414627,0 75.24538072713371,16.2298629458033,0 75.2453823066049,16.2298637487368,0 75.2453838300698,16.2298646470175,0 75.2453852913699,16.2298656370142,0 75.2453866845982,16.2298667147249,0 75.2453880041227,16.2298678757932,0 75.2453892446095,16.2298691155256,0 75.24539040104401,16.2298704289108,0 75.24539146875151,16.2298718106394,0 75.24543200850709,16.2299279091536,0 75.24543200850709,16.2299279091536,0 75.2454331133934,16.2299293358348,0 75.2454343128634,16.2299306893435,0 75.2454356017398,16.2299319638373,0 75.245436974459,16.2299331538149,0 75.2454384250957,16.2299342541396,0 75.24543994738831,16.2299352600619,0 75.2454415347657,16.2299361672399,0 75.2454431803761,16.2299369717575,0 75.2454448771161,16.2299376701422,0 75.2454466176619,16.2299382593794,0 75.2454483945003,16.2299387369256,0 75.2454501999616,16.2299391007195,0 75.24545202625259,16.2299393491907,0 75.24545386549001,16.2299394812669,0 75.245594659386,16.2299451071545,0 75.2458332470076,16.2299076947817,0 75.24597337396359,16.2298982183071,0 75.24597337396359,16.2298982183071,0 75.2459752289892,16.22989803286,0 75.245977067176,16.2298977288261,0 75.245978880411,16.2298973075473,0 75.2459806606914,16.2298967708828,0 75.2459824001598,16.2298961212012,0 75.24598409113899,16.2298953613701,0 75.2459857261659,16.2298944947429,0 75.24598729802391,16.2298935251445,0 75.2459887997758,16.2298924568544,0 75.2459902247935,16.2298912945875,0 75.2459915667874,16.2298900434734,0 75.2459928198348,16.2298887090342,0 75.2459939784051,16.2298872971594,0 75.245995037385,16.2298858140803,0 75.2459959921006,16.2298842663427,0 75.2459968383382,16.2298826607775,0 75.24600032436329,16.229875465158,0 75.24600032436329,16.229875465158,0 75.24600120125061,16.2298738060707,0 75.24600219395739,16.2298722090541,0 75.2460032978,16.2298706816432,0 75.24600450757031,16.2298692310446,0 75.2460058175604,16.2298678641023,0 75.24600722158959,16.2298665872659,0 75.2460087130335,16.2298654065595,0 75.2460102848552,16.2298643275539,0 75.2460119296388,16.2298633553401,0 75.2460136396238,16.2298624945049,0 75.2460154067424,16.2298617491101,0 75.2460172226569,16.2298611226724,0 75.2460190787998,16.2298606181476,0 75.2460209664134,16.2298602379159,0 75.2460495426397,16.2298554645935,0 75.2460944064743,16.2298471112524,0 75.2461008220139,16.2298463574432,0 75.24628463551571,16.2298241113041,0 75.2463473293536,16.2298246320272,0 75.2464417805724,16.2298126977959,0 75.2464786141481,16.2297670892317,0 75.24648835927231,16.2297660053458,0 75.246647512851,16.2297731314538,0 75.2467979134605,16.2297643174639,0 75.2468486896628,16.2297635077222,0 75.2468486896628,16.2297635077222,0 75.2468984140293,16.2297691116113,0 75.2471226308482,16.2297903433874,0 75.2471364096419,16.2297891820666,0 75.2471802429847,16.2297740280841,0 75.24719134095029,16.2297729295437,0 75.24728940432129,16.2297899868543,0 75.2473874439256,16.2298058839921,0 75.2475121489999,16.2298520627352,0 75.2476428119699,16.2298859129533,0 75.2476595447182,16.2298861475254,0 75.24774077357949,16.2298522586174,0 75.2477898438118,16.2298407508607,0 75.24794843977649,16.2297974793267,0 75.24811494184689,16.229763782313,0 75.2482578133757,16.2297370194916,0 75.24833026226921,16.2297100499129,0 75.248436709459,16.2296983584665,0 75.24858395735301,16.2296794478594,0 75.24871524819849,16.229668089232,0 75.2488566517281,16.2296538387251,0 75.2491828823776,16.2296546835038,0 75.2491828823776,16.2296546835038,0 75.2491828823776,16.2296546835038,0 75.2492684330186,16.2296665752728,0 75.2492789556668,16.2296675164504,0 75.24929039027521,16.2296658021038,0 75.2494317888649,16.2296490621429,0 75.2495877447183,16.2296467052496,0 75.2496363604709,16.2296606692721,0 75.24980602851051,16.2296465591878,0 75.24993066271141,16.2296310195155,0 75.2500695469755,16.2296143655282,0 75.25029675767981,16.2296130544929,0 75.25044566144599,16.2295940327951,0 75.2504848756688,16.2295922336186,0 75.2504969802896,16.2295895476482,0 75.2505039226394,16.2295849501825,0 75.25052432761061,16.2295503784501,0 75.25054838552821,16.2295181853813,0 75.2505799449946,16.2294488493798,0 75.2506319528016,16.2293737747109,0 75.2506335685795,16.2293053106333,0 75.2506309336955,16.229279795527,0 75.25062111683189,16.2292381276702,0 75.2505825408487,16.2291262227853,0 75.2505758312868,16.2289879097884,0 75.2505571341724,16.2288833344695,0 75.2505610227432,16.2288239466743,0 75.2505481635708,16.2286898464384,0 75.2505026309389,16.2285796563348,0 75.2504933029861,16.2284715527218,0 75.2505128963903,16.2283396775718,0 75.2504994371706,16.2281822180772,0 75.2504936852058,16.2280540244096,0 75.25049727387641,16.2279174701944,0 75.2504779796115,16.2277753474302,0 75.2504779796115,16.2277753474302,0 75.2504779796115,16.2277753474302,0 75.25046898820381,16.2276230282006,0 75.2504513453497,16.2274933262017,0 75.250452297536,16.2274178754757,0 75.2504669854448,16.2273599254808,0 75.2504696760915,16.227267442671,0 75.2504819050916,16.2271461865141,0 75.25046431227921,16.2270212781404,0 75.25044425526831,16.2268761422725,0 75.2504440824172,16.226857671585,0 75.2504718063588,16.2267711324685,0 75.25048892696211,16.2266706599724,0 75.25048946800371,16.2266392025138,0 75.2503920515158,16.2263405134998,0 75.25034890532601,16.2263432058812,0 75.2502751367831,16.2263499699546,0 75.2493301194897,16.2264663060109,0 75.2491150822747,16.2265157833294,0 75.2490308387578,16.2265412225333,0 75.2489727219112,16.2265623807208,0 75.2489337188707,16.2265849420858,0 75.24889039790889,16.2266100011441,0 75.2487928279394,16.2266379436738,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#stylemap_id32</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#3">
+					<SimpleData name="Layer">Proposed workings</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+					<SimpleData name="Linetype">Continuous</SimpleData>
+					<SimpleData name="EntityHandle">326</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					75.2664343861718,16.222179628575,0 75.26648516279499,16.2220159317302,0 75.2665765146791,16.2217199444874,0 75.2667724052219,16.2210814966855,0 75.2667715677533,16.2210185831971,0 75.26676238724519,16.2209499673604,0 75.2667272461681,16.2208569284022,0 75.26667676086041,16.220793751618,0 75.26661461532611,16.220744097241,0 75.2665241533382,16.2207047051501,0 75.2664176220632,16.2206903549549,0 75.26632313450619,16.2206963959213,0 75.26621533651161,16.2207153701462,0 75.26599645291471,16.2207773458965,0 75.26518839656219,16.2210480072575,0 75.2645423203078,16.2212692790145,0 75.26444294401141,16.2213121925654,0 75.26434585410679,16.2213399822559,0 75.26421999854909,16.2213793675146,0 75.2641514244883,16.221400187539,0 75.2640500823134,16.221429069066,0 75.2634222127604,16.2216386866053,0 75.2630127149347,16.2217757400302,0 75.2629836453831,16.2218131390844,0 75.2629864074774,16.2218623097072,0 75.2633572757167,16.2229540602624,0 75.2633834230484,16.2230310695142,0 75.2634271965448,16.2230402072324,0 75.26384872075199,16.2229117568882,0 75.2641058441868,16.2228286926318,0 75.26417310235399,16.2228090682777,0 75.2642500679892,16.2228038932006,0 75.26430526845991,16.2228399563583,0 75.2643620781764,16.2230135121993,0 75.26439003137909,16.2231021299752,0 75.26440877201441,16.2231406745527,0 75.26443995651481,16.2231885480286,0 75.26446863864039,16.2232248973733,0 75.26451636097831,16.2232680770004,0 75.2645587212342,16.2232833636089,0 75.2646260413519,16.2232398729814,0 75.2648818866118,16.2230552212247,0 75.2652422065771,16.2229096654839,0 75.2653679244264,16.2228493098105,0 75.2657422613789,16.2226865580228,0 75.2662573921436,16.222524643555,0 75.266302018857,16.2224976806397,0 75.2663225279519,16.2224751041269,0 75.26637478194461,16.2223717840462,0 75.2664343861718,16.222179628575,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#KML20">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">767</SimpleData>
+					<SimpleData name="Text">EARTH</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2464914266361,16.2297768959737,0 75.2463895966707,16.2298433915346,0 75.2460873280444,16.2298573162865,0 75.2459566892059,16.22991784112,0 75.24570085999591,16.2299549738383,0 75.2454344493695,16.2299542940467,0 75.2453495270305,16.2298790479196,0 75.2450817070915,16.2298262980034,0 75.24442734705229,16.2297634897078,0 75.2440381044364,16.2296932141702,0 75.2437769221353,16.2296763375002,0 75.2434066710947,16.2296932075023,0 75.2431981932115,16.2296671698916,0 75.24308213893239,16.2296015748791,0 75.2430351071384,16.2294250364104,0 75.242960901432,16.2292161821888,0 75.2429408302723,16.229025773543,0 75.2428528444254,16.2289144957304,0 75.24280540155991,16.2287620044445,0 75.2426759868474,16.2284162254387,0 75.2426763049053,16.2284161527679,0 75.24257000527641,16.2281916942018,0 75.24243701390211,16.2277850069494,0 75.24243701390211,16.2277850069494,0 75.24243533827659,16.2277792199104,0 75.2424340643,16.2277733381065,0 75.2424331976014,16.2277673875269,0 75.24243274201061,16.2277613944646,0 75.2424326995403,16.2277553854006,0 75.2424330703784,16.2277493868865,0 75.24243385288609,16.227743425427,0 75.24243504360579,16.2277375273636,0 75.2424366372763,16.2277317187572,0 75.2424386268557,16.2277260252736,0 75.2424410035529,16.2277204720701,0 75.24244375686609,16.2277150836838,0 75.24244687462971,16.2277098839238,0 75.2424503430675,16.2277048957656,0 75.2424541468539,16.2277001412499,0 75.2424582691816,16.2276956413849,0 75.2425222998057,16.2276302603159,0 75.2425222998057,16.2276302603159,0 75.2425268090245,16.2276259577014,0 75.24253160936721,16.2276219598563,0 75.2425366788119,16.2276182851208,0 75.2425419941024,16.2276149503529,0 75.24254753085469,16.227611970851,0 75.2425532636686,16.2276093602837,0 75.2425591662446,16.2276071306269,0 75.2425652115046,16.2276052921093,0 75.2425713717157,16.2276038531652,0 75.2428543461476,16.2275474795148,0 75.2438502878048,16.2273324337853,0 75.2439000766516,16.2273248845437,0 75.2442854630111,16.2273329646654,0 75.24434757773579,16.2272978679181,0 75.2447261765498,16.2272174255346,0 75.2452462106159,16.2271104185169,0 75.2455416612174,16.2270634698937,0 75.24584052772479,16.2270734763071,0 75.2460359851453,16.2270810032462,0 75.24621703693251,16.2271107287984,0 75.2463341176916,16.2270904867641,0 75.2464761401144,16.2270655023596,0 75.2465858968833,16.2270647686932,0 75.2466686301278,16.227109905105,0 75.2467858114105,16.2270628699524,0 75.24689217392709,16.2270535742718,0 75.2469614094715,16.2270911517679,0 75.24705783396411,16.2270769358195,0 75.24721599059509,16.227064733223,0 75.24734100614985,16.22705733017832,0 75.2475040840218,16.22701149964625,0 75.2476563797733,16.2269044945665,0 75.24775446800879,16.2267083307206,0 75.24786553564191,16.226668336725,0 75.2480781010742,16.2266307513186,0 75.2482709845232,16.226621969745,0 75.24851624519999,16.2266355624749,0 75.2486385778987,16.2266515310081,0 75.24876549553549,16.2266500861058,0 75.2488968257572,16.2266453726544,0 75.249115120694,16.2266252468931,0 75.2492431281777,16.2265733835717,0 75.24943864881379,16.226526021489,0 75.24945277244051,16.2264298747573,0 75.24943844903071,16.2263396121411,0 75.24943782455669,16.2262827117444,0 75.2494398873492,16.2262068707817,0 75.24952494010439,16.2262158474856,0 75.2495989883607,16.2262177117639,0 75.2497191189797,16.2262247724758,0 75.2497862491367,16.2261688953517,0 75.24982200562221,16.2261119140213,0 75.2498915428941,16.2260617819147,0 75.24997219521551,16.2260256047354,0 75.25003567105441,16.2259715969273,0 75.25014135654079,16.225928351609,0 75.25021726166391,16.2258866762503,0 75.2503035617224,16.2258629891281,0 75.2503534858303,16.2259200166563,0 75.2503822104474,16.2259794989116,0 75.2504397724105,16.2260709021375,0 75.25050042301299,16.2260847215947,0 75.2505889351298,16.226108154402,0 75.2506383961727,16.226192579061,0 75.2506639632234,16.2262810681071,0 75.25071548368339,16.2263568169996,0 75.2507839340626,16.2264215090006,0 75.2507828051466,16.2265033117674,0 75.25070783811741,16.2265401509581,0 75.25057323916459,16.226548691021,0 75.25047229356259,16.2265655772861,0 75.25045394790671,16.2267468661515,0 75.2504606944903,16.2268315465814,0 75.2504654956294,16.226939968645,0 75.2504721991029,16.2270122822015,0 75.25047718687691,16.227104901875,0 75.250486139044,16.2271796627547,0 75.2504886744815,16.2273100730236,0 75.2504823047917,16.2274043780246,0 75.25044870939431,16.2274861843111,0 75.2504804620433,16.2275740003779,0 75.25047409774351,16.2276958054941,0 75.25047284700889,16.2277675585524,0 75.250479747386,16.2278709247794,0 75.2504929031174,16.2279782163613,0 75.25048973099111,16.2280857886573,0 75.2504952304175,16.2281912899466,0 75.2505034667489,16.2283236373563,0 75.2505086822774,16.2284495696933,0 75.2504982444916,16.228530382371,0 75.25054538207149,16.2288961292304,0 75.2505865661623,16.2290216409906,0 75.2506238428839,16.2291964350106,0 75.2506450876179,16.2292764522955,0 75.250617775531,16.2293849959838,0 75.2505306932769,16.2293931989148,0 75.2505381038216,16.2294666283167,0 75.2505314512477,16.2295211223619,0 75.2504884482054,16.2295821527088,0 75.2503477278928,16.2295977588361,0 75.25028994351879,16.2295930985783,0 75.25024737351499,16.2296068134668,0 75.2501010818437,16.2296168146855,0 75.25004670903699,16.229595136091,0 75.2500091050693,16.2295956229371,0 75.2498995584818,16.2296356047834,0 75.2497599544964,16.2296711280249,0 75.249680935386,16.2296732696398,0 75.24951647006669,16.2296632043051,0 75.24933629943359,16.2296885216502,0 75.2491514143928,16.2296688513688,0 75.24893289397851,16.2296987317757,0 75.2487938220128,16.2296714066946,0 75.24849705596129,16.2297086251199,0 75.24827116610049,16.2297419845674,0 75.2480502877807,16.2297799124519,0 75.24771619929651,16.2298669920082,0 75.247382478592,16.2298165338508,0 75.24692330228859,16.2297866011786,0 75.2467042135024,16.2297954887126,0 75.2464914266361,16.2297768959737,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#KML20">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">763</SimpleData>
+					<SimpleData name="Text">ANSI31</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.26302388881869,16.2244050902837,0 75.26290967744519,16.2244659107199,0 75.2627004317503,16.2245085352423,0 75.2626943109221,16.2245028578094,0 75.2626908858593,16.2244891954567,0 75.2626911004257,16.2244063695865,0 75.2626473640791,16.2243531967366,0 75.2626561060496,16.2242640806209,0 75.2627363171222,16.2242064082573,0 75.2627714573822,16.2241405317647,0 75.26281137928299,16.2240949333684,0 75.2629324903312,16.2240586420116,0 75.2630176822011,16.2240450901911,0 75.2631878598539,16.2239974022306,0 75.2632777284074,16.224000419401,0 75.2632887449534,16.2240090527333,0 75.26329613148739,16.2240428646852,0 75.2632905918566,16.2240963052058,0 75.26322063614541,16.2241897120925,0 75.2631252352819,16.2243453294723,0 75.26302388881869,16.2244050902837,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#KML20">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">765</SimpleData>
+					<SimpleData name="Text">ANSI31</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.26320398052989,16.2235376883401,0 75.263167593714,16.2234418148899,0 75.2631660172536,16.2234333615376,0 75.2632456169697,16.2233320527595,0 75.2632795982318,16.2233145711711,0 75.2633243590214,16.2232953455176,0 75.2634169614694,16.2233838051426,0 75.263536005335,16.2234708498275,0 75.26360687111961,16.2235410679324,0 75.2636122989265,16.2235515809045,0 75.2636120400891,16.2235623186089,0 75.26357252569829,16.2236208955327,0 75.26356561811311,16.2236317432188,0 75.26349019023139,16.2236711770862,0 75.26348605676741,16.2236781483389,0 75.2634865607391,16.223685834456,0 75.26351791361201,16.2237178334732,0 75.26352117708009,16.2237253623056,0 75.2635160137482,16.2237358237629,0 75.2634578907039,16.2237827203321,0 75.263313214211,16.2239151756638,0 75.26330541024051,16.2239144656696,0 75.2633012786807,16.2239084078493,0 75.2632719311147,16.223843801452,0 75.2632516571458,16.2236938067937,0 75.26320398052989,16.2235376883401,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#KML20">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">78A</SimpleData>
+					<SimpleData name="Text">ANSI31</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2616768721351,16.2249819885254,0 75.2616067001332,16.224928830158,0 75.26159537719759,16.2249256554732,0 75.26158150438511,16.2249270970578,0 75.26152188834,16.2249526434938,0 75.261481038917,16.2249604857878,0 75.26142093850591,16.2249393738779,0 75.2613034860381,16.2249868620066,0 75.26112819786979,16.2250651446316,0 75.26100698414101,16.2251130697137,0 75.26078005855589,16.2251648901185,0 75.2606759014451,16.2252059751793,0 75.2606550100958,16.2252251128349,0 75.26066084195389,16.2252794481751,0 75.260700671235,16.225461455751,0 75.2607289099532,16.2254692652545,0 75.26073885762359,16.2254684357632,0 75.2607463315485,16.2254635230011,0 75.2607799347691,16.2254205182162,0 75.2608508341517,16.225362301335,0 75.2608695199727,16.2253552816061,0 75.2608861999106,16.2253584540003,0 75.2609388001262,16.2254125097416,0 75.2609983590721,16.225393655794,0 75.2610365912882,16.2253312645206,0 75.26108600760099,16.2252510275663,0 75.2610897877731,16.2252157433902,0 75.2611077054955,16.2252020415304,0 75.26113127042321,16.2252049080163,0 75.26117352375211,16.2252202892055,0 75.2612313101353,16.2252279062213,0 75.2612857071796,16.2252332027823,0 75.26136589483539,16.2252003461299,0 75.26148916554961,16.2251610343476,0 75.26153752420289,16.2251526311256,0 75.26162151506929,16.2251501219472,0 75.2616509356306,16.2251401394696,0 75.2617055495943,16.2250930583882,0 75.26170011812199,16.2250163393574,0 75.2616768721351,16.2249819885254,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.26232097715391,16.2246116438328,0 75.26237101652821,16.224582808269,0 75.26240156621699,16.2245577681296,0 75.26239845532049,16.2244916060159,0 75.2623479965641,16.2243417907271,0 75.2622578330634,16.224222021268,0 75.2622323561915,16.2242009084556,0 75.2621634341828,16.2241920627056,0 75.2620776665789,16.2241900746774,0 75.2619079584266,16.2242298060311,0 75.26184973053,16.2242461574401,0 75.2618380855006,16.2242555666358,0 75.2618385654693,16.2242756182435,0 75.26184866496099,16.2243135591588,0 75.2619648006676,16.2244745284062,0 75.2621512236509,16.2246327979387,0 75.2621783024431,16.2246377063171,0 75.26232097715391,16.2246116438328,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#KML20">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">769</SimpleData>
+					<SimpleData name="Text">EARTH</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.26464930881311,16.2232083695007,0 75.2645010729409,16.2233255711039,0 75.2643465838779,16.2233949551785,0 75.2642877135164,16.2234585482624,0 75.2640975521235,16.2235605604659,0 75.2640050462543,16.2236635001974,0 75.26379089851871,16.2237549469113,0 75.2636712133623,16.2236316330321,0 75.26362511812169,16.223486071296,0 75.2635524468644,16.2233755903692,0 75.2635496331927,16.2232430654382,0 75.2634835301661,16.2231289597334,0 75.2632199653694,16.2228175029639,0 75.2631457014858,16.2227009714633,0 75.2630940063213,16.2226176719651,0 75.26301563616791,16.2225054305932,0 75.2630183690456,16.2223789676632,0 75.2631586814414,16.2223701426992,0 75.2630909835442,16.2221842775632,0 75.2630769228011,16.2220928467702,0 75.2629675990829,16.2220103382047,0 75.2629621594629,16.2218958491598,0 75.2630527260141,16.2218618320733,0 75.26315103735971,16.2218218568912,0 75.2632605722612,16.2217773796615,0 75.2634249034141,16.221672970937,0 75.2635374615536,16.2216058259924,0 75.2636463287853,16.2215889969882,0 75.26377060818309,16.2215301770119,0 75.2639843765412,16.2214582064855,0 75.26408685758661,16.2214220165599,0 75.26436959739149,16.2213300036997,0 75.26452334662901,16.2212736034676,0 75.2646979783206,16.2212149419999,0 75.2647917374192,16.2211914386414,0 75.2649240713946,16.2211668622607,0 75.2650398713641,16.2211595700836,0 75.26511900286251,16.2211235473024,0 75.26526132051769,16.2210966024674,0 75.2653598956922,16.221048954496,0 75.2654588818872,16.2210243769154,0 75.2655332602162,16.2209804618217,0 75.2656405094405,16.2209164693747,0 75.2657139892715,16.2208789003714,0 75.2658425239723,16.2208578037819,0 75.2659220850981,16.2208423560623,0 75.2660344045177,16.2208183480546,0 75.2661086503476,16.2208283300443,0 75.26633711042631,16.2206926306492,0 75.26646173051491,16.2206850414748,0 75.2665993362336,16.2206105822202,0 75.26673981767441,16.2205387026035,0 75.2668410329223,16.220560193403,0 75.2668691168986,16.2206669480937,0 75.2668142223568,16.2207405849201,0 75.2667234009907,16.2208312604586,0 75.266766230396,16.2209485140215,0 75.2667443287622,16.2210573376113,0 75.2667234342664,16.2211950334593,0 75.26669825241279,16.2212751063656,0 75.2666454554612,16.2214164708613,0 75.26660558252139,16.2215681581074,0 75.2665548073187,16.2217366573467,0 75.2664841549695,16.2217657895758,0 75.2664718352999,16.2219049614183,0 75.2664706281725,16.2220506305044,0 75.2664235606027,16.2222054807049,0 75.2664051320767,16.2222650284937,0 75.2663623231947,16.2223717682065,0 75.2663080264693,16.2223952618203,0 75.2662378348634,16.2224161188466,0 75.266180541721,16.2224571093147,0 75.26617603297269,16.2225701968811,0 75.26615527597269,16.2226410637885,0 75.26608162815729,16.2226600388961,0 75.26605387271781,16.2226930679939,0 75.26588856219099,16.2227185495202,0 75.2658026081322,16.2227008470725,0 75.2655495933314,16.2228182977985,0 75.26547226908571,16.2229273079059,0 75.26528208274451,16.2230083491041,0 75.26517271621211,16.2230705381958,0 75.2649711617248,16.2230719012312,0 75.2648111049033,16.223137999439,0 75.26464930881311,16.2232083695007,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Road</name>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#KML20">
+					<SimpleData name="Layer">Structures</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">771</SimpleData>
+					<SimpleData name="Text">SOLID</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2662892824915,16.2226457054433,0 75.2662757118182,16.2226222400418,0 75.26631142627831,16.2226014436993,0 75.26632395121609,16.2226197144315,0 75.2663266375822,16.2226240286117,0 75.2662892824915,16.2226457054433,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#KML20">
+					<SimpleData name="Layer">Mine Raod</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="Linetype">DASHED</SimpleData>
+					<SimpleData name="EntityHandle">855</SimpleData>
+					<SimpleData name="Text">ANSI31</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2623385242036,16.2242941851019,0 75.2622526714463,16.2241733140553,0 75.261751696847,16.2236154966468,0 75.2617268174982,16.2236234777208,0 75.2616396575702,16.223652738225,0 75.2614154300814,16.2237318986321,0 75.2612459803549,16.2237956486834,0 75.261218408096,16.2237444374328,0 75.26209845140539,16.2234509180774,0 75.2628802130637,16.2232129717808,0 75.2634144507615,16.2230473281402,0 75.26345009165389,16.2230894452319,0 75.26289609126999,16.2232612164496,0 75.2621145805477,16.2234990863772,0 75.2617997840545,16.2236000706879,0 75.2622897462316,16.2241456259892,0 75.26240252624331,16.2243044075112,0 75.2625325942995,16.2244661641817,0 75.2625349151358,16.224468935858,0 75.2625373472808,16.22447161697,0 75.2625992989622,16.2245372528848,0 75.26267577653179,16.2245848307125,0 75.2627264588226,16.2246006949555,0 75.262732405837,16.2246023486198,0 75.26273845298471,16.2246036188745,0 75.2627445738148,16.2246045001634,0 75.262750741554,16.2246049886316,0 75.2627569292237,16.2246050821425,0 75.2627631097585,16.2246047802871,0 75.2627692561238,16.2246040843857,0 75.2627753414347,16.2246029974823,0 75.2627813390732,16.2246015243312,0 75.2628645829362,16.224578220776,0 75.2630475281983,16.2245039097869,0 75.2640802672734,16.2239132694318,0 75.26479949915201,16.2234813172493,0 75.2651243586574,16.2232955343431,0 75.2655257981035,16.2230827108816,0 75.26587239228481,16.222893977183,0 75.26584255746771,16.2228943129081,0 75.2657425581102,16.2228617078861,0 75.2656204901879,16.2227853871702,0 75.26566991006059,16.2227624462306,0 75.2657630628018,16.2228206882513,0 75.265849973613,16.2228490257226,0 75.2659571567153,16.2228478195901,0 75.26616085305341,16.2227210692883,0 75.26642070437821,16.2225780457444,0 75.26644817511981,16.2225604506971,0 75.2664527412433,16.2225720625277,0 75.264475981068,16.2237087264711,0 75.2628892089036,16.2246183868029,0 75.2627752145347,16.2246502987523,0 75.2627690208283,16.2246518132317,0 75.2627627345887,16.2246529158285,0 75.26275638512401,16.2246536014023,0 75.2627500020368,16.2246538667567,0 75.26274361508671,16.2246537106544,0 75.2627372540514,16.2246531338234,0 75.2627309485873,16.224652138953,0 75.262707493928,16.2246476391064,0 75.2626607216642,16.2246299302379,0 75.26261386844141,16.2246038992223,0 75.26254605560069,16.2245506028973,0 75.2624633553346,16.2244599600603,0 75.2624023485249,16.2243840424625,0 75.2623385242036,16.2242941851019,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#KML20">
+					<SimpleData name="Layer">Mine Raod</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="Linetype">DASHED</SimpleData>
+					<SimpleData name="EntityHandle">858</SimpleData>
+					<SimpleData name="Text">ANSI31</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2608921543554,16.2241144382165,0 75.2604132009216,16.2246141629122,0 75.2600041140545,16.2250680439719,0 75.259654506088,16.2254032854078,0 75.2595300936617,16.2255034027925,0 75.25946297924339,16.2255464780066,0 75.2592860500057,16.2256442115021,0 75.2589287152732,16.2257934417573,0 75.25876887715739,16.2258713145708,0 75.25865836166247,16.22592324496014,0 75.25864582530853,16.2258473898786,0 75.2589418164462,16.225714579982,0 75.25928288135989,16.2255699160012,0 75.25947115799001,16.2254657154734,0 75.25987435486481,16.225118257688,0 75.2603822403472,16.2245729745153,0 75.26086392144509,16.2240704039007,0 75.2611585032849,16.223786178347,0 75.2611865422769,16.223829525566,0 75.2608921543554,16.2241144382165,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#KML20">
+					<SimpleData name="Layer">Mine Raod</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="Linetype">DASHED</SimpleData>
+					<SimpleData name="EntityHandle">8BF</SimpleData>
+					<SimpleData name="Text">ANSI31</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.250575449008,16.2306834648772,0 75.2506867229888,16.2306107275517,0 75.25073633260889,16.2305644051093,0 75.2507538297431,16.2305384315411,0 75.2507537511641,16.2304763703854,0 75.25069660753751,16.2302227108335,0 75.2506404863954,16.230021613494,0 75.2506052382784,16.2299390861087,0 75.2505851962698,16.2298384434641,0 75.2506050078584,16.2296966901931,0 75.25063881301971,16.2296187154998,0 75.2506637534749,16.229382260783,0 75.25064038805721,16.2292183921244,0 75.25055506856491,16.2288412230187,0 75.25051863130069,16.2284785938754,0 75.25050364551819,16.2279703624005,0 75.2505257444467,16.2276103476953,0 75.25052148247509,16.2275049029734,0 75.2505017295434,16.2273712745345,0 75.2504870387134,16.2270604357689,0 75.2504595043066,16.2266919587207,0 75.25046897181301,16.2265984023128,0 75.25048529620381,16.2265937967439,0 75.2505308331892,16.2265767206262,0 75.25063796147791,16.2265502987697,0 75.2508425965313,16.226525508124,0 75.25109569368161,16.2265354415516,0 75.2513692625926,16.2265746687756,0 75.2515898357312,16.226600575722,0 75.2518508999247,16.2266287812286,0 75.2520868818993,16.2266689204915,0 75.25227651375489,16.2267277550975,0 75.2525062833865,16.226839075414,0 75.2527339837191,16.2269480483259,0 75.2527839072231,16.2269696963487,0 75.25278746891971,16.2269711560824,0 75.2528505809762,16.2269955472604,0 75.2535275003827,16.2271141640596,0 75.2543811531138,16.2272337452978,0 75.25488351300559,16.22730024643,0 75.2552120751958,16.2273457443715,0 75.2555084688446,16.2273895274919,0 75.25588243966099,16.2274355996717,0 75.256146487267,16.2274701759532,0 75.2565960853438,16.2275252063118,0 75.25713069742029,16.2275886728756,0 75.2574038522658,16.2276109094321,0 75.2576733052487,16.2276201178767,0 75.25757647753611,16.2276757890363,0 75.2574116723959,16.2276701568563,0 75.25713851746799,16.2276479203112,0 75.2566039052291,16.2275844537698,0 75.25615430701561,16.22752942343,0 75.25589025932921,16.2274948471596,0 75.25551628839909,16.2274487749954,0 75.2552198946599,16.2274049918876,0 75.2548913323697,16.2273594939598,0 75.2543889723249,16.2272929928487,0 75.25353531933369,16.2271734116463,0 75.25285839972,16.2270547948756,0 75.2527485435749,16.2270123383181,0 75.25274548812931,16.2270112168676,0 75.2526084348214,16.2269635430058,0 75.2523849381778,16.2268465064004,0 75.2521364219288,16.2267406676523,0 75.2519631424974,16.2267020024836,0 75.2518031212218,16.2266820221769,0 75.25159765408119,16.2266598233914,0 75.2513770808756,16.2266339164542,0 75.2511035118812,16.2265946892417,0 75.2508321029282,16.2265697267849,0 75.250646692327,16.2265947957358,0 75.25054513548589,16.2266198434648,0 75.2505022250272,16.2266359346497,0 75.25053374724379,16.2270577770476,0 75.2505483920111,16.2273676396449,0 75.25056795605551,16.2275308727123,0 75.25055045678791,16.2279705874073,0 75.2505653525928,16.2284757633163,0 75.2506013676126,16.228834189385,0 75.2506864863184,16.2292104704895,0 75.25071086659629,16.2293814563823,0 75.2506897781016,16.2295813920388,0 75.2506704048003,16.2296350434139,0 75.2506460669133,16.2296659984972,0 75.2506210864302,16.2297149556894,0 75.2506111556408,16.2297961227413,0 75.2506123784383,16.2298585786865,0 75.2506321966886,16.229937902057,0 75.25068078360751,16.2300867501221,0 75.250742729199,16.230324981737,0 75.250784317615,16.2304629676637,0 75.2508038040606,16.2305274327651,0 75.25080383244379,16.2305498450898,0 75.25078477684831,16.2305839116394,0 75.25077866181,16.2306367508896,0 75.2507898631636,16.2306651076779,0 75.2508235757503,16.2307042001563,0 75.25079601057961,16.2307018966243,0 75.25075901887701,16.2306711018739,0 75.2507284364229,16.230651846363,0 75.2507095533885,16.230650168512,0 75.2506605657457,16.230675693812,0 75.2506551611808,16.2306782960175,0 75.2506495941401,16.2306805560248,0 75.2506438878078,16.230682464422,0 75.25063806594829,16.2306840132614,0 75.2506321528073,16.2306851960928,0 75.2506261730102,16.2306860079903,0 75.25062015146059,16.2306864455725,0 75.2506141132354,16.2306865070172,0 75.2506080834813,16.2306861920685,0 75.250575449008,16.2306834648772,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#KML20">
+					<SimpleData name="Layer">Mine Raod</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="Linetype">DASHED</SimpleData>
+					<SimpleData name="EntityHandle">927</SimpleData>
+					<SimpleData name="Text">ANSI31</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2390692641012,16.2282963391892,0 75.2432317164438,16.2272748978956,0 75.24330411160351,16.2272590903279,0 75.2437719724368,16.2271624375533,0 75.2443061686471,16.2270909978149,0 75.2446844612509,16.2270554576132,0 75.2450012438521,16.2270226423038,0 75.2454271613791,16.2269621544424,0 75.24590862689119,16.2268853251319,0 75.24630896442871,16.2268136102641,0 75.2466073401005,16.2267370348555,0 75.2469087346559,16.2267126492708,0 75.24703449193601,16.2267872420582,0 75.2470812211244,16.2268385104765,0 75.2470423219424,16.2266878250942,0 75.2469938891707,16.2264451770537,0 75.2469763325751,16.2263499547245,0 75.2470254285814,16.2263378734827,0 75.24704357124151,16.2264362743387,0 75.2470916780551,16.2266772890303,0 75.247149996869,16.226903659265,0 75.24726191446659,16.22698852692602,0 75.24745389307522,16.22696482615983,0 75.24762486139282,16.22683086272978,0 75.24768420606335,16.22667413724519,0 75.24772197945208,16.22659579339452,0 75.24776146876016,16.22655283958931,0 75.2478440340865,16.2265231690899,0 75.2484567795953,16.2265064373942,0 75.2488666646644,16.2264834664815,0 75.2488643396854,16.2264092222206,0 75.2488893149758,16.2263486570673,0 75.24890582410259,16.2263124513303,0 75.24894030237969,16.2262467721576,0 75.24896656557451,16.2262645131177,0 75.24892571179591,16.2263601908008,0 75.2489071484667,16.2264128554377,0 75.24890855611621,16.2265445061128,0 75.2484596020079,16.2265696665868,0 75.2478608221912,16.2265860169587,0 75.24781565327642,16.22660127279274,0 75.24776606245676,16.226634578055,0 75.24772662920975,16.22671110906664,0 75.24764602088499,16.2268898653024,0 75.24748022541996,16.22700656696407,0 75.24733409599348,16.22704706732946,0 75.24720856348148,16.22704585912452,0 75.247095698629,16.2269474152398,0 75.2469918372795,16.2268361970303,0 75.2468927820224,16.2267774425164,0 75.24661856800461,16.2267996289371,0 75.24632336397499,16.2268753903687,0 75.2459199354965,16.2269476589393,0 75.24543726203331,16.2270246810097,0 75.245009501407,16.2270854306252,0 75.2446911226174,16.2271184112848,0 75.2443138320327,16.2271538573509,0 75.24378332609059,16.2272248035818,0 75.24331817967,16.2273208956015,0 75.2429685854114,16.2273972296667,0 75.24237332125109,16.2275290261652,0 75.24206528390729,16.2275878489247,0 75.2419258082485,16.2276220639302,0 75.2418758286092,16.2277833033149,0 75.24186113009161,16.2280092727701,0 75.2418771329617,16.228074283829,0 75.2418108341744,16.2280235200651,0 75.2418082937036,16.2280143928365,0 75.2418239085018,16.227774337806,0 75.2418673459851,16.2276342042186,0 75.24175132127679,16.2276633844715,0 75.2415268409061,16.2277168631025,0 75.2412167897827,16.2277910984747,0 75.2409493248939,16.2278641421508,0 75.24050020796339,16.2279778809396,0 75.2401907112655,16.2280557562014,0 75.2400009563562,16.2281201285584,0 75.2398743074686,16.228151405554,0 75.23937933408369,16.228247088917,0 75.2391610059382,16.2282839511336,0 75.2390699678193,16.2283357982598,0 75.2390227963967,16.2283709716282,0 75.2389987205886,16.2283492555586,0 75.2390692641012,16.2282963391892,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#msn_ylw-pushpin3</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.25829791023466,16.22336811217028,0 75.2584642007053,16.2245453732583,0 75.25865062007334,16.22594161813887,0 75.25880684872332,16.22696833327374,0 75.25874730167365,16.22699955442636,0 75.25864137958006,16.22638114209416,0 75.25839608015744,16.22455472540248,0 75.25822825688546,16.22339215311009,0 75.25829791023466,16.22336811217028,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#msn_ylw-pushpin3</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.25991353715423,16.22282603041735,0 75.26051278481589,16.22322218146008,0 75.26100263206369,16.22354331135355,0 75.26120645219459,16.22372899945736,0 75.26128289707741,16.22384800935458,0 75.26160271370783,16.22426482571282,0 75.26188485247754,16.22455147309922,0 75.2623501507081,16.2249277018756,0 75.26230147063869,16.22495570286052,0 75.26185408649829,16.22458546384018,0 75.2615463659067,16.22427095948161,0 75.26124094163015,16.22387864183833,0 75.26117217016098,16.22377857238678,0 75.26103642753468,16.22362954427282,0 75.26063459937421,16.22336574854772,0 75.26020425778678,16.22308406503675,0 75.25985353569939,16.22284453242325,0 75.25991353715423,16.22282603041735,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>DUMP</name>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#KML20">
+					<SimpleData name="Layer">DUMPS</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="Linetype">Continuous</SimpleData>
+					<SimpleData name="EntityHandle">786</SimpleData>
+					<SimpleData name="Text">GRAVEL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2423357331688,16.2283253357643,0 75.2423995210729,16.228371518611,0 75.2424792119001,16.2284583971283,0 75.2425015827655,16.2285132357287,0 75.24254257067319,16.2286438708362,0 75.242535861856,16.2288853472919,0 75.2425095107948,16.228941253518,0 75.24247114219089,16.2290050880464,0 75.2424700328235,16.2290054007238,0 75.24247838286399,16.2290335283812,0 75.2425116180645,16.2290845119509,0 75.2425485619664,16.2291254066958,0 75.24259283727621,16.2292065351802,0 75.2426543706712,16.2292870644959,0 75.2427368795347,16.229558694217,0 75.24273573874279,16.2296284669301,0 75.2428385089173,16.2296397520986,0 75.2429198315684,16.2296271604667,0 75.24295923564689,16.2296625406687,0 75.2429588210374,16.2296868713791,0 75.2429578310078,16.2297449696953,0 75.2429564408458,16.2298265491182,0 75.2427589511061,16.2298313101163,0 75.2426026975964,16.2298577268636,0 75.24232087508641,16.2299363375513,0 75.2422185751611,16.229930421478,0 75.2420554074602,16.229924832524,0 75.241872701823,16.2299253454318,0 75.2417084849406,16.2299102110685,0 75.2414796938758,16.2298858263458,0 75.2414196324886,16.2298905969615,0 75.2411152795322,16.2298686913597,0 75.2408802074992,16.2298422494095,0 75.24070983694349,16.2298160012011,0 75.2404591859944,16.2298027916996,0 75.24024874415279,16.2297968297935,0 75.24001643357199,16.2297634468473,0 75.23981614111101,16.2297037419151,0 75.2396813400785,16.2296792625217,0 75.2394938618326,16.2297064777655,0 75.239402776845,16.2296925425365,0 75.23918108301849,16.2296073145458,0 75.23903413892209,16.2295389809862,0 75.2388708244453,16.2294177294262,0 75.2387693445214,16.2292754134651,0 75.2387652670208,16.2290195712556,0 75.2387888922795,16.2289587225452,0 75.23885238160589,16.2288892289453,0 75.2390584072289,16.2287942535998,0 75.2392196466464,16.2286960660116,0 75.23940261429679,16.2285289219253,0 75.2396612445841,16.2283512798025,0 75.2398082096999,16.2283182095835,0 75.2398893006706,16.2283321882853,0 75.23994366472439,16.228307558405,0 75.2400394735247,16.2282853202406,0 75.24025997266951,16.2282243148174,0 75.24045606608691,16.2281839119082,0 75.240602201081,16.2281312336839,0 75.24070696727669,16.228112432785,0 75.24083688392599,16.2280685174581,0 75.2410267361582,16.2279589435084,0 75.24115427957361,16.2279195498509,0 75.2413039894512,16.2278910598872,0 75.24149297958751,16.2279076323982,0 75.2416724745985,16.2279617285364,0 75.24169875672079,16.2279719106827,0 75.2417038823382,16.2279747223001,0 75.2417045109237,16.2279741399594,0 75.24176604082039,16.2279979776809,0 75.2418108341745,16.2280235200652,0 75.2418771329618,16.2280742838291,0 75.2418949769198,16.2280943882568,0 75.2419405072568,16.228131426137,0 75.2420828420354,16.2281814458511,0 75.2422370297086,16.228274180206,0 75.2423357331688,16.2283253357643,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#msn_ylw-pushpin4</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#KML20">
+					<SimpleData name="Layer">stock</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="Linetype">DASHED</SimpleData>
+					<SimpleData name="EntityHandle">784</SimpleData>
+					<SimpleData name="Text">GRAVEL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2498831532083,16.2301327399392,0 75.24992475411641,16.2301970093716,0 75.249967719159,16.2303357051886,0 75.2499543584069,16.2303922257394,0 75.2499323880003,16.2304585797718,0 75.24990171466099,16.2305021866905,0 75.2497883285597,16.2305301566446,0 75.2496355488463,16.2305366874933,0 75.2494405285766,16.230474935399,0 75.2492923644662,16.2304076269502,0 75.2493120236157,16.2303848875366,0 75.2493791279435,16.2303225812467,0 75.2494128902228,16.2302686044722,0 75.2494154987166,16.2302445882837,0 75.2493511398982,16.2301237877643,0 75.24936744040021,16.2300799572756,0 75.2494074029575,16.2300113018734,0 75.2495608056463,16.2299455668141,0 75.2496953016835,16.2299179870214,0 75.2497878023112,16.229945178583,0 75.24983264577079,16.2299933720873,0 75.2498831532083,16.2301327399392,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Structure</name>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.25000617132331,16.23031751256086,0 75.24986732301895,16.22996301249117,0 75.2497780167382,16.22988177205628,0 75.24974657023557,16.22986873294584,0 75.24975074639362,16.22985583850154,0 75.24978853168854,16.22987152203078,0 75.24987797078384,16.22995542405071,0 75.25002041915842,16.23031443321701,0 75.25001925493824,16.2303982797952,0 75.25000507530842,16.23039887479982,0 75.25000617132331,16.23031751256086,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#stylemap_id7</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#1">
+					<SimpleData name="Layer">Drain</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+					<SimpleData name="EntityHandle">242</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					75.238604828527,16.2291139144328,0 75.2386646919049,16.229319379088,0 75.2389466178154,16.2295186873299,0 75.2391949877118,16.2296871212653,0 75.23933912153031,16.229718019636,0 75.23949558841601,16.2297392217817,0 75.2398384089114,16.2297528937678,0 75.2400767327276,16.2298097336755,0 75.2404507487536,16.2298474015958,0 75.2408969145305,16.2298676961878,0 75.2413898229493,16.2299047186282,0 75.2416161217654,16.2299255255659,0 75.242055734253,16.2299441003925,0 75.2423377833796,16.2299573778427,0 75.2426469187222,16.2299376910305,0 75.2428463531334,16.2299004734547,0 75.24297747057869,16.2298517970688,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#stylemap_id60</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#1">
+					<SimpleData name="Layer">Drain</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+					<SimpleData name="EntityHandle">243</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					75.24262166792811,16.2289922022796,0 75.24265082195279,16.2289384525897,0 75.2426565564235,16.2288465826092,0 75.24264780208109,16.2287020486444,0 75.2426288401454,16.228608524761,0 75.2425939099915,16.2285279225853,0 75.2425059010921,16.2283798023947,0 75.242400192231,16.2282572086153,0 75.242296069689,16.2281442289097,0 75.2421877880855,16.2280722679708,0 75.2420703814504,16.2280325749994,0 75.24192247613109,16.2280013327034,0 75.2418622362606,16.2279922669625,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#stylemap_id8</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#1">
+					<SimpleData name="Layer">Drain</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+					<SimpleData name="EntityHandle">244</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					75.2418102419028,16.2279844421075,0 75.2417957894592,16.2279822670946,0 75.2417420267612,16.2279642379692,0 75.24169326059641,16.2279420134525,0 75.2415617713451,16.2278465535667,0 75.24140387172829,16.2278008898036,0 75.2411748731711,16.2278237017697,0 75.240908442475,16.2279048730389,0 75.2399737410159,16.2282128423406,0 75.2395181372376,16.2283640756287,0 75.2394121181032,16.2284181128329,0 75.23910001515129,16.2286084277594,0 75.2389620491973,16.2287089592883,0 75.23885742205501,16.228783874357,0 75.23874442237999,16.2288597166249,0 75.23865247201,16.2289200820729,0 75.238538449673,16.228985327842,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#stylemap_id5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#2">
+					<SimpleData name="Layer">R Wall</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="Linetype">Continuous</SimpleData>
+					<SimpleData name="EntityHandle">247</SimpleData>
+					<SimpleData name="Text">AR-HBONE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2417190366791,16.2279606828581,-4.384e-12 75.2417038823382,16.2279747223001,-4.384e-12 75.2416079275222,16.2279220870026,-4.384e-12 75.2415010375592,16.2278785950937,-4.384e-12 75.2414334335329,16.2278606970881,-4.384e-12 75.2413721639202,16.227850262065,-4.384e-12 75.24133778666931,16.2278538461736,-4.384e-12 75.2412552900747,16.2278666962815,-4.384e-12 75.24117187721311,16.2278819396315,-4.384e-12 75.2410838028631,16.2279084437481,-4.384e-12 75.2409900110556,16.2279420106449,-4.384e-12 75.2409068373592,16.2279717774105,-4.384e-12 75.2405300792779,16.2281037529131,-4.384e-12 75.2402546638718,16.2282002283109,-4.384e-12 75.2401181726192,16.2282467541255,-4.384e-12 75.2401119459787,16.2282297039531,-4.384e-12 75.2402483609517,16.2281832041406,-4.384e-12 75.2405237003036,16.2280867553851,-4.384e-12 75.2409003974083,16.227954801244,-4.384e-12 75.2409835103043,16.2279250562384,-4.384e-12 75.2410777655754,16.2278913234742,-4.384e-12 75.2411673404271,16.2278643678134,-4.384e-12 75.2412520609949,16.2278488854859,-4.384e-12 75.2413352916337,16.2278359210395,-4.384e-12 75.241372796961,16.2278320108033,-4.384e-12 75.2414375398465,16.2278430373709,-4.384e-12 75.2415084978871,16.2278618233435,-4.384e-12 75.2416156766313,16.2279023854345,-4.384e-12 75.2417190366791,16.2279606828581,-4.384e-12 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#stylemap_id4</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#2">
+					<SimpleData name="Layer">R Wall</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="Linetype">Continuous</SimpleData>
+					<SimpleData name="EntityHandle">245</SimpleData>
+					<SimpleData name="Text">AR-HBONE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2425660119805,16.2290132806033,-4.384e-12 75.2426102827047,16.2289659396027,-4.384e-12 75.2426210073305,16.2289224204766,-4.384e-12 75.2426192244685,16.228836748222,-4.384e-12 75.2426107645891,16.2286227132026,-4.384e-12 75.2426037808611,16.228600647668,-4.384e-12 75.2425478391047,16.2285012018816,-4.384e-12 75.2424789552055,16.2283787491205,-4.384e-12 75.24233676659379,16.2282434052264,-4.384e-12 75.24224104324939,16.2281564392166,-4.384e-12 75.2421363410664,16.2281012402404,-4.384e-12 75.2420528052033,16.2280930319438,-4.384e-12 75.2420509116069,16.2281110194389,-4.384e-12 75.24213069112371,16.2281188586348,-4.384e-12 75.2422299717208,16.2281711993522,-4.384e-12 75.24232378755021,16.2282564323614,-4.384e-12 75.2424638401411,16.2283897430689,-4.384e-12 75.2425313962286,16.2285098354363,-4.384e-12 75.2425864365112,16.2286076787182,-4.384e-12 75.2425921567303,16.2286257521207,-4.384e-12 75.2426005172934,16.2288372749415,-4.384e-12 75.2426022487476,16.2289204772606,-4.384e-12 75.2425931862667,16.2289572516069,-4.384e-12 75.2425521256221,16.2290011598972,-4.384e-12 75.2425660119805,16.2290132806033,-4.384e-12 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#stylemap_id2</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#2">
+					<SimpleData name="Layer">R Wall</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="Linetype">Continuous</SimpleData>
+					<SimpleData name="EntityHandle">249</SimpleData>
+					<SimpleData name="Text">AR-HBONE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2387520023351,16.2288985575781,-8.768099999999999e-12 75.2387421962009,16.2290327281857,-8.768099999999999e-12 75.238719479213,16.2291946468614,-8.768099999999999e-12 75.2387064288674,16.2292940379885,-8.768099999999999e-12 75.2387594927079,16.2293331903003,-8.768099999999999e-12 75.2389012153522,16.2294466267646,-8.768099999999999e-12 75.23892421735751,16.2294630049399,-8.768099999999999e-12 75.2390412937814,16.2295502214066,-8.768099999999999e-12 75.2391340422833,16.2295923418198,-8.768099999999999e-12 75.2392115805243,16.2296613477466,-8.768099999999999e-12 75.23941530073139,16.2297037889358,-8.768099999999999e-12 75.2395149486468,16.2297149035806,-8.768099999999999e-12 75.23962287162099,16.2297009032242,-8.768099999999999e-12 75.23977736510339,16.2297059717105,-8.768099999999999e-12 75.2400394486624,16.2297797940623,-8.768099999999999e-12 75.2402839488734,16.2298050989101,-8.768099999999999e-12 75.2402834881598,16.2298164625467,-8.768099999999999e-12 75.24003758975419,16.2297912507273,-8.768099999999999e-12 75.2397749267148,16.2297239824253,-8.768099999999999e-12 75.2396226885833,16.2297189879302,-8.768099999999999e-12 75.2395149421306,16.2297286466297,-8.768099999999999e-12 75.23941343910241,16.2297218969771,-8.768099999999999e-12 75.2392026513018,16.2296779833892,-8.768099999999999e-12 75.2391225621253,16.2296067072309,-8.768099999999999e-12 75.23903477700649,16.2295605717706,-8.768099999999999e-12 75.23892016432551,16.2294787049821,-8.768099999999999e-12 75.23889365759111,16.229459650599,-8.768099999999999e-12 75.23874812328501,16.2293475515262,-8.768099999999999e-12 75.2386865073443,16.2293020891786,-8.768099999999999e-12 75.2387009236634,16.229192294913,-8.768099999999999e-12 75.23872357065061,16.2290308752855,-8.768099999999999e-12 75.2387333344502,16.228897284086,-8.768099999999999e-12 75.2387520023351,16.2288985575781,-8.768099999999999e-12 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#KML2">
+					<SimpleData name="Layer">Structures</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">771</SimpleData>
+					<SimpleData name="Text">SOLID</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2662892824915,16.2226457054433,0 75.2662757118182,16.2226222400418,0 75.26631142627831,16.2226014436993,0 75.26632395121609,16.2226197144315,0 75.2663266375822,16.2226240286117,0 75.2662892824915,16.2226457054433,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#KML20">
+					<SimpleData name="Layer">Structures</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">76D</SimpleData>
+					<SimpleData name="Text">SOLID</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.23908401141105,16.22848751853314,0 75.23889459607349,16.22864171068508,0 75.23871740804861,16.22841991722513,0 75.23890423989977,16.22827905990734,0 75.23908401141105,16.22848751853314,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#KML20">
+					<SimpleData name="Layer">Structures</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">773</SimpleData>
+					<SimpleData name="Text">SOLID</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.25806995785,16.2251315164337,-4.384e-12 75.2579777804584,16.2251440341472,-4.384e-12 75.2579527377822,16.2249719032929,-4.384e-12 75.2580449150956,16.2249593855913,-4.384e-12 75.25806995785,16.2251315164337,-4.384e-12 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#KML20">
+					<SimpleData name="Layer">Structures</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">83D</SimpleData>
+					<SimpleData name="Text">SOLID</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2566072850797,16.2280197584168,0 75.2567358312471,16.2280401328123,0 75.256749091351,16.2279650431409,0 75.25662021643291,16.2279431369266,0 75.2566072850797,16.2280197584168,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#KML20">
+					<SimpleData name="Layer">Structures</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">823</SimpleData>
+					<SimpleData name="Text">SOLID</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2521767185859,16.2266772249472,0 75.2521355381124,16.2266651405109,0 75.25214416237399,16.2266320774312,0 75.25218924008129,16.2266420652358,0 75.2521767185859,16.2266772249472,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#KML20">
+					<SimpleData name="Layer">Structures</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">83A</SimpleData>
+					<SimpleData name="Text">SOLID</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2504842753046,16.2276137205057,0 75.2505257444467,16.2276103476953,0 75.25052148247509,16.2275049029734,0 75.25047670125041,16.2275064908397,0 75.2504842753046,16.2276137205057,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#KML20">
+					<SimpleData name="Layer">waterbody</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="Linetype">Continuous</SimpleData>
+					<SimpleData name="EntityHandle">776</SimpleData>
+					<SimpleData name="Text">DASH</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.23830946806839,16.2286294201238,0 75.2382424889213,16.2285425754029,0 75.23821889988101,16.228516657781,0 75.2381979921457,16.2285163348155,0 75.2379347542107,16.2285827120963,0 75.2379365480661,16.2286045277383,0 75.23817731607571,16.2288475019271,0 75.2385067626724,16.22919627326,0 75.23854204987769,16.2291808792119,0 75.2385730474507,16.2291583963513,0 75.238601977407,16.2291298599644,0 75.2386083315036,16.2290943232428,0 75.2385085537265,16.2289386987862,0 75.23842514823799,16.2287911621167,0 75.2383297357169,16.2286648063347,0 75.23830946806839,16.2286294201238,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.2509307512792,16.2262132015074,0 75.250930133867,16.2262529663141,0 75.25093368505451,16.2262795364981,0 75.2509370254849,16.2262844715442,0 75.2509426673511,16.2262874449086,0 75.2509807158017,16.226292215885,0 75.2510501207428,16.2263010357362,0 75.25105597255551,16.2262998810691,0 75.25106228765161,16.2262952543195,0 75.25106417219639,16.2262883290849,0 75.25106925053539,16.2262354255779,0 75.2510703241893,16.2262169172713,0 75.2510672344707,16.2262106515291,0 75.251058117509,16.2262032364016,0 75.2510458405241,16.2262017423344,0 75.2509435962583,16.226209241809,0 75.2509342122413,16.2262109829569,0 75.2509307512792,16.2262132015074,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#KML20">
+					<SimpleData name="Layer">Structures</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">835</SimpleData>
+					<SimpleData name="Text">SOLID</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							75.25228156118121,16.2266261487147,0 75.25224599090529,16.2266033130463,0 75.2522978407041,16.2265290769134,0 75.25233286227579,16.2265515603172,0 75.25228156118121,16.2266261487147,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#stylemap_id00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#3">
+					<SimpleData name="Layer">Drain</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+					<SimpleData name="EntityHandle">24C</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					75.24140387172829,16.2278008898036,0 75.24168110503661,16.2277299882416,0 75.24185236487,16.2276825347901,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#stylemap_id1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#3">
+					<SimpleData name="Layer">Drain</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+					<SimpleData name="EntityHandle">301</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					75.2419122034532,16.2276659544062,0 75.2420574110557,16.2276257194517,0 75.24224173145269,16.2275746886256,0 75.2424219161489,16.2275292443141,0 75.2430443586439,16.2273871808326,0 75.24330085093889,16.2273344898375,0 75.2436332554487,16.2272658128275,0 75.24378852348249,16.2272331287713,0 75.24400833684091,16.2272028093205,0 75.24424936429099,16.2271713783605,0 75.2447677265577,16.2271208714197,0 75.24527285632971,16.2270580265187,0 75.24578719972629,16.2269780249699,0 75.24625222195959,16.2268977410812,0 75.24632956081599,16.226884567157,0 75.2464617031025,16.2268495573649,0 75.2466253475534,16.2268076934724,0 75.2468067791942,16.2267933381317,0 75.2468743509332,16.2267872343396,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Fenching</name>
+		<Placemark>
+			<styleUrl>#stylemap_id70</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Fenching">
+					<SimpleData name="Layer">Fencing</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+					<SimpleData name="Linetype">FENCELINE2</SimpleData>
+					<SimpleData name="EntityHandle">2B9</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					75.25854149316267,16.22564430416497,0 75.2579615271125,16.2256840660484,0 75.257185723449,16.2257204856398,0 75.25697250388382,16.22558281194447,0 75.25709531926188,16.22464575167524,0 75.25838723718454,16.22456842941683,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#stylemap_id41</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Fenching">
+					<SimpleData name="Layer">Fencing</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+					<SimpleData name="Linetype">FENCELINE2</SimpleData>
+					<SimpleData name="EntityHandle">2BA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					75.25150001639862,16.22864251389945,0 75.25186774416532,16.22871013136796,0 75.25178583348297,16.22941106460608,0 75.25197780845183,16.23031503892804,0 75.25314811648019,16.23014110857608,0 75.2533093964944,16.2310049883042,0 75.25191261914256,16.23115960412542,0 75.25144185057204,16.22981136116234,0 75.25135168545795,16.22929712112299,0 75.25150001639862,16.22864251389945,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#stylemap_id31</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Fenching">
+					<SimpleData name="Layer">Fencing</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+					<SimpleData name="Linetype">FENCELINE2</SimpleData>
+					<SimpleData name="EntityHandle">2BB</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					75.2596923371824,16.2226658398905,0 75.26060712957693,16.2232728055188,0 75.26141364629376,16.22290731697202,0 75.26048084982925,16.22230199843763,0 75.2596923371824,16.2226658398905,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#stylemap_id22</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Fenching">
+					<SimpleData name="Layer">Fencing</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+					<SimpleData name="Linetype">FENCELINE2</SimpleData>
+					<SimpleData name="EntityHandle">2BC</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
+			<LineString>
+				<coordinates>
+					75.25064010806319,16.2266813711243,594.075999999995 75.2507782340452,16.2266668054266,594.075999999995 75.2508624412683,16.2266702184673,594.075999999995 75.2509459702931,16.2266793001878,594.075999999995 75.25100331623381,16.2266860524238,594.075999999995 75.2510831313384,16.2266960953217,594.075999999995 75.25114059000011,16.226703344638,594.075999999995 75.2511957374856,16.2267106138734,594.075999999995 75.2513881227235,16.2267367662419,594.075999999995 75.251443926373,16.2267453728266,594.075999999995 75.25152773872649,16.2267574282965,594.075999999995 75.2515540982463,16.226758166476,594.075999999995 75.25174777838809,16.2267884217007,594.075999999995 75.251832910381,16.2268007743121,594.075999999995 75.2519155184016,16.2268159404071,594.075999999995 75.25199782311201,16.2268265956833,594.075999999995 75.2521072502383,16.226843719873,594.075999999995 75.25216108976581,16.2268532589872,594.075999999995 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#stylemap_id11</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Fenching">
+					<SimpleData name="Layer">Fencing</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+					<SimpleData name="Linetype">FENCELINE2</SimpleData>
+					<SimpleData name="EntityHandle">2BD</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					75.2505210713569,16.2267734497481,0 75.25052531561271,16.2268563715917,0 75.2505311336915,16.2269632847168,0 75.2505367660369,16.2270718342551,0 75.2505424261855,16.2272346969493,0 75.2505467023252,16.2273438984587,0 75.2505500377067,16.2274253474801,0 75.2505535158604,16.2274986873787,0 75.2505582701877,16.2275871594554,0 75.2505632982723,16.227689354249,0 75.2505965536586,16.2276895627045,0 75.2505994418861,16.2277296082268,0 75.2505632769718,16.2277300349078,0 75.25056329833031,16.22783144721,0 75.25056453284481,16.2279399640933,0 75.2505517883955,16.2280491792017,0 75.2505496208131,16.2281185549866,0 75.2505544321557,16.2282408009837,0 75.2505571074006,16.2283490003062,0 75.2505608889244,16.2284050642441,0 75.2505723754069,16.2284876638782,0 75.2505836447411,16.2285679946089,0 75.2505921149078,16.2286467093913,0 75.25061004607871,16.2287592357768,0 75.2506354770735,16.2288663320758,0 75.2506565469711,16.2289726363265,0 75.2506549359785,16.2290035729794,0 75.250666583819,16.229088748914,0 75.25070649053541,16.229086782394,0 75.2507116100974,16.2291318162815,0 75.2506698834015,16.229139244504,0 75.2506828979722,16.2292250792732,0 75.2507122124955,16.2293869647451,0 75.2507391543345,16.2294880390806,0 75.250767974699,16.2295318787753,0 75.2508009870815,16.2296084132988,0 75.25082665795139,16.2296894647259,0 75.25084101595721,16.2297705071293,0 75.25084602844581,16.2297997479699,0 75.25086552480499,16.2299912477325,0 75.2508758580163,16.2301035722405,0 75.25088336317449,16.2301806515051,0 75.2508965841776,16.2302887609909,0 75.2509149591184,16.2304273316172,0 75.2508893617639,16.230508396982,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Path</name>
+			<styleUrl>#stylemap_id3</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					75.2607975493618,16.22239691987927,0 75.26246254470655,16.22183120465595,0 75.26377062262404,16.22143525393016,0 75.26517672249642,16.22097421572214,0 75.2663231096906,16.22059006170296,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#stylemap_id40</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#3">
+					<SimpleData name="Layer">Fencing</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+					<SimpleData name="Linetype">FENCELINE2</SimpleData>
+					<SimpleData name="EntityHandle">300</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					75.252285830175,16.226690399961,0 75.2524541301197,16.2265106636665,0 75.2525099080565,16.2264463161023,0 75.2526267347766,16.2263318187355,0 75.2526672303527,16.2262865581785,0 75.25280177702869,16.2261588297062,0 75.25288250371899,16.2260764539008,0 75.2529641059358,16.225989503044,0 75.2530452163699,16.2258966222208,0 75.25314383373011,16.22578218452,0 75.2532236630997,16.2257012466957,0 75.2533151805808,16.2256002212037,0 75.2533885318561,16.2255159527601,0 75.25350892338859,16.2254024283542,0 75.2536052058645,16.2253150946849,0 75.2537427145997,16.2251948394126,0 75.2538151757971,16.2251203529811,0 75.2539338637249,16.2250173886092,0 75.2540663053509,16.2248918939714,0 75.2541011856963,16.2247282480054,0 75.2541232321455,16.224569096402,0 75.2541269097666,16.2244837363734,0 75.2539802673874,16.2245159302549,0 75.2538627856822,16.2245424411801,0 75.2536897250331,16.224581418384,0 75.25354834455931,16.224617558234,0 75.25340887022919,16.2246506770356,0 75.25328331188911,16.2246863428216,0 75.2531119568972,16.2247286991875,0 75.2529537201913,16.2247709091958,0 75.2528084670234,16.2248086337157,0 75.2526975154136,16.2248342889448,0 75.25253243306091,16.2248809428842,0 75.2523842710627,16.224909412357,0 75.25226435542641,16.2249351649939,0 75.2521098015314,16.2249733304634,0 75.2517250095362,16.2250551369505,0 75.25158771340951,16.2250866888666,0 75.2514199853487,16.2251366075626,0 75.25129629277809,16.2251774054855,0 75.2511020853613,16.2252286288578,0 75.25096533545459,16.2252536258316,0 75.2508262782507,16.2252831988753,0 75.25066977623629,16.2253198461153,0 75.250503190381,16.2253710378394,0 75.25028325571679,16.2254390143014,0 75.2502230597544,16.2254582635298,0 75.249988619139,16.2255124740628,0 75.24969689773729,16.2255922411237,0 75.24953448755291,16.2256248603186,0 75.24947221446131,16.2256444183482,0 75.24921420508041,16.2257120442163,0 75.2490878206261,16.2257462527265,0 75.2489207693522,16.2257901933884,0 75.2488387345485,16.2258102911824,0 75.2486116664778,16.2258423821822,0 75.2484372125295,16.2258739794678,0 75.2482344872399,16.2259012234391,0 75.2480065272393,16.2259522084005,0 75.2478778555364,16.2259708327812,0 75.24759747838731,16.2260232325794,0 75.2474507733817,16.226050395702,0 75.2474501363001,16.2261163169448,0 75.2474686557297,16.226229946105,0 75.2475049827913,16.2263894852439,0 75.2475216048182,16.2265278045204,0 75.24751859722871,16.2265565002998,0 75.24752599352919,16.2266617850746,0 75.24754098380031,16.2268291606514,0 75.24751537068769,16.2268592753754,0 75.24746225755381,16.2268898009538,0 75.2473491020156,16.2269118746581,0 75.247232162618,16.2269183937515,0 75.2472171561393,16.2269099619995,0 75.2472002941258,16.2268981506839,0 75.24717012057491,16.22689062577,0 75.2471553005558,16.2268255483167,0 75.24713289963969,16.2267361407195,0 75.24709751744039,16.2265984236919,0 75.24701566840351,16.2265951609047,0 75.2468998021704,16.226598008675,0 75.2467892596122,16.2266002646175,0 75.2467056893997,16.2266200192655,0 75.2466751056986,16.2266366860304,0 75.24647219859381,16.2266939869568,0 75.24637064269071,16.2267233832395,0 75.2462426256994,16.226753695035,0 75.2461951588502,16.2267444025251,0 75.2461269425735,16.2267405954245,0 75.24603069728759,16.2267425505732,0 75.24590083131,16.2267549098695,0 75.2457525992141,16.2267807531505,0 75.24563331973739,16.2267975518242,0 75.245538473564,16.2268054631222,0 75.2454367790445,16.22681463626,0 75.2452867292124,16.226848933161,0 75.2451924010302,16.2268722392737,0 75.2450443104045,16.2268883457149,0 75.244923871804,16.2268953815279,0 75.2447713133504,16.2269060942593,0 75.2446140730607,16.2269241782073,0 75.24448436239069,16.2269435878342,0 75.24432399833211,16.2269635633628,0 75.244172969796,16.2269687419188,0 75.24402353331659,16.2269869550376,0 75.2439088101592,16.2270033876422,0 75.24373720885271,16.2270242572813,0 75.2436447137614,16.2270468019324,0 75.2435715881066,16.227069675245,0 75.2435192870438,16.2270873164352,0 75.24339273219751,16.2271328761291,0 75.2432917677675,16.2271655430271,0 75.2432706177791,16.2271848146999,0 75.2431623193669,16.2272085283534,0 75.24294197161829,16.2272461588353,0 75.2428834558382,16.227261969458,0 75.2427442910395,16.2272891145571,0 75.24261246152849,16.2273154674916,0 75.2424928803984,16.2273302848439,0 75.2423403505864,16.2273533446418,0 75.2421635437568,16.227382669506,0 75.24199456783469,16.2274223573379,0 75.2418610855388,16.2274647030821,0 75.2418094158031,16.2274996281384,0 75.2416082851219,16.2275465178838,0 75.2415223891992,16.2275610832142,0 75.241360516445,16.2276025008842,0 75.2412180531482,16.2276358670996,0 75.24113644629441,16.2276548587119,0 75.2410534110401,16.2276778832754,0 75.2409431927662,16.2277118306968,0 75.24085519834961,16.2277350578008,0 75.24073878388729,16.2277668943852,0 75.2406241537884,16.2277952400678,0 75.2405359804625,16.2278171653933,0 75.2403528886483,16.2278627476641,0 75.2402439956425,16.2278926889445,0 75.2401534095621,16.227916451071,0 75.2397861651631,16.227992238299,0 75.23963945905069,16.2280212673608,0 75.2394128790413,16.2280721336284,0 75.2392738447078,16.2280999543768,0 75.23915579178529,16.2281194605553,0 75.2389833629783,16.2281371267702,0 75.23889402146339,16.2281495601294,0 75.23880505751841,16.2281661335588,0 75.23868600899409,16.228192809055,0 75.238600396458,16.2282113777838,0 75.2385068263,16.2282248808559,0 75.2384053201108,16.2282369343044,0 75.2383504482045,16.2282467654447,0 75.2382718397013,16.2282715575154,0 75.2381910062834,16.2282990090079,0 75.23811471049601,16.2283257429413,0 75.23800611312519,16.2283634754696,0 75.237898544277,16.2284002941279,0 75.23787244512781,16.2284095614792,0 75.2377217970509,16.2284715796388,0 75.2376882606069,16.2285421537093,0 75.2377021837878,16.2286483290324,0 75.2377399435606,16.2287238587375,0 75.2378312485997,16.2288274004851,0 75.2378544376575,16.2288417029565,0 75.2379025508537,16.2288753510129,0 75.23798674987179,16.2289619386204,0 75.2381130730943,16.2290932889718,0 75.2381801960843,16.229157126036,0 75.2382702133897,16.2292410242953,0 75.2383647631009,16.2293292584277,0 75.2384429962021,16.2294085819868,0 75.238516638379,16.229480414638,0 75.2386080439303,16.229556428709,0 75.2387341854577,16.2296230784694,0 75.2388494029726,16.2296961818987,0 75.2390121661247,16.229794625587,0 75.2390928258592,16.2298890260579,0 75.2391654493905,16.229973687203,0 75.23920970305041,16.2300247039507,0 75.23927050094851,16.2300999269135,0 75.2393697372148,16.2301150403771,0 75.2395188521693,16.2301358661005,0 75.2397069939103,16.2301654947788,0 75.2399311532233,16.2301969676468,0 75.24005979142819,16.2302137944874,0 75.2402141030711,16.230227049225,0 75.2402725009615,16.2302261918198,0 75.24040152373109,16.2302324683132,0 75.2404343983243,16.2302356800062,0 75.24058943661279,16.2302565095673,0 75.2407881059446,16.2302866627398,0 75.24097050398559,16.2303063504543,0 75.2411511231978,16.2303363993603,0 75.24135338435239,16.2303531065954,0 75.2415063836941,16.2303748681586,0 75.2417664612734,16.2304120433806,0 75.2420954967332,16.2304428288381,0 75.2421558897872,16.2304444554401,0 75.2422540923268,16.2304536651189,0 75.2423527704977,16.2304609126791,0 75.2425085571,16.2304694908675,0 75.2426746199891,16.2304690571332,0 75.2428057430547,16.2304688397384,0 75.2429445585105,16.2304695113705,0 75.24309605589499,16.2304736627272,0 75.24320975884299,16.2304772281199,0 75.2433678282778,16.2304853428856,0 75.2434806950041,16.2304961318478,0 75.2436139162579,16.2305099426519,0 75.24382233775491,16.2305301955873,0 75.2439411407284,16.2305341002023,0 75.2440535265781,16.2305403781961,0 75.2442130203637,16.2305395234143,0 75.24434362730651,16.2305374793561,0 75.2444566633294,16.2305378805425,0 75.2446061846554,16.2305399169474,0 75.2447444375058,16.2305504506314,0 75.2448767297689,16.2305609526648,0 75.2449467024079,16.2305711140142,0 75.2450443087444,16.2305946334063,0 75.2452298989208,16.2306376927942,0 75.24536842387209,16.2306490033121,0 75.24557694415191,16.2306300925431,0 75.2457963222883,16.2306378686856,0 75.24589145098339,16.2306524308274,0 75.2459610672458,16.2306615344211,0 75.24606227291881,16.230669772705,0 75.2461903256749,16.2306793099176,0 75.24632069699901,16.2306863953688,0 75.2464548451169,16.23068922893,0 75.246550759115,16.2307001141911,0 75.24660950762581,16.230684769093,0 75.24668411441409,16.230719922247,0 75.2468717191892,16.2307434067121,0 75.2469679993964,16.2307808480697,0 75.2471275839214,16.2308099229341,0 75.2472812525379,16.2308364258702,0 75.24743747557589,16.2308627458894,0 75.24763925487279,16.2308950236596,0 75.2476808595175,16.2308753919774,0 75.2478372777374,16.2309000481617,0 75.2479764874283,16.2309240668731,0 75.2481077652824,16.2309295684856,0 75.2482188283667,16.2309314427604,0 75.24833618020121,16.2309340985134,0 75.24861054828,16.2309491870714,0 75.2487232723104,16.2309566104174,0 75.24883424260931,16.2309704445494,0 75.2489546233854,16.2309918287375,0 75.24908581838289,16.2309988575932,0 75.2491981196828,16.2310042831498,0 75.2493104693251,16.231011534717,0 75.24946765724989,16.2310166623814,0 75.2495639977048,16.2310142083645,0 75.2496457641606,16.2310062152337,0 75.2497861321437,16.2309945865606,0 75.2499450510587,16.2309886202433,0 75.2500120037807,16.2309902665072,0 75.25008653911689,16.2309956854904,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Proposal-2022-23</name>
+			<styleUrl>#stylemap_id50</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#3">
+					<SimpleData name="Layer">Fencing</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+					<SimpleData name="Linetype">FENCELINE2</SimpleData>
+					<SimpleData name="EntityHandle">32E</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					75.2666334642464,16.2218046980116,0 75.26708554930769,16.2203312520177,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

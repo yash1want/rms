@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Lease Boundary-ML 2289.kml</name>
+	<Schema name="ML_2289" id="ML_22890">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="float" name="Area"></SimpleField>
+	</Schema>
+	<Style id="style3112">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style812">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id711">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style812</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style3112</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Lease Boundary-ML 2289</name>
+		<open>1</open>
+		<styleUrl>#stylemap_id711</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#ML_22890">
+				<SimpleData name="Layer">Lease Boundary</SimpleData>
+				<SimpleData name="Area">42.4200</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<altitudeMode>absolute</altitudeMode>
+			<Polygon>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.9235025217165,15.0474934451306,0 76.9234050504558,15.0472765747719,0 76.92215388701131,15.0473653492177,0 76.9218522710611,15.0466709778878,0 76.92096594379061,15.046134319235,0 76.92338770709431,15.0459574983792,0 76.9235631568107,15.0446841140705,0 76.9243279066532,15.0432845212065,0 76.9249991171267,15.0434365271535,0 76.92499663241691,15.0428375762954,0 76.9256850730614,15.0427821809976,0 76.92945089820429,15.0432583090075,0 76.9308112916881,15.0430770041978,0 76.9321646062501,15.0431085435196,0 76.9328161732934,15.0432500130276,0 76.93300937316489,15.0433893092819,0 76.93301519270619,15.0436130863972,0 76.93320812746261,15.0439306107654,0 76.932805318183,15.044799274457,0 76.93251025188709,15.0450465030708,0 76.9315812048998,15.0455203886087,0 76.9286858152892,15.0466579834522,0 76.92763641929071,15.0469570687292,0 76.9275948992241,15.0473449601241,0 76.9267054897489,15.047578323199,0 76.92580931446891,15.0477114809563,0 76.9257728273912,15.0475854693307,0 76.9235025217165,15.0474934451306,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

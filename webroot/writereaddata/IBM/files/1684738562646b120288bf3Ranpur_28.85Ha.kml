@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Ranpur_28.85Ha.kml</name>
+	<Style id="Line_MLB_M360S_ff0000_03">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>8</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff451cff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="Line_MLB_M360S_ff0000_030">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>8</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff451cff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="Line_MLB_M360S_ff0000_031">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Line_MLB_M360S_ff0000_03</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Line_MLB_M360S_ff0000_030</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>MLB_M360S</name>
+		<Placemark>
+			<LookAt>
+				<longitude>69.67178472000001</longitude>
+				<latitude>21.81508889</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>963</range>
+			</LookAt>
+			<styleUrl>#Line_MLB_M360S_ff0000_031</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							69.66919167,21.81726111,0 69.67354444,21.81711944,0 69.67581944,21.81334444,0 69.67467222000001,21.813175,0 69.67250278,21.81316389,0 69.66775,21.81291667,0 69.66919167,21.81726111,0 69.66919167,21.81726111,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

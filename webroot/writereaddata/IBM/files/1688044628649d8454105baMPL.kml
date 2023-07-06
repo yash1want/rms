@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>M/s NCL Industries Ltd</name>
+	<open>1</open>
+	<Schema name="LAND_USE_DATA" id="S_LAND_USE_DATA_SSSSSDSSSISSISISSI">
+		<SimpleField type="string" name="NAME"><displayName>&lt;b&gt;NAME&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="GM_LAYER"><displayName>&lt;b&gt;GM_LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MAP_NAME"><displayName>&lt;b&gt;MAP_NAME&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="GM_TYPE"><displayName>&lt;b&gt;GM_TYPE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="ELEVATION"><displayName>&lt;b&gt;ELEVATION&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CLOSED"><displayName>&lt;b&gt;CLOSED&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="BORDER_STY"><displayName>&lt;b&gt;BORDER_STY&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="BORDER_COL"><displayName>&lt;b&gt;BORDER_COL&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="BORDER_WID"><displayName>&lt;b&gt;BORDER_WID&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FILL_STYLE"><displayName>&lt;b&gt;FILL_STYLE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="LABEL_POS"><displayName>&lt;b&gt;LABEL_POS&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="FONT_SIZE"><displayName>&lt;b&gt;FONT_SIZE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FONT_COLOR"><displayName>&lt;b&gt;FONT_COLOR&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="FONT_CHARS"><displayName>&lt;b&gt;FONT_CHARS&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="PERIMETER"><displayName>&lt;b&gt;PERIMETER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ENCLOSED_A"><displayName>&lt;b&gt;ENCLOSED_A&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="FONT_WEIGH"><displayName>&lt;b&gt;FONT_WEIGH&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="falseColor">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor0">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[LAND_USE_DATA/NAME]</td></tr>
+  <tr><td><b>GM_LAYER</b></td><td>$[LAND_USE_DATA/GM_LAYER]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[LAND_USE_DATA/MAP_NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[LAND_USE_DATA/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[LAND_USE_DATA/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[LAND_USE_DATA/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[LAND_USE_DATA/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[LAND_USE_DATA/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[LAND_USE_DATA/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[LAND_USE_DATA/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[LAND_USE_DATA/FILL_STYLE]</td></tr>
+  <tr><td><b>LABEL_POS</b></td><td>$[LAND_USE_DATA/LABEL_POS]</td></tr>
+  <tr><td><b>FONT_SIZE</b></td><td>$[LAND_USE_DATA/FONT_SIZE]</td></tr>
+  <tr><td><b>FONT_COLOR</b></td><td>$[LAND_USE_DATA/FONT_COLOR]</td></tr>
+  <tr><td><b>FONT_CHARS</b></td><td>$[LAND_USE_DATA/FONT_CHARS]</td></tr>
+  <tr><td><b>PERIMETER</b></td><td>$[LAND_USE_DATA/PERIMETER]</td></tr>
+  <tr><td><b>ENCLOSED_A</b></td><td>$[LAND_USE_DATA/ENCLOSED_A]</td></tr>
+  <tr><td><b>FONT_WEIGH</b></td><td>$[LAND_USE_DATA/FONT_WEIGH]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+			<fill>0</fill>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor1">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[LAND_USE_DATA/NAME]</td></tr>
+  <tr><td><b>GM_LAYER</b></td><td>$[LAND_USE_DATA/GM_LAYER]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[LAND_USE_DATA/MAP_NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[LAND_USE_DATA/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[LAND_USE_DATA/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[LAND_USE_DATA/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[LAND_USE_DATA/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[LAND_USE_DATA/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[LAND_USE_DATA/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[LAND_USE_DATA/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[LAND_USE_DATA/FILL_STYLE]</td></tr>
+  <tr><td><b>LABEL_POS</b></td><td>$[LAND_USE_DATA/LABEL_POS]</td></tr>
+  <tr><td><b>FONT_SIZE</b></td><td>$[LAND_USE_DATA/FONT_SIZE]</td></tr>
+  <tr><td><b>FONT_COLOR</b></td><td>$[LAND_USE_DATA/FONT_COLOR]</td></tr>
+  <tr><td><b>FONT_CHARS</b></td><td>$[LAND_USE_DATA/FONT_CHARS]</td></tr>
+  <tr><td><b>PERIMETER</b></td><td>$[LAND_USE_DATA/PERIMETER]</td></tr>
+  <tr><td><b>ENCLOSED_A</b></td><td>$[LAND_USE_DATA/ENCLOSED_A]</td></tr>
+  <tr><td><b>FONT_WEIGH</b></td><td>$[LAND_USE_DATA/FONT_WEIGH]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+			<fill>0</fill>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor10">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[LAND_USE_DATA/NAME]</td></tr>
+  <tr><td><b>GM_LAYER</b></td><td>$[LAND_USE_DATA/GM_LAYER]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[LAND_USE_DATA/MAP_NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[LAND_USE_DATA/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[LAND_USE_DATA/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[LAND_USE_DATA/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[LAND_USE_DATA/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[LAND_USE_DATA/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[LAND_USE_DATA/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[LAND_USE_DATA/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[LAND_USE_DATA/FILL_STYLE]</td></tr>
+  <tr><td><b>LABEL_POS</b></td><td>$[LAND_USE_DATA/LABEL_POS]</td></tr>
+  <tr><td><b>FONT_SIZE</b></td><td>$[LAND_USE_DATA/FONT_SIZE]</td></tr>
+  <tr><td><b>FONT_COLOR</b></td><td>$[LAND_USE_DATA/FONT_COLOR]</td></tr>
+  <tr><td><b>FONT_CHARS</b></td><td>$[LAND_USE_DATA/FONT_CHARS]</td></tr>
+  <tr><td><b>PERIMETER</b></td><td>$[LAND_USE_DATA/PERIMETER]</td></tr>
+  <tr><td><b>ENCLOSED_A</b></td><td>$[LAND_USE_DATA/ENCLOSED_A]</td></tr>
+  <tr><td><b>FONT_WEIGH</b></td><td>$[LAND_USE_DATA/FONT_WEIGH]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+			<fill>0</fill>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor11">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[LAND_USE_DATA/NAME]</td></tr>
+  <tr><td><b>GM_LAYER</b></td><td>$[LAND_USE_DATA/GM_LAYER]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[LAND_USE_DATA/MAP_NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[LAND_USE_DATA/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[LAND_USE_DATA/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[LAND_USE_DATA/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[LAND_USE_DATA/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[LAND_USE_DATA/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[LAND_USE_DATA/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[LAND_USE_DATA/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[LAND_USE_DATA/FILL_STYLE]</td></tr>
+  <tr><td><b>LABEL_POS</b></td><td>$[LAND_USE_DATA/LABEL_POS]</td></tr>
+  <tr><td><b>FONT_SIZE</b></td><td>$[LAND_USE_DATA/FONT_SIZE]</td></tr>
+  <tr><td><b>FONT_COLOR</b></td><td>$[LAND_USE_DATA/FONT_COLOR]</td></tr>
+  <tr><td><b>FONT_CHARS</b></td><td>$[LAND_USE_DATA/FONT_CHARS]</td></tr>
+  <tr><td><b>PERIMETER</b></td><td>$[LAND_USE_DATA/PERIMETER]</td></tr>
+  <tr><td><b>ENCLOSED_A</b></td><td>$[LAND_USE_DATA/ENCLOSED_A]</td></tr>
+  <tr><td><b>FONT_WEIGH</b></td><td>$[LAND_USE_DATA/FONT_WEIGH]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+			<fill>0</fill>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor12">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[LAND_USE_DATA/NAME]</td></tr>
+  <tr><td><b>GM_LAYER</b></td><td>$[LAND_USE_DATA/GM_LAYER]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[LAND_USE_DATA/MAP_NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[LAND_USE_DATA/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[LAND_USE_DATA/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[LAND_USE_DATA/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[LAND_USE_DATA/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[LAND_USE_DATA/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[LAND_USE_DATA/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[LAND_USE_DATA/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[LAND_USE_DATA/FILL_STYLE]</td></tr>
+  <tr><td><b>LABEL_POS</b></td><td>$[LAND_USE_DATA/LABEL_POS]</td></tr>
+  <tr><td><b>FONT_SIZE</b></td><td>$[LAND_USE_DATA/FONT_SIZE]</td></tr>
+  <tr><td><b>FONT_COLOR</b></td><td>$[LAND_USE_DATA/FONT_COLOR]</td></tr>
+  <tr><td><b>FONT_CHARS</b></td><td>$[LAND_USE_DATA/FONT_CHARS]</td></tr>
+  <tr><td><b>PERIMETER</b></td><td>$[LAND_USE_DATA/PERIMETER]</td></tr>
+  <tr><td><b>ENCLOSED_A</b></td><td>$[LAND_USE_DATA/ENCLOSED_A]</td></tr>
+  <tr><td><b>FONT_WEIGH</b></td><td>$[LAND_USE_DATA/FONT_WEIGH]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+			<fill>0</fill>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<StyleMap id="falseColor13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor2">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[LAND_USE_DATA/NAME]</td></tr>
+  <tr><td><b>GM_LAYER</b></td><td>$[LAND_USE_DATA/GM_LAYER]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[LAND_USE_DATA/MAP_NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[LAND_USE_DATA/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[LAND_USE_DATA/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[LAND_USE_DATA/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[LAND_USE_DATA/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[LAND_USE_DATA/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[LAND_USE_DATA/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[LAND_USE_DATA/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[LAND_USE_DATA/FILL_STYLE]</td></tr>
+  <tr><td><b>LABEL_POS</b></td><td>$[LAND_USE_DATA/LABEL_POS]</td></tr>
+  <tr><td><b>FONT_SIZE</b></td><td>$[LAND_USE_DATA/FONT_SIZE]</td></tr>
+  <tr><td><b>FONT_COLOR</b></td><td>$[LAND_USE_DATA/FONT_COLOR]</td></tr>
+  <tr><td><b>FONT_CHARS</b></td><td>$[LAND_USE_DATA/FONT_CHARS]</td></tr>
+  <tr><td><b>PERIMETER</b></td><td>$[LAND_USE_DATA/PERIMETER]</td></tr>
+  <tr><td><b>ENCLOSED_A</b></td><td>$[LAND_USE_DATA/ENCLOSED_A]</td></tr>
+  <tr><td><b>FONT_WEIGH</b></td><td>$[LAND_USE_DATA/FONT_WEIGH]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+			<fill>0</fill>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor3">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[LAND_USE_DATA/NAME]</td></tr>
+  <tr><td><b>GM_LAYER</b></td><td>$[LAND_USE_DATA/GM_LAYER]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[LAND_USE_DATA/MAP_NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[LAND_USE_DATA/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[LAND_USE_DATA/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[LAND_USE_DATA/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[LAND_USE_DATA/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[LAND_USE_DATA/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[LAND_USE_DATA/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[LAND_USE_DATA/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[LAND_USE_DATA/FILL_STYLE]</td></tr>
+  <tr><td><b>LABEL_POS</b></td><td>$[LAND_USE_DATA/LABEL_POS]</td></tr>
+  <tr><td><b>FONT_SIZE</b></td><td>$[LAND_USE_DATA/FONT_SIZE]</td></tr>
+  <tr><td><b>FONT_COLOR</b></td><td>$[LAND_USE_DATA/FONT_COLOR]</td></tr>
+  <tr><td><b>FONT_CHARS</b></td><td>$[LAND_USE_DATA/FONT_CHARS]</td></tr>
+  <tr><td><b>PERIMETER</b></td><td>$[LAND_USE_DATA/PERIMETER]</td></tr>
+  <tr><td><b>ENCLOSED_A</b></td><td>$[LAND_USE_DATA/ENCLOSED_A]</td></tr>
+  <tr><td><b>FONT_WEIGH</b></td><td>$[LAND_USE_DATA/FONT_WEIGH]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+			<fill>0</fill>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor4">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[LAND_USE_DATA/NAME]</td></tr>
+  <tr><td><b>GM_LAYER</b></td><td>$[LAND_USE_DATA/GM_LAYER]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[LAND_USE_DATA/MAP_NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[LAND_USE_DATA/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[LAND_USE_DATA/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[LAND_USE_DATA/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[LAND_USE_DATA/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[LAND_USE_DATA/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[LAND_USE_DATA/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[LAND_USE_DATA/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[LAND_USE_DATA/FILL_STYLE]</td></tr>
+  <tr><td><b>LABEL_POS</b></td><td>$[LAND_USE_DATA/LABEL_POS]</td></tr>
+  <tr><td><b>FONT_SIZE</b></td><td>$[LAND_USE_DATA/FONT_SIZE]</td></tr>
+  <tr><td><b>FONT_COLOR</b></td><td>$[LAND_USE_DATA/FONT_COLOR]</td></tr>
+  <tr><td><b>FONT_CHARS</b></td><td>$[LAND_USE_DATA/FONT_CHARS]</td></tr>
+  <tr><td><b>PERIMETER</b></td><td>$[LAND_USE_DATA/PERIMETER]</td></tr>
+  <tr><td><b>ENCLOSED_A</b></td><td>$[LAND_USE_DATA/ENCLOSED_A]</td></tr>
+  <tr><td><b>FONT_WEIGH</b></td><td>$[LAND_USE_DATA/FONT_WEIGH]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor6">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[LAND_USE_DATA/NAME]</td></tr>
+  <tr><td><b>GM_LAYER</b></td><td>$[LAND_USE_DATA/GM_LAYER]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[LAND_USE_DATA/MAP_NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[LAND_USE_DATA/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[LAND_USE_DATA/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[LAND_USE_DATA/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[LAND_USE_DATA/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[LAND_USE_DATA/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[LAND_USE_DATA/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[LAND_USE_DATA/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[LAND_USE_DATA/FILL_STYLE]</td></tr>
+  <tr><td><b>LABEL_POS</b></td><td>$[LAND_USE_DATA/LABEL_POS]</td></tr>
+  <tr><td><b>FONT_SIZE</b></td><td>$[LAND_USE_DATA/FONT_SIZE]</td></tr>
+  <tr><td><b>FONT_COLOR</b></td><td>$[LAND_USE_DATA/FONT_COLOR]</td></tr>
+  <tr><td><b>FONT_CHARS</b></td><td>$[LAND_USE_DATA/FONT_CHARS]</td></tr>
+  <tr><td><b>PERIMETER</b></td><td>$[LAND_USE_DATA/PERIMETER]</td></tr>
+  <tr><td><b>ENCLOSED_A</b></td><td>$[LAND_USE_DATA/ENCLOSED_A]</td></tr>
+  <tr><td><b>FONT_WEIGH</b></td><td>$[LAND_USE_DATA/FONT_WEIGH]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+			<fill>0</fill>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor7">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[LAND_USE_DATA/NAME]</td></tr>
+  <tr><td><b>GM_LAYER</b></td><td>$[LAND_USE_DATA/GM_LAYER]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[LAND_USE_DATA/MAP_NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[LAND_USE_DATA/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[LAND_USE_DATA/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[LAND_USE_DATA/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[LAND_USE_DATA/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[LAND_USE_DATA/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[LAND_USE_DATA/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[LAND_USE_DATA/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[LAND_USE_DATA/FILL_STYLE]</td></tr>
+  <tr><td><b>LABEL_POS</b></td><td>$[LAND_USE_DATA/LABEL_POS]</td></tr>
+  <tr><td><b>FONT_SIZE</b></td><td>$[LAND_USE_DATA/FONT_SIZE]</td></tr>
+  <tr><td><b>FONT_COLOR</b></td><td>$[LAND_USE_DATA/FONT_COLOR]</td></tr>
+  <tr><td><b>FONT_CHARS</b></td><td>$[LAND_USE_DATA/FONT_CHARS]</td></tr>
+  <tr><td><b>PERIMETER</b></td><td>$[LAND_USE_DATA/PERIMETER]</td></tr>
+  <tr><td><b>ENCLOSED_A</b></td><td>$[LAND_USE_DATA/ENCLOSED_A]</td></tr>
+  <tr><td><b>FONT_WEIGH</b></td><td>$[LAND_USE_DATA/FONT_WEIGH]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>Mattapalli Limstone Mine</name>
+		<open>1</open>
+		<Placemark>
+			<name>100 mtrs</name>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_LAND_USE_DATA_SSSSSDSSSISSISISSI">
+					<SimpleData name="NAME"></SimpleData>
+					<SimpleData name="GM_LAYER">0</SimpleData>
+					<SimpleData name="MAP_NAME">LAND_USE_DATA.shp</SimpleData>
+					<SimpleData name="LAYER"></SimpleData>
+					<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+					<SimpleData name="ELEVATION">0</SimpleData>
+					<SimpleData name="CLOSED">YES</SimpleData>
+					<SimpleData name="BORDER_STY">Solid</SimpleData>
+					<SimpleData name="BORDER_COL">RGB(255,0,255)</SimpleData>
+					<SimpleData name="BORDER_WID">2</SimpleData>
+					<SimpleData name="FILL_STYLE">No Fill</SimpleData>
+					<SimpleData name="LABEL_POS"></SimpleData>
+					<SimpleData name="FONT_SIZE">0</SimpleData>
+					<SimpleData name="FONT_COLOR"></SimpleData>
+					<SimpleData name="FONT_CHARS">0</SimpleData>
+					<SimpleData name="PERIMETER"></SimpleData>
+					<SimpleData name="ENCLOSED_A"></SimpleData>
+					<SimpleData name="FONT_WEIGH">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.82457072015789,16.71114816546942,0 79.82334716684619,16.70564207950645,0 79.82453013209054,16.70013293810882,0 79.82838366116711,16.7004942153493,0 79.83058903987272,16.7027335138311,0 79.83215625450343,16.70804830937669,0 79.82457072015789,16.71114816546942,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Lease Boudary</name>
+			<styleUrl>#falseColor13</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_LAND_USE_DATA_SSSSSDSSSISSISISSI">
+					<SimpleData name="NAME"></SimpleData>
+					<SimpleData name="GM_LAYER">Unknown Area Type</SimpleData>
+					<SimpleData name="MAP_NAME">LAND_USE_DATA.shp</SimpleData>
+					<SimpleData name="LAYER"></SimpleData>
+					<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+					<SimpleData name="ELEVATION">0</SimpleData>
+					<SimpleData name="CLOSED">YES</SimpleData>
+					<SimpleData name="BORDER_STY">Solid</SimpleData>
+					<SimpleData name="BORDER_COL">RGB(255,0,0)</SimpleData>
+					<SimpleData name="BORDER_WID">2</SimpleData>
+					<SimpleData name="FILL_STYLE">No Fill</SimpleData>
+					<SimpleData name="LABEL_POS"></SimpleData>
+					<SimpleData name="FONT_SIZE">0</SimpleData>
+					<SimpleData name="FONT_COLOR"></SimpleData>
+					<SimpleData name="FONT_CHARS">0</SimpleData>
+					<SimpleData name="PERIMETER">2.726 km</SimpleData>
+					<SimpleData name="ENCLOSED_A">0.4741 sq km</SimpleData>
+					<SimpleData name="FONT_WEIGH">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.82525000040522,16.70988889016574,0 79.82430555573048,16.70563889057793,0 79.82527777796361,16.70111111010517,0 79.8279444440587,16.70136111378993,0 79.82975000034095,16.70319444654302,0 79.83033445872415,16.70504838687903,0 79.83102777798452,16.70752777469001,0 79.82525000040522,16.70988889016574,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>7.5 Safety barrier</name>
+			<styleUrl>#falseColor5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_LAND_USE_DATA_SSSSSDSSSISSISISSI">
+					<SimpleData name="NAME"></SimpleData>
+					<SimpleData name="GM_LAYER">0</SimpleData>
+					<SimpleData name="MAP_NAME">LAND_USE_DATA.shp</SimpleData>
+					<SimpleData name="LAYER"></SimpleData>
+					<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+					<SimpleData name="ELEVATION">0</SimpleData>
+					<SimpleData name="CLOSED">YES</SimpleData>
+					<SimpleData name="BORDER_STY">Solid</SimpleData>
+					<SimpleData name="BORDER_COL">RGB(0,255,0)</SimpleData>
+					<SimpleData name="BORDER_WID">2</SimpleData>
+					<SimpleData name="FILL_STYLE">No Fill</SimpleData>
+					<SimpleData name="LABEL_POS"></SimpleData>
+					<SimpleData name="FONT_SIZE">0</SimpleData>
+					<SimpleData name="FONT_COLOR"></SimpleData>
+					<SimpleData name="FONT_CHARS">0</SimpleData>
+					<SimpleData name="PERIMETER">2.669 km</SimpleData>
+					<SimpleData name="ENCLOSED_A">0.4537 sq km</SimpleData>
+					<SimpleData name="FONT_WEIGH">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.82531778779753,16.70979167879783,0 79.82439427629218,16.7056358856724,0 79.8253506926891,16.70118170725534,0 79.82792834359446,16.70142336525171,0 79.82970391334233,16.70322625034861,0 79.8302699681729,16.70504110233986,0 79.83095998400042,16.70748596826865,0 79.82531778779753,16.70979167879783,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Plantation</name>
+			<styleUrl>#falseColor8</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_LAND_USE_DATA_SSSSSDSSSISSISISSI">
+					<SimpleData name="NAME">Afforestation</SimpleData>
+					<SimpleData name="GM_LAYER">Unknown Area Type</SimpleData>
+					<SimpleData name="MAP_NAME">LAND_USE_DATA.shp</SimpleData>
+					<SimpleData name="LAYER"></SimpleData>
+					<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+					<SimpleData name="ELEVATION">0</SimpleData>
+					<SimpleData name="CLOSED">YES</SimpleData>
+					<SimpleData name="BORDER_STY">Solid</SimpleData>
+					<SimpleData name="BORDER_COL">RGB(0,255,255)</SimpleData>
+					<SimpleData name="BORDER_WID">2</SimpleData>
+					<SimpleData name="FILL_STYLE">No Fill</SimpleData>
+					<SimpleData name="LABEL_POS">374701.041,1847109.741</SimpleData>
+					<SimpleData name="FONT_SIZE">10</SimpleData>
+					<SimpleData name="FONT_COLOR">RGB(0,0,0)</SimpleData>
+					<SimpleData name="FONT_CHARS">1</SimpleData>
+					<SimpleData name="PERIMETER">1.422 km</SimpleData>
+					<SimpleData name="ENCLOSED_A">0.002974 sq km</SimpleData>
+					<SimpleData name="FONT_WEIGH">400</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.82432334337643,16.70561434778165,0 79.82432017345239,16.70553932860962,0 79.82432295435842,16.70548027615565,0 79.82433041334592,16.70538161238214,0 79.82435084682815,16.70527136415667,0 79.82437372759891,16.7051894981513,0 79.8244103594788,16.70503504079819,0 79.82444238935818,16.70490775976596,0 79.82447266122472,16.7048041737615,0 79.82450647697556,16.7046815661478,0 79.82454263643842,16.70453837567176,0 79.82458838858678,16.70434316635749,0 79.82462185138934,16.70417936435409,0 79.82463379787026,16.70407217669378,0 79.82465320867128,16.70396425423737,0 79.82468744071751,16.70374061108817,0 79.82469072879212,16.70369749438496,0 79.82470975342112,16.70355381786636,0 79.82472546855946,16.70345675539062,0 79.8247513031598,16.70328746948957,0 79.82477075658004,16.70317255231963,0 79.82479481370477,16.70306310180425,0 79.8248196444149,16.70292606457125,0 79.82484416887549,16.70280612430637,0 79.82487254288867,16.70268309705003,0 79.82490544971553,16.70254416264521,0 79.8249335412131,16.7024343464121,0 79.82495216657719,16.70232292196503,0 79.82497006586811,16.7022313123559,0 79.82496898219269,16.70221071001818,0 79.82497152984674,16.70218973970305,0 79.82503256029088,16.70200161191527,0 79.82507222171138,16.70187903733514,0 79.82510119547409,16.70175679064177,0 79.82513077639504,16.70163415878235,0 79.82516688476669,16.70149912855858,0 79.82520056865917,16.70139789338446,0 79.82523847676678,16.70129823662226,0 79.82524996401413,16.70126604746084,0 79.82525391610943,16.70121321931874,0 79.82526270202742,16.70116119584357,0 79.82527989842276,16.70111854670703,0 79.82529201387405,16.70111550665478,0 79.82531218649187,16.70111367818089,0 79.82539581553999,16.70112037081481,0 79.82558666410362,16.70113350131674,0 79.82570837560466,16.70114390750989,0 79.82582197532525,16.70116203973153,0 79.82585782820468,16.70116768375386,0 79.82588646121552,16.70116706907068,0 79.82597864095152,16.70116020875021,0 79.82605526603936,16.70115831200437,0 79.82617055465209,16.70116401818621,0 79.82623033710981,16.70117990173357,0 79.82630446932393,16.70119003757849,0 79.82643843626072,16.70120750781975,0 79.82656412782275,16.70122648545889,0 79.82670422611172,16.70123038905393,0 79.82687233600664,16.70123639446274,0 79.82699754620306,16.70123516152359,0 79.82715773412139,16.7012508369629,0 79.82716695588266,16.70125943861637,0 79.82716846436244,16.70127654589896,0 79.82716600236863,16.70128352687384,0 79.82711276370507,16.70128555664087,0 79.82686604811356,16.70127560815296,0 79.82669048819544,16.70126800604769,0 79.8265475839882,16.70126136627157,0 79.82643029345844,16.70125331729344,0 79.8263179079977,16.70123441507501,0 79.8261771600054,16.70120485944499,0 79.82610181577587,16.70119510528331,0 79.8260006325505,16.70119064494345,0 79.82588466786409,16.70119659304878,0 79.82582257512878,16.70119585197414,0 79.82575249885087,16.70118185290991,0 79.82560759533777,16.70117248088839,0 79.82545238848456,16.70116654772547,0 79.82533715456684,16.70115190348757,0 79.82531817495739,16.7011564589897,0 79.82530394601089,16.70117541993868,0 79.82529396709072,16.70122471639004,0 79.82526833570603,16.70132794035489,0 79.82524326396502,16.70143855103039,0 79.82519442309167,16.70161159246449,0 79.8251605799296,16.70173886341323,0 79.82511407778287,16.70189209913055,0 79.82507417912713,16.7020205014805,0 79.82503518625435,16.70216561907344,0 79.82498920789504,16.70233207036487,0 79.82495386285366,16.70247409979685,0 79.82489897223785,16.70271316996275,0 79.82485794541651,16.70292705940775,0 79.82482574506149,16.7030823193086,0 79.82479369585991,16.70327877241446,0 79.82475470244874,16.7035062746177,0 79.82470113421357,16.70385863116248,0 79.82466418585376,16.70411431895918,0 79.82463539980641,16.7043210886348,0 79.82459034740504,16.70451727345767,0 79.82450969017283,16.70479894374052,0 79.8244420873919,16.7050229800348,0 79.82440064575258,16.70522209986063,0 79.82437188415156,16.70542478921777,0 79.82436071624255,16.70561883492727,0 79.82433586711308,16.70561761669016,0 79.82432334337643,16.70561434778165,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Pit</name>
+			<styleUrl>#falseColor9</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.82485181050411,16.70754829578644,0 79.82471116864198,16.70665505668884,0 79.8245969588678,16.70566822922078,0 79.82465529252518,16.70512912931988,0 79.82478497793144,16.70460729998389,0 79.82486893078557,16.70401645747678,0 79.82499802340068,16.70317313500294,0 79.82513752783133,16.70270049052893,0 79.82525894225648,16.70220321574992,0 79.8253286444792,16.70216839893927,0 79.82545269248284,16.70211627520755,0 79.82578048441083,16.70202011764827,0 79.82602423927312,16.70196089633263,0 79.82626454896142,16.70199001579562,0 79.82646830196364,16.70207468988836,0 79.82658914182036,16.70217049034189,0 79.82668152083187,16.70229056780062,0 79.8268185464218,16.70240399878143,0 79.82693490359496,16.70242350137863,0 79.82709559556628,16.70235134751769,0 79.82721568847806,16.70231209775696,0 79.8274983654176,16.70227659594383,0 79.82771290959957,16.70226239827103,0 79.82791231938096,16.7022279103718,0 79.82808251441115,16.70222861026191,0 79.82816120191427,16.70224669341831,0 79.82820962099797,16.70236191298053,0 79.82827094906651,16.70247994913592,0 79.8283924732584,16.70263105721066,0 79.82857403816183,16.70278581058976,0 79.8291051712142,16.70275024124294,0 79.82923091127728,16.70286661940117,0 79.82936224327983,16.70296937751129,0 79.82947095602454,16.70301320140388,0 79.82957304952384,16.7031042627663,0 79.82966570683836,16.70324512731588,0 79.82972098055637,16.70340851787216,0 79.82980329542599,16.7036060372117,0 79.82987409314508,16.70384332418284,0 79.82992430664613,16.70404530835707,0 79.8299777228027,16.704188076335,0 79.82997628670962,16.70425128989483,0 79.83005296120402,16.70435278204902,0 79.83008101912519,16.70450779670088,0 79.83012021314813,16.70461299532154,0 79.83017516442254,16.7047197270816,0 79.83021018221048,16.70487300636403,0 79.83031735282434,16.70508003209517,0 79.83036185819287,16.70526145998993,0 79.83041992685503,16.70541986966407,0 79.83045695369997,16.70557556669153,0 79.83050418832131,16.70577307479036,0 79.83054719381626,16.70598030803676,0 79.83058356402445,16.70621708241307,0 79.83063281060878,16.70641297437617,0 79.83067280448843,16.70663517111542,0 79.83068249686481,16.70678218544072,0 79.83078953616317,16.70693438602909,0 79.83079643974747,16.70708101983534,0 79.83078224424349,16.70718272717942,0 79.83072775583918,16.7073189882466,0 79.83069492103954,16.70734712069365,0 79.83053380642555,16.70742748926795,0 79.83046499474871,16.70750779073846,0 79.8303509050496,16.70762132851631,0 79.83024956896153,16.7076208954827,0 79.83014356990923,16.70758659877917,0 79.83004415911086,16.70753296122112,0 79.82990349850142,16.70757282526492,0 79.82969994688042,16.70760703971428,0 79.82950833432341,16.70774281766712,0 79.82928912483425,16.70784431061741,0 79.82914173560907,16.70793965442395,0 79.8286436759295,16.70824706107909,0 79.82840663868018,16.70827320706492,0 79.82800225441429,16.70837542369939,0 79.82751264136481,16.70854486069463,0 79.82696720558724,16.7087120004127,0 79.82669594387335,16.70849657618917,0 79.82653383611166,16.70843401311834,0 79.82586100646537,16.70852150634228,0 79.82515369951143,16.70852308573874,0 79.82485181050411,16.70754829578644,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

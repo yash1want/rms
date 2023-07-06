@@ -1,0 +1,1459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KEOLARI</name>
+	<LookAt>
+		<longitude>80.05183223</longitude>
+		<latitude>23.3808397</latitude>
+		<altitude>0</altitude>
+		<heading>0</heading>
+		<tilt>0</tilt>
+		<range>676</range>
+	</LookAt>
+	<Schema name="shp" id="S_shp_SSSSI">
+		<SimpleField type="string" name="NAME"><displayName>&lt;b&gt;NAME&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="KML_STYLE"><displayName>&lt;b&gt;KML_STYLE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="KML_FOLDER"><displayName>&lt;b&gt;KML_FOLDER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="tessellate"><displayName>&lt;b&gt;tessellate&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="Line_boundary_pillar_1_ff0000_03">
+		<BalloonStyle>
+			<text><![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>0.8</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0d18fc</color>
+		</PolyStyle>
+	</Style>
+	<Style id="Line_lease_area_1_ff0000_03">
+		<BalloonStyle>
+			<text><![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>fa0000ff</color>
+			<width>3.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="Line_lease_area_7_ffffff_03">
+		<BalloonStyle>
+			<text><![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>0.8</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>070d18fc</color>
+		</PolyStyle>
+	</Style>
+	<Style id="Point_Text_Note_31_03">
+		<IconStyle>
+			<scale>0</scale>
+			<Icon>
+				<href>http://www.topografix.com/symbols/blank.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Easting</td><td>$[Easting]</td></tr><tr style="background-color:FFFFFF"><td width="20%">Northing</td><td>$[Northing]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Zone</td><td>$[Zone]</td></tr><tr style="background-color:FFFFFF"><td width="20%">Distance to Active Point</td><td>$[Distance to Active Point]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Bearing</td><td>$[Bearing]</td></tr></table></body>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="falseColor">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[shp/NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[shp/LAYER]</td></tr>
+  <tr><td><b>KML_STYLE</b></td><td>$[shp/KML_STYLE]</td></tr>
+  <tr><td><b>KML_FOLDER</b></td><td>$[shp/KML_FOLDER]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[shp/tessellate]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Shapes</name>
+		<Folder>
+			<name>lease area</name>
+			<Placemark>
+				<name>BP-2/1</name>
+				<LookAt>
+					<longitude>80.05244154</longitude>
+					<latitude>23.38186988</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>200</range>
+				</LookAt>
+				<styleUrl>#Point_Text_Note_31_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>Text Note</value>
+					</Data>
+					<Data name="Easting">
+						<value>403 165.03E</value>
+					</Data>
+					<Data name="Northing">
+						<value>2586 111.47N</value>
+					</Data>
+					<Data name="Zone">
+						<value>44Q</value>
+					</Data>
+					<Data name="Distance to Active Point">
+						<value>N/A</value>
+					</Data>
+					<Data name="Bearing">
+						<value>N/A</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>80.05244154,23.38186988,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-1</name>
+				<LookAt>
+					<longitude>80.05122477</longitude>
+					<latitude>23.38204191</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>200</range>
+				</LookAt>
+				<styleUrl>#Point_Text_Note_31_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>Text Note</value>
+					</Data>
+					<Data name="Easting">
+						<value>403 040.80E</value>
+					</Data>
+					<Data name="Northing">
+						<value>2586 131.33N</value>
+					</Data>
+					<Data name="Zone">
+						<value>44Q</value>
+					</Data>
+					<Data name="Distance to Active Point">
+						<value>N/A</value>
+					</Data>
+					<Data name="Bearing">
+						<value>N/A</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>80.05122477,23.38204191,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-2</name>
+				<LookAt>
+					<longitude>80.05182258000001</longitude>
+					<latitude>23.38207145</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>200</range>
+				</LookAt>
+				<styleUrl>#Point_Text_Note_31_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>Text Note</value>
+					</Data>
+					<Data name="Easting">
+						<value>403 101.92E</value>
+					</Data>
+					<Data name="Northing">
+						<value>2586 134.20N</value>
+					</Data>
+					<Data name="Zone">
+						<value>44Q</value>
+					</Data>
+					<Data name="Distance to Active Point">
+						<value>N/A</value>
+					</Data>
+					<Data name="Bearing">
+						<value>N/A</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>80.05182258000001,23.38207145,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-3</name>
+				<LookAt>
+					<longitude>80.05303274000001</longitude>
+					<latitude>23.38152965</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>200</range>
+				</LookAt>
+				<styleUrl>#Point_Text_Note_31_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>Text Note</value>
+					</Data>
+					<Data name="Easting">
+						<value>403 225.20E</value>
+					</Data>
+					<Data name="Northing">
+						<value>2586 073.40N</value>
+					</Data>
+					<Data name="Zone">
+						<value>44Q</value>
+					</Data>
+					<Data name="Distance to Active Point">
+						<value>N/A</value>
+					</Data>
+					<Data name="Bearing">
+						<value>N/A</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>80.05303274000001,23.38152965,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-4</name>
+				<LookAt>
+					<longitude>80.05311539</longitude>
+					<latitude>23.38107251</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>200</range>
+				</LookAt>
+				<styleUrl>#Point_Text_Note_31_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>Text Note</value>
+					</Data>
+					<Data name="Easting">
+						<value>403 233.32E</value>
+					</Data>
+					<Data name="Northing">
+						<value>2586 022.73N</value>
+					</Data>
+					<Data name="Zone">
+						<value>44Q</value>
+					</Data>
+					<Data name="Distance to Active Point">
+						<value>N/A</value>
+					</Data>
+					<Data name="Bearing">
+						<value>N/A</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>80.05311539,23.38107251,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-5</name>
+				<LookAt>
+					<longitude>80.05292106</longitude>
+					<latitude>23.38002192</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>200</range>
+				</LookAt>
+				<styleUrl>#Point_Text_Note_31_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>Text Note</value>
+					</Data>
+					<Data name="Easting">
+						<value>403 212.70E</value>
+					</Data>
+					<Data name="Northing">
+						<value>2585 906.55N</value>
+					</Data>
+					<Data name="Zone">
+						<value>44Q</value>
+					</Data>
+					<Data name="Distance to Active Point">
+						<value>N/A</value>
+					</Data>
+					<Data name="Bearing">
+						<value>N/A</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>80.05292106,23.38002192,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-4/1</name>
+				<LookAt>
+					<longitude>80.05298569</longitude>
+					<latitude>23.38066623</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>200</range>
+				</LookAt>
+				<styleUrl>#Point_Text_Note_31_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>Text Note</value>
+					</Data>
+					<Data name="Easting">
+						<value>403 219.77E</value>
+					</Data>
+					<Data name="Northing">
+						<value>2585 977.84N</value>
+					</Data>
+					<Data name="Zone">
+						<value>44Q</value>
+					</Data>
+					<Data name="Distance to Active Point">
+						<value>N/A</value>
+					</Data>
+					<Data name="Bearing">
+						<value>N/A</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>80.05298569,23.38066623,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-5/1</name>
+				<LookAt>
+					<longitude>80.05243776</longitude>
+					<latitude>23.37986324</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>200</range>
+				</LookAt>
+				<styleUrl>#Point_Text_Note_31_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>Text Note</value>
+					</Data>
+					<Data name="Easting">
+						<value>403 163.19E</value>
+					</Data>
+					<Data name="Northing">
+						<value>2585 889.30N</value>
+					</Data>
+					<Data name="Zone">
+						<value>44Q</value>
+					</Data>
+					<Data name="Distance to Active Point">
+						<value>N/A</value>
+					</Data>
+					<Data name="Bearing">
+						<value>N/A</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>80.05243776,23.37986324,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-5/2</name>
+				<LookAt>
+					<longitude>80.05212392</longitude>
+					<latitude>23.37978396</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>200</range>
+				</LookAt>
+				<styleUrl>#Point_Text_Note_31_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>Text Note</value>
+					</Data>
+					<Data name="Easting">
+						<value>403 131.05E</value>
+					</Data>
+					<Data name="Northing">
+						<value>2585 880.74N</value>
+					</Data>
+					<Data name="Zone">
+						<value>44Q</value>
+					</Data>
+					<Data name="Distance to Active Point">
+						<value>N/A</value>
+					</Data>
+					<Data name="Bearing">
+						<value>N/A</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>80.05212392,23.37978396,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-5/3</name>
+				<LookAt>
+					<longitude>80.05178676</longitude>
+					<latitude>23.37980345</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>200</range>
+				</LookAt>
+				<styleUrl>#Point_Text_Note_31_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>Text Note</value>
+					</Data>
+					<Data name="Easting">
+						<value>403 096.61E</value>
+					</Data>
+					<Data name="Northing">
+						<value>2585 883.12N</value>
+					</Data>
+					<Data name="Zone">
+						<value>44Q</value>
+					</Data>
+					<Data name="Distance to Active Point">
+						<value>N/A</value>
+					</Data>
+					<Data name="Bearing">
+						<value>N/A</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>80.05178676,23.37980345,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-6</name>
+				<LookAt>
+					<longitude>80.05141269000001</longitude>
+					<latitude>23.37987669</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>200</range>
+				</LookAt>
+				<styleUrl>#Point_Text_Note_31_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>Text Note</value>
+					</Data>
+					<Data name="Easting">
+						<value>403 058.43E</value>
+					</Data>
+					<Data name="Northing">
+						<value>2585 891.48N</value>
+					</Data>
+					<Data name="Zone">
+						<value>44Q</value>
+					</Data>
+					<Data name="Distance to Active Point">
+						<value>N/A</value>
+					</Data>
+					<Data name="Bearing">
+						<value>N/A</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>80.05141269000001,23.37987669,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-7</name>
+				<LookAt>
+					<longitude>80.05108930999999</longitude>
+					<latitude>23.37970658</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>200</range>
+				</LookAt>
+				<styleUrl>#Point_Text_Note_31_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>Text Note</value>
+					</Data>
+					<Data name="Easting">
+						<value>403 025.26E</value>
+					</Data>
+					<Data name="Northing">
+						<value>2585 872.86N</value>
+					</Data>
+					<Data name="Zone">
+						<value>44Q</value>
+					</Data>
+					<Data name="Distance to Active Point">
+						<value>N/A</value>
+					</Data>
+					<Data name="Bearing">
+						<value>N/A</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>80.05108930999999,23.37970658,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-8</name>
+				<LookAt>
+					<longitude>80.05092673</longitude>
+					<latitude>23.37984131</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>200</range>
+				</LookAt>
+				<styleUrl>#Point_Text_Note_31_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>Text Note</value>
+					</Data>
+					<Data name="Easting">
+						<value>403 008.74E</value>
+					</Data>
+					<Data name="Northing">
+						<value>2585 887.89N</value>
+					</Data>
+					<Data name="Zone">
+						<value>44Q</value>
+					</Data>
+					<Data name="Distance to Active Point">
+						<value>N/A</value>
+					</Data>
+					<Data name="Bearing">
+						<value>N/A</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>80.05092673,23.37984131,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-9</name>
+				<LookAt>
+					<longitude>80.05106582000001</longitude>
+					<latitude>23.38016695</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>200</range>
+				</LookAt>
+				<styleUrl>#Point_Text_Note_31_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>Text Note</value>
+					</Data>
+					<Data name="Easting">
+						<value>403 023.19E</value>
+					</Data>
+					<Data name="Northing">
+						<value>2585 923.85N</value>
+					</Data>
+					<Data name="Zone">
+						<value>44Q</value>
+					</Data>
+					<Data name="Distance to Active Point">
+						<value>N/A</value>
+					</Data>
+					<Data name="Bearing">
+						<value>N/A</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>80.05106582000001,23.38016695,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-10</name>
+				<LookAt>
+					<longitude>80.05053958000001</longitude>
+					<latitude>23.38050369</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>200</range>
+				</LookAt>
+				<styleUrl>#Point_Text_Note_31_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>Text Note</value>
+					</Data>
+					<Data name="Easting">
+						<value>402 969.65E</value>
+					</Data>
+					<Data name="Northing">
+						<value>2585 961.49N</value>
+					</Data>
+					<Data name="Zone">
+						<value>44Q</value>
+					</Data>
+					<Data name="Distance to Active Point">
+						<value>N/A</value>
+					</Data>
+					<Data name="Bearing">
+						<value>N/A</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>80.05053958000001,23.38050369,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-10/1</name>
+				<LookAt>
+					<longitude>80.05056578</longitude>
+					<latitude>23.38121941</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>200</range>
+				</LookAt>
+				<styleUrl>#Point_Text_Note_31_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>Text Note</value>
+					</Data>
+					<Data name="Easting">
+						<value>402 972.85E</value>
+					</Data>
+					<Data name="Northing">
+						<value>2586 040.71N</value>
+					</Data>
+					<Data name="Zone">
+						<value>44Q</value>
+					</Data>
+					<Data name="Distance to Active Point">
+						<value>N/A</value>
+					</Data>
+					<Data name="Bearing">
+						<value>N/A</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>80.05056578,23.38121941,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-10/2</name>
+				<LookAt>
+					<longitude>80.05086423</longitude>
+					<latitude>23.3816879</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>200</range>
+				</LookAt>
+				<styleUrl>#Point_Text_Note_31_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>Text Note</value>
+					</Data>
+					<Data name="Easting">
+						<value>403 003.70E</value>
+					</Data>
+					<Data name="Northing">
+						<value>2586 092.38N</value>
+					</Data>
+					<Data name="Zone">
+						<value>44Q</value>
+					</Data>
+					<Data name="Distance to Active Point">
+						<value>N/A</value>
+					</Data>
+					<Data name="Bearing">
+						<value>N/A</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>80.05086423,23.3816879,0</coordinates>
+				</Point>
+			</Placemark>
+			<Folder>
+				<name>boundary pillar 1</name>
+				<Placemark>
+					<LookAt>
+						<longitude>80.05126610000001</longitude>
+						<latitude>23.38201208</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>5</range>
+					</LookAt>
+					<styleUrl>#Line_boundary_pillar_1_ff0000_03</styleUrl>
+					<ExtendedData>
+						<Data name="Type">
+							<value>boundary pillar 1</value>
+						</Data>
+						<Data name="Number of Trackpoints">
+							<value>36</value>
+						</Data>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									80.05128421000001,23.38201219,0 80.0512839,23.38201518,0 80.05128301000001,23.38201807,0 80.05128157999999,23.38202076,0 80.05127965,23.38202318,0 80.05127727999999,23.38202524,0 80.05127456,23.38202688000001,0 80.05127156,23.38202804,0 80.05126838,23.38202869,0 80.05126513,23.3820288,0 80.05126192,23.38202838,0 80.05125882999999,23.38202743,0 80.05125597999999,23.382026,0 80.05125345,23.38202411,0 80.05125132000001,23.38202183,0 80.05124967,23.38201925,0 80.05124855,23.38201643,0 80.05124798999999,23.38201347,0 80.05124800999999,23.38201047,0 80.05124861,23.38200752,0 80.05124978000001,23.38200472,0 80.05125146,23.38200215,0 80.05125362,23.3819999,0 80.05125617,23.38199805,0 80.05125905,23.38199664,0 80.05126215,23.38199573,0 80.05126537,23.38199535,0 80.05126862,23.3819955,0 80.05127179,23.38199619,0 80.05127477000001,23.38199739,0 80.05127747,23.38199906,0 80.05127981,23.38200115,0 80.0512817,23.38200359,0 80.05128309,23.3820063,0 80.05128394,23.3820092,0 80.05128421000001,23.38201219,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<LookAt>
+						<longitude>80.05184791000001</longitude>
+						<latitude>23.3820434</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>5</range>
+					</LookAt>
+					<styleUrl>#Line_boundary_pillar_1_ff0000_03</styleUrl>
+					<ExtendedData>
+						<Data name="Type">
+							<value>boundary pillar 1</value>
+						</Data>
+						<Data name="Number of Trackpoints">
+							<value>36</value>
+						</Data>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									80.05186602000001,23.38204351,0 80.05186571,23.3820465,0 80.05186482000001,23.38204939,0 80.05186338999999,23.38205208,0 80.05186146,23.3820545,0 80.0518591,23.38205656,0 80.05185637,23.3820582,0 80.05185337,23.38205936,0 80.0518502,23.38206001,0 80.05184695,23.38206011999999,0 80.05184373,23.3820597,0 80.05184063999999,23.38205876,0 80.05183778999999,23.38205732,0 80.05183526,23.38205543,0 80.05183314,23.38205315,0 80.05183149,23.38205057,0 80.05183036,23.38204775,0 80.05182979999999,23.38204479,0 80.05182983,23.38204179,0 80.05183043,23.38203884,0 80.05183159000001,23.38203604,0 80.05183328,23.38203347,0 80.05183543,23.38203122,0 80.05183799,23.38202937,0 80.05184086,23.38202796,0 80.05184396,23.38202705,0 80.05184719,23.38202666999999,0 80.05185043,23.38202682,0 80.0518536,23.38202751,0 80.05185658000001,23.38202871,0 80.05185928,23.38203038,0 80.05186162,23.38203247,0 80.05186351,23.38203491000001,0 80.05186491000001,23.38203762,0 80.05186575,23.38204052,0 80.05186602000001,23.38204351,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<LookAt>
+						<longitude>80.05241977999999</longitude>
+						<latitude>23.38185646</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>5</range>
+					</LookAt>
+					<styleUrl>#Line_boundary_pillar_1_ff0000_03</styleUrl>
+					<ExtendedData>
+						<Data name="Type">
+							<value>boundary pillar 1</value>
+						</Data>
+						<Data name="Number of Trackpoints">
+							<value>36</value>
+						</Data>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									80.05243788999999,23.38185658,0 80.05243757,23.38185957,0 80.05243668999999,23.38186246,0 80.05243526,23.38186515,0 80.05243333,23.38186757,0 80.05243096,23.38186963,0 80.05242824,23.38187127,0 80.05242524000001,23.38187243,0 80.05242206,23.38187308,0 80.05241881000001,23.38187319,0 80.05241559,23.38187277,0 80.05241251,23.38187182,0 80.05240965,23.38187038,0 80.05240713000001,23.3818685,0 80.05240499999999,23.38186622,0 80.05240335000001,23.38186364,0 80.05240223,23.38186082,0 80.05240166999999,23.38185786,0 80.05240169,23.38185486,0 80.05240229,23.38185191,0 80.05240345999999,23.38184911,0 80.05240514,23.38184654,0 80.0524073,23.38184429,0 80.05240985,23.38184243,0 80.05241273,23.38184103,0 80.05241583,23.38184012,0 80.05241905,23.38183974,0 80.0524223,23.38183989,0 80.05242547,23.38184058,0 80.05242844999999,23.38184177999999,0 80.05243115,23.38184345,0 80.05243349,23.38184554,0 80.05243538000001,23.38184798,0 80.05243677,23.38185069,0 80.05243762000001,23.38185359,0 80.05243788999999,23.38185658,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<LookAt>
+						<longitude>80.0529906</longitude>
+						<latitude>23.38151616</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>5</range>
+					</LookAt>
+					<styleUrl>#Line_boundary_pillar_1_ff0000_03</styleUrl>
+					<ExtendedData>
+						<Data name="Type">
+							<value>boundary pillar 1</value>
+						</Data>
+						<Data name="Number of Trackpoints">
+							<value>36</value>
+						</Data>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									80.05300871,23.38151628,0 80.0530084,23.38151927,0 80.05300751,23.38152216,0 80.05300608,23.38152485,0 80.05300415000001,23.38152727,0 80.05300179,23.38152933,0 80.05299906,23.38153097,0 80.05299606,23.38153213,0 80.05299289,23.38153278,0 80.05298964000001,23.38153289,0 80.05298642,23.38153247,0 80.05298333,23.38153152,0 80.05298048,23.38153008,0 80.05297795,23.3815282,0 80.05297582999999,23.38152592,0 80.05297418000001,23.38152334,0 80.05297305000001,23.38152052,0 80.05297249,23.38151756,0 80.05297252,23.38151456,0 80.05297312,23.38151161,0 80.05297428,23.38150881,0 80.05297597000001,23.38150624,0 80.05297812000001,23.38150399,0 80.05298068,23.38150213,0 80.05298354999999,23.38150073,0 80.05298664999999,23.38149982,0 80.05298988,23.38149944,0 80.05299312,23.38149959,0 80.05299629,23.38150028,0 80.05299927,23.38150148,0 80.05300197,23.38150315,0 80.05300431000001,23.38150524,0 80.0530062,23.38150768,0 80.0530076,23.38151039,0 80.05300844,23.38151329,0 80.05300871,23.38151628,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<LookAt>
+						<longitude>80.05310677</longitude>
+						<latitude>23.38113455</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>5</range>
+					</LookAt>
+					<styleUrl>#Line_boundary_pillar_1_ff0000_03</styleUrl>
+					<ExtendedData>
+						<Data name="Type">
+							<value>boundary pillar 1</value>
+						</Data>
+						<Data name="Number of Trackpoints">
+							<value>36</value>
+						</Data>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									80.05312488,23.38113466,0 80.05312456,23.38113765,0 80.05312368,23.38114054,0 80.05312225,23.38114323,0 80.05312032,23.38114565,0 80.05311795,23.38114771,0 80.05311523,23.38114935,0 80.05311223,23.38115051,0 80.05310905,23.38115116,0 80.0531058,23.38115127,0 80.05310258,23.38115085,0 80.0530995,23.3811499,0 80.05309664000001,23.38114846,0 80.05309411,23.38114658,0 80.05309199,23.3811443,0 80.05309034,23.38114172,0 80.05308922,23.3811389,0 80.05308866,23.38113594,0 80.05308868,23.38113294,0 80.05308927999999,23.38112999,0 80.05309044000001,23.38112719,0 80.05309213,23.38112462,0 80.05309429,23.38112237,0 80.05309683999999,23.38112051,0 80.05309972000001,23.38111911,0 80.05310282000001,23.3811182,0 80.05310604,23.38111782,0 80.05310928999999,23.38111797,0 80.05311245,23.38111866,0 80.05311544,23.38111985999999,0 80.05311814,23.38112153,0 80.05312047,23.38112362,0 80.05312237,23.38112606,0 80.05312376000001,23.38112877,0 80.05312461,23.38113167,0 80.05312488,23.38113466,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<LookAt>
+						<longitude>80.0529669</longitude>
+						<latitude>23.38072277</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>5</range>
+					</LookAt>
+					<styleUrl>#Line_boundary_pillar_1_ff0000_03</styleUrl>
+					<ExtendedData>
+						<Data name="Type">
+							<value>boundary pillar 1</value>
+						</Data>
+						<Data name="Number of Trackpoints">
+							<value>36</value>
+						</Data>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									80.05298501,23.38072289,0 80.0529847,23.38072588,0 80.05298381,23.38072876,0 80.05298238,23.38073146,0 80.05298045000001,23.38073388,0 80.05297809,23.38073594,0 80.05297536,23.38073758,0 80.05297236,23.38073874,0 80.05296919,23.38073939,0 80.05296594000001,23.3807395,0 80.05296272,23.38073908,0 80.05295963,23.38073813,0 80.05295678,23.38073669,0 80.05295425,23.3807348,0 80.05295212,23.38073253,0 80.05295047,23.38072994,0 80.05294935000001,23.38072713,0 80.05294879,23.38072417,0 80.05294881,23.38072117,0 80.05294941,23.38071822,0 80.05295058,23.38071541,0 80.05295226,23.38071285,0 80.05295442000001,23.3807106,0 80.05295698,23.38070874,0 80.05295984999999,23.38070734,0 80.05296294999999,23.38070643,0 80.05296617,23.38070605,0 80.05296942,23.3807062,0 80.05297259,23.38070689,0 80.05297557,23.38070808000001,0 80.05297827,23.38070975,0 80.05298061000001,23.38071184,0 80.0529825,23.38071428,0 80.05298388999999,23.380717,0 80.05298474,23.3807199,0 80.05298501,23.38072289,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<LookAt>
+						<longitude>80.05296005</longitude>
+						<latitude>23.38007621</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>5</range>
+					</LookAt>
+					<styleUrl>#Line_boundary_pillar_1_ff0000_03</styleUrl>
+					<ExtendedData>
+						<Data name="Type">
+							<value>boundary pillar 1</value>
+						</Data>
+						<Data name="Number of Trackpoints">
+							<value>36</value>
+						</Data>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									80.05297816,23.38007632,0 80.05297785,23.38007931,0 80.05297696,23.3800822,0 80.05297553,23.3800849,0 80.0529736,23.38008731,0 80.05297124000001,23.38008937,0 80.05296851,23.38009101,0 80.05296551000001,23.38009217,0 80.05296233999999,23.38009282,0 80.05295909,23.38009294,0 80.05295587000001,23.38009252,0 80.05295278,23.38009157,0 80.05294993,23.38009013,0 80.05294739999999,23.38008824,0 80.05294528,23.38008597,0 80.05294363,23.38008338,0 80.0529425,23.38008056,0 80.05294194,23.38007761,0 80.05294197000001,23.3800746,0 80.05294257,23.38007165,0 80.05294373,23.38006885,0 80.05294542,23.38006628,0 80.05294757,23.38006404,0 80.05295013,23.38006218,0 80.052953,23.38006077,0 80.0529561,23.38005987,0 80.05295932999999,23.38005948,0 80.05296257000001,23.38005964,0 80.05296574,23.38006032,0 80.05296872,23.38006152000001,0 80.05297142000001,23.38006319,0 80.05297376,23.38006528,0 80.05297564999999,23.38006772,0 80.05297705,23.38007043,0 80.05297788999999,23.38007333,0 80.05297816,23.38007632,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<LookAt>
+						<longitude>80.05250106</longitude>
+						<latitude>23.37991995</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>5</range>
+					</LookAt>
+					<styleUrl>#Line_boundary_pillar_1_ff0000_03</styleUrl>
+					<ExtendedData>
+						<Data name="Type">
+							<value>boundary pillar 1</value>
+						</Data>
+						<Data name="Number of Trackpoints">
+							<value>36</value>
+						</Data>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									80.05251916,23.37992006,0 80.05251885,23.37992305,0 80.05251797,23.37992594,0 80.05251654,23.37992864,0 80.05251461,23.37993105,0 80.05251224,23.37993311,0 80.05250952,23.37993475,0 80.05250651999999,23.37993591,0 80.05250334,23.37993656,0 80.05250009,23.37993668,0 80.05249687,23.37993626,0 80.05249379,23.37993531,0 80.05249093,23.37993387,0 80.0524884,23.37993198,0 80.05248628,23.37992971,0 80.05248463,23.37992712,0 80.05248351,23.3799243,0 80.05248295,23.37992135,0 80.05248297,23.37991834,0 80.05248357000001,23.37991539,0 80.05248473,23.37991259,0 80.05248641999999,23.37991002,0 80.05248856999999,23.37990778,0 80.05249113000001,23.37990592,0 80.052494,23.37990451,0 80.0524971,23.37990361,0 80.05250033,23.37990322,0 80.05250358000001,23.37990338,0 80.05250674,23.37990406,0 80.05250972,23.37990526,0 80.05251242999999,23.37990693,0 80.05251475999999,23.37990902,0 80.05251665999999,23.37991146,0 80.05251805,23.37991417,0 80.05251889,23.37991707,0 80.05251916,23.37992006,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<LookAt>
+						<longitude>80.05217378</longitude>
+						<latitude>23.37984138</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>5</range>
+					</LookAt>
+					<styleUrl>#Line_boundary_pillar_1_ff0000_03</styleUrl>
+					<ExtendedData>
+						<Data name="Type">
+							<value>boundary pillar 1</value>
+						</Data>
+						<Data name="Number of Trackpoints">
+							<value>36</value>
+						</Data>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									80.05219189,23.37984149,0 80.05219158,23.37984448,0 80.05219069,23.37984737,0 80.05218926000001,23.37985006,0 80.05218734,23.37985248,0 80.05218497,23.37985454,0 80.05218223999999,23.37985618,0 80.05217924999999,23.37985734,0 80.05217607,23.37985799,0 80.05217282,23.3798581,0 80.0521696,23.37985768,0 80.05216651000001,23.37985674,0 80.05216366000001,23.3798553,0 80.05216113,23.37985341,0 80.05215901,23.37985113,0 80.05215736,23.37984855,0 80.05215624,23.37984573,0 80.05215568,23.37984277,0 80.0521557,23.37983977,0 80.05215629999999,23.37983682,0 80.05215746,23.37983402,0 80.05215914999999,23.37983145,0 80.05216129999999,23.3798292,0 80.05216385999999,23.37982735,0 80.05216673,23.37982594,0 80.05216983,23.37982503,0 80.05217306,23.37982465,0 80.05217630999999,23.3798248,0 80.05217947,23.37982549000001,0 80.05218245,23.37982669000001,0 80.05218515999999,23.37982836,0 80.05218748999999,23.37983045,0 80.05218939,23.37983289,0 80.05219078,23.3798356,0 80.05219162,23.3798385,0 80.05219189,23.37984149,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<LookAt>
+						<longitude>80.05181553</longitude>
+						<latitude>23.37985714</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>5</range>
+					</LookAt>
+					<styleUrl>#Line_boundary_pillar_1_ff0000_03</styleUrl>
+					<ExtendedData>
+						<Data name="Type">
+							<value>boundary pillar 1</value>
+						</Data>
+						<Data name="Number of Trackpoints">
+							<value>36</value>
+						</Data>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									80.05183364,23.37985726,0 80.05183332999999,23.37986025,0 80.05183244,23.37986314,0 80.05183101,23.37986583,0 80.05182909,23.37986825,0 80.05182671999999,23.37987031,0 80.05182399,23.37987194999999,0 80.051821,23.37987311,0 80.05181782,23.37987376,0 80.05181457,23.37987387,0 80.05181134999999,23.37987345,0 80.05180826,23.3798725,0 80.05180541,23.37987106,0 80.05180288,23.37986918,0 80.05180076000001,23.3798669,0 80.05179911,23.37986432,0 80.05179799,23.3798615,0 80.05179742999999,23.37985854,0 80.05179745,23.37985554,0 80.05179805,23.37985259,0 80.05179921,23.37984978,0 80.0518009,23.37984722,0 80.05180305,23.37984497,0 80.05180561,23.37984311,0 80.05180848000001,23.37984171,0 80.05181158000001,23.3798408,0 80.05181481,23.37984042,0 80.05181806,23.37984057,0 80.05182121999999,23.37984126,0 80.0518242,23.37984246,0 80.05182691,23.37984413,0 80.05182924,23.37984621,0 80.05183114,23.37984866,0 80.05183253,23.37985137,0 80.05183337,23.37985427,0 80.05183364,23.37985726,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<LookAt>
+						<longitude>80.05143501000001</longitude>
+						<latitude>23.37993211</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>5</range>
+					</LookAt>
+					<styleUrl>#Line_boundary_pillar_1_ff0000_03</styleUrl>
+					<ExtendedData>
+						<Data name="Type">
+							<value>boundary pillar 1</value>
+						</Data>
+						<Data name="Number of Trackpoints">
+							<value>36</value>
+						</Data>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									80.05145311,23.37993222,0 80.05145280000001,23.37993521,0 80.05145192000001,23.3799381,0 80.05145048999999,23.3799408,0 80.05144856,23.37994321,0 80.05144618999999,23.37994527,0 80.05144347,23.37994691,0 80.05144047,23.37994807,0 80.05143729,23.37994872,0 80.05143404,23.37994884,0 80.05143081999999,23.37994841,0 80.05142773999999,23.37994747,0 80.05142488,23.37994603,0 80.05142235,23.37994414,0 80.05142023000001,23.37994187,0 80.05141858,23.37993927999999,0 80.05141746,23.37993646,0 80.05141690000001,23.37993351,0 80.05141691999999,23.3799305,0 80.05141752,23.37992755,0 80.05141868,23.37992475,0 80.05142037,23.37992218,0 80.05142253,23.37991994,0 80.05142508,23.37991808,0 80.05142795,23.37991667,0 80.05143105000001,23.37991576,0 80.05143428,23.37991538,0 80.05143753,23.37991554,0 80.05144069000001,23.37991622,0 80.05144368000001,23.37991742,0 80.05144638,23.37991909,0 80.05144871,23.37992118,0 80.05145061,23.37992362,0 80.051452,23.37992633,0 80.05145284,23.37992923,0 80.05145311,23.37993222,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<LookAt>
+						<longitude>80.05114266</longitude>
+						<latitude>23.37976799</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>5</range>
+					</LookAt>
+					<styleUrl>#Line_boundary_pillar_1_ff0000_03</styleUrl>
+					<ExtendedData>
+						<Data name="Type">
+							<value>boundary pillar 1</value>
+						</Data>
+						<Data name="Number of Trackpoints">
+							<value>36</value>
+						</Data>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									80.05116077,23.37976811,0 80.05116046000001,23.3797711,0 80.05115957,23.37977398,0 80.05115814,23.37977668,0 80.05115621,23.3797791,0 80.05115385000001,23.37978116,0 80.05115112,23.37978279,0 80.05114811999999,23.37978396,0 80.05114494999999,23.37978461000001,0 80.0511417,23.37978472,0 80.05113848000001,23.3797843,0 80.05113539,23.37978335,0 80.05113254,23.37978191,0 80.05113000999999,23.37978002,0 80.05112789,23.37977775,0 80.05112624,23.37977516,0 80.05112511,23.37977235,0 80.05112455,23.37976939,0 80.05112458000001,23.37976639,0 80.05112518,23.37976344,0 80.05112634,23.37976063,0 80.05112803,23.37975807,0 80.05113018,23.37975582,0 80.05113274,23.37975396,0 80.05113561,23.37975256,0 80.05113871,23.37975165,0 80.05114193999999,23.37975126,0 80.05114518000001,23.37975142,0 80.05114835000001,23.37975211,0 80.05115133,23.3797533,0 80.05115403000001,23.37975497,0 80.05115637,23.37975706,0 80.05115825999999,23.3797595,0 80.05115966,23.37976222,0 80.05116049999999,23.37976512,0 80.05116077,23.37976811,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<LookAt>
+						<longitude>80.05105093</longitude>
+						<latitude>23.37985096</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>5</range>
+					</LookAt>
+					<styleUrl>#Line_boundary_pillar_1_ff0000_03</styleUrl>
+					<ExtendedData>
+						<Data name="Type">
+							<value>boundary pillar 1</value>
+						</Data>
+						<Data name="Number of Trackpoints">
+							<value>36</value>
+						</Data>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									80.05106902999999,23.37985107,0 80.05106872,23.37985406,0 80.05106784,23.37985695,0 80.05106641,23.37985965,0 80.05106447999999,23.37986206,0 80.05106211,23.37986412,0 80.05105939000001,23.37986576,0 80.05105639,23.37986692,0 80.05105321000001,23.37986757,0 80.05104996,23.37986769,0 80.05104674,23.37986727,0 80.05104366,23.37986632,0 80.0510408,23.37986488,0 80.05103827000001,23.37986299,0 80.05103615,23.37986072,0 80.0510345,23.37985813,0 80.05103338000001,23.37985531,0 80.05103282,23.37985236,0 80.05103284,23.37984935,0 80.05103344,23.3798464,0 80.05103459999999,23.3798436,0 80.05103629,23.37984103,0 80.05103844,23.37983879,0 80.051041,23.37983693,0 80.05104387,23.37983552,0 80.05104697,23.37983462,0 80.05105020000001,23.37983423,0 80.05105345,23.37983439,0 80.05105661,23.37983507,0 80.0510596,23.37983627,0 80.0510623,23.37983794,0 80.05106463,23.37984003,0 80.05106653,23.37984247,0 80.05106791999999,23.37984518,0 80.05106876000001,23.37984808,0 80.05106902999999,23.37985107,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<LookAt>
+						<longitude>80.05119098</longitude>
+						<latitude>23.38019506</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>5</range>
+					</LookAt>
+					<styleUrl>#Line_boundary_pillar_1_ff0000_03</styleUrl>
+					<ExtendedData>
+						<Data name="Type">
+							<value>boundary pillar 1</value>
+						</Data>
+						<Data name="Number of Trackpoints">
+							<value>36</value>
+						</Data>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									80.05120909,23.38019517,0 80.05120877,23.38019816,0 80.05120789,23.38020105,0 80.05120646,23.38020375,0 80.05120453000001,23.38020616,0 80.05120216,23.38020822,0 80.05119944,23.38020986,0 80.05119644,23.38021102,0 80.05119326000001,23.38021167,0 80.05119002000001,23.38021179,0 80.0511868,23.38021136,0 80.05118371,23.38021042,0 80.05118086,23.38020898,0 80.05117833,23.38020709,0 80.0511762,23.38020482,0 80.05117455,23.38020223,0 80.05117343000001,23.38019941,0 80.05117287,23.38019645,0 80.05117289,23.38019345,0 80.05117349,23.3801905,0 80.05117466,23.3801877,0 80.05117634,23.38018513,0 80.05117850000001,23.38018288,0 80.05118105,23.38018103,0 80.05118392999999,23.38017962,0 80.05118702999999,23.38017871,0 80.05119025,23.38017833,0 80.0511935,23.38017849,0 80.05119667,23.38017917,0 80.05119965,23.38018037,0 80.05120235,23.38018204,0 80.05120469000001,23.38018413,0 80.05120658,23.38018657,0 80.05120796999999,23.38018928,0 80.05120882,23.38019218,0 80.05120909,23.38019517,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<LookAt>
+						<longitude>80.05061961</longitude>
+						<latitude>23.38055942</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>5</range>
+					</LookAt>
+					<styleUrl>#Line_boundary_pillar_1_ff0000_03</styleUrl>
+					<ExtendedData>
+						<Data name="Type">
+							<value>boundary pillar 1</value>
+						</Data>
+						<Data name="Number of Trackpoints">
+							<value>36</value>
+						</Data>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									80.05063772,23.38055954,0 80.0506374,23.38056253,0 80.05063652,23.38056542,0 80.05063509,23.38056811,0 80.05063316,23.38057053,0 80.05063079,23.38057259,0 80.05062807,23.38057423,0 80.05062507,23.38057539,0 80.05062189,23.38057604,0 80.05061864,23.38057615,0 80.05061542,23.38057573,0 80.05061234,23.38057478,0 80.05060948000001,23.38057334,0 80.05060696,23.38057146,0 80.05060483,23.38056917999999,0 80.05060318,23.38056659,0 80.05060206,23.38056378,0 80.0506015,23.38056082,0 80.05060152,23.38055782,0 80.05060211999999,23.38055487,0 80.05060329,23.38055206,0 80.05060496999999,23.3805495,0 80.05060713,23.38054725,0 80.05060967999999,23.38054539,0 80.05061256,23.38054399,0 80.05061566000001,23.38054308,0 80.05061888,23.3805427,0 80.05062212999999,23.38054285,0 80.05062529999999,23.38054354000001,0 80.05062828,23.38054474,0 80.05063097999999,23.38054641,0 80.05063332,23.38054849,0 80.05063521,23.38055093,0 80.0506366,23.38055365,0 80.05063745,23.38055655,0 80.05063772,23.38055954,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<LookAt>
+						<longitude>80.05073934000001</longitude>
+						<latitude>23.38125694</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>5</range>
+					</LookAt>
+					<styleUrl>#Line_boundary_pillar_1_ff0000_03</styleUrl>
+					<ExtendedData>
+						<Data name="Type">
+							<value>boundary pillar 1</value>
+						</Data>
+						<Data name="Number of Trackpoints">
+							<value>36</value>
+						</Data>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									80.05075745000001,23.38125706,0 80.05075714,23.38126004,0 80.05075625000001,23.38126293,0 80.05075481999999,23.38126563,0 80.05075289,23.38126805,0 80.05075053,23.38127011,0 80.0507478,23.38127174,0 80.0507448,23.38127291,0 80.05074163,23.38127355,0 80.05073838,23.38127367,0 80.05073516,23.38127325,0 80.05073207,23.3812723,0 80.05072921999999,23.38127086,0 80.05072669,23.38126897,0 80.05072457,23.3812667,0 80.05072292,23.38126411,0 80.05072179,23.38126129,0 80.05072122999999,23.38125834,0 80.05072126,23.38125534,0 80.05072186,23.38125239,0 80.05072302000001,23.38124958,0 80.05072471,23.38124701,0 80.05072686,23.38124477,0 80.05072942,23.38124291,0 80.05073229,23.38124151,0 80.05073539,23.3812406,0 80.05073862,23.38124021,0 80.05074186,23.38124037,0 80.05074503,23.38124105,0 80.05074801000001,23.38124225,0 80.05075071,23.38124392,0 80.05075305,23.38124601,0 80.05075494,23.38124845,0 80.05075634000001,23.38125117,0 80.05075718000001,23.38125406,0 80.05075745000001,23.38125706,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<LookAt>
+						<longitude>80.05100419999999</longitude>
+						<latitude>23.38163663</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>5</range>
+					</LookAt>
+					<styleUrl>#Line_boundary_pillar_1_ff0000_03</styleUrl>
+					<ExtendedData>
+						<Data name="Type">
+							<value>boundary pillar 1</value>
+						</Data>
+						<Data name="Number of Trackpoints">
+							<value>36</value>
+						</Data>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									80.05102230999999,23.38163675,0 80.051022,23.38163974,0 80.05102110999999,23.38164262,0 80.05101968,23.38164532,0 80.05101775,23.38164774,0 80.05101539,23.38164980000001,0 80.05101266,23.38165143000001,0 80.05100966000001,23.3816526,0 80.05100649000001,23.38165325,0 80.05100324,23.38165336,0 80.05100002,23.38165294,0 80.05099693,23.38165199,0 80.05099408,23.38165055,0 80.05099155000001,23.38164866,0 80.05098941999999,23.38164639,0 80.05098778,23.3816438,0 80.05098665,23.38164099,0 80.05098608999999,23.38163803,0 80.05098611,23.38163503,0 80.05098672,23.38163208,0 80.05098787999999,23.38162927,0 80.05098956,23.38162671,0 80.05099172,23.38162446,0 80.05099428,23.3816226,0 80.05099715,23.3816212,0 80.05100025,23.38162029,0 80.05100348000001,23.3816199,0 80.05100672,23.38162006,0 80.05100989,23.38162075,0 80.05101286999999,23.38162194,0 80.05101557,23.38162361,0 80.05101791,23.3816257,0 80.05101980000001,23.38162814,0 80.05102119999999,23.38163086,0 80.05102204000001,23.38163376,0 80.05102230999999,23.38163675,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>lease area 7</name>
+				<open>1</open>
+				<Placemark>
+					<LookAt>
+						<longitude>80.05294395</longitude>
+						<latitude>23.37998901</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>4</range>
+					</LookAt>
+					<styleUrl>#Line_lease_area_7_ffffff_03</styleUrl>
+					<ExtendedData>
+						<Data name="Type">
+							<value>lease area 7</value>
+						</Data>
+						<Data name="Number of Trackpoints">
+							<value>2</value>
+						</Data>
+					</ExtendedData>
+					<LineString>
+						<coordinates>
+							80.05295193000001,23.38000753,0 80.05293596,23.37997049,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<LookAt>
+						<longitude>80.05296172</longitude>
+						<latitude>23.37999051</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>4</range>
+					</LookAt>
+					<styleUrl>#Line_lease_area_7_ffffff_03</styleUrl>
+					<ExtendedData>
+						<Data name="Type">
+							<value>lease area 7</value>
+						</Data>
+						<Data name="Number of Trackpoints">
+							<value>2</value>
+						</Data>
+					</ExtendedData>
+					<LineString>
+						<coordinates>
+							80.05295193000001,23.38000753,0 80.0529715,23.3799735,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<LookAt>
+						<longitude>80.05295224</longitude>
+						<latitude>23.3799734</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>8</range>
+					</LookAt>
+					<styleUrl>#Line_lease_area_7_ffffff_03</styleUrl>
+					<ExtendedData>
+						<Data name="Type">
+							<value>lease area 7</value>
+						</Data>
+						<Data name="Number of Trackpoints">
+							<value>2</value>
+						</Data>
+					</ExtendedData>
+					<LineString>
+						<coordinates>
+							80.05295193000001,23.38000753,0 80.05295255,23.37993927,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<LookAt>
+						<longitude>80.05295393999999</longitude>
+						<latitude>23.37996187</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>3</range>
+					</LookAt>
+					<styleUrl>#Line_lease_area_7_ffffff_03</styleUrl>
+					<ExtendedData>
+						<Data name="Type">
+							<value>lease area 7</value>
+						</Data>
+						<Data name="Number of Trackpoints">
+							<value>2</value>
+						</Data>
+					</ExtendedData>
+					<LineString>
+						<coordinates>
+							80.05293914000001,23.37996175,0 80.05296875000001,23.37996198,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<LookAt>
+						<longitude>80.05295332</longitude>
+						<latitude>23.38000579</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>4</range>
+					</LookAt>
+					<styleUrl>#Line_lease_area_7_ffffff_03</styleUrl>
+					<ExtendedData>
+						<Data name="Type">
+							<value>lease area 7</value>
+						</Data>
+						<Data name="Number of Trackpoints">
+							<value>2</value>
+						</Data>
+					</ExtendedData>
+					<LineString>
+						<coordinates>
+							80.0529354,23.38000565,0 80.05297123,23.38000593,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<LookAt>
+						<longitude>80.05295464</longitude>
+						<latitude>23.37995058</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>5</range>
+					</LookAt>
+					<styleUrl>#Line_lease_area_7_ffffff_03</styleUrl>
+					<ExtendedData>
+						<Data name="Type">
+							<value>lease area 7</value>
+						</Data>
+						<Data name="Number of Trackpoints">
+							<value>2</value>
+						</Data>
+					</ExtendedData>
+					<LineString>
+						<coordinates>
+							80.05293095,23.3799504,0 80.05297833,23.37995076,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<LookAt>
+						<longitude>80.05295298999999</longitude>
+						<latitude>23.37993852</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>6</range>
+					</LookAt>
+					<styleUrl>#Line_lease_area_7_ffffff_03</styleUrl>
+					<ExtendedData>
+						<Data name="Type">
+							<value>lease area 7</value>
+						</Data>
+						<Data name="Number of Trackpoints">
+							<value>2</value>
+						</Data>
+					</ExtendedData>
+					<LineString>
+						<coordinates>
+							80.05292434,23.37993854,0 80.05298165000001,23.37993851,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+			</Folder>
+			<Placemark>
+				<LookAt>
+					<longitude>80.05186316</longitude>
+					<latitude>23.3809057</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>358</range>
+				</LookAt>
+				<styleUrl>#Line_lease_area_1_ff0000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>lease area 1</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>24</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						80.05299057000001,23.38151617,0 80.05277586,23.38162746,0 80.05241975,23.38185647,0 80.05184788,23.3820434,0 80.05126607,23.38201208,0 80.05073931,23.38125695,0 80.05061958,23.38055943000001,0 80.05077247,23.38051848,0 80.05097713000001,23.3803973,0 80.05115082,23.3802604,0 80.05119095000001,23.38019506,0 80.05111367000001,23.3799768,0 80.05105089,23.37985096,0 80.05114263,23.379768,0 80.05122249999999,23.37980743,0 80.05143497,23.37993211,0 80.0518155,23.37985715,0 80.05217374999999,23.37984138,0 80.05258372,23.37993981,0 80.05296002,23.38007621,0 80.05296687000001,23.38072278,0 80.05302883,23.3809705,0 80.05310674,23.38113455,0 80.05299057000001,23.38151617,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>pit</name>
+			<Placemark>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_shp_SSSSI">
+						<SimpleData name="NAME">pit</SimpleData>
+						<SimpleData name="LAYER">Unknown Area Type</SimpleData>
+						<SimpleData name="KML_STYLE">msn_ylw-pushpin</SimpleData>
+						<SimpleData name="KML_FOLDER">existing</SimpleData>
+						<SimpleData name="tessellate">1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.05163251229727,23.38178286395468,0 80.05166490020163,23.38174128950164,0 80.05158088252841,23.38146214837295,0 80.05152050182829,23.38101901649112,0 80.0515116496652,23.38095829601395,0 80.05142007298616,23.38089306265971,0 80.05121736581164,23.38051576483965,0 80.05122970931554,23.38030101189394,0 80.0513326774004,23.38017793377532,0 80.05161644001788,23.3801025952081,0 80.05194236434473,23.38001989092244,0 80.05213916972372,23.37997596788052,0 80.05234629455657,23.37994628718733,0 80.05236752972075,23.37994856510551,0 80.05254653315423,23.37999216861739,0 80.05275536451511,23.38011972671811,0 80.05289764223085,23.38026563657978,0 80.05291970619838,23.3805657634467,0 80.05292067397107,23.38074618428073,0 80.05296539184876,23.38103821015266,0 80.05301875351024,23.38107047664234,0 80.05308075236339,23.38112930865152,0 80.05301162094794,23.38134321241139,0 80.0527983814345,23.38153361771343,0 80.0523869770354,23.38178918987195,0 80.05184167050946,23.3820299369075,0 80.05163251229727,23.38178286395468,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>stack</name>
+			<Placemark>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_shp_SSSSI">
+						<SimpleData name="NAME">stacks</SimpleData>
+						<SimpleData name="LAYER">Unknown Area Type</SimpleData>
+						<SimpleData name="KML_STYLE">msn_ylw-pushpin</SimpleData>
+						<SimpleData name="KML_FOLDER">existing</SimpleData>
+						<SimpleData name="tessellate">1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.05133428076807,23.38135812782313,0 80.05125639223577,23.3811796121387,0 80.0512386893887,23.38107324968853,0 80.05106539549531,23.38090380428383,0 80.05103675411728,23.3808105046064,0 80.05105338603364,23.38076099637381,0 80.05116349679851,23.3807200230695,0 80.05124908394907,23.38068918652846,0 80.05130510124847,23.38072774272425,0 80.05137748261542,23.38087298435837,0 80.05149735360419,23.38098094954177,0 80.05150806461678,23.38113707133506,0 80.05151579581535,23.38129206133609,0 80.05155001586219,23.38143535302485,0 80.05150480618978,23.38146971071266,0 80.05141837889813,23.38146230893127,0 80.05133428076807,23.38135812782313,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>sub grade dump</name>
+			<Placemark>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_shp_SSSSI">
+						<SimpleData name="NAME">dump</SimpleData>
+						<SimpleData name="LAYER">Unknown Area Type</SimpleData>
+						<SimpleData name="KML_STYLE">msn_ylw-pushpin</SimpleData>
+						<SimpleData name="KML_FOLDER">existing</SimpleData>
+						<SimpleData name="tessellate">1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.05131960754056,23.38196913916893,0 80.05129378606337,23.38190658143562,0 80.05123212429827,23.3818627929465,0 80.05123146644131,23.38178230838849,0 80.05116893313226,23.38169933027806,0 80.05119144697848,23.38163319049249,0 80.0512707243135,23.38157336811524,0 80.05131280819296,23.38155476730471,0 80.05142814284108,23.38162995680542,0 80.05145312607152,23.38171893487957,0 80.051498639982,23.38186097870766,0 80.05149741846203,23.38192070529186,0 80.05150591331069,23.3819872404046,0 80.05143981644339,23.38200002121214,0 80.05131960754056,23.38196913916893,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_shp_SSSSI">
+						<SimpleData name="NAME">dump</SimpleData>
+						<SimpleData name="LAYER">Unknown Area Type</SimpleData>
+						<SimpleData name="KML_STYLE">msn_ylw-pushpin</SimpleData>
+						<SimpleData name="KML_FOLDER">existing</SimpleData>
+						<SimpleData name="tessellate">1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.0516029138479,23.38189067301776,0 80.05152580518632,23.38166679066334,0 80.05144109165214,23.38151798476242,0 80.05153471648042,23.38148175167349,0 80.05163175738626,23.38151343908379,0 80.05167237900332,23.38152256837675,0 80.05170140013603,23.38162996759443,0 80.05173851311694,23.38176376922788,0 80.05178060552407,23.38184712695,0 80.05178190562593,23.38188717168445,0 80.05170634264731,23.38198905707006,0 80.0516029138479,23.38189067301776,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

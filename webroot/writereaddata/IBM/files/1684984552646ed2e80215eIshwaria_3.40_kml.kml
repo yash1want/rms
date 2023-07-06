@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Ishwaria 3.40.kmz</name>
+	<StyleMap id="msn_ylw-pushpin19">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin19</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin19</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin19">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>5.9</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin19">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>5.9</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Ishwaria 3.40</name>
+		<styleUrl>#msn_ylw-pushpin19</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				69.92469790904133,21.71042161683744,0 69.92423614677465,21.71048935864223,0 69.92366656188298,21.71087244017229,0 69.92454772302209,21.71137878954509,0 69.92486897355045,21.71165066514123,0 69.92541932192367,21.71188866998932,0 69.9252344253199,21.71241484513256,0 69.92442255137377,21.71250125802379,0 69.92511486609128,21.71293026879016,0 69.92661275358991,21.71172003957679,0 69.92625473790687,21.7111598924579,0 69.92556109611075,21.7112086020536,0 69.92563284143336,21.71085333370973,0 69.92469790904133,21.71042161683744,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

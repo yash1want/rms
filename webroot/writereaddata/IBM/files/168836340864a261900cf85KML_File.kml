@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KML File.kml</name>
+	<Style id="inline">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline0">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Polygon Measure</name>
+		<styleUrl>#inline1</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						74.28174928341933,26.16147073092927,0 74.27970845615241,26.16115638238619,0 74.27938017857596,26.16101887838569,0 74.27955647434192,26.16026850458356,0 74.2787046831849,26.15982392072866,0 74.27844194314986,26.16069139536085,0 74.27642606152841,26.15997011663529,0 74.27364870587667,26.16005356126009,0 74.27387527006812,26.15938860870086,0 74.27547318644609,26.15932085232809,0 74.27742616526049,26.15969362669258,0 74.27863558124106,26.15975651896066,0 74.2799514702635,26.16023191562505,0 74.28004866474612,26.16010233542472,0 74.28190309516123,26.16073888136817,0 74.28174928341933,26.16147073092927,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

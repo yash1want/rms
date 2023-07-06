@@ -1,0 +1,3536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="Survey Site" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+	<name>Survey Site</name>
+	<Snippet maxLines="0"></Snippet>
+	<StyleMap id="PolyStyle00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PolyStyle001</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PolyStyle000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="PolyStyle000">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle001">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Document id="Survey_Ground_Control_Point" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+		<name>Survey_Ground_Control_Point</name>
+		<Snippet maxLines="0"></Snippet>
+		<StyleMap id="IconStyle00">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#IconStyle000</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#IconStyle001</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="IconStyle000">
+			<IconStyle>
+				<scale>0.6</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff00ffff</color>
+				<scale>0.6</scale>
+			</LabelStyle>
+			<ListStyle>
+			</ListStyle>
+			<PolyStyle>
+				<color>ff000000</color>
+				<outline>0</outline>
+			</PolyStyle>
+		</Style>
+		<Style id="IconStyle001">
+			<IconStyle>
+				<scale>0.6</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff00ffff</color>
+				<scale>0.6</scale>
+			</LabelStyle>
+			<ListStyle>
+			</ListStyle>
+			<PolyStyle>
+				<color>ff000000</color>
+				<outline>0</outline>
+			</PolyStyle>
+		</Style>
+		<Folder id="FeatureLayer0">
+			<name>Survey_Ground_Control_Point</name>
+			<Snippet maxLines="0"></Snippet>
+			<Placemark id="ID_00000">
+				<name>01_PT_80° 29&apos; 9.920&quot; E_23° 40&apos; 56.065&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>TP 01</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>TP 01</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619141.22104</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447601.52223</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 9.920" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 56.065" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>01_PT_80° 29' 9.920" E_23° 40' 56.065" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48608884213355,23.68224018419144,463.028</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00001">
+				<name>02_PT_80° 29&apos; 9.996&quot; E_23° 40&apos; 51.157&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>TP 02</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>TP 02</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2618990.27109</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447603.13521</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 9.996" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 51.157" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>02_PT_80° 29' 9.996" E_23° 40' 51.157" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.4861099946804,23.68087681199536,457.487</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00002">
+				<name>03_PT_80° 29&apos; 8.218&quot; E_23° 40&apos; 51.278&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>TP 03</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>TP 03</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2618994.19156</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447552.796875</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 8.218" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 51.278" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>03_PT_80° 29' 8.218" E_23° 40' 51.278" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48561617082505,23.68091058420471,459.54</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00003">
+				<name>04_PT_80° 29&apos; 8.043&quot; E_23° 40&apos; 52.168&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>TP 04</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>TP 04</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619021.57959</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447547.936193</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 8.043" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 52.168" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>04_PT_80° 29' 8.043" E_23° 40' 52.168" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48556753178835,23.68115780263086,460.542</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00004">
+				<name>05_PT_80° 29&apos; 4.223&quot; E_23° 40&apos; 51.178&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>TP 05</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>4</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>TP 05</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2618991.5156</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447439.632699</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 4.223" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 51.178" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>05_PT_80° 29' 4.223" E_23° 40' 51.178" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48450642587652,23.68088272439624,460.4289999999999</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00005">
+				<name>06_PT_80° 29&apos; 1.333&quot; E_23° 40&apos; 50.428&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>TP 06</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>TP 06</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2618968.75556</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447357.703539</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 1.333" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 50.428" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>06_PT_80° 29' 1.333" E_23° 40' 50.428" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48370372675478,23.68067447277316,460.774</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00006">
+				<name>07_PT_80° 28&apos; 59.228&quot; E_23° 40&apos; 50.328&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>TP 07</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>TP 07</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2618965.87817</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447298.050251</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 28' 59.228" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 50.328" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>07_PT_80° 28' 59.228" E_23° 40' 50.328" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.4831187900059,23.68064653210493,459.886</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00007">
+				<name>07B_PT_80° 28&apos; 59.778&quot; E_23° 40&apos; 54.035&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>TP 07B</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>TP 07B</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619079.83423</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447314.056717</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 28' 59.778" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 54.035" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>07B_PT_80° 28' 59.778" E_23° 40' 54.035" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.483271722135,23.68167634039252,468.682</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00008">
+				<name>08_PT_80° 28&apos; 59.716&quot; E_23° 40&apos; 55.877&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>TP 08</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>8</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>TP 08</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619136.50529</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447312.495272</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 28' 59.716" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 55.877" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>08_PT_80° 28' 59.716" E_23° 40' 55.877" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48325439498176,23.68218815889294,469.275</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00009">
+				<name>09_PT_80° 29&apos; 1.233&quot; E_23° 40&apos; 56.852&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>TP 09</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>9</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>TP 09</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619166.31069</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447355.564863</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 1.233" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 56.852" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>09_PT_80° 29' 1.233" E_23° 40' 56.852" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48367573910258,23.68245877863231,461.045</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00010">
+				<name>09A_PT_80° 29&apos; 1.174&quot; E_23° 40&apos; 57.226&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>TP 09A</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>10</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>TP 09A</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619177.81539</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447353.942409</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 1.174" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 57.226" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>09A_PT_80° 29' 1.174" E_23° 40' 57.226" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48365941852308,23.6825626393811,467.739</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00011">
+				<name>10_PT_80° 29&apos; 0.292&quot; E_23° 40&apos; 57.403&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>TP 10</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>11</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>TP 10</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619183.35167</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447328.979104</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 0.292" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 57.403" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>10_PT_80° 29' 0.292" E_23° 40' 57.403" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48341439518916,23.68261182836238,469.3489999999999</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00012">
+				<name>11_PT_80° 29&apos; 0.726&quot; E_23° 40&apos; 58.537&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>TP 11</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>12</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>TP 11</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619218.20328</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447341.402382</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 0.726" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 58.537" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>11_PT_80° 29' 0.726" E_23° 40' 58.537" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48353499846731,23.68292702451567,467.722</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00013">
+				<name>12_PT_80° 29&apos; 3.282&quot; E_23° 40&apos; 58.917&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>TP 12</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>13</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>TP 12</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619229.62618</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447413.823781</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 3.282" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 58.917" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>12_PT_80° 29' 3.282" E_23° 40' 58.917" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48424486560451,23.68303256634658,468.003</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00014">
+				<name>13_PT_80° 29&apos; 3.323&quot; E_23° 40&apos; 58.616&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>TP 13</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>14</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>TP 13</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619220.37103</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447414.970311</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 3.323" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 58.616" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>13_PT_80° 29' 3.323" E_23° 40' 58.616" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48425643839884,23.68294900863194,467.512</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00015">
+				<name>14_PT_80° 29&apos; 5.491&quot; E_23° 40&apos; 58.786&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>TP 14</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>15</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>TP 14</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619225.37094</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447476.394813</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 5.491" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 58.786" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>14_PT_80° 29' 5.491" E_23° 40' 58.786" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48485868171937,23.68299617410045,463.495</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00016">
+				<name>14B_PT_80° 29&apos; 5.120&quot; E_23° 40&apos; 57.600&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>TP 14B</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>16</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>TP 14B</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619188.92048</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447465.747261</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 5.120" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 57.600" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>14B_PT_80° 29' 5.120" E_23° 40' 57.600" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48475554721222,23.68266659550707,465.3809999999999</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00017">
+				<name>15_PT_80° 29&apos; 9.602&quot; E_23° 40&apos; 57.531&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>TP 15</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>17</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>TP 15</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619186.36058</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447592.673873</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 9.602" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 57.531" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>15_PT_80° 29' 9.602" E_23° 40' 57.531" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48600046711915,23.68264760987138,462.578</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00018">
+				<name>16_PT_80° 29&apos; 9.323&quot; E_23° 40&apos; 56.042&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>TP 16</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>18</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>TP 16</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619140.59499</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447584.6039</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 9.323" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 56.042" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>16_PT_80° 29' 9.323" E_23° 40' 56.042" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48592293870556,23.68223397888986,463.261</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00019">
+				<name>IP 01A_PT_80° 29&apos; 9.889&quot; E_23° 40&apos; 54.424&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>IP 01A</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>19</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>IP 01A</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619090.754</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447600.478931</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 9.889" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 54.424" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>IP 01A_PT_80° 29' 9.889" E_23° 40' 54.424" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48608039327296,23.68178431705649,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00020">
+				<name>IP 01B_PT_80° 29&apos; 9.932&quot; E_23° 40&apos; 52.927&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>IP 01B</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>20</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>IP 01B</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619044.73983</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447601.517774</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 9.932" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 52.927" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>IP 01B_PT_80° 29' 9.932" E_23° 40' 52.927" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48609220744518,23.6813687372537,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00021">
+				<name>IP 04A_PT_80° 29&apos; 7.341&quot; E_23° 40&apos; 52.040&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>IP 04A</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>21</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>IP 04A</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619017.7001</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447528.050036</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 7.341" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 52.040" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>IP 04A_PT_80° 29' 7.341" E_23° 40' 52.040" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48537263832945,23.68112211409886,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00022">
+				<name>IP 04B_PT_80° 29&apos; 5.487&quot; E_23° 40&apos; 51.513&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>IP 04B</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>22</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>IP 04B</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619001.70601</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447475.463993</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 5.487" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 51.513" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>IP 04B_PT_80° 29' 5.487" E_23° 40' 51.513" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48485747464288,23.68097593631796,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00023">
+				<name>IP 05A_PT_80° 29&apos; 2.864&quot; E_23° 40&apos; 50.912&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>IP 05A</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>23</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>IP 05A</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2618983.48112</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447401.103746</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 2.864" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 50.912" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>IP 05A_PT_80° 29' 2.864" E_23° 40' 50.912" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48412884433695,23.68080889656403,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00024">
+				<name>IP 06A_PT_80° 29&apos; 0.167&quot; E_23° 40&apos; 50.300&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>IP 06A</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>24</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>IP 06A</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2618964.93302</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447324.656869</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 0.167" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 50.300" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>IP 06A_PT_80° 29' 0.167" E_23° 40' 50.300" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48337976318645,23.68063886581795,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00025">
+				<name>IP 07A_PT_80° 28&apos; 59.585&quot; E_23° 40&apos; 51.996&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>IP 07A</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>25</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>IP 07A</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619017.13883</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447308.361811</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 28' 59.585" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 51.996" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>IP 07A_PT_80° 28' 59.585" E_23° 40' 51.996" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48321809751125,23.68110987091454,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00026">
+				<name>IP 08A_PT_80° 29&apos; 0.511&quot; E_23° 40&apos; 56.400&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>IP 08A</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>26</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>IP 08A</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619152.50154</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447335.079823</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 0.511" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 56.400" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>IP 08A_PT_80° 29' 0.511" E_23° 40' 56.400" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48347532341135,23.68233338046322,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00027">
+				<name>IP 11A_PT_80° 29&apos; 1.871&quot; E_23° 40&apos; 58.710&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>IP 11A</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>27</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>IP 11A</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619223.40974</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447373.862853</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 1.871" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 58.710" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>IP 11A_PT_80° 29' 1.871" E_23° 40' 58.710" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.4838531694631,23.68297511203776,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00028">
+				<name>IP 13A_PT_80° 29&apos; 4.408&quot; E_23° 40&apos; 58.682&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>IP 13A</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>28</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>IP 13A</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619222.27604</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447445.704372</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 4.408" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 58.682" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>IP 13A_PT_80° 29' 4.408" E_23° 40' 58.682" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48455779499001,23.68296721861842,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00029">
+				<name>IP 14C_PT_80° 29&apos; 7.499&quot; E_23° 40&apos; 57.502&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>IP 14C</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>29</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>IP 14C</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619185.67932</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447533.130564</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 7.499" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 57.502" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>IP 14C_PT_80° 29' 7.499" E_23° 40' 57.502" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48541652184279,23.68263951745275,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00030">
+				<name>IP 14A_PT_80° 29&apos; 5.197&quot; E_23° 40&apos; 58.038&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>IP 14A</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>30</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>IP 14A</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619202.37532</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447467.988562</td>
+
+</tr>
+
+<tr>
+
+<td>Longitude</td>
+
+<td>80° 29' 5.197" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Latitude</td>
+
+<td>23° 40' 58.038" N</td>
+
+</tr>
+
+<tr>
+
+<td>KML_Point</td>
+
+<td>IP 14A_PT_80° 29' 5.197" E_23° 40' 58.038" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.48477705206928,23.68278819668112,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document id="PRIMARY_GROUND_CONTROL_POINT1" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+		<name>PRIMARY_GROUND_CONTROL_POINT1</name>
+		<Snippet maxLines="0"></Snippet>
+		<StyleMap id="IconStyle0010">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#IconStyle0000</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#IconStyle002</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="IconStyle002">
+			<IconStyle>
+				<scale>0.6</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>ffff0000</color>
+				<scale>0.6</scale>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<PolyStyle>
+				<color>ff000000</color>
+				<outline>0</outline>
+			</PolyStyle>
+		</Style>
+		<Style id="IconStyle0000">
+			<IconStyle>
+				<scale>0.6</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>ffff0000</color>
+				<scale>0.6</scale>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<PolyStyle>
+				<color>ff000000</color>
+				<outline>0</outline>
+			</PolyStyle>
+		</Style>
+		<Folder id="FeatureLayer0">
+			<name>PRIMARY_GROUND_CONTROL_POINT1</name>
+			<Snippet maxLines="0"></Snippet>
+			<Placemark id="ID_00000">
+				<name>PRIMARY CONTROL POINT (BP1)_PT_80° 29&apos; 8.738&quot; E_23° 40&apos; 55.090&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>PRIMARY CONTROL POINT (BP1)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_ID</td>
+
+<td>InfoBasePT</td>
+
+</tr>
+
+<tr>
+
+<td>North</td>
+
+<td>2619111.354</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>East</td>
+
+<td>447567.945</td>
+
+</tr>
+
+<tr>
+
+<td>Height</td>
+
+<td>447567.945</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Longitude</td>
+
+<td>80° 29' 8.738" E</td>
+
+</tr>
+
+<tr>
+
+<td>Latitude</td>
+
+<td>23° 40' 55.090" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BP_NAME</td>
+
+<td>PRIMARY CONTROL POINT (BP1)</td>
+
+</tr>
+
+<tr>
+
+<td>BP_POINT</td>
+
+<td>PRIMARY CONTROL POINT (BP1)_PT_80° 29' 8.738" E_23° 40' 55.090" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle0010</styleUrl>
+				<Point>
+					<coordinates>80.48576059137275,23.68196932329884,463.252</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Folder id="FeatureLayer0">
+		<name>Survey Site</name>
+		<Snippet maxLines="0"></Snippet>
+		<Placemark id="ID_00000">
+			<name>Katni</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Katni</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Division</td>
+
+<td>Katni</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>District</td>
+
+<td>Katni</td>
+
+</tr>
+
+<tr>
+
+<td>Block</td>
+
+<td>Barwara</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Village_Na</td>
+
+<td>Baragaon</td>
+
+</tr>
+
+<tr>
+
+<td>Khasra_No_</td>
+
+<td>111/2 , 119, 118</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Land_Type</td>
+
+<td>Revenue Forest</td>
+
+</tr>
+
+<tr>
+
+<td>Area</td>
+
+<td>5.97</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.48425643839884,23.68294900863194,0 80.48424486560451,23.68303256634658,0 80.4838531694631,23.68297511203776,0 80.48372163268326,23.682961737678,0 80.48353499846731,23.68292702451567,0 80.48349168531708,23.68284545359714,0 80.48346921014529,23.68278682781306,0 80.48343461831074,23.68267498790023,0 80.48341439518916,23.68261182836238,0 80.48365941852308,23.6825626393811,0 80.48366653861459,23.6825072044132,0 80.48367573910258,23.68245877863232,0 80.48354771474173,23.68238096488817,0 80.48325439498176,23.68218815889294,0 80.48326895199516,23.68203490484522,0 80.48326982055703,23.68181408744773,0 80.48327199787902,23.68165636592553,0 80.48326130063275,23.68144296227466,0 80.48324244423047,23.68125334195981,0 80.48321809751125,23.68110987091454,0 80.4831494886575,23.68080637252361,0 80.48313074490646,23.68070467746225,0 80.4831187900059,23.68064653210493,0 80.48314918559215,23.68064416248998,0 80.48337976318645,23.68063886581795,0 80.48352140300391,23.68063938714726,0 80.48361477282695,23.68066115795762,0 80.4836602787896,23.68066991305096,0 80.48371404993192,23.68067555615509,0 80.48385793034944,23.68071156437254,0 80.48398056010409,23.68075672771742,0 80.48406139588477,23.68078854276453,0 80.48412884433695,23.68080889656403,0 80.48424165891922,23.68082504513948,0 80.48439599785848,23.68085454663383,0 80.48450399323914,23.68088207846907,0 80.48485747464288,23.68097593631796,0 80.48521362292566,23.68107570092931,0 80.48537263832945,23.68112211409886,0 80.48556753178833,23.68115780263097,0 80.48558768924272,23.68104935290532,0 80.48561617082504,23.68091058420479,0 80.4856524829961,23.68093319228954,0 80.48568865470203,23.68094012341981,0 80.48576296215693,23.68094017019029,0 80.48587042221558,23.68094144381998,0 80.48593699454078,23.68093808003384,0 80.48601806232912,23.680910746519,0 80.4861099946804,23.68087681199536,0 80.48608696613259,23.68151369052291,0 80.48608416909133,23.68156536133496,0 80.48608039327296,23.68178431705649,0 80.48607397826616,23.68199567909017,0 80.48607855191638,23.68207840152751,0 80.48608884213355,23.68224018419144,0 80.48592293870556,23.68223397888986,0 80.48593744551849,23.68233977704331,0 80.48594891212925,23.68239358628911,0 80.48600046711915,23.68264760987138,0 80.48564369188642,23.6826404508687,0 80.48534579409532,23.68263922677243,0 80.48504431757247,23.68262597961461,0 80.4849391984224,23.68263220210865,0 80.48475554721222,23.68266659550707,0 80.48477705206928,23.68278819668112,0 80.48480379789298,23.68286893564743,0 80.48485868171937,23.68299617410045,0 80.48455779499001,23.68296721861842,0 80.48443307023125,23.68295705297662,0 80.48425643839884,23.68294900863194,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

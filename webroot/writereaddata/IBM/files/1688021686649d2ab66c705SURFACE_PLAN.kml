@@ -1,0 +1,1583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Surface plan.kml</name>
+	<Style id="inline000">
+		<LineStyle>
+			<color>ff00aa00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00aa00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="inline00100">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d7fffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="inline0030">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline0100">
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0055aa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="inline100">
+		<LineStyle>
+			<color>ff00aa00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00aa00</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline2000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline8001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline10010">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline10110">
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffff00</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1030">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline670</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline740</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline11010">
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffff00</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline11210">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline2150</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline4810</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline1130">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline14000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1311</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline12000">
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="inline12010">
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1220">
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000aaff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1301">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline8000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2800</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline13100">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1311">
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1400">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline3000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline800</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline14000">
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1401">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline12010</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1501</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline14100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline10010</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline13100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline143">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline23200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline272</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline1501">
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1700">
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1710">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline10110</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline11010</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline2000">
+		<LineStyle>
+			<color>ffffaaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffaaff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline2110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline3002</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline7100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline21110">
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="inline21200">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2150">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2200">
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2230">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline225">
+		<LineStyle>
+			<color>ffffffaa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="inline23100">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline23200">
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline24000">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline2520">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline2230</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline3220</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline2600">
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="inline272">
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2800">
+		<LineStyle>
+			<color>ffffffaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2810">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2830">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline29000">
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline2910">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline21200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline85</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline3000">
+		<LineStyle>
+			<color>ffffffaa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dffffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline30000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1700</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline6100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline300100">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline3002">
+		<LineStyle>
+			<color>ffffaaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffaaff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline31000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline5130</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline0030</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline3101">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline24000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2810</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline3113">
+		<LineStyle>
+			<color>ffffffaa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dffffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline31200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline12000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2200</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline3140">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline2830</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline3910</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline3220">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline3300">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline2600</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline29000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline33010">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline300100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline23100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline34010">
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="inline3410">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline36000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline4710</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline4130</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline3910">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline4020">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline5500</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1220</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline410">
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0055aa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="inline4130">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline4140">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline424">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline225</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline3113</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline4310">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline4510">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline3410</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline4310</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline4710">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline4810">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline4910">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline5120</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline4140</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline5120">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline5130">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline5500">
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="inline6100">
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="inline670">
+		<LineStyle>
+			<color>ff00aaff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600aaff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline701">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline96</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline00100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline7100">
+		<LineStyle>
+			<color>ffffaaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffaaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="inline740">
+		<LineStyle>
+			<color>ff00aaff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="inline800">
+		<LineStyle>
+			<color>ffffffaa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="inline8000">
+		<LineStyle>
+			<color>ffffffaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="inline8001">
+		<LineStyle>
+			<color>ffffaaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffaaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="inline85">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline9010">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline34010</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline21110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline920">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline410</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline0100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline96">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d7fffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>KHANTI TALAB</name>
+		<description>Khanti Talab</description>
+		<styleUrl>#inline1400</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						81.42831215472405,21.38235078709722,0 81.42835164899239,21.38248862434035,0 81.42846705484256,21.38254911974481,0 81.42903720171057,21.38253701281964,0 81.42921085971072,21.38414962651319,0 81.42780633677606,21.38462950272773,0 81.42672807438124,21.3850754449785,0 81.42659260777384,21.3843407480661,0 81.42821113479413,21.3839929452703,0 81.42835445706071,21.38388554908166,0 81.42809276991055,21.38258940920385,0 81.42823912862916,21.38247541302685,0 81.42820087734859,21.38236164314458,0 81.42831215472405,21.38235078709722,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Khanti Talab</name>
+		<description>Khanti Talab
+Drinking Water Reservoir</description>
+		<styleUrl>#inline424</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						81.42808421488874,21.38237067084821,0 81.42925511593656,21.38219751254162,0 81.42882380100245,21.38036231809208,0 81.42747055723241,21.38061257510687,0 81.42808421488874,21.38237067084821,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Existing Pipe Line</name>
+		<open>1</open>
+		<description>Existing Pipe Line
+For Pumping Water to Khanti Talab
+Drinking Purpose</description>
+		<styleUrl>#inline143</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				81.40792522157888,21.37356673609288,0 81.40834721291068,21.37434592418182,0 81.40924744472399,21.37442560482618,0 81.40983655887803,21.37465420700167,0 81.41108153284307,21.37562018663616,0 81.41199509542984,21.37597212915243,0 81.41219065999009,21.376061723377,0 81.41216200106983,21.37769402767598,0 81.41258827717225,21.37865844116865,0 81.41304611649453,21.37954485895195,0 81.41423047259983,21.38162103435687,0 81.41468484820631,21.38238767109297,0 81.41570683257912,21.38324821876841,0 81.41654457533559,21.38393339014065,0 81.41755851441067,21.38469593066254,0 81.41882215199871,21.38502509264634,0 81.4199280622601,21.3850479884149,0 81.42348456841843,21.38481028444701,0 81.42526216405011,21.38467651014189,0 81.42662434040707,21.38455280249249,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Folder>
+		<name>Active Mining, Excavation</name>
+		<Placemark>
+			<name>Active Pit &amp; Excavation</name>
+			<description>Opened up area 
+Active Pit
+BFQ &amp; BSQ
+129 Ha</description>
+			<styleUrl>#inline701</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.39914526661738,21.37013327973981,0 81.39964277081164,21.36826637100654,0 81.40015281290209,21.36819284918423,0 81.40154750263137,21.36565277201872,0 81.40233901123659,21.36482790636052,0 81.40444035740968,21.3642497653824,0 81.40779978632523,21.3643944535334,0 81.40793557353631,21.36481913026901,0 81.41120148019506,21.36820499289389,0 81.41174739975838,21.37271525344195,0 81.40989501064074,21.37230475372052,0 81.40949719468885,21.37286487114629,0 81.40813915342432,21.37375766715994,0 81.40909173158452,21.37540752028425,0 81.40997779428915,21.37562945923564,0 81.41068047550748,21.37602803773457,0 81.41229514714847,21.37911006671941,0 81.41216185639972,21.38007338816126,0 81.41078487563027,21.38045763226198,0 81.40975886257581,21.37985847647904,0 81.40733543342236,21.37663637975194,0 81.40568905791334,21.37474105151032,0 81.40310249002685,21.37419472561585,0 81.40072651252142,21.37235191801284,0 81.3996753229129,21.37028849396721,0 81.39914526661738,21.37013327973981,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Open Pit OHQ Excavation</name>
+			<description>Open Pit Excavation 
+OHQ
+9.32 Ha.</description>
+			<styleUrl>#inline2910</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.41469162826263,21.38114707329805,0 81.4154778941035,21.3808178409257,0 81.41593353015912,21.38050626347344,0 81.4163522799773,21.37948348783175,0 81.41585068223597,21.37825247908881,0 81.41586250557174,21.37665355861159,0 81.41506821962744,21.37739792894635,0 81.41369257843088,21.37859113112793,0 81.41336994398115,21.37992023736323,0 81.41378376048458,21.38093749096297,0 81.41469162826263,21.38114707329805,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Active Dumps</name>
+		<Placemark>
+			<name>Active Dump BSQ</name>
+			<description>Active Waste Dump
+BSQ Top West
+3.37 Ha.</description>
+			<styleUrl>#inline4020</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.40409998732991,21.37592743273091,0 81.40434711421028,21.37572942264629,0 81.40464523500775,21.37577121110692,0 81.40479580879523,21.37590611607603,0 81.40493427723067,21.37602738500017,0 81.40510105974558,21.37620099661702,0 81.40538081282864,21.37638169235132,0 81.40585725328371,21.37657742073085,0 81.40614440470307,21.37667038186939,0 81.40649894487707,21.37679534196034,0 81.40661965102642,21.37698203229835,0 81.40666627353144,21.37722547877765,0 81.40664347543951,21.37741941685371,0 81.40653065779458,21.37753788380743,0 81.40635065417639,21.3776511918038,0 81.40610729179318,21.37783631392205,0 81.40583638163717,21.37779863628169,0 81.40558749741207,21.37763400348996,0 81.40531909478746,21.37742181288703,0 81.40511014213854,21.37735630588913,0 81.40494320281302,21.37734175998533,0 81.404794258045,21.37731578664817,0 81.40461083169595,21.37722603688396,0 81.40443539011616,21.37712632510704,0 81.40430629349518,21.37687475954776,0 81.40417720066293,21.37665957465536,0 81.40408393926224,21.37653339511235,0 81.40397157682376,21.37623584331855,0 81.40409998732991,21.37592743273091,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Active Dump  ND</name>
+			<description>Active Dump 
+Nagdevta Area
+1.36 Ha.</description>
+			<styleUrl>#inline1030</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.4097811483548,21.36337379467497,0 81.40989696309221,21.36322106871356,0 81.41002920164343,21.36310576418209,0 81.4102267881858,21.36301456746001,0 81.41042341816281,21.36297434853033,0 81.41062706865569,21.36301818462071,0 81.41080714683994,21.36317657890419,0 81.41085691510011,21.36328658764493,0 81.41109354138119,21.36347581398299,0 81.41132944604493,21.36361278717626,0 81.41148535211985,21.36378021645366,0 81.4116180013733,21.36393950974392,0 81.41175717834129,21.36415536053208,0 81.41177097040001,21.36430679510319,0 81.41165111330233,21.36453938042091,0 81.41148178713561,21.36458422355082,0 81.4111800601365,21.36418311088632,0 81.41090531683498,21.36395791858088,0 81.41049714901143,21.36371685510393,0 81.4097811483548,21.36337379467497,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Active Reject Dump</name>
+			<description>Active Reject Chips Dump
+Beyond Bay No. 6
+28.4 Ha.</description>
+			<styleUrl>#inline1301</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.42050638789895,21.37897795312151,0 81.42036878113275,21.37923450306666,0 81.4205062038607,21.3794168919931,0 81.42098064884537,21.37953808772054,0 81.42128872228805,21.37947084800828,0 81.42174734944322,21.37914465202186,0 81.42194315890721,21.37917104170484,0 81.42222100074571,21.37927120898408,0 81.42254559794053,21.37939426507646,0 81.42292794749642,21.3795925572772,0 81.4231189939489,21.3797628280028,0 81.42344759362206,21.37987769702454,0 81.42365414794314,21.38030777812399,0 81.42375721891663,21.3807449674154,0 81.42353463352303,21.38109391513967,0 81.4231961298667,21.38122940794761,0 81.42287934288315,21.38177424710641,0 81.42285696967514,21.38214718232208,0 81.42231442511438,21.3826068445307,0 81.42237306744704,21.38308534643705,0 81.42242487102146,21.38371511415481,0 81.42219916106411,21.38429647431481,0 81.42156244440488,21.38470521739836,0 81.4206078484055,21.38476969539935,0 81.4197365849667,21.38479111799301,0 81.41886955942562,21.38463404628452,0 81.41814979929374,21.38428223435459,0 81.41770713636546,21.38369991360858,0 81.41782257499996,21.38327503941372,0 81.41797498293268,21.38280696347417,0 81.41820082298266,21.38233443565205,0 81.41833229028464,21.38196563112025,0 81.41834069470248,21.38145702769883,0 81.4183277937273,21.38089778176456,0 81.41844851411932,21.38047154722112,0 81.41868343327295,21.38024848855154,0 81.41921529447131,21.38008517423775,0 81.41893391383368,21.37947044041465,0 81.41877935435478,21.37897871616249,0 81.42050638789895,21.37897795312151,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Reject Chips Dump</name>
+			<description>Reject Dump
+Dumper Road 
+3.41 Ha.</description>
+			<styleUrl>#inline9010</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.41375073600786,21.37330225643293,0 81.4133886626874,21.37306754310456,0 81.41307657711889,21.37299126268953,0 81.41303312457784,21.37279259099011,0 81.41307925722622,21.37263181178952,0 81.41322272473052,21.3724765831665,0 81.41334061206869,21.37235918686483,0 81.41343183856688,21.37236053867905,0 81.41373550503261,21.37234089267329,0 81.41396859757874,21.37237028130182,0 81.4141922113849,21.37243145878884,0 81.41434791769795,21.37247725381143,0 81.41449291129868,21.3725178285538,0 81.41476493161329,21.37257266751037,0 81.41490596928855,21.37259365003058,0 81.4151454648192,21.37266896113958,0 81.4153935501368,21.37277324998526,0 81.41577838247451,21.37291738085123,0 81.4160991493076,21.37298933930592,0 81.41624030342747,21.37306020268391,0 81.41640251011039,21.37320800085201,0 81.41655027197955,21.37339612924212,0 81.41665379388382,21.37353626206475,0 81.41663727881443,21.37366934516727,0 81.41646722927051,21.3738535452476,0 81.41625455654454,21.37396698064562,0 81.41568837773556,21.37364907353585,0 81.41526298640665,21.37335978182776,0 81.41513957980817,21.37347636627257,0 81.41536207016526,21.37372961419459,0 81.41375073600786,21.37330225643293,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Reject Chips Dump</name>
+			<description>Reject Chips
+Dead Dump
+Near Canteen
+1.0 Ha.</description>
+			<styleUrl>#inline1710</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.4169864212659,21.37412602340536,0 81.41716231893284,21.37391262701706,0 81.41738631588112,21.37380895274298,0 81.41763505942288,21.37373407363499,0 81.41792188909221,21.37365336472091,0 81.41817339133485,21.37360289482779,0 81.4184701308949,21.37356331748465,0 81.41871688550958,21.37358858022354,0 81.41885165422016,21.37363135046985,0 81.41864941412858,21.37386346808483,0 81.41851110818587,21.37400198069617,0 81.41836988336807,21.37413257070244,0 81.41814810484595,21.37427942339565,0 81.41793671238048,21.37437158842151,0 81.41771102395202,21.37434546406369,0 81.41744648646835,21.37429849663913,0 81.41714138343757,21.37419708348476,0 81.4169864212659,21.37412602340536,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>S S M SCHOOL AHIWARA</name>
+			<LookAt>
+				<longitude>81.42305621164094</longitude>
+				<latitude>21.36467287583469</latitude>
+				<altitude>0</altitude>
+				<heading>0.005131873526952292</heading>
+				<tilt>22.67433579069237</tilt>
+				<range>688.4192842482762</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>81.4214969561522,21.36361206997017,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Rehabilitated Waste dump</name>
+		<Placemark>
+			<name>Rehabilitated Waste dump</name>
+			<description>Rehabilitated Waste Dump
+South of Quarry
+57.8 Ha.</description>
+			<styleUrl>#inline1130</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.40156410381813,21.36563266280679,0 81.40044654055679,21.36452615290121,0 81.39994755631776,21.36159843146221,0 81.40004550629608,21.36142546938125,0 81.39984221215904,21.36097648783945,0 81.3999594793591,21.36070803115688,0 81.40019242276369,21.36059809614409,0 81.40058638640697,21.36132470154593,0 81.40096196407924,21.36133618469932,0 81.40113322897979,21.36105497702328,0 81.40092367198658,21.36036310169381,0 81.40107134118524,21.36015442032355,0 81.40157427944584,21.36022421226142,0 81.40193598299551,21.36001549520729,0 81.40225122840998,21.36035771446662,0 81.40271136535205,21.36021970139451,0 81.40318042811325,21.36026703280535,0 81.4035476158729,21.36031723163203,0 81.40389699389026,21.36056292055962,0 81.40471124613374,21.36068967529281,0 81.40541864017213,21.36072733065841,0 81.40584822188792,21.3612348053637,0 81.40606840431175,21.36128299533609,0 81.40678103661631,21.36094660660736,0 81.40689283264943,21.36100611082328,0 81.4069943127901,21.36122455934587,0 81.40758751990087,21.36108578662331,0 81.40839286235645,21.36095460393146,0 81.40833971510384,21.36068832988893,0 81.40942909612215,21.36053891246354,0 81.41049171329428,21.36051097110954,0 81.41105709877725,21.36097491650424,0 81.41153832413232,21.36144563522459,0 81.41113849576004,21.3623469819778,0 81.41063846095456,21.36300918544896,0 81.41042698920951,21.36293619804062,0 81.41002370796315,21.36309510144624,0 81.40965717504127,21.36340164427767,0 81.41077374192098,21.36395525382303,0 81.41114853282804,21.36427041478904,0 81.4114961759979,21.36481183219389,0 81.41210546240443,21.36790646107994,0 81.41121050771295,21.36820418497149,0 81.4079333667847,21.36481689620296,0 81.40779672173791,21.36438831546581,0 81.40444705040703,21.36423149175728,0 81.40235318126774,21.36482911080502,0 81.40156410381813,21.36563266280679,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Rehabilitated Waste Dump</name>
+			<description>Rehabilitated Waste Dump
+Near View point
+0.78 Ha.</description>
+			<styleUrl>#inline3300</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.41273563968657,21.37127567859986,0 81.41262508063325,21.36961751724821,0 81.41340671800145,21.36963657318975,0 81.41345000922652,21.36995821189997,0 81.41302563773404,21.37024009408769,0 81.41289127909339,21.37118081239081,0 81.41273563968657,21.37127567859986,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Rehabilitated Waste dump</name>
+			<description>Rehabilitated Waste Dump
+In Front of PPR
+3.72 Ha.</description>
+			<styleUrl>#inline31200</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.41304806277049,21.37728244743485,0 81.41394527161556,21.37803284638391,0 81.41489575403891,21.37726071884692,0 81.4140404724761,21.37554768807045,0 81.41297706163276,21.37571623172229,0 81.41289280062215,21.37658501810493,0 81.41304806277049,21.37728244743485,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Rehabilitated Waste dump Dumper Road</name>
+			<description>Rehabilitated Dump
+Dumper Road North
+1.85 Ha.</description>
+			<styleUrl>#inline30000</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.412035627357,21.37338334840921,0 81.41203393984345,21.37300387910016,0 81.41530721268551,21.3739580969999,0 81.41504775689103,21.37416465509431,0 81.414750715816,21.37415490772764,0 81.41317369613601,21.37384880972229,0 81.4126058766963,21.37412165356304,0 81.41261695131841,21.37410955611825,0 81.412035627357,21.37338334840921,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Rehabilitated Waste dump</name>
+			<description>Rehabilitated Waste dump
+Near Bum Bahadur Chouk
+0.86 Ha.</description>
+			<styleUrl>#inline1401</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.4120158874756,21.37227930409899,0 81.41226495696782,21.37197022546609,0 81.41272141994581,21.3720919667606,0 81.41315020946882,21.37227024851459,0 81.41300817811717,21.37253422933258,0 81.41289690221768,21.37293294195314,0 81.41199216859644,21.37271525092104,0 81.4120158874756,21.37227930409899,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Green Belt</name>
+		<description>Green Belt
+Plantation
+0.53  Ha</description>
+		<Placemark>
+			<name>Green Belt</name>
+			<description>Green Land
+0.53 Ha</description>
+			<styleUrl>#inline200</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.40066505988057,21.38194742808481,0 81.40129771173568,21.38118095681736,0 81.40148442971345,21.38118793100553,0 81.4025087861156,21.38127025517007,0 81.40321358532412,21.38133480812927,0 81.40323512544155,21.38144612129992,0 81.40235902415671,21.38139115109492,0 81.401426042289,21.38133268168254,0 81.40089531934312,21.38206880141027,0 81.40066505988057,21.38194742808481,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Green Belt, Plantation</name>
+			<description>Green Belt 
+Afforestation
+2005-06
+2021
+9.58 Ha.</description>
+			<styleUrl>#inline200</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.40014893858225,21.36819169632752,0 81.39946636453909,21.36828550113919,0 81.3995411004736,21.36773035528778,0 81.39942089873276,21.36692284014689,0 81.3990905492538,21.3668784145534,0 81.39887173375648,21.36666241675773,0 81.39881818351998,21.36630056228804,0 81.39889468905116,21.36578086547437,0 81.39886303329821,21.36533763999696,0 81.3988568893769,21.3648126208308,0 81.39946077555405,21.36462140917357,0 81.39931915885201,21.36413996698262,0 81.39907159590746,21.36372501420054,0 81.39918789429673,21.36325083193631,0 81.39947494887224,21.36263032502025,0 81.39968198739045,21.36208733784392,0 81.39989505917704,21.36170290167313,0 81.4002436361631,21.36431805857918,0 81.40039577836488,21.3646628672406,0 81.40151704473195,21.36570662862698,0 81.40014893858225,21.36819169632752,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Green Belt, Plantation</name>
+			<description>Green Belt 
+Old Magazine Area
+Plantation
+2021
+11.6 Ha.</description>
+			<styleUrl>#inline200</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.39547275329112,21.38758299181761,0 81.39561277963985,21.38650572507647,0 81.40001174524318,21.38186700704939,0 81.40088151700351,21.38209912565516,0 81.40047359969896,21.38381248469864,0 81.39996664733908,21.38479617519399,0 81.39547275329112,21.38758299181761,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Green Belt, Plantation</name>
+			<description>Green Belt 
+North of Reject Dump 
+Plantation
+2017-18
+2018-19.
+6.38 Ha.</description>
+			<styleUrl>#inline200</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.42075846702028,21.38728930969233,0 81.42045442075103,21.38515635788517,0 81.42237677626417,21.38502749078221,0 81.42254940422328,21.38543700720829,0 81.42316501738256,21.38532529724229,0 81.42315684922603,21.38497022313902,0 81.42366401023806,21.38492036749788,0 81.42368191116562,21.38487012665493,0 81.42411320592694,21.3848606557935,0 81.42398122982102,21.3855103692161,0 81.42397673787188,21.38612989332613,0 81.42326644847159,21.38627430548303,0 81.42297416043466,21.38656386235844,0 81.42180019230587,21.38691732904412,0 81.42075846702028,21.38728930969233,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Green Belt, Plantation</name>
+			<description>Green Belt 
+Plantation 
+2021
+23.00 Ha</description>
+			<styleUrl>#inline200</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.4034485534056,21.37770508699325,0 81.40400179988514,21.37845588862534,0 81.40503333387329,21.37902763950837,0 81.40565565521169,21.37929437683154,0 81.40769222010647,21.38057221137429,0 81.40889323253906,21.38162391410677,0 81.40647648770401,21.38147406712892,0 81.40192826730227,21.38116918573268,0 81.40100870263977,21.38099687231046,0 81.40113365073591,21.38056851888356,0 81.40209860871632,21.38065024803615,0 81.40354445003757,21.38078787784835,0 81.40430354424888,21.38083868214584,0 81.4036201839351,21.38020703901931,0 81.4030076184538,21.37966152842982,0 81.40276672569816,21.37945057409499,0 81.40248380486905,21.37924035550499,0 81.40207770502322,21.37882955715039,0 81.40133753999019,21.37816635821133,0 81.40072721820334,21.37758563813933,0 81.39947655646112,21.37680909423514,0 81.4011920043951,21.37498099999687,0 81.40130877652381,21.37436743895753,0 81.4029479656496,21.37692516491174,0 81.4034485534056,21.37770508699325,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Green Belt, Plantation</name>
+			<description>Green Belt &amp; Afforestation 
+Behind EMM &amp; Canteen
+2002-03
+2004-05
+2006-07
+Area 44.65 Ha</description>
+			<styleUrl>#inline200</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.41155197541511,21.36471226261795,0 81.4137224183016,21.36341763575682,0 81.41440871400347,21.36405998068671,0 81.41510864444759,21.3646870364098,0 81.41496984969746,21.36546830397768,0 81.41470420867604,21.36633512351033,0 81.41461503239275,21.36700177562208,0 81.41469979697753,21.36721135442736,0 81.41459491582937,21.3676873481007,0 81.41467564285347,21.36816581299497,0 81.41559375691497,21.36843362356777,0 81.41607989387877,21.36833469178843,0 81.41639774228183,21.36800571627439,0 81.4164071694837,21.36741641868694,0 81.41701988180282,21.36694492702492,0 81.41715888047173,21.36655359977249,0 81.41763449324451,21.36699508437373,0 81.41824022298408,21.36754210561879,0 81.41935895053393,21.36870274851446,0 81.41987838005039,21.36971070350398,0 81.41994646635867,21.37015022772851,0 81.41959965486937,21.37012781003911,0 81.41949948898765,21.37049907469702,0 81.41910196879681,21.37055073355152,0 81.41691715389202,21.3727438437405,0 81.41365433574279,21.37214027561782,0 81.41341078109249,21.36962896666943,0 81.41262092445494,21.36962088109113,0 81.41155197541511,21.36471226261795,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Green Belt, Plantation</name>
+			<description>Green Belt
+Plantation
+1.79 Ha.</description>
+			<styleUrl>#inline200</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.41489753316688,21.3772634422146,0 81.41563672032852,21.37656093795789,0 81.41589095377168,21.37594349821714,0 81.41404151738875,21.37555137983368,0 81.41489753316688,21.3772634422146,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Green Belt, Plantation</name>
+			<description>Green Belt
+Rawley Area
+Afforestation
+4.52 Ha.</description>
+			<styleUrl>#inline200</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.41481650109529,21.38265123743317,0 81.41664863873223,21.38280768203841,0 81.41780277643063,21.38242977354814,0 81.41792107321851,21.38170638954073,0 81.41687514108737,21.3809332482988,0 81.41773736249455,21.38011427367941,0 81.41837563066079,21.37896966015316,0 81.41875727473368,21.37898663982132,0 81.41873148234239,21.3799815936612,0 81.41807184160496,21.38007900190205,0 81.41755827490002,21.38081705843045,0 81.41830108526764,21.38172109982896,0 81.41765114149555,21.38360874973509,0 81.41636715124822,21.38365848695077,0 81.41481650109529,21.38265123743317,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Green Belt Plantation View Point</name>
+			<description>Green Belt 
+View Point
+1.85 Ha</description>
+			<styleUrl>#inline200</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.40948431264292,21.37364736630111,0 81.41044574313445,21.37362580279852,0 81.41155277786299,21.37280056036128,0 81.41013939832352,21.37243534569507,0 81.409494079035,21.37287002944885,0 81.40948431264292,21.37364736630111,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Green Belt,Plantation</name>
+			<description>Green Belt
+OHQ East Side
+Plantation 1998-99
+11.1 Ha.</description>
+			<styleUrl>#inline200</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.41471400002453,21.38166323057238,0 81.41469038730764,21.38114710734969,0 81.41548179733886,21.38081588002143,0 81.41576329224118,21.38062587833987,0 81.41593373572148,21.38050471969123,0 81.41635279807406,21.37948300688728,0 81.41584665169236,21.37825255822656,0 81.4158594910519,21.37664912143866,0 81.41666006506382,21.37569555059104,0 81.41742552706971,21.37676581684945,0 81.41745790547964,21.37727616685072,0 81.41770745013375,21.37753974655177,0 81.41830034508028,21.377668305301,0 81.41844553062727,21.37820791243764,0 81.41889178088667,21.37861839351129,0 81.41826783612285,21.37888703876733,0 81.41766689004419,21.37992906083871,0 81.41731695911062,21.38040545609171,0 81.41672343863955,21.38089721341684,0 81.41560863631678,21.38151640376446,0 81.41510612233391,21.38166682834608,0 81.41471400002453,21.38166323057238,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Green Belt, Natural Forest</name>
+			<description>Green Belt 
+Natural Forest
+Near Blasting Office 
+2.0 Ha.</description>
+			<styleUrl>#inline200</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.41202678245153,21.37570944642731,0 81.41203427955053,21.37337993853703,0 81.4126118349198,21.37411055448648,0 81.4131997352501,21.37413870338467,0 81.4129234169246,21.37551075673668,0 81.41202678245153,21.37570944642731,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Green Belt, Natural Forest</name>
+			<description>Green Belt 
+Natural Forest
+ East of PPR
+3.0 Ha.</description>
+			<styleUrl>#inline200</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.41455171499443,21.37538872393219,0 81.41445289196814,21.37456914838361,0 81.4147522940801,21.37415713917243,0 81.41504940928573,21.37416087870672,0 81.41530628287165,21.37395903112454,0 81.4167199815257,21.37434161151088,0 81.41584107253937,21.37571378622656,0 81.41455171499443,21.37538872393219,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Green Belt, Natural Forest</name>
+			<description>Green Belt
+Natural Forest
+BSQ Area
+1.17 Ha.</description>
+			<styleUrl>#inline200</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.40970751005008,21.37475875861896,0 81.41008119441501,21.37438765070289,0 81.41087105346402,21.37507444943109,0 81.41091603394152,21.37572638178905,0 81.41062049230975,21.37575799998472,0 81.4099074065861,21.37541403255949,0 81.40976541137266,21.37502258247376,0 81.40970751005008,21.37475875861896,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Green Belt, Natural Forest</name>
+			<description>Green Belt 
+Natural Forest
+Behind New WB
+1.89 Ha</description>
+			<styleUrl>#inline200</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.41084191813333,21.37460917267117,0 81.41063503822616,21.373896234985,0 81.41181766323457,21.37316468947921,0 81.41196999510107,21.37450801388281,0 81.41187460367647,21.37568559329971,0 81.41139101113208,21.37531264354894,0 81.41150686521209,21.37418173966016,0 81.41084191813333,21.37460917267117,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Surge Pile, Mineral Stack</name>
+		<Placemark>
+			<name>Mineral Stacking</name>
+			<description>Mineral Stacking 
+Near Bay 6
+0.60 Ha.</description>
+			<styleUrl>#inline1000</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.41898396981586,21.37783773070251,0 81.4190156889273,21.37897880148152,0 81.41926902013149,21.37897881017852,0 81.41970176007902,21.37808075080062,0 81.41898396981586,21.37783773070251,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Mineral Stacking</name>
+			<description>Mineral Stacking 
+Near Bunker
+1.39 Ha.</description>
+			<styleUrl>#inline2110</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.41742319568461,21.37674713038287,0 81.41666634040917,21.37568606480853,0 81.4176605517579,21.37453638853645,0 81.41785455490266,21.37469926215559,0 81.41798062838636,21.37503724656642,0 81.41786040974016,21.37532516531906,0 81.41737511462284,21.37614315467826,0 81.41742319568461,21.37674713038287,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Mineral Processing Unit</name>
+		<Placemark>
+			<name>Old Mineral Processing Unit</name>
+			<description>Mineral Processing Unit</description>
+			<styleUrl>#inline920</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.41267919658307,21.38221087855602,0 81.41310444608727,21.3822052931548,0 81.41428516656967,21.38220536735616,0 81.41427293707197,21.38200720492474,0 81.41315428854128,21.38197835919636,0 81.41280995205204,21.38197053746197,0 81.41234528823502,21.3818384203877,0 81.41229090267227,21.38181121309824,0 81.41222290964608,21.38190881092571,0 81.41267919658307,21.38221087855602,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Utilities &amp; Infrastructure</name>
+		<Placemark>
+			<name>Admn.Building</name>
+			<styleUrl>#inline4910</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.41960309843253,21.37037082327536,0 81.41966144144405,21.37022678278203,0 81.41999625881593,21.37031424835876,0 81.42002414943313,21.37022243072563,0 81.42009973807926,21.37024680364333,0 81.42007743156357,21.37032457275005,0 81.42025196118108,21.37038828875157,0 81.42019710337425,21.37055420862747,0 81.41960309843253,21.37037082327536,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Garage</name>
+			<styleUrl>#inline3140</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.41919825374688,21.37053763056716,0 81.41932915117856,21.37057424345927,0 81.41931024882216,21.37061550415617,0 81.41956010361601,21.3706657104161,0 81.41995449508161,21.37077128737326,0 81.41992864502859,21.3708177040392,0 81.42008748329607,21.37085350402974,0 81.42005526627086,21.37097126302648,0 81.41988275700338,21.37092209595197,0 81.41986281488695,21.37098258203528,0 81.41929859512936,21.37085203251981,0 81.41923670485146,21.37083798058308,0 81.41908704883144,21.37081772468184,0 81.41919825374688,21.37053763056716,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>EMMG</name>
+			<styleUrl>#inline36000</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.41880811640657,21.37163378266041,0 81.41894949525164,21.37124916322261,0 81.41905589085073,21.3712716644082,0 81.41910021525985,21.37115925657827,0 81.41920605408933,21.37118451063191,0 81.41900713643916,21.3717110156165,0 81.41880811640657,21.37163378266041,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>MSDS &amp; Canteen</name>
+			<styleUrl>#inline11210</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.41886656952575,21.37299711953411,0 81.41872171011161,21.37295957533036,0 81.41850283080915,21.37290785861538,0 81.4185883293693,21.37262556427185,0 81.41894125215023,21.37268465725819,0 81.4189906860873,21.37254275326985,0 81.41928386650642,21.37261285287483,0 81.41905531699136,21.37335951978822,0 81.41875693882724,21.37327089868531,0 81.41886656952575,21.37299711953411,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Maintenance shed</name>
+			<description>Maintenance Shed</description>
+			<styleUrl>#inline4510</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.4138222006811,21.37517321875849,0 81.41389198393935,21.3750067599932,0 81.41395512844983,21.37484680736011,0 81.41402237058389,21.37456394735072,0 81.41415621937672,21.3745576804068,0 81.41415491589532,21.37474775451641,0 81.41424888592812,21.37474954858476,0 81.41442036571047,21.37474767085699,0 81.41442687850059,21.37544353158355,0 81.41416012139553,21.37541666735298,0 81.41413230670068,21.37541647979846,0 81.41381676334105,21.37540140768269,0 81.4138222006811,21.37517321875849,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Quarry Pump House</name>
+			<description>Pump House</description>
+			<styleUrl>#inline2520</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.4083179845228,21.3734367131219,0 81.40827751901142,21.37331271020339,0 81.40835616078519,21.37328826689384,0 81.40841279930093,21.3734029640488,0 81.4083179845228,21.3734367131219,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Old Site Office</name>
+			<styleUrl>#inline14100</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.41026374373553,21.3740541892032,0 81.41019580987256,21.37385559774079,0 81.41028508139873,21.37381589662921,0 81.41035531065936,21.37402285873724,0 81.41026374373553,21.3740541892032,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Old Site Office</name>
+			<styleUrl>#inline33010</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.41005665251217,21.37415106037709,0 81.41003736595316,21.37406017015699,0 81.41007680791762,21.37404293190011,0 81.41003991424735,21.37392150562708,0 81.41015361495903,21.37387196146591,0 81.4102423711732,21.37412246418083,0 81.41005665251217,21.37415106037709,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Blasting Office</name>
+			<description>Blasting Office</description>
+			<styleUrl>#inline31000</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.41310290489854,21.37537173161702,0 81.41309958687472,21.37525649385803,0 81.41324873891277,21.37525365166246,0 81.41326118856981,21.37525155182061,0 81.41330285594796,21.37529126324368,0 81.41331272229304,21.37534344250641,0 81.41322028760239,21.37534285190532,0 81.41325901121641,21.37534305957805,0 81.41318767381642,21.3753434316011,0 81.41318689315635,21.37536799493349,0 81.41310290489854,21.37537173161702,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>ML Boundary Points</name>
+		<Placemark>
+			<name>Mining Lease Boundary</name>
+			<styleUrl>#inline3101</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.42020965359329,21.37131702346576,0 81.42006476723478,21.37171991441873,0 81.41974794131585,21.37257455977122,0 81.41927695409427,21.37336122226058,0 81.41892100373389,21.37403786418167,0 81.41842261715063,21.37474176204,0 81.41785566542336,21.37536080021476,0 81.41738482847771,21.37613040613905,0 81.41745649409779,21.37729245977448,0 81.41770192471428,21.37753992043009,0 81.41829809675401,21.3776662262732,0 81.41877844665727,21.3777691187056,0 81.41964731889583,21.37804939780615,0 81.42050633654974,21.37837003530062,0 81.42133860045739,21.37874877415847,0 81.42213946317335,21.37910724174677,0 81.42261344165105,21.37923125562704,0 81.4229895515697,21.37943955338969,0 81.42381994902792,21.37982501072441,0 81.42418700950292,21.3800043585245,0 81.42454630175601,21.38063687854189,0 81.4246630695749,21.38127249146034,0 81.42467481802615,21.38163774931691,0 81.42490410178726,21.3817385633031,0 81.42518983019275,21.38262523844594,0 81.42529894181008,21.38326360423991,0 81.42477645795938,21.38347559440586,0 81.42481388664328,21.38402626533076,0 81.42478046639172,21.38431308533445,0 81.42476015213839,21.3845393144373,0 81.42413264106141,21.38487534617155,0 81.42400809069395,21.38549137392011,0 81.42397496024881,21.3861305095013,0 81.42325916464148,21.38627299328771,0 81.42297422905116,21.38656332019264,0 81.42179617072352,21.38692563102532,0 81.42075536426584,21.38728110625815,0 81.41970932776142,21.38765688108954,0 81.41951767977905,21.38800758117426,0 81.41825723839392,21.38812375760709,0 81.41810343917746,21.38803592551449,0 81.41802283748638,21.38741054060936,0 81.41714714053801,21.387376620011,0 81.41667315664721,21.38755157985619,0 81.41656727643584,21.38747946632517,0 81.4164320663226,21.38723595139962,0 81.41623305250889,21.38695581037071,0 81.41612942866441,21.38660919818644,0 81.41729668888129,21.38526347750487,0 81.41684797243119,21.38501945319847,0 81.41638131447719,21.38476948843578,0 81.41593541655617,21.38459316005413,0 81.41502477156705,21.38415768469616,0 81.41450831777338,21.38389109131585,0 81.41388517570451,21.38421886765531,0 81.41347326150688,21.38440784552792,0 81.41306780555193,21.38459099231531,0 81.41263249521828,21.38478762338784,0 81.41187293427927,21.385141324132,0 81.41088548937506,21.3851635800009,0 81.41008461319407,21.38477807418316,0 81.4091032516873,21.38463949302621,0 81.40813535620201,21.38452278128107,0 81.4075853833962,21.38444774689757,0 81.40730504497709,21.38439260434079,0 81.40649817634122,21.38424496065188,0 81.40692671301318,21.38343306324396,0 81.4073178659329,21.38264063535149,0 81.40775603353651,21.3817960690367,0 81.40682838162127,21.38171232116182,0 81.40583531494211,21.3816330639084,0 81.40478224426118,21.38155665472583,0 81.40381784919961,21.38148548099154,0 81.40287669856831,21.38143747147602,0 81.40223282131053,21.38139921541895,0 81.40167516650389,21.38136212009359,0 81.40127234917297,21.38216662045344,0 81.40087289927969,21.38207874344613,0 81.40047691436408,21.38379452587049,0 81.40019517673394,21.3843684519874,0 81.39997471062669,21.38480312662655,0 81.39942035011818,21.38514509209697,0 81.3986973432869,21.3856001216415,0 81.39788544935861,21.38608547275244,0 81.39708343782243,21.38657642108743,0 81.3962193202441,21.38711145022705,0 81.39546754176766,21.38758307682941,0 81.39554583075132,21.38703193573291,0 81.39561165564679,21.38651424319357,0 81.39620112730459,21.38589642816397,0 81.39683349978834,21.38522329401657,0 81.39746959848964,21.38455398634291,0 81.39810466280709,21.3838872831216,0 81.39872917094962,21.38321541951251,0 81.39942223644691,21.38248264025708,0 81.40000754059149,21.38185522387563,0 81.39949909887673,21.38110041336794,0 81.39898392243305,21.38034217448602,0 81.39880702344453,21.38007843508866,0 81.39936770241906,21.37966318017843,0 81.40020683103154,21.38009330564827,0 81.40113434345395,21.3805715689061,0 81.40211152040507,21.38065859065573,0 81.40355154687202,21.38078580835345,0 81.4042979964227,21.38083264435835,0 81.40361190959084,21.38020113367741,0 81.40292359255544,21.37958138347433,0 81.40222870822511,21.37895036743603,0 81.4015383114715,21.37831526581659,0 81.40083985136516,21.37768996201279,0 81.40017849937425,21.3772645121232,0 81.39947395299778,21.37683178352275,0 81.40010759668941,21.37615658342737,0 81.40065768617278,21.37556517943831,0 81.40119709036277,21.37497917450623,0 81.40132804396208,21.37420971001564,0 81.40092594878735,21.37339015194208,0 81.40083068301247,21.37292832665789,0 81.40040622860069,21.3725561994778,0 81.40019228738285,21.37214428428939,0 81.40007711797455,21.37175824826168,0 81.3999033656451,21.37116460162703,0 81.39977754572104,21.3709578006137,0 81.39932155790102,21.3704949696076,0 81.39872307301231,21.37013923801265,0 81.39872910618605,21.36935541997448,0 81.39905954199061,21.36875134458656,0 81.39944660834183,21.36843428120625,0 81.39954147291621,21.36773594709288,0 81.39950503738366,21.36751701533071,0 81.3994187998203,21.36692319383932,0 81.39908887973706,21.36687726628298,0 81.39886719992667,21.36665634216488,0 81.39881752128485,21.36630015564676,0 81.39889521554322,21.36578716069759,0 81.39886418203791,21.36533293463013,0 81.39885352846734,21.36481167058097,0 81.39946002707713,21.3646187933849,0 81.39932035668717,21.36413615270627,0 81.3990645360645,21.36371545385197,0 81.39919955756206,21.36324585794689,0 81.39947431897599,21.36262928847453,0 81.39968559414268,21.3620864298225,0 81.40004952277174,21.36142106080025,0 81.39985168271002,21.36096898053869,0 81.39995913556115,21.36070668400549,0 81.40019101740209,21.36060019300792,0 81.40057885426997,21.36131881933485,0 81.40096478067301,21.36133605245083,0 81.40113203052455,21.36105648952539,0 81.4009251872051,21.36036011086437,0 81.40106976167294,21.360150970157,0 81.40158032558131,21.36022220683154,0 81.40193690462588,21.36001245986941,0 81.4022455872276,21.36036735379158,0 81.4027117468553,21.36021785205214,0 81.40318074947952,21.36026126812927,0 81.4035476655425,21.36031559104458,0 81.40389575720199,21.36056612773039,0 81.40470705152775,21.36068384602221,0 81.40542045771569,21.36071579050131,0 81.40584497194747,21.3612299933444,0 81.4060589279335,21.36127552685354,0 81.40678844072472,21.36094325445654,0 81.40688509853541,21.36101398511055,0 81.40699302129579,21.3612258370725,0 81.40757835144096,21.36108811403741,0 81.4083972668079,21.36096159137894,0 81.40833980032862,21.36068947702841,0 81.40942918801662,21.36053683406934,0 81.41049313894614,21.36049886479209,0 81.41104361008769,21.36097458242294,0 81.41161468073993,21.36150700281408,0 81.4122813858929,21.36210969321334,0 81.41297636205231,21.36274021066967,0 81.41371341937797,21.3634237268889,0 81.41440932864835,21.36405818066448,0 81.41510505027473,21.36468538100437,0 81.41497308200152,21.36545503406212,0 81.41471032873771,21.36634484061797,0 81.41461853265986,21.36699703717571,0 81.414697401472,21.3672002087004,0 81.41459569842192,21.3676901829531,0 81.41467580275587,21.36816536492087,0 81.4155867049479,21.36842650686473,0 81.41608033908322,21.36832566750919,0 81.4163967743762,21.36800712246742,0 81.41640987408171,21.36741819928101,0 81.41702026972581,21.36694697801681,0 81.41716663616606,21.366555359521,0 81.41763708700226,21.36698695579503,0 81.41823743149176,21.36753856008894,0 81.41934989012995,21.36867652647276,0 81.41987679216579,21.3697071867148,0 81.41998269273202,21.37035615607355,0 81.42020965359329,21.37131702346576,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

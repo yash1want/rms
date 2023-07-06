@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ML-I Reclaimed.kmz</name>
+	<Style id="inline">
+		<LineStyle>
+			<color>ff00aa55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline0">
+		<LineStyle>
+			<color>ff00aa55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Polygon Measure</name>
+		<styleUrl>#inline1</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.94761804836517,24.61825230575346,0 80.94764355858169,24.61838192664945,0 80.94778681357216,24.61869359814921,0 80.94787533948285,24.61887485580939,0 80.94798693825285,24.61904139245552,0 80.94813761178118,24.61929549093815,0 80.94830963450251,24.61957463769766,0 80.94875011541416,24.61937988086521,0 80.94869504453904,24.61988756318637,0 80.94853868789173,24.61978960247151,0 80.94837605323974,24.61977989609203,0 80.9482350584225,24.61970371593139,0 80.94808219004304,24.61960633658128,0 80.94791842750435,24.61954742971628,0 80.94772118353391,24.61948517204877,0 80.94750155196061,24.61943307256681,0 80.9470505892499,24.61933936338425,0 80.94687842687631,24.61916091950688,0 80.94679895812874,24.61896536677589,0 80.94683968485866,24.61874310609344,0 80.94698186764118,24.61857037835934,0 80.94711352693471,24.61842698120128,0 80.94759109925394,24.61806106494666,0 80.94761804836517,24.61825230575346,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

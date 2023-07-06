@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>f.76</name>
+	<open>1</open>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;}</style><table style="width: 300px;"><tr><td style="vertical-align: top;">Source</td><td style="width: 100%;">f.75.xlsx</td></tr><tr><td>DateTime</td><td>2022-01-13 10:56:07 UTC <br/></td></tr><tr><td colspan="2" style="vertical-align: top;"><br/>Created with <a target='_blank' href='https://www.earthpoint.us/ExcelToKml.aspx'>Earth Point Excel To KML</a><br/>&copy;2022 Earth Point<br/><br/>For illustration only.&nbsp; User to verify all information. </td></tr></table>]]></description>
+	<Style>
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+			<textColor>ff000000</textColor>
+			<displayMode>default</displayMode>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="0_0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Normal0_0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Highlight0_0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="0_1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Normal0_1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Highlight0_1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="Highlight0_0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.earthpoint.us/Dots/GoogleEarth/paddle/purple-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="Highlight0_1">
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ccffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="Normal0_0">
+		<IconStyle>
+			<Icon>
+				<href>http://www.earthpoint.us/Dots/GoogleEarth/paddle/purple-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="Normal0_1">
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Sheet1</name>
+		<Placemark>
+			<name>BP-92</name>
+			<LookAt>
+				<longitude>77.79942877777781</longitude>
+				<latitude>11.4843917777778</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							77.79942877777781,11.4843917777778,0 77.7993735277778,11.4841410833333,0 77.7997850555556,11.4836328888889,0 77.7994619166667,11.4833864444444,0 77.79953399999999,11.4833196666667,0 77.79853436111109,11.4825393055556,0 77.79803936111109,11.4820213055556,0 77.7978452777778,11.4820258611111,0 77.7973325833333,11.4825165277778,0 77.7969267222222,11.4824195,0 77.79648344444441,11.4823135555556,0 77.7954354722222,11.4816199444444,0 77.7949386944444,11.4816572777778,0 77.79384347222221,11.4813224444444,0 77.79334,11.4810964166667,0 77.79225649999999,11.4804941388889,0 77.7917568888889,11.4804471111111,0 77.7917734166667,11.480714,0 77.79206005555559,11.48075325,0 77.7925430833333,11.481037,0 77.7930265,11.4813199166667,0 77.7942974444444,11.4820651111111,0 77.79509194444439,11.4822947777778,0 77.7961289166667,11.4826371111111,0 77.7964849444444,11.4828031666667,0 77.79665983333329,11.4833435833333,0 77.7968397222222,11.4832999166667,0 77.7973230833333,11.4835844166667,0 77.7978080277778,11.4838687777778,0 77.7982929444444,11.4841531666667,0 77.79942877777781,11.4843917777778,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>BP-92</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-92</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 29' 03.8104" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 57.9436" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.79942877777781</longitude>
+				<latitude>11.4843917777778</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.79942877777781,11.4843917777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-152</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-152</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 29' 02.9079" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 57.7447" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.7993735277778</longitude>
+				<latitude>11.4841410833333</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.7993735277778,11.4841410833333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-159</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-159</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 29' 01.0784" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 59.2262" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.7997850555556</longitude>
+				<latitude>11.4836328888889</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.7997850555556,11.4836328888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-05</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-05</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 29' 00.1912" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 58.0629" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.7994619166667</longitude>
+				<latitude>11.4833864444444</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.7994619166667,11.4833864444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-06</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-06</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 28' 59.9508" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 58.3224" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.79953399999999</longitude>
+				<latitude>11.4833196666667</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.79953399999999,11.4833196666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-6A</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-6A</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 28' 57.1415" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 54.7237" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.79853436111109</longitude>
+				<latitude>11.4825393055556</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.79853436111109,11.4825393055556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-6B</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-6B</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 28' 55.2767" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 52.9417" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.79803936111109</longitude>
+				<latitude>11.4820213055556</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.79803936111109,11.4820213055556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-163</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-163</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 28' 55.2931" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 52.2430" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.7978452777778</longitude>
+				<latitude>11.4820258611111</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.7978452777778,11.4820258611111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-162</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-162</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 28' 57.0595" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 50.3973" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.7973325833333</longitude>
+				<latitude>11.4825165277778</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.7973325833333,11.4825165277778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-161</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-161</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 28' 56.7102" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 48.9362" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.7969267222222</longitude>
+				<latitude>11.4824195</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.7969267222222,11.4824195,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-160A</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-160A</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 28' 56.3288" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 47.3404" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.79648344444441</longitude>
+				<latitude>11.4823135555556</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.79648344444441,11.4823135555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-160</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-160</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 28' 53.8318" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 43.5677" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.7954354722222</longitude>
+				<latitude>11.4816199444444</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.7954354722222,11.4816199444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-167A</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-167A</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 28' 53.9662" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 41.7793" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.7949386944444</longitude>
+				<latitude>11.4816572777778</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.7949386944444,11.4816572777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-167</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-167</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 28' 52.7608" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 37.8365" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.79384347222221</longitude>
+				<latitude>11.4813224444444</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.79384347222221,11.4813224444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-170</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-170</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 28' 51.9471" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 36.0240" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.79334</longitude>
+				<latitude>11.4810964166667</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.79334,11.4810964166667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-171</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-171</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 28' 49.7789" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 32.1234" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.79225649999999</longitude>
+				<latitude>11.4804941388889</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.79225649999999,11.4804941388889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-172</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-172</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 28' 49.6096" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 30.3248" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.7917568888889</longitude>
+				<latitude>11.4804471111111</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.7917568888889,11.4804471111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-173</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-173</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 28' 50.5704" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 30.3843" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.7917734166667</longitude>
+				<latitude>11.480714</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.7917734166667,11.480714,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-104</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-104</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 28' 50.7117" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 31.4162" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.79206005555559</longitude>
+				<latitude>11.48075325</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.79206005555559,11.48075325,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-103</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-103</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 28' 51.7332" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 33.1551" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.7925430833333</longitude>
+				<latitude>11.481037</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.7925430833333,11.481037,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-102</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-102</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 28' 52.7517" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 34.8954" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.7930265</longitude>
+				<latitude>11.4813199166667</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.7930265,11.4813199166667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-101</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-101</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 28' 55.4344" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 39.4708" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.7942974444444</longitude>
+				<latitude>11.4820651111111</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.7942974444444,11.4820651111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-100</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-100</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 28' 56.2612" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 42.3310" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.79509194444439</longitude>
+				<latitude>11.4822947777778</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.79509194444439,11.4822947777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-99</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-99</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 28' 57.4936" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 46.0641" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.7961289166667</longitude>
+				<latitude>11.4826371111111</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.7961289166667,11.4826371111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-98</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-98</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 28' 58.0914" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 47.3458" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.7964849444444</longitude>
+				<latitude>11.4828031666667</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.7964849444444,11.4828031666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-97</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-97</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 29' 00.0369" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 47.9754" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.79665983333329</longitude>
+				<latitude>11.4833435833333</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.79665983333329,11.4833435833333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-96</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-96</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 28' 59.8797" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 48.6230" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.7968397222222</longitude>
+				<latitude>11.4832999166667</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.7968397222222,11.4832999166667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-95</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-95</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 29' 00.9039" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 50.3631" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.7973230833333</longitude>
+				<latitude>11.4835844166667</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.7973230833333,11.4835844166667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-94</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-94</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 29' 01.9276" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 52.1089" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.7978080277778</longitude>
+				<latitude>11.4838687777778</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.7978080277778,11.4838687777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-93</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>BP-93</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>11° 29' 02.9514" N</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>77° 47' 53.8546" E</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>77.7982929444444</longitude>
+				<latitude>11.4841531666667</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>77.7982929444444,11.4841531666667,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

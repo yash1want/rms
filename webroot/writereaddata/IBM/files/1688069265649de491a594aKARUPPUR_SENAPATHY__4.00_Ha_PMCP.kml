@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Karuppur Senapathy_4.00 Ha_PMCP.kml</name>
+	<Schema name="7" id="7">
+		<SimpleField type="string" name="LAYER"></SimpleField>
+		<SimpleField type="string" name="GM_TYPE"></SimpleField>
+		<SimpleField type="float" name="ELEVATION"></SimpleField>
+	</Schema>
+	<Schema name="Existing_Back_filled_area" id="Existing_Back_filled_area">
+		<SimpleField type="float" name="fid"></SimpleField>
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHand"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Schema name="Existing_Dump" id="Existing_Dump">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHand"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Schema name="Existing_Pit" id="Existing_Pit">
+		<SimpleField type="float" name="fid"></SimpleField>
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHand"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Schema name="Existing_Plantation" id="Existing_Plantation">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHand"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Schema name="Mining_Lease_Boundary" id="Mining_Lease_Boundary">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHand"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff55ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff55ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7f00ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff55ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7f00ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff55ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style0">
+		<LineStyle>
+			<color>ff000055</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style1">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style2">
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style3">
+		<LineStyle>
+			<color>ff000055</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style4">
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style5">
+		<LineStyle>
+			<color>ff00aa55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style6">
+		<LineStyle>
+			<color>ff00aa55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id18">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Karuppur Senapathy</name>
+		<open>1</open>
+		<Placemark>
+			<name>7.5 m safety distance </name>
+			<open>1</open>
+			<styleUrl>#stylemap_id18</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#7">
+					<SimpleData name="LAYER">BOUNDARY</SimpleData>
+					<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+					<SimpleData name="ELEVATION">65.392</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.0801924441309,11.0528221487526,0 79.0795740846258,11.0538914746482,0 79.0821517296166,11.0540838538631,0 79.08212904818861,11.0538947892406,0 79.081957897498,11.0531557819252,0 79.0818725367408,11.0526430504918,0 79.0802768628558,11.0526238190257,0 79.0801924441309,11.0528221487526,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Mining Lease Boundary</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Mining_Lease_Boundary">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+					<SimpleData name="EntityHand">1CD</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.0801307911474,11.0527920878992,0 79.0801307911474,11.0527920878992,0 79.0799025162394,11.0531946564921,0 79.079673666891,11.0535897728237,0 79.0794606302894,11.0539509927357,0 79.0799225025105,11.0539820196766,0 79.0803765229852,11.0540117396292,0 79.08083150260011,11.0540558193178,0 79.0812868198267,11.0540888274098,0 79.08174464929471,11.0541253308778,0 79.0822296929389,11.0541576583823,0 79.0821967679849,11.0538832077932,0 79.0820943329357,11.0534428258066,0 79.0820219463305,11.0531337848521,0 79.0819501689808,11.0526901895084,0 79.08193091719779,11.052575955938,0 79.0814699663963,11.0525681058212,0 79.0810147847766,11.0525638440335,0 79.08055508931361,11.0525599958369,0 79.0802315053686,11.052555474293,0 79.0801307911474,11.0527920878992,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Existing Plantation</name>
+			<open>1</open>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Existing_Plantation">
+					<SimpleData name="Layer">shape file</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+					<SimpleData name="EntityHand">1D923</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.0801439081125,11.0527596897916,0 79.0801304088381,11.0527914473462,0 79.07991028141799,11.0531800883721,0 79.0794606302894,11.0539509927357,0 79.0803560426307,11.0540093171475,0 79.0808204056803,11.0540540819914,0 79.0812722058683,11.0540868992281,0 79.0822305501062,11.0541579527767,0 79.0821985972956,11.053891065027,0 79.08202238149499,11.0531391791116,0 79.08193091719779,11.052575955938,0 79.081524303713,11.0525676648888,0 79.08056446619609,11.0525583873815,0 79.08049243503361,11.0525678615054,0 79.08044028117919,11.0526333398008,0 79.08040862648301,11.0527139104217,0 79.0804400039853,11.0528124121605,0 79.0804915284906,11.0528460610555,0 79.08060023433281,11.0528631315789,0 79.08071387921601,11.0528654563169,0 79.0808524355395,11.0528799136365,0 79.0809709485717,11.0528884856713,0 79.08098775556211,11.0528829049943,0 79.0812618632779,11.0527977560983,0 79.0813649730601,11.0527251650011,0 79.08140454850169,11.0526819043244,0 79.0816417347455,11.052622414784,0 79.0817177549648,11.0526278895017,0 79.081719132251,11.0525870175639,0 79.0818839937763,11.0525879844345,0 79.0818901944162,11.0526738448671,0 79.08187841268121,11.0526754652162,0 79.0819548464131,11.0531453772697,0 79.0821297620371,11.0538935305545,0 79.08215261879511,11.0540832714136,0 79.08154951238291,11.0540407365841,0 79.0800444689541,11.0538988313821,0 79.0800893589095,11.0538742758867,0 79.080091252727,11.0535595161497,0 79.0801743498378,11.053560003996,0 79.08015531043441,11.0532430254345,0 79.0801476576525,11.0530175859049,0 79.0801622822603,11.0529098130948,0 79.0801439081125,11.0527596897916,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Existing Pit </name>
+			<visibility>0</visibility>
+			<open>1</open>
+			<styleUrl>#stylemap_id15</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Existing_Pit">
+					<SimpleData name="fid">2</SimpleData>
+					<SimpleData name="Layer">shape file</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+					<SimpleData name="EntityHand">1D926</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.0800893589095,11.0538742758867,0 79.0802333777183,11.0538895186026,0 79.08033190924991,11.0538829662162,0 79.0815495681543,11.0540194834855,0 79.0820230020706,11.0540725609784,0 79.08215261879511,11.0540832714136,0 79.08214647870599,11.0540323006846,0 79.0820099416791,11.054006846588,0 79.0820103065229,11.0539461440451,0 79.08195781104099,11.0537968363115,0 79.08194175704431,11.0536023499451,0 79.08193159860539,11.0535494655542,0 79.081932424993,11.0534119707736,0 79.08191519540151,11.0533326326519,0 79.0818300498326,11.0533441640593,0 79.0818079864566,11.0533471521352,0 79.08180903721259,11.0531723351416,0 79.08176473680049,11.0528692063721,0 79.08171045540961,11.052751870461,0 79.0816973128186,11.0526954176822,0 79.0816988956467,11.0526800146719,0 79.08185514563991,11.0526809310587,0 79.0818901944162,11.0526738448671,0 79.0818839937763,11.0525879844345,0 79.081719132251,11.0525870175639,0 79.0817177549648,11.0526278895017,0 79.0816417347455,11.052622414784,0 79.08140454850169,11.0526819043244,0 79.0813649730601,11.0527251650011,0 79.0812618632779,11.0527977560983,0 79.0811758005147,11.0528272889865,0 79.0809709485717,11.0528884856713,0 79.08071387921601,11.0528654563169,0 79.08060023433281,11.0528631315789,0 79.0804915284906,11.0528460610555,0 79.0804400039853,11.0528124121605,0 79.08040862648301,11.0527139104217,0 79.08044028117919,11.0526333398008,0 79.08049243503361,11.0525678615054,0 79.08057875671901,11.0525592782039,0 79.0804058593038,11.0525582634586,0 79.08023103502239,11.052554720215,0 79.0801439081125,11.0527596897916,0 79.0801622822603,11.0529098130948,0 79.0801476576525,11.0530175859049,0 79.0801605427384,11.0533301357087,0 79.0801743498378,11.053560003996,0 79.080091252727,11.0535595161497,0 79.0800893589095,11.0538742758867,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Existing Dump</name>
+			<open>1</open>
+			<styleUrl>#stylemap_id14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Existing_Dump">
+					<SimpleData name="Layer">shape file</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+					<SimpleData name="EntityHand">1D927</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.0800413110633,11.0531207254039,0 79.0798405566657,11.0533971755221,0 79.07976178911549,11.053488427374,0 79.0795966111296,11.0538153805077,0 79.07961656093219,11.053838636955,0 79.0797739720812,11.053873441556,0 79.0799598948872,11.0538580051895,0 79.0800079406569,11.0538034085671,0 79.07999280256939,11.0536760535528,0 79.08001069871931,11.053504141608,0 79.0800697291602,11.0534317646875,0 79.0800984663322,11.0534391638697,0 79.080171296286,11.053500338478,0 79.0801652048155,11.0534119529142,0 79.08015531043441,11.0532430254345,0 79.080155810886,11.0531598411171,0 79.08010880083469,11.0531562041113,0 79.08007255310611,11.0531172737112,0 79.0800413110633,11.0531207254039,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Existing Backfilling</name>
+			<open>1</open>
+			<styleUrl>#stylemap_id13</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Existing_Back_filled_area">
+					<SimpleData name="fid">3</SimpleData>
+					<SimpleData name="Layer">shape file</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+					<SimpleData name="EntityHand">1D929</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.08132537759118,11.05281680026573,0 79.08137736667619,11.05280611799816,0 79.08141594791087,11.0527939851313,0 79.08154165889536,11.05279398911105,0 79.08160048203135,11.05281987306594,0 79.0816513409904,11.052875625459,0 79.08169937158753,11.05293860047195,0 79.08169696140018,11.05303582504752,0 79.08165446293852,11.05307928939774,0 79.08161078309193,11.05310940517917,0 79.08149861016007,11.05306352468876,0 79.08143049223193,11.05303238038704,0 79.08134591478014,11.05301189059096,0 79.08133922464954,11.05296491915085,0 79.08131656981243,11.05293532222549,0 79.08130264789344,11.05289337466469,0 79.08128747606079,11.0528714989317,0 79.0812846930941,11.0528579804792,0 79.08130058877236,11.05283526099261,0 79.08132537759118,11.05281680026573,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

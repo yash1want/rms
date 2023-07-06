@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Markondaputti - Radhika Metals &amp; Minerals - 9.712 Ha.kml</name>
+	<Schema name="LEASE_BOUNDARY" id="S_LEASE_BOUNDARY_SSIDIISSDD">
+		<SimpleField type="long" name="OID_"><displayName>&lt;b&gt;OID_&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FolderPath"><displayName>&lt;b&gt;FolderPath&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="SymbolID"><displayName>&lt;b&gt;SymbolID&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="AltMode"><displayName>&lt;b&gt;AltMode&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Base"><displayName>&lt;b&gt;Base&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="Clamped"><displayName>&lt;b&gt;Clamped&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="Extruded"><displayName>&lt;b&gt;Extruded&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Snippet"><displayName>&lt;b&gt;Snippet&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="PopupInfo"><displayName>&lt;b&gt;PopupInfo&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Shape_Leng"><displayName>&lt;b&gt;Shape_Leng&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Shape_Area"><displayName>&lt;b&gt;Shape_Area&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Schema name="MARKANDPUTI" id="S_MARKANDPUTI_SSIDIISSDD">
+		<SimpleField type="long" name="OID_"><displayName>&lt;b&gt;OID_&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FolderPath"><displayName>&lt;b&gt;FolderPath&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="SymbolID"><displayName>&lt;b&gt;SymbolID&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="AltMode"><displayName>&lt;b&gt;AltMode&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Base"><displayName>&lt;b&gt;Base&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="Clamped"><displayName>&lt;b&gt;Clamped&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="Extruded"><displayName>&lt;b&gt;Extruded&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Snippet"><displayName>&lt;b&gt;Snippet&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="PopupInfo"><displayName>&lt;b&gt;PopupInfo&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Shape_Leng"><displayName>&lt;b&gt;Shape_Leng&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Shape_Area"><displayName>&lt;b&gt;Shape_Area&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="falseColor">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>OID_</b></td><td>$[LEASE_BOUNDARY/OID_]</td></tr>
+  <tr><td><b>Name</b></td><td>$[LEASE_BOUNDARY/Name]</td></tr>
+  <tr><td><b>FolderPath</b></td><td>$[LEASE_BOUNDARY/FolderPath]</td></tr>
+  <tr><td><b>SymbolID</b></td><td>$[LEASE_BOUNDARY/SymbolID]</td></tr>
+  <tr><td><b>AltMode</b></td><td>$[LEASE_BOUNDARY/AltMode]</td></tr>
+  <tr><td><b>Base</b></td><td>$[LEASE_BOUNDARY/Base]</td></tr>
+  <tr><td><b>Clamped</b></td><td>$[LEASE_BOUNDARY/Clamped]</td></tr>
+  <tr><td><b>Extruded</b></td><td>$[LEASE_BOUNDARY/Extruded]</td></tr>
+  <tr><td><b>Snippet</b></td><td>$[LEASE_BOUNDARY/Snippet]</td></tr>
+  <tr><td><b>PopupInfo</b></td><td>$[LEASE_BOUNDARY/PopupInfo]</td></tr>
+  <tr><td><b>Shape_Leng</b></td><td>$[LEASE_BOUNDARY/Shape_Leng]</td></tr>
+  <tr><td><b>Shape_Area</b></td><td>$[LEASE_BOUNDARY/Shape_Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor0">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>OID_</b></td><td>$[MARKANDPUTI/OID_]</td></tr>
+  <tr><td><b>Name</b></td><td>$[MARKANDPUTI/Name]</td></tr>
+  <tr><td><b>FolderPath</b></td><td>$[MARKANDPUTI/FolderPath]</td></tr>
+  <tr><td><b>SymbolID</b></td><td>$[MARKANDPUTI/SymbolID]</td></tr>
+  <tr><td><b>AltMode</b></td><td>$[MARKANDPUTI/AltMode]</td></tr>
+  <tr><td><b>Base</b></td><td>$[MARKANDPUTI/Base]</td></tr>
+  <tr><td><b>Clamped</b></td><td>$[MARKANDPUTI/Clamped]</td></tr>
+  <tr><td><b>Extruded</b></td><td>$[MARKANDPUTI/Extruded]</td></tr>
+  <tr><td><b>Snippet</b></td><td>$[MARKANDPUTI/Snippet]</td></tr>
+  <tr><td><b>PopupInfo</b></td><td>$[MARKANDPUTI/PopupInfo]</td></tr>
+  <tr><td><b>Shape_Leng</b></td><td>$[MARKANDPUTI/Shape_Leng]</td></tr>
+  <tr><td><b>Shape_Area</b></td><td>$[MARKANDPUTI/Shape_Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000055</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor3">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>OID_</b></td><td>$[MARKANDPUTI/OID_]</td></tr>
+  <tr><td><b>Name</b></td><td>$[MARKANDPUTI/Name]</td></tr>
+  <tr><td><b>FolderPath</b></td><td>$[MARKANDPUTI/FolderPath]</td></tr>
+  <tr><td><b>SymbolID</b></td><td>$[MARKANDPUTI/SymbolID]</td></tr>
+  <tr><td><b>AltMode</b></td><td>$[MARKANDPUTI/AltMode]</td></tr>
+  <tr><td><b>Base</b></td><td>$[MARKANDPUTI/Base]</td></tr>
+  <tr><td><b>Clamped</b></td><td>$[MARKANDPUTI/Clamped]</td></tr>
+  <tr><td><b>Extruded</b></td><td>$[MARKANDPUTI/Extruded]</td></tr>
+  <tr><td><b>Snippet</b></td><td>$[MARKANDPUTI/Snippet]</td></tr>
+  <tr><td><b>PopupInfo</b></td><td>$[MARKANDPUTI/PopupInfo]</td></tr>
+  <tr><td><b>Shape_Leng</b></td><td>$[MARKANDPUTI/Shape_Leng]</td></tr>
+  <tr><td><b>Shape_Area</b></td><td>$[MARKANDPUTI/Shape_Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000055</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor4">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>OID_</b></td><td>$[LEASE_BOUNDARY/OID_]</td></tr>
+  <tr><td><b>Name</b></td><td>$[LEASE_BOUNDARY/Name]</td></tr>
+  <tr><td><b>FolderPath</b></td><td>$[LEASE_BOUNDARY/FolderPath]</td></tr>
+  <tr><td><b>SymbolID</b></td><td>$[LEASE_BOUNDARY/SymbolID]</td></tr>
+  <tr><td><b>AltMode</b></td><td>$[LEASE_BOUNDARY/AltMode]</td></tr>
+  <tr><td><b>Base</b></td><td>$[LEASE_BOUNDARY/Base]</td></tr>
+  <tr><td><b>Clamped</b></td><td>$[LEASE_BOUNDARY/Clamped]</td></tr>
+  <tr><td><b>Extruded</b></td><td>$[LEASE_BOUNDARY/Extruded]</td></tr>
+  <tr><td><b>Snippet</b></td><td>$[LEASE_BOUNDARY/Snippet]</td></tr>
+  <tr><td><b>PopupInfo</b></td><td>$[LEASE_BOUNDARY/PopupInfo]</td></tr>
+  <tr><td><b>Shape_Leng</b></td><td>$[LEASE_BOUNDARY/Shape_Leng]</td></tr>
+  <tr><td><b>Shape_Area</b></td><td>$[LEASE_BOUNDARY/Shape_Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>Markondaputti - Radhika Metals &amp; Minerals - 9.712 Ha</name>
+		<open>1</open>
+		<Placemark>
+			<name>Markondaputti - Radhika Metals &amp; Minerals - 9.712 Ha- Lease Boundary</name>
+			<styleUrl>#falseColor1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_LEASE_BOUNDARY_SSIDIISSDD">
+					<SimpleData name="OID_">0</SimpleData>
+					<SimpleData name="Name">Markondaputti Lease Boundaery</SimpleData>
+					<SimpleData name="FolderPath">Markondaputti Lease Boundaery .kml</SimpleData>
+					<SimpleData name="SymbolID">0</SimpleData>
+					<SimpleData name="AltMode">0</SimpleData>
+					<SimpleData name="Base">0</SimpleData>
+					<SimpleData name="Clamped">-1</SimpleData>
+					<SimpleData name="Extruded">0</SimpleData>
+					<SimpleData name="Snippet"></SimpleData>
+					<SimpleData name="PopupInfo"></SimpleData>
+					<SimpleData name="Shape_Leng">0.0114823</SimpleData>
+					<SimpleData name="Shape_Area">8.31719e-06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.21726855357674,18.70791723443957,0 83.2177981029357,18.70799503319054,0 83.21787185084021,18.70788455019738,0 83.21848761819648,18.70797732305737,0 83.21940589396262,18.70840447262182,0 83.21950019701842,18.70848123230367,0 83.21986054435187,18.7087745423964,0 83.22034821891924,18.7094702075715,0 83.22050949242343,18.70970026167631,0 83.22076294534996,18.71006180657209,0 83.22098856933211,18.71081398122673,0 83.21888668175659,18.71136564761494,0 83.21837104862948,18.71115935371998,0 83.2182864101518,18.71099228389936,0 83.21718433973628,18.70881684408899,0 83.21726855357674,18.70791723443957,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Markondaputti - Radhika Metals &amp; Minerals - Pit Area</name>
+			<styleUrl>#falseColor2</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_MARKANDPUTI_SSIDIISSDD">
+					<SimpleData name="OID_">0</SimpleData>
+					<SimpleData name="Name">Actual Excavation area</SimpleData>
+					<SimpleData name="FolderPath">Markondaputti Lease Boundaery .kml</SimpleData>
+					<SimpleData name="SymbolID">0</SimpleData>
+					<SimpleData name="AltMode">0</SimpleData>
+					<SimpleData name="Base">0</SimpleData>
+					<SimpleData name="Clamped">-1</SimpleData>
+					<SimpleData name="Extruded">0</SimpleData>
+					<SimpleData name="Snippet"></SimpleData>
+					<SimpleData name="PopupInfo"></SimpleData>
+					<SimpleData name="Shape_Leng">0.0114823</SimpleData>
+					<SimpleData name="Shape_Area">8.31719e-06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.22034929881774,18.70960668527916,0 83.2206177484609,18.70999783132283,0 83.2207430379717,18.71022935802976,0 83.2207926691222,18.71042892084292,0 83.22085355296873,18.71073703544838,0 83.22067893627627,18.71084252055267,0 83.22051938450674,18.71086831036596,0 83.2202985601814,18.71076338366947,0 83.21954195129439,18.71020176855449,0 83.21927475049466,18.7099062006296,0 83.21923859472828,18.70977817359666,0 83.21938091427874,18.70963309577827,0 83.22000201890323,18.70918062481405,0 83.22018024352809,18.70938463882689,0 83.22034929881774,18.70960668527916,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

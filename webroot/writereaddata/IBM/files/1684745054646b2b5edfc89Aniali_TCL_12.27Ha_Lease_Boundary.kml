@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Aniali_TCL_12.27Ha_Lease Boundary.kml</name>
+	<Style id="Line_0_1_ff0000_030">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="Line_0_1_ff0000_031">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Line_0_1_ff0000_03</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Line_0_1_ff0000_030</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="Line_0_1_ff0000_03">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Aniali_TCL_12.27Ha_Lease Boundary</name>
+		<Placemark>
+			<LookAt>
+				<longitude>69.82537361</longitude>
+				<latitude>21.70398472</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>747</range>
+			</LookAt>
+			<styleUrl>#Line_0_1_ff0000_031</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							69.82548889,21.70125833,0 69.82324722,21.70523056,0 69.82425277999999,21.705725,0 69.823975,21.70621667,0 69.82497778,21.70671111,0 69.82582778,21.70523889,0 69.8275,21.70225,0 69.82548889,21.70125833,0 69.82548889,21.70125833,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

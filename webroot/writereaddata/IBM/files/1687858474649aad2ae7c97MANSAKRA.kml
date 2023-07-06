@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>MANSAKRA.kml</name>
+	<Schema name="SHP" id="S_SHP_SSSSI">
+		<SimpleField type="string" name="NAME"><displayName>&lt;b&gt;NAME&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="KML_STYLE"><displayName>&lt;b&gt;KML_STYLE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="KML_FOLDER"><displayName>&lt;b&gt;KML_FOLDER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="tessellate"><displayName>&lt;b&gt;tessellate&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="falseColor">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[SHP/NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[SHP/LAYER]</td></tr>
+  <tr><td><b>KML_STYLE</b></td><td>$[SHP/KML_STYLE]</td></tr>
+  <tr><td><b>KML_FOLDER</b></td><td>$[SHP/KML_FOLDER]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[SHP/tessellate]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>ff00ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor0">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[SHP/NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[SHP/LAYER]</td></tr>
+  <tr><td><b>KML_STYLE</b></td><td>$[SHP/KML_STYLE]</td></tr>
+  <tr><td><b>KML_FOLDER</b></td><td>$[SHP/KML_FOLDER]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[SHP/tessellate]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>ff00ffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor2">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[SHP/NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[SHP/LAYER]</td></tr>
+  <tr><td><b>KML_STYLE</b></td><td>$[SHP/KML_STYLE]</td></tr>
+  <tr><td><b>KML_FOLDER</b></td><td>$[SHP/KML_FOLDER]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[SHP/tessellate]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>ff00ffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor4">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[SHP/NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[SHP/LAYER]</td></tr>
+  <tr><td><b>KML_STYLE</b></td><td>$[SHP/KML_STYLE]</td></tr>
+  <tr><td><b>KML_FOLDER</b></td><td>$[SHP/KML_FOLDER]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[SHP/tessellate]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>ff00ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor5">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[SHP/NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[SHP/LAYER]</td></tr>
+  <tr><td><b>KML_STYLE</b></td><td>$[SHP/KML_STYLE]</td></tr>
+  <tr><td><b>KML_FOLDER</b></td><td>$[SHP/KML_FOLDER]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[SHP/tessellate]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>ffff00ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor7">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[SHP/NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[SHP/LAYER]</td></tr>
+  <tr><td><b>KML_STYLE</b></td><td>$[SHP/KML_STYLE]</td></tr>
+  <tr><td><b>KML_FOLDER</b></td><td>$[SHP/KML_FOLDER]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[SHP/tessellate]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>ffff00ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>MANSAKRA</name>
+		<Folder>
+			<name>pillars</name>
+			<Placemark>
+				<name>BP-1A</name>
+				<LookAt>
+					<longitude>80.12272979515505</longitude>
+					<latitude>23.49945564415626</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0002895799218997235</heading>
+					<tilt>37.74330208022858</tilt>
+					<range>459.2093294617709</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.12295080062319,23.49893704425904,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-1B</name>
+				<LookAt>
+					<longitude>80.12299202974879</longitude>
+					<latitude>23.49913435999078</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0001994183149508178</heading>
+					<tilt>36.73707536996145</tilt>
+					<range>207.8344626263813</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.12256934931447,23.49886263922676,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-1C</name>
+				<LookAt>
+					<longitude>80.12269131031354</longitude>
+					<latitude>23.49889380997177</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0003193229983605252</heading>
+					<tilt>36.73747229009982</tilt>
+					<range>281.7156091042053</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.12209014739663,23.49876058603542,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-1D</name>
+				<LookAt>
+					<longitude>80.12232539356201</longitude>
+					<latitude>23.49889953739154</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0004652152000420469</heading>
+					<tilt>36.73808081413259</tilt>
+					<range>394.9919223597833</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.12162103864775,23.49861342756705,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-1E</name>
+				<LookAt>
+					<longitude>80.12194448484102</longitude>
+					<latitude>23.49874519983317</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0006170935413823612</heading>
+					<tilt>36.73807355989177</tilt>
+					<range>393.6417893921522</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.1211616042204,23.49848438656982,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-1F</name>
+				<LookAt>
+					<longitude>80.12161762593821</longitude>
+					<latitude>23.4987033061879</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0007474177241080837</heading>
+					<tilt>36.73807021823111</tilt>
+					<range>393.0198844380267</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.12068246482745,23.49837329731112,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-1</name>
+				<LookAt>
+					<longitude>79.41745898375193</longitude>
+					<latitude>21.96566766476762</latitude>
+					<altitude>0</altitude>
+					<heading>0.9058124162154151</heading>
+					<tilt>0</tilt>
+					<range>15876405.92542632</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.1232735536846,23.49900208590727,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-1G</name>
+				<LookAt>
+					<longitude>80.12174339597384</longitude>
+					<latitude>23.49862314321162</latitude>
+					<altitude>0</altitude>
+					<heading>-6.321821561224256e-10</heading>
+					<tilt>45.0000000011112</tilt>
+					<range>1000.000200234914</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.12021323922394,23.49824419829356,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-2</name>
+				<LookAt>
+					<longitude>80.12174339597384</longitude>
+					<latitude>23.49862314321162</latitude>
+					<altitude>0</altitude>
+					<heading>-6.321821561224256e-10</heading>
+					<tilt>45.0000000011112</tilt>
+					<range>1000.000200234914</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.11978282664138,23.49816951002549,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-2A</name>
+				<LookAt>
+					<longitude>80.12060408247588</longitude>
+					<latitude>23.49841195307863</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0009188368667331586</heading>
+					<tilt>29.47125770573311</tilt>
+					<range>305.5926141000874</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.11951559504685,23.49859251067383,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-3</name>
+				<LookAt>
+					<longitude>80.12060408247588</longitude>
+					<latitude>23.49841195307863</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0009188368667331586</heading>
+					<tilt>29.47125770573311</tilt>
+					<range>305.5926141000874</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.11916923672264,23.49913248127654,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-3A</name>
+				<LookAt>
+					<longitude>80.12060408247588</longitude>
+					<latitude>23.49841195307863</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0009188368667331586</heading>
+					<tilt>29.47125770573311</tilt>
+					<range>305.5926141000874</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.11909696264857,23.49969206530993,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-4</name>
+				<LookAt>
+					<longitude>80.12060408247588</longitude>
+					<latitude>23.49841195307863</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0009188368667331586</heading>
+					<tilt>29.47125770573311</tilt>
+					<range>305.5926141000874</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.11904463447951,23.50019756921448,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-5</name>
+				<LookAt>
+					<longitude>80.12060408247588</longitude>
+					<latitude>23.49841195307863</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0009188368667331586</heading>
+					<tilt>29.47125770573311</tilt>
+					<range>305.5926141000874</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.11921087795089,23.50023463776405,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-6</name>
+				<LookAt>
+					<longitude>80.12072347718008</longitude>
+					<latitude>23.49933742734995</latitude>
+					<altitude>0</altitude>
+					<heading>-0.00170021265181638</heading>
+					<tilt>17.33665156098327</tilt>
+					<range>337.8018364747688</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.11939910874779,23.49991054483758,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-6A</name>
+				<LookAt>
+					<longitude>80.12072347718008</longitude>
+					<latitude>23.49933742734995</latitude>
+					<altitude>0</altitude>
+					<heading>-0.00170021265181638</heading>
+					<tilt>17.33665156098327</tilt>
+					<range>337.8018364747688</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.11978050100214,23.49999398946172,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-6B</name>
+				<LookAt>
+					<longitude>80.12072347718008</longitude>
+					<latitude>23.49933742734995</latitude>
+					<altitude>0</altitude>
+					<heading>-0.00170021265181638</heading>
+					<tilt>17.33665156098327</tilt>
+					<range>337.8018364747688</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.12022990610781,23.5001591065301,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-6C</name>
+				<LookAt>
+					<longitude>80.12072347718008</longitude>
+					<latitude>23.49933742734995</latitude>
+					<altitude>0</altitude>
+					<heading>-0.00170021265181638</heading>
+					<tilt>17.33665156098327</tilt>
+					<range>337.8018364747688</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.12068910553937,23.50032427760808,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-6D</name>
+				<LookAt>
+					<longitude>80.12072347718008</longitude>
+					<latitude>23.49933742734995</latitude>
+					<altitude>0</altitude>
+					<heading>-0.00170021265181638</heading>
+					<tilt>17.33665156098327</tilt>
+					<range>337.8018364747688</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.1211683118392,23.50042633522646,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-6E</name>
+				<LookAt>
+					<longitude>80.12072347718008</longitude>
+					<latitude>23.49933742734995</latitude>
+					<altitude>0</altitude>
+					<heading>-0.00170021265181638</heading>
+					<tilt>17.33665156098327</tilt>
+					<range>337.8018364747688</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.12164763866767,23.50051032778067,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-6F</name>
+				<LookAt>
+					<longitude>80.12072347718008</longitude>
+					<latitude>23.49933742734995</latitude>
+					<altitude>0</altitude>
+					<heading>-0.00170021265181638</heading>
+					<tilt>17.33665156098327</tilt>
+					<range>337.8018364747688</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.12212690631587,23.50060335068365,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-6G</name>
+				<LookAt>
+					<longitude>80.12164250503652</longitude>
+					<latitude>23.49903758304534</latitude>
+					<altitude>0</altitude>
+					<heading>-0.00134922606591674</heading>
+					<tilt>17.22624666658615</tilt>
+					<range>754.2737199293267</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.12250818287795,23.50070485234744,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-7</name>
+				<LookAt>
+					<longitude>80.12164250503652</longitude>
+					<latitude>23.49903758304534</latitude>
+					<altitude>0</altitude>
+					<heading>-0.00134922606591674</heading>
+					<tilt>17.22624666658615</tilt>
+					<range>754.2737199293267</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.12282108696857,23.50077887168619,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-7A</name>
+				<LookAt>
+					<longitude>80.12164250503652</longitude>
+					<latitude>23.49903758304534</latitude>
+					<altitude>0</altitude>
+					<heading>-0.00134922606591674</heading>
+					<tilt>17.22624666658615</tilt>
+					<range>754.2737199293267</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.12288134088138,23.50055340732628,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-7B</name>
+				<LookAt>
+					<longitude>80.12164250503652</longitude>
+					<latitude>23.49903758304534</latitude>
+					<altitude>0</altitude>
+					<heading>-0.00134922606591674</heading>
+					<tilt>17.22624666658615</tilt>
+					<range>754.2737199293267</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.12299199511901,23.50011145517778,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-7C</name>
+				<LookAt>
+					<longitude>80.12164250503652</longitude>
+					<latitude>23.49903758304534</latitude>
+					<altitude>0</altitude>
+					<heading>-0.00134922606591674</heading>
+					<tilt>17.22624666658615</tilt>
+					<range>754.2737199293267</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.12310264856931,23.49966950290379,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BP-7D</name>
+				<LookAt>
+					<longitude>80.12164250503652</longitude>
+					<latitude>23.49903758304534</latitude>
+					<altitude>0</altitude>
+					<heading>-0.00134922606591674</heading>
+					<tilt>17.22624666658615</tilt>
+					<range>754.2737199293267</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>80.12318326456827,23.4993267350737,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>lease boundary</name>
+			<Placemark>
+				<name>Untitled Polygon</name>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.11909223605318,23.49968840183613,0 80.11916970137965,23.49912713010717,0 80.11951036208657,23.49859334817801,0 80.11978547819933,23.4981594322617,0 80.12021124680722,23.49824924198964,0 80.12067838811694,23.49837748261445,0 80.12116066821392,23.49848721691254,0 80.12161567945923,23.49861648488481,0 80.12209519055173,23.49876371038362,0 80.12256787652036,23.49886244735723,0 80.12294774592129,23.49893147898356,0 80.12327420042003,23.49900436807185,0 80.12318401467358,23.49932876317951,0 80.12310762783019,23.49966471164269,0 80.12299510389596,23.50011595948856,0 80.12287823873983,23.50055360816803,0 80.12282771485975,23.50078561952708,0 80.12250417734569,23.50069976760354,0 80.12212604087819,23.50059146046981,0 80.1216436839682,23.50052058397982,0 80.12116611924016,23.50042954292113,0 80.12069115962785,23.50032524277548,0 80.12023331712426,23.50016156561828,0 80.11978237108761,23.49999514773803,0 80.11939587477617,23.49991109718638,0 80.11920827767584,23.50023667542937,0 80.11904400141131,23.50019503565945,0 80.11909223605318,23.49968840183613,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>dump</name>
+			<Placemark>
+				<styleUrl>#falseColor3</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_SHP_SSSSI">
+						<SimpleData name="NAME">DUMP</SimpleData>
+						<SimpleData name="LAYER">Unknown Area Type</SimpleData>
+						<SimpleData name="KML_STYLE">m_ylw-pushpin</SimpleData>
+						<SimpleData name="KML_FOLDER">EXISTIBNG</SimpleData>
+						<SimpleData name="tessellate">1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.12143132144263,23.49975251126125,0 80.12144908050936,23.49973901127876,0 80.12151492457724,23.49976461430494,0 80.12162839389526,23.49978595819292,0 80.12171401650608,23.49977984786939,0 80.12178825191937,23.4997315888588,0 80.12184732885811,23.49973904510478,0 80.12196976211895,23.49977831650811,0 80.12212033518993,23.49981840732322,0 80.12223829581932,23.49985296286549,0 80.12234830123261,23.49989456466182,0 80.12240471342074,23.49991405462746,0 80.12244040282724,23.49994858132364,0 80.12243200224441,23.49999043315116,0 80.12239892712302,23.49999042247818,0 80.12234141000862,23.49994193634203,0 80.12219119328073,23.49989290824825,0 80.12205679554442,23.49984818472249,0 80.1219101761972,23.49979824494178,0 80.12182023765759,23.49977831858086,0 80.12169080824708,23.49983244487494,0 80.12159512038716,23.49983558102868,0 80.12144114547802,23.49978592738464,0 80.12143132144263,23.49975251126125,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_SHP_SSSSI">
+						<SimpleData name="NAME">DUMP</SimpleData>
+						<SimpleData name="LAYER">Unknown Area Type</SimpleData>
+						<SimpleData name="KML_STYLE">msn_ylw-pushpin</SimpleData>
+						<SimpleData name="KML_FOLDER">EXISTIBNG</SimpleData>
+						<SimpleData name="tessellate">1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.12016422891706,23.50003499999966,0 80.11994744945343,23.49983227067463,0 80.11975845934147,23.49965897186577,0 80.11958947485229,23.49950651836911,0 80.11955636544101,23.49948498564287,0 80.11951257111507,23.49945650385364,0 80.11943438412449,23.49931426952244,0 80.11939970366011,23.49914724723619,0 80.11949808385789,23.49911512715712,0 80.11961183466143,23.49910712418415,0 80.11966953019159,23.4991151059231,0 80.11967005773415,23.49936477206866,0 80.1198355471018,23.4994753328718,0 80.11999799012887,23.49958653694258,0 80.12025976211001,23.49980822997616,0 80.1204672156089,23.49996501746533,0 80.12061851995206,23.50015280560099,0 80.12066909434932,23.50025970033432,0 80.12059048571039,23.50027785522955,0 80.12016422891706,23.50003499999966,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor3</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_SHP_SSSSI">
+						<SimpleData name="NAME">DUMP</SimpleData>
+						<SimpleData name="LAYER">Unknown Area Type</SimpleData>
+						<SimpleData name="KML_STYLE">m_ylw-pushpin</SimpleData>
+						<SimpleData name="KML_FOLDER">EXISTIBNG</SimpleData>
+						<SimpleData name="tessellate">1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.11953767090881,23.49858204457636,0 80.11972514999367,23.49826304676427,0 80.11974898752742,23.49823487158836,0 80.11983276983267,23.49822631172127,0 80.12002958581978,23.49825867258038,0 80.12036022328842,23.49833364098306,0 80.12065368677361,23.49842361674806,0 80.12082207796213,23.49845950287593,0 80.12108056571201,23.49850199099576,0 80.12135647854167,23.49856800100973,0 80.12156055080744,23.49863504044969,0 80.12174174646536,23.49868848175339,0 80.12191142472209,23.4987432685122,0 80.12218835458101,23.49879950545942,0 80.1223581747925,23.49884404384268,0 80.12234314962471,23.49890658107448,0 80.12184699967435,23.49877929646574,0 80.12150348522526,23.49865555187705,0 80.12120851227836,23.49858122117781,0 80.12107908982468,23.49855346602387,0 80.1207174305619,23.49848462812865,0 80.12044915139514,23.49841550842061,0 80.12010477272644,23.49834013386486,0 80.11987759636251,23.4982797845432,0 80.11979318547507,23.49826897446365,0 80.11973738887218,23.49836435366906,0 80.11960451949692,23.49860633659959,0 80.11953767090881,23.49858204457636,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>pit</name>
+			<Placemark>
+				<styleUrl>#falseColor6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_SHP_SSSSI">
+						<SimpleData name="NAME">PIT</SimpleData>
+						<SimpleData name="LAYER">Unknown Area Type</SimpleData>
+						<SimpleData name="KML_STYLE">m_ylw-pushpin</SimpleData>
+						<SimpleData name="KML_FOLDER">EXISTIBNG</SimpleData>
+						<SimpleData name="tessellate">1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.12036659604574,23.49937577682025,0 80.12031189792658,23.49942672105069,0 80.1202412299275,23.49943966212238,0 80.12019849815066,23.49934873058556,0 80.12019420444778,23.49920159747187,0 80.12012213653679,23.49912845324847,0 80.11990821802999,23.49890293273349,0 80.11959544039776,23.49862910751223,0 80.11978497694766,23.49829350472011,0 80.11984494798456,23.49833580001418,0 80.12007291496673,23.49834658801079,0 80.12024067155659,23.49839375261462,0 80.12048429786455,23.49844480802008,0 80.12060252097457,23.49851812014325,0 80.12026568032964,23.49869680398182,0 80.1202110612234,23.4988727815951,0 80.12026687607006,23.49893231162497,0 80.12033562412124,23.49894099126329,0 80.12031685690602,23.49904290764275,0 80.12027038505425,23.49908363428105,0 80.12058209740877,23.49938623955845,0 80.12036659604574,23.49937577682025,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_SHP_SSSSI">
+						<SimpleData name="NAME">PIT</SimpleData>
+						<SimpleData name="LAYER">Unknown Area Type</SimpleData>
+						<SimpleData name="KML_STYLE">m_ylw-pushpin</SimpleData>
+						<SimpleData name="KML_FOLDER">EXISTIBNG</SimpleData>
+						<SimpleData name="tessellate">1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.12255328375149,23.50019128971874,0 80.12243662495051,23.50012140895689,0 80.12230715613931,23.50010295526539,0 80.12248368113681,23.50001415557847,0 80.1225012626892,23.49989433767866,0 80.12246760063401,23.49976736438335,0 80.1223432396128,23.49972726790089,0 80.12214955573667,23.49968547571562,0 80.1220281352383,23.49964416619042,0 80.12199710047406,23.49957700203602,0 80.1220052144822,23.49950901912532,0 80.12198539397377,23.49930641848385,0 80.12189982886296,23.49914286488543,0 80.12171963334107,23.49912133551642,0 80.12151742826599,23.49908043771084,0 80.12146076359767,23.49898280265272,0 80.12145658610103,23.49884777919907,0 80.12150299953305,23.49879354682012,0 80.12157868570534,23.49883126488815,0 80.12169032622745,23.4988477997294,0 80.12173312869014,23.49874175043674,0 80.12207840957495,23.49883460175777,0 80.12230517749059,23.49890632096238,0 80.12229300590525,23.49901055544215,0 80.12244686984803,23.49901231846404,0 80.12245330601185,23.49909832771068,0 80.12260366709943,23.49908356409959,0 80.12283742218675,23.4991230897567,0 80.12287240647218,23.49920848031312,0 80.12293374323757,23.49927317768822,0 80.12305090312292,23.49928883860774,0 80.12308208379601,23.49924220666875,0 80.1229017039352,23.5001747217541,0 80.12283625839881,23.50025504180627,0 80.12255328375149,23.50019128971874,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_SHP_SSSSI">
+						<SimpleData name="NAME">PIT</SimpleData>
+						<SimpleData name="LAYER">Unknown Area Type</SimpleData>
+						<SimpleData name="KML_STYLE">m_ylw-pushpin</SimpleData>
+						<SimpleData name="KML_FOLDER">EXISTIBNG</SimpleData>
+						<SimpleData name="tessellate">1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.12122389467902,23.5002736882726,0 80.12119653815985,23.50014334830858,0 80.12110456017275,23.50001469808107,0 80.12114006333069,23.49996667043669,0 80.12136289886426,23.4999854882948,0 80.12148841151993,23.50001083896612,0 80.12162337428083,23.50006501368915,0 80.12177536897946,23.50011114028014,0 80.12180234973719,23.50014735374364,0 80.12169170904399,23.50021175994182,0 80.12156112756672,23.50025238613663,0 80.12130638234868,23.50031972261194,0 80.12122389467902,23.5002736882726,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_SHP_SSSSI">
+						<SimpleData name="NAME">PIT</SimpleData>
+						<SimpleData name="LAYER">Unknown Area Type</SimpleData>
+						<SimpleData name="KML_STYLE">msn_ylw-pushpin</SimpleData>
+						<SimpleData name="KML_FOLDER">EXISTIBNG</SimpleData>
+						<SimpleData name="tessellate">1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.12195308230231,23.5004542931138,0 80.12197694665709,23.50039416853589,0 80.12198207295755,23.50039290522703,0 80.12202041990476,23.50036530461715,0 80.12212282497147,23.50034173520017,0 80.12219165654966,23.50032330058322,0 80.12246941699962,23.50029578665874,0 80.12260418316131,23.50036854769977,0 80.12273955938984,23.50043303424546,0 80.12276132401742,23.50052437757356,0 80.12278829888332,23.50055940449107,0 80.12262295767574,23.50058217815998,0 80.12246322431906,23.50056944208779,0 80.12233091521678,23.50055675777234,0 80.12219268780477,23.50054554617948,0 80.12206983144299,23.50052742187179,0 80.12200908310975,23.50056253768619,0 80.12198501196127,23.50052132260936,0 80.12198248307776,23.50050802537696,0 80.12195308230231,23.5004542931138,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_SHP_SSSSI">
+						<SimpleData name="NAME">PIT</SimpleData>
+						<SimpleData name="LAYER">Unknown Area Type</SimpleData>
+						<SimpleData name="KML_STYLE">msn_ylw-pushpin</SimpleData>
+						<SimpleData name="KML_FOLDER">EXISTIBNG</SimpleData>
+						<SimpleData name="tessellate">1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.1209916280734,23.49932720727794,0 80.12107863000442,23.49929931880353,0 80.1213374270144,23.49930486038797,0 80.12154444609855,23.49933562480106,0 80.12156812180287,23.49945835876393,0 80.1212890167879,23.49958841627234,0 80.12097572730865,23.49953764087673,0 80.12080184651093,23.49950517604271,0 80.12079834031049,23.49938936429376,0 80.1209916280734,23.49932720727794,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

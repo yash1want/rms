@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Dharampur Kajawadri Mine 14.61 H 2022-23 land use.kml</name>
+	<Style id="line1100">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="line111">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line160</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line1100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="line160">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin1100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl010</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_grn-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_placemark_circle30">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_placemark_circle40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_placemark_circle_highlight00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0010">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2600</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2801</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin411</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin281</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin131">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin180</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin54</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin380">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin392</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin540</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin40">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin130</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin4110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin281</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin430</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin50">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin170</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin5010">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin611</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin00000">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin11">
+		<IconStyle>
+			<scale>0.9</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl010">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl30">
+		<IconStyle>
+			<scale>1.06364</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_grn-pushpin0">
+		<IconStyle>
+			<scale>1.06364</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_placemark_circle_highlight00">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>540055ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>667fff55</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin130">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2.9</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2801">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin281">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3000">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7faaff</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin430">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>660000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin54">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>667fffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin540">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>540055ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-pushpin0">
+		<IconStyle>
+			<scale>0.9</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_placemark_circle40">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>540055ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin170">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>667fff55</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin180">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>667fffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2600">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin281">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>660000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin392">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>540055ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin411">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin50">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2.9</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin611">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7faaff</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Dharampur Kajawadri Mine 14.61 H</name>
+		<open>1</open>
+		<Folder>
+			<name>Mine Lease Boundary 14.61 h</name>
+			<Placemark>
+				<name>SCDNL_Dharampur Mine_14.61 Ha._Final_UTM</name>
+				<styleUrl>#line111</styleUrl>
+				<LineString>
+					<coordinates>
+						69.6859722255,21.6774999997,0 69.6904166636,21.6801666665,0 69.6917115814,21.6795230099,0 69.69463309210001,21.6749482854,0 69.69328055459999,21.6741419624,0 69.6901944448,21.6791944464,0 69.6863888899,21.6769166663,0 69.6859722255,21.6774999997,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>A</name>
+				<Camera>
+					<longitude>69.69000669243671</longitude>
+					<latitude>21.67686609609485</latitude>
+					<altitude>1242.138683418584</altitude>
+					<heading>83.47845081636329</heading>
+					<tilt>0.3113185034543033</tilt>
+					<roll>90.89197478723024</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin1100</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>69.69019444444444,21.67919444444445,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>B</name>
+				<Camera>
+					<longitude>69.69000669243671</longitude>
+					<latitude>21.67686609609485</latitude>
+					<altitude>1242.138683418584</altitude>
+					<heading>83.47845081636329</heading>
+					<tilt>0.3113185034543033</tilt>
+					<roll>90.89197478723024</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin1100</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>69.6863888888889,21.67691666666667,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C</name>
+				<Camera>
+					<longitude>69.69000669243671</longitude>
+					<latitude>21.67686609609485</latitude>
+					<altitude>1242.138683418584</altitude>
+					<heading>83.47845081636329</heading>
+					<tilt>0.3113185034543033</tilt>
+					<roll>90.89197478723024</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_placemark_circle30</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>69.68597222222223,21.6775,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>D</name>
+				<Camera>
+					<longitude>69.69210949353786</longitude>
+					<latitude>21.67908899437391</latitude>
+					<altitude>1241.247580371395</altitude>
+					<heading>83.4792275984332</heading>
+					<tilt>0.3113185034531323</tilt>
+					<roll>90.89197478722157</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin1100</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>69.69041666666666,21.68016666666667,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>E</name>
+				<Camera>
+					<longitude>69.69210949353786</longitude>
+					<latitude>21.67908899437391</latitude>
+					<altitude>1241.247580371395</altitude>
+					<heading>83.4792275984332</heading>
+					<tilt>0.3113185034531323</tilt>
+					<roll>90.89197478722157</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_placemark_circle30</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>69.69171111111112,21.67952222222223,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>F</name>
+				<Camera>
+					<longitude>69.69300471395303</longitude>
+					<latitude>21.67609041761113</latitude>
+					<altitude>1241.614981931987</altitude>
+					<heading>83.47955830206183</heading>
+					<tilt>0.3113185034507904</tilt>
+					<roll>90.89197478722801</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin1100</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>69.69463055555556,21.67494722222222,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>G</name>
+				<Camera>
+					<longitude>69.69300471395303</longitude>
+					<latitude>21.67609041761113</latitude>
+					<altitude>1241.614981931987</altitude>
+					<heading>83.47955830206183</heading>
+					<tilt>0.3113185034507904</tilt>
+					<roll>90.89197478722801</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_placemark_circle30</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>69.69328055555556,21.67414166666667,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Afforestation 14.61 h</name>
+			<Placemark>
+				<name>Plantation 1</name>
+				<styleUrl>#msn_ylw-pushpin50</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								69.69044091024193,21.67975023118203,0 69.69050370917601,21.67969208670088,0 69.69062771948579,21.67956269984586,0 69.6907555338433,21.67951340448771,0 69.69091530214584,21.67941773561865,0 69.69102826546505,21.67949718845827,0 69.69129163301878,21.67959635956828,0 69.69129016426001,21.67971242353181,0 69.69125669208168,21.67988644191556,0 69.69105929976493,21.67992157572908,0 69.69079960430669,21.68002292533615,0 69.69064297688054,21.68006037808885,0 69.69054214588314,21.680017482637,0 69.6904849322186,21.6798933320423,0 69.6904382054763,21.67986791244367,0 69.69043821144417,21.67980772678394,0 69.69044091024193,21.67975023118203,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Plantation 2</name>
+				<styleUrl>#msn_ylw-pushpin50</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								69.69036136981283,21.68008816643388,0 69.69033406155752,21.68012077066941,0 69.69024154214858,21.68014836161731,0 69.69019133767425,21.68014451318807,0 69.69015344351035,21.6801085175022,0 69.6901118859097,21.6800292998204,0 69.69015624894152,21.67998287414118,0 69.69023257236972,21.68002850904767,0 69.69028197116819,21.6800019579463,0 69.69034403702381,21.68005664521648,0 69.69036136981283,21.68008816643388,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Plantation 3</name>
+				<styleUrl>#msn_ylw-pushpin131</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								69.68968784846032,21.6798726402783,0 69.68958291730762,21.67981694739369,0 69.68931856744797,21.6795930156965,0 69.68905173355286,21.67944105926117,0 69.68865806016429,21.67924264821478,0 69.68871473431878,21.6791953665123,0 69.68872787991727,21.67918034277541,0 69.68876575052835,21.67919746166713,0 69.688842317724,21.6792362473756,0 69.68892686255161,21.67926078235913,0 69.68904484026204,21.67925914329802,0 69.68915132157977,21.67933259273889,0 69.68914947844819,21.67939025901826,0 69.68928223305333,21.67946016892097,0 69.68941022589307,21.67954188502031,0 69.68948527529008,21.67957820921657,0 69.68957547798176,21.67964564990235,0 69.68968741439001,21.67976237943185,0 69.68974981628763,21.67983760218877,0 69.68973338313174,21.67987004465184,0 69.68968784846032,21.6798726402783,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Plantation 4</name>
+				<styleUrl>#msn_ylw-pushpin40</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								69.68770531484239,21.67867915991006,0 69.68697849129612,21.67819416012275,0 69.68689590327728,21.67821636653496,0 69.6863139108021,21.67775286850365,0 69.68622825163847,21.67767290231783,0 69.68599811223139,21.67755762957833,0 69.68592866150328,21.67751646075768,0 69.68604180548726,21.67742090080761,0 69.68610142647071,21.67733946329859,0 69.68617773035996,21.67721026200563,0 69.68640262296068,21.67689805996009,0 69.68657024022235,21.67700678659584,0 69.6870510980702,21.67719788845157,0 69.68768574696601,21.67756761445359,0 69.68831340790967,21.67770395663876,0 69.68829807328711,21.67787573435889,0 69.68784115422643,21.67786935023313,0 69.6873328904783,21.67764775465923,0 69.68724775699366,21.67746135825208,0 69.68696483672922,21.67726743395672,0 69.68651118034143,21.67706514712046,0 69.68641054494697,21.67701751512829,0 69.6862839564948,21.67713125665182,0 69.68617731835548,21.67737456678326,0 69.68612765201335,21.67746155408752,0 69.68617897362347,21.67751869483425,0 69.68686730567947,21.67798634916909,0 69.68706078947029,21.67807954897818,0 69.68773952064726,21.67849940246153,0 69.68770531484239,21.67867915991006,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Plantation 5</name>
+				<styleUrl>#msn_ylw-pushpin1110</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								69.69409670398238,21.67465104149886,0 69.6941530797844,21.67468193441532,0 69.69420919783281,21.67473531132335,0 69.69437072769716,21.67478991793017,0 69.69461216182421,21.67495822754878,0 69.69446264897725,21.67521314238584,0 69.69424622779046,21.67510276870891,0 69.69408839810109,21.67503641158057,0 69.69382025209448,21.67493259048624,0 69.69357144804945,21.67483659569596,0 69.69364415862773,21.67475558106998,0 69.69373024320562,21.67461694486702,0 69.69381707878613,21.67449077287174,0 69.69407629890046,21.67464238983854,0 69.69409670398238,21.67465104149886,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Other 14.61 h</name>
+			<Placemark>
+				<name>Mine Road 1</name>
+				<styleUrl>#msn_ylw-pushpin4110</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								69.69029338713672,21.67920005429754,0 69.69032480874128,21.67929877789908,0 69.69035189558586,21.67940517502917,0 69.6903838933944,21.67949701730646,0 69.69043707136476,21.67957482562196,0 69.69048885928106,21.6795996467393,0 69.6905656406762,21.67961411113787,0 69.69064634741252,21.67963253134904,0 69.69071810978413,21.67966958464881,0 69.6907888064505,21.67973326264347,0 69.69089118861096,21.67982504098541,0 69.69095343938352,21.67990397490905,0 69.69085357224859,21.67994207982588,0 69.69081919049054,21.67988327659394,0 69.69076754932915,21.67984679921565,0 69.69071016368272,21.67975675262948,0 69.69063084327905,21.67970408163787,0 69.69057077196109,21.67967885473831,0 69.69049281634817,21.67968712188987,0 69.69044261974429,21.67971172685886,0 69.69042351549142,21.67976808922893,0 69.69043110355177,21.679863850704,0 69.69045825732169,21.67997988453363,0 69.69049328054666,21.6800197021527,0 69.69053371131365,21.68003285904639,0 69.69059535710059,21.68003149126883,0 69.69064366052831,21.68005265949551,0 69.69053419975661,21.68010987215865,0 69.69050174007745,21.6801008602195,0 69.69044337051331,21.68011778959985,0 69.69038066737816,21.68013841616649,0 69.69032903733113,21.68010163123631,0 69.69035910284833,21.6800758685343,0 69.69037874581058,21.68001125684344,0 69.69037864300343,21.67993065595547,0 69.69034349018885,21.67981447161631,0 69.69032281828714,21.6796574803905,0 69.69031328547028,21.67952441988927,0 69.69026670422606,21.67940174444792,0 69.69022346862495,21.6792196993398,0 69.69022376599327,21.67913742982767,0 69.69027111008246,21.67908336552903,0 69.69029338713672,21.67920005429754,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Mine Road 2</name>
+				<styleUrl>#msn_ylw-pushpin4110</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								69.69419903044063,21.67561162493525,0 69.6941027078018,21.67554276729593,0 69.69403454406397,21.67546865874571,0 69.69389083731338,21.67535281681061,0 69.6937953456852,21.67527145556685,0 69.69367342871666,21.67514409958337,0 69.69356501739591,21.67504331382592,0 69.69342197321586,21.67494777175438,0 69.69336199781299,21.67486852605144,0 69.69340540661364,21.67480636338947,0 69.69350619768498,21.67467015711929,0 69.69362182378073,21.67450306007426,0 69.69368726065147,21.67439149620319,0 69.69374827950854,21.67442565389019,0 69.69370470311915,21.67450005014991,0 69.69363212546622,21.67461793168336,0 69.69352386157148,21.6747792126401,0 69.69348019332141,21.67485410035028,0 69.69351990632957,21.67491967591221,0 69.69366277033025,21.67502157265236,0 69.69387243175308,21.67524875064037,0 69.69409738505544,21.67546470635346,0 69.69423481174111,21.67556756844449,0 69.69419903044063,21.67561162493525,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Mining Pit 14.61 h</name>
+			<Placemark>
+				<name>Mine Pit 1</name>
+				<styleUrl>#msn_ylw-pushpin380</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								69.69031761768407,21.67968025545197,0 69.69032979555524,21.67982027285367,0 69.69037262484619,21.67993058190002,0 69.6903658492993,21.67999457895769,0 69.69035090111956,21.68005160373548,0 69.69031241391666,21.68009824860911,0 69.69012650628079,21.67998342095293,0 69.68995928495434,21.67989051454023,0 69.68948623982722,21.6796085970572,0 69.68907058345198,21.67935767163073,0 69.68878382422439,21.67918063061493,0 69.68865689456003,21.6791104184688,0 69.68827914892844,21.67887185044287,0 69.68789458504074,21.67865784408202,0 69.68755260199437,21.67844675884384,0 69.68717389481667,21.6782178783724,0 69.6868697955027,21.67803153119926,0 69.68674300701601,21.67794883333198,0 69.68660450393162,21.67786275563612,0 69.68642036863042,21.67773864053451,0 69.6863335024387,21.67768899936765,0 69.68623304422131,21.6776220362973,0 69.68614712616305,21.67756165270077,0 69.68606443530864,21.67750586055056,0 69.68608182447993,21.67743676557021,0 69.68611168391607,21.67738870387201,0 69.68613810180052,21.67735115817813,0 69.68616533810012,21.6773105411651,0 69.6861973302743,21.67724296959744,0 69.68624675838888,21.67716075474624,0 69.68627098457453,21.6771175128444,0 69.68630150966504,21.67707329374119,0 69.68637638198797,21.67706041181408,0 69.68642939473007,21.67702815119318,0 69.6864706923057,21.67701220685262,0 69.68651042053821,21.67702018520852,0 69.68654453886181,21.67701154146111,0 69.68690734483138,21.67722307900035,0 69.68723655716784,21.67743167185788,0 69.68732115945092,21.67751062052617,0 69.68749304199467,21.67762900086467,0 69.68766527521196,21.67770865333097,0 69.68782519985548,21.67780377309524,0 69.68791947588136,21.67783233952111,0 69.68812144997963,21.67795224626144,0 69.68813664329208,21.6779953643371,0 69.68819090885663,21.67799726116839,0 69.68829439089875,21.67805586754497,0 69.68830941971312,21.67811897521913,0 69.68835282775242,21.67818264484092,0 69.68840916242219,21.67820729951632,0 69.68845142068834,21.67825542255877,0 69.68852537553724,21.67827402119318,0 69.68862219183228,21.67830398586094,0 69.68875398892928,21.6783312463988,0 69.68906585626327,21.67852018384993,0 69.68924217079875,21.67861985684688,0 69.6893309643675,21.67869708320368,0 69.68935459380147,21.67874698028252,0 69.68939875263823,21.67877122801145,0 69.68946910812559,21.67875843908545,0 69.68951841991309,21.67878672281522,0 69.68961149425775,21.67884557715736,0 69.68964978803594,21.67893449855187,0 69.6896972535678,21.67900490244702,0 69.68973227338208,21.67906725681909,0 69.68980904532913,21.67908584152058,0 69.68995208174758,21.67911435328179,0 69.69000926675662,21.67912247162504,0 69.69004440553012,21.67918571558444,0 69.69014530978916,21.67927328899902,0 69.69022401786012,21.67937885277174,0 69.69030004932155,21.67952635171573,0 69.69031761768407,21.67968025545197,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Mine pit 2</name>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								69.69227730755021,21.67714726151654,0 69.69235935935467,21.67714575789312,0 69.69249601130134,21.67713816830752,0 69.69256783908756,21.67717244543253,0 69.69254467467178,21.6772393409373,0 69.69265751807789,21.6772628638627,0 69.69277269980749,21.67731670264176,0 69.69284530838299,21.67741611736292,0 69.69295382908105,21.6773280017892,0 69.69305381610924,21.67740744596859,0 69.69226169890236,21.67865750689605,0 69.69210226254496,21.6789067849063,0 69.69185241623995,21.67929126318531,0 69.6917107670774,21.67951469648441,0 69.69160920634269,21.67956780927096,0 69.69123185605748,21.67975969370832,0 69.69095188328046,21.67990244094197,0 69.69079637988008,21.67996548786957,0 69.69063951645047,21.68004429906084,0 69.69054631591288,21.68002706120997,0 69.69047923463097,21.67999668572953,0 69.69046744527991,21.67990822152722,0 69.69045831327647,21.67978114589236,0 69.69042144611758,21.67959959392057,0 69.69039493421894,21.67949669546183,0 69.69033129200281,21.67935858067339,0 69.69029219920982,21.67914172548208,0 69.69030937475699,21.67909788563302,0 69.6903617981251,21.67902074939803,0 69.69045251716997,21.67884973495809,0 69.69060699686489,21.67862011654237,0 69.69077607658156,21.67835847340477,0 69.69088331245214,21.67817842804178,0 69.69096781985807,21.67802911478174,0 69.69101531188025,21.67794156920038,0 69.69113278553021,21.67772237051258,0 69.69117656093231,21.67762427512595,0 69.69187980931474,21.67646518430789,0 69.69196847094278,21.67663195937138,0 69.69216756038736,21.67689740008348,0 69.69224257279676,21.67705634490626,0 69.69227730755021,21.67714726151654,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Mine pit 3</name>
+				<styleUrl>#msn_ylw-pushpin380</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								69.69347812372969,21.6765073037769,0 69.69313958716525,21.67637379383227,0 69.69272171569123,21.67616234702883,0 69.69248045671191,21.67584460844985,0 69.69263488202778,21.67553395312151,0 69.69291045692673,21.67534218983692,0 69.69351827601405,21.67557133975849,0 69.69382313786787,21.67598299293078,0 69.69347812372969,21.6765073037769,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Dump 14.61 h</name>
+			<Placemark>
+				<name>Dump 1</name>
+				<styleUrl>#msn_ylw-pushpin5010</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								69.68699677874454,21.67755604955205,0 69.68705109179723,21.67763846246264,0 69.68704680615949,21.67772232575345,0 69.68699524294203,21.67781569477304,0 69.68686019556363,21.6778092749145,0 69.68678593873067,21.67775953089485,0 69.68673230938467,21.67764100126826,0 69.6867855029931,21.67757207658946,0 69.68688913331943,21.67754254289264,0 69.68699677874454,21.67755604955205,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>dump 2</name>
+				<styleUrl>#msn_ylw-pushpin0010</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								69.6895830559462,21.67912893947342,0 69.68951054678161,21.67928565553891,0 69.68938309106315,21.67947843071207,0 69.6892465264087,21.67935202394889,0 69.68904911672794,21.67926166088216,0 69.68873680091984,21.67909533082314,0 69.68873944256909,21.67903497715506,0 69.68879454010053,21.67899317041622,0 69.68888213043874,21.67888659565167,0 69.6890889487739,21.67890021045075,0 69.68932484269008,21.67893149562526,0 69.68950749178443,21.67909290349591,0 69.6895830559462,21.67912893947342,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>dump 3</name>
+				<styleUrl>#msn_ylw-pushpin0010</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								69.68801207986405,21.6786326907618,0 69.68789700793285,21.67856227307443,0 69.68749356645992,21.67833789337084,0 69.68706262872122,21.67807417089742,0 69.68717185688416,21.67799022850957,0 69.68753657717535,21.67800381450099,0 69.68769653574802,21.67813096012819,0 69.68790682284917,21.67832609374548,0 69.6880637013594,21.67838710993518,0 69.68807921013097,21.6785802948362,0 69.68801207986405,21.6786326907618,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>dump 4</name>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								69.69140996145107,21.67902383198408,0 69.69124329657406,21.67917158248148,0 69.69128029983423,21.67927230046859,0 69.69146888428641,21.67934432637466,0 69.69146989892,21.67950610083972,0 69.6911519405125,21.67949988749898,0 69.69103450091866,21.67933423232783,0 69.69100432594648,21.67921187191117,0 69.69117102583446,21.67893168766023,0 69.69135664735199,21.67888937808701,0 69.69140996145107,21.67902383198408,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>AAQM DHARM 14.61</name>
+			<Placemark>
+				<name>AAQM 1 DHM</name>
+				<LookAt>
+					<longitude>69.6855162212628</longitude>
+					<latitude>21.67022574749065</latitude>
+					<altitude>0</altitude>
+					<heading>-2.79850982794081</heading>
+					<tilt>23.3003420816842</tilt>
+					<range>990.6779560787952</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_grn-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>69.68417243004015,21.66827288083159,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AAQM 2 DHM</name>
+				<LookAt>
+					<longitude>69.68108587284756</longitude>
+					<latitude>21.68456294030687</latitude>
+					<altitude>0</altitude>
+					<heading>0.8128327868275408</heading>
+					<tilt>8.418849861952229</tilt>
+					<range>20673.87553482653</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin200</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>69.70347222222223,21.67297222222222,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

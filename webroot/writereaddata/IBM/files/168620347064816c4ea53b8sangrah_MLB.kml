@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>sangrah MLB.kml</name>
+	<Style id="Line_MLB_360S_1_ff0000_03">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="Line_MLB_360S_1_ff0000_030">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="Line_MLB_360S_1_ff0000_031">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Line_MLB_360S_1_ff0000_03</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Line_MLB_360S_1_ff0000_030</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>MLB_360S 1</name>
+		<Placemark>
+			<LookAt>
+				<longitude>77.43778055999999</longitude>
+				<latitude>30.68939305</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>554</range>
+			</LookAt>
+			<styleUrl>#Line_MLB_360S_1_ff0000_031</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							77.43911667,30.69110278,0 77.43989166999999,30.68873611,0 77.43931111000001,30.68768333,0 77.43566944,30.688675,0 77.43684444,30.69029444,0 77.43712499999999,30.68998611,0 77.43771389,30.69049444,0 77.43762778,30.68997778,0 77.43814444,30.69045556,0 77.43805556,30.68980556,0 77.43860278,30.69015556,0 77.43911667,30.69110278,0 77.43911667,30.69110278,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

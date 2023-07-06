@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Hisri Old</name>
+	<open>1</open>
+	<LookAt>
+		<longitude>84.58714252493287</longitude>
+		<latitude>23.48197338791421</latitude>
+		<altitude>0</altitude>
+		<heading>-4.74061789729493</heading>
+		<tilt>7.459688663297226</tilt>
+		<range>1268.33203633989</range>
+		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+	</LookAt>
+	<Document>
+		<name>BACKFILLING.shp</name>
+		<Schema name="BACKFILLING" id="S_BACKFILLING_SSISDISD">
+			<SimpleField type="long" name="FID_"><displayName>&lt;b&gt;FID_&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Entity"><displayName>&lt;b&gt;Entity&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Layer"><displayName>&lt;b&gt;Layer&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="Color"><displayName>&lt;b&gt;Color&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Linetype"><displayName>&lt;b&gt;Linetype&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="Elevation"><displayName>&lt;b&gt;Elevation&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="LineWt"><displayName>&lt;b&gt;LineWt&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="RefName"><displayName>&lt;b&gt;RefName&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<StyleMap id="falseColor">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor0</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor1</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="falseColor0">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>FID_</b></td><td>$[BACKFILLING/FID_]</td></tr>
+  <tr><td><b>Entity</b></td><td>$[BACKFILLING/Entity]</td></tr>
+  <tr><td><b>Layer</b></td><td>$[BACKFILLING/Layer]</td></tr>
+  <tr><td><b>Color</b></td><td>$[BACKFILLING/Color]</td></tr>
+  <tr><td><b>Linetype</b></td><td>$[BACKFILLING/Linetype]</td></tr>
+  <tr><td><b>Elevation</b></td><td>$[BACKFILLING/Elevation]</td></tr>
+  <tr><td><b>LineWt</b></td><td>$[BACKFILLING/LineWt]</td></tr>
+  <tr><td><b>RefName</b></td><td>$[BACKFILLING/RefName]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[BACKFILLING/AREA]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ffffaaff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="falseColor1">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>FID_</b></td><td>$[BACKFILLING/FID_]</td></tr>
+  <tr><td><b>Entity</b></td><td>$[BACKFILLING/Entity]</td></tr>
+  <tr><td><b>Layer</b></td><td>$[BACKFILLING/Layer]</td></tr>
+  <tr><td><b>Color</b></td><td>$[BACKFILLING/Color]</td></tr>
+  <tr><td><b>Linetype</b></td><td>$[BACKFILLING/Linetype]</td></tr>
+  <tr><td><b>Elevation</b></td><td>$[BACKFILLING/Elevation]</td></tr>
+  <tr><td><b>LineWt</b></td><td>$[BACKFILLING/LineWt]</td></tr>
+  <tr><td><b>RefName</b></td><td>$[BACKFILLING/RefName]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[BACKFILLING/AREA]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ffffaaff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>BACKFILLING</name>
+			<Placemark>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BACKFILLING_SSISDISD">
+						<SimpleData name="FID_">0</SimpleData>
+						<SimpleData name="Entity">LWPolyline</SimpleData>
+						<SimpleData name="Layer">BACKFELLING</SimpleData>
+						<SimpleData name="Color">5</SimpleData>
+						<SimpleData name="Linetype">Continuous</SimpleData>
+						<SimpleData name="Elevation">-7.0443</SimpleData>
+						<SimpleData name="LineWt">25</SimpleData>
+						<SimpleData name="RefName"></SimpleData>
+						<SimpleData name="AREA">0.575722</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.59033893493613,23.48124302731606,-7.044299999999793 84.5903104111876,23.48125635237108,-7.044299999999793 84.59023104246825,23.48129150693314,-7.044299999999793 84.59019121584349,23.4813099014144,-7.044299999999793 84.59016735496641,23.48133302231192,-7.044299999999793 84.59011959237921,23.48135347913795,-7.044299999999793 84.59003755182142,23.48140946008755,-7.044299999999793 84.5899440013831,23.48152393320349,-7.044299999999793 84.58985540098968,23.4815746861013,-7.044299999999793 84.58972696686523,23.48156485890884,-7.044299999999793 84.58948404728609,23.48154627152081,-7.044299999999793 84.58918192019679,23.48152315324116,-7.044299999999793 84.58919758309753,23.48134959445698,-7.044299999999793 84.5892658000604,23.48112151786716,-7.044299999999793 84.58928084761557,23.48106343473653,-7.044299999999793 84.58942727425894,23.48095032309972,-7.044299999999793 84.58962346229036,23.48092222051578,-7.044299999999793 84.58983538119638,23.48095379606979,-7.044299999999793 84.58993144867088,23.48105120854727,-7.044299999999793 84.59003523233706,23.48117266730661,-7.044299999999793 84.5901107670573,23.48113575390071,-7.044299999999793 84.5902492928066,23.48110048261406,-7.044299999999793 84.59028371131249,23.48109926685744,-7.044299999999793 84.59030588356772,23.48109895424651,-7.044299999999793 84.5903167595157,23.48111736814555,-7.044299999999793 84.59032887586727,23.48115164329403,-7.044299999999793 84.5903425639367,23.48122560254232,-7.044299999999793 84.59033893493613,23.48124302731606,-7.044299999999793 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>BOUNDARY_PILLAR.shp</name>
+		<Schema name="BOUNDARY_PILLAR" id="S_BOUNDARY_PILLAR_SDDSS">
+			<SimpleField type="string" name="ID"><displayName>&lt;b&gt;ID&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="X"><displayName>&lt;b&gt;X&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="Y"><displayName>&lt;b&gt;Y&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="LONG"><displayName>&lt;b&gt;LONG&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="LAT"><displayName>&lt;b&gt;LAT&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="hlightPointStyle">
+			<IconStyle>
+				<scale>0.6</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff0000ff</color>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[BOUNDARY_PILLAR/ID]</td></tr>
+  <tr><td><b>X</b></td><td>$[BOUNDARY_PILLAR/X]</td></tr>
+  <tr><td><b>Y</b></td><td>$[BOUNDARY_PILLAR/Y]</td></tr>
+  <tr><td><b>LONG</b></td><td>$[BOUNDARY_PILLAR/LONG]</td></tr>
+  <tr><td><b>LAT</b></td><td>$[BOUNDARY_PILLAR/LAT]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id="normPointStyle">
+			<IconStyle>
+				<scale>0.6</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff0000ff</color>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[BOUNDARY_PILLAR/ID]</td></tr>
+  <tr><td><b>X</b></td><td>$[BOUNDARY_PILLAR/X]</td></tr>
+  <tr><td><b>Y</b></td><td>$[BOUNDARY_PILLAR/Y]</td></tr>
+  <tr><td><b>LONG</b></td><td>$[BOUNDARY_PILLAR/LONG]</td></tr>
+  <tr><td><b>LAT</b></td><td>$[BOUNDARY_PILLAR/LAT]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id="pointStyleMap">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#normPointStyle</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#hlightPointStyle</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Folder id="layer 0">
+			<name>BOUNDARY_PILLAR</name>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP1</SimpleData>
+						<SimpleData name="X">254043</SimpleData>
+						<SimpleData name="Y">2.59893e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 30.608&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 54.918&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59183548917525,23.48192175421755,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">IP</SimpleData>
+						<SimpleData name="X">254058</SimpleData>
+						<SimpleData name="Y">2.59893e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 31.147&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 54.887&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59198521185967,23.481913145212,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">IP</SimpleData>
+						<SimpleData name="X">254093</SimpleData>
+						<SimpleData name="Y">2.59893e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 32.394&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 54.817&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59233160001223,23.48189370024244,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">IP</SimpleData>
+						<SimpleData name="X">254125</SimpleData>
+						<SimpleData name="Y">2.59892e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 33.502&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 54.722&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59263937816331,23.48186731163818,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">IP</SimpleData>
+						<SimpleData name="X">254154</SimpleData>
+						<SimpleData name="Y">2.59892e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 34.534&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 54.617&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59292604509511,23.4818381498241,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP2</SimpleData>
+						<SimpleData name="X">254170</SimpleData>
+						<SimpleData name="Y">2.59892e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 35.104&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 54.576&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59308437797648,23.4818267569178,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">IP</SimpleData>
+						<SimpleData name="X">254187</SimpleData>
+						<SimpleData name="Y">2.59888e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 35.731&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 53.262&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59325854518465,23.48146176070962,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">IP</SimpleData>
+						<SimpleData name="X">254200</SimpleData>
+						<SimpleData name="Y">2.59885e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 36.183&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 52.308&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59338410050839,23.48119675936232,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">IP</SimpleData>
+						<SimpleData name="X">254211</SimpleData>
+						<SimpleData name="Y">2.59882e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 36.606&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 51.399&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59350160082658,23.48094425379254,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">IP</SimpleData>
+						<SimpleData name="X">254218</SimpleData>
+						<SimpleData name="Y">2.5988e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 36.861&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 50.831&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59357243338968,23.48078648327174,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP3</SimpleData>
+						<SimpleData name="X">254225</SimpleData>
+						<SimpleData name="Y">2.59878e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 37.131&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 50.234&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59364743370168,23.48062064336673,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">IP</SimpleData>
+						<SimpleData name="X">254264</SimpleData>
+						<SimpleData name="Y">2.59875e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 38.520&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 49.217&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59403326689551,23.48033814863032,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP43(COM)</SimpleData>
+						<SimpleData name="X">254286</SimpleData>
+						<SimpleData name="Y">2.59873e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 39.285&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 48.568&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59424576728952,23.48015786623883,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP42(COM)</SimpleData>
+						<SimpleData name="X">254299</SimpleData>
+						<SimpleData name="Y">2.59869e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 39.775&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 47.308&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59438187820182,23.4798078711084,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP41(COM)</SimpleData>
+						<SimpleData name="X">254284</SimpleData>
+						<SimpleData name="Y">2.59868e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 39.251&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 46.945&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59423632259812,23.47970703523949,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">IP(COM)</SimpleData>
+						<SimpleData name="X">254284</SimpleData>
+						<SimpleData name="Y">2.59866e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 39.274&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 46.306&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59424271171896,23.47952953734943,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP40(COM)</SimpleData>
+						<SimpleData name="X">254284</SimpleData>
+						<SimpleData name="Y">2.59864e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 39.282&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 45.665&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59424493395147,23.47935147860936,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP4</SimpleData>
+						<SimpleData name="X">254222</SimpleData>
+						<SimpleData name="Y">2.59864e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 37.088&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 45.595&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59363548910102,23.47933203809628,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP5</SimpleData>
+						<SimpleData name="X">254049</SimpleData>
+						<SimpleData name="Y">2.59876e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 30.935&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 49.395&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59192632308101,23.48038758614896,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">IP</SimpleData>
+						<SimpleData name="X">253989</SimpleData>
+						<SimpleData name="Y">2.5987e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 28.856&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 47.537&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59134882259862,23.47987148149559,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP6</SimpleData>
+						<SimpleData name="X">253947</SimpleData>
+						<SimpleData name="Y">2.59866e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 27.383&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 46.230&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59093965646433,23.47950841952186,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">IP</SimpleData>
+						<SimpleData name="X">253828</SimpleData>
+						<SimpleData name="Y">2.59871e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 23.189&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 47.740&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.58977465550059,23.47992787071244,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">IP</SimpleData>
+						<SimpleData name="X">253798</SimpleData>
+						<SimpleData name="Y">2.59873e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 22.116&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 48.130&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.58947660066441,23.48003620164359,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">IP</SimpleData>
+						<SimpleData name="X">253743</SimpleData>
+						<SimpleData name="Y">2.59875e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 20.145&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 48.836&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.58892910010309,23.48023230924115,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP7</SimpleData>
+						<SimpleData name="X">253668</SimpleData>
+						<SimpleData name="Y">2.59878e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 17.489&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 49.779&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.58819132219632,23.48049425828473,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP3(COM)</SimpleData>
+						<SimpleData name="X">253669</SimpleData>
+						<SimpleData name="Y">2.5988e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 17.508&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 50.417&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.58819660080091,23.48067147557785,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP2A(COM)</SimpleData>
+						<SimpleData name="X">253669</SimpleData>
+						<SimpleData name="Y">2.59882e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 17.514&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 51.036&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.58819826691661,23.48084342814047,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">IP(COM)</SimpleData>
+						<SimpleData name="X">253671</SimpleData>
+						<SimpleData name="Y">2.59887e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 17.538&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 52.761&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.58820493405784,23.48132258819603,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP2(COM)</SimpleData>
+						<SimpleData name="X">253671</SimpleData>
+						<SimpleData name="Y">2.59889e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 17.548&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 53.451&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.58820771140971,23.48151425572827,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP1C(COM)</SimpleData>
+						<SimpleData name="X">253855</SimpleData>
+						<SimpleData name="Y">2.5989e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 24.004&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 53.949&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59000104463786,23.48165259177081,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP1B(COM)</SimpleData>
+						<SimpleData name="X">253920</SimpleData>
+						<SimpleData name="Y">2.59891e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 26.290&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 54.125&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59063604455827,23.48170148357106,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP1A(COM)</SimpleData>
+						<SimpleData name="X">253941</SimpleData>
+						<SimpleData name="Y">2.59891e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 27.053&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 54.184&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59084798965658,23.48171786882985,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP1(COM)</SimpleData>
+						<SimpleData name="X">253969</SimpleData>
+						<SimpleData name="Y">2.59891e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 28.040&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 54.254&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59112215597379,23.48173731019577,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">IP</SimpleData>
+						<SimpleData name="X">254058</SimpleData>
+						<SimpleData name="Y">2.59893e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 31.147&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 54.887&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.59198521185967,23.481913145212,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP8</SimpleData>
+						<SimpleData name="X">253505</SimpleData>
+						<SimpleData name="Y">2.59853e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 11.911&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 41.745&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.58664187768939,23.47826259037338,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP9</SimpleData>
+						<SimpleData name="X">253522</SimpleData>
+						<SimpleData name="Y">2.59848e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 12.532&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 39.933&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.58681437789222,23.47775925858337,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP10</SimpleData>
+						<SimpleData name="X">253495</SimpleData>
+						<SimpleData name="Y">2.59841e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 11.605&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 37.829&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.58655687823551,23.47717480914277,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP11</SimpleData>
+						<SimpleData name="X">253399</SimpleData>
+						<SimpleData name="Y">2.59833e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 8.294&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 35.202&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.58563715565937,23.47644508671333,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP12</SimpleData>
+						<SimpleData name="X">253366</SimpleData>
+						<SimpleData name="Y">2.59837e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 7.089&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 36.242&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.58530243377452,23.47673397638711,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP13</SimpleData>
+						<SimpleData name="X">253397</SimpleData>
+						<SimpleData name="Y">2.59852e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 8.109&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 41.161&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.58558576646919,23.47810036485088,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP6(COM)</SimpleData>
+						<SimpleData name="X">253440</SimpleData>
+						<SimpleData name="Y">2.59852e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 9.633&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 41.341&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.58600910024758,23.47815036365254,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP 5A(COM)</SimpleData>
+						<SimpleData name="X">253485</SimpleData>
+						<SimpleData name="Y">2.59853e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 11.204&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 41.613&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.5864454894902,23.47822592148853,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_BOUNDARY_PILLAR_SDDSS">
+						<SimpleData name="ID">BP 5(COM)</SimpleData>
+						<SimpleData name="X">253505</SimpleData>
+						<SimpleData name="Y">2.59853e+06</SimpleData>
+						<SimpleData name="LONG">84° 35&apos; 11.911&quot; E</SimpleData>
+						<SimpleData name="LAT">23° 28&apos; 41.745&quot; N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>84.58664187768939,23.47826259037338,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>LEASE_BOUNDARY.shp</name>
+		<Schema name="LEASE_BOUNDARY" id="S_LEASE_BOUNDARY_SSISDIS">
+			<SimpleField type="long" name="FID_"><displayName>&lt;b&gt;FID_&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Entity"><displayName>&lt;b&gt;Entity&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Layer"><displayName>&lt;b&gt;Layer&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="Color"><displayName>&lt;b&gt;Color&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Linetype"><displayName>&lt;b&gt;Linetype&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="Elevation"><displayName>&lt;b&gt;Elevation&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="LineWt"><displayName>&lt;b&gt;LineWt&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="RefName"><displayName>&lt;b&gt;RefName&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="falseColor2">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>FID_</b></td><td>$[LEASE_BOUNDARY/FID_]</td></tr>
+  <tr><td><b>Entity</b></td><td>$[LEASE_BOUNDARY/Entity]</td></tr>
+  <tr><td><b>Layer</b></td><td>$[LEASE_BOUNDARY/Layer]</td></tr>
+  <tr><td><b>Color</b></td><td>$[LEASE_BOUNDARY/Color]</td></tr>
+  <tr><td><b>Linetype</b></td><td>$[LEASE_BOUNDARY/Linetype]</td></tr>
+  <tr><td><b>Elevation</b></td><td>$[LEASE_BOUNDARY/Elevation]</td></tr>
+  <tr><td><b>LineWt</b></td><td>$[LEASE_BOUNDARY/LineWt]</td></tr>
+  <tr><td><b>RefName</b></td><td>$[LEASE_BOUNDARY/RefName]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="falseColor3">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor4</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor2</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="falseColor4">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>FID_</b></td><td>$[LEASE_BOUNDARY/FID_]</td></tr>
+  <tr><td><b>Entity</b></td><td>$[LEASE_BOUNDARY/Entity]</td></tr>
+  <tr><td><b>Layer</b></td><td>$[LEASE_BOUNDARY/Layer]</td></tr>
+  <tr><td><b>Color</b></td><td>$[LEASE_BOUNDARY/Color]</td></tr>
+  <tr><td><b>Linetype</b></td><td>$[LEASE_BOUNDARY/Linetype]</td></tr>
+  <tr><td><b>Elevation</b></td><td>$[LEASE_BOUNDARY/Elevation]</td></tr>
+  <tr><td><b>LineWt</b></td><td>$[LEASE_BOUNDARY/LineWt]</td></tr>
+  <tr><td><b>RefName</b></td><td>$[LEASE_BOUNDARY/RefName]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>LEASE_BOUNDARY</name>
+			<Placemark>
+				<styleUrl>#falseColor3</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_LEASE_BOUNDARY_SSISDIS">
+						<SimpleData name="FID_">0</SimpleData>
+						<SimpleData name="Entity">LWPolyline</SimpleData>
+						<SimpleData name="Layer">LEASE BOUNDARY</SimpleData>
+						<SimpleData name="Color">1</SimpleData>
+						<SimpleData name="Linetype">Continuous</SimpleData>
+						<SimpleData name="Elevation">0</SimpleData>
+						<SimpleData name="LineWt">60</SimpleData>
+						<SimpleData name="RefName"></SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.58664187768939,23.47826259037338,0 84.5864454894902,23.47822592148849,0 84.58600910024758,23.47815036365254,0 84.58558576646919,23.47810036485088,0 84.58530243377452,23.47673397638711,0 84.58563715565937,23.47644508671333,0 84.58655687823551,23.47717480914277,0 84.58681437789222,23.47775925858337,0 84.58664187768939,23.47826259037338,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor3</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_LEASE_BOUNDARY_SSISDIS">
+						<SimpleData name="FID_">0</SimpleData>
+						<SimpleData name="Entity">LWPolyline</SimpleData>
+						<SimpleData name="Layer">LEASE BOUNDARY</SimpleData>
+						<SimpleData name="Color">1</SimpleData>
+						<SimpleData name="Linetype">Continuous</SimpleData>
+						<SimpleData name="Elevation">0</SimpleData>
+						<SimpleData name="LineWt">60</SimpleData>
+						<SimpleData name="RefName"></SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.59350160082658,23.48094425379234,0 84.59338410050839,23.48119675936207,0 84.59325854518465,23.48146176071002,0 84.59308437797648,23.4818267569178,0 84.59292604509507,23.4818381498241,0 84.59263937816364,23.48186731163814,0 84.59233160001232,23.48189370024244,0 84.59198521186163,23.48191314521184,0 84.5918354891753,23.48192175421755,0 84.59112215597379,23.48173731019573,0 84.59084798965647,23.48171786882985,0 84.59063604455827,23.48170148357106,0 84.59000104463786,23.48165259177081,0 84.58820771140971,23.48151425572823,0 84.58820493405784,23.48132258819603,0 84.58819826691661,23.48084342814047,0 84.58819660080091,23.48067147557781,0 84.58819132219632,23.48049425828473,0 84.58892910010297,23.48023230924059,0 84.5894766006641,23.48003620164359,0 84.58977465550031,23.47992787071252,0 84.59093965646433,23.47950841952182,0 84.59134882259882,23.47987148149587,0 84.59192632308101,23.48038758614896,0 84.59363548910102,23.47933203809628,0 84.59424493395147,23.47935147860936,0 84.59424271171896,23.47952953734943,0 84.59423632259812,23.47970703523949,0 84.59438187820182,23.4798078711084,0 84.59424576728952,23.48015786623883,0 84.59403326689551,23.48033814863032,0 84.59364743370168,23.48062064336673,0 84.59357243338984,23.48078648327193,0 84.59350160082658,23.48094425379234,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>QUARRY.shp</name>
+		<Schema name="QUARRY" id="S_QUARRY_SSISDIS">
+			<SimpleField type="long" name="FID_"><displayName>&lt;b&gt;FID_&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Entity"><displayName>&lt;b&gt;Entity&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Layer"><displayName>&lt;b&gt;Layer&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="Color"><displayName>&lt;b&gt;Color&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Linetype"><displayName>&lt;b&gt;Linetype&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="Elevation"><displayName>&lt;b&gt;Elevation&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="LineWt"><displayName>&lt;b&gt;LineWt&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="RefName"><displayName>&lt;b&gt;RefName&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="falseColor5">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>FID_</b></td><td>$[QUARRY/FID_]</td></tr>
+  <tr><td><b>Entity</b></td><td>$[QUARRY/Entity]</td></tr>
+  <tr><td><b>Layer</b></td><td>$[QUARRY/Layer]</td></tr>
+  <tr><td><b>Color</b></td><td>$[QUARRY/Color]</td></tr>
+  <tr><td><b>Linetype</b></td><td>$[QUARRY/Linetype]</td></tr>
+  <tr><td><b>Elevation</b></td><td>$[QUARRY/Elevation]</td></tr>
+  <tr><td><b>LineWt</b></td><td>$[QUARRY/LineWt]</td></tr>
+  <tr><td><b>RefName</b></td><td>$[QUARRY/RefName]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="falseColor6">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>FID_</b></td><td>$[QUARRY/FID_]</td></tr>
+  <tr><td><b>Entity</b></td><td>$[QUARRY/Entity]</td></tr>
+  <tr><td><b>Layer</b></td><td>$[QUARRY/Layer]</td></tr>
+  <tr><td><b>Color</b></td><td>$[QUARRY/Color]</td></tr>
+  <tr><td><b>Linetype</b></td><td>$[QUARRY/Linetype]</td></tr>
+  <tr><td><b>Elevation</b></td><td>$[QUARRY/Elevation]</td></tr>
+  <tr><td><b>LineWt</b></td><td>$[QUARRY/LineWt]</td></tr>
+  <tr><td><b>RefName</b></td><td>$[QUARRY/RefName]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="falseColor7">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor6</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor5</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Folder id="layer 0">
+			<name>QUARRY</name>
+			<Placemark>
+				<styleUrl>#falseColor7</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_QUARRY_SSISDIS">
+						<SimpleData name="FID_">0</SimpleData>
+						<SimpleData name="Entity">LWPolyline</SimpleData>
+						<SimpleData name="Layer">QUARRY</SimpleData>
+						<SimpleData name="Color">7</SimpleData>
+						<SimpleData name="Linetype">BENCH</SimpleData>
+						<SimpleData name="Elevation">-7.0443</SimpleData>
+						<SimpleData name="LineWt">30</SimpleData>
+						<SimpleData name="RefName"></SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.59043000417095,23.48106475813557,-7.044299999999793 84.59034276357609,23.48109622623333,-7.044299999999793 84.59029760871492,23.48110866304507,-7.044299999999793 84.59034240182677,23.48113784847079,-7.044299999999793 84.59036823586162,23.48119044949744,-7.044299999999793 84.59032353678361,23.48126948894371,-7.044299999999793 84.59025743094804,23.48127891277075,-7.044299999999793 84.58995949759354,23.4815182386816,-7.044299999999793 84.58997482790788,23.48158382400777,-7.044299999999793 84.58828222626096,23.48145430661064,-7.044299999999793 84.58828080929162,23.48134615793075,-7.044299999999793 84.58836156318978,23.4813229110692,-7.044299999999793 84.58844822362725,23.48128960500677,-7.044299999999793 84.58853351230873,23.48125682608343,-7.044299999999793 84.58861169654709,23.48122677754721,-7.044299999999793 84.58868502547135,23.48119792182568,-7.044299999999793 84.58881091873208,23.48114429125705,-7.044299999999793 84.58892018711602,23.48109812577002,-7.044299999999793 84.58893310130178,23.48109311084023,-7.044299999999793 84.58904515878648,23.48102078563009,-7.044299999999793 84.58907575851059,23.4807219491554,-7.044299999999793 84.58939639538903,23.48059650519286,-7.044299999999793 84.58940504237353,23.48050729726838,-7.044299999999793 84.58964314559819,23.48044647754764,-7.044299999999793 84.58977693858623,23.48039981791308,-7.044299999999793 84.58979543854372,23.480393908501,-7.044299999999793 84.58980168430107,23.48039496486404,-7.044299999999793 84.58983085878469,23.48042402486696,-7.044299999999793 84.58992165123941,23.48051290351545,-7.044299999999793 84.58993124717581,23.48055093377734,-7.044299999999793 84.59020843650374,23.48056437121986,-7.044299999999793 84.5902368671485,23.48060782393333,-7.044299999999793 84.590249265217,23.48062964127199,-7.044299999999793 84.59027221896046,23.4806805698517,-7.044299999999793 84.59031433475587,23.48074783930915,-7.044299999999793 84.59036889620872,23.48083034931293,-7.044299999999793 84.59041602294791,23.48093368458515,-7.044299999999793 84.59045095151099,23.48101466211663,-7.044299999999793 84.59046605286015,23.48103443351335,-7.044299999999793 84.59046605286015,23.48103443351335,-7.044299999999793 84.59043000417095,23.48106475813557,-7.044299999999793 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor7</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_QUARRY_SSISDIS">
+						<SimpleData name="FID_">0</SimpleData>
+						<SimpleData name="Entity">LWPolyline</SimpleData>
+						<SimpleData name="Layer">QUARRY</SimpleData>
+						<SimpleData name="Color">7</SimpleData>
+						<SimpleData name="Linetype">BENCH</SimpleData>
+						<SimpleData name="Elevation">-55.9079</SimpleData>
+						<SimpleData name="LineWt">30</SimpleData>
+						<SimpleData name="RefName"></SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.5860011282727,23.47780867677051,-55.90789999999992 84.5859874046579,23.47766764310585,-55.90789999999992 84.58587565163754,23.47754198921052,-55.90789999999992 84.58584740280014,23.47730292850792,-55.90789999999992 84.58586013545356,23.47714384831418,-55.90789999999992 84.58589207414309,23.47713083333873,-55.90789999999992 84.58593418639119,23.47710378255368,-55.90789999999992 84.58595750447741,23.47707997488556,-55.90789999999992 84.58596101593592,23.47707497545677,-55.90789999999992 84.58596574970591,23.47707046113281,-55.90789999999992 84.58597382918059,23.47706576055904,-55.90789999999992 84.58598171261006,23.47706349433324,-55.90789999999992 84.58598846818252,23.47706298051105,-55.90789999999992 84.58599618899275,23.47706391636337,-55.90789999999992 84.58606121165258,23.47707888178651,-55.90789999999992 84.5862025959478,23.4770979996936,-55.90789999999992 84.58637874693824,23.47752449841718,-55.90789999999992 84.58637243537544,23.47787119146553,-55.90789999999992 84.58633212659618,23.47787056708207,-55.90789999999992 84.58620981528485,23.47806955533794,-55.90789999999992 84.58608277032182,23.47808016699657,-55.90789999999992 84.5860011282727,23.47780867677051,-55.90789999999992 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+</Folder>
+</kml>

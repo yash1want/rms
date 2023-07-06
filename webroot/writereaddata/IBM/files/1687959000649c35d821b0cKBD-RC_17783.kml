@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Khairulabad Mine</name>
+	<Style id="area1">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0080ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Area Features</name>
+		<open>1</open>
+		<description>Area Features</description>
+		<Placemark>
+			<name>Khairulabad Mine</name>
+			<description><![CDATA[Unknown Area Type<BR><BR><B>Name</B> = Khairulabad Mine<BR><B>Area_Hecta</B> = 2.182]]></description>
+			<styleUrl>#area1</styleUrl>
+			<MultiGeometry>
+				<Point>
+					<coordinates>79.13110937899999,11.1354486443,0</coordinates>
+				</Point>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.1302798048,11.1365586716,0 79.12975480510001,11.1361872801,0 79.1301833327,11.1357649144,0 79.1303389734,11.1356596881,0 79.1307158587,11.1354060283,0 79.1310949165,11.1351503476,0 79.13172394359999,11.1348434311,0 79.13213106329999,11.1345305319,0 79.1328051797,11.1343440003,0 79.132908555,11.1346950032,0 79.13248593,11.1349102443,0 79.1321661856,11.1351490938,0 79.1321858088,11.1351924516,0 79.1317544222,11.1355541212,0 79.1316673867,11.1354040854,0 79.1313305324,11.1355555606,0 79.1309871616,11.1358560372,0 79.13055329700001,11.1362269908,0 79.1302798048,11.1365586716,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

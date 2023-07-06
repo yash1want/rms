@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>NERLI 4.97 HECT..kml</name>
+	<open>1</open>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7f00aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7f00aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff005500</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_arrow">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_red-circle">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_cross-hairs0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_parks">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_red-circle">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_target">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_target</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_target</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_cross-hairs_highlight0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs_highlight.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_cross-hairs_highlight">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs_highlight.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>1.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff005500</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_arrow">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-circle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-circle0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-circle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_red-circle0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_target">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cross-hairs">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_parks">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_arrow">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_arrow</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_arrow</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cross-hairs0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cross-hairs</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cross-hairs_highlight0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cross-hairs">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cross-hairs0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cross-hairs_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_target">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_red-circle0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-circle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-circle0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_red-circle0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_parks">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Boundry pilar 1</name>
+		<LookAt>
+			<longitude>81.26330755823601</longitude>
+			<latitude>18.7158137367489</latitude>
+			<altitude>0</altitude>
+			<heading>-0.004910718968637632</heading>
+			<tilt>27.2300656576938</tilt>
+			<range>406.0894601379262</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_red-circle</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>81.26484444444445,18.71221111111111,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Boundry pilar 2</name>
+		<LookAt>
+			<longitude>81.26479911080857</longitude>
+			<latitude>18.71557724684985</latitude>
+			<altitude>0</altitude>
+			<heading>-0.004302463921549232</heading>
+			<tilt>24.48261054429442</tilt>
+			<range>1055.474689804598</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_red-circle</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>81.26493055555555,18.71303611111111,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Boundry pilar 3</name>
+		<LookAt>
+			<longitude>81.26479911080857</longitude>
+			<latitude>18.71557724684985</latitude>
+			<altitude>0</altitude>
+			<heading>-0.004302463921549232</heading>
+			<tilt>24.48261054429442</tilt>
+			<range>1055.474689804598</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_red-circle</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>81.26521388888889,18.71401388888889,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Boundry pilar 4</name>
+		<LookAt>
+			<longitude>81.26449108415247</longitude>
+			<latitude>18.71625357776204</latitude>
+			<altitude>0</altitude>
+			<heading>-0.004382373215394919</heading>
+			<tilt>24.82525119111723</tilt>
+			<range>717.5350269415713</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_red-circle</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>81.26434722222223,18.71448055555555,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Boundry pilar 5</name>
+		<LookAt>
+			<longitude>81.26449108415247</longitude>
+			<latitude>18.71625357776204</latitude>
+			<altitude>0</altitude>
+			<heading>-0.004382373215394919</heading>
+			<tilt>24.82525119111723</tilt>
+			<range>717.5350269415713</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_red-circle</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>81.26417777777777,18.71475555555556,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Boundry pilar 6</name>
+		<LookAt>
+			<longitude>81.2652056460449</longitude>
+			<latitude>18.71581227743298</latitude>
+			<altitude>0</altitude>
+			<heading>-0.00400284366589313</heading>
+			<tilt>27.37670933935523</tilt>
+			<range>706.291131549827</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_red-circle</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>81.26391388888889,18.71475,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Boundry pilar 7</name>
+		<LookAt>
+			<longitude>81.26552400125425</longitude>
+			<latitude>18.71600050189775</latitude>
+			<altitude>0</altitude>
+			<heading>-0.003899878395926859</heading>
+			<tilt>27.39942000494219</tilt>
+			<range>640.5386039289721</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_red-circle</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>81.26389722222223,18.7142,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Boundry pilar 8</name>
+		<LookAt>
+			<longitude>81.26299503489128</longitude>
+			<latitude>18.72468328308103</latitude>
+			<altitude>0</altitude>
+			<heading>-0.0003511467122344941</heading>
+			<tilt>32.58421831824297</tilt>
+			<range>2209.875130251356</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_red-circle0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>81.26366388888889,18.71348333333333,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Boundry pilar 9</name>
+		<LookAt>
+			<longitude>81.26493531174134</longitude>
+			<latitude>18.71587246146655</latitude>
+			<altitude>0</altitude>
+			<heading>-0.004066030554007462</heading>
+			<tilt>27.96574290426447</tilt>
+			<range>690.5320358523996</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_red-circle</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>81.26346111111111,18.71350833333333,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Boundry pilar 10</name>
+		<LookAt>
+			<longitude>81.26509432406225</longitude>
+			<latitude>18.71584882818109</latitude>
+			<altitude>0</altitude>
+			<heading>-0.004024086172291386</heading>
+			<tilt>26.41382904186777</tilt>
+			<range>517.9468714468236</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_red-circle</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>81.26327222222223,18.71319166666667,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Boundry pilar11</name>
+		<LookAt>
+			<longitude>81.26509432406225</longitude>
+			<latitude>18.71584882818109</latitude>
+			<altitude>0</altitude>
+			<heading>-0.004024086172291386</heading>
+			<tilt>26.41382904186777</tilt>
+			<range>517.9468714468236</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_red-circle</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>81.26295833333333,18.71322777777778,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Boundry pilar 12</name>
+		<LookAt>
+			<longitude>81.26509432406225</longitude>
+			<latitude>18.71584882818109</latitude>
+			<altitude>0</altitude>
+			<heading>-0.004024086172291386</heading>
+			<tilt>26.41382904186777</tilt>
+			<range>517.9468714468236</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_red-circle</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>81.26283888888889,18.71309166666667,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Boundry pilar 13</name>
+		<LookAt>
+			<longitude>81.26509432406225</longitude>
+			<latitude>18.71584882818109</latitude>
+			<altitude>0</altitude>
+			<heading>-0.004024086172291386</heading>
+			<tilt>26.41382904186777</tilt>
+			<range>517.9468714468236</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_red-circle</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>81.26196944444445,18.71308611111111,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Boundry pilar14</name>
+		<LookAt>
+			<longitude>81.26534822986892</longitude>
+			<latitude>18.71520502654816</latitude>
+			<altitude>0</altitude>
+			<heading>-0.003942137688569416</heading>
+			<tilt>26.41408101130311</tilt>
+			<range>581.0105849607849</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_red-circle</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>81.26200555555556,18.71220833333333,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>boundry pilar 15</name>
+		<LookAt>
+			<longitude>81.265348230009</longitude>
+			<latitude>18.71520502652157</latitude>
+			<altitude>0</altitude>
+			<heading>-0.003942137376416658</heading>
+			<tilt>26.41408101127654</tilt>
+			<range>581.0105839134119</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_red-circle</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>81.2621,18.71216111111111,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Boundry pilar 16</name>
+		<LookAt>
+			<longitude>81.26534822986892</longitude>
+			<latitude>18.71520502654816</latitude>
+			<altitude>0</altitude>
+			<heading>-0.003942137688569416</heading>
+			<tilt>26.41408101130311</tilt>
+			<range>581.0105849607849</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_red-circle</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>81.26309722222223,18.71229722222222,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Boundry pilar 17</name>
+		<LookAt>
+			<longitude>81.26433053632685</longitude>
+			<latitude>18.71517494895112</latitude>
+			<altitude>0</altitude>
+			<heading>-0.004268684680327278</heading>
+			<tilt>26.41406861782997</tilt>
+			<range>577.9090404953967</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_red-circle</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>81.26346388888889,18.71229166666667,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Boundry pilar 18</name>
+		<LookAt>
+			<longitude>81.26363670436814</longitude>
+			<latitude>18.71493643259061</latitude>
+			<altitude>0</altitude>
+			<heading>-0.004400127561220426</heading>
+			<tilt>29.80461268977479</tilt>
+			<range>341.2184942032083</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_red-circle</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>81.26373333333333,18.71245,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>LEASE BOUNDRY</name>
+		<styleUrl>#msn_ylw-pushpin1</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						81.26484820145228,18.71221870533541,0 81.2648608021849,18.71249596293669,0 81.26489330524066,18.7127109427904,0 81.26493454171242,18.71303717530836,0 81.26494509669945,18.71314108991483,0 81.26495109122727,18.71322008206842,0 81.26498668774794,18.71332049298683,0 81.26498759725058,18.71333180418631,0 81.26502574519239,18.71348755188628,0 81.26507883306964,18.7136480739805,0 81.26513791306937,18.71381350842601,0 81.26521783244355,18.71402971486803,0 81.26512283388689,18.71409051019261,0 81.2649907537524,18.7141411249112,0 81.26488792314329,18.71418450156918,0 81.26473972789228,18.71425893446435,0 81.26458302284185,18.71432944330066,0 81.26446673026244,18.71440205673264,0 81.26434517867706,18.7144793152994,0 81.26431593757698,18.71452979655057,0 81.2642874403773,18.71457848384134,0 81.26426401029659,18.71462563020273,0 81.26424277731562,18.71467109096908,0 81.26420480183842,18.71472246404538,0 81.26417873409528,18.71475977498283,0 81.26391646427261,18.7147527195452,0 81.26390456378479,18.71463485780468,0 81.26390438520167,18.71456889307303,0 81.26390315846442,18.71448302765234,0 81.26389243318361,18.71434887064971,0 81.26389097844609,18.71425332025901,0 81.26389785465258,18.71420201214508,0 81.26387021049973,18.71397824050345,0 81.263853139256,18.71384441613105,0 81.26380495262988,18.71367679644871,0 81.26375537883658,18.71358252988221,0 81.26366428179247,18.71348800353385,0 81.26358791914552,18.71351062988279,0 81.26350542240431,18.71351959699946,0 81.26346217484557,18.71351099052594,0 81.26340307274974,18.71345133855926,0 81.26337094132317,18.71337795917096,0 81.2633251891025,18.71330846103314,0 81.26327403292457,18.7131913403322,0 81.2632360041564,18.71320163408369,0 81.26319168131967,18.71320144585196,0 81.26314380620818,18.71320451535018,0 81.26310590107329,18.71320924466079,0 81.26305634018792,18.71321220019254,0 81.26301836742782,18.7132169361165,0 81.26295881243338,18.71322656755292,0 81.26293278734619,18.71320053871352,0 81.2628955766837,18.71316302739276,0 81.26287123365623,18.71312495579383,0 81.26283955846338,18.71309306276195,0 81.26271542645578,18.71309034480937,0 81.26258121973387,18.71309020045174,0 81.26246435743155,18.71309379058105,0 81.26231418927237,18.71310191895076,0 81.26219276934542,18.7131108016227,0 81.26211559474326,18.71311676654924,0 81.26198697235978,18.71311896149424,0 81.2619576924096,18.71311870645897,0 81.26198221166095,18.71274783678942,0 81.26198889262373,18.71250328195991,0 81.26200507088241,18.71221260383278,0 81.26205526604527,18.71219038244529,0 81.26210129171938,18.71216300893132,0 81.26220186421418,18.71216626194465,0 81.26228687678235,18.71217517387664,0 81.26240663296466,18.71217475803078,0 81.26248527335157,18.71218073724254,0 81.26254889548485,18.71218886692548,0 81.26264820342824,18.71219897960068,0 81.26270330238208,18.71220715597898,0 81.26276894725106,18.71221856624231,0 81.26283828476012,18.71223167748736,0 81.26293033587868,18.71226237177662,0 81.26300675858015,18.71228039403537,0 81.2630983770088,18.71230366892827,0 81.26317936276595,18.71230582133456,0 81.26326526794504,18.71230573824452,0 81.2633690109903,18.7123023348359,0 81.26346496887616,18.7122940047853,0 81.26353481550579,18.71234404368668,0 81.26362071294761,18.71239406593916,0 81.2636851434011,18.71243856654032,0 81.26373240172684,18.71245514885767,0 81.26382648703439,18.71244676379015,0 81.26398246851474,18.71242256153343,0 81.26415424259525,18.71238269399356,0 81.264339798649,18.71233748982254,0 81.26448525156623,18.71229003464537,0 81.26462025293974,18.71226639604522,0 81.26472284098925,18.71224449990847,0 81.26479947295729,18.71223001976619,0 81.26484820145228,18.71221870533541,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Folder>
+		<name>NERLI 4.97 HECT.</name>
+		<open>1</open>
+		<Placemark>
+			<name>PIT AREA</name>
+			<styleUrl>#msn_ylw-pushpin3</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.26308103442665,18.71294699342102,0 81.26313094777345,18.71246521778281,0 81.264234914453,18.71245889740318,0 81.26422506638416,18.71296545356354,0 81.26308103442665,18.71294699342102,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>YEAR WISE PRODUCTION  PROPOSAL PIT</name>
+			<LookAt>
+				<longitude>81.26387851616086</longitude>
+				<latitude>18.71269194793079</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002452659192313184</heading>
+				<tilt>23.73666469515804</tilt>
+				<range>303.0778630999511</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_cross-hairs0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>81.26412354809847,18.71272605516412,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>DUMP AREA BOUNDRY</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						81.26204719083847,18.71303103761777,0 81.26207789962785,18.71228983813791,0 81.26210550672604,18.71224557790803,0 81.26216141796031,18.71222092015194,0 81.26271400960999,18.71225779779302,0 81.26269400237166,18.71300458106239,0 81.26204719083847,18.71303103761777,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>YEAR WISE PROPOSAL DUMP AREA</name>
+		<LookAt>
+			<longitude>81.26330530522569</longitude>
+			<latitude>18.71257970308287</latitude>
+			<altitude>0</altitude>
+			<heading>-0.002506911275724139</heading>
+			<tilt>24.25474259658354</tilt>
+			<range>359.930000218567</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_target</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>81.26250237966086,18.71262764785476,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>AFFORASTAION AREA</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						81.26203978780312,18.71303067619924,0 81.26196572324938,18.71303321616853,0 81.26200278827066,18.71236485508689,0 81.26207367641101,18.71236516213497,0 81.26203978780312,18.71303067619924,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>AFFORASTATION AREA</name>
+		<LookAt>
+			<longitude>81.26262556038371</longitude>
+			<latitude>18.71295118992363</latitude>
+			<altitude>0</altitude>
+			<heading>-0.0007089044746652183</heading>
+			<tilt>29.29321519931839</tilt>
+			<range>215.9516488933017</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_parks</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>81.26202676509345,18.71272372283927,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>PANNING POND</name>
+		<styleUrl>#msn_ylw-pushpin2</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						81.2645161805133,18.71284326574891,0 81.26451772587608,18.71276894229976,0 81.26458994317083,18.71277188980036,0 81.26458747733963,18.71284418031033,0 81.2645161805133,18.71284326574891,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>PANNING POND</name>
+		<LookAt>
+			<longitude>81.26440503757942</longitude>
+			<latitude>18.71286365127584</latitude>
+			<altitude>0</altitude>
+			<heading>-0.0006402260866140176</heading>
+			<tilt>30.00030097617269</tilt>
+			<range>66.93537857864899</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_cross-hairs</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>81.26454803669336,18.71280088948144,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>PANNING POND</name>
+		<styleUrl>#msn_ylw-pushpin2</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						81.26274942304715,18.71280506190507,0 81.26275841134849,18.71272259423286,0 81.26284534307811,18.71272407874815,0 81.26283197312846,18.71280656967048,0 81.26274942304715,18.71280506190507,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>PANNING POND</name>
+		<LookAt>
+			<longitude>81.26302417429906</longitude>
+			<latitude>18.7128512871933</latitude>
+			<altitude>0</altitude>
+			<heading>-0.001083556171578775</heading>
+			<tilt>30.00040931516317</tilt>
+			<range>90.9961915598802</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_cross-hairs</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>81.26278399457513,18.71275089582166,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>ROAD</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				81.26204373153415,18.71303510977778,0 81.26207622594502,18.71304841522553,0 81.26214557341279,18.71305071824451,0 81.26230962542313,18.71304087220214,0 81.26247769669656,18.71304088709264,0 81.26266368389119,18.71303119004363,0 81.26278931141002,18.71301269599225,0 81.26296165070289,18.71296352215589,0 81.2632119824389,18.71295931475784,0 81.26342265017561,18.71297042545246,0 81.26369203034457,18.71298051822382,0 81.26383499795963,18.71299423690624,0 81.26398404515849,18.71314808435489,0 81.26411688178138,18.71332146410915,0 81.26424184067939,18.71353783160509,0 81.26426028862218,18.71379430174767,0 81.26435102561108,18.714100415622,0 81.26445593583803,18.71411982149769,0 81.26460245015311,18.71417277835301,0 81.26479450674802,18.71429530808588,0 81.26506032897055,18.71444083671865,0 81.26553598586725,18.71483139166829,0 81.26601346515592,18.71524308772572,0 81.26605794972269,18.71530189518692,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>ROAD</name>
+		<LookAt>
+			<longitude>81.26432403443805</longitude>
+			<latitude>18.71376492652457</latitude>
+			<altitude>0</altitude>
+			<heading>-1.615901617364426</heading>
+			<tilt>28.47110222553502</tilt>
+			<range>180.1550628572151</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_arrow</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>81.26424222387152,18.71353551174552,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>topografix_kml.kml</name>
+	<open>1</open>
+	<LookAt>
+		<longitude>70.06343750000001</longitude>
+		<latitude>21.65776527</latitude>
+		<altitude>0</altitude>
+		<heading>0</heading>
+		<tilt>0</tilt>
+		<range>573</range>
+	</LookAt>
+	<Style id="Line_EXISTING_BROEN_AREA_230_ff007f_03">
+		<BalloonStyle>
+			<text><![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7f00ff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f7f00ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="Line_EXISTING_BROEN_AREA_230_ff007f_030">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Line_EXISTING_BROEN_AREA_230_ff007f_031</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Line_EXISTING_BROEN_AREA_230_ff007f_03</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="Line_EXISTING_BROEN_AREA_230_ff007f_031">
+		<BalloonStyle>
+			<text><![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7f00ff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f7f00ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Shapes</name>
+		<open>1</open>
+		<Folder>
+			<name>EXISTING BROEN AREA 230</name>
+			<Placemark>
+				<LookAt>
+					<longitude>70.0632277</longitude>
+					<latitude>21.65742577</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>214</range>
+				</LookAt>
+				<styleUrl>#Line_EXISTING_BROEN_AREA_230_ff007f_030</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>EXISTING BROEN AREA 230</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>34</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								70.06297139,21.65663778,0 70.0628681,21.6566421,0 70.06277883,21.65668385,0 70.06276794,21.6567275,0 70.06276457,21.65679345,0 70.06267898999999,21.65733013,0 70.06266232,21.6574038,0 70.06263248,21.65755311,0 70.06272785,21.65769655,0 70.06272909,21.65785133,0 70.0628758,21.65801888,0 70.06302767,21.65805957,0 70.06322733,21.65807326,0 70.06342583,21.65816836,0 70.06358603,21.65821377,0 70.06365866,21.658118,0 70.06370115,21.65806289,0 70.06370901,21.65796489,0 70.06376643,21.65786829,0 70.06382291,21.65774352,0 70.06381647000001,21.65758675,0 70.06378788000001,21.65748046,0 70.06370321999999,21.6573592,0 70.06360599,21.65733353,0 70.06353374,21.65731445,0 70.06352557,21.65730381,0 70.0635398,21.65726326,0 70.06356037,21.65719693,0 70.06357815,21.65713959,0 70.06357783,21.65709537,0 70.06345205,21.65699085,0 70.06321237,21.65684771,0 70.06318833,21.65676931,0 70.06297139,21.65663778,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>70.06459753</longitude>
+					<latitude>21.65841213</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>139</range>
+				</LookAt>
+				<styleUrl>#Line_EXISTING_BROEN_AREA_230_ff007f_030</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>EXISTING BROEN AREA 230</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>30</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								70.06428359,21.65846294,0 70.06428486999999,21.6585317,0 70.06431232,21.65857568,0 70.06463959,21.65876666,0 70.06470600999999,21.65876623,0 70.06480573,21.6587793,0 70.06499178,21.65887406,0 70.0650011,21.65876169,0 70.06503451,21.65869453,0 70.06505146000001,21.65869442,0 70.06501975,21.6584671,0 70.0649775,21.65847276,0 70.06494566000001,21.65845456,0 70.06491807,21.65836182,0 70.06491757000001,21.65823456,0 70.06489589,21.65808987,0 70.06480448000001,21.65806913,0 70.06461229999999,21.65801844,0 70.0644854,21.65798677,0 70.06437175000001,21.65795575,0 70.06431659,21.65795019,0 70.0642592,21.65797023,0 70.06422736,21.65803371,0 70.06418395999999,21.65815474,0 70.06416211,21.65825987,0 70.06414359,21.65830649,0 70.06415378,21.65835857,0 70.06416372,21.65837682,0 70.06422444,21.65842857,0 70.06428359,21.65846294,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>70.0640011</longitude>
+					<latitude>21.65792894</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>10</range>
+				</LookAt>
+				<styleUrl>#Line_EXISTING_BROEN_AREA_230_ff007f_030</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>EXISTING BROEN AREA 230</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>11</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								70.06400049,21.65789381,0 70.06398417,21.65790327,0 70.06397413000001,21.6579299,0 70.06397653000001,21.65794711,0 70.06398415,21.65796279,0 70.06399989000001,21.65796758,0 70.06402233999999,21.65795744,0 70.06402808,21.65793296,0 70.06402443,21.65790131,0 70.06401683999999,21.65789031,0 70.06400049,21.65789381,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>EXISTING BROEN AREA 7</name>
+			<Placemark>
+				<LookAt>
+					<longitude>70.06459753</longitude>
+					<latitude>21.65841213</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>139</range>
+				</LookAt>
+				<styleUrl>#Line_EXISTING_BROEN_AREA_230_ff007f_030</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>EXISTING BROEN AREA 7</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>30</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								70.06428359,21.65846294,0 70.06428486999999,21.6585317,0 70.06431232,21.65857568,0 70.06463959,21.65876666,0 70.06470600999999,21.65876623,0 70.06480573,21.6587793,0 70.06499178,21.65887406,0 70.0650011,21.65876169,0 70.06503451,21.65869453,0 70.06505146000001,21.65869442,0 70.06501975,21.6584671,0 70.0649775,21.65847276,0 70.06494566000001,21.65845456,0 70.06491807,21.65836182,0 70.06491757000001,21.65823456,0 70.06489589,21.65808987,0 70.06480448000001,21.65806913,0 70.06461229999999,21.65801844,0 70.0644854,21.65798677,0 70.06437175000001,21.65795575,0 70.06431659,21.65795019,0 70.0642592,21.65797023,0 70.06422736,21.65803371,0 70.06418395999999,21.65815474,0 70.06416211,21.65825987,0 70.06414359,21.65830649,0 70.06415378,21.65835857,0 70.06416372,21.65837682,0 70.06422444,21.65842857,0 70.06428359,21.65846294,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>HAUL ROAD 22</name>
+			<Placemark>
+				<LookAt>
+					<longitude>70.06503717</longitude>
+					<latitude>21.65886401</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>13</range>
+				</LookAt>
+				<styleUrl>#Line_EXISTING_BROEN_AREA_230_ff007f_030</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>HAUL ROAD 22</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>7</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								70.06499395,21.65884792,0 70.06499603,21.65882288,0 70.06504710999999,21.65884873,0 70.06507494,21.65886545,0 70.06508039000001,21.65890514,0 70.0650148,21.65885812,0 70.06499395,21.65884792,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>70.06377144</longitude>
+					<latitude>21.65751367</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>122</range>
+				</LookAt>
+				<styleUrl>#Line_EXISTING_BROEN_AREA_230_ff007f_030</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>HAUL ROAD 22</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>38</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								70.06356834,21.65708749,0 70.06358864000001,21.65705062,0 70.06359768,21.65703115,0 70.06361920000001,21.65699861,0 70.06362821,21.65700384,0 70.06364947,21.65701226,0 70.06363417,21.65702186,0 70.06361711,21.65705653,0 70.06361117,21.65710619,0 70.06361075,21.65717,0 70.0636545,21.65721945,0 70.06371204,21.65726101,0 70.06385693,21.65735054,0 70.06393271,21.65741263,0 70.06395972999999,21.65746753,0 70.06397205,21.65759122,0 70.06397453,21.65763986,0 70.06390771,21.65779474,0 70.06382139999999,21.65791714,0 70.06376595,21.65798113,0 70.06370389,21.65802872,0 70.06370689000001,21.65799137,0 70.06374528000001,21.65796193,0 70.06379771,21.65790149,0 70.06388155,21.65778292,0 70.06394537,21.6576372,0 70.06394249,21.65758673,0 70.06393117,21.65747311,0 70.06390809,21.65742746,0 70.06383984999999,21.65737247,0 70.06369546000001,21.65728326,0 70.06363507,21.65723967,0 70.0635817,21.65717968,0 70.06358212000001,21.6571159,0 70.06358212000001,21.6571159,0 70.06357791000001,21.6571068,0 70.06357783,21.65709537,0 70.06356834,21.65708749,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>70.06396836</longitude>
+					<latitude>21.65803913</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>67</range>
+				</LookAt>
+				<styleUrl>#Line_EXISTING_BROEN_AREA_230_ff007f_030</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>HAUL ROAD 22</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>38</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								70.0640758,21.65780757,0 70.06410150000001,21.6578142,0 70.06408267,21.65785708,0 70.06406692,21.65790006,0 70.06405982,21.65794415,0 70.06405945,21.65798409,0 70.06407809,21.65804162,0 70.06413409,21.65812875,0 70.06417845999999,21.65818121,0 70.06417845999999,21.65818121,0 70.06416778000001,21.65823257,0 70.06415851,21.65823405,0 70.06410871999999,21.65822764,0 70.06406930999999,21.65821687,0 70.06404585,21.65821117,0 70.06401068,21.65820623,0 70.06396611,21.65820615,0 70.06391708,21.65821411,0 70.06384122999999,21.65824772,0 70.06378530000001,21.6582707,0 70.06375825000001,21.65825509,0 70.06383095,21.65822695,0 70.06390906,21.65819036,0 70.06396438,21.65818049,0 70.06401251,21.65818464,0 70.06404736,21.65818934,0 70.0640731,21.65819404,0 70.06411246,21.65820508,0 70.06414679,21.65821431,0 70.06415662000001,21.65820721,0 70.06415853,21.65819877,0 70.06411258,21.65814239,0 70.0640526,21.65805296,0 70.06403131,21.65797568,0 70.06403127999999,21.65793581,0 70.06404166999999,21.65788853,0 70.06406015,21.65784538,0 70.0640758,21.65780757,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>70.06231673000001</longitude>
+					<latitude>21.65738071</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>74</range>
+				</LookAt>
+				<styleUrl>#Line_EXISTING_BROEN_AREA_230_ff007f_030</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>HAUL ROAD 22</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>21</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								70.0626474,21.65747846,0 70.06264179999999,21.6575065,0 70.06261145000001,21.65751028,0 70.06256965,21.65749715,0 70.06251142000001,21.65750976,0 70.06242494999999,21.65746741,0 70.0623159,21.65741788,0 70.06219028,21.65733513,0 70.06215546,21.65732659,0 70.06205505,21.65730193,0 70.06198606,21.65727632,0 70.06199676,21.65725113,0 70.06206412,21.65727613,0 70.06216283000001,21.65730038,0 70.0622027,21.65731016,0 70.06233068,21.65739446,0 70.06243800999999,21.65744321,0 70.06251535,21.65748109,0 70.06257110999999,21.65746902,0 70.06261430000001,21.65748259,0 70.0626474,21.65747846,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>70.06504028000001</longitude>
+					<latitude>21.65892252</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>20</range>
+				</LookAt>
+				<styleUrl>#Line_EXISTING_BROEN_AREA_230_ff007f_030</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>HAUL ROAD 22</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>15</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								70.06508894,21.65896746,0 70.06508894,21.65896746,0 70.06506403,21.65895892,0 70.06504094,21.65894206,0 70.06502141999999,21.65891311,0 70.06502141999999,21.65891311,0 70.0650148,21.65885812,0 70.06499395,21.65884792,0 70.06499178,21.65887406,0 70.06498755,21.65887191,0 70.06499334999999,21.65892231,0 70.06501910999999,21.65896051,0 70.06504977,21.65898289,0 70.06509301,21.65899713,0 70.06508894,21.65896746,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>70.06361157000001</longitude>
+					<latitude>21.65723267</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>14</range>
+				</LookAt>
+				<styleUrl>#Line_EXISTING_BROEN_AREA_230_ff007f_030</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>HAUL ROAD 22</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>7</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						70.06363507,21.65723967,0 70.06361069,21.65721227,0 70.06355929999999,21.65720037,0 70.06355301000001,21.65722065,0 70.0636056,21.65723491,0 70.06367013000001,21.65726497,0 70.06363507,21.65723967,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>MINING LEASE BOUNDARY 1</name>
+			<Placemark>
+				<LookAt>
+					<longitude>70.06343750000001</longitude>
+					<latitude>21.65776528</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>443</range>
+				</LookAt>
+				<styleUrl>#Line_EXISTING_BROEN_AREA_230_ff007f_030</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>MINING LEASE BOUNDARY 1</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>19</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								70.06509722,21.65902778,0 70.06496111,21.65803611,0 70.06393889,21.65777222,0 70.06419722,21.65733333,0 70.06403333,21.65727222,0 70.06399722,21.65715,0 70.06356943999999,21.65698056,0 70.06276944,21.65650278,0 70.06260555999999,21.65726389,0 70.06235556,21.65706667,0 70.06213056,21.65693611,0 70.06177778,21.65776667,0 70.06273333,21.65814444,0 70.06345555999999,21.65851667,0 70.06361111,21.65856389,0 70.06367222,21.65825833,0 70.06369167,21.65821667,0 70.06509722,21.65902778,0 70.06509722,21.65902778,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

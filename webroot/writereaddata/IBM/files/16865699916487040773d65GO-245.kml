@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Generated document</name>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Concurrent Campa Evaluation and Monitoring System</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							77.9330279999983,8.434805999968978,0 77.9331939999778,8.435277999992737,0 77.93322199997276,8.435278000043889,0 77.93341700001548,8.435638999962919,0 77.93288899998737,8.435972000021943,0 77.93263900002316,8.435443999994945,0 77.93216700003129,8.435555999980142,0 77.93233300000959,8.436056000014178,0 77.9316389999719,8.436194000039563,0 77.93175000000481,8.436667000025604,0 77.93108299995437,8.436833000020105,0 77.93102800001239,8.436611000021365,0 77.93108299995589,8.436388999996916,0 77.93097199996574,8.436083000011951,0 77.93083299995233,8.435916999999556,0 77.9316669999554,8.435666999976307,0 77.93152800005247,8.435305999954457,0 77.93163900003452,8.435222000004728,0 77.93252799998605,8.434943999979486,0 77.9330279999983,8.434805999968978,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							77.9318609999592,8.434305999978095,0 77.93211099995074,8.435028000027515,0 77.93155599999531,8.435193999966595,0 77.93147199999093,8.435250000000329,0 77.93108300003631,8.435361000040153,0 77.93086100005104,8.434528000021759,0 77.93105599997242,8.434472000007038,0 77.9318609999592,8.434305999978095,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							77.93538900004432,8.43205600002781,0 77.93555600002186,8.432806000025884,0 77.93530600001759,8.432860999957908,0 77.9355000000175,8.434111000042737,0 77.93494400001391,8.43419399996414,0 77.93400000002859,8.434389000025981,0 77.93377800004188,8.433444000031331,0 77.93305599994908,8.433638999951095,0 77.93322199999649,8.434222000021112,0 77.93294399998101,8.434277999965294,0 77.93291699999627,8.434250000036357,0 77.93305599997798,8.434750000005428,0 77.93250000000957,8.434888999951753,0 77.93213899996782,8.43358300003624,0 77.93216700000818,8.433499999961072,0 77.93161099995591,8.433582999984127,0 77.93163900000954,8.433943999970087,0 77.93102800000217,8.434083000018619,0 77.93102800003157,8.433222000041926,0 77.93163899997407,8.433166999980836,0 77.93161100001203,8.432694000046498,0 77.93361099997324,8.432694000009724,0 77.93347200000628,8.432111000035727,0 77.93494400002189,8.432277999961954,0 77.93538900004432,8.43205600002781,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

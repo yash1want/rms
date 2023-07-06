@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>AK 86 .kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>AK 86</name>
+		<Placemark>
+			<name>Afforestation upto 2022</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>79.13230446646159</longitude>
+				<latitude>11.13142464550506</latitude>
+				<altitude>0</altitude>
+				<heading>-0.004970302584988018</heading>
+				<tilt>23.03275037124701</tilt>
+				<range>858.888877728841</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>79.1354354601405,11.13130678171467,0</coordinates>
+			</Point>
+		</Placemark>
+		<Document id="root_doc">
+			<name>ak afforestation 86  22 23.kml</name>
+			<open>1</open>
+			<Schema name="86_ak_22_23_af__entities" id="86_ak_22_23_af__entities">
+				<SimpleField type="string" name="Layer"></SimpleField>
+				<SimpleField type="int" name="PaperSpace"></SimpleField>
+				<SimpleField type="string" name="SubClasses"></SimpleField>
+				<SimpleField type="string" name="Linetype"></SimpleField>
+				<SimpleField type="string" name="EntityHandle"></SimpleField>
+				<SimpleField type="string" name="Text"></SimpleField>
+			</Schema>
+			<StyleMap id="m_ylw-pushpin0">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#s_ylw-pushpin0</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="msn_ylw-pushpin">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#sn_ylw-pushpin</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#sh_ylw-pushpin</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="s_ylw-pushpin0">
+				<IconStyle>
+					<scale>1.1</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+			</Style>
+			<Style id="s_ylw-pushpin_hl0">
+				<IconStyle>
+					<scale>1.3</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+			</Style>
+			<Style id="sh_ylw-pushpin">
+				<IconStyle>
+					<scale>1.3</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00aaff</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00aaff</color>
+				</PolyStyle>
+			</Style>
+			<Style id="sn_ylw-pushpin">
+				<IconStyle>
+					<scale>1.1</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00aaff</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00aaff</color>
+				</PolyStyle>
+			</Style>
+			<Folder>
+				<name>86_ak_22_23_af__entities</name>
+				<open>1</open>
+				<Placemark>
+					<styleUrl>#msn_ylw-pushpin</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#86_ak_22_23_af__entities">
+							<SimpleData name="Layer">0</SimpleData>
+							<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+							<SimpleData name="EntityHandle">243</SimpleData>
+							<SimpleData name="Text">SOLID</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									79.1281380734021,11.1367302929588,0 79.1286199863751,11.1372503883536,0 79.12875778812131,11.137478977568,0 79.1289784654426,11.1378738121546,0 79.12919961204589,11.1382697795153,0 79.1294253250027,11.1386617346209,0 79.129380499685,11.138663889049,0 79.12919903082221,11.1383959636002,0 79.129009041972,11.1380751044564,0 79.12880145973401,11.1377086761388,0 79.1285849477983,11.1373260832127,0 79.12830758140881,11.1369969052837,0 79.12814427118821,11.1368170257188,0 79.1281088674489,11.136765282805,0 79.1281380734021,11.1367302929588,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+						<innerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									79.1280714096453,11.1356904515699,0 79.12819363554109,11.1365282663631,0 79.1282577542698,11.1366964631939,0 79.12871316438419,11.1371968319226,0 79.1287448138975,11.1371542334003,0 79.1284042595329,11.136656992307,0 79.1283578010007,11.1365149020226,0 79.1282091706975,11.1361388597521,0 79.1281374659433,11.1356768121077,0 79.1280714096453,11.1356904515699,0 
+								</coordinates>
+							</LinearRing>
+						</innerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Placemark>
+				<name>Afforestation 2022 to 2023</name>
+				<LookAt>
+					<longitude>79.12913477018148</longitude>
+					<latitude>11.13685826683265</latitude>
+					<altitude>0</altitude>
+					<heading>0.003900112620284139</heading>
+					<tilt>23.44165739007157</tilt>
+					<range>369.2311897497513</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.12846919183305,11.13712873770304,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Afforestation 2022 to 2023</name>
+				<LookAt>
+					<longitude>79.12913477018148</longitude>
+					<latitude>11.13685826683265</latitude>
+					<altitude>0</altitude>
+					<heading>0.003900112620284139</heading>
+					<tilt>23.44165739007157</tilt>
+					<range>369.2311897497513</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.1283513774549,11.13670797451695,0</coordinates>
+				</Point>
+			</Placemark>
+		</Document>
+		<Document id="root_doc">
+			<name>Afforestation 86 upto 22.kml</name>
+			<open>1</open>
+			<Schema name="86_upto_22__entities" id="86_upto_22__entities">
+				<SimpleField type="string" name="Layer"></SimpleField>
+				<SimpleField type="int" name="PaperSpace"></SimpleField>
+				<SimpleField type="string" name="SubClasses"></SimpleField>
+				<SimpleField type="string" name="Linetype"></SimpleField>
+				<SimpleField type="string" name="EntityHandle"></SimpleField>
+				<SimpleField type="string" name="Text"></SimpleField>
+			</Schema>
+			<Style id="line1">
+				<IconStyle>
+					<Icon>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffff0d86</color>
+					<width>3</width>
+				</LineStyle>
+			</Style>
+			<StyleMap id="m_ylw-pushpin00">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#s_ylw-pushpin1</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="m_ylw-pushpin1">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#s_ylw-pushpin2</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="msn_ylw-pushpin1">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#sn_ylw-pushpin1</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#sh_ylw-pushpin0</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="msn_ylw-pushpin0">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#sn_ylw-pushpin0</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#sh_ylw-pushpin00</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="s_ylw-pushpin1">
+				<IconStyle>
+					<scale>1.1</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ff00</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>8000ff00</color>
+				</PolyStyle>
+			</Style>
+			<Style id="s_ylw-pushpin2">
+				<IconStyle>
+					<scale>1.1</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+			</Style>
+			<Style id="s_ylw-pushpin_hl1">
+				<IconStyle>
+					<scale>1.3</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ff00</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>8000ff00</color>
+				</PolyStyle>
+			</Style>
+			<Style id="s_ylw-pushpin_hl2">
+				<IconStyle>
+					<scale>1.3</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+			</Style>
+			<Style id="sh_ylw-pushpin0">
+				<IconStyle>
+					<scale>1.3</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<BalloonStyle>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ff00ff00</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>8000ff00</color>
+				</PolyStyle>
+			</Style>
+			<Style id="sh_ylw-pushpin00">
+				<IconStyle>
+					<scale>1.3</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ff00</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>8000ff00</color>
+				</PolyStyle>
+			</Style>
+			<Style id="sn_ylw-pushpin1">
+				<IconStyle>
+					<scale>1.1</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<BalloonStyle>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ff00ff00</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>8000ff00</color>
+				</PolyStyle>
+			</Style>
+			<Style id="sn_ylw-pushpin0">
+				<IconStyle>
+					<scale>1.1</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ff00</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>8000ff00</color>
+				</PolyStyle>
+			</Style>
+			<Folder>
+				<name>Line Features</name>
+				<description>Line Features</description>
+				<Placemark>
+					<description><![CDATA[Unknown Line Type<BR><BR><B>Name</B> = Ammenabath and Kayarlabath]]></description>
+					<styleUrl>#line1</styleUrl>
+					<LineString>
+						<coordinates>
+							79.12796696869999,11.1356841742,0 79.12796696869999,11.1356841742,0 79.1278390002,11.1356764018,0 79.1280531086,11.1353973063,0 79.1283281648,11.1350401644,0 79.1288150423,11.134824634,0 79.1292399048,11.1346405532,0 79.1296615041,11.1344628604,0 79.1294203474,11.1342721631,0 79.1297874639,11.1339068064,0 79.1301652354,11.1336846188,0 79.1305627183,11.133457428,0 79.1309659476,11.1332289977,0 79.1309144303,11.133015527,0 79.13079631710001,11.1325775994,0 79.13075521099999,11.1324381542,0 79.1311142051,11.1323524703,0 79.1311481508,11.1325052312,0 79.131240541,11.1329492812,0 79.13127783989999,11.1330542352,0 79.1316171543,11.1328983094,0 79.1315164098,11.1325197435,0 79.13195093189999,11.132340256,0 79.1321582297,11.1320128345,0 79.13240018640001,11.1316286978,0 79.13278637720001,11.1314577669,0 79.13320555129999,11.1312775852,0 79.1336276064,11.1311020037,0 79.1340446195,11.1309261281,0 79.1338235697,11.1305906205,0 79.1335797839,11.1302104884,0 79.1335624517,11.1296867611,0 79.1335635396,11.1292227995,0 79.1338627853,11.1291975218,0 79.13431626009999,11.1291657439,0 79.1347720835,11.1291302465,0 79.1352281915,11.1290974802,0 79.135277477,11.1294636494,0 79.1353380032,11.129907438,0 79.1353876169,11.1302350017,0 79.13545674140001,11.130676855,0 79.1354883347,11.1311363374,0 79.1355284377,11.1315876738,0 79.1355666903,11.1320348947,0 79.1356313269,11.1324628446,0 79.1357398171,11.1331886098,0 79.1358074595,11.1336390504,0 79.1358883626,11.1340784277,0 79.13581999020001,11.1344891002,0 79.1356582369,11.1346590867,0 79.1352580289,11.1347638462,0 79.134820819,11.1348777313,0 79.13471300400001,11.1348957643,0 79.1342566534,11.1349637356,0 79.1341361434,11.1350003109,0 79.13370142239999,11.1351415449,0 79.1335133571,11.1352186939,0 79.13342209859999,11.135214068,0 79.13297160499999,11.1353941629,0 79.1325460959,11.1355634114,0 79.1325045347,11.1357291624,0 79.1322235089,11.1358876027,0 79.13182457160001,11.1361099322,0 79.13190221150001,11.1363280851,0 79.13172539040001,11.1363944464,0 79.131301345,11.1365706984,0 79.1311177927,11.136694915,0 79.1307352275,11.1369447522,0 79.130355119,11.1371867759,0 79.13033257399999,11.1370089835,0 79.1302798048,11.1365586716,0 79.129983455,11.1366768609,0 79.1295620977,11.1368505507,0 79.12913723859999,11.137023531,0 79.12871386250001,11.1371964385,0 79.12852874239999,11.1370072014,0 79.1281975351,11.1366957895,0 79.12819419900001,11.1365432193,0 79.1281354398,11.1361369556,0 79.12806273459999,11.1356899907,0 79.12796696869999,11.1356841742,0 79.1280802956,11.1364396406,0 79.1280936724,11.136502096,0 79.1281293519,11.1367299312,0 79.1284476612,11.1370586275,0 79.1286300579,11.1372500534,0 79.1287584863,11.1374785842,0 79.1289791263,11.137873518,0 79.12920027289999,11.1382694944,0 79.12942599509999,11.1386614405,0 79.12901990829999,11.138776947,0 79.12859361389999,11.1389348483,0 79.1281602616,11.1390913129,0 79.12773396830001,11.1392503429,0 79.127298165,11.1393963412,0 79.1270227572,11.1394540754,0 79.1265732634,11.1395479743,0 79.1261230664,11.139647319,0 79.12567657370001,11.1397399426,0 79.1251284809,11.1398188961,0 79.12467563600001,11.1398842428,0 79.1247031672,11.140339088,0 79.12472838310001,11.1408038261,0 79.12475461850001,11.1412480329,0 79.12455893729999,11.1412600259,0 79.1241051641,11.1412913321,0 79.1236477466,11.1413213855,0 79.1231963047,11.1413517196,0 79.122736745,11.1413818124,0 79.1222830757,11.1414140566,0 79.1218257634,11.1414391361,0 79.12176759720001,11.1414440331,0 79.1213994634,11.1414928018,0 79.12089541260001,11.1415464049,0 79.1207759485,11.1413196903,0 79.120566979,11.1409135618,0 79.1204686427,11.1406496648,0 79.1202653796,11.1402416557,0 79.1200652613,11.1398315058,0 79.11996400540001,11.1390316903,0 79.1195285686,11.1389122828,0 79.1190871995,11.1387973572,0 79.1186420608,11.1386936252,0 79.1185029178,11.1386879262,0 79.1180399372,11.1386557548,0 79.1175922987,11.1386619155,0 79.11728992889999,11.138311895,0 79.1169932345,11.1379662218,0 79.1166971522,11.1376222606,0 79.1163983046,11.1372757147,0 79.1161030857,11.1369329336,0 79.11631346999999,11.1368915335,0 79.1167568045,11.1367485544,0 79.11718604249999,11.1365955791,0 79.1176179246,11.1364541449,0 79.1180619588,11.1363388648,0 79.1184998202,11.1362041197,0 79.1189223448,11.1360942988,0 79.1193602084,11.1359605376,0 79.11979788630001,11.1358342772,0 79.1202320551,11.1357070721,0 79.1206731433,11.1355827661,0 79.1211055589,11.1354490946,0 79.121540753,11.1353345671,0 79.12172046249999,11.1352832355,0 79.12215528909999,11.1351760086,0 79.1225989496,11.1350628973,0 79.1230417284,11.1349573729,0 79.12348687150001,11.1348456706,0 79.12392701509999,11.1347199072,0 79.1240772538,11.1346750972,0 79.1245172869,11.1345508056,0 79.12471573809999,11.1350590293,0 79.1248709442,11.1354607608,0 79.1253221108,11.1353862273,0 79.125776188,11.1353045702,0 79.12621939180001,11.1352341889,0 79.12668660049999,11.135140183,0 79.1269972134,11.1352763106,0 79.1274289286,11.1354723471,0 79.1278390002,11.1356764018,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[Unknown Line Type<BR><BR><B>Name</B> = Ammenabath and Kayarlabath]]></description>
+					<styleUrl>#line1</styleUrl>
+					<LineString>
+						<coordinates>
+							79.1302798048,11.1365586716,0 79.13055329700001,11.1362269908,0 79.1309871616,11.1358560372,0 79.1313305324,11.1355555606,0 79.1316673867,11.1354040854,0 79.1317544222,11.1355541212,0 79.1321858088,11.1351924516,0 79.1321661856,11.1351490938,0 79.13248593,11.1349102443,0 79.132908555,11.1346950032,0 79.1328051797,11.1343440003,0 79.13213106329999,11.1345305319,0 79.13172394359999,11.1348434311,0 79.1310949165,11.1351503476,0 79.1307158587,11.1354060283,0 79.1303389734,11.1356596881,0 79.1301833327,11.1357649144,0 79.12975480510001,11.1361872801,0 79.1302798048,11.1365586716,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>86_upto_22__entities</name>
+				<open>1</open>
+				<Placemark>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#86_upto_22__entities">
+							<SimpleData name="Layer">0</SimpleData>
+							<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+							<SimpleData name="EntityHandle">253</SimpleData>
+							<SimpleData name="Text">ANSI31</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									79.1340439121131,11.1309265305018,2.9796394432694 79.134087027703,11.130907954112,2.9796394432694 79.13367816064481,11.1302758790803,2.9796394432694 79.13363156999959,11.1301517172355,2.9796394432694 79.1336238454799,11.129435198923,2.9796394432694 79.1336872275903,11.129254385853,2.9796394432694 79.13441392583741,11.1292008024406,2.9796394432694 79.1350527359559,11.1291755907203,2.9796394432694 79.135155922831,11.1291925215781,2.9796394432694 79.1352135904001,11.1296126065204,2.9796394432694 79.13523221068991,11.129788178675,2.9796394432694 79.1352819096338,11.1299389661448,2.9796394432694 79.1353064130587,11.1302548307711,2.9796394432694 79.1353376663059,11.13053695761,2.9796394432694 79.13536051497,11.1308058396063,2.9796394432694 79.1353552203409,11.130926694924,2.9796394432694 79.1353380573683,11.1312390946689,2.9796394432694 79.1354077639627,11.1316337518975,2.9796394432694 79.13540593796399,11.1319309600977,2.9796394432694 79.135567366552,11.1320444524259,2.9796394432694 79.1354876365475,11.1311367398302,2.9796394432694 79.1354560340303,11.1306772574224,2.9796394432694 79.135386849285,11.1302506244433,2.9796394432694 79.135227484213,11.1290978825464,2.9796394432694 79.1347714129103,11.1291306220187,2.9796394432694 79.13439667457349,11.1291696550902,2.9796394432694 79.1335628944651,11.1292231876448,2.9796394432694 79.1335630622934,11.129705864752,2.9796394432694 79.1335790857557,11.1302108908281,2.9796394432694 79.1340439121131,11.1309265305018,2.9796394432694 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#86_upto_22__entities">
+							<SimpleData name="Layer">0</SimpleData>
+							<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+							<SimpleData name="EntityHandle">254</SimpleData>
+							<SimpleData name="Text">ANSI31</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									79.1310439673817,11.1332549867006,0 79.1312419417804,11.1331156353209,0 79.13127714173621,11.1330546286271,0 79.1312398428658,11.1329496745955,0 79.13114742548569,11.1325055792266,0 79.1311143822964,11.1323524491547,0 79.1307552110637,11.1324381542085,0 79.1307956189691,11.1325779927471,0 79.1309144303772,11.1330155270391,0 79.13096594767541,11.1332289977003,0 79.1310439673817,11.1332549867006,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#86_upto_22__entities">
+							<SimpleData name="Layer">0</SimpleData>
+							<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+							<SimpleData name="EntityHandle">255</SimpleData>
+							<SimpleData name="Text">ANSI31</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									79.12597638386779,11.135274844528,-80.381 79.1265405262882,11.1359131199958,-80.381 79.1268848862186,11.135608751749,-80.381 79.12712776337401,11.1353837184042,-80.381 79.1271636531995,11.135350046598,-80.381 79.1266859023511,11.1351405763427,-80.381 79.12597638386779,11.135274844528,-80.381 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#86_upto_22__entities">
+							<SimpleData name="Layer">0</SimpleData>
+							<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+							<SimpleData name="EntityHandle">258</SimpleData>
+							<SimpleData name="Text">ANSI31</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									79.1185104792814,11.1362258506285,-69.77800000000001 79.1198218723075,11.13588320067,-69.77800000000001 79.1215399954684,11.1353442259338,-69.77800000000001 79.12215458177251,11.1351764018877,-69.77800000000001 79.1225982608827,11.135063254579,-69.77800000000001 79.12304092337359,11.1349730133211,-69.77800000000001 79.12446922842337,11.13459373100231,-69.77800000000001 79.12448074451493,11.1346998836103,-69.77800000000001 79.12394497874831,11.13483874839384,-69.77800000000001 79.12353849262777,11.1349690985831,-69.77800000000001 79.1232573653036,11.13507395396875,-69.77800000000001 79.12289501382247,11.13517888499257,-69.77800000000001 79.12222459258939,11.13532653158243,-69.77800000000001 79.12141428360336,11.13553308189005,-69.77800000000001 79.12076000517044,11.13573303676828,-69.77800000000001 79.12009546281378,11.13591525155426,-69.77800000000001 79.11886012056149,11.13622429868415,-69.77800000000001 79.11813725359474,11.13642424547904,-69.77800000000001 79.11802440333881,11.13646578413412,-69.77800000000001 79.11781781610148,11.1364925164892,-69.77800000000001 79.11756599889655,11.13656609658001,-69.77800000000001 79.1173169342637,11.13665934612957,-69.77800000000001 79.11699550783234,11.13681774885684,-69.77800000000001 79.11674390599904,11.13694413611196,-69.77800000000001 79.11654725131774,11.13705933746779,-69.77800000000001 79.11649330695028,11.13698584577036,-69.77800000000001 79.11651655229623,11.13693330651104,-69.77800000000001 79.11665353587358,11.13685376710058,-69.77800000000001 79.11699929934726,11.1367345996582,-69.77800000000001 79.11701148080917,11.13672434111889,-69.77800000000001 79.11701757724038,11.13671820073619,-69.77800000000001 79.11747430200805,11.13652743007921,-69.77800000000001 79.11777634285291,11.13642680308724,-69.77800000000001 79.11795049089447,11.13638621486374,-69.77800000000001 79.1185104792814,11.1362258506285,-69.77800000000001 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#86_upto_22__entities">
+							<SimpleData name="Layer">0</SimpleData>
+							<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+							<SimpleData name="EntityHandle">259</SimpleData>
+							<SimpleData name="Text">ANSI31</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									79.12003018347291,11.1390165056703,18.8523423109064 79.1200453674039,11.1392379043108,18.8523423109064 79.1200779584692,11.139566487611,18.8523423109064 79.120120211409,11.1397889317639,18.8523423109064 79.12036299232156,11.14034368403733,18.8523423109064 79.12064090239652,11.14092957959104,18.8523423109064 79.1208451131544,11.1412882719189,18.8523423109064 79.1207930491753,11.1413415492991,18.8523423109064 79.1206162716195,11.1409868809311,18.8523423109064 79.12047312599243,11.14065235243095,18.8523423109064 79.12008635398119,11.13982898676387,18.8523423109064 79.11996432253321,11.1390293418648,18.8523423109064 79.12003018347291,11.1390165056703,18.8523423109064 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#msn_ylw-pushpin0</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#86_upto_22__entities">
+							<SimpleData name="Layer">0</SimpleData>
+							<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+							<SimpleData name="EntityHandle">25A</SimpleData>
+							<SimpleData name="Text">ANSI31</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									79.1215597572595,11.1411026794502,-65.682 79.1216392334556,11.141027695339,-65.682 79.1220507955295,11.1405730487716,-65.682 79.1224717378503,11.1401355788525,-65.682 79.12336328130711,11.1392257298726,-65.682 79.12374634563,11.1388213987394,-65.682 79.12385873888179,11.1386981849665,-65.682 79.12459440430619,11.1379213145275,-65.682 79.12503801174007,11.13741798323529,-65.682 79.1256151365983,11.136790881836,-65.682 79.1256619391863,11.1367484909604,-65.682 79.125690499802,11.1367642586715,-65.682 79.12502164585273,11.13751432865914,-65.682 79.12410191800041,11.1384917400374,-65.682 79.12372389296171,11.1388833548352,-65.682 79.1234420824731,11.1391900358055,-65.682 79.12287643988491,11.1397651178859,-65.682 79.12238064610661,11.1402597383686,-65.682 79.1221129508789,11.1405459685436,-65.682 79.12185931086999,11.1408227959795,-65.682 79.121649214228,11.1410683566686,-65.682 79.1215957731482,11.1411239115851,-65.682 79.1215597572595,11.1411026794502,-65.682 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#msn_ylw-pushpin0</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#86_upto_22__entities">
+							<SimpleData name="Layer">0</SimpleData>
+							<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+							<SimpleData name="EntityHandle">25B</SimpleData>
+							<SimpleData name="Text">ANSI31</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									79.12169261606942,11.14114150377323,-65.682 79.12186869964947,11.14095572559345,-65.682 79.12203422772689,11.1407701596044,-65.682 79.12239566336859,11.14039618869287,-65.682 79.12259083112221,11.14019649026627,-65.682 79.12305058055016,11.13972743678781,-65.682 79.12335162484783,11.13943384669106,-65.682 79.12348860796338,11.13930081361385,-65.682 79.1241321671551,11.13863124547952,-65.682 79.12433829244343,11.1384194704717,-65.682 79.12459679267238,11.13815428967791,-65.682 79.12489142909816,11.13779685559156,-65.682 79.12504603775463,11.13761786403431,-65.682 79.12521819144503,11.13742664747956,-65.682 79.12562180262375,11.13698929184403,-65.682 79.12581780835853,11.13681116883984,-65.682 79.12584494311491,11.13683015008884,-65.682 79.12557937981737,11.13708526382631,-65.682 79.12533992668,11.1373152580789,-65.682 79.12504125848447,11.13766654364005,-65.682 79.12463431963307,11.13814802521586,-65.682 79.12439889739424,11.13840279666242,-65.682 79.12415542831397,11.13864864193759,-65.682 79.12397427184011,11.1388489453098,-65.682 79.12352060361393,11.13929398518864,-65.682 79.12309432246437,11.13972564430376,-65.682 79.12271964161086,11.14010206783935,-65.682 79.12240956628823,11.1404034180427,-65.682 79.1219525327071,11.14090325952696,-65.682 79.12174120990383,11.14112215240167,-65.682 79.12169283360936,11.14118142563601,-65.682 79.12166851766564,11.14116745398863,-65.682 79.12169261606942,11.14114150377323,-65.682 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#86_upto_22__entities">
+							<SimpleData name="Layer">0</SimpleData>
+							<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+							<SimpleData name="EntityHandle">25C</SimpleData>
+							<SimpleData name="Text">ANSI31</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									79.1218243263762,11.1414345802119,2.9796394432694 79.12182113822669,11.1414438628932,2.9796394432694 79.12190617893771,11.1411703833483,2.9796394432694 79.1223739505793,11.141120111439,2.9796394432694 79.1244044169329,11.1410365357788,2.9796394432694 79.1247205240323,11.1410538511521,2.9796394432694 79.12475391143541,11.1412483900499,2.9796394432694 79.1218258226174,11.1414444607665,2.9796394432694 79.1218243263762,11.1414345802119,2.9796394432694 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Afforestation upto 2022</name>
+					<LookAt>
+						<longitude>79.13157366327532</longitude>
+						<latitude>11.13351963745359</latitude>
+						<altitude>0</altitude>
+						<heading>0.001963683708548506</heading>
+						<tilt>30.00238485535663</tilt>
+						<range>531.0405326352285</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>79.13096846721436,11.1327402797527,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Afforestation upto 2022</name>
+					<LookAt>
+						<longitude>79.12386543901388</longitude>
+						<latitude>11.14119559916941</latitude>
+						<altitude>0</altitude>
+						<heading>0.000665538705359978</heading>
+						<tilt>29.18507429845869</tilt>
+						<range>376.5598809427687</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>79.12386543901388,11.14119559916941,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Afforestation upto 2022</name>
+					<LookAt>
+						<longitude>79.12045913039013</longitude>
+						<latitude>11.14007947820922</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0001426587334165144</heading>
+						<tilt>30.0007116717376</tilt>
+						<range>158.3299977696708</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>79.12018725428227,11.13999988327288,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Placemark>
+				<name>Afforestation upto 2022</name>
+				<LookAt>
+					<longitude>79.12124965588065</longitude>
+					<latitude>11.13555915122483</latitude>
+					<altitude>0</altitude>
+					<heading>0.0004313876901493789</heading>
+					<tilt>25.25319704612786</tilt>
+					<range>699.770056416473</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.12124965588065,11.13555915122482,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Afforestation upto 2022</name>
+				<LookAt>
+					<longitude>79.12686509960969</longitude>
+					<latitude>11.13558437746584</latitude>
+					<altitude>0</altitude>
+					<heading>0.001215210988736937</heading>
+					<tilt>30.00139584485724</tilt>
+					<range>310.7331184270924</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.1266590289993,11.13555050333978,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Afforestation upto 2022</name>
+				<LookAt>
+					<longitude>79.12539186599399</longitude>
+					<latitude>11.13724704087108</latitude>
+					<altitude>0</altitude>
+					<heading>0.001531471504663629</heading>
+					<tilt>26.70946019595601</tilt>
+					<range>114.7149342010409</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.12532665075958,11.13713359341214,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Afforestation upto 2022</name>
+				<LookAt>
+					<longitude>79.12546217751354</longitude>
+					<latitude>11.1373628268921</latitude>
+					<altitude>0</altitude>
+					<heading>0.001542296181663454</heading>
+					<tilt>26.76661319031965</tilt>
+					<range>135.3417275085178</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.12538228823523,11.13723825219547,0</coordinates>
+				</Point>
+			</Placemark>
+		</Document>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,40 @@
+
+$(document).ready(function(){
+
+	var userRoleStatus = $('#user_role_status').val();
+	var allowUserRoleOne = ['2','3'];
+	var allowUserRoleTwo = ['8','9'];
+
+	if($.inArray(userRoleStatus, allowUserRoleOne) !== -1){
+		$("#authusermonstatics").removeClass("col-md-3");
+		$("#authuserannstatics").removeClass("col-md-3");
+		$("#enduserstatics ").removeClass("col-md-6");
+		$("#endusermonthlystatics ").removeClass("col-md-6");
+		$("#authusermonstatics").addClass("col-md-4");
+		$("#authuserannstatics").addClass("col-md-4");
+		$("#enduserstatics ").addClass("col-md-4");	
+		$("#endusermonthlystatics ").addClass("col-md-12");
+	}
+	
+	if($.inArray(userRoleStatus, allowUserRoleTwo) !== -1){
+		$("#authusermonstatics").removeClass("col-md-3");
+		$("#authuserannstatics").removeClass("col-md-3");
+		$("#enduserstatics ").removeClass("col-md-6");
+		$("#enduserAnnualtatics ").removeClass("col-md-6");
+		$("#authusermonstatics").addClass("col-md-4");
+		$("#authuserannstatics").addClass("col-md-4");
+		$("#enduserstatics ").addClass("col-md-4");	
+		$("#enduserAnnualtatics ").addClass("col-md-12");
+	}
+
+});
+// var mySelect = $('#years');
+// var startYear = 2020;
+// var prevYear = 2019;
+// for (var i = 0; i < 30; i++) {
+//   startYear = startYear - 1;
+//   prevYear = prevYear - 1;
+//   mySelect.append(
+//     $('<option></option>').val(startYear + "-" + prevYear).html(startYear + "-" + prevYear)
+//   );
+// }

@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>VAVARADA ML Boundary.kml</name>
+	<open>1</open>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin400</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl41</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin400">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl41">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.709091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>VAVARADA ML Boundary</name>
+		<open>1</open>
+		<Document>
+			<name>AFFORESTATION VAVARADA.kml</name>
+			<StyleMap id="msn_ylw-pushpin">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#sn_ylw-pushpin</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#sh_ylw-pushpin</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="sh_ylw-pushpin">
+				<IconStyle>
+					<scale>1.3</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ff00</color>
+					<width>2</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffaa</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="sn_ylw-pushpin">
+				<IconStyle>
+					<scale>1.1</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ff00</color>
+					<width>2</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffaa</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Placemark>
+				<name>AFFORESTATION VAVARADA</name>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								71.08420118513203,20.87528840080156,0 71.08419390147543,20.87545934807917,0 71.08415474157154,20.87543845698474,0 71.08416430324952,20.87538808533094,0 71.08416226158351,20.87532509777976,0 71.08411471340574,20.87530939717448,0 71.08406990112027,20.87531123691114,0 71.08400842310104,20.87537196750891,0 71.08396802584687,20.87531494750565,0 71.08399689626052,20.87524968697544,0 71.08420118513203,20.87528840080156,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Document>
+		<Placemark>
+			<name>1</name>
+			<LookAt>
+				<longitude>70.96239311443365</longitude>
+				<latitude>20.8627886405666</latitude>
+				<altitude>0</altitude>
+				<heading>-0.3401728602376795</heading>
+				<tilt>8.019218134154684</tilt>
+				<range>64100.37601055392</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>71.08469166666666,20.87736111111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2</name>
+			<LookAt>
+				<longitude>71.08354961258635</longitude>
+				<latitude>20.87617065007821</latitude>
+				<altitude>0</altitude>
+				<heading>-0.320727704083318</heading>
+				<tilt>26.22731311626416</tilt>
+				<range>780.9422770385282</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>71.08478333333333,20.87608055555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3</name>
+			<LookAt>
+				<longitude>71.08594822295088</longitude>
+				<latitude>20.87670571333705</latitude>
+				<altitude>0</altitude>
+				<heading>-0.3130595802068497</heading>
+				<tilt>17.12438658840072</tilt>
+				<range>840.1008711910829</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>71.08418333333333,20.87585,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4</name>
+			<LookAt>
+				<longitude>71.08550033263556</longitude>
+				<latitude>20.87641763515477</latitude>
+				<altitude>0</altitude>
+				<heading>-0.315842965279344</heading>
+				<tilt>19.77625751268135</tilt>
+				<range>654.4248349555677</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>71.08421666666666,20.87527777777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5</name>
+			<LookAt>
+				<longitude>71.08522643952699</longitude>
+				<latitude>20.87622737503778</latitude>
+				<altitude>0</altitude>
+				<heading>-0.3180364628091797</heading>
+				<tilt>22.57501907058435</tilt>
+				<range>518.8089390743863</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>71.082025,20.87485833333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>6</name>
+			<LookAt>
+				<longitude>71.24477407895569</longitude>
+				<latitude>21.32048932205373</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1918189151150593</heading>
+				<tilt>5.817567491191622</tilt>
+				<range>290553.5814068234</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>71.08331944444444,20.87690277777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VAVARADA MLBoundary</name>
+			<styleUrl>#msn_ylw-pushpin13</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							71.08331986931437,20.87690708193337,0 71.08202563139535,20.87485789702346,0 71.08421679093797,20.87527781686021,0 71.08418334224523,20.87585001816763,0 71.08478331111957,20.87608076280647,0 71.08469154375915,20.87736099271661,0 71.08331986931437,20.87690708193337,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Document>
+		<name>MINE OUT PIT VAVARADA.kml</name>
+		<open>1</open>
+		<StyleMap id="m_ylw-pushpin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_ylw-pushpin0">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_ylw-pushpin0</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_ylw-pushpin0</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="sh_ylw-pushpin0">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff00ffff</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sn_ylw-pushpin0">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff00ffff</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Placemark>
+			<name>MINE OUT PIT</name>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							71.08427462210904,20.87617554178562,0 71.08416301158509,20.87615089727177,0 71.08406092625094,20.87615730418583,0 71.0839796515415,20.87610222631334,0 71.08389033585316,20.8761206955644,0 71.08388605781195,20.87624598405396,0 71.08386897664661,20.87630766728871,0 71.08381838566021,20.87636080420792,0 71.08377117036717,20.87628173867476,0 71.0837798040607,20.8761985218523,0 71.08382838700628,20.87606934751463,0 71.08385180762551,20.87598090415321,0 71.08404581237745,20.87602137419629,0 71.08427056694104,20.87612297188742,0 71.08427462210904,20.87617554178562,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>OLD WORKING PIT</name>
+			<LookAt>
+				<longitude>71.08385319812025</longitude>
+				<latitude>20.87635767627547</latitude>
+				<altitude>0</altitude>
+				<heading>1.590277340731758e-15</heading>
+				<tilt>0</tilt>
+				<range>14.90531810082771</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>71.08381855192597,20.87635964446361,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>AFFORESTATION</name>
+			<LookAt>
+				<longitude>71.0840204423876</longitude>
+				<latitude>20.87535606275319</latitude>
+				<altitude>0</altitude>
+				<heading>-3.975693351829395e-15</heading>
+				<tilt>0</tilt>
+				<range>6.756198844254042</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>71.08400840474896,20.87537174813908,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROAD</name>
+			<LookAt>
+				<longitude>71.08214556991712</longitude>
+				<latitude>20.87501551585975</latitude>
+				<altitude>0</altitude>
+				<heading>2.756745770158503e-12</heading>
+				<tilt>0</tilt>
+				<range>6.382391985684527</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>71.08211846399126,20.87501316618198,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VAVARADA MINING LEASE BOUNDRY</name>
+			<LookAt>
+				<longitude>71.08468071393892</longitude>
+				<latitude>20.87735259837788</latitude>
+				<altitude>0</altitude>
+				<heading>2.341683384227515e-12</heading>
+				<tilt>0</tilt>
+				<range>6.94125773965586</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>71.08468759319533,20.87736176682752,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>OTHER MINE ROAD VAVARADA.kml</name>
+		<StyleMap id="msn_ylw-pushpin1">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_ylw-pushpin1</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_ylw-pushpin1</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sh_ylw-pushpin1">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ffff5555</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffffaa55</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sn_ylw-pushpin1">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ffff5555</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffffaa55</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Placemark>
+			<name>MINE ROAD</name>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							71.08211858734205,20.87501312231552,0 71.08231032291485,20.87501486868493,0 71.08246468640974,20.87503665052716,0 71.08260292299714,20.87504929171161,0 71.08266336407576,20.87505225176942,0 71.08276017002092,20.8750567412817,0 71.08280259848202,20.87505093784934,0 71.08283081192418,20.87502467760218,0 71.0828483938932,20.8750324380711,0 71.08282994984071,20.87505912012956,0 71.08285982244803,20.87506686428193,0 71.08292127093362,20.87507605112686,0 71.08291199113243,20.87509983484582,0 71.08281877150993,20.87508356664894,0 71.08272147090908,20.87507619089074,0 71.08262495563649,20.87507202878368,0 71.08246308591352,20.87505476102128,0 71.08230070375203,20.87503284472659,0 71.08212929972895,20.87503265207426,0 71.08211858734205,20.87501312231552,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Document>
+</Document>
+</kml>

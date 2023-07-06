@@ -1,0 +1,18 @@
+html {
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+body {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+}
+.noscript_main {
+    background: white;
+    position: absolute;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    z-index: 99999;
+}

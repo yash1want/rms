@@ -1,0 +1,153 @@
+<?php 
+	namespace app\Model\Table;
+	use Cake\ORM\Table;
+	use App\Model\Model;
+	use Cake\ORM\TableRegistry;
+	use Cake\Core\Configure;
+	use Cake\Datasource\ConnectionManager;
+	
+	class DirDistrictTable extends Table{
+
+		var $name = "DirDistrict";			
+		public $validate = array();
+
+		  /**
+		   * returns the district name by dist code and state code
+		   * @param type $dist_code
+		   * @param type $state_code
+		   * @return type 
+		   */
+		  public function getDistrict($dist_code, $state_code) {
+
+			$query = $this->find('all', array('conditions'=>array('district_code'=>$dist_code,'state_code'=>$state_code)))->toArray();
+
+		    if (count($query) > 0)
+		      return $query[0]['district_name'];
+		    else
+		      return "--";
+		  }
+		  
+		  public function getstateByregion($region_name) {
+			  
+			  $conn = ConnectionManager::get(Configure::read('conn'));
+			  			 
+			   $q = $conn->execute("SELECT
+                        s.state_code,
+                        s.state_name
+                        FROM DIR_DISTRICT D
+                        INNER JOIN DIR_STATE S ON D.state_code = S.state_code 
+                        WHERE D.region_name = '$region_name' group by state_code order by S.state_name ");
+				$records = $q->fetchAll('assoc');
+				
+			   $data = Array();
+				$i = 0;
+				foreach ($records as $result) {
+					$code = $result['state_code'];
+					$data[$code] = $result['state_name'];
+			   
+				  $i++;
+				}
+				
+				return $data;
+		  }
+		  
+		  
+		  
+		  public function getDistrictCodesByStateCode($state_code){
+			  
+			  $conn = ConnectionManager::get(Configure::read('conn'));
+			  
+			  $q = $conn->execute("SELECT
+                        id, district_code, district_name
+                        FROM DIR_DISTRICT D
+                        WHERE state_code = '$state_code' order by district_name ");
+				$records = $q->fetchAll('assoc');
+				
+				$data = Array();
+				$i = 0;
+				foreach ($records as $result) {
+					$code = $result['district_code'];
+					$data[$code] = $result['district_name'];
+			   
+				  $i++;
+				}
+				
+				return $data;
+		  }
+
+		  
+		public function getRegionNameByDistrictName($districtName) {
+
+			$query = $this->find('all')
+				->select(['region_name'])
+				->where(['district_name'=>$districtName])
+				->toArray();
+
+			return($query['0']['region_name']);
+			
+		}
+
+		//returns district name by district id
+		public function getDistrictName($dist_code, $state_code) {
+
+			$result = $this->find()
+					->select(['name'=>'district_name'])
+					->where(['district_code'=>$dist_code])
+					->where(['state_code'=>$state_code])
+					->first();
+
+			return $result;
+
+		}
+		
+		// DON'T UNDERSTAND THE OUTPUT OF THE ABOVE ONE SO CREATED THIS.. AS THE ABOVE ONE GIVE THE OBJECT IN THE OUTPUT
+		public function getDistrictNameArrayResult($dist_code, $state_code) {
+
+			$queryDist = $this->find()
+				->select(['name'=>'district_name'])
+				->where(["district_code"=>$dist_code])
+				->where(["state_code"=>$state_code])
+				->toArray();
+			
+			return (isset($queryDist[0]['name'])) ? $queryDist[0]['name'] : '';
+
+		}
+
+		public function getRegionNameByDistrictcode($stateCode, $districtCode) {
+
+			$query = $this->find()
+					->select(['region_name'])
+					->where(['state_code'=>$stateCode])
+					->where(['district_code'=>$districtCode])
+					->toArray();
+		
+			return($query['0']['region_name']);
+
+		}
+
+		public function getDistrctNameWithDistrictName() {
+
+			$query = $this->find()
+					->select(['district_name'])
+					->distinct(['district_name'])
+					->order(['district_name'=>'ASC'])
+					->toArray();
+		
+			$dataCount = count($query);
+			if ($dataCount > 0) {
+				$result = Array();
+				$result[''] = '-Please Select District-';
+				foreach ($query as $data) {
+					$code = $data['district_name'];
+					$result[$code] = $data['district_name'];
+				}
+				return $result;
+			} else {
+			  	return '';
+			}
+
+		} 
+		  
+
+	} 
+?>

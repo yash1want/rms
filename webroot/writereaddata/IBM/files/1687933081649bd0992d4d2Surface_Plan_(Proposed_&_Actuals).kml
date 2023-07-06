@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>2022-23 Proposed Vs Actuals.kml</name>
+	<open>1</open>
+	<Schema name="1st_year" id="1st_year">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="ExtendedEntity"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Schema name="2022_23_Actual_plantation" id="2022_23_Actual_plantation">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="ExtendedEntity"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Schema name="3_Surface_Geological_Plan_of_the_lease" id="3_Surface_Geological_Plan_of_the_lease0">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="ExtendedEntity"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Schema name="3_Surface_Geological_Plan_of_the_lease" id="3_Surface_Geological_Plan_of_the_lease09">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="ExtendedEntity"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Schema name="525" id="525">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="ExtendedEntity"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Schema name="ML_area" id="ML_area01">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="ExtendedEntity"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Schema name="Rehabilitated_area" id="Rehabilitated_area9">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="ExtendedEntity"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Schema name="Roads" id="Roads9">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="ExtendedEntity"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Schema name="Sumps" id="Sumps">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="ExtendedEntity"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Schema name="Workings_31_03_2023" id="Workings_31_03_2023">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="ExtendedEntity"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Style id="style0">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style18">
+		<LineStyle>
+			<color>ff00aaff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style16">
+		<LineStyle>
+			<color>ff000055</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80000055</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style9">
+		<LineStyle>
+			<color>ff00ffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style1">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style2">
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff00ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style3">
+		<LineStyle>
+			<color>ff000055</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80000055</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style14">
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff00ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style4">
+		<LineStyle>
+			<color>ff00ffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style17">
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style5">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style13">
+		<LineStyle>
+			<color>ffffff55</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffff55</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style12">
+		<LineStyle>
+			<color>ff00aaff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style6">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style7">
+		<LineStyle>
+			<color>ff00ffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style8">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style11">
+		<LineStyle>
+			<color>ffffff55</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffff55</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style10">
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style19">
+		<LineStyle>
+			<color>ff00ffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style09">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style140">
+		<LineStyle>
+			<color>ff00ffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style15">
+		<LineStyle>
+			<color>ff00ffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style183000">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style18410">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style18708">
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style1888">
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style1898">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff00ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style1909">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff00ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style191">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style192">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style611">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style140</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id12101">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style183000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style18410</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id1609">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style1888</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style18708</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id1809">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style1898</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style1909</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id190">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style191</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style192</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style19</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id2119">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style09</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style611</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style16</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style18</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style17</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>2022-23 Proposed Vs Actuals </name>
+		<open>1</open>
+		<Placemark>
+			<name>ML AREA</name>
+			<open>1</open>
+			<styleUrl>#stylemap_id12101</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#ML_area01">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="ExtendedEntity">5      2</SimpleData>
+					<SimpleData name="EntityHandle">25FC7</SimpleData>
+					<SimpleData name="Text">ANSI31</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							79.97327799756108,16.83861100176278,0 79.97400000060541,16.8392779982447,0 79.97388900282596,16.83933300315781,0 79.97269400235753,16.83886099578326,0 79.97138899607714,16.83886099818108,0 79.97122199567762,16.83830600396756,0 79.97058300077751,16.83777800127071,0 79.9699169964896,16.83788899847923,0 79.96963900327246,16.83727799545768,0 79.96822199660191,16.83744400427197,0 79.96694400143006,16.83780599650443,0 79.96672199873512,16.83800000194786,0 79.96661099748377,16.83850000237819,0 79.96638900113531,16.83855599919238,0 79.96647199549103,16.83922199997674,0 79.96688899949899,16.83963899973102,0 79.96661100248249,16.83972200207772,0 79.96663899868696,16.84022199683059,0 79.96638900159638,16.84038899853659,0 79.96591699833894,16.83997200100363,0 79.96547199562202,16.83952799601543,0 79.96575000028469,16.83933299974044,0 79.96555599536785,16.83886100146694,0 79.96547200046082,16.83863900058007,0 79.96583300446905,16.83849999968461,0 79.9650000031846,16.83758300043437,0 79.96422200370914,16.83691700227169,0 79.96416699990023,16.83633300334002,0 79.96502800088311,16.83583299790921,0 79.96544399756091,16.83636099643564,0 79.96638900087072,16.83744399751318,0 79.96650000120906,16.83736099556203,0 79.96550000390395,16.83613899571947,0 79.96519400225796,16.83569400033367,0 79.96538899720184,16.83527800237884,0 79.96466699654938,16.83441700328653,0 79.96524999806964,16.8340829962726,0 79.96533300421,16.83416700207854,0 79.96613899706988,16.83372200243423,0 79.96655600441125,16.83286099983274,0 79.9669169977068,16.83261100395714,0 79.96686099883473,16.83230599951075,0 79.96722200369214,16.83180599908241,0 79.9678889999449,16.83144399819951,0 79.96741699610273,16.83127800296122,0 79.96711100109079,16.83111099752829,0 79.96794399754573,16.82924999615531,0 79.9676110046684,16.82908300057819,0 79.96711099898832,16.82724999866224,0 79.96555600359929,16.8269719985602,0 79.96433300210118,16.82616700063491,0 79.965028002125,16.82586099795123,0 79.96533300344191,16.82638899742511,0 79.96713899890533,16.82697199854981,0 79.96722200319,16.82650000197729,0 79.9671939990121,16.82630600409682,0 79.96694399889292,16.82583300253525,0 79.96616700340496,16.82577800059735,0 79.96572199561041,16.82538899625298,0 79.96408300110571,16.82524999944618,0 79.96308299574659,16.82538900213223,0 79.961749998965,16.82536099532967,0 79.96122199941719,16.82541699571494,0 79.96083300133331,16.82463899613584,0 79.96133300323811,16.82324999872482,0 79.96277799684917,16.82397200362237,0 79.96369399619039,16.82363900165851,0 79.96416699620016,16.8239440030117,0 79.96566700450813,16.82444400063068,0 79.96647199991024,16.82472199754366,0 79.96716700246469,16.8245560021391,0 79.9683330009847,16.82436099667149,0 79.97005599828381,16.82469400266355,0 79.97061100401278,16.82591699631645,0 79.97036099853293,16.82619400244813,0 79.97108299932698,16.8265000011495,0 79.97103944297429,16.82732277536611,0 79.97238899735252,16.82780599895149,0 79.97599934696075,16.82791748085304,0 79.97588227926862,16.83221524115567,0 79.97033430095343,16.83205593706379,0 79.97099999901891,16.83075000235916,0 79.97161099555574,16.82930600124487,0 79.97133300302173,16.82805599795908,0 79.97077799941908,16.82733299656605,0 79.97108299932698,16.8265000011495,0 79.97200000232526,16.82675000349632,0 79.97238899571734,16.82547200039518,0 79.97327799911345,16.82580599615325,0 79.97925270299791,16.8249409938681,0 79.98625568775252,16.82816040609347,0 79.98783299739773,16.82636100233414,0 79.98833300084588,16.82616700320519,0 79.9898329993211,16.82616699780712,0 79.99036099927592,16.82588900062995,0 79.99055600420282,16.82611099578622,0 79.98930600011597,16.82741700123021,0 79.9897780042395,16.82844400160387,0 79.99124999984552,16.82841699559578,0 79.99105600023189,16.8275560001965,0 79.99219399650356,16.82824999528467,0 79.9934440013529,16.83177800377875,0 79.99350000009582,16.83350000020825,0 79.99463899922836,16.83313900222503,0 79.99547200013603,16.83405599616642,0 79.99466699710938,16.83438899616816,0 79.99530599699905,16.83527799802783,0 79.99405599762113,16.83813899972467,0 79.99122200077427,16.84047200369507,0 79.99102800022064,16.8407219958869,0 79.9891669960748,16.84077800173106,0 79.98844400296487,16.84111099927271,0 79.98363900158168,16.84108299672497,0 79.98341699971206,16.8406110010759,0 79.98197200454221,16.84177799680606,0 79.98000000033237,16.8420280033168,0 79.97933299932113,16.84211099726892,0 79.978777998589,16.84105600420659,0 79.97905599682483,16.84077799794634,0 79.97786099956799,16.83658300384122,0 79.97666700261337,16.83766700000818,0 79.97691699602781,16.83794400065745,0 79.97541699917196,16.83830599770502,0 79.97438900142922,16.83658300401361,0 79.97388899986622,16.83674999613054,0 79.97355599893355,16.83722200260008,0 79.97419399943952,16.83786100201133,0 79.97327799756108,16.83861100176278,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							79.98383299636343,16.84036100352006,0 79.98488900003017,16.84011099736129,0 79.98555599985679,16.83974999666016,0 79.98627800074341,16.83897200256546,0 79.98608299740798,16.83852799944823,0 79.98530599579846,16.83900000283853,0 79.98541699965386,16.83938899905276,0 79.98397199636619,16.84008299824576,0 79.98383299636343,16.84036100352006,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>2022-23 Proposed production</name>
+			<styleUrl>#stylemap_id8</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#1st_year">
+					<SimpleData name="Layer">2017-22 Production</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="ExtendedEntity">5      2</SimpleData>
+					<SimpleData name="EntityHandle">259EA</SimpleData>
+					<SimpleData name="Text">ANSI31</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							79.9914231778146,16.83557352040115,0 79.9911731406998,16.83571321043945,0 79.9882213029742,16.83121595138351,0 79.98847133594897,16.83107626467674,0 79.9914231778146,16.83557352040113,0 79.9914231778146,16.83557352040115,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							79.98883038269697,16.83686526489202,0 79.98842375211939,16.83701550962499,0 79.98842375211939,16.83701550962497,0 79.98806481697525,16.83716168367929,0 79.98747693845692,16.83741568492126,0 79.98697427888958,16.83763553335196,0 79.9869118605079,16.83766434677344,0 79.9869118605079,16.83766434677343,0 79.98698645888915,16.8378084444911,0 79.9900695341195,16.83629804536153,0 79.98925937196707,16.83666201555882,0 79.98879753703264,16.83678476074116,0 79.98883038269697,16.83686526489202,0 79.98883038269697,16.83686526489202,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							79.98773939625895,16.83180509671271,0 79.98742310629402,16.83197396386336,0 79.98989180966912,16.83595057929197,0 79.99020882002068,16.83578288572067,0 79.98773939625895,16.83180509671272,0 79.98773939625895,16.83180509671271,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							79.98800023426948,16.83619354650822,0 79.98840825667813,16.83598583146583,0 79.98643317282993,16.83273399478431,0 79.98602515774908,16.83294170965178,0 79.98800023426948,16.83619354650822,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							79.9848482861255,16.83719882747594,0 79.9851528616211,16.83703857735446,0 79.98380295733801,16.8346590274859,0 79.98349838474647,16.83481927578674,0 79.9848482861255,16.83719882747594,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							79.97273811072884,16.83483440713687,0 79.97494519832861,16.83383220053971,0 79.97482700317761,16.83359078781855,0 79.97482700317761,16.83359078781855,0 79.97261991790361,16.83459299328803,0 79.97273811072884,16.83483440713687,0 79.97273811072884,16.83483440713687,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							79.97391541510905,16.83308522638288,0 79.97381094724314,16.83287183431077,0 79.97381094724314,16.83287183431076,0 79.97325921015005,16.83312237119728,0 79.97339849364712,16.83332048507228,0 79.97339849364712,16.83332048507226,0 79.97373463604225,16.83316750185974,0 79.97373463604225,16.83316750185976,0 79.97391541510905,16.83308522638288,0 79.97391541510905,16.83308522638288,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>2022- 23 Proposed Plantation</name>
+			<styleUrl>#stylemap_id10</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#525">
+					<SimpleData name="Layer">2017-22 Production</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="ExtendedEntity">5      2</SimpleData>
+					<SimpleData name="EntityHandle">34EDF</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							79.99041009675375,16.8384035546274,0 79.99087788919601,16.83834914604786,0 79.9913400558415,16.84017694802752,0 79.990869200956,16.8401595454773,0 79.99041009675375,16.8384035546274,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Folder>
+			<name>Actual workings as on 31-03-2023</name>
+			<Placemark>
+				<name>Pit No-1, 1st Sub  Bench</name>
+				<styleUrl>#stylemap_id5</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Workings_31_03_2023">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+						<SimpleData name="ExtendedEntity">5      2</SimpleData>
+						<SimpleData name="EntityHandle">2593A</SimpleData>
+						<SimpleData name="Text">ANSI31</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98904324816876,16.83195740943246,0 79.98984652537931,16.83327159879179,0 79.99052562723183,16.8343565625417,0 79.9908814555297,16.8348721435397,0 79.99082705839729,16.83492711818443,0 79.99107345264692,16.8353920495621,0 79.99090890637977,16.83546990561126,0 79.99063902734331,16.83495849667053,0 79.99012259394901,16.83411074352835,0 79.98938606528999,16.83289607572902,0 79.98839668400517,16.831253449534,0 79.98856163604896,16.83116974123219,0 79.98904324816876,16.83195740943246,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Pit No-1, 1st Bench</name>
+				<styleUrl>#stylemap_id0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Workings_31_03_2023">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+						<SimpleData name="ExtendedEntity">5      2</SimpleData>
+						<SimpleData name="EntityHandle">25775</SimpleData>
+						<SimpleData name="Text">ANSI31</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.97901004956427,16.83712116502564,0 79.97891352347681,16.83690774206023,0 79.98023133469911,16.83558572323344,0 79.98105507569663,16.834955455224,0 79.98155629646392,16.83479067279032,0 79.9824517594255,16.83427237318458,0 79.98274277777003,16.83409075992016,0 79.98363462153017,16.83364928170921,0 79.98371046084387,16.83360901084002,0 79.9838067552416,16.83356423751844,0 79.98386892608612,16.83352421427301,0 79.98391933293323,16.8334792773576,0 79.98393812385497,16.83345008297588,0 79.98425452729603,16.83328201046263,0 79.98469966218479,16.83307040288875,0 79.98470226440006,16.83306916584712,0 79.98501602046454,16.83288698442587,0 79.98544208304503,16.83266696533012,0 79.98610971261219,16.8322999169743,0 79.98623196652105,16.83223492404024,0 79.98631768891266,16.83219109466784,0 79.98646070621635,16.8321231758324,0 79.98687722400736,16.83189517359164,0 79.98697907211681,16.83184028192833,0 79.98730173764652,16.83168143914995,0 79.98855309091775,16.83114248999727,0 79.98856163604896,16.83116974123219,0 79.98839668400517,16.831253449534,0 79.98938606528999,16.83289607572902,0 79.99012259394901,16.83411074352835,0 79.99090890637977,16.83546990561126,0 79.99107345264692,16.8353920495621,0 79.99125722305689,16.83574092063107,0 79.99130229277813,16.83582664501189,0 79.99098598478624,16.83596824749145,0 79.9900695341195,16.83629804536153,0 79.98961843933789,16.83650869205077,0 79.98925937196707,16.83666201555882,0 79.98909819133267,16.83677065759803,0 79.98904487424493,16.83679032024493,0 79.98886485670668,16.83685221992392,0 79.98860746506571,16.83694961675513,0 79.98849646760848,16.8369886306629,0 79.98835103661108,16.83704238856011,0 79.98777859699977,16.83728097837875,0 79.98724297559917,16.83751240022431,0 79.98709463187704,16.83757997621851,0 79.98691186050792,16.83766434677343,0 79.98698645888915,16.8378084444911,0 79.98617609214082,16.83820874612981,0 79.98576918909956,16.83840939772218,0 79.98520916688366,16.83869445674446,0 79.98465825947586,16.83897597752516,0 79.98430037060739,16.83915164677653,0 79.98381471241765,16.83939382840327,0 79.98374700169258,16.83942618346196,0 79.98369840052619,16.83944966673337,0 79.98366707441386,16.83946508003859,0 79.98356422120564,16.83952013304225,0 79.98317252233394,16.8397402745047,0 79.98253348293458,16.84008514855843,0 79.98240339133018,16.84015759391651,0 79.98219069908352,16.84027287491839,0 79.98214280498219,16.84030155128537,0 79.98192026925413,16.84042302766657,0 79.98165454984095,16.84035567532765,0 79.98291145197267,16.83959311895135,0 79.98325253069778,16.8393909616775,0 79.98355554850075,16.83919280668037,0 79.98376736447864,16.83905503802675,0 79.98421545405088,16.83876675290293,0 79.98455811132315,16.83856754580216,0 79.98502662587237,16.8383341179034,0 79.98562056709221,16.83803853961585,0 79.98589325143202,16.83790015984086,0 79.98597970685879,16.83782850524826,0 79.98622243983283,16.83774089571073,0 79.98644728195993,16.83763130158587,0 79.98671208547596,16.83749997832991,0 79.98869908157532,16.83648820748692,0 79.99014294982756,16.83589429569468,0 79.98987157159709,16.83542041851928,0 79.9897614562243,16.83545341888579,0 79.98857842499959,16.83340552508922,0 79.98766628609694,16.83198148809688,0 79.98716656456568,16.8322336033462,0 79.98693759752909,16.83233733320631,0 79.98686105293937,16.83236880384515,0 79.98668192678808,16.83246451450822,0 79.98661716468138,16.83236311349979,0 79.98458388992937,16.83337144804905,0 79.98429346574257,16.8335302447501,0 79.98406300272632,16.83365949513668,0 79.98229310928534,16.83458548206956,0 79.98237645780559,16.83473654403522,0 79.98176644847351,16.83504870500672,0 79.98139246338873,16.83524131652344,0 79.9814117597369,16.83528617027147,0 79.9809688764181,16.8355450231529,0 79.98081090470163,16.83564944026921,0 79.97976533935874,16.83648796032194,0 79.9798553664365,16.83660235989172,0 79.97942447023541,16.8369274456949,0 79.97930477243699,16.83703459284409,0 79.97920584680784,16.83714919022537,0 79.97912506281813,16.83726424013193,0 79.97909204652207,16.83732294712933,0 79.97901004956427,16.83712116502564,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Pit No-1, 2nd Bench</name>
+				<styleUrl>#stylemap_id2</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Workings_31_03_2023">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+						<SimpleData name="ExtendedEntity">5      2</SimpleData>
+						<SimpleData name="EntityHandle">2577D</SimpleData>
+						<SimpleData name="Text">ANSI31</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98763973574404,16.83447085032123,0 79.98655430416792,16.83260924338695,0 79.98655430416792,16.83260924338695,0 79.98515029024966,16.83327934498883,0 79.98414792961847,16.83378731720244,0 79.98305797589667,16.83436425419999,0 79.98243446136533,16.83470686163668,0 79.98237645780557,16.83473654403522,0 79.98229310928532,16.83458548206957,0 79.98406300272632,16.83365949513669,0 79.98429346574257,16.8335302447501,0 79.98458388992937,16.83337144804906,0 79.98661716468138,16.8323631134998,0 79.98668192678808,16.83246451450823,0 79.98686105293937,16.83236880384516,0 79.98693759752908,16.83233733320631,0 79.98716656456568,16.83223360334621,0 79.98766628609694,16.83198148809688,0 79.98857842499959,16.83340552508922,0 79.9897614562243,16.83545341888579,0 79.98987157159709,16.83542041851928,0 79.99014294982756,16.83589429569468,0 79.98869908157532,16.83648820748692,0 79.98671208547596,16.83749997832991,0 79.98644728195993,16.83763130158587,0 79.98622243983283,16.83774089571074,0 79.98597970685879,16.83782850524826,0 79.98589325143202,16.83790015984087,0 79.98562056709221,16.83803853961585,0 79.98502662587237,16.8383341179034,0 79.98455811132315,16.83856754580216,0 79.98421545405088,16.83876675290293,0 79.98376736447862,16.83905503802675,0 79.98355554850073,16.83919280668038,0 79.98325253069777,16.8393909616775,0 79.98291145197265,16.83959311895136,0 79.98165454984094,16.84035567532765,0 79.9801544336552,16.83997543114765,0 79.9800489479438,16.83988559805789,0 79.98046859054975,16.83967577927044,0 79.98074420931806,16.8395379708005,0 79.98099644458134,16.83941185349277,0 79.98143946825458,16.83919034103893,0 79.98178029471742,16.83904261312319,0 79.98237044883925,16.83878100107864,0 79.98262557346953,16.83871163049223,0 79.98280081047741,16.83862198066912,0 79.98297604732662,16.8385323306867,0 79.9832372871184,16.83839837223199,0 79.98329976189629,16.83836192737268,0 79.98351490439103,16.83827512725265,0 79.98353053276337,16.83822040628008,0 79.98372493068617,16.83815894107816,0 79.98375164803038,16.8381433803551,0 79.98376155949852,16.83810653608383,0 79.98386959006743,16.83806459164748,0 79.98401453398471,16.83799461501138,0 79.9842580372916,16.83785863647834,0 79.98438339172442,16.83781864024318,0 79.98546243894508,16.83734634960403,0 79.98659972819569,16.83684866045922,0 79.98656304323157,16.83675233494422,0 79.98701110419663,16.83653658467828,0 79.987403652198,16.83643280163211,0 79.98837017926073,16.83603686840621,0 79.9875794027154,16.83454695836552,0 79.98763973574404,16.83447085032123,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Pit No-1, 3rd Bench</name>
+				<styleUrl>#stylemap_id3</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Workings_31_03_2023">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+						<SimpleData name="ExtendedEntity">5      2</SimpleData>
+						<SimpleData name="EntityHandle">257F4</SimpleData>
+						<SimpleData name="Text">ANSI31</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.9800489479438,16.83988559805788,0 79.97994939117342,16.83973751812317,0 79.98044399928393,16.83950646311202,0 79.97954877817942,16.83706035865547,0 79.97992187398269,16.83672218400095,0 79.9798553664365,16.83660235989172,0 79.97976533935874,16.83648796032194,0 79.98081090470163,16.83564944026921,0 79.9809688764181,16.8355450231529,0 79.9814117597369,16.83528617027147,0 79.98139246338873,16.83524131652344,0 79.98176644847351,16.83504870500672,0 79.98243446136533,16.83470686163668,0 79.98297011057768,16.8344117945621,0 79.98305797589667,16.83436425419998,0 79.98414792961847,16.83378731720244,0 79.98515029024966,16.83327934498883,0 79.98655430416792,16.83260924338695,0 79.98763973574404,16.83447085032123,0 79.9875794027154,16.83454695836552,0 79.98837017926073,16.83603686840621,0 79.987403652198,16.83643280163211,0 79.98701110419663,16.83653658467828,0 79.98656304323157,16.83675233494422,0 79.9865997281957,16.83684866045922,0 79.9865414810768,16.83687405298281,0 79.98438339172448,16.83781864024315,0 79.98425803729162,16.83785863647833,0 79.98401453398465,16.83799461501139,0 79.98386959006751,16.83806459164743,0 79.98376155949852,16.83810653608383,0 79.98375164803036,16.8381433803551,0 79.98372493068618,16.83815894107815,0 79.98353053276337,16.83822040628008,0 79.98351490439103,16.83827512725265,0 79.98329976189623,16.83836192737271,0 79.9832372871184,16.83839837223199,0 79.98297604732663,16.83853233068669,0 79.98262557346949,16.83871163049224,0 79.98237044883923,16.83878100107864,0 79.98178029471852,16.83904261312271,0 79.98143946825478,16.83919034103881,0 79.9800489479438,16.83988559805788,0 79.9800489479438,16.83988559805788,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+					<innerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98655430416792,16.83260924338695,0 79.98655430416792,16.83260924338695,0 79.98655430416792,16.83260924338695,0 
+							</coordinates>
+						</LinearRing>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98438339172449,16.83781864024316,0 79.9865414810768,16.83687405298281,0 79.98438339172449,16.83781864024316,0 
+							</coordinates>
+						</LinearRing>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98425803729164,16.83785863647833,0 79.98438339172449,16.83781864024316,0 79.98425803729164,16.83785863647833,0 
+							</coordinates>
+						</LinearRing>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98401453398465,16.83799461501139,0 79.98425803729164,16.83785863647833,0 79.98401453398465,16.83799461501139,0 
+							</coordinates>
+						</LinearRing>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98386959006753,16.83806459164744,0 79.98401453398465,16.83799461501139,0 79.98386959006753,16.83806459164744,0 
+							</coordinates>
+						</LinearRing>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98376155949852,16.83810653608383,0 79.98386959006753,16.83806459164744,0 79.98376155949852,16.83810653608383,0 
+							</coordinates>
+						</LinearRing>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98375164803038,16.8381433803551,0 79.98376155949852,16.83810653608383,0 79.98375164803038,16.8381433803551,0 
+							</coordinates>
+						</LinearRing>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98372493068618,16.83815894107815,0 79.98375164803038,16.8381433803551,0 79.98372493068618,16.83815894107815,0 
+							</coordinates>
+						</LinearRing>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98353053276338,16.83822040628008,0 79.98372493068618,16.83815894107815,0 79.98353053276338,16.83822040628008,0 
+							</coordinates>
+						</LinearRing>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98351490439103,16.83827512725265,0 79.98353053276338,16.83822040628008,0 79.98351490439103,16.83827512725265,0 
+							</coordinates>
+						</LinearRing>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98329976189625,16.83836192737271,0 79.98351490439103,16.83827512725265,0 79.98329976189625,16.83836192737271,0 
+							</coordinates>
+						</LinearRing>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98323728711841,16.83839837223199,0 79.98329976189625,16.83836192737271,0 79.98323728711841,16.83839837223199,0 
+							</coordinates>
+						</LinearRing>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98297604732663,16.83853233068669,0 79.98323728711841,16.83839837223199,0 79.98297604732663,16.83853233068669,0 
+							</coordinates>
+						</LinearRing>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98262557346951,16.83871163049224,0 79.98297604732663,16.83853233068669,0 79.98262557346951,16.83871163049224,0 
+							</coordinates>
+						</LinearRing>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98237044883923,16.83878100107864,0 79.98262557346951,16.83871163049224,0 79.98237044883923,16.83878100107864,0 
+							</coordinates>
+						</LinearRing>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98178029471852,16.83904261312272,0 79.98237044883923,16.83878100107864,0 79.98178029471852,16.83904261312272,0 
+							</coordinates>
+						</LinearRing>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98143946825479,16.83919034103882,0 79.98178029471852,16.83904261312272,0 79.98143946825479,16.83919034103882,0 
+							</coordinates>
+						</LinearRing>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98425451162822,16.83639043261409,0 79.98414110935934,16.83644830856993,0 79.98410384229787,16.8364673281569,0 79.98425451162822,16.83639043261409,0 
+							</coordinates>
+						</LinearRing>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98469971275527,16.83726949389394,0 79.98468745009529,16.83724151842438,0 79.98425451162822,16.83639043261409,0 79.98469971275527,16.83726949389394,0 
+							</coordinates>
+						</LinearRing>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98425451162822,16.83639043261409,0 79.98410384229787,16.8364673281569,0 79.98454252345437,16.8373342571505,0 79.98469968619017,16.83726557245723,0 79.98425451162822,16.83639043261409,0 
+							</coordinates>
+						</LinearRing>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98239815087663,16.8384173459553,0 79.98295371073142,16.83807663511614,0 79.98352789425495,16.83776313034229,0 79.98389483141112,16.83759321462149,0 79.98342115738083,16.83665990496748,0 79.98249895546158,16.83711630173605,0 79.98287020953663,16.83789545160466,0 79.98229554168707,16.83829933703124,0 79.98239815087663,16.8384173459553,0 
+							</coordinates>
+						</LinearRing>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98211657649016,16.83491711894185,0 79.98223922785427,16.8351740679459,0 79.98226950624688,16.83524652157854,0 79.98249526531525,16.83515864554958,0 79.98281701018493,16.83503328808905,0 79.98262758206496,16.83465637466684,0 79.98211657649016,16.83491711894185,0 
+							</coordinates>
+						</LinearRing>
+					</innerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Pit No-1, 4th Bench</name>
+				<styleUrl>#stylemap_id4</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Workings_31_03_2023">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+						<SimpleData name="ExtendedEntity">5      2</SimpleData>
+						<SimpleData name="EntityHandle">25781</SimpleData>
+						<SimpleData name="Text">ANSI31</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.98454252345437,16.8373342571505,0 79.98410384229787,16.8364673281569,0 79.98425451162822,16.83639043261409,0 79.98469968619017,16.83726557245723,0 79.98454252345437,16.8373342571505,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Pit No-2,1st Bench</name>
+				<styleUrl>#stylemap_id6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Workings_31_03_2023">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+						<SimpleData name="ExtendedEntity">5      2</SimpleData>
+						<SimpleData name="EntityHandle">25778</SimpleData>
+						<SimpleData name="Text">ANSI31</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.97639274557939,16.83469598553846,0 79.97676451559364,16.83521387592878,0 79.97705428753369,16.83568919367828,0 79.97769337784962,16.83658191280729,0 79.97706088908662,16.83693923793368,0 79.97708136650088,16.83702552163381,0 79.97580784490127,16.83749384550605,0 79.97476182521426,16.83685089838186,0 79.97472182424825,16.83680395600937,0 79.97441057922899,16.83643843988338,0 79.9743006693152,16.83646899627152,0 79.97378373415344,16.83660828587209,0 79.97356323896251,16.83682251425229,0 79.97353551160801,16.83684073500946,0 79.97346181524644,16.83689766485188,0 79.97341080017036,16.83693485522805,0 79.97338242412886,16.83695154298545,0 79.97337108886737,16.83695342560408,0 79.97308044577737,16.83700169687722,0 79.97294005472912,16.8366887826859,0 79.97274963497813,16.83630543571876,0 79.97253831155803,16.83588725722559,0 79.97230674614616,16.83549678644231,0 79.97230552355731,16.83549376104396,0 79.97197836097833,16.83489526135165,0 79.97193861023281,16.83482813997372,0 79.9719200679183,16.83479541295163,0 79.97187099983056,16.83470979636564,0 79.97178456349029,16.83456132523549,0 79.97177589209075,16.83454944004571,0 79.97142036206853,16.83405199278358,0 79.97128120754076,16.83376272671781,0 79.97108386441104,16.83343559050685,0 79.97130339689909,16.83332124726252,0 79.97187515822655,16.83299540980556,0 79.97272522719237,16.83255744776898,0 79.97285453761114,16.83250793935455,0 79.97308851961874,16.83280957533106,0 79.97320466458011,16.83277575544869,0 79.97348379545303,16.83312517260176,0 79.97359395438042,16.83309087523426,0 79.97364503252385,16.83318557353157,0 79.97374268995878,16.83315138078854,0 79.97382230315509,16.8332324814582,0 79.97435219293702,16.83296791327555,0 79.97462595125195,16.83283431857636,0 79.9748099094315,16.83275559130908,0 79.97477969277877,16.83267050336092,0 79.97494224054316,16.83258620834685,0 79.97521806639747,16.83246107942284,0 79.97526545550357,16.83254027143679,0 79.97536170958925,16.83274682975862,0 79.97547096197052,16.83296420768441,0 79.9755913205952,16.83321100717784,0 79.97573183606778,16.83350709650338,0 79.97593604324244,16.83387443999253,0 79.97639274557939,16.83469598553846,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+					<innerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.97684798533312,16.83628752418016,0 79.97555519538267,16.83450536507822,0 79.97513055517132,16.83389952246256,0 79.97505034889646,16.83378117576335,0 79.97410525056252,16.8342887775723,0 79.9738454178239,16.83383062967844,0 79.97338217267789,16.83412844674093,0 79.97327688218691,16.83402828028816,0 79.97293369943638,16.83421591519975,0 79.97283974271727,16.83412153212594,0 79.97253596575018,16.83429602816356,0 79.97352642525414,16.83581657034704,0 79.9739054739851,16.83634350959024,0 79.97405113376092,16.8362738158642,0 79.97416903085623,16.8362660607897,0 79.97435078107617,16.83629643301363,0 79.97443553168495,16.83628076028864,0 79.97470193977404,16.83651393967677,0 79.97523568165211,16.8368768171107,0 79.97582825755089,16.83717890469696,0 79.97590389129616,16.83693706459021,0 79.97610402259618,16.83679722226209,0 79.97624479160142,16.83670757461709,0 79.97632592235789,16.83665560755264,0 79.97639687217195,16.8366103332342,0 79.97654808574795,16.83651282439952,0 79.97672977864345,16.83638927086901,0 79.97677195768756,16.8363572785696,0 79.97684798533312,16.83628752418016,0 
+							</coordinates>
+						</LinearRing>
+					</innerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Pit No-2,2nd Bench</name>
+				<styleUrl>#stylemap_id7</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Workings_31_03_2023">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+						<SimpleData name="ExtendedEntity">5      2</SimpleData>
+						<SimpleData name="EntityHandle">2577B</SimpleData>
+						<SimpleData name="Text">ANSI31</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.97677195768756,16.8363572785696,0 79.97672977864345,16.83638927086901,0 79.97654808574795,16.83651282439952,0 79.97639687217195,16.8366103332342,0 79.97632592235789,16.83665560755264,0 79.97624479160142,16.83670757461709,0 79.97610402259618,16.83679722226209,0 79.97590389129616,16.83693706459021,0 79.97582825755089,16.83717890469696,0 79.97523568165211,16.8368768171107,0 79.97470193977404,16.83651393967677,0 79.97443553168495,16.83628076028864,0 79.97435078107617,16.83629643301363,0 79.97416903085623,16.8362660607897,0 79.97405113376092,16.8362738158642,0 79.9739054739851,16.83634350959024,0 79.97352642525414,16.83581657034704,0 79.97253596575018,16.83429602816356,0 79.97283974271727,16.83412153212594,0 79.97293369943638,16.83421591519975,0 79.97327688218691,16.83402828028816,0 79.97338217267789,16.83412844674093,0 79.9738454178239,16.83383062967844,0 79.97412281035332,16.83428886527241,0 79.97505034889646,16.83378117576335,0 79.97513055517132,16.83389952246256,0 79.97555519538267,16.83450536507822,0 79.97684798533312,16.83628752418016,0 79.97677195768756,16.8363572785696,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+					<innerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								79.97649449715755,16.83588384975941,0 79.97643996249965,16.83592709918114,0 79.97623560690732,16.83568963391739,0 79.97586329580692,16.83597856385298,0 79.97559198912064,16.83619113375613,0 79.97580903755619,16.83641515203673,0 79.97606864469799,16.83666703677294,0 79.97632284822049,16.83647970868447,0 79.97665911549419,16.83624038049762,0 79.97651422275008,16.83602770604346,0 79.97657163331047,16.83598662299088,0 79.97649449715755,16.83588384975941,0 
+							</coordinates>
+						</LinearRing>
+					</innerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Placemark>
+			<name>2022-23 Actual Plantation</name>
+			<styleUrl>#stylemap_id9</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#2022_23_Actual_plantation">
+					<SimpleData name="Layer">LAYER1</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="ExtendedEntity">5      2</SimpleData>
+					<SimpleData name="EntityHandle">2B869</SimpleData>
+					<SimpleData name="Text">GRASS</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							79.9896909616384,16.83856383264147,0 79.98969969079896,16.83853109302231,0 79.9898675694447,16.83850530389306,0 79.99042542155253,16.8383915159268,0 79.99201098892426,16.83819631612295,0 79.99195267121146,16.83930518279561,0 79.99159707339189,16.83931501644594,0 79.99162096214138,16.83864799168857,0 79.9896909616384,16.83856383264147,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							80.00057534890654,16.83521310655451,0 80.00115979134213,16.83521594947731,0 80.00116065408608,16.83505140365754,0 80.00057621215508,16.83504856076412,0 80.00057534890654,16.83521310655451,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Mines Sumps</name>
+			<styleUrl>#stylemap_id190</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Sumps">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="ExtendedEntity">5      2</SimpleData>
+					<SimpleData name="EntityHandle">25763</SimpleData>
+					<SimpleData name="Text">SOLID</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							79.98229554168707,16.83829933703124,0 79.98287020953663,16.83789545160466,0 79.98249895546158,16.83711630173605,0 79.98342115738083,16.83665990496748,0 79.98389483141112,16.83759321462149,0 79.98352789425495,16.83776313034229,0 79.98295371073142,16.83807663511614,0 79.98239815087663,16.8384173459553,0 79.98229554168707,16.83829933703124,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							79.98211657649016,16.83491711894185,0 79.98223922785427,16.8351740679459,0 79.98226950624688,16.83524652157854,0 79.98249526531525,16.83515864554958,0 79.98281701018493,16.83503328808905,0 79.98262758206496,16.83465637466684,0 79.98211657649016,16.83491711894185,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							79.97649449715755,16.83588384975941,0 79.97643996249965,16.83592709918114,0 79.97623560690732,16.83568963391739,0 79.97586329580692,16.83597856385298,0 79.97559198912064,16.83619113375613,0 79.97580903755619,16.83641515203673,0 79.97606864469799,16.83666703677294,0 79.97632284822049,16.83647970868447,0 79.97665911549419,16.83624038049762,0 79.97651422275008,16.83602770604346,0 79.97657163331047,16.83598662299088,0 79.97649449715755,16.83588384975941,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Reclamation &amp; rehabilitation Area</name>
+			<styleUrl>#stylemap_id1609</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Rehabilitated_area9">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="ExtendedEntity">5      2</SimpleData>
+					<SimpleData name="EntityHandle">241AE</SimpleData>
+					<SimpleData name="Text">SOLID</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							79.9798284615473,16.83662718608143,0 79.97988689396507,16.83672582286571,0 79.97946081423498,16.83707533897907,0 79.979715729688,16.8377185429576,0 79.97989760354058,16.83820443613499,0 79.98006809392416,16.83867092232264,0 79.98027639034487,16.83923752629202,0 79.98038977094444,16.83953553348782,0 79.97994005008803,16.83974561941434,0 79.97908195949721,16.83735052703207,0 79.97912551318184,16.83726776738182,0 79.97920629717292,16.83715271747518,0 79.97930522280377,16.83703812009381,0 79.97942492060429,16.83693097294449,0 79.9798284615473,16.83662718608143,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Nala</name>
+			<styleUrl>#stylemap_id2119</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#3_Surface_Geological_Plan_of_the_lease09">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="ExtendedEntity">-1023410171        5      2</SimpleData>
+					<SimpleData name="EntityHandle">2961F</SimpleData>
+					<SimpleData name="Text">ANSI31</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							79.97796086102041,16.83696401267055,0 79.97822492700408,16.83673930347966,0 79.97842290740701,16.8365775782478,0 79.97858151155924,16.83644420173667,0 79.9796548760835,16.83401857072673,0 79.97982946020899,16.83384291867342,0 79.9802709047181,16.83392660238085,0 79.98107897841294,16.83330877812141,0 79.98125679781405,16.83323770849838,0 79.98165190250634,16.83278942638017,0 79.98202928180072,16.83235783328096,0 79.98229332425959,16.83198061664363,0 79.98237969704336,16.8317892478706,0 79.98307839678934,16.83140285453156,0 79.98350271709467,16.83108837178874,0 79.98404058564988,16.83084624979259,0 79.9845015983564,16.83072185738429,0 79.98568514335835,16.83033036482663,0 79.98672875663608,16.8297667022564,0 79.98700585847737,16.82958192111388,0 79.98696102802427,16.82936923190001,0 79.98698877148077,16.82912325572631,0 79.98677684332588,16.82908668176638,0 79.98638047698834,16.82880849617261,0 79.98597536314516,16.82900108317324,0 79.98556222597364,16.82912544089439,0 79.9850613272998,16.82939524431602,0 79.9843178203444,16.82943687676658,0 79.98383502356795,16.82958921953628,0 79.98321578966372,16.82940515061669,0 79.98282882727199,16.82949402046204,0 79.98192107916724,16.82905126820036,0 79.98135127646731,16.82846045125225,0 79.98006353949553,16.82771484846117,0 79.97882784467916,16.82720651829343,0 79.97821324361199,16.82754326305886,0 79.97715209741285,16.82790231364638,0 79.97695297326526,16.82782811935177,0 79.9766422017571,16.82785296937411,0 79.97646240034376,16.82795203048117,0 79.97521854229801,16.82791860074301,0 79.97370337960609,16.82788384445223,0 79.97285587937385,16.82745219249193,0 79.9715223560835,16.82649886377828,0 79.97115388885248,16.82647833633813,0 79.97114829520362,16.82577149077909,0 79.97066013374324,16.82569061804558,0 79.96983780801048,16.82578543349159,0 79.96894992962673,16.82601468538756,0 79.96822045571494,16.82655626959163,0 79.96786087636166,16.82648147446274,0 79.96757054169301,16.82657905541564,0 79.96723290604211,16.82654865283909,0 79.96714987185055,16.82601492362382,0 79.96698293714888,16.82581821982973,0 79.96626959724315,16.8259410703497,0 79.96581339238831,16.82545175308316,0 79.96569783311945,16.8254853621699,0 79.9654070793333,16.82542059060725,0 79.96478885723236,16.82558863036155,0 79.96427195980944,16.82558602584925,0 79.96390852470904,16.82525045256926,0 79.96351704132144,16.82528353570673,0 79.96309330833076,16.82549845001745,0 79.96220119567781,16.82554877211067,0 79.9620709841883,16.82547623608858,0 79.96145757600503,16.82556257964056,0 79.96145214736907,16.82552680635031,0 79.96207847594403,16.82543864409211,0 79.96221024271941,16.82551204651223,0 79.96308300426472,16.82546281595594,0 79.9635062343437,16.82524815669988,0 79.96392220928816,16.82521300383701,0 79.96428712956299,16.82554994844386,0 79.96478375791311,16.82555245080864,0 79.96540615389591,16.82538327651554,0 79.96569655207097,16.82544796886952,0 79.96582538199898,16.82541050015076,0 79.96628356408094,16.8259019381849,0 79.96699804294633,16.82577889142834,0 79.96718546709455,16.82599973847691,0 79.9672656737753,16.82651529238221,0 79.96756589405042,16.82654232585318,0 79.96785847860507,16.82644398870029,0 79.96821134241655,16.82651738696872,0 79.96893295727047,16.82598163753265,0 79.96983068031032,16.82574984373204,0 79.97066110469173,16.82565409448453,0 79.97118559349761,16.82574098545681,0 79.97119115854653,16.82644419880489,0 79.97153572296021,16.82646339456809,0 79.97287595706158,16.82742152078513,0 79.97371311281485,16.82784790404491,0 79.9752195127945,16.82788245927974,0 79.97645291013109,16.82791560789663,0 79.97663079309066,16.8278176037473,0 79.97695846858618,16.82779140203857,0 79.97715272344082,16.82786378202785,0 79.9781976154954,16.82751023117366,0 79.97882546666381,16.8271662265337,0 79.98008066418264,16.82768257959728,0 79.98137516842942,16.82843210058696,0 79.98194402124058,16.82902193255529,0 79.9828335084912,16.82945577811554,0 79.98321705964118,16.82936769166845,0 79.98383468389937,16.82955128214465,0 79.9843107697192,16.82940105693948,0 79.98505053413892,16.82935963406787,0 79.98554730533368,16.82909205385137,0 79.98596137139066,16.82896741653328,0 79.98638422892533,16.82876639432895,0 79.98679196935211,16.82905256273185,0 79.9870036065935,16.82908908647536,0 79.98718544881375,16.82912504555814,0 79.9875532995393,16.82896779876125,0 79.98773241346419,16.82880604257229,0 79.98832231038952,16.82854803933436,0 79.98853864294531,16.82818104742688,0 79.98891706184634,16.82785639725159,0 79.98929991751879,16.82741849554598,0 79.98967603004461,16.8274384618036,0 79.99014438758363,16.826974464492,0 79.99007092901648,16.82661109455211,0 79.9906169376118,16.82619112882568,0 79.99064036347997,16.82621937893662,0 79.99011212137675,16.82662567954532,0 79.990184985927,16.82698611070801,0 79.98969103152122,16.82747546665638,0 79.98931656262629,16.82745558768124,0 79.98894404241079,16.8278816679401,0 79.98856823316902,16.82820407930356,0 79.98834893549274,16.8285761013807,0 79.98775357403133,16.82883649467981,0 79.98757433980228,16.82899835951968,0 79.98718968264862,16.82916279062949,0 79.9870072612205,16.82912671701792,0 79.98698000314239,16.82936838999028,0 79.98702671411823,16.82959000085458,0 79.98673871186429,16.82978205078976,0 79.98569284488747,16.83034693060275,0 79.98450718342889,16.83073912324214,0 79.98404713546641,16.83086325533996,0 79.98351253156011,16.83110390775357,0 79.98308884111931,16.83141792368025,0 79.98239443351244,16.83180194341478,0 79.9823098513491,16.83198934489177,0 79.98204428515585,16.83236873841119,0 79.98166623631467,16.83280109727945,0 79.9812681764034,16.83325273238534,0 79.98108859527471,16.83332450612735,0 79.98027578568093,16.83394595126768,0 79.97983591551092,16.83386256602315,0 79.97967080199423,16.83402868954025,0 79.97859709455209,16.836455095868,0 79.97843515199129,16.83659127978843,0 79.97823721363777,16.83675297067835,0 79.97797328991929,16.8369775588176,0 79.97796086102041,16.83696401267055,0 79.97796086102041,16.83696401267055,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Road and infrastructure</name>
+			<styleUrl>#stylemap_id1809</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Roads9">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="ExtendedEntity">5      2</SimpleData>
+					<SimpleData name="EntityHandle">261B3</SimpleData>
+					<SimpleData name="Text">SOLID</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							79.97892564673133,16.84133402799868,0 79.97889881651479,16.84128343597205,0 79.97929543222023,16.84108456120226,0 79.97919571298033,16.84068773451269,0 79.97905411993109,16.84078139595151,0 79.97901740208422,16.84065190104536,0 79.97915919733785,16.84057619101936,0 79.9791128058226,16.84033880184116,0 79.97894924882655,16.84041154066244,0 79.97892910410508,16.84034049489681,0 79.9791132418833,16.84025745761939,0 79.9787890148875,16.83984643131059,0 79.97869956913733,16.83953097474304,0 79.97919833907326,16.84014038032485,0 79.9796597283605,16.83995798017208,0 79.97869081458377,16.83718881266724,0 79.97864309232669,16.83720445905594,0 79.97841524114419,16.83729527616173,0 79.97834127723542,16.83713907914942,0 79.97858605554133,16.83705521127726,0 79.9787041703164,16.83701039145161,0 79.97867135647959,16.83693553837441,0 79.97859662798169,16.83674583183236,0 79.97841993511494,16.83653015267358,0 79.97827944981245,16.83647522291946,0 79.97813881913885,16.83644740781589,0 79.97794158710995,16.83647354189069,0 79.97716841967799,16.83713854089503,0 79.97647163931762,16.83755987832884,0 79.97605840237549,16.83761204934337,0 79.97580500400919,16.8376107858012,0 79.97525259462611,16.83736399120319,0 79.97491439718983,16.83746405303406,0 79.97488674018032,16.83741773912284,0 79.975252886378,16.83730976177199,0 79.97580529560837,16.8375565563619,0 79.97608652187515,16.837551703048,0 79.97646319097905,16.83750605880259,0 79.97708057401618,16.83706222191256,0 79.97781745541326,16.83648725680489,0 79.97767110303182,16.83650292180106,0 79.97763589195921,16.83643384250352,0 79.97789527765512,16.83630997471625,0 79.97749288919542,16.83604404348191,0 79.97724044165656,16.83561086158172,0 79.97527933406894,16.83239295880198,0 79.97533578908232,16.83236612494648,0 79.97727617915122,16.83558933017517,0 79.97743537044421,16.83580617218557,0 79.97816799252492,16.83625774469481,0 79.97839265240465,16.83636732416015,0 79.9785049824455,16.83642211380551,0 79.97871996689886,16.83658587574853,0 79.97877584128966,16.83666749998922,0 79.97897394548916,16.83647867662276,0 79.97930436042978,16.83611877927677,0 79.97997549107305,16.83522730253571,0 79.98175389790694,16.83436843066584,0 79.98777447271596,16.83130704189096,0 79.98783559285529,16.83140552897936,0 79.98175360805938,16.83442266022288,0 79.98000350094993,16.83525455711531,0 79.97933237032885,16.8361460339475,0 79.97900195538818,16.83650593133794,0 79.97880370582017,16.83672186947831,0 79.97893824963415,16.83695296613335,0 79.97994000982885,16.83974564416533,0 79.98005273338093,16.83992759230022,0 79.98020511746638,16.84008667440208,0 79.98034083028638,16.84009298671179,0 79.98149676163862,16.84033256309873,0 79.98221069144503,16.84049864757629,0 79.98341919720058,16.83972696400166,0 79.98364094631332,16.83952972215549,0 79.98378230366933,16.8394219597391,0 79.99055649525792,16.83628285158717,0 79.99061223114782,16.83639158772792,0 79.98501374402139,16.83899618817804,0 79.98518450434248,16.83937978898183,0 79.98524761028578,16.83932574925022,0 79.9853051519457,16.83944258685602,0 79.98516615094731,16.83950952625406,0 79.98514306700909,16.83944676613792,0 79.98488918373675,16.83953589630996,0 79.98491339696849,16.83963124586595,0 79.98458784391173,16.83972421501263,0 79.98447685947622,16.83941635715685,0 79.98480606552026,16.83928240736591,0 79.98486150975918,16.83944537448914,0 79.98510145428551,16.83936468490312,0 79.98492204330481,16.83904098205547,0 79.98375356921717,16.83953027953334,0 79.98349896166367,16.83975498184168,0 79.98316767888925,16.84027757455164,0 79.98310958153455,16.84061171124427,0 79.98327866158695,16.84058543300203,0 79.98330754125773,16.84044999853289,0 79.98350477700374,16.84042385949786,0 79.983504053353,16.84055943338408,0 79.98383282796405,16.84050682965242,0 79.98417055380639,16.84053561616188,0 79.98417969804167,16.84058085389551,0 79.98442217331021,16.84087128526906,0 79.98457248285864,16.84084491312666,0 79.98465007118486,16.84037529477211,0 79.98475340570478,16.84035772869635,0 79.98470198012021,16.8410915867002,0 79.9840080149512,16.8410868488392,0 79.98382031080689,16.84108556693658,0 79.98382127540482,16.840904801746,0 79.98402049212116,16.84090584262929,0 79.9840385810886,16.84064342523687,0 79.983443000059,16.84066337976601,0 79.98341929623865,16.84061324478163,0 79.98333397669521,16.84068233372767,0 79.98325047472571,16.84074995077632,0 79.98325007140612,16.840666637914,0 79.98310895411974,16.84072920859582,0 79.98310041771188,16.84087146161719,0 79.98300175970508,16.84095135121762,0 79.98297332472815,16.84092660550711,0 79.9814023566253,16.84055453539285,0 79.98053225424823,16.84167451196954,0 79.98062880811295,16.84195359407727,0 79.98036553351082,16.84198727522216,0 79.97971719672228,16.84011938945347,0 79.97945576121558,16.84020720372424,0 79.97920096205993,16.84030016767647,0 79.97939005279135,16.84114460544939,0 79.97959764888458,16.84208107229979,0 79.97953178245406,16.84208878038619,0 79.97930558501211,16.84114418558812,0 79.97892564673134,16.84133402799868,0 79.97892564673133,16.84133402799868,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							79.98045503947233,16.84139466741393,0 79.981227036005,16.84046304584104,0 79.98007147166956,16.84027578478949,0 79.98045503947233,16.84139466741393,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							79.98301759170606,16.84061243720708,0 79.98311136722612,16.84027729569779,0 79.98329605042883,16.83987284461677,0 79.98232894628751,16.84052068488959,0 79.98301759170606,16.84061243720708,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							79.9723293890803,16.83817188581125,0 79.97221857192307,16.8378369077278,0 79.97104856123325,16.83816767620746,0 79.97119302751825,16.83828759856453,0 79.97130592066476,16.83825714645663,0 79.97144567282083,16.83844765433616,0 79.97172620269087,16.8386388670727,0 79.97181018123032,16.83872967226619,0 79.97202652791877,16.83864037062279,0 79.97210992126298,16.83883963444127,0 79.97247657696794,16.83872396918992,0 79.97233848162463,16.83822616215195,0 79.97405135856692,16.83771939557286,0 79.97400822292306,16.83767681265337,0 79.9723293890803,16.83817188581125,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							79.98534904973211,16.83987242129435,0 79.9853938202382,16.83994512287219,0 79.98553420317658,16.83988800236071,0 79.98548847518545,16.839799561251,0 79.98534904973211,16.83987242129435,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Colony, Railway, Electrical and Nala Safety zone</name>
+			<styleUrl>#stylemap_id1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#3_Surface_Geological_Plan_of_the_lease0">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="ExtendedEntity">5      2</SimpleData>
+					<SimpleData name="EntityHandle">295A1</SimpleData>
+					<SimpleData name="Text">ANSI31</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							79.99092147443267,16.82655838008281,0 79.99060643022418,16.82680069884463,0 79.99067216646776,16.82712586469416,0 79.98987104966727,16.82791952481872,0 79.98951630439507,16.82790069321629,0 79.98926780974321,16.82818491595128,0 79.98892331641835,16.82848046151736,0 79.98866843733984,16.82891284569497,0 79.98800750135233,16.82920191982162,0 79.98782682347181,16.8293650884743,0 79.98747981253715,16.82951342700879,0 79.9875376779039,16.82978795386827,0 79.98698261544246,16.83015808972664,0 79.9858815327479,16.83075279204186,0 79.98464401799504,16.83116213672008,0 79.98420760631275,16.83127989119631,0 79.98375298644906,16.83148453876513,0 79.98334472770807,16.83178711767875,0 79.98275547762263,16.83211298394528,0 79.98271476553229,16.83220318657943,0 79.98241186790197,16.83263591378505,0 79.98201741517249,16.83308703402534,0 79.98154695239305,16.83362081744285,0 79.98132420886868,16.83370984215185,0 79.9803953695462,16.8344199989643,0 79.98002832238878,16.83435041903803,0 79.97897887844391,16.836722001743,0 79.97873514485177,16.83692696733058,0 79.97853823670965,16.83708781684117,0 79.97827779849038,16.83730943920958,0 79.97765635354617,16.83663213185798,0 79.97792390502488,16.83640445690659,0 79.97812291563785,16.83624189029842,0 79.97819972880178,16.83617729517663,0 79.97926469181219,16.83377065943523,0 79.97967130569403,16.83336155855294,0 79.98015132140439,16.83345255462319,0 79.98084336577995,16.83292344185486,0 79.9809780229254,16.83286962309466,0 79.98130072475628,16.83250348906095,0 79.98166170014505,16.83209065727374,0 79.98188841105663,16.8317667741721,0 79.982018654168,16.83147820673673,0 79.98282251120862,16.83103366024385,0 79.9832622631765,16.83070774052416,0 79.98388011548612,16.83042961382818,0 79.98436476437098,16.83029884382802,0 79.98549645629254,16.82992450323613,0 79.98646238101414,16.82940280097322,0 79.98633545357328,16.829313718271,0 79.98614326456196,16.8294050827908,0 79.98574127403928,16.82952608533997,0 79.98519084551741,16.82982256725722,0 79.984402428024,16.8298667146745,0 79.98383909956686,16.83004446822552,0 79.98320054986154,16.82985465798241,0 79.98277265246013,16.82995292859287,0 79.98164577372721,16.82940329570475,0 79.98106457236078,16.8288006589827,0 79.97985804277926,16.82810207468402,0 79.97885638090283,16.82769001940034,0 79.97840078141282,16.82793964560354,0 79.97714458502148,16.82836469305636,0 79.97688702921717,16.82826872707963,0 79.97677910605738,16.82827735685521,0 79.97657628314892,16.82838910146714,0 79.97520689627973,16.82835229829059,0 79.97358658078538,16.82831512927862,0 79.97261494660331,16.82782025278582,0 79.97136195314819,16.82692449420201,0 79.97070665148526,16.82688798614375,0 79.97070071475309,16.82613755406007,0 79.97064848229985,16.82612890076617,0 79.96992334059034,16.82621251058889,0 79.96915359834098,16.82641125955415,0 79.96832981555067,16.82702286103966,0 79.96788964948017,16.82693130360351,0 79.96762631351145,16.82701981015464,0 79.96683969234613,16.82694897785634,0 79.96673888122992,16.82630097343334,0 79.96610199470939,16.82641065621716,0 79.96564311200665,16.82591846698429,0 79.96541818457615,16.8258683596987,0 79.96485004918301,16.82602278498522,0 79.96408992229223,16.82601895459208,0 79.9637443093101,16.82569983725148,0 79.9636467253394,16.82570808375274,0 79.96321695739512,16.82592605872243,0 79.96209263087552,16.82598947923568,0 79.96198108285573,16.82592734000156,0 79.96152271976472,16.8259918591117,0 79.96138700386588,16.82509752685539,0 79.96216837674881,16.82498754008983,0 79.96231880691535,16.82507133927475,0 79.9629593557441,16.82503520718477,0 79.96337655089569,16.82482360858126,0 79.96408642378803,16.82476361894519,0 79.96446916613098,16.82511701945723,0 79.96472256620167,16.82511829616245,0 79.96539504864158,16.8249355074058,0 79.965681179494,16.82499924925596,0 79.9659692568837,16.82491546487226,0 79.96645116565399,16.825432352097,0 79.9671793119969,16.82530695048663,0 79.96761260960311,16.82581751620695,0 79.96764951310517,16.82605472211661,0 79.96782970556546,16.82599415954233,0 79.96810198309105,16.82605079546711,0 79.96872928943432,16.82558506318172,0 79.96974514808643,16.82532276660017,0 79.97067275601225,16.82521581174013,0 79.97163317210291,16.82537492100312,0 79.97163839383674,16.82603454781253,0 79.97169612506623,16.82603776394721,0 79.97311688879634,16.82705346011569,0 79.97382991100444,16.82741661909587,0 79.97523115869218,16.82744876170881,0 79.97633902783181,16.82747853685347,0 79.97649388939638,16.82739321618489,0 79.97702441224011,16.82735079424958,0 79.97716023572099,16.82740140259328,0 79.97801007849809,16.82711384847349,0 79.97879693051895,16.82668272540684,0 79.98028615995709,16.82729535308683,0 79.98166187141366,16.8280918923506,0 79.98221932556068,16.82866990457832,0 79.98288968294064,16.82899686993029,0 79.98323229929815,16.82891818427633,0 79.98383060785248,16.829096033435,0 79.98422616239384,16.82897121899714,0 79.98492101649508,16.82893231105346,0 79.98536825804024,16.82869140926438,0 79.98579347069959,16.82856341679198,0 79.98642925199752,16.82826117217938,0 79.98697348122151,16.82864313419904,0 79.98708865026464,16.8286630096928,0 79.98713464289243,16.82867210469162,0 79.98730081689763,16.82860106951356,0 79.98747848717385,16.82844061713375,0 79.98800280975961,16.82821129453625,0 79.98818356082535,16.82790466460069,0 79.98859329563204,16.82755314873851,0 79.98910017670747,16.82697338983471,0 79.98949601275206,16.82699440349909,0 79.9895187620629,16.82697186603748,0 79.98794951580882,16.82631881128319,0 79.98833163999583,16.82617054864457,0 79.98983163849839,16.82617054325794,0 79.99035963846512,16.82589254608501,0 79.99092147443267,16.82655838008281,0 79.99092147443267,16.82655838008281,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<coordinates>
+							79.99035264599509,16.83940122154759,0 79.98882303744359,16.8394500435217,0 79.98812987435096,16.83975897196673,0 79.9833269189961,16.83972643538587,0 79.98329894184731,16.84070113815658,0 79.98341281485274,16.84060886294306,0 79.98363773829935,16.84108053200066,0 79.98844305266594,16.8411132995531,0 79.98916747098966,16.84077340346689,0 79.99102609998108,16.84071927499517,0 79.99121509912671,16.84047616366093,0 79.9940524912119,16.83814006717231,0 79.995297065408,16.83528094609274,0 79.99466355526501,16.83439207049962,0 79.99547247811068,16.83405256386198,0 79.99463264482158,16.83313556359979,0 79.99349533656516,16.83350049923624,0 79.99343853253551,16.83177393676142,0 79.9932194204455,16.83115574851151,0 79.9911882115664,16.83943670192292,0 79.99035264599509,16.83940122154759,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

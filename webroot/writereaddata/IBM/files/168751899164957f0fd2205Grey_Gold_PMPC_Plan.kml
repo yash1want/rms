@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Grey Gold PMPC Plan.kml</name>
+	<open>1</open>
+	<Schema name="Afforation_2022_23" id="Afforation_2022_23">
+		<SimpleField type="string" name="LAYER"></SimpleField>
+		<SimpleField type="float" name="ELEVATION"></SimpleField>
+	</Schema>
+	<Schema name="Pit_area" id="Pit_area">
+		<SimpleField type="string" name="LAYER"></SimpleField>
+		<SimpleField type="float" name="ELEVATION"></SimpleField>
+	</Schema>
+	<Schema name="Road" id="Road">
+		<SimpleField type="string" name="LAYER"></SimpleField>
+		<SimpleField type="float" name="ELEVATION"></SimpleField>
+	</Schema>
+	<Schema name="C:/Users/sagar/Desktop/Grey Gold PMPC Plan/7.5 mtrs zone.kml" id="_.5_mtrs_zone.schema">
+		<SimpleField type="string" name="LAYER"></SimpleField>
+		<SimpleField type="float" name="ELEVATION"></SimpleField>
+	</Schema>
+	<Style id="area1">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area10">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff55aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area113">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area111</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area11">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area111">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area110">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff55aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area1110">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area112">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area1130">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff55aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area114">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="area115">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area1130</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area116">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff55aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area117">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area12">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff55aa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area13">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff55aa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area14">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff55aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area1110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="area16">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area110</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area116</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area17">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff55aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area18">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area17</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="area19">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area112</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area117</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="mstyle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style">
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style0">
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style5">
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style1">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style8">
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style00">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style10">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style2">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style3">
+		<LineStyle>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style4">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style50">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style6">
+		<LineStyle>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style7">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id150">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id16">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id17">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>My Places</name>
+		<open>1</open>
+		<Style>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open</state>
+					<href>:/mysavedplaces_open.png</href>
+				</ItemIcon>
+				<ItemIcon>
+					<state>closed</state>
+					<href>:/mysavedplaces_closed.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Placemark>
+			<name>Grey Gold M.L Boundary.kml</name>
+			<styleUrl>#area113</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.87272611100001,16.7597991671,0 79.8752094443,16.763428056,0 79.87416472210001,16.764028056,0 79.8744974999,16.7648702782,0 79.87589027769999,16.7641097227,0 79.8764024999,16.7647541671,0 79.8775752776,16.7663602782,0 79.8781008333,16.7679269449,0 79.8784622221,16.7686972227,0 79.8787827777,16.7700275004,0 79.8794402777,16.7714772226,0 79.880771111,16.7733283338,0 79.88071166660001,16.7770427782,0 79.8824588888,16.7783083338,0 79.8841849999,16.7783538893,0 79.88684694440001,16.7788022227,0 79.8871966666,16.779943056,0 79.8887913888,16.783250556,0 79.8895619443,16.7830377783,0 79.8911416665,16.7856402782,0 79.889483611,16.7868244449,0 79.8877044443,16.7846094449,0 79.88736416659999,16.7834236115,0 79.88687777769999,16.7831408338,0 79.8860147221,16.7831452782,0 79.8847844444,16.7817375005,0 79.8849305554,16.7807983338,0 79.8841730554,16.780405556,0 79.8829797221,16.7806975005,0 79.8824822222,16.7807219449,0 79.8816866666,16.7804011115,0 79.8801969443,16.7784227782,0 79.8787424999,16.7768602782,0 79.8773338888,16.7754786116,0 79.87698444430001,16.7747208338,0 79.8753441665,16.7724400005,0 79.8746852777,16.7711891672,0 79.8742313888,16.7702377782,0 79.8735702777,16.7693483338,0 79.87336972209999,16.7667622227,0 79.8729794443,16.7661636116,0 79.8723358332,16.7655363893,0 79.87120583319999,16.764635556,0 79.8710136111,16.7638300005,0 79.86936749989999,16.7613716671,0 79.87272611100001,16.7597991671,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Folder>
+			<name>Infrastructure</name>
+			<open>1</open>
+			<description>Area Features</description>
+			<Placemark>
+				<name>A.N STORE
+ ROOM</name>
+				<styleUrl>#area18</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.87379781440001,16.7691963404,0 79.873905194,16.7691067003,0 79.8740163092,16.7692205006,0 79.8739049287,16.7693044792,0 79.87379781440001,16.7691963404,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ANFO MIXING SHED</name>
+				<styleUrl>#area16</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.8742492447,16.7694586109,0 79.8743796474,16.7695895992,0 79.8742198856,16.7697087842,0 79.8740935846,16.7695742937,0 79.8742492447,16.7694586109,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Mines Office</name>
+				<styleUrl>#area115</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.87458878770001,16.7700948401,0 79.8746111741,16.7701279596,0 79.8744753041,16.7702018347,0 79.8744531717,16.7701697766,0 79.87458878770001,16.7700948401,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>MAGAZINE-1</name>
+				<styleUrl>#area114</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.8750022495,16.7706375095,0 79.87493111080001,16.7705221461,0 79.87505912659999,16.7704526052,0 79.8751264645,16.7705673944,0 79.8750026941,16.7706382304,0 79.8750022495,16.7706375095,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>MAGAZINE-2</name>
+				<styleUrl>#area19</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.87485620530001,16.771040939,0 79.8747870231,16.7709001208,0 79.87493413990001,16.7708318303,0 79.8750015999,16.7709742361,0 79.8748560415,16.7710406057,0 79.87485620530001,16.771040939,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Tolites</name>
+				<styleUrl>#area15</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.8742803352,16.7702799579,0 79.874288108,16.7702924072,0 79.8743115324,16.7702799485,0 79.8743180077,16.7702905925,0 79.874284472,16.7703071318,0 79.87427228270001,16.7702833303,0 79.8742803352,16.7702799579,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Placemark>
+			<name>Afforestation area out side of M.L</name>
+			<styleUrl>#stylemap_id150</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.87412649763488,16.77013793614166,0 79.87366220655164,16.77039037652298,0 79.87318015061334,16.76932249058628,0 79.87304536242911,16.76888326794984,0 79.87349669057825,16.76864437909285,0 79.87357054254657,16.76940074265959,0 79.87412649763488,16.77013793614166,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Afforestation area out side of M.L</name>
+			<styleUrl>#stylemap_id15</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.87472601404195,16.77134264914086,0 79.87460729100478,16.77145273648875,0 79.87445930022966,16.7711770998451,0 79.87455466038915,16.77113505799271,0 79.87415846469577,16.77030252633381,0 79.87421477563079,16.7702689227559,0 79.87472601404195,16.77134264914086,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="_.5_mtrs_zone.1">
+			<name>7.5 mtrs zone</name>
+			<styleUrl>#mstyle</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#_.5_mtrs_zone.schema">
+					<SimpleData name="LAYER">LEASE_BOUD</SimpleData>
+					<SimpleData name="ELEVATION">0.0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.8727013463208,16.7598861291679,0 79.8694696653653,16.7613992007198,0 79.87107941974701,16.7638032359262,0 79.8712690618666,16.764597978023,0 79.8723833983403,16.7654863241233,0 79.87303491560699,16.7661212510319,0 79.87343858737189,16.7667404055608,0 79.8736389739482,16.7693243255166,0 79.8742925127759,16.7702035817946,0 79.87474864102769,16.7711596641346,0 79.8754047396628,16.7724051997162,0 79.8770460577535,16.7746874783886,0 79.8773930195767,16.7754398720973,0 79.8787938206569,16.7768138776239,0 79.88025176329811,16.778380135151,0 79.88173203919079,16.780345923191,0 79.8824946268288,16.780653461129,0 79.8829691669626,16.7806301447974,0 79.8841822853261,16.7803333598403,0 79.88500747891921,16.780761237931,0 79.88485874485271,16.7817172674722,0 79.8860473180163,16.7830773232599,0 79.8868971925873,16.7830729465436,0 79.8874245228521,16.7833795268177,0 79.8877685769787,16.7845785191846,0 79.88949707858809,16.7867304426485,0 79.8910490711494,16.7856220251296,0 79.88952879017189,16.7831174497017,0 79.8887529228596,16.7833316939723,0 79.887130655626,16.7799670631975,0 79.88679182359709,16.7788617538095,0 79.88417793971099,16.7784215146708,0 79.8824345342708,16.7783755025653,0 79.8806407578673,16.7770762263068,0 79.8807004075927,16.7733490435784,0 79.879378539266,16.771510401147,0 79.87871570446229,16.7700489152329,0 79.8783952504044,16.7687190566483,0 79.878035093471,16.7679514039508,0 79.8775116016476,16.7663908879188,0 79.8763457713664,16.7647942906248,0 79.87587166705821,16.7641978035196,0 79.8744608981799,16.7649681828011,0 79.87407794654879,16.7639989756953,0 79.8751101774956,16.763406150143,0 79.8727013463208,16.7598861291679,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pit area</name>
+			<open>1</open>
+			<styleUrl>#stylemap_id16</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Pit_area">
+					<SimpleData name="LAYER">0</SimpleData>
+					<SimpleData name="ELEVATION">0.0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.87605925605909,16.7689490166272,0 79.8760041970595,16.7689709982176,0 79.8759541788762,16.7690032043025,0 79.8758879411599,16.7690579813431,0 79.875814117014,16.7691372845619,0 79.87576748738699,16.7691570345162,0 79.87572486129091,16.7691691855605,0 79.8756169835561,16.7692384949595,0 79.8755654925214,16.7692778545174,0 79.8755177743388,16.7693047698339,0 79.8756784482065,16.7694998690584,0 79.8757155519276,16.7695538083415,0 79.8756023209269,16.7695836003864,0 79.8755777256391,16.7696199723436,0 79.87558768891419,16.7696532734501,0 79.8756408883126,16.7697050634288,0 79.8757258640894,16.769853775391,0 79.8757961293735,16.7699869869885,0 79.8758462885655,16.7701145634115,0 79.8758857033652,16.770214812101,0 79.8759083332114,16.7703195398424,0 79.8759477741641,16.7704730659512,0 79.8759939309623,16.7707647377829,0 79.87561052137529,16.7709573072205,0 79.875597434356,16.7709975346155,0 79.8756165496863,16.7711021994916,0 79.8756180627895,16.7711385673744,0 79.8757605888499,16.7711702205394,0 79.8758268522502,16.7712054080738,0 79.8758846052536,16.7712296501706,0 79.8759702310591,16.7712816739837,0 79.8760313377543,16.7713003810856,0 79.8761501527994,16.7712440066511,0 79.8761915605745,16.7716128944882,0 79.87621166555699,16.7718030465474,0 79.8762307699985,16.7719837352868,0 79.8763241984027,16.7720196208375,0 79.8764567391181,16.7720705292077,0 79.8765412155322,16.7720629447843,0 79.87665012514761,16.7720402718453,0 79.87676700511609,16.7719626937856,0 79.8769008955461,16.7718751137942,0 79.8770746888211,16.7717268806199,0 79.8773140781318,16.7716314848427,0 79.8773546067637,16.7716536596287,0 79.8773795463316,16.7717129757693,0 79.8774959627649,16.7720313548167,0 79.8775576763891,16.7720458857359,0 79.8776210325267,16.7720198689699,0 79.8776536989097,16.7720153824154,0 79.87770655204,16.7720642616625,0 79.877740154262,16.7720675751703,0 79.8778167960127,16.7720473266067,0 79.87788139333,16.7720302601271,0 79.8780803698203,16.771975106295,0 79.87805050216321,16.7719049974475,0 79.8780618604484,16.7718450655947,0 79.8781021650758,16.7717862740197,0 79.87797417142841,16.7712981983844,0 79.877960207909,16.771123438762,0 79.8780201314588,16.7711061118847,0 79.8777699012313,16.7702241542804,0 79.87756507978671,16.7702591962832,0 79.8773544055978,16.7703474154354,0 79.8773140161346,16.7703573330682,0 79.877261454346,16.7701586640493,0 79.877188244881,16.7699189146374,0 79.87713733841539,16.7698103913589,0 79.87706504752239,16.7697240715646,0 79.87695637558549,16.7697279253996,0 79.8768543898229,16.7693846876037,0 79.876770571105,16.76917451016,0 79.8766116874037,16.7689971283647,0 79.8765521204037,16.7688158124174,0 79.8765217433773,16.7687821770569,0 79.87638390903849,16.7685356397029,0 79.8763632093046,16.7684998547754,0 79.87635684691369,16.7683863126478,0 79.8763605312397,16.7683329727188,0 79.8763807892004,16.7683046434436,0 79.8763881097581,16.7682504967377,0 79.8763878480144,16.7682134529319,0 79.8763959993542,16.768166622781,0 79.8764480774101,16.7681376902971,0 79.8765210157942,16.7680889761538,0 79.87659332991061,16.7680562617387,0 79.8766340254043,16.768022841094,0 79.8767183366944,16.7680657626648,0 79.87678983408929,16.768209228981,0 79.8769229168647,16.7684496960337,0 79.8769969256744,16.768616107015,0 79.8772120716411,16.7685878637786,0 79.8774083023827,16.7685621034291,0 79.87758950284829,16.7684961537276,0 79.87776896699719,16.7684290599042,0 79.87792758001039,16.7683838264815,0 79.8780564021678,16.7683470887383,0 79.8781024463762,16.7683339577416,0 79.87810415032421,16.7683059766478,0 79.8781212608374,16.7682859952372,0 79.8780879579592,16.7682037274789,0 79.87805149943991,16.7681136642924,0 79.87802545173309,16.7678941264908,0 79.8779407480272,16.7676401864904,0 79.87782847233809,16.767334334634,0 79.8777384053746,16.7670173266684,0 79.87757049167369,16.7665792846078,0 79.8775052944124,16.7664255222818,0 79.8774384307457,16.7663048971688,0 79.8773605954953,16.7662632290263,0 79.87723100154579,16.7660917071019,0 79.8770546299514,16.7657890575177,0 79.8769731277464,16.7658260061519,0 79.8768222057505,16.7656729582759,0 79.8766918494191,16.765540765476,0 79.8765132787032,16.7653596786296,0 79.8763702525213,16.765445371285,0 79.87619342301279,16.765243362283,0 79.87599866506299,16.7653258539213,0 79.87584178038701,16.7651481874784,0 79.87563885985929,16.7650150364741,0 79.8753945815231,16.7651893149613,0 79.8752243778472,16.7651995162123,0 79.87501867832761,16.7652821949272,0 79.8745577860406,16.7654316830795,0 79.8742820008836,16.765521132025,0 79.8740519690016,16.7656478439213,0 79.8739371211533,16.7657163017768,0 79.87392791236471,16.7657484977232,0 79.87397136156549,16.7658095069277,0 79.87406107061631,16.765891852863,0 79.87428031925,16.7661220992753,0 79.8744223233812,16.7662712261024,0 79.8745520485305,16.7664074577762,0 79.87479345531381,16.7666628944138,0 79.8751658443752,16.7671091376225,0 79.8753665961539,16.7673743933062,0 79.87535084364789,16.767439528627,0 79.87550583040711,16.7676668646326,0 79.87540996788741,16.7677874618813,0 79.875352381265,16.7678331863902,0 79.8752744714011,16.7678714497219,0 79.87524435619019,16.7678864742985,0 79.87517203341589,16.767915435754,0 79.87517395986561,16.7680354186126,0 79.87523862940959,16.7681351022451,0 79.87531585185179,16.7681647384288,0 79.87538412327341,16.76816803245,0 79.8754469149665,16.7683290568983,0 79.8754804399906,16.7684069253167,0 79.8754070285615,16.7684736068614,0 79.87544740598329,16.7685633107689,0 79.87553967944631,16.7687051480084,0 79.87557770767479,16.7687636026535,0 79.87561876768859,16.7688156907009,0 79.87566227542381,16.7688365702235,0 79.8756992700259,16.7688332130539,0 79.87575341887499,16.768805036497,0 79.87580738366201,16.7688081780229,0 79.87581020781541,16.7688309709939,0 79.8758015320817,16.768895837726,0 79.8757935844957,16.768955260194,0 79.875869734657,16.7689201064449,0 79.87594206430811,16.7688498939619,0 79.8759792926501,16.7687295703948,0 79.8761399252748,16.7689034087054,0 79.87605925605909,16.7689490166272,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Road</name>
+			<open>1</open>
+			<styleUrl>#stylemap_id17</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Road">
+					<SimpleData name="LAYER">0</SimpleData>
+					<SimpleData name="ELEVATION">0.0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.8741893735793,16.7701812520932,0 79.87454270077571,16.7699706785415,0 79.8749388237583,16.7696834755041,0 79.87538354779289,16.7693728552873,0 79.87581565101971,16.7690789432994,0 79.8759948627753,16.7689659250427,0 79.8760761112965,16.7689309100847,0 79.8761399252748,16.7689034087054,0 79.8759792926501,16.7687295703948,0 79.87594206430811,16.7688498939619,0 79.8758913067782,16.768904858448,0 79.87580498472209,16.768965874136,0 79.87549123858351,16.7691915733859,0 79.8750587440832,16.7695268823216,0 79.87461394122229,16.7698394110592,0 79.8741388217654,16.7701395215344,0 79.8741748632162,16.7701880106943,0 79.8741893735793,16.7701812520932,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Afforation_2022_23</name>
+			<styleUrl>#stylemap_id0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.87483065362963,16.76908339980601,0 79.87498807832584,16.76929137873559,0 79.87441676217814,16.76956227541704,0 79.87429643976475,16.76941011258487,0 79.87483065362963,16.76908339980601,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Afforation_2021_22</name>
+			<styleUrl>#stylemap_id00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Afforation_2022_23">
+					<SimpleData name="LAYER">0</SimpleData>
+					<SimpleData name="ELEVATION">0.0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.87464366022741,16.7688827264586,0 79.8740912123027,16.7692147472133,0 79.8742942030679,16.7694099393018,0 79.874830571071,16.7690825383009,0 79.87464366022741,16.7688827264586,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Document id="root_doc">
+			<name>Afforation total area.kml</name>
+			<Schema name="afforation_total_area" id="afforation_total_area">
+				<SimpleField type="string" name="LAYER"></SimpleField>
+				<SimpleField type="float" name="ELEVATION"></SimpleField>
+			</Schema>
+			<Style id="style100">
+				<LineStyle>
+					<color>ff00ff00</color>
+					<width>2</width>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="style11">
+				<LineStyle>
+					<color>ff00ff00</color>
+					<width>2</width>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="style12">
+				<LineStyle>
+					<color>ff00ff00</color>
+					<width>2</width>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="style13">
+				<LineStyle>
+					<color>ff00ff00</color>
+					<width>2</width>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="style14">
+				<LineStyle>
+					<color>ff00ff00</color>
+					<width>2</width>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="style15">
+				<LineStyle>
+					<color>ff00ff00</color>
+					<width>2</width>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="style16">
+				<LineStyle>
+					<color>ff00ff00</color>
+					<width>2</width>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="style17">
+				<LineStyle>
+					<color>ff00ff00</color>
+					<width>2</width>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="style18">
+				<LineStyle>
+					<color>ff00ff00</color>
+					<width>3</width>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="style19">
+				<LineStyle>
+					<color>ff00ff00</color>
+					<width>2</width>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="style20">
+				<LineStyle>
+					<color>ff00ff00</color>
+					<width>3</width>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="style21">
+				<LineStyle>
+					<color>ff00ff00</color>
+					<width>2</width>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="style80">
+				<LineStyle>
+					<color>ff00ff00</color>
+					<width>2</width>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="style9">
+				<LineStyle>
+					<color>ff00ff00</color>
+					<width>2</width>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="stylemap_id10">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#style16</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#style100</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="stylemap_id11">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#style14</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#style13</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="stylemap_id12">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#style80</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#style17</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="stylemap_id13">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#style21</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#style19</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="stylemap_id14">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#style15</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#style12</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="stylemap_id151">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#style11</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#style9</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="stylemap_id9">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#style20</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#style18</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Placemark>
+				<name>Afforation Area</name>
+				<styleUrl>#stylemap_id9</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#afforation_total_area">
+						<SimpleData name="LAYER">PLANTATION</SimpleData>
+						<SimpleData name="ELEVATION">84.76980000000000</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									79.8749207950186,16.7701442767728,0 79.87542435942591,16.7697957811297,0 79.8752129380952,16.7695357969006,0 79.87475110996721,16.7698537309962,0 79.8749207950186,16.7701442767728,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>Afforation Area</name>
+				<styleUrl>#stylemap_id10</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#afforation_total_area">
+						<SimpleData name="LAYER">0</SimpleData>
+						<SimpleData name="ELEVATION">80.19210000000000</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									79.87422640926241,16.7702000405754,0 79.8743128523579,16.7703992557886,0 79.87450445709329,16.770315170844,0 79.8745770288194,16.7704388661003,0 79.8749735262996,16.7703035073468,0 79.87473952998531,16.7699037250062,0 79.87422640926241,16.7702000405754,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>Afforation Area</name>
+				<styleUrl>#stylemap_id11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#afforation_total_area">
+						<SimpleData name="LAYER">0</SimpleData>
+						<SimpleData name="ELEVATION">82.09699999999999</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									79.8748325694155,16.7703914362842,0 79.8745477110687,16.7704761382424,0 79.8744783123982,16.7703608130101,0 79.87435076644491,16.7704100417386,0 79.87465822828629,16.7709220695379,0 79.8747495822962,16.7708804732192,0 79.87463136845371,16.7706626546204,0 79.874920780171,16.7705435801645,0 79.8748325694155,16.7703914362842,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>Afforation Area</name>
+				<styleUrl>#stylemap_id13</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#afforation_total_area">
+						<SimpleData name="LAYER">0</SimpleData>
+						<SimpleData name="ELEVATION">79.32250000000002</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									79.87395265225,16.7689040888435,0 79.87395265225,16.7689040888435,0 79.8740912123027,16.7692147472133,0 79.8746001314086,16.7689088873423,0 79.874357949539,16.7686381528259,0 79.87395265225,16.7689040888435,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>Afforation Area</name>
+				<styleUrl>#stylemap_id12</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#afforation_total_area">
+						<SimpleData name="LAYER">0</SimpleData>
+						<SimpleData name="ELEVATION">0.00000000000000</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									79.87459926263899,16.7698206117224,0 79.87391016782659,16.7690942244178,0 79.87359618141279,16.7685808152049,0 79.8735000814611,16.7686411588351,0 79.8735537983991,16.7693496726434,0 79.8741272721241,16.7701335846405,0 79.87459926263899,16.7698206117224,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>Afforation Area</name>
+				<styleUrl>#stylemap_id14</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#afforation_total_area">
+						<SimpleData name="LAYER">0</SimpleData>
+						<SimpleData name="ELEVATION">0.00000000000000</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									79.87464366022741,16.7688827264586,0 79.8740912123027,16.7692147472133,0 79.8742942030679,16.7694099393018,0 79.874830571071,16.7690825383009,0 79.87464366022741,16.7688827264586,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>Afforation Area</name>
+				<styleUrl>#stylemap_id151</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#afforation_total_area">
+						<SimpleData name="LAYER">0</SimpleData>
+						<SimpleData name="ELEVATION">0.00000000000000</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									79.874830571071,16.7690825383009,0 79.8742942030679,16.7694099393018,0 79.8746272578622,16.7698161012734,0 79.87511617318241,16.7694651710538,0 79.874830571071,16.7690825383009,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+		</Document>
+	</Folder>
+</Document>
+</kml>

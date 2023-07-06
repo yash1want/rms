@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>GPS device</name>
+	<snippet>Created Fri Sep 17 13:19:14 2021</snippet>
+	<LookAt>
+		<gx:TimeSpan>
+			<begin>2021-06-14T10:04:13Z</begin>
+			<end>2021-09-17T07:47:52Z</end>
+		</gx:TimeSpan>
+		<longitude>76.626519</longitude>
+		<latitude>15.041536</latitude>
+		<altitude>0</altitude>
+		<heading>0</heading>
+		<tilt>0</tilt>
+		<range>3769.444988</range>
+	</LookAt>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="waypoint">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#waypoint_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#waypoint_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff00ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="waypoint_n">
+		<IconStyle>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="waypoint_h">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="route_n">
+		<IconStyle>
+			<Icon>
+				<href>https://earth.google.com/images/kml-icons/track-directional/track-none.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="route">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#route_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#route_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="lineStyle">
+		<LineStyle>
+			<color>99ffac59</color>
+			<width>6</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff00ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="route_h">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>https://earth.google.com/images/kml-icons/track-directional/track-none.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Waypoints</name>
+		<Placemark>
+			<name>A</name>
+			<TimeStamp><when>2021-09-17T07:47:35Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>76.63182399999999,15.031773,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>B</name>
+			<TimeStamp><when>2021-09-17T07:47:52Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>76.627714,15.035189,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-1</name>
+			<TimeStamp><when>2021-06-14T10:04:13Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>76.634518,15.032661,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-2</name>
+			<TimeStamp><when>2021-06-14T10:07:29Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>76.625714,15.052021,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-3</name>
+			<TimeStamp><when>2021-06-14T10:08:04Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>76.621076,15.049493,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-4</name>
+			<TimeStamp><when>2021-06-14T10:08:42Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>76.622159,15.047299,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-5</name>
+			<TimeStamp><when>2021-06-14T10:09:16Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>76.61852,15.045133,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-6</name>
+			<TimeStamp><when>2021-06-14T10:09:44Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>76.619604,15.04391,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-7</name>
+			<TimeStamp><when>2021-06-14T10:10:15Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>76.62282500000001,15.045771,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-8</name>
+			<TimeStamp><when>2021-06-14T10:10:46Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>76.62960200000001,15.03105,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Routes</name>
+		<Folder>
+			<name>B to A</name>
+			<Folder>
+				<name>Points</name>
+				<Placemark>
+					<name>B</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+<tr><td>Longitude: 76.627714 </td></tr>
+<tr><td>Latitude: 15.035189 </td></tr>
+<tr><td>Time: 2021-09-17T07:47:52Z </td></tr>
+</table>]]></description>
+					<LookAt>
+						<longitude>76.627714</longitude>
+						<latitude>15.035189</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0</range>
+					</LookAt>
+					<TimeStamp><when>2021-09-17T07:47:52Z</when>
+</TimeStamp>
+					<styleUrl>#route</styleUrl>
+					<Point>
+						<coordinates>76.627714,15.035189,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>A</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+<tr><td>Longitude: 76.631824 </td></tr>
+<tr><td>Latitude: 15.031773 </td></tr>
+<tr><td>Time: 2021-09-17T07:47:35Z </td></tr>
+</table>]]></description>
+					<LookAt>
+						<longitude>76.63182399999999</longitude>
+						<latitude>15.031773</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0</range>
+					</LookAt>
+					<TimeStamp><when>2021-09-17T07:47:35Z</when>
+</TimeStamp>
+					<styleUrl>#route</styleUrl>
+					<Point>
+						<coordinates>76.63182399999999,15.031773,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Placemark>
+				<name>Path</name>
+				<styleUrl>#lineStyle</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						76.627714,15.035189,0 76.63182399999999,15.031773,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>BP-1 to BP-1</name>
+			<Folder>
+				<name>Points</name>
+			</Folder>
+			<Placemark>
+				<name>Path</name>
+				<styleUrl>#lineStyle</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						76.634518,15.032661,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>BP-1 to BP-1 1</name>
+			<Folder>
+				<name>Points</name>
+				<Placemark>
+					<name>BP-2</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+<tr><td>Longitude: 76.625714 </td></tr>
+<tr><td>Latitude: 15.052021 </td></tr>
+<tr><td>Time: 2021-06-14T10:07:29Z </td></tr>
+</table>]]></description>
+					<LookAt>
+						<longitude>76.625714</longitude>
+						<latitude>15.052021</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0</range>
+					</LookAt>
+					<TimeStamp><when>2021-06-14T10:07:29Z</when>
+</TimeStamp>
+					<styleUrl>#route</styleUrl>
+					<Point>
+						<coordinates>76.625714,15.052021,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BP-3</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+<tr><td>Longitude: 76.621076 </td></tr>
+<tr><td>Latitude: 15.049493 </td></tr>
+<tr><td>Time: 2021-06-14T10:08:04Z </td></tr>
+</table>]]></description>
+					<LookAt>
+						<longitude>76.621076</longitude>
+						<latitude>15.049493</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0</range>
+					</LookAt>
+					<TimeStamp><when>2021-06-14T10:08:04Z</when>
+</TimeStamp>
+					<styleUrl>#route</styleUrl>
+					<Point>
+						<coordinates>76.621076,15.049493,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BP-4</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+<tr><td>Longitude: 76.622159 </td></tr>
+<tr><td>Latitude: 15.047299 </td></tr>
+<tr><td>Time: 2021-06-14T10:08:42Z </td></tr>
+</table>]]></description>
+					<LookAt>
+						<longitude>76.622159</longitude>
+						<latitude>15.047299</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0</range>
+					</LookAt>
+					<TimeStamp><when>2021-06-14T10:08:42Z</when>
+</TimeStamp>
+					<styleUrl>#route</styleUrl>
+					<Point>
+						<coordinates>76.622159,15.047299,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BP-5</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+<tr><td>Longitude: 76.618520 </td></tr>
+<tr><td>Latitude: 15.045133 </td></tr>
+<tr><td>Time: 2021-06-14T10:09:16Z </td></tr>
+</table>]]></description>
+					<LookAt>
+						<longitude>76.61852</longitude>
+						<latitude>15.045133</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0</range>
+					</LookAt>
+					<TimeStamp><when>2021-06-14T10:09:16Z</when>
+</TimeStamp>
+					<styleUrl>#route</styleUrl>
+					<Point>
+						<coordinates>76.61852,15.045133,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BP-6</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+<tr><td>Longitude: 76.619604 </td></tr>
+<tr><td>Latitude: 15.043910 </td></tr>
+<tr><td>Time: 2021-06-14T10:09:44Z </td></tr>
+</table>]]></description>
+					<LookAt>
+						<longitude>76.619604</longitude>
+						<latitude>15.04391</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0</range>
+					</LookAt>
+					<TimeStamp><when>2021-06-14T10:09:44Z</when>
+</TimeStamp>
+					<styleUrl>#route</styleUrl>
+					<Point>
+						<coordinates>76.619604,15.04391,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BP-7</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+<tr><td>Longitude: 76.622825 </td></tr>
+<tr><td>Latitude: 15.045771 </td></tr>
+<tr><td>Time: 2021-06-14T10:10:15Z </td></tr>
+</table>]]></description>
+					<LookAt>
+						<longitude>76.62282500000001</longitude>
+						<latitude>15.045771</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0</range>
+					</LookAt>
+					<TimeStamp><when>2021-06-14T10:10:15Z</when>
+</TimeStamp>
+					<styleUrl>#route</styleUrl>
+					<Point>
+						<coordinates>76.62282500000001,15.045771,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BP-8</name>
+					<snippet></snippet>
+					<description><![CDATA[<table>
+<tr><td>Longitude: 76.629602 </td></tr>
+<tr><td>Latitude: 15.031050 </td></tr>
+<tr><td>Time: 2021-06-14T10:10:46Z </td></tr>
+</table>]]></description>
+					<LookAt>
+						<longitude>76.62960200000001</longitude>
+						<latitude>15.03105</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>66</tilt>
+						<range>0</range>
+					</LookAt>
+					<TimeStamp><when>2021-06-14T10:10:46Z</when>
+</TimeStamp>
+					<styleUrl>#route</styleUrl>
+					<Point>
+						<coordinates>76.62960200000001,15.03105,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Placemark>
+				<name>Path</name>
+				<styleUrl>#lineStyle</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						76.634518,15.032661,0 76.625714,15.052021,0 76.621076,15.049493,0 76.622159,15.047299,0 76.61852,15.045133,0 76.619604,15.04391,0 76.62282500000001,15.045771,0 76.62960200000001,15.03105,0 76.634518,15.032661,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+	<Placemark>
+		<name>Untitled Polygon</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						76.62774523348781,15.03516046685949,0 76.62961122389724,15.0310586232081,0 76.63184781835587,15.03177859605848,0 76.62774523348781,15.03516046685949,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Surrendered Area 6.25 Ha</name>
+		<LookAt>
+			<gx:TimeSpan>
+				<begin>2021-06-14T10:04:13Z</begin>
+				<end>2021-09-17T07:47:52Z</end>
+			</gx:TimeSpan>
+			<longitude>76.63045914263735</longitude>
+			<latitude>15.03385167584419</latitude>
+			<altitude>0</altitude>
+			<heading>0.0002291325472726957</heading>
+			<tilt>25.15859959353768</tilt>
+			<range>888.0196085469279</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>76.62943684329782,15.03274265174904,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,46 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+
+
+<IfModule mod_headers.c>
+     RewriteEngine On
+     Header set Test-Output-Request_URI "%{Request_URI}e"
+	 Header set Strict-Transport-Security "max-age=31536000; includeSubDomains" 
+    <If "%{THE_REQUEST} =~ m#/mms/home#">
+        Header set Content-Security-Policy: "default-src 'self' 'unsafe-inline';"
+    </If>
+    <Else>   
+		Header set Content-Security-Policy: "default-src 'self';"		
+    </Else>
+	Header edit Set-Cookie (.*) "$1;HTTPOnly;Secure;SameSite=None"
+	header set Referrer-Policy "same-origin"
+</IfModule>
+
+<IfModule mod_php8.c>
+    #Session timeout
+    php_value session.cookie_lifetime 3000
+    php_value session.gc_maxlifetime 3000
+	
+	php_value max_input_vars 100000
+	php_value upload_max_filesize 40M
+	php_value post_max_size 100M
+	
+</IfModule>
+
+<IfModule mod_php.c>
+    #Increase post input variable size
+	php_value max_input_vars 100000
+	php_value max_execution_time 600
+	php_value post_max_size 100M
+</IfModule>
+
+<IfModule mod_speling.c>
+    CheckSpelling On
+	CheckCaseOnly On
+</IfModule>
+
+	 

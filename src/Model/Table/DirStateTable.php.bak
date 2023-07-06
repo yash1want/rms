@@ -1,0 +1,60 @@
+<?php 
+	namespace app\Model\Table;
+	use Cake\ORM\Table;
+	use App\Model\Model;
+	use Cake\ORM\TableRegistry;
+	use Cake\Core\Configure;
+	
+	class DirStateTable extends Table{
+
+		var $name = "DirState";			
+		public $validate = array();
+
+	    //returns state name by state code
+	    public function getState($state_code) {
+
+			$query = $this->find('all', array('conditions'=>array('state_code'=>$state_code)))->toArray();
+
+	        if (count($query) > 0){
+	            return $query[0]['state_name'];
+	        }
+	        else{
+	            return "--";
+	        }
+	    }
+
+		//returns state name by state code
+		public function getStateName($stateCode){
+
+			$result = $this->find('all')
+					->where(['state_code LIKE'=>$stateCode.'%'])
+					->toArray();
+					
+			return $result;
+
+		}
+
+		public function getStateNameAsArray($state_code) {
+
+			$queryDist = $this->find()
+					->select(['name'=>'state_name'])
+					->where(['state_code'=>$state_code])
+					->toArray();
+		
+			return $queryDist[0]['name'];
+
+		}
+
+		public function findByDql($stateCode){
+			
+			$result = $this->find()
+					->where(['state_code LIKE'=>$stateCode.'%'])
+					->toArray();
+
+			return $result;
+
+		}
+
+	}
+	
+?>

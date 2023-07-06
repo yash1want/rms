@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Savitri Minerals .kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>Savitri Minerals</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				80.40308249562183,23.73289448002824,0 80.40267526320311,23.73275932307961,0 80.40209517054761,23.73314418568612,0 80.40156646518228,23.73342484996041,0 80.40119129943687,23.7334691827656,0 80.4011595584695,23.73355032560174,0 80.4007194224166,23.73351459503792,0 80.3999574024309,23.7334339684488,0 80.3993123028456,23.73324068510945,0 80.39948346716255,23.73316710869824,0 80.39927995591675,23.73270673622809,0 80.39930625621341,23.73226262269644,0 80.39930837281567,23.73182329344144,0 80.39936271402894,23.73126631381935,0 80.39995550120346,23.73143568024792,0 80.39999942289114,23.73157620937109,0 80.40045362006342,23.73141855722524,0 80.40071060522564,23.73133159145532,0 80.4007552230956,23.73139058988595,0 80.40125922039852,23.73156497783105,0 80.40134755716443,23.73103741116874,0 80.40183689110847,23.7310943928927,0 80.40220408075683,23.73109765195195,0 80.40260742280741,23.73140489482038,0 80.40289730107379,23.73174898118852,0 80.40283315441221,23.73213683573458,0 80.40317449393007,23.73241012641494,0 80.40325076404901,23.73260958155163,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,3202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="Survey Site" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+	<name>Survey Site</name>
+	<open>1</open>
+	<Snippet maxLines="0"></Snippet>
+	<Style id="PolyStyle00">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="PolyStyle001">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PolyStyle002</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PolyStyle00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="PolyStyle000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PolyStyle004</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PolyStyle003</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="PolyStyle003">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff00</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle002">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle004">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff00</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Folder id="FeatureLayer0">
+		<name>Survey Site</name>
+		<Snippet maxLines="0"></Snippet>
+		<Placemark id="ID_00000">
+			<name>Lease Area</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>523/1-2-3</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Hec</td>
+
+<td>8.051</td>
+
+</tr>
+
+<tr>
+
+<td>Khasra_No</td>
+
+<td>523/1-2-3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Land_Type</td>
+
+<td>Government Land</td>
+
+</tr>
+
+<tr>
+
+<td>District</td>
+
+<td>Balaghat</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Division</td>
+
+<td>Balaghat</td>
+
+</tr>
+
+<tr>
+
+<td>Block</td>
+
+<td>Katangi</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Village</td>
+
+<td>Pauniya</td>
+
+</tr>
+
+<tr>
+
+<td>Tehsil</td>
+
+<td>Tirodi</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Name</td>
+
+<td>Lease Area</td>
+
+</tr>
+
+<tr>
+
+<td>Total_Area</td>
+
+<td>8.100 (In Hectare)</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle001</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.75725,21.72819444444446,0 79.75680555555557,21.72819444444448,0 79.75647222222223,21.72783333333335,0 79.75544444444446,21.72669444444445,0 79.75467832721863,21.72595521879586,0 79.75425,21.72547222222222,0 79.75347222222223,21.72466666666666,0 79.75386111111111,21.72436111111112,0 79.75447222222222,21.72386111111112,0 79.75472222222223,21.72419444444446,0 79.7553888888889,21.72483333333336,0 79.75649996999229,21.72587430811093,0 79.75741666666669,21.72661111111113,0 79.75827777777779,21.72719444444447,0 79.75775,21.72772222222221,0 79.75725,21.72819444444446,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00001">
+			<name>Restricted Area</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>523/1-2-3</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Hec</td>
+
+<td>0.049</td>
+
+</tr>
+
+<tr>
+
+<td>Khasra_No</td>
+
+<td>523/1-2-3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Land_Type</td>
+
+<td>Government Land</td>
+
+</tr>
+
+<tr>
+
+<td>District</td>
+
+<td>Balaghat</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Division</td>
+
+<td>Balaghat</td>
+
+</tr>
+
+<tr>
+
+<td>Block</td>
+
+<td>Katangi</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Village</td>
+
+<td>Pauniya</td>
+
+</tr>
+
+<tr>
+
+<td>Tehsil</td>
+
+<td>Tirodi</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Name</td>
+
+<td>Restricted Area</td>
+
+</tr>
+
+<tr>
+
+<td>Total_Area</td>
+
+<td>8.100 (In Hectare)</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle000</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.75725,21.72819444444446,0 79.75698715743395,21.7283857249899,0 79.75680555555557,21.72819444444448,0 79.75725,21.72819444444446,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Document id="Primary_Control_Points_(Base_Station_Points)" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+		<name>Primary_Control_Points_(Base_Station_Points)</name>
+		<Snippet maxLines="0"></Snippet>
+		<Style id="IconStyle00">
+			<IconStyle>
+				<scale>0.6</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>ffffff00</color>
+				<scale>0.666667</scale>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<PolyStyle>
+				<color>ff000000</color>
+				<outline>0</outline>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="IconStyle001">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#IconStyle000</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#IconStyle00</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="IconStyle000">
+			<IconStyle>
+				<scale>0.6</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>ffffff00</color>
+				<scale>0.666667</scale>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<PolyStyle>
+				<color>ff000000</color>
+				<outline>0</outline>
+			</PolyStyle>
+		</Style>
+		<Folder id="FeatureLayer0">
+			<name>Primary_Control_Points_(Base_Station_Points)</name>
+			<Snippet maxLines="0"></Snippet>
+			<Placemark id="ID_00000">
+				<name>Primary_Control_Points_(Base_Station_Points)_79° 45&apos; 22.277&quot; E_21° 43&apos; 33.447&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>1</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_name</td>
+
+<td>1</td>
+
+</tr>
+
+<tr>
+
+<td>N_m_</td>
+
+<td>2403011.722</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>E_m_</td>
+
+<td>371360.09</td>
+
+</tr>
+
+<tr>
+
+<td>h_m_</td>
+
+<td>357.747</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Longitude</td>
+
+<td>79° 45' 22.277" E</td>
+
+</tr>
+
+<tr>
+
+<td>Latitude</td>
+
+<td>21° 43' 33.447" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BS_Name</td>
+
+<td>Primary_Control_Points_(Base_Station_Points)_79° 45' 22.277" E_21° 43' 33.447" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle001</styleUrl>
+				<Point>
+					<coordinates>79.7561880634436,21.72595752239079,357.747</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00001">
+				<name>Primary_Control_Points_(Base_Station_Points)_79° 45&apos; 25.428&quot; E_21° 43&apos; 41.331&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>2</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Point_name</td>
+
+<td>2</td>
+
+</tr>
+
+<tr>
+
+<td>N_m_</td>
+
+<td>2403253.436</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>E_m_</td>
+
+<td>371452.571</td>
+
+</tr>
+
+<tr>
+
+<td>h_m_</td>
+
+<td>353.703</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Longitude</td>
+
+<td>79° 45' 25.428" E</td>
+
+</tr>
+
+<tr>
+
+<td>Latitude</td>
+
+<td>21° 43' 41.331" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BS_Name</td>
+
+<td>Primary_Control_Points_(Base_Station_Points)_79° 45' 25.428" E_21° 43' 41.331" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle001</styleUrl>
+				<Point>
+					<coordinates>79.75706332870097,21.72814757120961,353.703</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document id="Surveyed_Ground_Control_Points" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+		<name>Surveyed_Ground_Control_Points</name>
+		<Snippet maxLines="0"></Snippet>
+		<StyleMap id="IconStyle002">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#IconStyle004</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#IconStyle003</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="IconStyle003">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff00ffff</color>
+				<scale>0.5</scale>
+			</LabelStyle>
+			<ListStyle>
+			</ListStyle>
+			<PolyStyle>
+				<color>ff000000</color>
+				<outline>0</outline>
+			</PolyStyle>
+		</Style>
+		<Style id="IconStyle004">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff00ffff</color>
+				<scale>0.5</scale>
+			</LabelStyle>
+			<ListStyle>
+			</ListStyle>
+			<PolyStyle>
+				<color>ff000000</color>
+				<outline>0</outline>
+			</PolyStyle>
+		</Style>
+		<Folder id="FeatureLayer0">
+			<name>Surveyed_Ground_Control_Points</name>
+			<Snippet maxLines="0"></Snippet>
+			<Placemark id="ID_00000">
+				<name>1_PT_79° 45&apos; 25.154&quot; E_21° 43&apos; 42.189&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-1</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>SNO</td>
+
+<td>1</td>
+
+</tr>
+
+<tr>
+
+<td>BP_NAME</td>
+
+<td>BP-1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LONGITUDE</td>
+
+<td>79° 45' 25.154" E</td>
+
+</tr>
+
+<tr>
+
+<td>LATITUDE</td>
+
+<td>21° 43' 42.189" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>EASTING</td>
+
+<td>371444.904061</td>
+
+</tr>
+
+<tr>
+
+<td>NORTHING</td>
+
+<td>2403279.863236</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>HEIGHT</td>
+
+<td>354.327</td>
+
+</tr>
+
+<tr>
+
+<td>KML</td>
+
+<td>1_PT_79° 45' 25.154" E_21° 43' 42.189" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Pillar_ID</td>
+
+<td>BP-1</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle002</styleUrl>
+				<Point>
+					<coordinates>79.75698715743395,21.7283857249899,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00001">
+				<name>3_PT_79° 45&apos; 27.900&quot; E_21° 43&apos; 39.800&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-3</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>SNO</td>
+
+<td>3</td>
+
+</tr>
+
+<tr>
+
+<td>BP_NAME</td>
+
+<td>BP-3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LONGITUDE</td>
+
+<td>79° 45' 27.900" E</td>
+
+</tr>
+
+<tr>
+
+<td>LATITUDE</td>
+
+<td>21° 43' 39.800" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>EASTING</td>
+
+<td>371523.218296</td>
+
+</tr>
+
+<tr>
+
+<td>NORTHING</td>
+
+<td>2403205.778961</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>HEIGHT</td>
+
+<td>360.721</td>
+
+</tr>
+
+<tr>
+
+<td>KML</td>
+
+<td>3_PT_79° 45' 27.900" E_21° 43' 39.800" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Pillar_ID</td>
+
+<td>BP-3</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle002</styleUrl>
+				<Point>
+					<coordinates>79.75775,21.72772222222222,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00002">
+				<name>4_PT_79° 45&apos; 29.800&quot; E_21° 43&apos; 37.900&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-4</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>SNO</td>
+
+<td>4</td>
+
+</tr>
+
+<tr>
+
+<td>BP_NAME</td>
+
+<td>BP-4</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LONGITUDE</td>
+
+<td>79° 45' 29.800" E</td>
+
+</tr>
+
+<tr>
+
+<td>LATITUDE</td>
+
+<td>21° 43' 37.900" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>EASTING</td>
+
+<td>371577.339903</td>
+
+</tr>
+
+<tr>
+
+<td>NORTHING</td>
+
+<td>2403146.915124</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>HEIGHT</td>
+
+<td>352.495</td>
+
+</tr>
+
+<tr>
+
+<td>KML</td>
+
+<td>4_PT_79° 45' 29.800" E_21° 43' 37.900" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Pillar_ID</td>
+
+<td>BP-4</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle002</styleUrl>
+				<Point>
+					<coordinates>79.75827777777778,21.72719444444444,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00003">
+				<name>6_PT_79° 45&apos; 26.700&quot; E_21° 43&apos; 35.800&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-6</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>SNO</td>
+
+<td>6</td>
+
+</tr>
+
+<tr>
+
+<td>BP_NAME</td>
+
+<td>BP-6</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LONGITUDE</td>
+
+<td>79° 45' 26.700" E</td>
+
+</tr>
+
+<tr>
+
+<td>LATITUDE</td>
+
+<td>21° 43' 35.800" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>EASTING</td>
+
+<td>371487.752479</td>
+
+</tr>
+
+<tr>
+
+<td>NORTHING</td>
+
+<td>2403083.054281</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>HEIGHT</td>
+
+<td>354.194</td>
+
+</tr>
+
+<tr>
+
+<td>KML</td>
+
+<td>6_PT_79° 45' 26.700" E_21° 43' 35.800" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Pillar_ID</td>
+
+<td>BP-6</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle002</styleUrl>
+				<Point>
+					<coordinates>79.75741666666667,21.72661111111111,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00004">
+				<name>12_PT_79° 45&apos; 19.400&quot; E_21° 43&apos; 29.400&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-12</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>4</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>SNO</td>
+
+<td>12</td>
+
+</tr>
+
+<tr>
+
+<td>BP_NAME</td>
+
+<td>BP-12</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LONGITUDE</td>
+
+<td>79° 45' 19.400" E</td>
+
+</tr>
+
+<tr>
+
+<td>LATITUDE</td>
+
+<td>21° 43' 29.400" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>EASTING</td>
+
+<td>371276.425901</td>
+
+</tr>
+
+<tr>
+
+<td>NORTHING</td>
+
+<td>2402887.9373</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>HEIGHT</td>
+
+<td>357.949</td>
+
+</tr>
+
+<tr>
+
+<td>KML</td>
+
+<td>12_PT_79° 45' 19.400" E_21° 43' 29.400" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Pillar_ID</td>
+
+<td>BP-12</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle002</styleUrl>
+				<Point>
+					<coordinates>79.75538888888889,21.72483333333334,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00005">
+				<name>13_PT_79° 45&apos; 17.000&quot; E_21° 43&apos; 27.100&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-13</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>SNO</td>
+
+<td>13</td>
+
+</tr>
+
+<tr>
+
+<td>BP_NAME</td>
+
+<td>BP-13</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LONGITUDE</td>
+
+<td>79° 45' 17.000" E</td>
+
+</tr>
+
+<tr>
+
+<td>LATITUDE</td>
+
+<td>21° 43' 27.100" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>EASTING</td>
+
+<td>371206.899078</td>
+
+</tr>
+
+<tr>
+
+<td>NORTHING</td>
+
+<td>2402817.766107</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>HEIGHT</td>
+
+<td>353.767</td>
+
+</tr>
+
+<tr>
+
+<td>KML</td>
+
+<td>13_PT_79° 45' 17.000" E_21° 43' 27.100" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Pillar_ID</td>
+
+<td>BP-13</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle002</styleUrl>
+				<Point>
+					<coordinates>79.75472222222223,21.72419444444444,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00006">
+				<name>14_PT_79° 45&apos; 16.100&quot; E_21° 43&apos; 25.900&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-14</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>SNO</td>
+
+<td>14</td>
+
+</tr>
+
+<tr>
+
+<td>BP_NAME</td>
+
+<td>BP-14</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LONGITUDE</td>
+
+<td>79° 45' 16.100" E</td>
+
+</tr>
+
+<tr>
+
+<td>LATITUDE</td>
+
+<td>21° 43' 25.900" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>EASTING</td>
+
+<td>371180.742844</td>
+
+</tr>
+
+<tr>
+
+<td>NORTHING</td>
+
+<td>2402781.073725</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>HEIGHT</td>
+
+<td>356.048</td>
+
+</tr>
+
+<tr>
+
+<td>KML</td>
+
+<td>14_PT_79° 45' 16.100" E_21° 43' 25.900" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Pillar_ID</td>
+
+<td>BP-14</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle002</styleUrl>
+				<Point>
+					<coordinates>79.75447222222222,21.72386111111111,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00007">
+				<name>15_PT_79° 45&apos; 12.500&quot; E_21° 43&apos; 28.800&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-15</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>SNO</td>
+
+<td>15</td>
+
+</tr>
+
+<tr>
+
+<td>BP_NAME</td>
+
+<td>BP-15</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LONGITUDE</td>
+
+<td>79° 45' 12.500" E</td>
+
+</tr>
+
+<tr>
+
+<td>LATITUDE</td>
+
+<td>21° 43' 28.800" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>EASTING</td>
+
+<td>371078.023711</td>
+
+</tr>
+
+<tr>
+
+<td>NORTHING</td>
+
+<td>2402871.08262</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>HEIGHT</td>
+
+<td>359.884</td>
+
+</tr>
+
+<tr>
+
+<td>KML</td>
+
+<td>15_PT_79° 45' 12.500" E_21° 43' 28.800" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Pillar_ID</td>
+
+<td>BP-15</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle002</styleUrl>
+				<Point>
+					<coordinates>79.75347222222223,21.72466666666666,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00008">
+				<name>16_PT_79° 45&apos; 15.300&quot; E_21° 43&apos; 31.700&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-16</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>8</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>SNO</td>
+
+<td>16</td>
+
+</tr>
+
+<tr>
+
+<td>BP_NAME</td>
+
+<td>BP-16</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LONGITUDE</td>
+
+<td>79° 45' 15.300" E</td>
+
+</tr>
+
+<tr>
+
+<td>LATITUDE</td>
+
+<td>21° 43' 31.700" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>EASTING</td>
+
+<td>371159.192355</td>
+
+</tr>
+
+<tr>
+
+<td>NORTHING</td>
+
+<td>2402959.610996</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>HEIGHT</td>
+
+<td>356.271</td>
+
+</tr>
+
+<tr>
+
+<td>KML</td>
+
+<td>16_PT_79° 45' 15.300" E_21° 43' 31.700" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Pillar_ID</td>
+
+<td>BP-16</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle002</styleUrl>
+				<Point>
+					<coordinates>79.75425,21.72547222222222,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00009">
+				<name>17_PT_79° 45&apos; 16.842&quot; E_21° 43&apos; 33.439&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-17</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>9</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>SNO</td>
+
+<td>17</td>
+
+</tr>
+
+<tr>
+
+<td>BP_NAME</td>
+
+<td>BP-17</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LONGITUDE</td>
+
+<td>79° 45' 16.842" E</td>
+
+</tr>
+
+<tr>
+
+<td>LATITUDE</td>
+
+<td>21° 43' 33.439" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>EASTING</td>
+
+<td>371203.927142</td>
+
+</tr>
+
+<tr>
+
+<td>NORTHING</td>
+
+<td>2403012.722832</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>HEIGHT</td>
+
+<td>354.113</td>
+
+</tr>
+
+<tr>
+
+<td>KML</td>
+
+<td>17_PT_79° 45' 16.842" E_21° 43' 33.439" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Pillar_ID</td>
+
+<td>BP-17</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle002</styleUrl>
+				<Point>
+					<coordinates>79.75467832721863,21.72595521879586,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00010">
+				<name>18_PT_79° 45&apos; 19.600&quot; E_21° 43&apos; 36.100&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-18</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>10</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>SNO</td>
+
+<td>18</td>
+
+</tr>
+
+<tr>
+
+<td>BP_NAME</td>
+
+<td>BP-18</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LONGITUDE</td>
+
+<td>79° 45' 19.600" E</td>
+
+</tr>
+
+<tr>
+
+<td>LATITUDE</td>
+
+<td>21° 43' 36.100" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>EASTING</td>
+
+<td>371283.829223</td>
+
+</tr>
+
+<tr>
+
+<td>NORTHING</td>
+
+<td>2403093.918674</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>HEIGHT</td>
+
+<td>353.561</td>
+
+</tr>
+
+<tr>
+
+<td>KML</td>
+
+<td>18_PT_79° 45' 19.600" E_21° 43' 36.100" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Pillar_ID</td>
+
+<td>BP-18</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle002</styleUrl>
+				<Point>
+					<coordinates>79.75544444444445,21.72669444444444,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00011">
+				<name>19_PT_79° 45&apos; 21.727&quot; E_21° 43&apos; 38.456&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-19</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>11</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>SNO</td>
+
+<td>19</td>
+
+</tr>
+
+<tr>
+
+<td>BP_NAME</td>
+
+<td>BP-19</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LONGITUDE</td>
+
+<td>79° 45' 21.727" E</td>
+
+</tr>
+
+<tr>
+
+<td>LATITUDE</td>
+
+<td>21° 43' 38.456" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>EASTING</td>
+
+<td>371345.511506</td>
+
+</tr>
+
+<tr>
+
+<td>NORTHING</td>
+
+<td>2403165.889061</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>HEIGHT</td>
+
+<td>352.807</td>
+
+</tr>
+
+<tr>
+
+<td>KML</td>
+
+<td>19_PT_79° 45' 21.727" E_21° 43' 38.456" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Pillar_ID</td>
+
+<td>BP-19</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle002</styleUrl>
+				<Point>
+					<coordinates>79.75603515004744,21.72734901299077,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00012">
+				<name>20_PT_79° 45&apos; 23.300&quot; E_21° 43&apos; 40.200&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-20</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>12</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>SNO</td>
+
+<td>20</td>
+
+</tr>
+
+<tr>
+
+<td>BP_NAME</td>
+
+<td>BP-20</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LONGITUDE</td>
+
+<td>79° 45' 23.300" E</td>
+
+</tr>
+
+<tr>
+
+<td>LATITUDE</td>
+
+<td>21° 43' 40.200" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>EASTING</td>
+
+<td>371391.150821</td>
+
+</tr>
+
+<tr>
+
+<td>NORTHING</td>
+
+<td>2403219.140644</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>HEIGHT</td>
+
+<td>351.933</td>
+
+</tr>
+
+<tr>
+
+<td>KML</td>
+
+<td>20_PT_79° 45' 23.300" E_21° 43' 40.200" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Pillar_ID</td>
+
+<td>BP-20</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle002</styleUrl>
+				<Point>
+					<coordinates>79.75647222222223,21.72783333333333,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00013">
+				<name>8_PT_79° 45&apos; 23.400&quot; E_21° 43&apos; 33.148&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>IP8</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>13</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>SNO</td>
+
+<td>8</td>
+
+</tr>
+
+<tr>
+
+<td>BP_NAME</td>
+
+<td>IP8</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LONGITUDE</td>
+
+<td>79° 45' 23.400" E</td>
+
+</tr>
+
+<tr>
+
+<td>LATITUDE</td>
+
+<td>21° 43' 33.148" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>EASTING</td>
+
+<td>371392.278283</td>
+
+</tr>
+
+<tr>
+
+<td>NORTHING</td>
+
+<td>2403002.250803</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>HEIGHT</td>
+
+<td>353.518</td>
+
+</tr>
+
+<tr>
+
+<td>KML</td>
+
+<td>8_PT_79° 45' 23.400" E_21° 43' 33.148" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Pillar_ID</td>
+
+<td>IP8</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle002</styleUrl>
+				<Point>
+					<coordinates>79.75649996999229,21.72587430811093,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00014">
+				<name>2_PT_79° 45&apos; 27.000&quot; E_21° 43&apos; 40.650&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>IP2</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>14</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>SNO</td>
+
+<td>2</td>
+
+</tr>
+
+<tr>
+
+<td>BP_NAME</td>
+
+<td>IP2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LONGITUDE</td>
+
+<td>79° 45' 27.000" E</td>
+
+</tr>
+
+<tr>
+
+<td>LATITUDE</td>
+
+<td>21° 43' 40.650" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>EASTING</td>
+
+<td>371497.569583</td>
+
+</tr>
+
+<tr>
+
+<td>NORTHING</td>
+
+<td>2403232.124408</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>HEIGHT</td>
+
+<td>354.772</td>
+
+</tr>
+
+<tr>
+
+<td>KML</td>
+
+<td>2_PT_79° 45' 27.000" E_21° 43' 40.650" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Pillar_ID</td>
+
+<td>IP2</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle002</styleUrl>
+				<Point>
+					<coordinates>79.75750000040857,21.72795833354475,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00015">
+				<name>5_PT_79° 45&apos; 28.250&quot; E_21° 43&apos; 36.850&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>IP5</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>15</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>SNO</td>
+
+<td>5</td>
+
+</tr>
+
+<tr>
+
+<td>BP_NAME</td>
+
+<td>IP5</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LONGITUDE</td>
+
+<td>79° 45' 28.250" E</td>
+
+</tr>
+
+<tr>
+
+<td>LATITUDE</td>
+
+<td>21° 43' 36.850" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>EASTING</td>
+
+<td>371532.546191</td>
+
+</tr>
+
+<tr>
+
+<td>NORTHING</td>
+
+<td>2403114.984702</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>HEIGHT</td>
+
+<td>355.537</td>
+
+</tr>
+
+<tr>
+
+<td>KML</td>
+
+<td>5_PT_79° 45' 28.250" E_21° 43' 36.850" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Pillar_ID</td>
+
+<td>IP5</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle002</styleUrl>
+				<Point>
+					<coordinates>79.75784722133909,21.72690277830132,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00016">
+				<name>7_PT_79° 45&apos; 25.381&quot; E_21° 43&apos; 34.740&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>IP7</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>16</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>SNO</td>
+
+<td>7</td>
+
+</tr>
+
+<tr>
+
+<td>BP_NAME</td>
+
+<td>IP7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LONGITUDE</td>
+
+<td>79° 45' 25.381" E</td>
+
+</tr>
+
+<tr>
+
+<td>LATITUDE</td>
+
+<td>21° 43' 34.740" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>EASTING</td>
+
+<td>371449.586638</td>
+
+</tr>
+
+<tr>
+
+<td>NORTHING</td>
+
+<td>2403050.753064</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>HEIGHT</td>
+
+<td>354.945</td>
+
+</tr>
+
+<tr>
+
+<td>KML</td>
+
+<td>7_PT_79° 45' 25.381" E_21° 43' 34.740" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Pillar_ID</td>
+
+<td>IP7</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle002</styleUrl>
+				<Point>
+					<coordinates>79.75705021574163,21.72631657443412,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00017">
+				<name>9_PT_79° 45&apos; 22.171&quot; E_21° 43&apos; 31.996&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>IP9</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>17</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>SNO</td>
+
+<td>9</td>
+
+</tr>
+
+<tr>
+
+<td>BP_NAME</td>
+
+<td>IP9</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LONGITUDE</td>
+
+<td>79° 45' 22.171" E</td>
+
+</tr>
+
+<tr>
+
+<td>LATITUDE</td>
+
+<td>21° 43' 31.996" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>EASTING</td>
+
+<td>371356.687355</td>
+
+</tr>
+
+<tr>
+
+<td>NORTHING</td>
+
+<td>2402967.132633</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>HEIGHT</td>
+
+<td>353.418</td>
+
+</tr>
+
+<tr>
+
+<td>KML</td>
+
+<td>9_PT_79° 45' 22.171" E_21° 43' 31.996" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Pillar_ID</td>
+
+<td>IP9</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle002</styleUrl>
+				<Point>
+					<coordinates>79.75615863385433,21.72555451171591,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00018">
+				<name>10_PT_79° 45&apos; 20.942&quot; E_21° 43&apos; 30.845&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>IP10</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>18</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>SNO</td>
+
+<td>10</td>
+
+</tr>
+
+<tr>
+
+<td>BP_NAME</td>
+
+<td>IP10</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LONGITUDE</td>
+
+<td>79° 45' 20.942" E</td>
+
+</tr>
+
+<tr>
+
+<td>LATITUDE</td>
+
+<td>21° 43' 30.845" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>EASTING</td>
+
+<td>371321.096428</td>
+
+</tr>
+
+<tr>
+
+<td>NORTHING</td>
+
+<td>2402932.014463</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>HEIGHT</td>
+
+<td>353.402</td>
+
+</tr>
+
+<tr>
+
+<td>KML</td>
+
+<td>10_PT_79° 45' 20.942" E_21° 43' 30.845" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Pillar_ID</td>
+
+<td>IP10</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle002</styleUrl>
+				<Point>
+					<coordinates>79.75581729922629,21.72523471467705,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00019">
+				<name>11_PT_79° 45&apos; 20.171&quot; E_21° 43&apos; 30.122&quot; N</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>IP11</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>19</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>SNO</td>
+
+<td>11</td>
+
+</tr>
+
+<tr>
+
+<td>BP_NAME</td>
+
+<td>IP11</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LONGITUDE</td>
+
+<td>79° 45' 20.171" E</td>
+
+</tr>
+
+<tr>
+
+<td>LATITUDE</td>
+
+<td>21° 43' 30.122" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>EASTING</td>
+
+<td>371298.761164</td>
+
+</tr>
+
+<tr>
+
+<td>NORTHING</td>
+
+<td>2402909.975882</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>HEIGHT</td>
+
+<td>355.542</td>
+
+</tr>
+
+<tr>
+
+<td>KML</td>
+
+<td>11_PT_79° 45' 20.171" E_21° 43' 30.122" N</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Pillar_ID</td>
+
+<td>IP11</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle002</styleUrl>
+				<Point>
+					<coordinates>79.75560309376027,21.72503402413197,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+</Document>
+</kml>

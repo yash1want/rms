@@ -1,0 +1,1318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Garividi Manganese Mine - RBSSD&amp;FNDas- 21.587 Ha</name>
+	<open>1</open>
+	<Schema name="1" id="S_1_SS">
+		<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="GM_TYPE"><displayName>&lt;b&gt;GM_TYPE&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Schema name="1" id="S_1_SSD">
+		<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="GM_TYPE"><displayName>&lt;b&gt;GM_TYPE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="ELEVATION"><displayName>&lt;b&gt;ELEVATION&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Schema name="1" id="S_1_SSD0">
+		<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="GM_TYPE"><displayName>&lt;b&gt;GM_TYPE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="ELEVATION"><displayName>&lt;b&gt;ELEVATION&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Schema name="1" id="S_1_SSD00">
+		<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="GM_TYPE"><displayName>&lt;b&gt;GM_TYPE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="ELEVATION"><displayName>&lt;b&gt;ELEVATION&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Schema name="2" id="S_2_SSD">
+		<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="GM_TYPE"><displayName>&lt;b&gt;GM_TYPE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="ELEVATION"><displayName>&lt;b&gt;ELEVATION&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Schema name="2" id="S_2_SSD0">
+		<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="GM_TYPE"><displayName>&lt;b&gt;GM_TYPE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="ELEVATION"><displayName>&lt;b&gt;ELEVATION&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Schema name="MAP" id="S_MAP_IDDSS">
+		<SimpleField type="int" name="Id"><displayName>&lt;b&gt;Id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Area_Ha"><displayName>&lt;b&gt;Area_Ha&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Area_Ac"><displayName>&lt;b&gt;Area_Ac&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="type"><displayName>&lt;b&gt;type&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="name"><displayName>&lt;b&gt;name&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="falseColor">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[1/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[1/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[1/ELEVATION]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000055</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor00">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[1/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[1/GM_TYPE]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff7faaaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor100">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[1/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[1/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[1/ELEVATION]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor11">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[1/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[1/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[1/ELEVATION]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor12">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[1/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[1/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[1/ELEVATION]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor14">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[1/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[1/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[1/ELEVATION]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff005500</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor3">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[MAP/Id]</td></tr>
+  <tr><td><b>Area_Ha</b></td><td>$[MAP/Area_Ha]</td></tr>
+  <tr><td><b>Area_Ac</b></td><td>$[MAP/Area_Ac]</td></tr>
+  <tr><td><b>type</b></td><td>$[MAP/type]</td></tr>
+  <tr><td><b>name</b></td><td>$[MAP/name]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor30">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[1/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[1/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[1/ELEVATION]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff005500</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor31">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor61</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor4">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[1/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[1/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[1/ELEVATION]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000055</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor40">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor5">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[1/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[1/GM_TYPE]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff7faaaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor50">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[1/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[1/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[1/ELEVATION]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff005500</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor60">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[1/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[1/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[1/ELEVATION]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff005500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor61">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[1/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[1/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[1/ELEVATION]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor7">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[1/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[1/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[1/ELEVATION]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000055</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor70">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor60</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor8">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[1/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[1/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[1/ELEVATION]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000055</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor9">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[MAP/Id]</td></tr>
+  <tr><td><b>Area_Ha</b></td><td>$[MAP/Area_Ha]</td></tr>
+  <tr><td><b>Area_Ac</b></td><td>$[MAP/Area_Ac]</td></tr>
+  <tr><td><b>type</b></td><td>$[MAP/type]</td></tr>
+  <tr><td><b>name</b></td><td>$[MAP/name]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00aaff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_blue-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_blue-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_blue-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_blue-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_blue-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="style1">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[2/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[2/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[2/ELEVATION]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff474747</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="style10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style100">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[2/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[2/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[2/ELEVATION]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="style11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="style110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style12">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[2/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[2/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[2/ELEVATION]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff474747</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style13">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[2/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[2/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[2/ELEVATION]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style14">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[2/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[2/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[2/ELEVATION]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style15">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[2/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[2/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[2/ELEVATION]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Garividi Manganese Mine - RBSSD&amp;FNDas- 21.587 Ha- Boundary Line Lease Area</name>
+		<open>1</open>
+		<styleUrl>#falseColor2</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_1_SSD00">
+				<SimpleData name="LAYER">0</SimpleData>
+				<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+				<SimpleData name="ELEVATION">0</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						83.52592612495131,18.28654123339295,0 83.525661666627,18.28701060840901,0 83.52533931106352,18.28760993896595,0 83.52533339162898,18.28785989452009,0 83.5254744721707,18.28794364725368,0 83.52541324163018,18.2882082222848,0 83.52546139439664,18.28829587781751,0 83.52544523884298,18.28853023616012,0 83.52534792496374,18.28858373063122,0 83.52528965828994,18.28867757784685,0 83.52529631384665,18.2890540861818,0 83.52483061105887,18.28908532223814,0 83.52472081939607,18.28956054451687,0 83.52462790828635,18.28989056395921,0 83.52453348328277,18.29006457224387,0 83.52428676662515,18.29020330284484,0 83.52362409163082,18.2905265361781,0 83.52358041661579,18.29037077505038,0 83.52328899717833,18.290456563956,0 83.52275276384142,18.29040833339821,0 83.52185400272573,18.28968385278203,0 83.52189494162673,18.28899866947898,0 83.52214011105889,18.28611842226165,0 83.52275561384074,18.28603472784165,0 83.52332849995697,18.28473739166976,0 83.52682450828009,18.28484286112689,0 83.52639243884254,18.28562106673616,0 83.52633752495205,18.28571799174374,0 83.52605529162055,18.28617283618194,0 83.52592612495131,18.28654123339295,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Garividi Manganese Mine - RBSSD&amp;FNDas- 21.587 Ha- 7.5 Buffer Zone</name>
+		<open>1</open>
+		<styleUrl>#falseColor31</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_1_SSD">
+				<SimpleData name="LAYER">0</SimpleData>
+				<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+				<SimpleData name="ELEVATION">0</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						83.52586082115427,18.28651423307505,0 83.52559891383908,18.28697908008558,0 83.52526879794549,18.28759283832749,0 83.52526159437195,18.2878970130917,0 83.52539440585861,18.28797585693779,0 83.52533841906556,18.28821777341896,0 83.52538933538972,18.28831045971316,0 83.52537698525049,18.28848961426444,0 83.52529643489481,18.28853389362358,0 83.52521842883245,18.28865953400587,0 83.52522428842134,18.28899102239913,0 83.52477279433451,18.28902130527286,0 83.52465193235751,18.28954444348952,0 83.52456143201211,18.28986589946152,0 83.52447992871167,18.29001609527439,0 83.52425263071881,18.29014390657501,0 83.52366990318406,18.29042814400644,0 83.52362986337111,18.29028534737756,0 83.52328159815465,18.29038787077733,0 83.52278151825595,18.29034289196362,0 83.52192680752536,18.28965391998651,0 83.52196567839441,18.28900334432925,0 83.52220618618817,18.28617784856017,0 83.52280533968163,18.28609637709012,0 83.52337490779563,18.28480655411098,0 83.52670857392393,18.28490712635487,0 83.52632994410315,18.28558908035818,0 83.52627583030839,18.28568459310297,0 83.5259904574301,18.28614449689882,0 83.52586082115427,18.28651423307505,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Garividi Manganese Mine - RBSSD&amp;FNDas- 21.587 Ha- Pit Area</name>
+		<styleUrl>#falseColor6</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_MAP_IDDSS">
+				<SimpleData name="Id">2</SimpleData>
+				<SimpleData name="Area_Ha">3.589</SimpleData>
+				<SimpleData name="Area_Ac">8.869</SimpleData>
+				<SimpleData name="type">p</SimpleData>
+				<SimpleData name="name">PIT</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						83.52337073653307,18.28735117758005,0 83.52338397789595,18.28734901808396,0 83.52339567250694,18.28734266923481,0 83.52340246128621,18.28734249707697,0 83.52340849571678,18.28734121085288,0 83.52341814607642,18.28734008352213,0 83.52342587065007,18.28733897885611,0 83.52343851334031,18.28733578807261,0 83.52345201773115,18.28733260844892,0 83.52346548635259,18.28732998508782,0 83.52346721439164,18.28736542505532,0 83.52346918368286,18.28739442877271,0 83.52346848928637,18.28741633771281,0 83.52347296294246,18.28744447861472,0 83.52347582079322,18.28746335481373,0 83.52347700992739,18.28748315834995,0 83.52346530382151,18.2875338963986,0 83.52344824494827,18.28756117363744,0 83.52343815253681,18.28759056640423,0 83.5234631402819,18.28760620911858,0 83.52390732910351,18.28765654895846,0 83.52415071318775,18.28767340507584,0 83.52445993582084,18.28767648731926,0 83.52480360936643,18.28767481255285,0 83.52493461630353,18.28770462271464,0 83.52495314232209,18.28774022077933,0 83.52490995223515,18.28786695885073,0 83.52489066754038,18.28798621234425,0 83.52488772309705,18.28809378010586,0 83.52490687208484,18.2881723814716,0 83.52487035424322,18.28824168263281,0 83.52486890482611,18.288452458318,0 83.52489811636474,18.28860404627638,0 83.52491053082156,18.28873578421106,0 83.52481947269081,18.28876996337396,0 83.52478674492659,18.28889369571378,0 83.524830027993,18.28898058037284,0 83.524839945165,18.2890435328665,0 83.52483874734615,18.28909143705955,0 83.52482724100037,18.28909217399998,0 83.52477217915744,18.28933718004588,0 83.52472195354517,18.2893373280247,0 83.524682542875,18.28951778055254,0 83.52469399179022,18.28958286338359,0 83.52466518703683,18.28961478592016,0 83.52455912439301,18.28980472174084,0 83.5243384431335,18.29002568311679,0 83.52416985220547,18.29017307520708,0 83.52417505937858,18.29023035512078,0 83.52406191269104,18.29027665411126,0 83.52400774949915,18.29029349921557,0 83.52390076158201,18.29030086196426,0 83.5238485875504,18.29016832311041,0 83.52376450289081,18.28997588217494,0 83.52366744389768,18.28979436549853,0 83.523638607218,18.28974635850271,0 83.5235971817047,18.28964953243667,0 83.52353887584468,18.28960340823373,0 83.5234981335911,18.28955376635672,0 83.52351156042404,18.28953088841326,0 83.52358857222441,18.2894940279539,0 83.52362048317825,18.28945202848827,0 83.52367260229175,18.2893717684678,0 83.52367826838879,18.28924480948871,0 83.52356384891242,18.2890649557877,0 83.52345440476155,18.2888140671659,0 83.52341809293712,18.28874214406862,0 83.52339013738889,18.28852172063584,0 83.52332426336761,18.28842939911241,0 83.52325639885493,18.28823602034625,0 83.52319531017005,18.28811148945829,0 83.52316263247079,18.28800766716187,0 83.52315017545399,18.28790973868868,0 83.5231523031822,18.28784364516271,0 83.52318112710375,18.28776344456809,0 83.52319296079403,18.28767169004653,0 83.52324921262233,18.28759227919677,0 83.52327331846055,18.28756601271147,0 83.52329767056217,18.28753203631419,0 83.52330800954334,18.28751369095173,0 83.52331710298905,18.28749601693822,0 83.52332709259854,18.28747413758358,0 83.52333732511073,18.28745936179786,0 83.52334511240866,18.28744381255406,0 83.52335821348559,18.28742829875683,0 83.52336498492028,18.28741170921709,0 83.52336262871873,18.2873956862457,0 83.52335998812683,18.2873785891392,0 83.5233660349012,18.28736203682194,0 83.52337073653307,18.28735117758005,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Garividi Manganese Mine - RBSSD&amp;FNDas- 21.587 Ha-Dump Area</name>
+		<open>1</open>
+		<styleUrl>#falseColor0</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_1_SS">
+				<SimpleData name="LAYER">DUMP</SimpleData>
+				<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						83.52508516553733,18.2849868638707,0 83.5260509137329,18.28503574666072,0 83.52625588198528,18.28509468620676,0 83.52632016887348,18.28522992663382,0 83.52630965267905,18.28526320155304,0 83.52631927670063,18.28535769960358,0 83.52629809029088,18.28541814809331,0 83.52615137201144,18.28565043877389,0 83.52602451528183,18.2857343159835,0 83.52593269916173,18.28581964143053,0 83.5258596927509,18.28596015521018,0 83.5256951537217,18.2860674699498,0 83.52558041525761,18.2860900147517,0 83.52547722439095,18.28608086504083,0 83.52529115837432,18.28601450630161,0 83.52526033040817,18.28595852091517,0 83.52523789674457,18.28586036883658,0 83.52514094730202,18.28579856676588,0 83.52493544170848,18.28577165287924,0 83.52471340035849,18.28577745491405,0 83.52457405782809,18.28575922433776,0 83.52455209510229,18.2856935635273,0 83.52442674402573,18.28567419212461,0 83.52430283045517,18.28554679483274,0 83.52422980737947,18.28547894121321,0 83.52415557090582,18.28525817357904,0 83.52422143346998,18.28517701509643,0 83.52433872020434,18.28505407717462,0 83.52451649737952,18.28499724673479,0 83.52508516553733,18.2849868638707,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Garividi Manganese Mine - RBSSD&amp;FNDas- 21.587 Ha-Stock -1</name>
+		<open>1</open>
+		<styleUrl>#falseColor10</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_1_SSD0">
+				<SimpleData name="LAYER">AF</SimpleData>
+				<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+				<SimpleData name="ELEVATION">73.264</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						83.52460164672777,18.2872866469898,0 83.52502176932973,18.28720940820168,0 83.52502561487944,18.28726766189607,0 83.52500539218704,18.28739122894394,0 83.52499906039863,18.28757578433731,0 83.52457574355401,18.28758890617904,0 83.52460164672777,18.2872866469898,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Garividi Manganese Mine - RBSSD&amp;FNDas- 21.587 Ha-Stock -2</name>
+		<open>1</open>
+		<styleUrl>#falseColor1</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_1_SSD0">
+				<SimpleData name="LAYER">AF</SimpleData>
+				<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+				<SimpleData name="ELEVATION">0</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						83.52349689353925,18.28904697440716,0 83.52350108941637,18.28916400602439,0 83.52340227969366,18.28919030097785,0 83.5232982955787,18.28897910689195,0 83.52319660707036,18.28869370635494,0 83.52331264315582,18.28867425202432,0 83.52343102587464,18.28890327793471,0 83.52349689353925,18.28904697440716,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Folder>
+		<name>Garividi Manganese Mine - RBSSD&amp;FNDas- 21.587 Ha- Boundary Pillers</name>
+		<Placemark>
+			<name>BP-1</name>
+			<LookAt>
+				<longitude>83.53362601276403</longitude>
+				<latitude>18.28313158787623</latitude>
+				<altitude>0</altitude>
+				<heading>2.618470544426491</heading>
+				<tilt>25.48130435725133</tilt>
+				<range>5874.468919637648</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52185400277777,18.28968385277778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-2</name>
+			<LookAt>
+				<longitude>83.52317979133953</longitude>
+				<latitude>18.28961683308401</latitude>
+				<altitude>0</altitude>
+				<heading>2.615582987041531</heading>
+				<tilt>21.93801951522343</tilt>
+				<range>369.0565951719722</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52275276388889,18.29040833333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-3</name>
+			<LookAt>
+				<longitude>83.52328080158226</longitude>
+				<latitude>18.28958196349654</latitude>
+				<altitude>0</altitude>
+				<heading>2.615617653188473</heading>
+				<tilt>21.29937665529859</tilt>
+				<range>343.6812189160748</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52328899722222,18.29045656388889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-4</name>
+			<LookAt>
+				<longitude>83.52333311844184</longitude>
+				<latitude>18.29007272848786</latitude>
+				<altitude>0</altitude>
+				<heading>2.615675273367923</heading>
+				<tilt>17.96787552188361</tilt>
+				<range>187.0951867736474</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52358041666666,18.290370775,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-5</name>
+			<LookAt>
+				<longitude>83.52340918123559</longitude>
+				<latitude>18.29014321199658</latitude>
+				<altitude>0</altitude>
+				<heading>2.61569781801883</heading>
+				<tilt>18.04824034476529</tilt>
+				<range>148.3467158579919</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52362409166666,18.29052653611111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-6</name>
+			<LookAt>
+				<longitude>83.52347995774602</longitude>
+				<latitude>18.28994539415723</latitude>
+				<altitude>0</altitude>
+				<heading>2.615726257368356</heading>
+				<tilt>17.71582962880063</tilt>
+				<range>232.671584426194</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52428676666666,18.29020330277778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-7</name>
+			<LookAt>
+				<longitude>83.52363124105827</longitude>
+				<latitude>18.28982289918757</latitude>
+				<altitude>0</altitude>
+				<heading>2.615779845289901</heading>
+				<tilt>17.43548516046798</tilt>
+				<range>273.0275309294962</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52453348333333,18.29006457222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-8</name>
+			<LookAt>
+				<longitude>83.52408023432406</longitude>
+				<latitude>18.28992998835693</latitude>
+				<altitude>0</altitude>
+				<heading>2.615939769937085</heading>
+				<tilt>16.64255845240026</tilt>
+				<range>200.8483367076176</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52462790833333,18.28989056388889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-9</name>
+			<LookAt>
+				<longitude>83.524274084464</longitude>
+				<latitude>18.28981368859477</latitude>
+				<altitude>0</altitude>
+				<heading>2.615942207252441</heading>
+				<tilt>18.00252342345868</tilt>
+				<range>205.2569152665469</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52472081944444,18.28956054444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-10</name>
+			<LookAt>
+				<longitude>83.5242962826317</longitude>
+				<latitude>18.28971728123749</latitude>
+				<altitude>0</altitude>
+				<heading>2.61572541828674</heading>
+				<tilt>26.93851313021449</tilt>
+				<range>301.0345292336121</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52483061111111,18.28908532222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-11</name>
+			<LookAt>
+				<longitude>83.52437052521468</longitude>
+				<latitude>18.28937399063148</latitude>
+				<altitude>0</altitude>
+				<heading>2.615706021273959</heading>
+				<tilt>29.19995644266088</tilt>
+				<range>300.1052203234469</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52529631388889,18.28905408611111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-12</name>
+			<LookAt>
+				<longitude>83.5252920231484</longitude>
+				<latitude>18.2887410815163</latitude>
+				<altitude>0</altitude>
+				<heading>2.616359451985793</heading>
+				<tilt>19.45492391864569</tilt>
+				<range>422.5467825655707</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52528965833334,18.28867757777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-13</name>
+			<LookAt>
+				<longitude>83.5253862160484</longitude>
+				<latitude>18.28874408489407</latitude>
+				<altitude>0</altitude>
+				<heading>2.61585444876391</heading>
+				<tilt>29.74554268557699</tilt>
+				<range>138.5169426167393</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52534792500001,18.28858373055556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-14</name>
+			<LookAt>
+				<longitude>83.52546225009364</longitude>
+				<latitude>18.2886741895174</latitude>
+				<altitude>0</altitude>
+				<heading>2.615892052631555</heading>
+				<tilt>29.44851649050344</tilt>
+				<range>102.908658122258</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52544523888889,18.28853023611111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-15</name>
+			<LookAt>
+				<longitude>83.52566140537758</longitude>
+				<latitude>18.2886776876448</latitude>
+				<altitude>0</altitude>
+				<heading>2.615932394385442</heading>
+				<tilt>30.0010375266306</tilt>
+				<range>230.6815722935826</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52546139444445,18.28829587777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-16</name>
+			<LookAt>
+				<longitude>83.52565410636562</longitude>
+				<latitude>18.28845812658667</latitude>
+				<altitude>0</altitude>
+				<heading>2.615930128342832</heading>
+				<tilt>30.00088513101336</tilt>
+				<range>196.7686910954134</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52541324166667,18.28820822222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-17</name>
+			<LookAt>
+				<longitude>83.5256052699407</longitude>
+				<latitude>18.28847577711407</latitude>
+				<altitude>0</altitude>
+				<heading>2.616162783279071</heading>
+				<tilt>25.34734639873417</tilt>
+				<range>150.7929948899623</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52547447222221,18.28794364722222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-18</name>
+			<LookAt>
+				<longitude>83.52562626219476</longitude>
+				<latitude>18.28794330477297</latitude>
+				<altitude>0</altitude>
+				<heading>2.615938308622192</heading>
+				<tilt>29.86763856587957</tilt>
+				<range>124.1022816169735</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52533339166666,18.28785989444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-19</name>
+			<LookAt>
+				<longitude>83.52570459449922</longitude>
+				<latitude>18.28786929062528</latitude>
+				<altitude>0</altitude>
+				<heading>2.616260983247367</heading>
+				<tilt>24.08712059151992</tilt>
+				<range>182.1641775795802</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52533931111111,18.28760993888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-20</name>
+			<LookAt>
+				<longitude>83.52593986732502</longitude>
+				<latitude>18.28701680375635</latitude>
+				<altitude>0</altitude>
+				<heading>2.61627742211619</heading>
+				<tilt>24.98519738275641</tilt>
+				<range>279.4317864322373</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52566166666666,18.28701060833334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-21</name>
+			<LookAt>
+				<longitude>83.52632737518027</longitude>
+				<latitude>18.28693691858588</latitude>
+				<altitude>0</altitude>
+				<heading>2.616457106327794</heading>
+				<tilt>24.32550102476874</tilt>
+				<range>328.8521903473223</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.525926125,18.28654123333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-22</name>
+			<LookAt>
+				<longitude>83.52606964832482</longitude>
+				<latitude>18.28581790995137</latitude>
+				<altitude>0</altitude>
+				<heading>2.616119297707449</heading>
+				<tilt>26.85727089894934</tilt>
+				<range>175.9215917692908</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52605529166667,18.28617283611111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-23</name>
+			<LookAt>
+				<longitude>83.52564824676691</longitude>
+				<latitude>18.28585233507652</latitude>
+				<altitude>0</altitude>
+				<heading>2.616243657195354</heading>
+				<tilt>23.23249988403532</tilt>
+				<range>342.3592805291319</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.526337525,18.28571799166667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-24</name>
+			<LookAt>
+				<longitude>83.52469094413368</longitude>
+				<latitude>18.28612609130481</latitude>
+				<altitude>0</altitude>
+				<heading>2.616165119419719</heading>
+				<tilt>19.98445113955844</tilt>
+				<range>672.6416639910925</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52639243888889,18.28562106666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-25</name>
+			<LookAt>
+				<longitude>83.52218475962651</longitude>
+				<latitude>18.28597830180462</latitude>
+				<altitude>0</altitude>
+				<heading>2.61507572801309</heading>
+				<tilt>30.00280307332309</tilt>
+				<range>624.0722108917724</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52682450833333,18.28484286111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-26</name>
+			<LookAt>
+				<longitude>83.52529161767181</longitude>
+				<latitude>18.28496272493869</latitude>
+				<altitude>0</altitude>
+				<heading>2.615921949722424</heading>
+				<tilt>20.37686024272588</tilt>
+				<range>435.3017923694524</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52332850000001,18.28473739166667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-27</name>
+			<LookAt>
+				<longitude>83.52213474928659</longitude>
+				<latitude>18.28651456909737</latitude>
+				<altitude>0</altitude>
+				<heading>2.615059989357298</heading>
+				<tilt>30.00174279337334</tilt>
+				<range>388.0195088288622</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52275561388889,18.28603472777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-28</name>
+			<LookAt>
+				<longitude>83.52189136509217</longitude>
+				<latitude>18.28697940507496</latitude>
+				<altitude>0</altitude>
+				<heading>2.614983634712063</heading>
+				<tilt>30.00328382322393</tilt>
+				<range>731.1158183580623</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52214011111111,18.28611842222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-29</name>
+			<LookAt>
+				<longitude>83.52159700330547</longitude>
+				<latitude>18.28738422161791</latitude>
+				<altitude>0</altitude>
+				<heading>2.614667141943858</heading>
+				<tilt>26.3197129087309</tilt>
+				<range>752.6226743434706</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.52189494166666,18.28899866944445,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Garividi Manganese Mine - RBSSD&amp;FNDas- 21.587 Ha- Afforestation Area</name>
+		<open>1</open>
+		<styleUrl>#falseColor40</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_1_SSD00">
+				<SimpleData name="LAYER">UNKNOWN_AREA_TYPE</SimpleData>
+				<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+				<SimpleData name="ELEVATION">0</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						83.52379568053296,18.29007896497895,0 83.52386649679984,18.29013553635046,0 83.5238774110332,18.29014909607153,0 83.52390789237774,18.29021603764997,0 83.52344454778392,18.29032903448897,0 83.52300199744407,18.29041933074936,0 83.52281417136989,18.29039517256187,0 83.52246320784796,18.29010678034756,0 83.52207033900571,18.28963149962035,0 83.52251245101195,18.28945789199192,0 83.5226439912194,18.28976529393773,0 83.52332458555509,18.28962885165514,0 83.52362034261249,18.28968143298703,0 83.52363498951435,18.28973986321129,0 83.52366759153203,18.2899323647978,0 83.52379568053296,18.29007896497895,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Garividi Manganese Mine - RBSSD&amp;FNDas- 21.587 Ha- Afforestation Area</name>
+		<open>1</open>
+		<styleUrl>#falseColor70</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_1_SSD00">
+				<SimpleData name="LAYER">UNKNOWN_AREA_TYPE</SimpleData>
+				<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+				<SimpleData name="ELEVATION">0</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						83.52362813891131,18.2853091087733,0 83.52401593004926,18.28558702019626,0 83.52475700873691,18.28594414036985,0 83.52553021635829,18.28621187428357,0 83.52591695602457,18.28642578996194,0 83.52533931106352,18.28760993896595,0 83.52499586909948,18.28713414595524,0 83.52477137587088,18.28724318989236,0 83.52444717193617,18.28718977131,0 83.52415283010176,18.28747429516005,0 83.52381996290967,18.28744674813503,0 83.52367261479611,18.28752465725922,0 83.52356343077848,18.2872161726245,0 83.52299560826435,18.28730145764538,0 83.52287282034085,18.28732176967908,0 83.52265836882367,18.28763964672504,0 83.52252790012842,18.28783997802923,0 83.52218882512911,18.28781763444285,0 83.52204644898654,18.28787621053195,0 83.52219450523388,18.28618646559489,0 83.52276361171255,18.28608054423242,0 83.52323696819256,18.28508121856548,0 83.52362813891131,18.2853091087733,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Garividi Manganese Mine - RBSSD&amp;FNDas- 21.587 Ha-Eletrical Line</name>
+		<open>1</open>
+		<styleUrl>#style110</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_2_SSD0">
+				<SimpleData name="LAYER">G1</SimpleData>
+				<SimpleData name="GM_TYPE">Unknown Line Type</SimpleData>
+				<SimpleData name="ELEVATION">-0.0172424</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				83.52204126479707,18.28703974511913,0 83.52274221074539,18.28711590586568,0 83.52299310399964,18.28715801174535,0 83.52309576893623,18.28719253775716,0 83.52328088461206,18.28724269080887,0 83.52330662354836,18.28724966419477,0 83.52330009646558,18.28726150598828,0 83.52321659195462,18.28738759168528,0 83.52320636895642,18.28740285291668,0 83.5231650997534,18.2874653410416,0 83.52307219321294,18.28768301210801,0 83.5230521864638,18.28772864078329,0 83.52297771498878,18.28804383993614,0 83.5231199785362,18.28821696954048,0 83.52316674805961,18.2882426219498,0 83.52322897665789,18.28829574890735,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Garividi Manganese Mine - RBSSD&amp;FNDas- 21.587 Ha- Road/Ramp</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						83.52192374675472,18.28711408741353,0 83.52209650238173,18.28712031273465,0 83.52226822707249,18.28715884945117,0 83.52239172844757,18.28719698767478,0 83.52251958859034,18.28717114721456,0 83.52262276293411,18.28716029456349,0 83.5226949094754,18.28719555893945,0 83.52280977204657,18.28725506629945,0 83.52280518336008,18.28728569219544,0 83.52296255747221,18.28726765348151,0 83.52297124427379,18.28726768671839,0 83.5231027385219,18.28727955887071,0 83.52324157494502,18.28724970832868,0 83.52338175144703,18.28726057778275,0 83.52339419193079,18.28726091370095,0 83.52346790291136,18.28722737302502,0 83.52353319401172,18.28718559976566,0 83.5235440038185,18.28716808458755,0 83.52356448410023,18.28703964565489,0 83.52356294077651,18.2870191848472,0 83.52359020111403,18.2868640709838,0 83.52360736894805,18.28672921121535,0 83.5236252766223,18.28662499355218,0 83.52362920781704,18.28659687573552,0 83.52363768951246,18.28645717535068,0 83.52356392349739,18.28641209948906,0 83.52355505339939,18.28639948004636,0 83.52350106660683,18.28634205959321,0 83.52349588357387,18.28629049266866,0 83.52350479936888,18.28616124690956,0 83.52351319151364,18.28602941079878,0 83.52351440225348,18.28602208895016,0 83.52354063932167,18.28587138731717,0 83.52354251029431,18.28586095324651,0 83.52358034117609,18.28570584720566,0 83.52358324080792,18.28568990722349,0 83.5236077487709,18.2855832385615,0 83.52361239423126,18.28557173754508,0 83.52364486422833,18.28546679233286,0 83.5236499542506,18.2854507696292,0 83.52367145964196,18.28535767379928,0 83.52367326093308,18.28534511365426,0 83.52369536866398,18.28528330908048,0 83.52375048027434,18.2852396283901,0 83.52376361277409,18.28523379098811,0 83.52377589974907,18.28523353548526,0 83.52378817229517,18.28523328031413,0 83.5238065540117,18.28523289813838,0 83.52382184752014,18.28523258013434,0 83.52383711852028,18.28523226258922,0 83.52384931918671,18.28523200891676,0 83.52386463282204,18.28523161158038,0 83.52387992162754,18.2852312115732,0 83.52389518218823,18.28523081235119,0 83.52391035191275,18.28523048168295,0 83.52393138540819,18.28523020828868,0 83.52394633765721,18.28523007908652,0 83.52396126650697,18.28522996783074,0 83.52397927008582,18.28522970482429,0 83.52399433051364,18.28522938425491,0 83.52400330139558,18.2852292690856,0 83.52402122871753,18.28522903891328,0 83.5240391368967,18.28522880905654,0 83.52405404574655,18.28522861765669,0 83.52406596324755,18.28522846468322,0 83.52409274658977,18.28522812080413,0 83.52410463654316,18.28522796819737,0 83.52412245558718,18.28522773943121,0 83.52413432438989,18.28522758707381,0 83.52414914853996,18.28522739675929,0 83.52417278136667,18.2852297013694,0 83.52418465013466,18.28522944210668,0 83.52419354230122,18.28522924785009,0 83.52420827514533,18.28523164511117,0 83.52422004791248,18.285234107574,0 83.52423477978579,18.28523650464424,0 83.52424651190009,18.28524170205029,0 83.5242582295094,18.28524963154883,0 83.52426998134919,18.28525758440113,0 83.52428471521372,18.28526825850516,0 83.52429359210767,18.28527345511992,0 83.52429653590885,18.285281605387,0 83.52430246228256,18.28529243233152,0 83.52430543107322,18.28530343539315,0 83.5243084142117,18.28531729758249,0 83.5243084143103,18.28533138320012,0 83.52430841433583,18.28534272010655,0 83.52431444871848,18.28535385155623,0 83.52432652259077,18.28535896701865,0 83.5243416050868,18.28536379978891,0 83.52435363631456,18.28536580344826,0 83.52436561079044,18.2853649657139,0 83.52437759634563,18.28536698308925,0 83.52439553806315,18.28536876576145,0 83.52441040078659,18.28536788135894,0 83.52442226550032,18.28536721433943,0 83.52444004774136,18.28536637762939,0 83.52445187352515,18.28536582121108,0 83.52446959434243,18.28536507854743,0 83.5244843498581,18.28536453713405,0 83.52450201852395,18.28536388664423,0 83.52451392785743,18.28536632259231,0 83.52452584714591,18.28536878603975,0 83.52452959897717,18.28538061496094,0 83.52453064817472,18.28539571948449,0 83.52452851976378,18.28540801642973,0 83.52452018559735,18.28541753067215,0 83.52450859582962,18.28542410206264,0 83.52449057771699,18.28542472071874,0 83.52447252390967,18.28542534063455,0 83.52446061322223,18.28542885534521,0 83.52444853008265,18.28542927229768,0 83.52443644331584,18.28542975111948,0 83.52441831291765,18.28543066662785,0 83.52440018809067,18.28543198742018,0 83.52438806994864,18.2854329279235,0 83.52437596275209,18.28543683949124,0 83.52435456981901,18.28543821897214,0 83.52433923214592,18.28543920317567,0 83.5243207644247,18.28544038515693,0 83.5243053224475,18.28544137349705,0 83.52428983280092,18.2854423649108,0 83.52427748134947,18.28543397594466,0 83.52426826105128,18.285425413904,0 83.52425906809007,18.28541687722862,0 83.52425304453033,18.28540514887363,0 83.5242470524302,18.28539348032162,0 83.52424423168166,18.28537863283087,0 83.52423827375986,18.28536983467728,0 83.52423238201081,18.2853582787738,0 83.52422348066096,18.28534684091293,0 83.52421460363185,18.28533558851575,0 83.52420579683903,18.28532424554983,0 83.52419695697834,18.28531580555529,0 83.52418222466885,18.2853045776724,0 83.52417026580895,18.28530189184418,0 83.52414942797401,18.28529390860972,0 83.52413744528562,18.2852913952011,0 83.52412836412373,18.28529162159444,0 83.52411022293138,18.28529196016558,0 83.52409813522786,18.28529213851704,0 83.52408603878943,18.28529231703309,0 83.52407090591444,18.28529254032107,0 83.52405575929994,18.28529276378687,0 83.52403756525975,18.28529303228361,0 83.52401950877575,18.28529055748983,0 83.52399528104711,18.28528832067786,0 83.52398337205798,18.28528564344295,0 83.52397450989761,18.2852829270563,0 83.52395331298305,18.28528311763584,0 83.52394449924934,18.2852803599849,0 83.52392934560709,18.28528050696489,0 83.52390200710006,18.28528081765223,0 83.52388978889837,18.28528102079641,0 83.52387750438105,18.28528128671957,0 83.52385897239887,18.28528177170324,0 83.52384378388849,18.28527940142962,0 83.52382824801023,18.28527985225989,0 83.52380956646914,18.28528039431299,0 83.52379672491459,18.28528358849072,0 83.52378384576718,18.28528679202637,0 83.52377016166054,18.28529570640611,0 83.52375641562622,18.28530465652121,0 83.52374573339991,18.28531358087649,0 83.52373774380351,18.28532536629897,0 83.52372953660117,18.28533991481603,0 83.52372175519126,18.2853515705137,0 83.52371671994938,18.28536613103178,0 83.52370844793772,18.2853808803312,0 83.52370685747623,18.28539267390712,0 83.52370478395235,18.28540757821454,0 83.52370185679194,18.28542861779833,0 83.52369719921543,18.28546209535335,0 83.52369419788687,18.2854836682858,0 83.52369160176919,18.28550232871444,0 83.52368982211318,18.28551489933472,0 83.52368446513579,18.2855620583168,0 83.52368226523473,18.28557817290154,0 83.52367748107555,18.28559448331234,0 83.52367362409454,18.28560389376048,0 83.52367167022217,18.28561804862802,0 83.52367038274254,18.28562753090459,0 83.52366618825509,18.28563948191856,0 83.52366455507116,18.2856514861831,0 83.52366347155748,18.28565881642638,0 83.52366151058382,18.28567124001614,0 83.52365916177096,18.28568625985426,0 83.52365758582589,18.28569635252372,0 83.52365251861023,18.28571169306564,0 83.52365050299679,18.28572453093971,0 83.52364765287902,18.28574268341048,0 83.52364600933794,18.28575315151904,0 83.52364352332611,18.28576898539341,0 83.52363910678561,18.28577971984396,0 83.52363465883762,18.28579053038026,0 83.52362887943511,18.28580956272233,0 83.52362435171963,18.28582058511204,0 83.52361934583458,18.28583444940976,0 83.52361338878549,18.28585402642852,0 83.5236107279845,18.28587081557996,0 83.52360896790823,18.28588206779178,0 83.52360633119241,18.28589905545179,0 83.52360501445831,18.28590759821649,0 83.52360280536968,18.28592193027613,0 83.52360013023936,18.28593928587228,0 83.52359697540165,18.28595975380353,0 83.52359424170633,18.28597748918257,0 83.52359204414768,18.28599226478309,0 83.52358727360188,18.28600438327416,0 83.52358506869504,18.28601932696137,0 83.52358252756358,18.28603723229568,0 83.52358075895006,18.28604935051503,0 83.52357849340054,18.28606466454223,0 83.5235766398532,18.28607704731683,0 83.52357428759989,18.28609266858634,0 83.52357236329415,18.28610530346157,0 83.52356941953803,18.28612446870952,0 83.52356593042769,18.28614710614784,0 83.52356389517691,18.28616020236463,0 83.52356029870168,18.28618334559006,0 83.52355708148983,18.28620357756528,0 83.52355491684941,18.28621719093932,0 83.52355837800633,18.28623412414257,0 83.52355923108587,18.28624797978225,0 83.52356894369501,18.28626501761538,0 83.52357608248307,18.28627890092406,0 83.52358380308267,18.28628932412846,0 83.52359473041575,18.28629963612634,0 83.52360888506092,18.28630982792378,0 83.52362047661137,18.2863165305936,0 83.52363210201183,18.28632325303413,0 83.5236432415181,18.28633372062052,0 83.52365494664285,18.28634049514309,0 83.52366924445131,18.28635119058541,0 83.52368336102352,18.28636258023931,0 83.52369493858593,18.28637014564978,0 83.52370284749362,18.28638186625539,0 83.52371081067082,18.28639366749692,0 83.52371850928922,18.28640906896945,0 83.52371996597323,18.28642444124529,0 83.52372143458278,18.28643993994174,0 83.52372214291132,18.28646316424085,0 83.52372005294306,18.28648271816392,0 83.5237170916261,18.28651042466764,0 83.52371408949331,18.28653852069022,0 83.52372802468398,18.28658483689643,0 83.52372205065974,18.28659540698105,0 83.52371530696614,18.2866165571602,0 83.52370851643468,18.2866378543643,0 83.52370166054918,18.28665934748904,0 83.52368922407794,18.2866816409908,0 83.52367627657969,18.2867095449866,0 83.52366333555106,18.28673737718681,0 83.52365073837223,18.28675986606303,0 83.52364355636601,18.28678218424587,0 83.5236413790164,18.28680998817624,0 83.52362866244553,18.28683272804967,0 83.52362689324987,18.28685520554016,0 83.52362511250799,18.28687783323226,0 83.5236224186727,18.286912059868,0 83.52362057564339,18.28693515784585,0 83.52361871541369,18.28695842711117,0 83.52361029167953,18.28699380256209,0 83.52360789925079,18.28702342653956,0 83.52360412751042,18.28707107415426,0 83.52360176784502,18.28710111531325,0 83.52360054300053,18.28718019719236,0 83.52361584324971,18.28726391168303,0 83.5236629843572,18.28734900835388,0 83.52373622358971,18.2874418708505,0 83.52397124666183,18.28747848153236,0 83.52416836019771,18.28744924159461,0 83.52431292863497,18.28740299307796,0 83.52444285521845,18.28735089487158,0 83.52459975428,18.28734510638062,0 83.52491442204327,18.28739226561941,0 83.52506535168095,18.28743316423423,0 83.52527793986407,18.287481510985,0 83.52527829557849,18.28752357149828,0 83.52513954511801,18.28750480532047,0 83.52510745448603,18.28750480343462,0 83.52502495537935,18.2875109379914,0 83.52478613733044,18.28749900372204,0 83.52463791668144,18.28747642237039,0 83.52440115961956,18.28749251031159,0 83.52436987245537,18.28749236650591,0 83.52412222415548,18.2875258943913,0 83.52401958785613,18.28757609783802,0 83.52381607742511,18.2875695898803,0 83.52361587981312,18.2875348075818,0 83.52358250443984,18.28746933418492,0 83.52357255257331,18.28739262861647,0 83.52353822834318,18.28733835763871,0 83.52352717203821,18.28733353090295,0 83.52347219470043,18.28735544133356,0 83.52346520840304,18.28741289370493,0 83.52346592074065,18.28742310014867,0 83.52348079996368,18.28747513808202,0 83.52347151202883,18.2875273545648,0 83.52347224581605,18.2875357514336,0 83.52348986710949,18.287597102046,0 83.52350563567569,18.28763389877561,0 83.52355799470364,18.28764745784742,0 83.52366492711707,18.28765890221631,0 83.5237707081438,18.28767336278333,0 83.52393279462238,18.28767547467926,0 83.52412066417334,18.28769003756181,0 83.52419231893305,18.28773350274002,0 83.52419570920181,18.28778800636779,0 83.52411459697723,18.28778175284235,0 83.52395824628772,18.28776955726504,0 83.52381953233132,18.28776230071163,0 83.52370108124454,18.28774960123189,0 83.52361103245191,18.28775621667921,0 83.52349671299243,18.28776771273105,0 83.52341002871583,18.28776462335984,0 83.5233498923359,18.28778885458242,0 83.52331197424205,18.28785615260302,0 83.5233416492008,18.28797023253826,0 83.52334537225703,18.28798149330516,0 83.52339550083789,18.28807757638741,0 83.52340281107932,18.28809223550473,0 83.52348460159101,18.28820799057385,0 83.52349627206537,18.28822490800733,0 83.52356341703332,18.28830906473473,0 83.5235304905806,18.2883352966375,0 83.52347430510794,18.28829345163982,0 83.52341601452881,18.28825235598366,0 83.52332691866145,18.28815423850837,0 83.52328470459402,18.28805046268166,0 83.52325420021731,18.28796759576364,0 83.52324767496165,18.2879567590611,0 83.52323113363006,18.28788081009576,0 83.52326093056753,18.28779665030624,0 83.52326369871166,18.28778070026778,0 83.52330386383525,18.28770021488625,0 83.52325283042885,18.28767880880308,0 83.52315179876344,18.28780264629508,0 83.52310389633431,18.2879450451545,0 83.52308959934251,18.28811013420793,0 83.52311761727867,18.28827755635775,0 83.5231600974254,18.28844316145075,0 83.52326421660585,18.28859165940198,0 83.52336760042986,18.28878845178541,0 83.52329934466657,18.28883644386788,0 83.52322551554853,18.28873592007789,0 83.52317263598965,18.28863982406159,0 83.52308289620443,18.28839368435604,0 83.52303439118056,18.28823871275416,0 83.523018742174,18.28821075664418,0 83.52301484843676,18.28802989217296,0 83.52301860740911,18.28801630918827,0 83.52307673059009,18.28783648720306,0 83.52308027009668,18.2878280106733,0 83.52312458804803,18.28769319323939,0 83.52323396821818,18.28760158129241,0 83.52324061654635,18.2875939517874,0 83.52331457373165,18.28749147168383,0 83.52335873411141,18.2873892896403,0 83.52330778613945,18.28731852419617,0 83.5231633069245,18.2873263645047,0 83.52304834121247,18.28733059311846,0 83.5229513940357,18.28736841778072,0 83.52288275242967,18.28735233982179,0 83.52279117626455,18.28730562380309,0 83.52266767168705,18.28724096320417,0 83.52257110787772,18.28721284131029,0 83.52248190477989,18.28723710018483,0 83.52238693169618,18.28725166663077,0 83.52226138268108,18.28723448872227,0 83.52214797670615,18.28719310686579,0 83.52203059882508,18.28717128960537,0 83.52190647683859,18.28718891396823,0 83.52192374675472,18.28711408741353,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Garividi Manganese Mine - RBSSD&amp;FNDas- 21.587 Ha-Public Road</name>
+		<open>1</open>
+		<styleUrl>#style11</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				83.52336472833915,18.28454901557401,0 83.52322740117324,18.28480060694178,0 83.52303210631318,18.28512637146361,0 83.52286874575626,18.28538282876254,0 83.52279275979936,18.28549216579364,0 83.52264114065619,18.2857192164905,0 83.52250608492525,18.28582419498951,0 83.52236755507359,18.28589093222226,0 83.52220199244316,18.28598887720657,0 83.52219427455485,18.28600498085325,0 83.52210053033041,18.28611913251889,0 83.52205781387532,18.28618333546172,0 83.52197500663232,18.28641571813746,0 83.5218958777871,18.28664757200369,0 83.52187399884058,18.28680437367169,0 83.52187904512394,18.28702157608721,0 83.52186397247087,18.2871379308392,0 83.52183489224564,18.28738492050614,0 83.52180188415947,18.28769009617034,0 83.52176571985315,18.28803376808975,0 83.52178847992859,18.28834332242201,0 83.52182700118907,18.28861036999063,0 83.52183338402679,18.28886539153052,0 83.52185684884685,18.28914258873423,0 83.52182531541145,18.28937605147321,0 83.52180033099656,18.28961211257348,0 83.52178881537236,18.28975230318197,0 83.52173072473212,18.28985357303563,0 83.52164707449781,18.28994351682629,0 83.52161195190679,18.28991001016225,0 83.52167198193062,18.28985322979774,0 83.52170685466336,18.28981665227672,0 83.52173747248831,18.2897483052167,0 83.5217530107454,18.28963249547601,0 83.52179009725481,18.28943991064985,0 83.5217994755601,18.28931045167716,0 83.52181584636691,18.28917567085925,0 83.52182093941362,18.28902089585588,0 83.52180592408563,18.28890919889852,0 83.52178470694508,18.28875389684889,0 83.52178473896805,18.28863992892466,0 83.52177137910225,18.28853152024365,0 83.52176281798567,18.28841748014462,0 83.52175393349091,18.28822381794481,0 83.52174003326091,18.28807816084552,0 83.52173704707056,18.28799366851288,0 83.5217426247583,18.28790127611081,0 83.52174940204239,18.28778111848594,0 83.52175545745415,18.28770682438865,0 83.52177970955528,18.28758385267143,0 83.52179249766741,18.28750119014487,0 83.52180305858113,18.2873647429662,0 83.52180967258388,18.28719591350341,0 83.52182567921668,18.28705935853864,0 83.52182161195701,18.28691531606588,0 83.5218239105337,18.2867809964111,0 83.52185046383558,18.28665745621535,0 83.52191210540089,18.28649137361189,0 83.52195705781713,18.28635029344875,0 83.52200110611047,18.28623773294848,0 83.52204987649003,18.28613203027088,0 83.52209835115551,18.28602779718555,0 83.52224773825576,18.28592209691105,0 83.52240379455655,18.28584304601321,0 83.52251663029999,18.28576323721103,0 83.5226379389356,18.28566602187766,0 83.52270900496613,18.28556221572491,0 83.52288134101798,18.28529743402323,0 83.52302739632005,18.28506096101476,0 83.52314253865481,18.28485692667218,0 83.52328252072368,18.28461176778401,0 83.52332671886498,18.2845282208881,0 83.52336472833915,18.28454901557401,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Garividi Manganese Mine - RBSSD&amp;FNDas- 21.587 Ha-50 m Safety Buffer Zone</name>
+		<open>1</open>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_2_SSD">
+				<SimpleData name="LAYER">0</SimpleData>
+				<SimpleData name="GM_TYPE">Unknown Line Type</SimpleData>
+				<SimpleData name="ELEVATION">0</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				83.52379756546964,18.28464314144042,0 83.52371224921006,18.28481243434,0 83.52346567050101,18.2852696983469,0 83.52294428874852,18.28602650790672,0 83.52272068059916,18.2862287981241,0 83.5225113152418,18.28632457955504,0 83.52249637831657,18.28633097717871,0 83.52245123402683,18.2864299056399,0 83.52235517763607,18.28668114375577,0 83.52232218591183,18.28679251696411,0 83.5223128391418,18.28687187490884,0 83.52231036033872,18.28692679459808,0 83.52230031229008,18.28714941660503,0 83.52229257620911,18.2873395348463,0 83.52224533401004,18.28766030787811,0 83.52223671103985,18.28768751830754,0 83.52221920041859,18.28778624352143,0 83.52222965226245,18.28805710346434,0 83.52225824954787,18.28845738630166,0 83.52227563182741,18.28878381922731,0 83.52230512262338,18.28914401038509,0 83.52227870801715,18.28937019516559,0 83.52225723059395,18.28955366550008,0 83.52220741865881,18.28986036696554,0 83.5221036824567,18.29007015287818,0 83.52200789731302,18.2901841822795,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Surface plan - Ishwaria 8.70ha.kml</name>
+	<LookAt>
+		<longitude>69.94737222000001</longitude>
+		<latitude>21.70890556</latitude>
+		<altitude>0</altitude>
+		<heading>0</heading>
+		<tilt>0</tilt>
+		<range>702</range>
+	</LookAt>
+	<Style id="Line_Default_ffffff_03">
+		<BalloonStyle>
+			<text><![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>0.8</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="Line_ML_BOUNDARY_1_ff0000_03">
+		<BalloonStyle>
+			<text><![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2.4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="Line_PIT_BOUNDRY_7_000000_03">
+		<BalloonStyle>
+			<text><![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2.2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="Line_PLANTATIONS_00ff00_03">
+		<BalloonStyle>
+			<text><![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>0900ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="Line_SAFETY_BUND_ff6820_03">
+		<BalloonStyle>
+			<text><![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff2068ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>002068ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="Line_builtup_area_ffffff_03">
+		<BalloonStyle>
+			<text><![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>0.8</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="Line_road_000000_03">
+		<BalloonStyle>
+			<text><![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Shapes</name>
+		<open>1</open>
+		<Folder>
+			<name>Default</name>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94621890000001</longitude>
+					<latitude>21.70737003</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>1</range>
+				</LookAt>
+				<styleUrl>#Line_Default_ffffff_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>Default</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>4</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94621497,21.70736789,0 69.94622142999999,21.7073646,0 69.94622282,21.70737547,0 69.94621497,21.70736789,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>ML BOUNDARY </name>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94737222000001</longitude>
+					<latitude>21.70890556</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>702</range>
+				</LookAt>
+				<styleUrl>#Line_ML_BOUNDARY_1_ff0000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>ML BOUNDARY 1</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>9</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								69.95000833,21.7096,0 69.94876389,21.7109,0 69.94557777999999,21.70826111,0 69.94473610999999,21.70801389,0 69.94516944,21.70691111,0 69.94621110999999,21.70736667,0 69.94633889000001,21.70723056,0 69.95000833,21.7096,0 69.95000833,21.7096,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>PIT BOUNDRY </name>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94516869</longitude>
+					<latitude>21.708101</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>91</range>
+				</LookAt>
+				<styleUrl>#Line_PIT_BOUNDRY_7_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>PIT BOUNDRY 7</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>3</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94555312999999,21.70825434,0 69.94557524,21.70822065,0 69.94476213999999,21.70794766,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94634214</longitude>
+					<latitude>21.70782548</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>122</range>
+				</LookAt>
+				<styleUrl>#Line_PIT_BOUNDRY_7_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>PIT BOUNDRY 7</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>5</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94591273,21.70779923,0 69.94662837,21.70820584,0 69.94677154,21.70795248,0 69.94607444,21.70744546,0 69.94607302999999,21.70744513,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94721088999999</longitude>
+					<latitude>21.70781922</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>138</range>
+				</LookAt>
+				<styleUrl>#Line_PIT_BOUNDRY_7_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>PIT BOUNDRY 7</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>5</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94775648,21.70817755,0 69.94716584,21.70781425,0 69.94710662,21.70777783,0 69.94687312000001,21.70761147,0 69.94666529,21.7074609,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94516869</longitude>
+					<latitude>21.708101</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>91</range>
+				</LookAt>
+				<styleUrl>#Line_PIT_BOUNDRY_7_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>PIT BOUNDRY 7</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>3</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94555314,21.70825434,0 69.94557525,21.70822066,0 69.94476213999999,21.70794766,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94634215000001</longitude>
+					<latitude>21.70782549</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>122</range>
+				</LookAt>
+				<styleUrl>#Line_PIT_BOUNDRY_7_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>PIT BOUNDRY 7</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>5</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94591274,21.70779924,0 69.94662838000001,21.70820584,0 69.94677154999999,21.70795248,0 69.94607445,21.70744547,0 69.94607304,21.70744513,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.9472109</longitude>
+					<latitude>21.70781923</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>138</range>
+				</LookAt>
+				<styleUrl>#Line_PIT_BOUNDRY_7_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>PIT BOUNDRY 7</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>5</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94775649,21.70817755,0 69.94716585,21.70781426,0 69.94710662999999,21.70777784,0 69.94687313,21.70761147,0 69.94666530000001,21.7074609,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94507246000001</longitude>
+					<latitude>21.70716087</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>58</range>
+				</LookAt>
+				<styleUrl>#Line_PIT_BOUNDRY_7_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>PIT BOUNDRY 7</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>4</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94517006,21.70691546,0 69.94509394000001,21.70710944,0 69.94500093000001,21.70735,0 69.94497486,21.70740629,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94477793</longitude>
+					<latitude>21.7079144</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>16</range>
+				</LookAt>
+				<styleUrl>#Line_PIT_BOUNDRY_7_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>PIT BOUNDRY 7</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>3</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94480289000001,21.70784393,0 69.94477111,21.70793696,0 69.94475296,21.70798487,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94563988</longitude>
+					<latitude>21.70831253</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>0.1</range>
+				</LookAt>
+				<styleUrl>#Line_PIT_BOUNDRY_7_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>PIT BOUNDRY 7</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>2</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94563989,21.70831253,0 69.94563986999999,21.70831254,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94635393</longitude>
+					<latitude>21.70890008</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>70</range>
+				</LookAt>
+				<styleUrl>#Line_PIT_BOUNDRY_7_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>PIT BOUNDRY 7</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>4</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94609968,21.70869338,0 69.94635912,21.7088495,0 69.94640631,21.70888559,0 69.94660818,21.70910678,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94822566000001</longitude>
+					<latitude>21.71018787</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>270</range>
+				</LookAt>
+				<styleUrl>#Line_PIT_BOUNDRY_7_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>PIT BOUNDRY 7</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>14</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94712056,21.70953893,0 69.94718567,21.70958879,0 69.94737121,21.70975111,0 69.9476019,21.70995036,0 69.94768492,21.71003117,0 69.94782177,21.71014386,0 69.947993,21.71028982,0 69.94818725,21.71043063,0 69.94839919,21.71057978,0 69.94867024,21.71075949,0 69.94878645,21.71083682,0 69.94898888,21.71066171,0 69.94922206,21.71042044,0 69.94933076,21.71030782,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.95000777</longitude>
+					<latitude>21.70959967</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>0.1</range>
+				</LookAt>
+				<styleUrl>#Line_PIT_BOUNDRY_7_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>PIT BOUNDRY 7</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>2</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.95000829999999,21.70960004,0 69.95000724000001,21.7095993,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94841357999999</longitude>
+					<latitude>21.70857025</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>41</range>
+				</LookAt>
+				<styleUrl>#Line_PIT_BOUNDRY_7_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>PIT BOUNDRY 7</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>3</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94857792000001,21.70867637,0 69.94839455,21.70856846,0 69.94824924,21.70846414,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94678129</longitude>
+					<latitude>21.70752607</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>28</range>
+				</LookAt>
+				<styleUrl>#Line_PIT_BOUNDRY_7_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>PIT BOUNDRY 7</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>3</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94689633,21.70759052,0 69.94689203999999,21.70758789,0 69.94666624,21.70746162,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94744718</longitude>
+					<latitude>21.70891479</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>656</range>
+				</LookAt>
+				<styleUrl>#Line_PIT_BOUNDRY_7_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>PIT BOUNDRY 7</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>117</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								69.94688644,21.70934498,0 69.94688644,21.70934498,0 69.94688644,21.70934498,0 69.94689640999999,21.70933914,0 69.94689640999999,21.70933914,0 69.9469371,21.70937388,0 69.94699215999999,21.70940773,0 69.94701601,21.70942239,0 69.94706845,21.70946438,0 69.94712101,21.70949579,0 69.9471575,21.70951758,0 69.94719092,21.70954535,0 69.94721391,21.70956446,0 69.94725511,21.70959423,0 69.94726398,21.70960215,0 69.94730362999999,21.70962537,0 69.94735168,21.70965536,0 69.94738193000001,21.70967643,0 69.94755336,21.70981495,0 69.94771307000001,21.70993822,0 69.94775416,21.70996508,0 69.94786544999999,21.71007824,0 69.94793657,21.71015056,0 69.94795839,21.71016438,0 69.94804750999999,21.7102266,0 69.94812116,21.71027622,0 69.9482503,21.71037712,0 69.94830872999999,21.71042276,0 69.94840268,21.71049974,0 69.94846097999999,21.71050707,0 69.94857957000001,21.71058666,0 69.94868613,21.71069004,0 69.9487695,21.71079394,0 69.9489258,21.71063285,0 69.94906793,21.71048638,0 69.94920983999999,21.71033422,0 69.94932193,21.71021049,0 69.94935714,21.7101381,0 69.94949232,21.71002546,0 69.94964108000001,21.70985285,0 69.9497255,21.70978088,0 69.94981722999999,21.7096997,0 69.94989855,21.70961681,0 69.94989531,21.70960127,0 69.94976736,21.70949744,0 69.94966899000001,21.70941848,0 69.94956587,21.70935005,0 69.94947933,21.70929263,0 69.94936616,21.70921696,0 69.94921397,21.70912474,0 69.94913344,21.70907593,0 69.94894073,21.70895117,0 69.94880449,21.70886201,0 69.94850074999999,21.70865945,0 69.94832153999999,21.70854526,0 69.94811417,21.70841329,0 69.94811493,21.70837753,0 69.94786535,21.70821638,0 69.94786535,21.70821638,0 69.94777963999999,21.70824339,0 69.94767453999999,21.7081895,0 69.94748297,21.70811184,0 69.94735879,21.7080857,0 69.94728923,21.70802972,0 69.94720856000001,21.70796848,0 69.94707033,21.70789225,0 69.94691434000001,21.70782622,0 69.94678831,21.70778293,0 69.94674621999999,21.7077353,0 69.94665191,21.70769299,0 69.9464493,21.7076571,0 69.94631221,21.70758404,0 69.94621535,21.70749054,0 69.9460124,21.70739045,0 69.94572872000001,21.70724904,0 69.94553716,21.7071534,0 69.94544784,21.70712057,0 69.94522143,21.70703563,0 69.94517829,21.70710511,0 69.9451512,21.70717842,0 69.94508879,21.70737059,0 69.94503877,21.70755247,0 69.94499582,21.70763076,0 69.94500109000001,21.70767778,0 69.94507693,21.70773671,0 69.94513322,21.70778708,0 69.94520212,21.70782534,0 69.9453541,21.7079171,0 69.94552842,21.70803866,0 69.94559982,21.70810563,0 69.94566283,21.70822936,0 69.94584763,21.70835631,0 69.94593352,21.70839254,0 69.94599278,21.70843388,0 69.94601675,21.70850635,0 69.94607472,21.70854318,0 69.94613644,21.70858071,0 69.94619641,21.7085971,0 69.94627224,21.70863608,0 69.94631969,21.70866816,0 69.9463526,21.7086894,0 69.94637093,21.7087087,0 69.94640274,21.70873688,0 69.94641470000001,21.70874698,0 69.94641470000001,21.70874698,0 69.94648861,21.70879929,0 69.94648861,21.70879929,0 69.94653187999999,21.70883523,0 69.94653934999999,21.70884027,0 69.94657032000001,21.70885841,0 69.94656740000001,21.70885789,0 69.94659747999999,21.7088874,0 69.94664527,21.70893614,0 69.94671839,21.70902455,0 69.94679229,21.70907929,0 69.94690384,21.70915241,0 69.94688644,21.70934498,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>PLANTATIONS</name>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94514006</longitude>
+					<latitude>21.70799496</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>100</range>
+				</LookAt>
+				<styleUrl>#Line_PLANTATIONS_00ff00_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>PLANTATIONS</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>8</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								69.94484752,21.70774494,0 69.94490885,21.70776521,0 69.94483327,21.70797714,0 69.94553956999999,21.70820808,0 69.94552786,21.70824498,0 69.94474054,21.70801328,0 69.94476032999999,21.70797692,0 69.94484752,21.70774494,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94606254</longitude>
+					<latitude>21.70761754</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>192</range>
+				</LookAt>
+				<styleUrl>#Line_PLANTATIONS_00ff00_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>PLANTATIONS</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>18</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								69.94536778,21.70712833,0 69.94547727,21.70722073,0 69.94543068999999,21.70753795,0 69.94576108,21.70773567,0 69.94592135000001,21.70779857,0 69.94643057,21.70808449,0 69.94662237999999,21.70818832,0 69.94675865000001,21.70794848,0 69.94613605000001,21.70749219,0 69.94610145999999,21.70744269,0 69.94602881,21.70742886,0 69.94605482999999,21.70735235,0 69.94579616,21.70722381,0 69.94561410999999,21.70713306,0 69.94557331,21.70708996,0 69.94542643,21.70704677,0 69.94536643000001,21.70710834,0 69.94536778,21.70712833,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94693229000001</longitude>
+					<latitude>21.70771661</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>165</range>
+				</LookAt>
+				<styleUrl>#Line_PLANTATIONS_00ff00_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>PLANTATIONS</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>17</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								69.94626864999999,21.70738952,0 69.94669046999999,21.70759384,0 69.94682090000001,21.70768087,0 69.94716954,21.70785212,0 69.94724241999999,21.7079084,0 69.94723035,21.70796135,0 69.94735272,21.70805048,0 69.94757121000001,21.70812819,0 69.94759592,21.70811066,0 69.94757319999999,21.70807674,0 69.94727253000001,21.70788649,0 69.94687725,21.70763033,0 69.94664904,21.70748965,0 69.94663057,21.70744592,0 69.94631237999999,21.70730503,0 69.94627213,21.70736874,0 69.94626864999999,21.70738952,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94616041</longitude>
+					<latitude>21.70870613</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>58</range>
+				</LookAt>
+				<styleUrl>#Line_PLANTATIONS_00ff00_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>PLANTATIONS</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>12</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								69.94594237,21.70855945,0 69.94597077,21.70853931,0 69.94606188,21.70862005,0 69.94617295,21.70869736,0 69.94629316,21.70875462,0 69.94637845,21.70881675,0 69.94635873,21.70887295,0 69.94625481,21.70879708,0 69.9461524,21.70873328,0 69.94609751,21.70868664,0 69.9459545,21.70856539,0 69.94594237,21.70855945,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>SAFETY BUND</name>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94693565</longitude>
+					<latitude>21.70780096</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>186</range>
+				</LookAt>
+				<styleUrl>#Line_SAFETY_BUND_ff6820_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>SAFETY BUND</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>40</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								69.94622053000001,21.70748273,0 69.94616283000001,21.70745646,0 69.94612840000001,21.70744063,0 69.94613105000001,21.70743181,0 69.94615537999999,21.70742817,0 69.94625777,21.70745912,0 69.94635728,21.70750335,0 69.94640986,21.70753803,0 69.94648657,21.70756195,0 69.9465538,21.70759891,0 69.94664404,21.70763873,0 69.94671655,21.70767846,0 69.94678154,21.70771261,0 69.9468474,21.70774288,0 69.94694507,21.70778379,0 69.94707027,21.70784302,0 69.94717794,21.70790501,0 69.94725849,21.70795372,0 69.94733624,21.70800485,0 69.9474417,21.70805385,0 69.94750609,21.70807529,0 69.9475647,21.70810584,0 69.94765252000001,21.70813714,0 69.94774129,21.7081657,0 69.94774291,21.70817375,0 69.94752450999999,21.7081218,0 69.94744727,21.7080912,0 69.94734319,21.70805002,0 69.94722908,21.70796308,0 69.94718066999999,21.70792619,0 69.94704096,21.70784961,0 69.94689474,21.70778823,0 69.94676251999999,21.70774192,0 69.94671952,21.70769508,0 69.94662589000001,21.70765336,0 69.94642259,21.7076166,0 69.94636939,21.70760717,0 69.94631609,21.70757554,0 69.94626833,21.707532,0 69.94622053000001,21.70748273,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94738575</longitude>
+					<latitude>21.7094654</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>176</range>
+				</LookAt>
+				<styleUrl>#Line_SAFETY_BUND_ff6820_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>SAFETY BUND</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>28</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								69.94814272000001,21.70967195,0 69.94806721,21.7097467,0 69.94799164,21.70980875,0 69.94795834,21.70981915,0 69.94792069,21.70982555,0 69.94789201,21.70982692,0 69.9478321,21.70983099,0 69.94763663000001,21.70973232,0 69.94741076,21.70951657,0 69.9471805,21.70933703,0 69.94678795999999,21.70912477,0 69.94663787,21.70910883,0 69.94663260999999,21.70910624,0 69.94662929,21.70910368,0 69.94662877,21.70910318,0 69.94663326,21.70910029,0 69.94663856,21.70909981,0 69.94679105,21.70911601,0 69.9471853,21.70932919,0 69.94742539000001,21.70950449,0 69.94764329,21.70972394,0 69.94783622,21.70981895,0 69.94789279,21.70981784,0 69.94791957,21.70981656,0 69.94795593000001,21.70981038,0 69.94798674,21.70980076,0 69.94806686,21.70973067,0 69.94814272000001,21.70967195,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94867686000001</longitude>
+					<latitude>21.71006474</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>66</range>
+				</LookAt>
+				<styleUrl>#Line_SAFETY_BUND_ff6820_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>SAFETY BUND</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>31</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								69.94852689,21.71031017,0 69.94854427,21.71031462,0 69.94857779,21.71031443,0 69.94863625000001,21.71030479,0 69.9486783,21.71028485,0 69.94870145,21.71026374,0 69.94873185,21.71019771,0 69.94876562,21.71007654,0 69.94878785,21.70996519,0 69.94882679,21.70986225,0 69.9488345,21.70980581,0 69.9488345,21.70980581,0 69.9488345,21.70980581,0 69.9488345,21.70980581,0 69.9488345,21.70980581,0 69.9488345,21.70980581,0 69.94883459,21.70983708,0 69.94883459,21.70983708,0 69.94883459,21.70983708,0 69.94883242,21.7098641,0 69.94879721,21.70996757,0 69.94877506,21.71007851,0 69.94874102,21.71020065,0 69.94870957000001,21.71026895,0 69.948684,21.71029228,0 69.94863934,21.71031345,0 69.94857867,21.71032346,0 69.94854248,21.71032366,0 69.94852046,21.71031564,0 69.94851912999999,21.71031022,0 69.94852689,21.71031017,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>builtup area</name>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94591905</longitude>
+					<latitude>21.70853366</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>5</range>
+				</LookAt>
+				<styleUrl>#Line_builtup_area_ffffff_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>builtup area</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>4</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94592433,21.70854815,0 69.94593528,21.70853573,0 69.94591133999999,21.70851918,0 69.94590282,21.70853033,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94885696999999</longitude>
+					<latitude>21.71074953</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>6</range>
+				</LookAt>
+				<styleUrl>#Line_builtup_area_ffffff_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>builtup area</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>5</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94885784,21.71076775,0 69.948877,21.71075006,0 69.94885499999999,21.71073131,0 69.94883694000001,21.71075045,0 69.94885784,21.71076775,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>road</name>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94663208</longitude>
+					<latitude>21.70764086</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>136</range>
+				</LookAt>
+				<styleUrl>#Line_road_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>road</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>12</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94603745000001,21.70742864,0 69.94604151,21.70741667,0 69.94611378,21.70739049,0 69.94623079,21.70738039,0 69.94635327,21.70742957,0 69.94650145999999,21.70749905,0 69.94661275999999,21.70756003,0 69.94672403,21.7076219,0 69.94681059,21.7076813,0 69.94705045000001,21.70779989,0 69.94715816999999,21.70785073,0 69.94722672,21.70790132,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94664234</longitude>
+					<latitude>21.7076729</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>129</range>
+				</LookAt>
+				<styleUrl>#Line_road_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>road</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>12</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94608192,21.7074433,0 69.94608282,21.70744161,0 69.94612472,21.70741612,0 69.94622455,21.70741722,0 69.94633695,21.70746235,0 69.94648299000001,21.70753082,0 69.9465931,21.70759114,0 69.94670265000001,21.70765206,0 69.94678999,21.707712,0 69.94703269,21.70783199,0 69.94713726000001,21.70788135,0 69.94720276,21.70792968,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94749298000001</longitude>
+					<latitude>21.70947464</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>199</range>
+				</LookAt>
+				<styleUrl>#Line_road_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>road</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>30</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94662567,21.70912904,0 69.94666474,21.7091338,0 69.94681045999999,21.70917969,0 69.94694672999999,21.70924746,0 69.94715178,21.70937509,0 69.94730178,21.70948223,0 69.94745425000001,21.70961369,0 69.94758528,21.70971448,0 69.94774476000001,21.70981547,0 69.94781343,21.70985222,0 69.94787492,21.70986751,0 69.94792074999999,21.7098639,0 69.94798151000001,21.70982929,0 69.94811493,21.70972489,0 69.94819757,21.70964866,0 69.94829833,21.70954057,0 69.94834496999999,21.70948926,0 69.94836029,21.70945117,0 69.94835246,21.70940688,0 69.94831825,21.70935969,0 69.94821238,21.70928595,0 69.94809355,21.70922567,0 69.94801988,21.70920481,0 69.94794732,21.70920261,0 69.94785837000001,21.70921941,0 69.94780946,21.70922492,0 69.94775767,21.70921903,0 69.94766773000001,21.70919037,0 69.94760238000001,21.70915306,0 69.94749598,21.70908177,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94726951</longitude>
+					<latitude>21.70952896</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>149</range>
+				</LookAt>
+				<styleUrl>#Line_road_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>road</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>10</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94666668000001,21.70916301,0 69.94679893999999,21.70920466,0 69.94693185,21.70927075,0 69.94713492,21.70939715,0 69.94728310000001,21.709503,0 69.94743518,21.70963413,0 69.9475679,21.7097362,0 69.94772939000001,21.70983848,0 69.94780231,21.7098775,0 69.94787234,21.70989491,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94815609</longitude>
+					<latitude>21.70954107</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>94</range>
+				</LookAt>
+				<styleUrl>#Line_road_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>road</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>14</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94792201,21.70990591,0 69.94793,21.70989036,0 69.94799847,21.70985137,0 69.94813446000001,21.70974496,0 69.94821872999999,21.70966723,0 69.94832031999999,21.70955824,0 69.94837034,21.70950321,0 69.94839017,21.70945391,0 69.94838004,21.7093966,0 69.94833951,21.7093407,0 69.94822805,21.70926306,0 69.94810477999999,21.70920053,0 69.94802464,21.70917784,0 69.94797152,21.70917623,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94771076000001</longitude>
+					<latitude>21.70912868</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>44</range>
+				</LookAt>
+				<styleUrl>#Line_road_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>road</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>7</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94790863,21.70918226,0 69.94785374999999,21.70919263,0 69.94780948,21.70919762,0 69.94776417,21.70919247,0 69.94768012,21.70916568,0 69.94761841,21.70913046,0 69.94751288,21.70905974,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94899776</longitude>
+					<latitude>21.70954701</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>171</range>
+				</LookAt>
+				<styleUrl>#Line_road_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>road</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>15</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94943705,21.71020254,0 69.94936086,21.71015923,0 69.94929227,21.71010873,0 69.94909371,21.70997731,0 69.94905328,21.70987825,0 69.94904117,21.70980619,0 69.94896011,21.70968604,0 69.94896011,21.70968604,0 69.94887521,21.70948167,0 69.94887521,21.70948167,0 69.94877357999999,21.70929925,0 69.94872951000001,21.70922016,0 69.9486497,21.70900843,0 69.94861729,21.70892247,0 69.94855848,21.70889149,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94840617</longitude>
+					<latitude>21.7096465</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>186</range>
+				</LookAt>
+				<styleUrl>#Line_road_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>road</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>23</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94792201,21.70990591,0 69.94797101,21.70994805,0 69.94811523,21.71008496,0 69.94830348000001,21.71023536,0 69.94841774,21.71031599,0 69.94848784,21.71034327,0 69.94857709,21.71035429,0 69.94864699999999,21.71034305,0 69.94869344,21.71031222,0 69.94872324000001,21.71027261,0 69.94875685,21.7101863,0 69.94878081,21.71009791,0 69.94881751,21.70998256,0 69.94886412,21.70988047,0 69.94888815,21.70978192,0 69.94889032,21.70973744,0 69.94886816,21.70965035,0 69.94882376,21.7095067,0 69.94872212999999,21.70932428,0 69.94867617,21.70924179,0 69.94859499,21.70902644,0 69.94856983,21.70895969,0 69.94853000000001,21.70893871,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94666743000001</longitude>
+					<latitude>21.70838982</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>321</range>
+				</LookAt>
+				<styleUrl>#Line_road_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>road</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>13</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94797203,21.70917641,0 69.94792102,21.70915769,0 69.94783925,21.70910377,0 69.94777098,21.70903921,0 69.94759234999999,21.70890498,0 69.94721905,21.70869878,0 69.94670021,21.70842567,0 69.94635011,21.70831982,0 69.94598121,21.70814377,0 69.94571261999999,21.70792344,0 69.94557802,21.70782561,0 69.94542122999999,21.70770304,0 69.94536282999999,21.70760323,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94662301</longitude>
+					<latitude>21.70839925</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>318</range>
+				</LookAt>
+				<styleUrl>#Line_road_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>road</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>13</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94790863,21.70918226,0 69.94790716,21.70918172,0 69.94782042999999,21.70912453,0 69.94775035000001,21.70905825,0 69.9475758,21.70892732,0 69.94720455,21.70872225,0 69.94668851,21.70845062,0 69.94633897999999,21.70834494,0 69.94596479,21.70816637,0 69.94569413000001,21.70794434,0 69.94555981000001,21.7078467,0 69.94539841,21.70772054,0 69.94533738,21.70761623,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>69.94864715999999</longitude>
+					<latitude>21.71006892</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>175</range>
+				</LookAt>
+				<styleUrl>#Line_road_000000_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>road</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>21</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						69.94942198,21.71022569,0 69.94934429,21.71018153,0 69.94927490000001,21.71013045,0 69.94907402,21.70999749,0 69.94901212000001,21.70988362,0 69.94900351,21.70981574,0 69.94893722,21.70975614,0 69.94888529000001,21.70992537,0 69.94886369,21.70997127,0 69.94880920999999,21.71010351,0 69.94878461,21.71019428,0 69.94874917999999,21.71028525,0 69.94871430000001,21.71033162,0 69.94865842,21.71036871,0 69.94857766,21.7103817,0 69.94848023999999,21.71036967,0 69.9484032,21.71033968,0 69.94828529999999,21.7102565,0 69.94809544,21.7101048,0 69.94795046999999,21.70996719,0 69.94787234,21.70989491,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

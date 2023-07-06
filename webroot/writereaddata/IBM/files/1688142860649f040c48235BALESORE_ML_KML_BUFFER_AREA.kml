@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>BALESORE ML KML BUFFER AREA.kml</name>
+	<Schema name="ML_Balesore_Alloy_110" id="S_ML_Balesore_Alloy_110_IDD">
+		<SimpleField type="int" name="Id"><displayName>&lt;b&gt;Id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Hectares"><displayName>&lt;b&gt;Hectares&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="BUFF_DIST"><displayName>&lt;b&gt;BUFF_DIST&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="falseColor0">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[ML_Balesore_Alloy_110/Id]</td></tr>
+  <tr><td><b>Hectares</b></td><td>$[ML_Balesore_Alloy_110/Hectares]</td></tr>
+  <tr><td><b>BUFF_DIST</b></td><td>$[ML_Balesore_Alloy_110/BUFF_DIST]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[ML_Balesore_Alloy_110/Id]</td></tr>
+  <tr><td><b>Hectares</b></td><td>$[ML_Balesore_Alloy_110/Hectares]</td></tr>
+  <tr><td><b>BUFF_DIST</b></td><td>$[ML_Balesore_Alloy_110/BUFF_DIST]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>110</name>
+		<styleUrl>#falseColor1</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_ML_Balesore_Alloy_110_IDD">
+				<SimpleData name="Id">0</SimpleData>
+				<SimpleData name="Hectares">123.695</SimpleData>
+				<SimpleData name="BUFF_DIST">110</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						85.77173894263204,21.02520897228405,0 85.77312507144744,21.0259952486113,0 85.77313333318098,21.02599993499106,0 85.77314150250641,21.026004762065,0 85.77504184030568,21.02712761099571,0 85.7759291156753,21.02765186093026,0 85.77537923093119,21.02848987810351,0 85.7743938246266,21.02999159498172,0 85.77439106301993,21.02999580349854,0 85.77438825695567,21.02999998601271,0 85.77276719362646,21.032416175091,0 85.77122150471068,21.03474676196841,0 85.77122117334714,21.03474726158787,0 85.77122084135351,21.03474776083848,0 85.76974533699219,21.03696657637266,0 85.76919148622058,21.03779941776439,0 85.76829777930219,21.03728950227396,0 85.76422317630914,21.03496458601205,0 85.76259120180772,21.03403661840717,0 85.76248447842079,21.03419551334922,0 85.76248413757855,21.03419602081089,0 85.76248379608397,21.03419652788583,0 85.76086557283101,21.03659932942865,0 85.76029756301558,21.03744270959135,0 85.75940158705104,21.03690596178875,0 85.75754727663923,21.03579508278481,0 85.75665777948677,21.03526219070622,0 85.75722262312571,21.03442544803123,0 85.75764808606527,21.03379517197936,0 85.75881683489395,21.03201533503442,0 85.75882454224103,21.03200359767301,0 85.75883259349753,21.03199206560675,0 85.760083979706,21.03019963839206,0 85.7606639910029,21.02936883864139,0 85.76154908651415,21.02991309979585,0 85.76286990411184,21.03072527873835,0 85.76454744907051,21.03170927820038,0 85.76456545290824,21.0317198385756,0 85.76458299124938,21.03173106823072,0 85.76556202308571,21.03235792882479,0 85.76658307821396,21.03090851919468,0 85.7675979194763,21.02942777311153,0 85.76760027638841,21.0294243341182,0 85.76760266336765,21.02942091345397,0 85.76902992418731,21.02737553933225,0 85.77030183488635,21.02552143355774,0 85.77085870328574,21.02470964991112,0 85.77173894263204,21.02520897228405,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

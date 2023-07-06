@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>topografix_kml.kml</name>
+	<LookAt>
+		<longitude>70.37620292</longitude>
+		<latitude>20.99581779</latitude>
+		<altitude>0</altitude>
+		<heading>0</heading>
+		<tilt>0</tilt>
+		<range>4748</range>
+	</LookAt>
+	<Style id="Line_01_Lease_Boundary_1_ff0000_03">
+		<BalloonStyle>
+			<text><![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>8</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="Line_01_Lease_Boundary_1_ff0000_030">
+		<BalloonStyle>
+			<text><![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>8</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="Line_01_Lease_Boundary_1_ff0000_031">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Line_01_Lease_Boundary_1_ff0000_03</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Line_01_Lease_Boundary_1_ff0000_030</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="Line_04_Existing_Plantation_114_008140_03">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Line_04_Existing_Plantation_114_008140_030</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Line_04_Existing_Plantation_114_008140_031</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="Line_04_Existing_Plantation_114_008140_030">
+		<BalloonStyle>
+			<text><![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff408100</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f408100</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="Line_04_Existing_Plantation_114_008140_031">
+		<BalloonStyle>
+			<text><![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff408100</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f408100</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="Line_proposed_plantation_3_00ff00_03">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Line_proposed_plantation_3_00ff00_030</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Line_proposed_plantation_3_00ff00_031</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="Line_proposed_plantation_3_00ff00_030">
+		<BalloonStyle>
+			<text><![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f00ff00</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="Line_proposed_plantation_3_00ff00_031">
+		<BalloonStyle>
+			<text><![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f00ff00</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Shapes</name>
+		<open>1</open>
+		<Folder>
+			<name>01_Lease Boundary</name>
+			<Placemark>
+				<LookAt>
+					<longitude>70.37354702</longitude>
+					<latitude>20.99466768</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>2247</range>
+				</LookAt>
+				<styleUrl>#Line_01_Lease_Boundary_1_ff0000_031</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>01_Lease Boundary 1</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>101</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								70.37285000999999,20.99504346,0 70.37343955,20.99456936,0 70.37359821,20.99476993,0 70.37434913,20.99432233,0 70.3747158,20.99417791,0 70.37468217999999,20.99409172,0 70.37541727,20.99370598,0 70.37613915,20.99317834,0 70.37622779,20.9931619,0 70.37735884,20.99249265,0 70.37726828,20.99225346,0 70.37691795000001,20.99232584,0 70.37680220999999,20.99211637,0 70.3772092,20.99199903,0 70.37708223,20.99168431,0 70.37682795000001,20.99171517,0 70.37675683000001,20.99145759,0 70.37618667,20.99152364,0 70.37611267,20.9908452,0 70.37608523999999,20.99023211,0 70.37550691,20.9897845,0 70.37551056,20.98942258,0 70.37612719000001,20.98965349,0 70.3766849,20.98975903,0 70.37725172,20.98842524,0 70.37772927,20.98854726,0 70.37728131,20.98988161,0 70.37768828999999,20.99141382,0 70.37972427,20.99080503,0 70.37988283,20.99119639,0 70.38005989,20.99191059,0 70.38019709,20.99219127,0 70.3805534,20.99247465,0 70.38099877000001,20.99232234,0 70.38111053999999,20.99235599,0 70.38103945,20.993344,0 70.38110422,20.99351859,0 70.38127433,20.99388545,0 70.38143637,20.99418946,0 70.38132309,20.99419348,0 70.38125008999999,20.99408691,0 70.38102945,20.99414759,0 70.38097687,20.99436458,0 70.38120911,20.99518169,0 70.38142603999999,20.99540004,0 70.38181172,20.99543636,0 70.38206460000001,20.9955669,0 70.38178879,20.99596911,0 70.38102394000001,20.99681388,0 70.38064433,20.99671771,0 70.38026087999999,20.99657512,0 70.38030689999999,20.99594582,0 70.38028088,20.99525089,0 70.38013844,20.99423516,0 70.37959886,20.99313066,0 70.37906950999999,20.99298608,0 70.37876863,20.99294313,0 70.37860703,20.99286769,0 70.3783617,20.99283905,0 70.37807792,20.99344659,0 70.37796396,20.99369533,0 70.37727658999999,20.99428112,0 70.37632408,20.99414975,0 70.37567337999999,20.9942196,0 70.37481461,20.99443885,0 70.37486368,20.995057,0 70.37477557,20.99583206,0 70.3746268,20.9964419,0 70.37446231,20.99717414,0 70.37529541000001,20.99724785,0 70.37527145,20.99784656,0 70.37330611,20.99813282,0 70.37266237,20.99828353,0 70.37180725,20.99842664,0 70.37048316000001,20.99876608,0 70.36871367000001,20.99919535,0 70.36825498,20.99927709,0 70.36769246999999,20.99960119,0 70.36581477999999,21.00053021,0 70.36502943000001,21.00091013,0 70.36531555000001,21.00053492,0 70.36607984,21.00007536,0 70.36633835000001,20.9998596,0 70.36688527,20.99951747,0 70.36701433,20.99945103,0 70.36784994999999,20.99893173,0 70.3679568,20.99888245,0 70.36897815,20.998262,0 70.36922844,20.99813129,0 70.3693938,20.99803946,0 70.36949516,20.99795211,0 70.36971715,20.99784135,0 70.37000085,20.99762864,0 70.37015286,20.99749132,0 70.37051400999999,20.99726437,0 70.37046108,20.99735898,0 70.37123938000001,20.99680521,0 70.37142163,20.99663002,0 70.3715582,20.99643332,0 70.37185909,20.99594487,0 70.37285000999999,20.99504346,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Not a part of lease area</name>
+				<LookAt>
+					<longitude>70.37280432</longitude>
+					<latitude>20.99563961</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>262</range>
+				</LookAt>
+				<styleUrl>#Line_01_Lease_Boundary_1_ff0000_031</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>01_Lease Boundary 1</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>7</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								70.37289251,20.9952807,0 70.37329978,20.99498306,0 70.37344846000001,20.99482628,0 70.37371960999999,20.99507472,0 70.3723894,20.99645293,0 70.37188903000001,20.99619695,0 70.37289251,20.9952807,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>02_Existing Plantation</name>
+			<Placemark>
+				<LookAt>
+					<longitude>70.37517896999999</longitude>
+					<latitude>20.997456</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>40</range>
+				</LookAt>
+				<styleUrl>#Line_04_Existing_Plantation_114_008140_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>04_Existing Plantation 114</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>5</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								70.37507158,20.99760217,0 70.37528143,20.99759724,0 70.37529261,20.99731785,0 70.37506533,20.99730983,0 70.37507158,20.99760217,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>70.37297065999999</longitude>
+					<latitude>20.99816753</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>123</range>
+				</LookAt>
+				<styleUrl>#Line_04_Existing_Plantation_114_008140_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>04_Existing Plantation 114</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>7</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								70.37242001,20.99830464,0 70.37239597999999,20.99824198,0 70.37329250000001,20.99806564,0 70.37353428,20.99803042,0 70.37354534000001,20.99809737,0 70.37330537,20.99813233,0 70.37242001,20.99830464,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>03_proposed plantation </name>
+			<Placemark>
+				<LookAt>
+					<longitude>70.38116921</longitude>
+					<latitude>20.99390099</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>347</range>
+				</LookAt>
+				<styleUrl>#Line_proposed_plantation_3_00ff00_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>proposed plantation 3</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>23</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								70.38103396,20.99243031,0 70.38111053999999,20.99235599,0 70.3810776,20.99281197,0 70.38103945,20.993344,0 70.38110353,20.99351673,0 70.38127367,20.99388402,0 70.38143637,20.99418946,0 70.38132309,20.99419348,0 70.38125008999999,20.99408691,0 70.38102945,20.99414759,0 70.38097687,20.99436458,0 70.38120911,20.99518169,0 70.38142603999999,20.99540004,0 70.38137373000001,20.99544599,0 70.38114009,20.9952116,0 70.38090206,20.99436736,0 70.38097161,20.99409616,0 70.38125777,20.99401184,0 70.38120484,20.99391411,0 70.38103347000001,20.99353505,0 70.38097091,20.99335389,0 70.38100561,20.99280756,0 70.38103396,20.99243031,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>70.3809406</longitude>
+					<latitude>20.99613861</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>92</range>
+				</LookAt>
+				<styleUrl>#Line_proposed_plantation_3_00ff00_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>proposed plantation 3</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>17</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								70.38070367,20.99631903,0 70.38070653,20.99644773,0 70.38072972000001,20.99647144,0 70.38120474999999,20.99634785,0 70.3811925,20.99623132,0 70.38117222,20.9962347,0 70.38086345000001,20.99632287,0 70.38084284999999,20.99632616,0 70.38084049,20.99632284,0 70.38085597,20.99619661,0 70.38084689,20.99607899,0 70.38081441,20.99581506,0 70.38081095,20.99580577,0 70.38067646,20.9958331,0 70.38069681,20.99597647,0 70.3807206,20.99619446,0 70.38070367,20.99631903,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<LookAt>
+					<longitude>70.38060172</longitude>
+					<latitude>20.99534367</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>56</range>
+				</LookAt>
+				<styleUrl>#Line_proposed_plantation_3_00ff00_03</styleUrl>
+				<ExtendedData>
+					<Data name="Type">
+						<value>proposed plantation 3</value>
+					</Data>
+					<Data name="Number of Trackpoints">
+						<value>7</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								70.38058366,20.99512647,0 70.3804805,20.99511679,0 70.38056924999999,20.99538147,0 70.38063096,20.99557055,0 70.38072293,20.99554408,0 70.38066129000001,20.99535523,0 70.38058366,20.99512647,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

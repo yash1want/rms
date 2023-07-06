@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>sangam mine.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>Untitled Path</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				80.15010774366942,16.83888900114227,0 80.1507117239555,16.83814142229212,0 80.15176289410418,16.83597851983646,0 80.14926688404032,16.83224521640511,0 80.14909053181221,16.82921950299741,0 80.14375648711307,16.82909434770476,0 80.1447301179725,16.82945600993362,0 80.14572893007093,16.82956798433661,0 80.14640863971916,16.83124215182591,0 80.14678462594215,16.83713081073949,0 80.14753247629672,16.83742283821988,0 80.14801557482589,16.83758768954094,0 80.14866042173489,16.83802157436037,0 80.14939866729554,16.83846014340065,0 80.15010774366942,16.83888900114227,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

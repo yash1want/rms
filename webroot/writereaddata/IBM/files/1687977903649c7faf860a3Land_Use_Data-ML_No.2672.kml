@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Land Use Data-ML No.2672.kml</name>
+	<open>1</open>
+	<Style id="featureStyle-Color [A=255, R=255, G=0, B=0]9">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon56.png</href>
+				<x>32</x>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/>$[description]]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="featureStyle-Color [A=255, R=255, G=255, B=255]14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#featureStyle-Color [A=255, R=255, G=255, B=255]16</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#featureStyle-Color [A=255, R=255, G=255, B=255]15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="featureStyle-Color [A=255, R=255, G=255, B=255]15">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon56.png</href>
+				<x>32</x>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/>$[description]]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00aa</color>
+		</LineStyle>
+	</Style>
+	<Style id="featureStyle-Color [A=255, R=255, G=255, B=255]16">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon56.png</href>
+				<x>32</x>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<b>$[name]</b><br/>$[description]]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00aa</color>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Lease Boundary</name>
+		<open>1</open>
+		<styleUrl>#featureStyle-Color [A=255, R=255, G=0, B=0]9</styleUrl>
+		<LineString>
+			<coordinates>
+				75.28963894075331,16.2024015303214,-80.2749788886962 75.2896022250688,16.2014145247092,-80.2782583436185 75.2928831697124,16.1999870845896,-80.28627437243139 75.2931027777324,16.2012403176556,-80.2822839951835 75.28963894075331,16.2024015303214,-80.2749788886962 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Mining Pit</name>
+		<open>1</open>
+		<styleUrl>#featureStyle-Color [A=255, R=255, G=255, B=255]14</styleUrl>
+		<LineString>
+			<coordinates>
+				75.2897021199815,16.2023803508157,484.39488753976 75.28970863407029,16.2022519360296,484.394449396261 75.28970939397379,16.2021585341342,484.394134701563 75.2897014189697,16.2019730580438,484.393519301773 75.2896923111349,16.2017932440867,484.3929242445989 75.2897016161151,16.201768961788,484.3928334973239 75.28983442618279,16.2016517477412,484.392308698744 75.28980059440789,16.2015882334503,484.392128830961 75.2897746259233,16.2014417569783,484.391662720818 75.29002507885011,16.2013189452425,484.3910031828839 75.2903734004579,16.2011533726925,484.390103833893 75.2909147083118,16.2009167493225,484.388776426166 75.2910133755649,16.2008727836105,484.388531775548 75.29105128589261,16.2009104397721,484.38862079245 75.2910726141231,16.2010658848093,484.3891214101359 75.2911046383259,16.2011382540798,484.389332790647 75.291155084357,16.2011486500472,484.389318056341 75.2912214981549,16.2014406594206,484.390233171378 75.2912768810812,16.2015437890049,484.390525115351 75.29131475042109,16.201612441671,484.39071852369 75.29135749994229,16.2016665181079,484.390858200017 75.29139717681591,16.2017150210089,484.3909821943199 75.2913885116353,16.2017333320557,484.39105223666 75.2914265447011,16.2018041891677,484.391252999478 75.2897021199815,16.2023803508157,484.39488753976 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

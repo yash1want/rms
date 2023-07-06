@@ -1,0 +1,3427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Maratha ML 1.kml</name>
+	<open>1</open>
+	<Schema name="Maratha ML 1 Area" id="S_Maratha_ML_1_Area_SSSSSSSSISSSI">
+		<SimpleField type="string" name="GM_LAYER"><displayName>&lt;b&gt;GM_LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="GM_TYPE"><displayName>&lt;b&gt;GM_TYPE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MAP_NAME"><displayName>&lt;b&gt;MAP_NAME&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ELEVATION"><displayName>&lt;b&gt;ELEVATION&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CLOSED"><displayName>&lt;b&gt;CLOSED&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="BORDER_STY"><displayName>&lt;b&gt;BORDER_STY&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="BORDER_COL"><displayName>&lt;b&gt;BORDER_COL&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="BORDER_WID"><displayName>&lt;b&gt;BORDER_WID&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FILL_STYLE"><displayName>&lt;b&gt;FILL_STYLE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="BORDER_ST1"><displayName>&lt;b&gt;BORDER_ST1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="BORDER_CO1"><displayName>&lt;b&gt;BORDER_CO1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="BORDER_WI1"><displayName>&lt;b&gt;BORDER_WI1&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="falseColor71">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor76</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor52</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor14">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>330000ff</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<StyleMap id="falseColor65">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor75</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor62">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor32">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ff00</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor21">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0000</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor63">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor18">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor57</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor36">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor43</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor53</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor98">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor26</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor83</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor23">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor88</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor80</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor60">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor84</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor86</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor35">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7fffaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ffaa</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor85">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor5">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff55</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor74">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor49">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor58</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor68</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor3">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ff00</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor104">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor62</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor27">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor56</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor57">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ff00</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor91">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor74</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor85</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor94">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor32</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor95</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor81">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor70</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor82">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor100">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff55</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor101">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor17">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ff00</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor87">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>330000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor15">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor105">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor19</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor21</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor80">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffaa55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffaa55</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor73">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor17</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor53">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff55</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor86">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor50">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor34</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor82</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor107">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor37</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor7">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor58">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor54">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0000</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor13">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ff00</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor25">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff55</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor6">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff55ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor28">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ff00</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<StyleMap id="falseColor44">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor66</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor11">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor93">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor54</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor61</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor55">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffffff</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor42">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff55</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor30">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7fffaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ffaa</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor56">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor77">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor106">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor1">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor31">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ffff</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor95">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor47">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor96">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor48</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor22">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor31</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor108">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor66">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor83">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor84">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor78">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff55</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor109">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor64</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor79">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor106</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor45</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor19">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0000</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor97">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor59">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ffff</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<StyleMap id="falseColor99">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor72</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor49</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor72">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor89">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor25</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor78</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor52">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor88">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffaa55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffaa55</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor33">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor59</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor61">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor102">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor47</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor63</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor46">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff55</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<StyleMap id="falseColor29">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor35</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor75">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>330000ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor103">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor42</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor4">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor43">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff55</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<StyleMap id="falseColor67">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor97</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor76">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor92">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor108</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor55</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor40">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor101</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor73</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor41">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor24</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor34">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ffff</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<StyleMap id="falseColor38">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor16</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor87</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor48">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>330000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor37">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff55ff</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<StyleMap id="falseColor90">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor28</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor69</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor69">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor16">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>330000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor70">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor64">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff55</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor26">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0000</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor39">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ffff</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<StyleMap id="falseColor51">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor46</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor0">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>330000ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor77</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor39</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor68">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor24">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff55</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor12">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff55</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor20">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff55</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor45">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[Maratha ML 1 Area/GM_LAYER]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[Maratha ML 1 Area/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Maratha ML 1 Area/GM_TYPE]</td></tr>
+  <tr><td><b>MAP_NAME</b></td><td>$[Maratha ML 1 Area/MAP_NAME]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Maratha ML 1 Area/ELEVATION]</td></tr>
+  <tr><td><b>CLOSED</b></td><td>$[Maratha ML 1 Area/CLOSED]</td></tr>
+  <tr><td><b>BORDER_STY</b></td><td>$[Maratha ML 1 Area/BORDER_STY]</td></tr>
+  <tr><td><b>BORDER_COL</b></td><td>$[Maratha ML 1 Area/BORDER_COL]</td></tr>
+  <tr><td><b>BORDER_WID</b></td><td>$[Maratha ML 1 Area/BORDER_WID]</td></tr>
+  <tr><td><b>FILL_STYLE</b></td><td>$[Maratha ML 1 Area/FILL_STYLE]</td></tr>
+  <tr><td><b>BORDER_ST1</b></td><td>$[Maratha ML 1 Area/BORDER_ST1]</td></tr>
+  <tr><td><b>BORDER_CO1</b></td><td>$[Maratha ML 1 Area/BORDER_CO1]</td></tr>
+  <tr><td><b>BORDER_WI1</b></td><td>$[Maratha ML 1 Area/BORDER_WI1]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ff00</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>Maratha ML 1</name>
+		<open>1</open>
+		<Placemark>
+			<name>ML BLOCK1</name>
+			<styleUrl>#falseColor60</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Maratha_ML_1_Area_SSSSSSSSISSSI">
+					<SimpleData name="GM_LAYER">ML-I_FINAL</SimpleData>
+					<SimpleData name="LAYER">ML-I_FINAL</SimpleData>
+					<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+					<SimpleData name="MAP_NAME">ML I_ML-I_FINAL.shp</SimpleData>
+					<SimpleData name="ELEVATION">0.0</SimpleData>
+					<SimpleData name="CLOSED">YES</SimpleData>
+					<SimpleData name="BORDER_STY">Solid</SimpleData>
+					<SimpleData name="BORDER_COL">RGB(255,0,0)</SimpleData>
+					<SimpleData name="BORDER_WID">1</SimpleData>
+					<SimpleData name="FILL_STYLE">No Fill</SimpleData>
+					<SimpleData name="BORDER_ST1">Solid</SimpleData>
+					<SimpleData name="BORDER_CO1">RGB(255,0,0)</SimpleData>
+					<SimpleData name="BORDER_WI1">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.20013599617702,19.70834756635863,0 79.20023670420902,19.70835873071159,0 79.20028568144461,19.70793876621121,0 79.20191642750672,19.70785897958127,0 79.20209923007188,19.7077450747362,0 79.2022368284417,19.7061597785904,0 79.20193364211126,19.70609874415281,0 79.20123191915572,19.70616472593685,0 79.20081759886165,19.70616094965329,0 79.20254105779649,19.70418528002903,0 79.20274988388563,19.7040672807745,0 79.20250271862074,19.70305101625852,0 79.20293733702556,19.70302758371474,0 79.20321642092578,19.70027865656558,0 79.2020219547969,19.70027363630098,0 79.20192640175095,19.69897092878112,0 79.20025825132024,19.69896378730279,0 79.20032225718172,19.70144686887667,0 79.19837701687898,19.70191159419278,0 79.19791254253136,19.70188858176214,0 79.19764877133163,19.70188267070797,0 79.19732074996421,19.70232889125757,0 79.19692161713321,19.70409109332475,0 79.1968514341069,19.70438127578113,0 79.19665710847779,19.70469442894234,0 79.19684271867185,19.70631878487074,0 79.19540361690554,19.70635189047128,0 79.19381611485068,19.70634342652698,0 79.19242670434892,19.70655866296385,0 79.19080542179306,19.70670752923756,0 79.19028738913597,19.70670807528481,0 79.18867133837524,19.70676401131561,0 79.18845076838217,19.70675739330503,0 79.18713676243209,19.70698864322912,0 79.18701470219217,19.70700521436747,0 79.1868027979822,19.70713693909939,0 79.1869418781347,19.70824392388283,0 79.18519800354893,19.7080464203302,0 79.18517111238963,19.7080432123358,0 79.18498565516769,19.70725948973383,0 79.18507227670791,19.70724153157003,0 79.18698291716385,19.70694452240461,0 79.18640854526404,19.70560195217826,0 79.18590731456869,19.70563461608608,0 79.18558191824128,19.70402372056138,0 79.18567840898648,19.70401770467523,0 79.18612628483142,19.70426355431028,0 79.1885432397716,19.70362855374447,0 79.18846365599927,19.70304452176178,0 79.18845734963348,19.7030463551043,0 79.18732094860148,19.70346387461778,0 79.18697223794953,19.7018293302498,0 79.18889389579142,19.70090256594403,0 79.18810099171958,19.70063892102633,0 79.18841668555206,19.69939422453585,0 79.1885585928337,19.69822398796073,0 79.18853953338213,19.69815133798393,0 79.19054920179865,19.69711679468107,0 79.19015957787464,19.69599623554419,0 79.19080106338475,19.69556626058511,0 79.19193454258937,19.69564166972996,0 79.19312773116515,19.6955997587637,0 79.19302877111056,19.69371310925096,0 79.19454341279355,19.6934630674214,0 79.19548797636595,19.69318196000742,0 79.19722370343779,19.69300354949134,0 79.20055444737001,19.69334234786369,0 79.20061495261778,19.69244059506262,0 79.20202034815277,19.69224107385123,0 79.20314960002554,19.69203268815065,0 79.20440178922682,19.69118984346949,0 79.20464715614885,19.69092369463727,0 79.20467417390137,19.69089482267637,0 79.2067291733066,19.69076348648937,0 79.20889011450531,19.69028496694102,0 79.20887653230818,19.69298126013789,0 79.20948326828619,19.69578173959375,0 79.20984735045893,19.69652953017037,0 79.2103299975023,19.69809696188319,0 79.21030713942906,19.69938222807055,0 79.21121607885351,19.69937523119823,0 79.21172253912823,19.70091817277241,0 79.20915614853216,19.70118843908826,0 79.20922079539993,19.70356441289184,0 79.20683231759072,19.70384760229285,0 79.2070759974644,19.70572265606874,0 79.20430919371864,19.7059574826962,0 79.2044117307255,19.70858275069831,0 79.20389841060695,19.7085645118438,0 79.2021582141346,19.70898872406787,0 79.20213209195015,19.71019837606628,0 79.2013906498039,19.71192763497771,0 79.20052013491276,19.71182780716217,0 79.20047835259884,19.71247074568012,0 79.1998866349807,19.71256036278245,0 79.19974564498638,19.71140878258673,0 79.20013599617702,19.70834756635863,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ML BLOCK-2</name>
+			<styleUrl>#falseColor65</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Maratha_ML_1_Area_SSSSSSSSISSSI">
+					<SimpleData name="GM_LAYER">ML-I_FINAL</SimpleData>
+					<SimpleData name="LAYER">ML-I_FINAL</SimpleData>
+					<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+					<SimpleData name="MAP_NAME">ML I_ML-I_FINAL.shp</SimpleData>
+					<SimpleData name="ELEVATION">0.0</SimpleData>
+					<SimpleData name="CLOSED">YES</SimpleData>
+					<SimpleData name="BORDER_STY">Solid</SimpleData>
+					<SimpleData name="BORDER_COL">RGB(189,0,0)</SimpleData>
+					<SimpleData name="BORDER_WID">1</SimpleData>
+					<SimpleData name="FILL_STYLE">No Fill</SimpleData>
+					<SimpleData name="BORDER_ST1">Solid</SimpleData>
+					<SimpleData name="BORDER_CO1">RGB(189,0,0)</SimpleData>
+					<SimpleData name="BORDER_WI1">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.19810450364099,19.72025477795343,0 79.20145363498845,19.72005774291322,0 79.20158107449411,19.72193997902088,0 79.19862066136228,19.72245565699632,0 79.19706191167823,19.72257987666363,0 79.19684943448476,19.72142979928275,0 79.19613712451263,19.72143940725768,0 79.19587005546383,19.72150095642648,0 79.19504572416857,19.72142137404632,0 79.19436355733411,19.72139293136662,0 79.1942351417001,19.72147836814092,0 79.19405655502082,19.72249459691737,0 79.1939371853894,19.722967660793,0 79.19400804428176,19.72355345517061,0 79.19437226123431,19.72451051834012,0 79.19417099653292,19.72447559957292,0 79.19397214462811,19.72439746164224,0 79.19369959318577,19.72396683519742,0 79.19333846789469,19.72387402575389,0 79.19262642877855,19.72383066750701,0 79.19235566204327,19.72426037806802,0 79.19209569418945,19.7245356883979,0 79.19004675954116,19.72428095602683,0 79.18986008963898,19.72373783815216,0 79.18945117146259,19.72371212993352,0 79.18950155397687,19.72426496308055,0 79.18950389858286,19.72531833862604,0 79.18971388497901,19.7273579781029,0 79.1896212261244,19.72937658669425,0 79.18903052090565,19.72927329085014,0 79.18897789536847,19.730528105126,0 79.18895153053788,19.73093661426196,0 79.19062891854453,19.73082804773404,0 79.19067042569651,19.73140219979811,0 79.19075544956171,19.73205751495189,0 79.19088810828741,19.73316926925218,0 79.19013859413145,19.7331654356934,0 79.18979181060098,19.73317662681146,0 79.18988729779309,19.73401357002671,0 79.19010739364384,19.73567021173919,0 79.18461738054734,19.73611533277078,0 79.18434107094136,19.73465047315828,0 79.18207335336261,19.73516811843612,0 79.18191439351583,19.73317055151578,0 79.18160701815057,19.73131196648326,0 79.18348885340312,19.73106082501772,0 79.18355943786543,19.7298928772193,0 79.1835891412544,19.72961466189144,0 79.18353604847697,19.72877941227119,0 79.18269022018214,19.72876224461494,0 79.1815679997179,19.72870479097067,0 79.18138758419069,19.72715022112588,0 79.18148765897611,19.72616957419562,0 79.1816072513639,19.7246694770514,0 79.18133726388952,19.72374808289338,0 79.1825471603704,19.7237940961621,0 79.18254304664504,19.72344168728326,0 79.18360964764828,19.72363134417897,0 79.18370422503857,19.72379483230269,0 79.18378837031474,19.72404491761203,0 79.18412105782402,19.72404769254635,0 79.1856311980498,19.72395240871021,0 79.18753531145268,19.72398299410103,0 79.18758412120314,19.72288366470887,0 79.18705800175775,19.72249208226964,0 79.18691481428142,19.72209131010578,0 79.18725498132092,19.72139252622327,0 79.18756720763336,19.72140917963248,0 79.18855533183115,19.72131365777413,0 79.18874356659889,19.72128340370342,0 79.18823868137092,19.71984390667661,0 79.1878939446798,19.71887580914439,0 79.18754373732389,19.71893638326246,0 79.18732270153416,19.718483972482,0 79.18715741328559,19.71783725690754,0 79.18681682040729,19.71685952314493,0 79.18654928952678,19.71501396130678,0 79.18644540400413,19.71289816450197,0 79.18622743411812,19.71144496946515,0 79.18612771890196,19.71024373925193,0 79.18762326467721,19.70989903945163,0 79.18794199373912,19.71212947962406,0 79.18960525157338,19.71172165289152,0 79.19001860978328,19.71341883413226,0 79.19092484066813,19.71320117644855,0 79.19180924037836,19.71309586003867,0 79.19156115145439,19.71144024935972,0 79.19344933922729,19.7112319273544,0 79.19351726206884,19.71158289415298,0 79.19353010125896,19.71210174440814,0 79.19381383879602,19.71335823397297,0 79.19407946181332,19.71583293225359,0 79.19663266231278,19.71574844193285,0 79.19661532777705,19.71646300675656,0 79.19756438039987,19.71642271551706,0 79.1980968649906,19.71640010710819,0 79.19791499596401,19.71818096790286,0 79.19797411333532,19.7188279009271,0 79.19810450364099,19.72025477795343,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ML BLOCK-3</name>
+			<styleUrl>#falseColor96</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Maratha_ML_1_Area_SSSSSSSSISSSI">
+					<SimpleData name="GM_LAYER">ML-I_FINAL</SimpleData>
+					<SimpleData name="LAYER">ML-I_FINAL</SimpleData>
+					<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+					<SimpleData name="MAP_NAME">ML I_ML-I_FINAL.shp</SimpleData>
+					<SimpleData name="ELEVATION">0.0</SimpleData>
+					<SimpleData name="CLOSED">YES</SimpleData>
+					<SimpleData name="BORDER_STY">Solid</SimpleData>
+					<SimpleData name="BORDER_COL">RGB(255,0,0)</SimpleData>
+					<SimpleData name="BORDER_WID">1</SimpleData>
+					<SimpleData name="FILL_STYLE">No Fill</SimpleData>
+					<SimpleData name="BORDER_ST1">Solid</SimpleData>
+					<SimpleData name="BORDER_CO1">RGB(255,0,0)</SimpleData>
+					<SimpleData name="BORDER_WI1">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.18882585125164,19.7360195231132,0 79.18967959281335,19.73593883837447,0 79.19010033640663,19.73592324150211,0 79.19019986266375,19.73645723413275,0 79.18932567662544,19.73661767674603,0 79.18832413314998,19.73671147389893,0 79.1880855537529,19.73676779392709,0 79.18789150499425,19.73686362061316,0 79.18797420890758,19.73729987701994,0 79.18757899908162,19.73741387275651,0 79.18711609415418,19.73749399508513,0 79.18661422450559,19.73758763650376,0 79.18582812634303,19.73772621375568,0 79.1850995923288,19.73788050320136,0 79.18443676592787,19.73804005875353,0 79.18335985696874,19.7381843593948,0 79.18270768372759,19.73834395590311,0 79.18253258589658,19.737503397277,0 79.18232765799574,19.73657301688166,0 79.18455131166245,19.73630774041239,0 79.18461399063766,19.73679462291857,0 79.18702837762224,19.73674916210247,0 79.1874078764984,19.73672582111177,0 79.18745526140884,19.7367158218113,0 79.18749947627738,19.73609883567329,0 79.18882585125164,19.7360195231132,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ML BLOCK-2</name>
+			<styleUrl>#falseColor38</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Maratha_ML_1_Area_SSSSSSSSISSSI">
+					<SimpleData name="GM_LAYER">ML-I_FINAL</SimpleData>
+					<SimpleData name="LAYER">ML-I_FINAL</SimpleData>
+					<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+					<SimpleData name="MAP_NAME">ML I_ML-I_FINAL.shp</SimpleData>
+					<SimpleData name="ELEVATION">0.0</SimpleData>
+					<SimpleData name="CLOSED">YES</SimpleData>
+					<SimpleData name="BORDER_STY">Solid</SimpleData>
+					<SimpleData name="BORDER_COL">RGB(255,0,0)</SimpleData>
+					<SimpleData name="BORDER_WID">1</SimpleData>
+					<SimpleData name="FILL_STYLE">No Fill</SimpleData>
+					<SimpleData name="BORDER_ST1">Solid</SimpleData>
+					<SimpleData name="BORDER_CO1">RGB(255,0,0)</SimpleData>
+					<SimpleData name="BORDER_WI1">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.18410476239586,19.744023285533,0 79.1839991497654,19.74313728112404,0 79.18454946732207,19.74302379216579,0 79.1842159189015,19.74134166611902,0 79.18406680876095,19.74057363669066,0 79.18284817666999,19.74001860175526,0 79.18275508184287,19.73920340855583,0 79.18274270109498,19.73865571127847,0 79.189074411513,19.73746336172846,0 79.18923941512439,19.73840212514823,0 79.18934847462351,19.73878125258661,0 79.18936203936889,19.73988921477157,0 79.18939506966547,19.74029633957432,0 79.18953186564877,19.74394980458611,0 79.18820276602952,19.74421405420258,0 79.18837370785396,19.74528490753137,0 79.18731538045274,19.74548291817575,0 79.18604466548447,19.7456816120604,0 79.18454849777267,19.74607055900276,0 79.18410476239586,19.744023285533,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>OUTSIDE ML</name>
+			<styleUrl>#falseColor107</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Maratha_ML_1_Area_SSSSSSSSISSSI">
+					<SimpleData name="GM_LAYER">ML-I</SimpleData>
+					<SimpleData name="LAYER">ML-I</SimpleData>
+					<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+					<SimpleData name="MAP_NAME">ML I_ML-I.shp</SimpleData>
+					<SimpleData name="ELEVATION">5.0</SimpleData>
+					<SimpleData name="CLOSED">YES</SimpleData>
+					<SimpleData name="BORDER_STY">Solid</SimpleData>
+					<SimpleData name="BORDER_COL">RGB(0,255,0)</SimpleData>
+					<SimpleData name="BORDER_WID">1</SimpleData>
+					<SimpleData name="FILL_STYLE">No Fill</SimpleData>
+					<SimpleData name="BORDER_ST1">Solid</SimpleData>
+					<SimpleData name="BORDER_CO1">RGB(0,255,0)</SimpleData>
+					<SimpleData name="BORDER_WI1">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.18749963991631,19.72620858431627,0 79.18790340690855,19.72621523313776,0 79.18848314147498,19.72692938953558,0 79.18794836823577,19.72815400456772,0 79.18743166668794,19.72818945629036,0 79.18749963991631,19.72620858431627,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>DEWARA PIT</name>
+			<styleUrl>#falseColor98</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Maratha_ML_1_Area_SSSSSSSSISSSI">
+					<SimpleData name="GM_LAYER">PIT_AREA-95_89_HA_</SimpleData>
+					<SimpleData name="LAYER">PIT_AREA-95_89_HA_</SimpleData>
+					<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+					<SimpleData name="MAP_NAME">ML I_PIT_AREA-95_89_HA_.shp</SimpleData>
+					<SimpleData name="ELEVATION">0.0</SimpleData>
+					<SimpleData name="CLOSED">YES</SimpleData>
+					<SimpleData name="BORDER_STY">Solid</SimpleData>
+					<SimpleData name="BORDER_COL">RGB(0,0,255)</SimpleData>
+					<SimpleData name="BORDER_WID">1</SimpleData>
+					<SimpleData name="FILL_STYLE">No Fill</SimpleData>
+					<SimpleData name="BORDER_ST1">Solid</SimpleData>
+					<SimpleData name="BORDER_CO1">RGB(0,0,255)</SimpleData>
+					<SimpleData name="BORDER_WI1">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.19847343014091,19.69982498347357,0 79.19811323242398,19.70025203750483,0 79.19777080138101,19.70057819270583,0 79.19741580109105,19.70067263966185,0 79.19718287744952,19.70081239624428,0 79.19723614422503,19.70092113349189,0 79.19706075046467,19.70111148902298,0 79.19698885917431,19.701143982263,0 79.19684706232101,19.70123244374786,0 79.19678220294389,19.70130761523465,0 79.19673231996023,19.70141887525237,0 79.19671073229938,19.70148439967266,0 79.1966191535725,19.70158494102474,0 79.19648565843079,19.70196441453428,0 79.19648139162025,19.70220432591201,0 79.19640004752803,19.70239119100552,0 79.19622733828469,19.70238096294964,0 79.19618243401614,19.70253649296779,0 79.19617065166288,19.70255714251881,0 79.19603803570179,19.70264098584762,0 79.19591211986551,19.70268275515271,0 79.19577720315483,19.70307127522486,0 79.19565591327357,19.703156397464,0 79.19558508239852,19.70332303965317,0 79.19543516158836,19.70347333950194,0 79.19540306221369,19.70348517717186,0 79.19520465769415,19.70371589341753,0 79.19518044544905,19.70379600997244,0 79.1948673223738,19.70415460562897,0 79.1946093888634,19.70448498444171,0 79.19437135030853,19.70475766739449,0 79.19396298124053,19.70512995466243,0 79.19355157023296,19.70535844217362,0 79.19340730539108,19.70553136266183,0 79.19311060324463,19.70568880647857,0 79.19305442211277,19.70579198335645,0 79.1929672632404,19.70571184541025,0 79.19277844036442,19.70582717384849,0 79.19269565705353,19.70589172982354,0 79.19259432767406,19.70601248921558,0 79.19252136380935,19.7061215198563,0 79.19231104874849,19.70623791962804,0 79.19204305798799,19.70612143260673,0 79.19198096223077,19.70590758927169,0 79.19185441077458,19.7058885391407,0 79.19175984850621,19.70588863955234,0 79.19163643160219,19.70584945946157,0 79.19145144370879,19.70574048807249,0 79.19125457602583,19.70596053687615,0 79.19108500873755,19.70594121149126,0 79.19102630844331,19.70581911911277,0 79.1909258256153,19.70574066158953,0 79.1909903168401,19.70543937691501,0 79.19099080700448,19.70519050939074,0 79.19082208618777,19.70509683775293,0 79.19070422203988,19.70493382305779,0 79.19077741614514,19.70476365690122,0 79.19082655256716,19.70458431393299,0 79.19101929063646,19.70451679939586,0 79.19116175089198,19.7043619839004,0 79.19136252899796,19.70429620317078,0 79.19155253831343,19.70411754861847,0 79.19174124450443,19.70396314464314,0 79.19192059004352,19.70382515027033,0 79.19211671836966,19.7037214985355,0 79.1921269843232,19.7036915475849,0 79.19223415797235,19.70352592370681,0 79.19225597164018,19.70350219576308,0 79.19238352308172,19.70321648717645,0 79.19257013265131,19.70296750750165,0 79.19269141965826,19.70275113981508,0 79.1926993861441,19.70267453476178,0 79.19276945731669,19.70252990085733,0 79.19290830189675,19.70229839808554,0 79.1930197910573,19.70218914090379,0 79.19309191197841,19.70204114895198,0 79.19320917749762,19.70193050445234,0 79.19330722126149,19.70173254724427,0 79.19347004744903,19.70160942542553,0 79.193475963404,19.70146479548847,0 79.19341764828526,19.70137631231176,0 79.19351698169864,19.70121890122499,0 79.19360510016884,19.70107319295487,0 79.19376991703935,19.70093324336455,0 79.19381417526931,19.70076234157063,0 79.19379080931866,19.70062530301897,0 79.19384308071507,19.70048233215909,0 79.19390708008659,19.70030910872142,0 79.19407058335626,19.7000931828456,0 79.1941043335213,19.69988711613546,0 79.19419863838262,19.69980792920493,0 79.19434073850972,19.69971599822239,0 79.19439635030409,19.69953536395085,0 79.19450651734122,19.69941360800568,0 79.19455033219249,19.69926544911001,0 79.19469723200272,19.69913637782763,0 79.19496819203654,19.69906902418992,0 79.19503053248577,19.69896297072175,0 79.19508089270697,19.69886818688085,0 79.19508148384591,19.69881547883493,0 79.19513617291027,19.69877135606633,0 79.19512793275454,19.69872197467843,0 79.19512866297343,19.69865686351681,0 79.19511163847631,19.69862124796962,0 79.19511000500835,19.69853385734164,0 79.19512955600516,19.69843210708542,0 79.19517807619127,19.69837819239283,0 79.1952471306198,19.69827997278479,0 79.19534355167447,19.69822736410829,0 79.19537453544122,19.69818921351089,0 79.19554668027588,19.69813708719414,0 79.19566250806652,19.69811225474645,0 79.19573403934159,19.6981039069619,0 79.1958221213697,19.69809572557893,0 79.19596596675335,19.69795965699329,0 79.19610582981987,19.69800492507482,0 79.19617911151182,19.69804371149237,0 79.19631760739331,19.69811196361509,0 79.19654254054541,19.69828141513403,0 79.19661211829789,19.69841537240802,0 79.1969594836638,19.6987454607988,0 79.19716705910652,19.69870300248769,0 79.19732100000446,19.69880973552946,0 79.1976259719528,19.69873461445621,0 79.1978084921177,19.69861538077133,0 79.19833040920103,19.69868431335944,0 79.19863455673178,19.6988312101609,0 79.19869718073453,19.69900089406734,0 79.19864923638401,19.69934915727282,0 79.19847343014091,19.69982498347357,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>PIT</name>
+			<styleUrl>#falseColor8</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Maratha_ML_1_Area_SSSSSSSSISSSI">
+					<SimpleData name="GM_LAYER">PIT_AREA-95_89_HA_</SimpleData>
+					<SimpleData name="LAYER">PIT_AREA-95_89_HA_</SimpleData>
+					<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+					<SimpleData name="MAP_NAME">ML I_PIT_AREA-95_89_HA_.shp</SimpleData>
+					<SimpleData name="ELEVATION">0.0</SimpleData>
+					<SimpleData name="CLOSED">YES</SimpleData>
+					<SimpleData name="BORDER_STY">Solid</SimpleData>
+					<SimpleData name="BORDER_COL">RGB(0,0,255)</SimpleData>
+					<SimpleData name="BORDER_WID">1</SimpleData>
+					<SimpleData name="FILL_STYLE">No Fill</SimpleData>
+					<SimpleData name="BORDER_ST1">Solid</SimpleData>
+					<SimpleData name="BORDER_CO1">RGB(0,0,255)</SimpleData>
+					<SimpleData name="BORDER_WI1">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.20204160717195,19.69833534579436,0 79.20210657605406,19.69843904235138,0 79.20202083446192,19.69857429135878,0 79.20199979426185,19.69873643114241,0 79.20217405331732,19.69899100790856,0 79.20216470415956,19.69903122805662,0 79.20225709895597,19.69907450722642,0 79.20229371923654,19.69913009484613,0 79.2023232985166,19.69934939116276,0 79.20214577461654,19.69948092011437,0 79.20217122884667,19.69956643484107,0 79.20230612253033,19.69967536571067,0 79.20229910388763,19.69981099710159,0 79.20242728847836,19.70006432304061,0 79.20239925927804,19.70019382953039,0 79.20237610078384,19.70026491398635,0 79.20219869440086,19.70027437962762,0 79.2020219547969,19.70027363630098,0 79.20192640175095,19.69897092878112,0 79.20025825132024,19.69896378730279,0 79.20032225718172,19.70144686887667,0 79.20008420769557,19.70150374110947,0 79.20013678491971,19.70140290315277,0 79.20010118933909,19.70132545911522,0 79.20001487326869,19.70121206971923,0 79.19974185125677,19.70087374098466,0 79.19956619087127,19.70086596731612,0 79.19948243200029,19.70076809494529,0 79.19945667024705,19.70072397641328,0 79.19935807967003,19.7005749101363,0 79.19935141101183,19.70039908491916,0 79.19933715615738,19.70028381570398,0 79.19938195592363,19.70006092195684,0 79.19941505588051,19.69986163992708,0 79.19941700832821,19.69974940308039,0 79.1994468247392,19.69951722506885,0 79.19952442622549,19.69930920396783,0 79.19956958101534,19.69912088777215,0 79.19958576937336,19.69903460731797,0 79.19960219229911,19.69896453889487,0 79.19960742819626,19.69881715529345,0 79.19961593582323,19.69869719793934,0 79.19963409277368,19.69858196467496,0 79.19960798209711,19.69847373443408,0 79.19962762896323,19.69837242782751,0 79.19968362825195,19.69821527420716,0 79.19975351617286,19.69809450441899,0 79.19977976785934,19.69800023376759,0 79.19984793750403,19.69790164642155,0 79.19990155168693,19.69783804300413,0 79.19998369197282,19.69774780966857,0 79.20004429250389,19.69772183805331,0 79.20016702490157,19.69767005275618,0 79.20020424393543,19.69765610323524,0 79.20049463060451,19.69760149467053,0 79.20064877423273,19.69745959196087,0 79.20082355370334,19.69730789853501,0 79.20084215804765,19.69724615802782,0 79.20084920381122,19.69711192699066,0 79.20102837480998,19.69695463336018,0 79.2011533483435,19.69697301744331,0 79.20125379620389,19.6969795967371,0 79.20137442558398,19.69686899271153,0 79.20159199195849,19.69690982461942,0 79.20182481463786,19.69709490283881,0 79.20192359651219,19.69724495402233,0 79.20209717724642,19.69729167647136,0 79.20221627075431,19.69735485087946,0 79.20237386744445,19.69738985051677,0 79.20242631393751,19.69746046170311,0 79.20243810467706,19.69755902912322,0 79.20240084915004,19.69768883813587,0 79.20222847302034,19.69776273075066,0 79.20217305432492,19.69794485156613,0 79.20208045250071,19.69802785245797,0 79.20204399001771,19.6982287739901,0 79.20204160717195,19.69833534579436,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>PIT</name>
+			<styleUrl>#falseColor44</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Maratha_ML_1_Area_SSSSSSSSISSSI">
+					<SimpleData name="GM_LAYER">PIT_AREA-95_89_HA_</SimpleData>
+					<SimpleData name="LAYER">PIT_AREA-95_89_HA_</SimpleData>
+					<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+					<SimpleData name="MAP_NAME">ML I_PIT_AREA-95_89_HA_.shp</SimpleData>
+					<SimpleData name="ELEVATION">0.0</SimpleData>
+					<SimpleData name="CLOSED">YES</SimpleData>
+					<SimpleData name="BORDER_STY">Solid</SimpleData>
+					<SimpleData name="BORDER_COL">RGB(0,0,255)</SimpleData>
+					<SimpleData name="BORDER_WID">1</SimpleData>
+					<SimpleData name="FILL_STYLE">No Fill</SimpleData>
+					<SimpleData name="BORDER_ST1">Solid</SimpleData>
+					<SimpleData name="BORDER_CO1">RGB(0,0,255)</SimpleData>
+					<SimpleData name="BORDER_WI1">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.20802632012705,19.70296338909507,0 79.20800101325672,19.70302087299156,0 79.20805633526673,19.70305083614436,0 79.20811166694226,19.70308079035011,0 79.20816267923657,19.70310334544079,0 79.20820962448146,19.70315287699229,0 79.20820493807331,19.70321534901064,0 79.20827219438411,19.70321447124359,0 79.20833945080295,19.70321358441877,0 79.20838659706804,19.70326144683892,0 79.20843374336107,19.70330930924863,0 79.2084679193788,19.70336831731183,0 79.20849526259809,19.70331043032303,0 79.20852259625894,19.70325254322723,0 79.208549939436,19.70319465622632,0 79.20861792400656,19.70317975683392,0 79.20868589892274,19.70316486634632,0 79.20868704953659,19.70321769807767,0 79.20868881130524,19.70329875729361,0 79.20869058250274,19.70337982564252,0 79.20869234426787,19.70346088485734,0 79.20871665959906,19.70340092418012,0 79.20874096537329,19.70334096339686,0 79.20878255313754,19.70331023765823,0 79.20878303470272,19.70324276164461,0 79.20878351626503,19.70317528563047,0 79.20887579315432,19.70321228846831,0 79.20891349410692,19.70324014972413,0 79.20895119496619,19.70326802000545,0 79.20899853796743,19.70319253032259,0 79.20898175448143,19.70312347135145,0 79.20905570976186,19.70307383749094,0 79.20910937001609,19.70308459534159,0 79.20916303027893,19.7030953531767,0 79.2092085226934,19.70311334947858,0 79.20922079539993,19.70356441289184,0 79.20683231759072,19.70384760229285,0 79.2070759974644,19.70572265606874,0 79.20652642978671,19.7057693029445,0 79.20650963558616,19.70574913065295,0 79.20647002273724,19.70566027178772,0 79.20636063217631,19.70563866922446,0 79.20630380176709,19.70545220039648,0 79.20642684903135,19.70523751119543,0 79.20647174739794,19.70506716161218,0 79.20641543288832,19.70518330599478,0 79.20624243248903,19.70535439343711,0 79.20610732621402,19.70521577686637,0 79.20614029399873,19.70510852708635,0 79.20620082979171,19.7051033013842,0 79.20621537524742,19.70502637266669,0 79.20618337380313,19.70499898813432,0 79.20610718734279,19.70500094528357,0 79.20598776731867,19.70506753261393,0 79.20579810574863,19.70509232443741,0 79.20560219817371,19.70508146646377,0 79.20560472025181,19.70502475215017,0 79.20529693848358,19.70515693414951,0 79.20513655090285,19.705106331348,0 79.20508280319352,19.70512526339885,0 79.20494584875149,19.70512366613453,0 79.20487555218453,19.70510329945402,0 79.20476120724074,19.70510143601159,0 79.20455990490353,19.70504428571401,0 79.20418656431349,19.7048316752397,0 79.20408185543825,19.70474741882838,0 79.20400021424659,19.70455323343397,0 79.20383079726992,19.70462932303132,0 79.20374609349416,19.70466736781564,0 79.20359221534693,19.70476192416627,0 79.20347227363037,19.70485901773541,0 79.20330170443225,19.70490266395821,0 79.20320999804592,19.70494724671413,0 79.20309387708652,19.70506400153291,0 79.20298285006038,19.70517184903128,0 79.2028280631867,19.70531729929575,0 79.20276031790748,19.70529496246805,0 79.20268602507919,19.70533429026258,0 79.20261692219218,19.70540551760117,0 79.20242413276871,19.70560099104968,0 79.20225785407609,19.70573446507903,0 79.20197641788674,19.70585933288209,0 79.20213687515189,19.70599668814033,0 79.20208541467058,19.70608888337302,0 79.20205183422895,19.70612253747245,0 79.20193364211126,19.70609874415281,0 79.20123191915572,19.70616472593685,0 79.20081759886165,19.70616094965329,0 79.20254105779649,19.70418528002903,0 79.20274988388563,19.7040672807745,0 79.20250271862074,19.70305101625852,0 79.20293733702556,19.70302758371474,0 79.2030778390959,19.701643680136,0 79.20316161724908,19.70157795516577,0 79.20318721297325,19.70155926225128,0 79.20321873607442,19.70149326320169,0 79.20325024950385,19.70142727307533,0 79.20325298857738,19.70133767984022,0 79.2032557370738,19.70124809573776,0 79.20330286223906,19.70121212736025,0 79.20334997773968,19.70117616789988,0 79.20339869209312,19.70115340541542,0 79.20344740643367,19.70113064291665,0 79.20351710281238,19.70110887096473,0 79.20358678963733,19.70108709888299,0 79.20364044668042,19.70106659298633,0 79.20369409428078,19.70104607793883,0 79.20372031121656,19.70097626448517,0 79.20374652812728,19.70090645102536,0 79.20377273536899,19.70083664649069,0 79.20379895222959,19.70076683301865,0 79.20391958347649,19.70077886313895,0 79.2039001122083,19.7008565713122,0 79.2038806504554,19.70093427958238,0 79.20386117925028,19.70101197871467,0 79.20385081116378,19.70104737356215,0 79.20387812862576,19.70104117656105,0 79.20391155480691,19.70103558472343,0 79.20394343690086,19.70102061337982,0 79.20399006214622,19.70098949930925,0 79.20404287479973,19.70095923033052,0 79.20409296448139,19.70089247938104,0 79.20414008469996,19.70085527394724,0 79.20426956754318,19.70084742997924,0 79.20434257448105,19.7009151433741,0 79.20442049018827,19.70101826199731,0 79.20446490265647,19.70110330934497,0 79.204557851706,19.70105747423518,0 79.20476547532958,19.70104909828093,0 79.20507616485513,19.70098385555726,0 79.20529730836047,19.70100901056311,0 79.20548455012893,19.70101825900763,0 79.20555244369812,19.70100292615449,0 79.2056203371498,19.70098760230698,0 79.20568823069742,19.70097226940031,0 79.20576162890893,19.70093424820312,0 79.20583501765721,19.70089621783942,0 79.20590841580297,19.70085819657644,0 79.20598180448553,19.70082016614692,0 79.2060503284002,19.70078053937258,0 79.20611884274535,19.70074091246814,0 79.2061873570583,19.70070128553473,0 79.20625588087591,19.70066165867337,0 79.20633054336595,19.70062075083418,0 79.20640519628272,19.70057984285973,0 79.2064798585937,19.70053894398456,0 79.2065545209752,19.70049803604269,0 79.2066279088981,19.70047861455483,0 79.20670129669894,19.70045920206793,0 79.2067746749475,19.70043978944854,0 79.20684806282452,19.70042036786628,0 79.20693082864103,19.70043632186224,0 79.20701360390751,19.70045228495485,0 79.20709636976325,19.70046823887695,0 79.20716199801784,19.70045731689212,0 79.20722762626559,19.70044639488254,0 79.2072608359456,19.70044405183299,0 79.20735035829581,19.70039281574861,0 79.20740745251828,19.70035015852726,0 79.20748034566871,19.70035404719452,0 79.20755324825568,19.70035794496599,0 79.20762614141834,19.70036183357454,0 79.20771642707302,19.70034678218421,0 79.20777105262859,19.70034904000234,0 79.20788482127205,19.70028973854636,0 79.20796001478966,19.70024985640856,0 79.20803521791555,19.70020996530458,0 79.20811613603388,19.70018044203288,0 79.20819705401858,19.70015092775473,0 79.20827797197632,19.70012141343762,0 79.20835889001363,19.70009189004909,0 79.20843313028844,19.70005921546649,0 79.20850738007221,19.70002654095168,0 79.20858162039748,19.69999385727016,0 79.2086558701251,19.69996118268888,0 79.20873011028768,19.69992850797342,0 79.20881837637175,19.69990028167804,0 79.20890664253481,19.6998720463042,0 79.20899490856374,19.69984381991694,0 79.20908317456497,19.69981559348371,0 79.20917144064516,19.69978735797202,0 79.2092597065912,19.69975913144682,0 79.2093467082795,19.699762879552,0 79.20943370033201,19.69976663654684,0 79.20952070203577,19.69977038456825,0 79.20960770364081,19.6997741415802,0 79.20967905825655,19.6997265033462,0 79.20975042247488,19.69967885614865,0 79.20982694125205,19.69964785821155,0 79.20990346000202,19.6996168602394,0 79.20988532814197,19.6995634513676,0 79.20995259637208,19.69953717044136,0 79.21001483736863,19.69950608462844,0 79.21007707834248,19.69947499879193,0 79.21013407329201,19.69951186257348,0 79.21018133886518,19.69954390788685,0 79.21022860456425,19.6995759441566,0 79.21021803810123,19.69965263628333,0 79.21020748116207,19.69972932850886,0 79.21025482516495,19.69976605405455,0 79.21028746365617,19.69983412431797,0 79.21032009252946,19.69990220350873,0 79.21035273107192,19.69997027376361,0 79.21038536953345,19.70003835304666,0 79.21043062189908,19.70009474070309,0 79.21047587440222,19.70015111931774,0 79.21052236286981,19.70021431331246,0 79.21056884183581,19.7002775071967,0 79.21061533037427,19.70034070117219,0 79.21066180941109,19.70040389503722,0 79.21069287029199,19.70047635697067,0 79.210723931305,19.70054880986787,0 79.2107550017742,19.70062127189465,0 79.21078606283844,19.70069372478434,0 79.21074923180733,19.70075391484875,0 79.21071239131675,19.70081409576972,0 79.2106755602279,19.70087428581387,0 79.21059825495739,19.70088214968446,0 79.21052094957581,19.70089002255362,0 79.21044363475886,19.70089788625551,0 79.21032708408639,19.70089619072967,0 79.20998058388774,19.70089608398038,0 79.20978559016133,19.70086933566673,0 79.20971067967764,19.70090981279391,0 79.20962353569065,19.70109985039524,0 79.20959924349563,19.70114177951909,0 79.20915614853216,19.70118843908826,0 79.20917292232367,19.70180492417196,0 79.2091606043832,19.70182797243458,0 79.20917585977399,19.70191288421099,0 79.20917672767506,19.70194478217398,0 79.20888436463844,19.7018772042566,0 79.20871091545179,19.70190023733812,0 79.20840766885544,19.70187575313606,0 79.20828540984697,19.70190473091935,0 79.20830066889998,19.70199572236153,0 79.20842379613894,19.70211483354341,0 79.20828732461111,19.7026162416269,0 79.20827732583933,19.70266907594311,0 79.20826512910583,19.7027334739105,0 79.20832370833794,19.70276223386124,0 79.20838229702288,19.70279100292789,0 79.20845661229106,19.70280057040698,0 79.20853091814013,19.70281012872248,0 79.20860358455234,19.70291576022179,0 79.20853941430471,19.70290893801859,0 79.20847525349508,19.70290212492634,0 79.20841108326228,19.70289530267809,0 79.20832754105381,19.70288358685274,0 79.20824400839801,19.70287187109046,0 79.20816046632712,19.70286014615667,0 79.20807692416508,19.70284843021741,0 79.20805161733394,19.70290591412465,0 79.20802632012705,19.70296338909507,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>PIT</name>
+			<styleUrl>#falseColor105</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Maratha_ML_1_Area_SSSSSSSSISSSI">
+					<SimpleData name="GM_LAYER">PIT_AREA-95_89_HA_</SimpleData>
+					<SimpleData name="LAYER">PIT_AREA-95_89_HA_</SimpleData>
+					<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+					<SimpleData name="MAP_NAME">ML I_PIT_AREA-95_89_HA_.shp</SimpleData>
+					<SimpleData name="ELEVATION">0.0</SimpleData>
+					<SimpleData name="CLOSED">YES</SimpleData>
+					<SimpleData name="BORDER_STY">Solid</SimpleData>
+					<SimpleData name="BORDER_COL">RGB(0,0,255)</SimpleData>
+					<SimpleData name="BORDER_WID">1</SimpleData>
+					<SimpleData name="FILL_STYLE">No Fill</SimpleData>
+					<SimpleData name="BORDER_ST1">Solid</SimpleData>
+					<SimpleData name="BORDER_CO1">RGB(0,0,255)</SimpleData>
+					<SimpleData name="BORDER_WI1">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.19476062107464,19.71786253365809,0 79.19458376654141,19.71786843845198,0 79.19441155709887,19.71791228346772,0 79.19430149702121,19.71794030497632,0 79.19412629545468,19.71813560954619,0 79.19383584294108,19.7181570177301,0 79.19337484748883,19.71786253356589,0 79.19336920378369,19.71763778421263,0 79.19334248486989,19.71744827022553,0 79.19339475325819,19.71740159037587,0 79.19342004897163,19.71732073891778,0 79.19341418731391,19.71720172045889,0 79.19350003470068,19.71709065801633,0 79.1936550673679,19.71696852675618,0 79.1937778137878,19.71688656496335,0 79.193906799385,19.7168014760199,0 79.19406466507844,19.71672995494244,0 79.19407361699113,19.71663828798386,0 79.19405522994748,19.71650409617003,0 79.19414158541571,19.7163105904091,0 79.19404200085059,19.71622831426704,0 79.19397400012929,19.71604871761573,0 79.1938307369029,19.71604043502403,0 79.19373850689806,19.71594400236198,0 79.19367969192649,19.71576447414996,0 79.19366178029702,19.71569633805332,0 79.19355287231383,19.71575029593097,0 79.19348147528474,19.71576548688018,0 79.1932669490202,19.71583078935529,0 79.19318125364208,19.71581010627472,0 79.19306633363533,19.71572464761757,0 79.192977068307,19.71568836018735,0 79.19284508999408,19.71553426583096,0 79.19294883641318,19.7153396610113,0 79.19283062249453,19.71519067836468,0 79.19267872128707,19.71507572865437,0 79.19257555912934,19.71510200217477,0 79.19245587520852,19.71498861627254,0 79.19225198910613,19.71486138425774,0 79.1922554537325,19.71477411546171,0 79.19215293539872,19.71472500204161,0 79.19207046967615,19.71455321384223,0 79.19212573459914,19.71440878636549,0 79.19219819828879,19.71430176668993,0 79.19219361197959,19.71426401596322,0 79.19211486635665,19.71414876777571,0 79.19226022847994,19.71391560685446,0 79.19221459269568,19.71379950011624,0 79.19238640553122,19.71357314597948,0 79.19241865227251,19.71340636069734,0 79.19251736118355,19.71333080605292,0 79.19264235558482,19.71315882190691,0 79.1926256145497,19.71302899558111,0 79.19264828803296,19.7129959357426,0 79.19270491676637,19.71277728196971,0 79.19283224835777,19.71260776926955,0 79.19291203770338,19.7124459255319,0 79.19299317891652,19.71234372540182,0 79.19315371501602,19.71232189221916,0 79.19334942361102,19.71221150570479,0 79.19340906778531,19.71212966025713,0 79.19351351183376,19.71197109758986,0 79.19352643586861,19.71195362041631,0 79.19353010125896,19.71210174440814,0 79.19381383879602,19.71335823397297,0 79.19407946181332,19.71583293225359,0 79.196609536246,19.71574920738307,0 79.19659922307528,19.71579405190749,0 79.19651893231941,19.71584702428265,0 79.19641033186649,19.71581860246243,0 79.19624715376598,19.71584764499374,0 79.19609072740919,19.71582085865071,0 79.19585722364762,19.7160518170468,0 79.19567509387572,19.71625413202689,0 79.19558217889005,19.71630720812321,0 79.19545346868871,19.71642272469791,0 79.19538404612479,19.71659837770142,0 79.1952434466247,19.7166827353464,0 79.19507218830849,19.71678578163055,0 79.194930732629,19.7169701582,0 79.19490135446777,19.71716280866399,0 79.19527510503502,19.71743943080246,0 79.19538963007125,19.71747596107902,0 79.19556009280781,19.71754485074707,0 79.19572966053722,19.71759937874008,0 79.19561661923355,19.71777934513058,0 79.19577188689181,19.71777932996971,0 79.19586854857123,19.71787396136995,0 79.19584451448071,19.71808591995931,0 79.19570532639341,19.71829361325331,0 79.1954866485483,19.71850196846468,0 79.19509819493909,19.7184187714193,0 79.19509455030267,19.71817766560575,0 79.1951162403617,19.71807138170283,0 79.19506618325336,19.71791196991322,0 79.19476062107464,19.71786253365809,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>PIT</name>
+			<styleUrl>#falseColor93</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Maratha_ML_1_Area_SSSSSSSSISSSI">
+					<SimpleData name="GM_LAYER">PIT_AREA-95_89_HA_</SimpleData>
+					<SimpleData name="LAYER">PIT_AREA-95_89_HA_</SimpleData>
+					<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+					<SimpleData name="MAP_NAME">ML I_PIT_AREA-95_89_HA_.shp</SimpleData>
+					<SimpleData name="ELEVATION">0.0</SimpleData>
+					<SimpleData name="CLOSED">YES</SimpleData>
+					<SimpleData name="BORDER_STY">Solid</SimpleData>
+					<SimpleData name="BORDER_COL">RGB(0,0,255)</SimpleData>
+					<SimpleData name="BORDER_WID">1</SimpleData>
+					<SimpleData name="FILL_STYLE">No Fill</SimpleData>
+					<SimpleData name="BORDER_ST1">Solid</SimpleData>
+					<SimpleData name="BORDER_CO1">RGB(0,0,255)</SimpleData>
+					<SimpleData name="BORDER_WI1">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.2013906498039,19.71192763497771,0 79.20052013491276,19.71182780716217,0 79.20047835259884,19.71247074568012,0 79.1998866349807,19.71256036278245,0 79.19974564498638,19.71140878258673,0 79.19986878052698,19.71054047994487,0 79.20013599617702,19.70834756635863,0 79.20023670420902,19.70835873071159,0 79.20028568144461,19.70793876621121,0 79.20191642750672,19.70785897958127,0 79.20209923007188,19.7077450747362,0 79.20214479358349,19.70722013439348,0 79.20216141767935,19.70726589998688,0 79.20216571896488,19.70733404347073,0 79.20240648498667,19.70742611765465,0 79.2025425941584,19.70740414332034,0 79.2027865504913,19.70727550421245,0 79.20282991771499,19.70718924697322,0 79.202880820332,19.70704076779922,0 79.2029467504197,19.70699684952233,0 79.20298785811504,19.70692575838499,0 79.20311825860831,19.70689811693294,0 79.20326215814104,19.70681208843202,0 79.20341518659076,19.70681065264529,0 79.20350992995854,19.70686387680773,0 79.20355673555262,19.70686278778438,0 79.20368982283658,19.70678545774361,0 79.20375621239764,19.70670700586094,0 79.20388612405394,19.70669223263685,0 79.20400243441317,19.70740701849747,0 79.20401205057611,19.70753852575652,0 79.20411823619041,19.7079402811099,0 79.20436826307038,19.70783072245352,0 79.20438232282737,19.70782981557095,0 79.2044117307255,19.70858275069831,0 79.20389841060695,19.7085645118438,0 79.2021582141346,19.70898872406787,0 79.20213209195015,19.71019837606628,0 79.2013906498039,19.71192763497771,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>PIT</name>
+			<styleUrl>#falseColor71</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.18519350564718,19.72901931184448,0 79.18516774927991,19.72888306551004,0 79.18519581909838,19.72866678572343,0 79.18522558445491,19.72851286787757,0 79.18526327832426,19.72836951674297,0 79.1852956591969,19.72826994849371,0 79.18533525755718,19.72813161565372,0 79.1854143083148,19.72798312621984,0 79.18543760293494,19.72776682484589,0 79.18556408459268,19.72747597552151,0 79.18566592907206,19.72740321739541,0 79.1857815116406,19.72723845119553,0 79.18593416702501,19.72704425776057,0 79.18607760930841,19.72687575229508,0 79.18621162887173,19.72675476109309,0 79.18636241929151,19.72662359099814,0 79.1865059734552,19.72653178337537,0 79.18669839333599,19.72643894289822,0 79.18688494376788,19.7263175334515,0 79.18705386832536,19.7262706670392,0 79.1872359183229,19.72624211257163,0 79.18739211874149,19.72621496238753,0 79.18743144108524,19.72627278112752,0 79.1873211774268,19.72643249514099,0 79.18721796409451,19.72662613118547,0 79.18704273637178,19.72673060073955,0 79.18683076641696,19.72677151631013,0 79.18663262086409,19.72684764305224,0 79.18660162645038,19.72692700198546,0 79.18662188921944,19.72707772526185,0 79.18659735302771,19.72717753547435,0 79.18648852745541,19.72726630016939,0 79.18640847760693,19.72738215729757,0 79.18645392287543,19.72743056166524,0 79.18644666912559,19.72758553508727,0 79.18634386591305,19.72794392988946,0 79.18629547379064,19.728066684951,0 79.18629614481337,19.72812600565719,0 79.18629462646952,19.7282434702904,0 79.18626118221502,19.72838982347132,0 79.18618898642023,19.72848444845702,0 79.18613393457201,19.72853766273765,0 79.18604340757767,19.72864945748824,0 79.18590467240053,19.72878833724028,0 79.1857496450873,19.72887507048955,0 79.18568711067171,19.72891288443401,0 79.18560769736182,19.7289694889919,0 79.18557429351542,19.72896032430464,0 79.18549350923719,19.72901098053485,0 79.18545573531398,19.72907798957279,0 79.18542183259926,19.72910250749616,0 79.18527865565534,19.72908754246186,0 79.18519350564718,19.72901931184448,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>PIT</name>
+			<styleUrl>#falseColor40</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.18644276968176,19.72617384525034,0 79.18655964181337,19.72608964632649,0 79.18678355331461,19.72594859348007,0 79.18694263992612,19.725902364368,0 79.18703204661287,19.72593512122967,0 79.18707222597749,19.72606187810918,0 79.18706787286202,19.72608148609316,0 79.18694980901054,19.72617594198094,0 79.18692117177154,19.7261972595235,0 79.18684914823888,19.72633530548192,0 79.18673725748668,19.72642281986645,0 79.18663807144623,19.72640451249226,0 79.18652059453632,19.72628270701044,0 79.18644276968176,19.72617384525034,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SUB GRADE Stack</name>
+			<styleUrl>#falseColor23</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Maratha_ML_1_Area_SSSSSSSSISSSI">
+					<SimpleData name="GM_LAYER">SUB_GRD_AUG_21_ML-I</SimpleData>
+					<SimpleData name="LAYER">SUB_GRD_AUG_21_ML-I</SimpleData>
+					<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+					<SimpleData name="MAP_NAME">ML I_SUB_GRD_AUG_21_ML-I.shp</SimpleData>
+					<SimpleData name="ELEVATION">0.0</SimpleData>
+					<SimpleData name="CLOSED">YES</SimpleData>
+					<SimpleData name="BORDER_STY">Solid</SimpleData>
+					<SimpleData name="BORDER_COL">RGB(0,255,255)</SimpleData>
+					<SimpleData name="BORDER_WID">1</SimpleData>
+					<SimpleData name="FILL_STYLE">No Fill</SimpleData>
+					<SimpleData name="BORDER_ST1">Solid</SimpleData>
+					<SimpleData name="BORDER_CO1">RGB(0,255,255)</SimpleData>
+					<SimpleData name="BORDER_WI1">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.20348398045908,19.69788866870729,0 79.20347724018204,19.69780068573106,0 79.20342834449262,19.69764451239049,0 79.20338377473998,19.69748383727271,0 79.20347455121319,19.69723075073155,0 79.20363021961438,19.69710801515086,0 79.20383722920293,19.69706687776591,0 79.20403229966033,19.69699062661845,0 79.20428158581711,19.69693815389879,0 79.20458707102317,19.69692609337904,0 79.20477529461401,19.69691278575895,0 79.20497677104709,19.69685434251674,0 79.20515991330798,19.69682277072721,0 79.20542590574566,19.69684179885732,0 79.20578143676408,19.69693464207923,0 79.20598189525045,19.6970685477268,0 79.20630299117335,19.69740593649085,0 79.20641029823747,19.69773717116336,0 79.20639218566944,19.69807697073828,0 79.20622923346832,19.69816560063136,0 79.20596025936744,19.69831156442249,0 79.20584007965239,19.6984372483482,0 79.20550382778687,19.69863281586346,0 79.20536470103072,19.69865100102907,0 79.2052030321131,19.69877417759062,0 79.20480466646144,19.69887860238332,0 79.20451591565821,19.69889149128858,0 79.20424308585166,19.69893737134297,0 79.20397175319864,19.69895117710531,0 79.20379473195921,19.69890285120958,0 79.20353026916199,19.69869093716695,0 79.20338662342897,19.69853952753064,0 79.20340625688186,19.69833724178113,0 79.20348398045908,19.69788866870729,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>WASTE DUMP</name>
+			<styleUrl>#falseColor29</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.20516304268338,19.69648418404305,0 79.20513678113051,19.69651185120056,0 79.20511666326242,19.69658918027018,0 79.20505506899893,19.69668127250182,0 79.20499973755682,19.69675038518708,0 79.20476122750816,19.69681208303384,0 79.20464387294309,19.69685629397166,0 79.2044823426549,19.69686622910128,0 79.20447591373875,19.69686543112549,0 79.20418410782361,19.69686709115057,0 79.2039675595155,19.69684783181398,0 79.20393845062736,19.69684421724585,0 79.20391257679945,19.69684100515707,0 79.2038996399066,19.69683939920345,0 79.20374475536417,19.69683172473027,0 79.20373386784384,19.69686624265489,0 79.20353576815144,19.69692674780652,0 79.20335818969662,19.69695820571323,0 79.20327084504042,19.69682764432079,0 79.2031741141359,19.69687464720619,0 79.2031678915118,19.69694214832888,0 79.20314433806979,19.69726011985457,0 79.20301795478782,19.69736408259033,0 79.20277609677909,19.69743032832448,0 79.20260846424941,19.69739713729833,0 79.20253419133968,19.69735149156985,0 79.20231543136973,19.69724487519712,0 79.20202983746285,19.69711790928137,0 79.20173764760216,19.6968958946673,0 79.20154169249032,19.69673660482665,0 79.20149012851336,19.69644444600217,0 79.20148631220911,19.69626038944341,0 79.20147267629298,19.69609892706992,0 79.20145247201253,19.69589553719697,0 79.20144355139878,19.69567716231721,0 79.20143661332241,19.69552901379446,0 79.20172102780244,19.69545662152818,0 79.20194301676867,19.69541743890377,0 79.20214551240703,19.69538582418282,0 79.20253890088038,19.6953105391884,0 79.203303068182,19.69516721266877,0 79.20377899701609,19.69507259838741,0 79.20422371564922,19.69499082636568,0 79.20453923086102,19.69492455928375,0 79.20486542055872,19.69486921734841,0 79.20492592104769,19.69494559710084,0 79.20491837074781,19.69503504046751,0 79.20498698778366,19.69518954161511,0 79.20502970807034,19.69533893215491,0 79.20508030499798,19.69556748289895,0 79.20512295077462,19.69576686491597,0 79.20519683117254,19.69597638281394,0 79.20521411245581,19.69617847696372,0 79.20522258708537,19.69635342531551,0 79.20516304268338,19.69648418404305,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>WASTE DUMP</name>
+			<styleUrl>#falseColor102</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.19094284315295,19.70096368304004,0 79.19089094281692,19.70095387612649,0 79.19080617059417,19.70091725848972,0 79.19083026657859,19.70077886774404,0 79.19089559428673,19.70062751430672,0 79.19100324415292,19.70053000136993,0 79.19111557067492,19.70044907069155,0 79.19125587065332,19.70042002570073,0 79.19141021351207,19.70016250952835,0 79.19149044135858,19.69988731467948,0 79.19149622467501,19.69968466091075,0 79.19144452714674,19.6995365000022,0 79.19152752853628,19.69938367509413,0 79.19177589069848,19.69941191292296,0 79.19188398050154,19.69950323215202,0 79.19191077790434,19.69965954824882,0 79.19198210963877,19.69989773960361,0 79.1920782118612,19.69998344880107,0 79.19228657896336,19.70001821751579,0 79.19227233699507,19.70025716252768,0 79.19222954420515,19.70054627798149,0 79.19199605267107,19.70057614769358,0 79.19188977298168,19.70066895876148,0 79.19172846734959,19.70071392058026,0 79.19160917319924,19.70075039677445,0 79.19144476891843,19.70077125645212,0 79.19126527414888,19.70078587912062,0 79.1911006930427,19.70085424580849,0 79.19100912760219,19.70095561224157,0 79.19094284315295,19.70096368304004,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>WASTE DUMP</name>
+			<styleUrl>#falseColor91</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.19073875505205,19.70041042223983,0 79.19081894928622,19.70010168472182,0 79.19097635103968,19.69971339278766,0 79.19119144604296,19.69906340731456,0 79.19140455076932,19.69861758727708,0 79.19152691688933,19.69854499276984,0 79.19163820535381,19.69855742158172,0 79.19163440370188,19.6986890118363,0 79.19154457243788,19.69888514982268,0 79.19145138121446,19.69919394175692,0 79.19137226318384,19.6994324719808,0 79.19129043864807,19.69961325176321,0 79.19129252325872,19.69976854913413,0 79.19149562984957,19.69988361518379,0 79.19141134657843,19.70015520977262,0 79.19126049796621,19.70041716706579,0 79.19110344916017,19.70045515061881,0 79.19095260237283,19.70056811170799,0 79.19088377295526,19.70064492990403,0 79.19082721785185,19.70080230522863,0 79.19080028836775,19.70091949862174,0 79.19067484259833,19.7009062062408,0 79.19054020648503,19.70084616916532,0 79.19073875505205,19.70041042223983,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Soil Dump</name>
+			<styleUrl>#falseColor104</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Maratha_ML_1_Area_SSSSSSSSISSSI">
+					<SimpleData name="GM_LAYER">SOIL_DUMP_AUG_21_ML-I</SimpleData>
+					<SimpleData name="LAYER">SOIL_DUMP_AUG_21_ML-I</SimpleData>
+					<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+					<SimpleData name="MAP_NAME">ML I_SOIL_DUMP_AUG_21_ML-I.shp</SimpleData>
+					<SimpleData name="ELEVATION">264.487</SimpleData>
+					<SimpleData name="CLOSED">YES</SimpleData>
+					<SimpleData name="BORDER_STY">Solid</SimpleData>
+					<SimpleData name="BORDER_COL">RGB(255,0,255)</SimpleData>
+					<SimpleData name="BORDER_WID">1</SimpleData>
+					<SimpleData name="FILL_STYLE">No Fill</SimpleData>
+					<SimpleData name="BORDER_ST1">Solid</SimpleData>
+					<SimpleData name="BORDER_CO1">RGB(255,0,255)</SimpleData>
+					<SimpleData name="BORDER_WI1">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.18866124562508,19.70526429954872,0 79.18859414362004,19.7052489848025,0 79.1884539658858,19.70514532135278,0 79.18838012088072,19.70502688288173,0 79.18838440873991,19.7049202504338,0 79.18846304856483,19.70476715415572,0 79.18857090844479,19.70456272025526,0 79.18868136452819,19.70431746534552,0 79.18877733581911,19.7041049319131,0 79.18890769099441,19.70384275575555,0 79.18900963615235,19.70363615967215,0 79.18914046401397,19.70339528533919,0 79.18921822566362,19.70323327576349,0 79.18928005809467,19.70310775935576,0 79.18934664303514,19.70311222360723,0 79.18938352507736,19.70315466396387,0 79.18927896576373,19.70332992443453,0 79.18917365303444,19.70354361548474,0 79.18906934356067,19.70377244271455,0 79.18894881809116,19.70402043405791,0 79.18878612734565,19.70438428969691,0 79.18872086238012,19.7045498116177,0 79.1886265221703,19.70476797744687,0 79.18857041096375,19.70488477845323,0 79.1885713594117,19.70498404943252,0 79.18872152666816,19.70505783875901,0 79.18866124562508,19.70526429954872,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Soil Dump</name>
+			<styleUrl>#falseColor27</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.18731714922365,19.70646795328386,0 79.18751835861224,19.7061536494975,0 79.18758956715264,19.7062057715047,0 79.18759562834867,19.70630138285813,0 79.18734701112902,19.70693486831454,0 79.18709096649154,19.7069939437829,0 79.18731714922365,19.70646795328386,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Soil Dump</name>
+			<styleUrl>#falseColor9</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.18668067653969,19.7078212207254,0 79.18685507276301,19.70751296838535,0 79.18689432281641,19.70794714024099,0 79.18681507694734,19.70813839855511,0 79.18670051587472,19.70817400701674,0 79.18658135931754,19.708136613696,0 79.18668067653969,19.7078212207254,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Soil Dump</name>
+			<styleUrl>#falseColor33</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Maratha_ML_1_Area_SSSSSSSSISSSI">
+					<SimpleData name="GM_LAYER">GCP</SimpleData>
+					<SimpleData name="LAYER">GCP</SimpleData>
+					<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+					<SimpleData name="MAP_NAME">ML I_GCP.shp</SimpleData>
+					<SimpleData name="ELEVATION">0.0</SimpleData>
+					<SimpleData name="CLOSED">YES</SimpleData>
+					<SimpleData name="BORDER_STY">Solid</SimpleData>
+					<SimpleData name="BORDER_COL">RGB(255,0,255)</SimpleData>
+					<SimpleData name="BORDER_WID">1</SimpleData>
+					<SimpleData name="FILL_STYLE">No Fill</SimpleData>
+					<SimpleData name="BORDER_ST1">Solid</SimpleData>
+					<SimpleData name="BORDER_CO1">RGB(255,0,255)</SimpleData>
+					<SimpleData name="BORDER_WI1">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.20430919371864,19.7059574826962,0 79.2043829377381,19.70782977590791,0 79.20436826307038,19.70783072245352,0 79.20411823619041,19.7079402811099,0 79.2041120342371,19.707919485879,0 79.2039161483217,19.70682478111221,0 79.20388612405394,19.70669223263685,0 79.20369405105028,19.70670402301393,0 79.20368565342277,19.70661690238206,0 79.20374654287957,19.70649938320275,0 79.20376601684836,19.70643126563628,0 79.20382649642328,19.70634508874898,0 79.20382738007702,19.70630453657724,0 79.20386391353975,19.70623783714022,0 79.20389938218305,19.70616317869192,0 79.20395134558736,19.70609869572032,0 79.20408374132604,19.70603186481902,0 79.20418106857647,19.70599028304052,0 79.20419332852408,19.70589960726903,0 79.20422801093251,19.70584626057637,0 79.20430826764755,19.70580434452462,0 79.20440507345616,19.7057671843048,0 79.20450884223897,19.70572051119574,0 79.20461022084255,19.70569341909226,0 79.20473780953148,19.70566836926217,0 79.20484196391804,19.70564030829994,0 79.20494680619066,19.70564829688185,0 79.20505369850615,19.70568015211199,0 79.20514619527592,19.70573030610806,0 79.20525331079892,19.70577797175257,0 79.2053514658395,19.70580604457528,0 79.20540662782328,19.70586534698446,0 79.20430919371864,19.7059574826962,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Soil Dump</name>
+			<styleUrl>#falseColor99</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Maratha_ML_1_Area_SSSSSSSSISSSI">
+					<SimpleData name="GM_LAYER">SOIL_DUMP_AUG_21_ML-I</SimpleData>
+					<SimpleData name="LAYER">SOIL_DUMP_AUG_21_ML-I</SimpleData>
+					<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+					<SimpleData name="MAP_NAME">ML I_SOIL_DUMP_AUG_21_ML-I.shp</SimpleData>
+					<SimpleData name="ELEVATION">266.059</SimpleData>
+					<SimpleData name="CLOSED">YES</SimpleData>
+					<SimpleData name="BORDER_STY">Solid</SimpleData>
+					<SimpleData name="BORDER_COL">RGB(255,0,255)</SimpleData>
+					<SimpleData name="BORDER_WID">1</SimpleData>
+					<SimpleData name="FILL_STYLE">No Fill</SimpleData>
+					<SimpleData name="BORDER_ST1">Solid</SimpleData>
+					<SimpleData name="BORDER_CO1">RGB(255,0,255)</SimpleData>
+					<SimpleData name="BORDER_WI1">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.1896689287301,19.70330808556831,0 79.18979411137367,19.70337372958997,0 79.18960370539823,19.70362454277048,0 79.18946926346489,19.70381117840709,0 79.18928565685597,19.70409719029448,0 79.18925860427741,19.70423672189011,0 79.18929200422484,19.70436174163425,0 79.18937581950016,19.70441636684438,0 79.18951558971033,19.70436236521438,0 79.18953409578455,19.70448625284714,0 79.1894289181014,19.70459478627042,0 79.18932772154075,19.7046612311551,0 79.1892441537001,19.70471146631905,0 79.1891323344468,19.70480622554659,0 79.18901475587998,19.70493820916115,0 79.18882946676877,19.70485108875179,0 79.18881959499159,19.70472229673729,0 79.18887325555075,19.70459182875024,0 79.18894555235649,19.70443191763894,0 79.18902925652398,19.70427429635135,0 79.18910466270877,19.70413425982612,0 79.18919674936018,19.70397960848915,0 79.18931793109161,19.70372733156952,0 79.18943466109505,19.70348196322272,0 79.18954811240013,19.7032593166594,0 79.1896689287301,19.70330808556831,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Soil Dump</name>
+			<styleUrl>#falseColor10</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Maratha_ML_1_Area_SSSSSSSSISSSI">
+					<SimpleData name="GM_LAYER">SOIL_DUMP_AUG_21_ML-I</SimpleData>
+					<SimpleData name="LAYER">SOIL_DUMP_AUG_21_ML-I</SimpleData>
+					<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+					<SimpleData name="MAP_NAME">ML I_SOIL_DUMP_AUG_21_ML-I.shp</SimpleData>
+					<SimpleData name="ELEVATION">0.0</SimpleData>
+					<SimpleData name="CLOSED">YES</SimpleData>
+					<SimpleData name="BORDER_STY">Solid</SimpleData>
+					<SimpleData name="BORDER_COL">RGB(255,0,255)</SimpleData>
+					<SimpleData name="BORDER_WID">1</SimpleData>
+					<SimpleData name="FILL_STYLE">No Fill</SimpleData>
+					<SimpleData name="BORDER_ST1">Solid</SimpleData>
+					<SimpleData name="BORDER_CO1">RGB(255,0,255)</SimpleData>
+					<SimpleData name="BORDER_WI1">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.19034798189332,19.70208135318623,0 79.19052472307033,19.70249886961575,0 79.19053600497337,19.70271770680109,0 79.19037903179536,19.70290438925102,0 79.19018153423029,19.70295989243851,0 79.1899609832447,19.70291146013394,0 79.18978672163747,19.70282360350154,0 79.18975139034066,19.70276422154305,0 79.18972440580964,19.70268470346872,0 79.18968311808693,19.70252806954331,0 79.18977319363842,19.70236019966263,0 79.18997186772386,19.70224168445754,0 79.1899919484741,19.7020505066255,0 79.19002466718298,19.70192909624326,0 79.19009050376187,19.70175628320795,0 79.19026033620494,19.70154589011159,0 79.19046232473966,19.70139494628025,0 79.19065076955933,19.70128553369014,0 79.1909189589328,19.70128939339826,0 79.19112509260752,19.70134433056792,0 79.19130097593697,19.70146567328836,0 79.19141249252405,19.70155294989939,0 79.19156112646998,19.70168361037004,0 79.19165763187998,19.70175352069237,0 79.19170066423067,19.70188843667541,0 79.19166322792222,19.70203167350407,0 79.19166461873176,19.70217986525668,0 79.19163091270377,19.70241419453101,0 79.19153947933134,19.70251489512699,0 79.19141765793343,19.70262832137316,0 79.19124775011814,19.70277500369037,0 79.19099646265936,19.70287489908551,0 79.19092234902249,19.70285680087406,0 79.19071311614414,19.70255436960413,0 79.19063539977448,19.7023428989098,0 79.19049668922631,19.70210223747392,0 79.19034798189332,19.70208135318623,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Soil Dump</name>
+			<styleUrl>#falseColor22</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Maratha_ML_1_Area_SSSSSSSSISSSI">
+					<SimpleData name="GM_LAYER">SOIL_DUMP_AUG_21_ML-I</SimpleData>
+					<SimpleData name="LAYER">SOIL_DUMP_AUG_21_ML-I</SimpleData>
+					<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+					<SimpleData name="MAP_NAME">ML I_SOIL_DUMP_AUG_21_ML-I.shp</SimpleData>
+					<SimpleData name="ELEVATION">0.0</SimpleData>
+					<SimpleData name="CLOSED">YES</SimpleData>
+					<SimpleData name="BORDER_STY">Solid</SimpleData>
+					<SimpleData name="BORDER_COL">RGB(255,0,255)</SimpleData>
+					<SimpleData name="BORDER_WID">1</SimpleData>
+					<SimpleData name="FILL_STYLE">No Fill</SimpleData>
+					<SimpleData name="BORDER_ST1">Solid</SimpleData>
+					<SimpleData name="BORDER_CO1">RGB(255,0,255)</SimpleData>
+					<SimpleData name="BORDER_WI1">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.20580373065833,19.70039411375104,0 79.20575280689616,19.7002824958695,0 79.20584359413533,19.70006354877476,0 79.20610308732495,19.70001193537169,0 79.20617966000854,19.69991333119471,0 79.20633242067834,19.69986963775896,0 79.20646248144374,19.69978882488569,0 79.20645252786944,19.69966243464366,0 79.20659329128002,19.69960081957161,0 79.20677258550649,19.69955816681276,0 79.20690300953289,19.69957254237439,0 79.20695768185129,19.69950111029749,0 79.20710038238224,19.69951531986194,0 79.20707865141378,19.69965930646482,0 79.20708296470083,19.69979753186135,0 79.2069799028708,19.6999441888288,0 79.20685169008385,19.70005008335694,0 79.20670454690389,19.70017590445536,0 79.20655224953386,19.7002523741714,0 79.2063723894591,19.70026292565249,0 79.20631214765172,19.70039046578647,0 79.20612378262331,19.70052996204885,0 79.20591592250015,19.70049305082061,0 79.20580373065833,19.70039411375104,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Soil Dump</name>
+			<styleUrl>#falseColor81</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.20608616831196,19.6995365521496,0 79.20603160010698,19.69950730603232,0 79.20600559210828,19.69934767434433,0 79.20599237492124,19.69915867556078,0 79.20601893715569,19.69896661310595,0 79.20614751893042,19.69873021540867,0 79.2062970719951,19.69851170204644,0 79.20655298136012,19.69838755549498,0 79.20669471792527,19.69836281283423,0 79.20686811018662,19.69835454476977,0 79.2069053233531,19.69836505404611,0 79.20703519350182,19.6983949084712,0 79.2072533660688,19.69844939430169,0 79.20745170680127,19.69860613970139,0 79.20751834502714,19.69881290416307,0 79.20750839488717,19.69892133014021,0 79.20742042053216,19.69904219444058,0 79.20716659724529,19.69921819178991,0 79.20679085123749,19.69934296485473,0 79.20655303337759,19.69943301565716,0 79.20646116811174,19.69947936734627,0 79.20636714433967,19.69950668523517,0 79.2061684606978,19.69953598666367,0 79.20608616831196,19.6995365521496,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Infrastructure</name>
+			<styleUrl>#falseColor92</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.20757024557581,19.69530207514401,0 79.2084322589828,19.69520702658108,0 79.20855000651373,19.6959560456835,0 79.20769272815849,19.69607419468565,0 79.20757024557581,19.69530207514401,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Plantation</name>
+			<styleUrl>#falseColor41</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.18463239357078,19.73610322159116,0 79.18458313413187,19.73586622900259,0 79.18611740394121,19.73573508451206,0 79.18717829847513,19.73565846762556,0 79.18787412500934,19.73559175736586,0 79.18866258665972,19.7355133721516,0 79.18964142416723,19.73542074019608,0 79.19001614719886,19.73541412891731,0 79.19006291517384,19.73565529354229,0 79.18691736543317,19.73590125473268,0 79.18534899011334,19.73603556891135,0 79.18463239357078,19.73610322159116,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Plantation</name>
+			<styleUrl>#falseColor2</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Maratha_ML_1_Area_SSSSSSSSISSSI">
+					<SimpleData name="GM_LAYER">PLANTATION_ML-I</SimpleData>
+					<SimpleData name="LAYER">PLANTATION_ML-I</SimpleData>
+					<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+					<SimpleData name="MAP_NAME">ML I_PLANTATION_ML-I.shp</SimpleData>
+					<SimpleData name="ELEVATION">246.692</SimpleData>
+					<SimpleData name="CLOSED">YES</SimpleData>
+					<SimpleData name="BORDER_STY">Solid</SimpleData>
+					<SimpleData name="BORDER_COL">RGB(0,255,0)</SimpleData>
+					<SimpleData name="BORDER_WID">1</SimpleData>
+					<SimpleData name="FILL_STYLE">No Fill</SimpleData>
+					<SimpleData name="BORDER_ST1">Solid</SimpleData>
+					<SimpleData name="BORDER_CO1">RGB(0,255,0)</SimpleData>
+					<SimpleData name="BORDER_WI1">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.18937122253735,19.71863637085946,0 79.18930246528444,19.71766120913131,0 79.18911381934075,19.71667455969583,0 79.18928259906393,19.71663771726257,0 79.18945524556442,19.71770717465594,0 79.18951651938937,19.71861332784461,0 79.18947787700533,19.71870590567735,0 79.18931594274449,19.71879235496944,0 79.18901454198135,19.71886231110506,0 79.18865546041967,19.71891352636126,0 79.18811266185664,19.71898312444011,0 79.18842464878996,19.719920628902,0 79.18866821145203,19.72060572768691,0 79.18854371479013,19.72064492186502,0 79.18819791331273,19.71966500519818,0 79.18801553014681,19.71912428716839,0 79.18793077948592,19.71887687469669,0 79.18844712352735,19.71881494552471,0 79.18900404050535,19.71874720873946,0 79.18937122253735,19.71863637085946,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Plantation</name>
+			<styleUrl>#falseColor79</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Maratha_ML_1_Area_SSSSSSSSISSSI">
+					<SimpleData name="GM_LAYER">PLANTATION_ML-I</SimpleData>
+					<SimpleData name="LAYER">PLANTATION_ML-I</SimpleData>
+					<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+					<SimpleData name="MAP_NAME">ML I_PLANTATION_ML-I.shp</SimpleData>
+					<SimpleData name="ELEVATION">0.0</SimpleData>
+					<SimpleData name="CLOSED">YES</SimpleData>
+					<SimpleData name="BORDER_STY">Solid</SimpleData>
+					<SimpleData name="BORDER_COL">RGB(0,255,0)</SimpleData>
+					<SimpleData name="BORDER_WID">1</SimpleData>
+					<SimpleData name="FILL_STYLE">No Fill</SimpleData>
+					<SimpleData name="BORDER_ST1">Solid</SimpleData>
+					<SimpleData name="BORDER_CO1">RGB(0,255,0)</SimpleData>
+					<SimpleData name="BORDER_WI1">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.20527715356424,19.6963370101807,0 79.20516790933458,19.69573144378411,0 79.20499101440568,19.69504982531768,0 79.20471238089749,19.69411281291557,0 79.20418053109745,19.6915447159795,0 79.20415685306983,19.6914633931207,0 79.20446934752006,19.69123788886851,0 79.20474618798322,19.69103688755443,0 79.20676755515562,19.69087800573094,0 79.20825451761819,19.69053467582231,0 79.20877961959108,19.69042052357658,0 79.20880280264964,19.6919185111299,0 79.20888191958049,19.69191190110213,0 79.20887653230818,19.69298126013789,0 79.20948326828619,19.69578173959375,0 79.20950282925376,19.6958219161613,0 79.20925332426269,19.69584798067569,0 79.2085777431292,19.69597921904089,0 79.20847039347736,19.6951783146106,0 79.20753215441538,19.69528953693547,0 79.20765179302673,19.69611866678484,0 79.20691973194891,19.69615043265826,0 79.20564722566785,19.69633583441162,0 79.20527715356424,19.6963370101807,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Plantation</name>
+			<styleUrl>#falseColor94</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Maratha_ML_1_Area_SSSSSSSSISSSI">
+					<SimpleData name="GM_LAYER">PLANTATION_ML-I</SimpleData>
+					<SimpleData name="LAYER">PLANTATION_ML-I</SimpleData>
+					<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+					<SimpleData name="MAP_NAME">ML I_PLANTATION_ML-I.shp</SimpleData>
+					<SimpleData name="ELEVATION">0.0</SimpleData>
+					<SimpleData name="CLOSED">YES</SimpleData>
+					<SimpleData name="BORDER_STY">Solid</SimpleData>
+					<SimpleData name="BORDER_COL">RGB(0,255,0)</SimpleData>
+					<SimpleData name="BORDER_WID">1</SimpleData>
+					<SimpleData name="FILL_STYLE">No Fill</SimpleData>
+					<SimpleData name="BORDER_ST1">Solid</SimpleData>
+					<SimpleData name="BORDER_CO1">RGB(0,255,0)</SimpleData>
+					<SimpleData name="BORDER_WI1">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.18692295146319,19.71318370663407,0 79.18685310221849,19.71263603909319,0 79.18674407895571,19.71190229868176,0 79.18657224122171,19.71074579916713,0 79.18646973832178,19.710164910406,0 79.18674280891128,19.71010197239416,0 79.18702832550001,19.71187053229041,0 79.18721129791639,19.71316028185655,0 79.18692295146319,19.71318370663407,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Plantation</name>
+			<styleUrl>#falseColor89</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.18208554605562,19.73515606224541,0 79.1820726762967,19.73498495540847,0 79.18309100938754,19.73476015981084,0 79.18391833399653,19.7345919712309,0 79.18417034710895,19.73452653169282,0 79.18437456512552,19.73449544441973,0 79.18453409918543,19.73453614942483,0 79.18467196551961,19.73509502807952,0 79.18471571183126,19.73541872473955,0 79.18478147205494,19.73584189523506,0 79.18459630043546,19.73588861133057,0 79.1845070107445,19.73542788211908,0 79.18443812286419,19.73507822748902,0 79.18438453516279,19.7348153720627,0 79.18435341351447,19.73464453423294,0 79.18327042326095,19.73488656103207,0 79.18265557004823,19.73502586388577,0 79.18208554605562,19.73515606224541,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Plantation</name>
+			<styleUrl>#falseColor51</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.18152468069876,19.72630153105096,0 79.18166695134074,19.72631043990571,0 79.18161900956157,19.72726483774803,0 79.18177216359091,19.72848324160364,0 79.18350561934479,19.72853584329898,0 79.18348335610787,19.72876206903823,0 79.18209129943494,19.72868090141609,0 79.18162314823289,19.72866935027801,0 79.18141598839124,19.7272174838542,0 79.18144165344108,19.72701883274167,0 79.18152468069876,19.72630153105096,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Plantation</name>
+			<styleUrl>#falseColor109</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.19632678744136,19.69584844442277,0 79.19938895216836,19.69603293056452,0 79.19924330813532,19.69676590215365,0 79.19821928906443,19.69685920290213,0 79.19702520434856,19.69639328832476,0 79.19663216637197,19.6961176510454,0 79.19632678744136,19.69584844442277,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Plantation</name>
+			<styleUrl>#falseColor103</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.19429112865951,19.69568095718487,0 79.19433276273379,19.69559309524601,0 79.1951167114309,19.69554480911345,0 79.19635394969876,19.69560346555506,0 79.1980049766573,19.69563818013847,0 79.19937922173743,19.695685396228,0 79.19938499455196,19.69602314621575,0 79.19775666435636,19.69592674318112,0 79.19635250607881,19.69585185923991,0 79.19588079089029,19.69574789848498,0 79.19506886115168,19.69575249242204,0 79.19433933201778,19.69578287511704,0 79.19429112865951,19.69568095718487,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Plantation</name>
+			<styleUrl>#falseColor36</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.19977866689518,19.69538214911973,0 79.2002681332858,19.69544809517715,0 79.20089312063432,19.6955590024801,0 79.20088750336254,19.69555348577861,0 79.20079932711785,19.69576000174247,0 79.20039856460195,19.69575855598612,0 79.20017585463825,19.69576343985748,0 79.19980658972152,19.69579051019953,0 79.19979880976548,19.69565491728297,0 79.19977866689518,19.69538214911973,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Plantation</name>
+			<styleUrl>#falseColor67</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.1883462146336,19.7022925947009,0 79.18869293031544,19.70133231904128,0 79.18884218670053,19.70121473282778,0 79.18954314452452,19.70113598836849,0 79.18937452453739,19.70150552417963,0 79.18904413439685,19.70210319256785,0 79.18853204506026,19.70304366568974,0 79.18812596486895,19.70303010138919,0 79.1883462146336,19.7022925947009,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Plantation</name>
+			<styleUrl>#falseColor18</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.18734769677272,19.70472871067463,0 79.18766126939163,19.70413187328653,0 79.18806223729779,19.70404859299382,0 79.18813675518386,19.70408759736895,0 79.18769911443964,19.70478922393133,0 79.18713563477291,19.70603293099832,0 79.18677300036947,19.7057806509508,0 79.18676292888496,19.70576886625214,0 79.18734769677272,19.70472871067463,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Plantation</name>
+			<styleUrl>#falseColor90</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							79.19041168903745,19.69744219853691,0 79.19087231628755,19.69708515979012,0 79.19113660549174,19.696953564809,0 79.19148306137539,19.69702610695843,0 79.19103298213747,19.69808775867805,0 79.19058537823437,19.69886260401401,0 79.19006936142407,19.69996510262724,0 79.18970576041914,19.70069978837803,0 79.18969714093711,19.7007171972019,0 79.18965057207456,19.70075183918037,0 79.1896052427893,19.7007689932734,0 79.18907903763348,19.70068512455994,0 79.18963779359329,19.69919954560951,0 79.19020637906478,19.69801629398521,0 79.19041168903745,19.69744219853691,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

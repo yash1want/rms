@@ -1,0 +1,35 @@
+<?php 
+	namespace app\Model\Table;
+	use Cake\ORM\Table;
+	use App\Model\Model;
+	use Cake\ORM\TableRegistry;
+	use Cake\Core\Configure;
+	
+	class DirSizeRangeTable extends Table{
+
+		var $name = "DirSizeRange";
+		public $validate = array();
+
+        public function getSizeRange() {
+
+            $query = $this->find()
+                    ->select(['id'=>'id', 'sizeRange'=>'size_range'])  // pravin bhakare 01-07-2021
+                    ->toArray();
+        
+            $range = Array();
+            if (count($query)) {
+                foreach ($query as $data) {
+                    $value = $data['id'];
+                    $range[$value] = $data['sizeRange'];
+                }
+        
+              return $range;
+            }
+            else{
+              return '';
+            }
+
+        }
+
+	}
+?>

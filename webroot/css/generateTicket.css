@@ -1,0 +1,92 @@
+/* Default style for radio buttons */
+#myButton {
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+#myButton:hover {
+  transform: translateX(10px);
+}
+
+.radio-button {
+  position: relative;
+  display: inline-block;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.radio-button input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Custom radio button design */
+.radio-button .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border: 2px solid #aaa;
+  border-radius: 50%;
+}
+
+/* Custom radio button design for checked state */
+.radio-button input[type="radio"]:checked + .checkmark::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 5px;
+  left: 5px;
+  height: 10px;
+  width: 10px;
+  background-color: #2196F3;
+  border-radius: 50%;
+}
+
+/* Custom radio button label design */
+.radio-button label {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+}
+
+.radio-button .form-check-label {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  color: #007bff;
+}
+
+.radio-button .form-check-input:checked + .form-check-label {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+.radio-button .form-check-input:focus + .form-check-label {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.radio-button .form-check-label:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+  color: #fff;
+}
+
+.radio-button.active .form-check-label {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+.token {
+  color: #007bff !important;
+}

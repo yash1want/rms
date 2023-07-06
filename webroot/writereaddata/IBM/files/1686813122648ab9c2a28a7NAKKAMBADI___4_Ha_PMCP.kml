@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>NAKKAMBADI _ 4 Ha</name>
+	<open>1</open>
+	<Document>
+		<name>Existing Afforestation NKM..shp</name>
+		<Schema name="Existing Afforestation NKM" id="S_Existing_Afforestation_NKM_">
+			<SimpleField type="long" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="falseColor5">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[Existing Afforestation NKM/id_2]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ffff00ff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffff00ff</color>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="falseColor6">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[Existing Afforestation NKM/id_2]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ffff00ff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffff00ff</color>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="falseColor7">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor6</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor5</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Folder id="layer 0">
+			<name>Existing Afforestation NKM</name>
+			<Placemark>
+				<styleUrl>#falseColor7</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Existing_Afforestation_NKM_">
+						<SimpleData name="id_2">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.18465871686686,11.26923029641067,0 79.18464712841454,11.26918330661685,0 79.1846438910279,11.269158151675,0 79.18464402771197,11.26913636871448,0 79.18464829261372,11.26913304343539,0 79.18465609981092,11.26910628033957,0 79.18466045408123,11.26908871235507,0 79.1846742447526,11.26905528313216,0 79.18470661909072,11.26903621077007,0 79.18472872928056,11.26902964323124,0 79.18476259089452,11.26904409348914,0 79.18478449607595,11.26907020038963,0 79.18486255180035,11.26907570457793,0 79.18498385299176,11.26908817579523,0 79.18514509391885,11.26909335053091,0 79.18520464479792,11.26907193069549,0 79.1852675592375,11.2690555584349,0 79.18533042112148,11.2690475642248,0 79.1854017076938,11.26904967554868,0 79.1854585861163,11.2690483474546,0 79.18552566034714,11.26904540597547,0 79.18558165321684,11.26904993731729,0 79.18560456488488,11.26905091515633,0 79.18570482540601,11.26903477099565,0 79.18578291269932,11.26903524810284,0 79.18586958230846,11.26902069652402,0 79.18590694941986,11.26901757346021,0 79.18603013735834,11.26899989357825,0 79.1861124947951,11.26899620748858,0 79.18619661806601,11.2689816402552,0 79.18627221156407,11.26897372360822,0 79.18631723865668,11.26896729592288,0 79.18636309351531,11.26896422464249,0 79.18638434965436,11.26895848959641,0 79.18639695201296,11.2688437826135,0 79.18638960189368,11.26879765657207,0 79.18638988024155,11.26875325280057,0 79.1863909968589,11.26871052982689,0 79.18639103362158,11.26870466517781,0 79.18637093815585,11.26852524487823,0 79.18636489371762,11.26840623481059,0 79.18635123657792,11.26828298905279,0 79.18635083420007,11.26821177027212,0 79.18635870422825,11.26817495341739,0 79.18637829952264,11.26816334334565,0 79.1863872283791,11.26809301939115,0 79.18636460561116,11.26804596223673,0 79.18637172138513,11.26799405966973,0 79.18637700832375,11.26796309191097,0 79.18640504931119,11.2679582361278,0 79.18640301042409,11.26801268321959,0 79.18642335930156,11.26842251082696,0 79.18645701082005,11.26901213616496,0 79.18592959579856,11.26906086051635,0 79.18556016455715,11.26909274524465,0 79.18503052507548,11.26912396448093,0 79.1846672597202,11.2690862928119,0 79.18468741427859,11.26922230293235,0 79.18469575871904,11.26927901276382,0 79.18463558338141,11.26928157730512,0 79.18464065602107,11.26926788871581,0 79.18465871686686,11.26923029641067,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor7</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Existing_Afforestation_NKM_">
+						<SimpleData name="id_2">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.18316351621432,11.26889664646372,0 79.18318302484739,11.26889886042181,0 79.18320709914239,11.26891744014853,0 79.18323534102251,11.26894819401934,0 79.18324281689155,11.26897421272841,0 79.18324933263254,11.2689503742186,0 79.18326852473376,11.26893541056153,0 79.18330157166012,11.26894441004413,0 79.18330554722353,11.26898716409215,0 79.183307107988,11.26900895742249,0 79.18333403201001,11.26904682484473,0 79.1833473125259,11.26909466284756,0 79.1833512880947,11.26913741689591,0 79.18333540515937,11.26923367106426,0 79.18337864530582,11.26924147615024,0 79.18339572074812,11.26922566169965,0 79.1834382962431,11.269204138388,0 79.18346133414229,11.2691850090584,0 79.18348954885086,11.26915250599104,0 79.1835184913395,11.26913927764234,0 79.18350515292933,11.26910065550465,0 79.18350531600004,11.26907468352961,0 79.18353179106178,11.2690488725162,0 79.1835658893031,11.26902562164629,0 79.18357802988204,11.26898464185781,0 79.1835951631582,11.26895961152872,0 79.18357394907615,11.26895864392092,0 79.1835749398719,11.2689360283595,0 79.18359366549164,11.26892776452816,0 79.18363268277801,11.26893219238816,0 79.18365559440628,11.26893317037521,0 79.18374040865739,11.26894374321917,0 79.18377355816796,11.26893640543895,0 79.18380086619037,11.26891311300453,0 79.18382473178015,11.2688973400537,0 79.18384580386095,11.26892092840002,0 79.1838396625915,11.26895272868158,0 79.18387609675415,11.2689630055774,0 79.18391327977076,11.26898920597133,0 79.18395228655885,11.26899530940305,0 79.18400065089882,11.2689981187066,0 79.18401501695085,11.26900826062247,0 79.18402573022571,11.26905943426312,0 79.18404412454242,11.26910395217427,0 79.18405198543552,11.26913625701428,0 79.18408771810063,11.26912307013229,0 79.18411438613269,11.26913412511586,0 79.18411669844799,11.26917142305164,0 79.18410375385395,11.26920527633126,0 79.18407470883001,11.26923484195529,0 79.18403603962109,11.26924256492691,0 79.18402966592232,11.26924378270375,0 79.18404390051462,11.26927486976727,0 79.18400390817726,11.26929054410314,0 79.1839691978132,11.26927608856913,0 79.18393871554942,11.26926417240515,0 79.1839179994567,11.26925147813232,0 79.18390157983195,11.26923043175664,0 79.18388123553758,11.26922611813566,0 79.18387813597269,11.2692466262083,0 79.18390131423844,11.26927274095071,0 79.18391134964646,11.2692966807124,0 79.183425729517,11.26931298041923,0 79.18334586052738,11.26932589718384,0 79.18331972212621,11.26929808861867,0 79.183297785514,11.26927700846153,0 79.18327483703661,11.26928189508156,0 79.1832169993632,11.26930081147062,0 79.18318326936073,11.2692654159067,0 79.18317850818032,11.26921260300081,0 79.18317052026691,11.2691329595459,0 79.18315069161262,11.26904654094031,0 79.18313848088216,11.26896352029703,0 79.18315155973016,11.26890830303478,0 79.18316351621432,11.26889664646372,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor7</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Existing_Afforestation_NKM_">
+						<SimpleData name="id_2">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.18328712048219,11.26847471356973,0 79.18333640713195,11.26846579888142,0 79.18335502751383,11.26847429117349,0 79.18337699038143,11.26849118229056,0 79.18341158488933,11.26852406959939,0 79.18341477482512,11.26855676478867,0 79.18341875566966,11.26859868103235,0 79.18344483616586,11.2686357054438,0 79.18344972891055,11.26866757321231,0 79.18344172173171,11.26872617287599,0 79.18344049947221,11.26878565188371,0 79.18342155818084,11.26882826573675,0 79.18336122689472,11.26883878853663,0 79.18330857139068,11.26884349341999,0 79.18329427376699,11.26882246000262,0 79.18323485438678,11.26882293430266,0 79.18322377298693,11.26883040704293,0 79.1831796683514,11.26882511016767,0 79.18312770562795,11.26858433281629,0 79.18317102458577,11.2685795708342,0 79.18319679815534,11.26853029609943,0 79.18322001487695,11.26848268139329,0 79.18328712048219,11.26847471356973,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor7</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Existing_Afforestation_NKM_">
+						<SimpleData name="id_2">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.18373387486623,11.26819300044922,0 79.18369643425167,11.26820785253342,0 79.18364726861751,11.26819749775767,0 79.18359975319423,11.26819469360935,0 79.18353607955719,11.2681968176427,0 79.18352689034735,11.26817330197209,0 79.18356872652519,11.26816811193261,0 79.18374511400526,11.26816039350939,0 79.18374758669067,11.26817213836456,0 79.18373387486623,11.26819300044922,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor7</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Existing_Afforestation_NKM_">
+						<SimpleData name="id_2">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.1830603086113,11.26816562998209,0 79.1830765852049,11.26814185119611,0 79.18312978157972,11.26818616315061,0 79.18321549958218,11.26818794434285,0 79.1832277725706,11.2681934653742,0 79.18321750577371,11.26820638904717,0 79.18318937532155,11.26822548721138,0 79.18316436550209,11.26822072608996,0 79.18313428409999,11.26821258258629,0 79.18313458748251,11.26823185470983,0 79.18311296748833,11.26822795216174,0 79.1830764913668,11.26822437763427,0 79.18306852800227,11.26820840999438,0 79.18306051991823,11.26819956370108,0 79.18304309906351,11.26820280846114,0 79.18301593838497,11.26820264227472,0 79.183005428711,11.26818665905365,0 79.18300644321477,11.26816027337485,0 79.18301204440799,11.26814690224421,0 79.1830603086113,11.26816562998209,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor7</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Existing_Afforestation_NKM_">
+						<SimpleData name="id_2">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.18312397809304,11.26932150242892,0 79.18310134036078,11.26895590959991,0 79.18307959653025,11.26861692358506,0 79.18264237608851,11.26860948284847,0 79.18266897720083,11.26800195163397,0 79.18267959077808,11.26800138820811,0 79.18268834314743,11.26809444173559,0 79.18269047374237,11.26816064393867,0 79.18269297795705,11.26816736196405,0 79.18269269905687,11.26821176564594,0 79.18267555524086,11.26823847152944,0 79.18266006686464,11.26827189024268,0 79.18265801674001,11.26832801280871,0 79.18266101714249,11.2683908689835,0 79.18267062353202,11.26848308989928,0 79.18265968760785,11.26853496889582,0 79.18265347255083,11.26857849840853,0 79.18266433818718,11.2686053757068,0 79.18270108535825,11.26856580331859,0 79.18273125886721,11.26855928527677,0 79.18276058360317,11.26855276203742,0 79.18280002256466,11.26855761149701,0 79.18283089224484,11.26857539499425,0 79.18285082523674,11.26857761156745,0 79.1828968062692,11.26855443348932,0 79.18293752628699,11.26855803401368,0 79.18299013437957,11.26856086943785,0 79.18301985719249,11.26855853779609,0 79.18303851439759,11.26856116546921,0 79.18305448848992,11.26858556050308,0 79.18307730011618,11.26860245683426,0 79.18309332682691,11.26861847381204,0 79.18309535753427,11.26870059432907,0 79.18309761973937,11.26874585140492,0 79.18310668001982,11.26878989331963,0 79.1831154974319,11.26880502834858,0 79.18312851135835,11.26882772959338,0 79.18313449308091,11.26888892834385,0 79.18312628504769,11.26891191865774,0 79.18311680122213,11.26893532008382,0 79.18312178600404,11.26895252625651,0 79.18312290395305,11.26897724930815,0 79.18311325438874,11.26902704160588,0 79.18311325438874,11.26902704160588,0 79.18312717234086,11.26904095108797,0 79.18313216764703,11.2690564816498,0 79.18313243682219,11.26908119950796,0 79.18313872633546,11.26909338663807,0 79.18314500795719,11.26910683047627,0 79.18313726902494,11.26912270203953,0 79.18313396642479,11.26914174263859,0 79.18313299663738,11.26916100697096,0 79.18312982862285,11.26919240649882,0 79.18313475816207,11.26921840962923,0 79.18313500892009,11.26924605980633,0 79.18313665385379,11.269254448248,0 79.18313883187176,11.26931311021104,0 79.18312397809304,11.26932150242892,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>7.5 m Safety Distance.shp</name>
+		<Schema name="7" id="S_7_SSD">
+			<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="GM_TYPE"><displayName>&lt;b&gt;GM_TYPE&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="ELEVATION"><displayName>&lt;b&gt;ELEVATION&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="falseColor2">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[7/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[7/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[7/ELEVATION]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="falseColor3">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[7/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[7/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[7/ELEVATION]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="falseColor4">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor2</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor3</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Folder id="layer 0">
+			<name>7</name>
+			<Placemark>
+				<styleUrl>#falseColor4</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_7_SSD">
+						<SimpleData name="LAYER">BOU</SimpleData>
+						<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+						<SimpleData name="ELEVATION">87.48</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.18314396398365,11.26855053344695,0 79.18271280441708,11.26854374774111,0 79.18272337562144,11.26827973008849,0 79.1827388168375,11.26796369228644,0 79.18311028742495,11.26825443948564,0 79.18463538903978,11.26818837353952,0 79.18523956054433,11.2681035794435,0 79.18558967524245,11.26804280129694,0 79.18633328978511,11.26802603990803,0 79.18638456594279,11.26895012876538,0 79.18555495974125,11.26902486962972,0 79.18503226139148,11.26905592177062,0 79.18458711203999,11.26901013070128,0 79.18461744949018,11.26921458085661,0 79.1831878471567,11.26925273261544,0 79.18314396398365,11.26855053344695,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>Existing Back filling-NKM.shp</name>
+		<Schema name="Existing Back filling-NKM" id="S_Existing_Back_filling_NKM_SSSSS">
+			<SimpleField type="string" name="Layer"><displayName>&lt;b&gt;Layer&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="SubClasses"><displayName>&lt;b&gt;SubClasses&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Linetype"><displayName>&lt;b&gt;Linetype&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="EntityHand"><displayName>&lt;b&gt;EntityHand&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Text"><displayName>&lt;b&gt;Text&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="falseColor">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>Layer</b></td><td>$[Existing Back filling-NKM/Layer]</td></tr>
+  <tr><td><b>SubClasses</b></td><td>$[Existing Back filling-NKM/SubClasses]</td></tr>
+  <tr><td><b>Linetype</b></td><td>$[Existing Back filling-NKM/Linetype]</td></tr>
+  <tr><td><b>EntityHand</b></td><td>$[Existing Back filling-NKM/EntityHand]</td></tr>
+  <tr><td><b>Text</b></td><td>$[Existing Back filling-NKM/Text]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ffffff00</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="falseColor0">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>Layer</b></td><td>$[Existing Back filling-NKM/Layer]</td></tr>
+  <tr><td><b>SubClasses</b></td><td>$[Existing Back filling-NKM/SubClasses]</td></tr>
+  <tr><td><b>Linetype</b></td><td>$[Existing Back filling-NKM/Linetype]</td></tr>
+  <tr><td><b>EntityHand</b></td><td>$[Existing Back filling-NKM/EntityHand]</td></tr>
+  <tr><td><b>Text</b></td><td>$[Existing Back filling-NKM/Text]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ffffff00</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="falseColor1">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor0</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Folder id="layer 0">
+			<name>Existing Back filling-NKM</name>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Existing_Back_filling_NKM_SSSSS">
+						<SimpleData name="Layer">shape</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype"></SimpleData>
+						<SimpleData name="EntityHand">6528</SimpleData>
+						<SimpleData name="Text"></SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.18315697789005,11.26875877613952,0 79.18335026599333,11.26877006839249,0 79.18353225015431,11.26880708111402,0 79.18363261804571,11.26884357874614,0 79.18356931238459,11.26884197514676,0 79.1834978622137,11.2688844212858,0 79.18334127189091,11.26901918161222,0 79.18325356682398,11.26913003205841,0 79.18323997322581,11.26916944254252,0 79.18318181274354,11.2691709673331,0 79.18315697789005,11.26875877613952,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Existing_Back_filling_NKM_SSSSS">
+						<SimpleData name="Layer">shape</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype"></SimpleData>
+						<SimpleData name="EntityHand">6529</SimpleData>
+						<SimpleData name="Text"></SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.1832436622758,11.26922588318644,0 79.18327667129843,11.26914152931228,0 79.18334518591438,11.26905051082257,0 79.18351114825117,11.26890702060974,0 79.18357609541057,11.26886800226119,0 79.1837708352864,11.26887130233776,0 79.18388757877359,11.26891375465186,0 79.18417944807312,11.26914730864756,0 79.18424527297957,11.26922451378805,0 79.18323363376841,11.26925151081678,0 79.1832436622758,11.26922588318644,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Existing_Back_filling_NKM_SSSSS">
+						<SimpleData name="Layer">shape</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype"></SimpleData>
+						<SimpleData name="EntityHand">652A</SimpleData>
+						<SimpleData name="Text"></SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.18410572360564,11.26888206010895,0 79.18388619814475,11.26888162421971,0 79.18376775941788,11.2688216533691,0 79.18374583150727,11.26878939314945,0 79.18367256868622,11.26862671936232,0 79.18361274838774,11.2682353380345,0 79.18397840008447,11.26821835636123,0 79.18398747012799,11.26829029478633,0 79.18405033662567,11.26849377336547,0 79.18406546598624,11.26864585459812,0 79.18413529739325,11.26884301087586,0 79.18413795206594,11.26887774600632,0 79.18410572360564,11.26888206010895,0 79.18411977495488,11.26887994311285,0 79.18410572360564,11.26888206010895,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>Existing Dump-NKM.shp</name>
+		<Schema name="Existing Dump-NKM" id="S_Existing_Dump_NKM_SSSSS">
+			<SimpleField type="string" name="Layer"><displayName>&lt;b&gt;Layer&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="SubClasses"><displayName>&lt;b&gt;SubClasses&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Linetype"><displayName>&lt;b&gt;Linetype&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="EntityHand"><displayName>&lt;b&gt;EntityHand&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Text"><displayName>&lt;b&gt;Text&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="falseColor10">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>Layer</b></td><td>$[Existing Dump-NKM/Layer]</td></tr>
+  <tr><td><b>SubClasses</b></td><td>$[Existing Dump-NKM/SubClasses]</td></tr>
+  <tr><td><b>Linetype</b></td><td>$[Existing Dump-NKM/Linetype]</td></tr>
+  <tr><td><b>EntityHand</b></td><td>$[Existing Dump-NKM/EntityHand]</td></tr>
+  <tr><td><b>Text</b></td><td>$[Existing Dump-NKM/Text]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="falseColor8">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>Layer</b></td><td>$[Existing Dump-NKM/Layer]</td></tr>
+  <tr><td><b>SubClasses</b></td><td>$[Existing Dump-NKM/SubClasses]</td></tr>
+  <tr><td><b>Linetype</b></td><td>$[Existing Dump-NKM/Linetype]</td></tr>
+  <tr><td><b>EntityHand</b></td><td>$[Existing Dump-NKM/EntityHand]</td></tr>
+  <tr><td><b>Text</b></td><td>$[Existing Dump-NKM/Text]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="falseColor9">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor8</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor10</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Folder id="layer 0">
+			<name>Existing Dump-NKM</name>
+			<Placemark>
+				<styleUrl>#falseColor9</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Existing_Dump_NKM_SSSSS">
+						<SimpleData name="Layer">shape</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype"></SimpleData>
+						<SimpleData name="EntityHand">652B</SimpleData>
+						<SimpleData name="Text"></SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.18311605268094,11.26825418975516,-160.4292369246236 79.18361274838556,11.26823533803462,-160.4292369246236 79.18367256868622,11.26862671936232,-160.4292369246236 79.18374583150727,11.26878939314945,-160.4292369246236 79.18376959474061,11.26882227533258,-160.4292369246236 79.18371825142778,11.26882475689006,-160.4292369246236 79.18358428232193,11.26880346456216,-160.4292369246236 79.18353814816112,11.26878668839926,-160.4292369246236 79.18335312901011,11.26874905841062,-160.4292369246236 79.18314692613906,11.26873648596461,-160.4292369246236 79.18311605268094,11.26825418975516,-160.4292369246236 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>Existing Pit-NKM.shp</name>
+		<Schema name="Existing Pit-NKM" id="S_Existing_Pit_NKM_SSSSS">
+			<SimpleField type="string" name="Layer"><displayName>&lt;b&gt;Layer&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="SubClasses"><displayName>&lt;b&gt;SubClasses&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Linetype"><displayName>&lt;b&gt;Linetype&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="EntityHand"><displayName>&lt;b&gt;EntityHand&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Text"><displayName>&lt;b&gt;Text&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="falseColor11">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>Layer</b></td><td>$[Existing Pit-NKM/Layer]</td></tr>
+  <tr><td><b>SubClasses</b></td><td>$[Existing Pit-NKM/SubClasses]</td></tr>
+  <tr><td><b>Linetype</b></td><td>$[Existing Pit-NKM/Linetype]</td></tr>
+  <tr><td><b>EntityHand</b></td><td>$[Existing Pit-NKM/EntityHand]</td></tr>
+  <tr><td><b>Text</b></td><td>$[Existing Pit-NKM/Text]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ffffaa00</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="falseColor12">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor13</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor11</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="falseColor13">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>Layer</b></td><td>$[Existing Pit-NKM/Layer]</td></tr>
+  <tr><td><b>SubClasses</b></td><td>$[Existing Pit-NKM/SubClasses]</td></tr>
+  <tr><td><b>Linetype</b></td><td>$[Existing Pit-NKM/Linetype]</td></tr>
+  <tr><td><b>EntityHand</b></td><td>$[Existing Pit-NKM/EntityHand]</td></tr>
+  <tr><td><b>Text</b></td><td>$[Existing Pit-NKM/Text]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ffffaa00</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>Existing Pit-NKM</name>
+			<Placemark>
+				<styleUrl>#falseColor12</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Existing_Pit_NKM_SSSSS">
+						<SimpleData name="Layer">shape</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype"></SimpleData>
+						<SimpleData name="EntityHand">6527</SimpleData>
+						<SimpleData name="Text"></SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.18463538903971,11.26818837353952,-73.49084392349229 79.18523956054433,11.2681035794435,-73.49084392349229 79.18558967524245,11.26804280129694,-73.49084392349229 79.18633328978511,11.26802603990803,-73.49084392349229 79.18638456594279,11.26895012876538,-73.49084392349229 79.18560237628746,11.26902059784367,-73.49084392349229 79.18529002970234,11.26904011205432,-73.49084392349229 79.18510187141368,11.26901670729767,-73.49084392349229 79.18498281017361,11.26902132332627,-73.49084392349229 79.18464211050706,11.26901578825147,-73.49084392349229 79.18448993308898,11.26897345136835,-73.49084392349229 79.18439913968326,11.26896349215865,-73.49084392349229 79.18439267309189,11.26912305380139,-73.49084392349229 79.18435466225672,11.26912203826738,-73.49084392349229 79.18433207185558,11.26911082457013,-73.49084392349229 79.18412569391012,11.26889538139866,-73.49084392349229 79.18411977495488,11.26887994311285,-73.49084392349229 79.18413795206594,11.26887774600632,-73.49084392349229 79.18413617421963,11.26884983551136,-73.49084392349229 79.18406687066613,11.26864329186937,-73.49084392349229 79.18405033662567,11.26849377336547,-73.49084392349229 79.18398747012799,11.26829029478633,-73.49084392349229 79.18397840008447,11.26821835636123,-73.49084392349229 79.18463538903971,11.26818837353952,-73.49084392349229 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>Mining Lease Boundary.shp</name>
+		<Schema name="Mining Lease Boundary" id="S_Mining_Lease_Boundary_SSD">
+			<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="GM_TYPE"><displayName>&lt;b&gt;GM_TYPE&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="ELEVATION"><displayName>&lt;b&gt;ELEVATION&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<StyleMap id="falseColor14">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor15</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor16</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="falseColor15">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[Mining Lease Boundary/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Mining Lease Boundary/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Mining Lease Boundary/ELEVATION]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff7f00ff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="falseColor16">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[Mining Lease Boundary/LAYER]</td></tr>
+  <tr><td><b>GM_TYPE</b></td><td>$[Mining Lease Boundary/GM_TYPE]</td></tr>
+  <tr><td><b>ELEVATION</b></td><td>$[Mining Lease Boundary/ELEVATION]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff7f00ff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>Mining Lease Boundary</name>
+			<Placemark>
+				<styleUrl>#falseColor14</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Mining_Lease_Boundary_SSD">
+						<SimpleData name="LAYER">BOU</SimpleData>
+						<SimpleData name="GM_TYPE">Unknown Area Type</SimpleData>
+						<SimpleData name="ELEVATION">87.48</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.18307932394298,11.26861732060571,0 79.18264139764915,11.2686104282888,0 79.18265475779977,11.26827675842609,0 79.18267665832776,11.26782851849164,0 79.18313287990532,11.26818559978246,0 79.18462903403478,11.2681207877024,0 79.18522877512122,11.26803661538117,0 79.18558290434056,11.26797514031701,0 79.18639823187321,11.26795676237244,0 79.18645676894756,11.26901170149722,0 79.18556014553324,11.26909248014311,0 79.1850307548185,11.2691239298364,0 79.18466787549279,11.26908660166197,0 79.18469661589141,11.26928028860201,0 79.18312337903343,11.26932227350345,0 79.18307932394298,11.26861732060571,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+</Folder>
+</kml>

@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>DAMASA 2.8358 H ML Boundary.kml</name>
+	<open>1</open>
+	<StyleMap id="m_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin250">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin18</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl190</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_placemark_circle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_placemark_circle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_placemark_circle_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin18">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl190">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.709091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_placemark_circle_highlight">
+		<IconStyle>
+			<color>ff0055ff</color>
+			<scale>0.709091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_placemark_circle">
+		<IconStyle>
+			<color>ff0055ff</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Document>
+		<name>OTHER DAMASA ROAD AND OFFICE.kml</name>
+		<open>1</open>
+		<StyleMap id="msn_ylw-pushpin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_ylw-pushpin</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sh_ylw-pushpin">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ffff5555</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffffaaaa</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sn_ylw-pushpin">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ffff5555</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffffaaaa</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Folder>
+			<name>OTHER</name>
+			<Placemark>
+				<name>MINE ROAD</name>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								70.96202653423303,20.84742787144011,0 70.96203168184452,20.847442356052,0 70.96197966152759,20.84746580529535,0 70.96195585007798,20.84747113495291,0 70.96193080784508,20.84748847386739,0 70.9619146850451,20.84750655116601,0 70.96191912341233,20.84754671219276,0 70.96192339612308,20.84756437918166,0 70.96192851916379,20.84758388041554,0 70.96194117029643,20.84760593383949,0 70.96195177111049,20.84762510067246,0 70.96194459393105,20.84762506174295,0 70.96193400279014,20.84761545619629,0 70.96192478279336,20.84760745337925,0 70.96190839777547,20.84759051057694,0 70.96190055676252,20.84757453739294,0 70.9618954462946,20.84755315216029,0 70.96189136440846,20.84753145583193,0 70.96189203810162,20.84750625606994,0 70.96189373316939,20.84748966167778,0 70.96189305092312,20.84747721861096,0 70.96189100756116,20.8474545707716,0 70.96190025295419,20.84737914524942,0 70.96189376912378,20.84734995659064,0 70.96189553584686,20.84732955939953,0 70.96189098960178,20.84730964772308,0 70.96190540103062,20.84730248314626,0 70.96191604765113,20.84731337982591,0 70.96191692688797,20.84733140791382,0 70.96191849663433,20.84735920788238,0 70.96191757255973,20.84738016383071,0 70.96191808031597,20.84738539435414,0 70.9619074629062,20.84745370775051,0 70.96191469630079,20.84746709649846,0 70.96193910500276,20.84746559056368,0 70.96195862138346,20.84746071022158,0 70.96202653423303,20.84742787144011,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>DAMASA MINE OUT PIT.kml</name>
+		<open>1</open>
+		<StyleMap id="m_ylw-pushpin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin10</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="m_ylw-pushpin0">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin1</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="m_ylw-pushpin1">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin0</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl10</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin0">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff00ffff</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="s_ylw-pushpin1">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin10">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl1">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl10">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff00ffff</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Placemark>
+			<name>DAMASA MINE OUT PIT</name>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							70.96093334558526,20.84677284572407,0 70.96101509122725,20.84682342020855,0 70.96111077192847,20.84683584016726,0 70.96118506070032,20.84686432107456,0 70.96125667560162,20.84689490295116,0 70.96131661451622,20.84695366763648,0 70.96132402636945,20.84694304866959,0 70.96140430316503,20.84703269992966,0 70.96156986611757,20.84706936384406,0 70.96165692772115,20.8471036133677,0 70.96172416057723,20.84726186314088,0 70.96187762838082,20.84730723022821,0 70.96186959167052,20.84755684353624,0 70.96190727103115,20.84765025637602,0 70.96193250917339,20.84775294105898,0 70.96197127619688,20.84779614779282,0 70.96200147717221,20.84788737355801,0 70.96199161739185,20.84794136218271,0 70.96200981505349,20.84813867535,0 70.96195902053233,20.84821346787711,0 70.96199929104388,20.8483419458599,0 70.96203929173527,20.84845240001175,0 70.96208479393191,20.84858835927567,0 70.96216612970433,20.84877943343459,0 70.96186515270621,20.84868671884967,0 70.96173423428633,20.84865145840562,0 70.96155279950533,20.84859031156919,0 70.96137672629635,20.84854436822648,0 70.96112372055524,20.84847283148692,0 70.96084902910384,20.84836755192162,0 70.96093334558526,20.84677284572407,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>DAMASA OLD WORKING PIT</name>
+			<LookAt>
+				<longitude>70.96216810688902</longitude>
+				<latitude>20.8487768449429</latitude>
+				<altitude>0</altitude>
+				<heading>-2.747999244784478e-12</heading>
+				<tilt>0</tilt>
+				<range>6.990826334310652</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>70.96216620202067,20.84877952735066,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>AFFORESTATION</name>
+			<LookAt>
+				<longitude>70.96135740147339</longitude>
+				<latitude>20.84694298924284</latitude>
+				<altitude>0</altitude>
+				<heading>-6.307039933342153e-12</heading>
+				<tilt>0</tilt>
+				<range>51.34178982632248</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>70.9613383402196,20.84702323948265,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROAD</name>
+			<LookAt>
+				<longitude>70.96192887039376</longitude>
+				<latitude>20.84749887806245</latitude>
+				<altitude>0</altitude>
+				<heading>-1.590277340731758e-14</heading>
+				<tilt>0</tilt>
+				<range>6.736769429648558</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>70.9619147204475,20.84750660156502,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DAMASA MINING LEASE BOUNDRY</name>
+			<LookAt>
+				<longitude>70.96085105448788</longitude>
+				<latitude>20.84660158223225</latitude>
+				<altitude>0</altitude>
+				<heading>-1.335832966214677e-12</heading>
+				<tilt>0</tilt>
+				<range>6.760026632325483</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>70.96084136280751,20.84658986666009,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>DAMASA AFFORESTATION.kml</name>
+		<open>1</open>
+		<StyleMap id="msn_ylw-pushpin0">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_ylw-pushpin0</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_ylw-pushpin0</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_ylw-pushpin70">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_ylw-pushpin301</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_ylw-pushpin19</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sh_ylw-pushpin0">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff00ff00</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff00ffaa</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sh_ylw-pushpin19">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff00ff00</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff00ffaa</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sn_ylw-pushpin0">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff00ff00</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff00ffaa</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sn_ylw-pushpin301">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff00ff00</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff00ffaa</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Folder>
+			<name>DAMASA AFFORESTATION</name>
+			<Placemark>
+				<name>DAMASA AFORESTATION 1</name>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								70.96090861025694,20.84849984339674,0 70.9609406742954,20.84841916558479,0 70.96137052999897,20.8485472870863,0 70.96133437425979,20.84861809966184,0 70.96090861025694,20.84849984339674,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>DAMASA AFFORESTATION 2</name>
+				<styleUrl>#msn_ylw-pushpin70</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								70.96176185818075,20.84721827149196,0 70.96173063901733,20.84725260560606,0 70.96167027927333,20.8470652787183,0 70.96164680505808,20.84697476043144,0 70.96159354100067,20.84685082554183,0 70.96138124786258,20.84677934907778,0 70.96133508132742,20.84674234904731,0 70.96124569658446,20.84677277152193,0 70.96123596349965,20.84672516370351,0 70.96124999089639,20.84669332372198,0 70.9616258137183,20.84678594738723,0 70.96176185818075,20.84721827149196,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>DAMASA AFFORESTATION 3</name>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								70.96155840824777,20.84732375856982,0 70.96139048853175,20.84736329471421,0 70.96126363987079,20.84732375913211,0 70.9612478681903,20.8471875703033,0 70.96133842823626,20.84702414222162,0 70.96143977485269,20.84707171298944,0 70.96157671227371,20.84709479424424,0 70.96160954694966,20.84703086425236,0 70.96153840228962,20.84686154813662,0 70.96158980972845,20.84686154806583,0 70.96164327183983,20.84704755141104,0 70.96172810968022,20.84726425594375,0 70.96183895040106,20.84729984802271,0 70.96182543454555,20.84745409346666,0 70.96155840824777,20.84732375856982,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>DAMASA AFFORESTATION 4</name>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								70.96171600584029,20.84755131566948,0 70.96171701752903,20.84756277404651,0 70.96171629006817,20.84757941938605,0 70.961714246018,20.84759182613356,0 70.96171384615184,20.84759601571092,0 70.96171574656594,20.84761306777688,0 70.96171006151678,20.84763098794694,0 70.96171041470629,20.84764140128756,0 70.96173273812593,20.84768497888283,0 70.96175967918023,20.84770184110791,0 70.96176128903817,20.84770186932136,0 70.96176531441886,20.84770193982433,0 70.96183607095772,20.84773219559033,0 70.96189547704897,20.84775480866767,0 70.96190775923657,20.84776489264184,0 70.96192003090043,20.84778618527633,0 70.96189971547132,20.8478017937257,0 70.96186363980772,20.84780108811755,0 70.96184978784588,20.84781487895989,0 70.96182170651652,20.8478227837814,0 70.96176743631834,20.84778794266037,0 70.96174825990826,20.84776462979169,0 70.96171664240072,20.84775863902273,0 70.96168768927734,20.84775119078623,0 70.96167085330514,20.84772967063873,0 70.961654993362,20.84765377784657,0 70.9616663522894,20.84753231273946,0 70.96165802877397,20.84750148432171,0 70.96166432518358,20.84747624209303,0 70.9616945175711,20.8474470352782,0 70.96172787624378,20.84744278783901,0 70.96177435385177,20.84745342266978,0 70.96180650797817,20.8474681968526,0 70.9618066023007,20.84748635714104,0 70.96181737390538,20.84749884475655,0 70.9618290611601,20.84751039816711,0 70.96185133344407,20.84751605807691,0 70.96186908425526,20.84755266403048,0 70.96187483995394,20.84757834984655,0 70.9618895160082,20.84760528470721,0 70.96192880254503,20.84761214468592,0 70.96195932750689,20.84767365613761,0 70.96193380789722,20.84769887319372,0 70.96190589794637,20.84773073696255,0 70.96186139894321,20.84771229206039,0 70.96183167392073,20.84767719626892,0 70.96182095211161,20.84755458120384,0 70.96179421812546,20.84754283866407,0 70.96175681541305,20.84753800612387,0 70.96172540022543,20.84753585892212,0 70.96170612253046,20.84754129142932,0 70.96171600584029,20.84755131566948,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Folder>
+		<name>DAMASA 2.8358 H ML Boundary</name>
+		<open>1</open>
+		<Placemark>
+			<name>1</name>
+			<LookAt>
+				<longitude>70.89750920448614</longitude>
+				<latitude>20.87309934101272</latitude>
+				<altitude>0</altitude>
+				<heading>2.812879562377994</heading>
+				<tilt>43.32563338302801</tilt>
+				<range>1369.234392564825</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>70.960725,20.84846388888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2</name>
+			<LookAt>
+				<longitude>70.96089838865568</longitude>
+				<latitude>20.84851572589572</latitude>
+				<altitude>0</altitude>
+				<heading>2.833531500647185</heading>
+				<tilt>28.06865839458586</tilt>
+				<range>287.2813956025893</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>70.96228888888889,20.84888611111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3</name>
+			<LookAt>
+				<longitude>70.96202174132955</longitude>
+				<latitude>20.84860096477592</latitude>
+				<altitude>0</altitude>
+				<heading>2.833931417735394</heading>
+				<tilt>28.06928246334727</tilt>
+				<range>434.9593622345614</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin250</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>70.962,20.84724444444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4</name>
+			<LookAt>
+				<longitude>70.96142421915668</longitude>
+				<latitude>20.84756520156975</latitude>
+				<altitude>0</altitude>
+				<heading>2.833808740680393</heading>
+				<tilt>30.00190926069958</tilt>
+				<range>425.1462030322811</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>70.96177222222222,20.84721111111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5</name>
+			<LookAt>
+				<longitude>70.96146292332075</longitude>
+				<latitude>20.84753389694244</latitude>
+				<altitude>0</altitude>
+				<heading>2.833822492266481</heading>
+				<tilt>30.00158740830875</tilt>
+				<range>353.4402927234519</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>70.96163611111112,20.84677222222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>6</name>
+			<LookAt>
+				<longitude>70.96146292332075</longitude>
+				<latitude>20.84753389694244</latitude>
+				<altitude>0</altitude>
+				<heading>2.833822492266481</heading>
+				<tilt>30.00158740830875</tilt>
+				<range>353.4402927234519</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>70.96084166666667,20.84658055555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DAMASA ML BOUNDARY</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							70.96084130792363,20.84658987587737,0 70.96163711555478,20.84678057270783,0 70.96177095069622,20.84721300226336,0 70.9619990753261,20.84724658302587,0 70.96228903404413,20.84888727456627,0 70.96072289063082,20.84846290629601,0 70.96084130792363,20.84658987587737,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

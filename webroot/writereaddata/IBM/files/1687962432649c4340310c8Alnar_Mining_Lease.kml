@@ -1,0 +1,2144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Lease Boundary.kml</name>
+	<Schema name="iron ore" id="S_iron_ore_IDD2">
+		<SimpleField type="int" name="Point"><displayName>&lt;b&gt;Point&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Latitude"><displayName>&lt;b&gt;Latitude&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="longitude"><displayName>&lt;b&gt;longitude&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="POLYGON_255_0_0362">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="hlightPointStyle702">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Point</b></td><td>$[iron ore/Point]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[iron ore/Latitude]</td></tr>
+  <tr><td><b>longitude</b></td><td>$[iron ore/longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="hlightPointStyle712">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Point</b></td><td>$[iron ore/Point]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[iron ore/Latitude]</td></tr>
+  <tr><td><b>longitude</b></td><td>$[iron ore/longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="hlightPointStyle713">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Point</b></td><td>$[iron ore/Point]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[iron ore/Latitude]</td></tr>
+  <tr><td><b>longitude</b></td><td>$[iron ore/longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="hlightPointStyle722">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Point</b></td><td>$[iron ore/Point]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[iron ore/Latitude]</td></tr>
+  <tr><td><b>longitude</b></td><td>$[iron ore/longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="hlightPointStyle732">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Point</b></td><td>$[iron ore/Point]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[iron ore/Latitude]</td></tr>
+  <tr><td><b>longitude</b></td><td>$[iron ore/longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="hlightPointStyle742">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Point</b></td><td>$[iron ore/Point]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[iron ore/Latitude]</td></tr>
+  <tr><td><b>longitude</b></td><td>$[iron ore/longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="hlightPointStyle752">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Point</b></td><td>$[iron ore/Point]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[iron ore/Latitude]</td></tr>
+  <tr><td><b>longitude</b></td><td>$[iron ore/longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="hlightPointStyle762">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Point</b></td><td>$[iron ore/Point]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[iron ore/Latitude]</td></tr>
+  <tr><td><b>longitude</b></td><td>$[iron ore/longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="hlightPointStyle79">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Point</b></td><td>$[iron ore/Point]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[iron ore/Latitude]</td></tr>
+  <tr><td><b>longitude</b></td><td>$[iron ore/longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="normPointStyle702">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Point</b></td><td>$[iron ore/Point]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[iron ore/Latitude]</td></tr>
+  <tr><td><b>longitude</b></td><td>$[iron ore/longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="normPointStyle712">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Point</b></td><td>$[iron ore/Point]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[iron ore/Latitude]</td></tr>
+  <tr><td><b>longitude</b></td><td>$[iron ore/longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle713">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Point</b></td><td>$[iron ore/Point]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[iron ore/Latitude]</td></tr>
+  <tr><td><b>longitude</b></td><td>$[iron ore/longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="normPointStyle722">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Point</b></td><td>$[iron ore/Point]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[iron ore/Latitude]</td></tr>
+  <tr><td><b>longitude</b></td><td>$[iron ore/longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="normPointStyle732">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Point</b></td><td>$[iron ore/Point]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[iron ore/Latitude]</td></tr>
+  <tr><td><b>longitude</b></td><td>$[iron ore/longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="normPointStyle742">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Point</b></td><td>$[iron ore/Point]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[iron ore/Latitude]</td></tr>
+  <tr><td><b>longitude</b></td><td>$[iron ore/longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="normPointStyle752">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Point</b></td><td>$[iron ore/Point]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[iron ore/Latitude]</td></tr>
+  <tr><td><b>longitude</b></td><td>$[iron ore/longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="normPointStyle762">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Point</b></td><td>$[iron ore/Point]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[iron ore/Latitude]</td></tr>
+  <tr><td><b>longitude</b></td><td>$[iron ore/longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="normPointStyle79">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Point</b></td><td>$[iron ore/Point]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[iron ore/Latitude]</td></tr>
+  <tr><td><b>longitude</b></td><td>$[iron ore/longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="pointStyleMap702">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle702</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle752</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="pointStyleMap712">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle722</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle79</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="pointStyleMap722">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle79</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle722</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="pointStyleMap732">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle713</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle712</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="pointStyleMap733">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle712</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle713</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="pointStyleMap742">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle742</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle762</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="pointStyleMap752">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle752</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle742</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="pointStyleMap762">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle732</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle702</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="pointStyleMap79">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle762</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle732</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>iron ore</name>
+		<open>1</open>
+		<Placemark>
+			<name>1</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">1</SimpleData>
+					<SimpleData name="Latitude">18.5527</SimpleData>
+					<SimpleData name="longitude">81.232</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23203607999999,18.55268856000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">2</SimpleData>
+					<SimpleData name="Latitude">18.5527</SimpleData>
+					<SimpleData name="longitude">81.2325</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23250636,18.55266792000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3</name>
+			<styleUrl>#pointStyleMap762</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">3</SimpleData>
+					<SimpleData name="Latitude">18.536</SimpleData>
+					<SimpleData name="longitude">81.233</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23297931,18.55264444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">4</SimpleData>
+					<SimpleData name="Latitude">18.5526</SimpleData>
+					<SimpleData name="longitude">81.2335</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23345255999999,18.55261992000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">5</SimpleData>
+					<SimpleData name="Latitude">18.5526</SimpleData>
+					<SimpleData name="longitude">81.2339</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23393081,18.55259724999997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>6</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">6</SimpleData>
+					<SimpleData name="Latitude">18.5526</SimpleData>
+					<SimpleData name="longitude">81.2344</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23440025000004,18.55257332999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">7</SimpleData>
+					<SimpleData name="Latitude">18.5525</SimpleData>
+					<SimpleData name="longitude">81.2349</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23487503000003,18.55254674999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">8</SimpleData>
+					<SimpleData name="Latitude">18.5525</SimpleData>
+					<SimpleData name="longitude">81.2354</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23535011,18.55252347000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>9</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">9</SimpleData>
+					<SimpleData name="Latitude">18.5525</SimpleData>
+					<SimpleData name="longitude">81.2358</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23582330999999,18.55249871999997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">10</SimpleData>
+					<SimpleData name="Latitude">18.5525</SimpleData>
+					<SimpleData name="longitude">81.2363</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23629671999998,18.55247524999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>11</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">11</SimpleData>
+					<SimpleData name="Latitude">18.5525</SimpleData>
+					<SimpleData name="longitude">81.2368</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23677092000001,18.55245075,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>12</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">12</SimpleData>
+					<SimpleData name="Latitude">18.5524</SimpleData>
+					<SimpleData name="longitude">81.2372</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23724403,18.5524315,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>13</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">13</SimpleData>
+					<SimpleData name="Latitude">18.5524</SimpleData>
+					<SimpleData name="longitude">81.2377</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23771974999998,18.55240508000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>14</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">14</SimpleData>
+					<SimpleData name="Latitude">18.5524</SimpleData>
+					<SimpleData name="longitude">81.2382</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23819114000003,18.55237944000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>15</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">15</SimpleData>
+					<SimpleData name="Latitude">18.5524</SimpleData>
+					<SimpleData name="longitude">81.2387</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23866614000003,18.55235502999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>16</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">16</SimpleData>
+					<SimpleData name="Latitude">18.5523</SimpleData>
+					<SimpleData name="longitude">81.2391</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23913983000001,18.55233121999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>17</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">17</SimpleData>
+					<SimpleData name="Latitude">18.5523</SimpleData>
+					<SimpleData name="longitude">81.2396</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23961314000002,18.55230863999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">18</SimpleData>
+					<SimpleData name="Latitude">18.5523</SimpleData>
+					<SimpleData name="longitude">81.2401</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.24008349999995,18.55228375000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>19</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">19</SimpleData>
+					<SimpleData name="Latitude">18.5523</SimpleData>
+					<SimpleData name="longitude">81.2406</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.24055922000004,18.55225977999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>20</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">20</SimpleData>
+					<SimpleData name="Latitude">18.5522</SimpleData>
+					<SimpleData name="longitude">81.241</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.24099543999999,18.55223699999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>21</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">21</SimpleData>
+					<SimpleData name="Latitude">18.5518</SimpleData>
+					<SimpleData name="longitude">81.2411</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.24114328000003,18.55178868999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>22</name>
+			<styleUrl>#pointStyleMap732</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">22</SimpleData>
+					<SimpleData name="Latitude">18.5513</SimpleData>
+					<SimpleData name="longitude">81.2555</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.24129166666667,18.55133778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>23</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">23</SimpleData>
+					<SimpleData name="Latitude">18.5509</SimpleData>
+					<SimpleData name="longitude">81.2414</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.24144080999996,18.55088569,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>24</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">24</SimpleData>
+					<SimpleData name="Latitude">18.5502</SimpleData>
+					<SimpleData name="longitude">81.2418</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.24178068999998,18.55020769000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>25</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">25</SimpleData>
+					<SimpleData name="Latitude">18.5499</SimpleData>
+					<SimpleData name="longitude">81.2424</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.24238250000002,18.54993556000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>26</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">26</SimpleData>
+					<SimpleData name="Latitude">18.5497</SimpleData>
+					<SimpleData name="longitude">81.2428</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.24284927999999,18.54972943999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>27</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">27</SimpleData>
+					<SimpleData name="Latitude">18.5494</SimpleData>
+					<SimpleData name="longitude">81.2434</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.24338196999997,18.54944527999997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>28</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">28</SimpleData>
+					<SimpleData name="Latitude">18.5495</SimpleData>
+					<SimpleData name="longitude">81.2428</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.24284317,18.54946333000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>29</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">29</SimpleData>
+					<SimpleData name="Latitude">18.5495</SimpleData>
+					<SimpleData name="longitude">81.2424</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.24237227999997,18.54947888999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>30</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">30</SimpleData>
+					<SimpleData name="Latitude">18.5495</SimpleData>
+					<SimpleData name="longitude">81.2419</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.24189681000003,18.54949417000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>31</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">31</SimpleData>
+					<SimpleData name="Latitude">18.5495</SimpleData>
+					<SimpleData name="longitude">81.2414</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.24142308,18.54950833000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>32</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">32</SimpleData>
+					<SimpleData name="Latitude">18.5495</SimpleData>
+					<SimpleData name="longitude">81.241</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.24095075000001,18.54952332999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>33</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">33</SimpleData>
+					<SimpleData name="Latitude">18.5495</SimpleData>
+					<SimpleData name="longitude">81.2405</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.24047697000002,18.54953832999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>34</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">34</SimpleData>
+					<SimpleData name="Latitude">18.5496</SimpleData>
+					<SimpleData name="longitude">81.24</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.24000266999998,18.54955471999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>35</name>
+			<styleUrl>#pointStyleMap702</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">35</SimpleData>
+					<SimpleData name="Latitude">18.5662</SimpleData>
+					<SimpleData name="longitude">81.2395</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23953055555556,18.54956944444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>36</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">36</SimpleData>
+					<SimpleData name="Latitude">18.5496</SimpleData>
+					<SimpleData name="longitude">81.2391</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23905652999996,18.54958472,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>37</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">37</SimpleData>
+					<SimpleData name="Latitude">18.5496</SimpleData>
+					<SimpleData name="longitude">81.2386</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23858228,18.54959972,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>38</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">38</SimpleData>
+					<SimpleData name="Latitude">18.5496</SimpleData>
+					<SimpleData name="longitude">81.2376</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23763506000002,18.54963111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>39</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">39</SimpleData>
+					<SimpleData name="Latitude">18.5496</SimpleData>
+					<SimpleData name="longitude">81.2381</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23810989000005,18.54961639000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>40</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">40</SimpleData>
+					<SimpleData name="Latitude">18.5496</SimpleData>
+					<SimpleData name="longitude">81.2372</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23716417000001,18.54964832999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>41</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">41</SimpleData>
+					<SimpleData name="Latitude">18.5497</SimpleData>
+					<SimpleData name="longitude">81.2367</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23668764,18.54966082999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>42</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">42</SimpleData>
+					<SimpleData name="Latitude">18.5497</SimpleData>
+					<SimpleData name="longitude">81.2362</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23621528000001,18.54967638999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>43</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">43</SimpleData>
+					<SimpleData name="Latitude">18.5497</SimpleData>
+					<SimpleData name="longitude">81.2357</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23574143999997,18.54969167000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>44</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">44</SimpleData>
+					<SimpleData name="Latitude">18.5497</SimpleData>
+					<SimpleData name="longitude">81.2353</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23526724999998,18.54970721999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>45</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">45</SimpleData>
+					<SimpleData name="Latitude">18.5497</SimpleData>
+					<SimpleData name="longitude">81.2348</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23479383000002,18.54972277999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>46</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">46</SimpleData>
+					<SimpleData name="Latitude">18.5497</SimpleData>
+					<SimpleData name="longitude">81.2343</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23432033000002,18.54973917000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>47</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">47</SimpleData>
+					<SimpleData name="Latitude">18.5498</SimpleData>
+					<SimpleData name="longitude">81.2338</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23384678000004,18.54975361000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>48</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">48</SimpleData>
+					<SimpleData name="Latitude">18.5498</SimpleData>
+					<SimpleData name="longitude">81.2334</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23337244,18.54976694000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>49</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">49</SimpleData>
+					<SimpleData name="Latitude">18.5498</SimpleData>
+					<SimpleData name="longitude">81.2329</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23289769,18.54978306000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>50</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">50</SimpleData>
+					<SimpleData name="Latitude">18.5498</SimpleData>
+					<SimpleData name="longitude">81.2324</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23242657999999,18.54979916999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>51</name>
+			<styleUrl>#pointStyleMap733</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0000ff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">51</SimpleData>
+					<SimpleData name="Latitude">18.5498</SimpleData>
+					<SimpleData name="longitude">81.232</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23195292000001,18.54981444000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>52</name>
+			<styleUrl>#pointStyleMap79</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">52</SimpleData>
+					<SimpleData name="Latitude">18.5338</SimpleData>
+					<SimpleData name="longitude">81.232</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23197181000002,18.55044444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>53</name>
+			<styleUrl>#pointStyleMap722</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">53</SimpleData>
+					<SimpleData name="Latitude">18.5342</SimpleData>
+					<SimpleData name="longitude">81.232</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23198382999998,18.55089722222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>54</name>
+			<styleUrl>#pointStyleMap712</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">54</SimpleData>
+					<SimpleData name="Latitude">18.5347</SimpleData>
+					<SimpleData name="longitude">81.232</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23199825,18.55134444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>55</name>
+			<styleUrl>#pointStyleMap752</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">55</SimpleData>
+					<SimpleData name="Latitude">18.5351</SimpleData>
+					<SimpleData name="longitude">81.232</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23201011000003,18.55179444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>56</name>
+			<styleUrl>#pointStyleMap742</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_iron_ore_IDD2">
+					<SimpleData name="Point">56</SimpleData>
+					<SimpleData name="Latitude">18.5356</SimpleData>
+					<SimpleData name="longitude">81.232</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23202202999998,18.55225,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Polygon 28A</name>
+			<open>1</open>
+			<styleUrl>#POLYGON_255_0_0362</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.23203607997689,18.5526885599999,0 81.2325063599768,18.5526679199999,0 81.2329793099766,18.5526444444444,0 81.2334525599764,18.55261992,0 81.2339308099763,18.55259725,0 81.2344002499762,18.55257333,0 81.2348750299761,18.55254675,0 81.2353501099759,18.5525234699999,0 81.2358233099757,18.5524987199999,0 81.2362967199756,18.55247525,0 81.2367709199755,18.55245075,0 81.2372440299753,18.5524314999999,0 81.2377197499751,18.55240508,0 81.238191139975,18.55237944,0 81.2386661399749,18.55235503,0 81.2391398299747,18.5523312199999,0 81.23961313997459,18.55230864,0 81.2400834999744,18.55228375,0 81.2405592199743,18.55225978,0 81.2409954399741,18.5522369999999,0 81.2411432799741,18.5517886899999,0 81.24144080997389,18.5508856899999,0 81.24178068997379,18.55020769,0 81.2423824999737,18.54993556,0 81.2428492799735,18.54972944,0 81.2433819699733,18.5494452799999,0 81.2428431699735,18.54946333,0 81.24237227997359,18.54947889,0 81.24189680997389,18.54949417,0 81.241423079974,18.5495083299999,0 81.2409507499741,18.54952333,0 81.2404769699743,18.5495383299999,0 81.2400026699744,18.5495547199999,0 81.2395305555301,18.5495694444444,0 81.2390565299747,18.5495847199999,0 81.23858227997491,18.54959972,0 81.23810988997511,18.54961639,0 81.2376350599752,18.54963111,0 81.2371641699753,18.5496483299999,0 81.2366876399755,18.5496608299999,0 81.2362152799756,18.5496763899999,0 81.2357414399757,18.54969167,0 81.23526724997591,18.5497072199999,0 81.2347938299761,18.5497227799999,0 81.2343203299762,18.54973917,0 81.2338467799764,18.54975361,0 81.23337243997651,18.54976694,0 81.2328976899766,18.54978306,0 81.2324265799767,18.54979917,0 81.23195291997691,18.54981444,0 81.2319718099769,18.5504444444444,0 81.2319838299769,18.5508972222222,0 81.2319982499769,18.5513444444444,0 81.2320101099769,18.5517944444444,0 81.2320220299769,18.55225,0 81.23203607997689,18.5526885599999,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

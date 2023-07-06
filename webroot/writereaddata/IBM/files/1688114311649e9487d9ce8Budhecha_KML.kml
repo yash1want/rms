@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<LookAt>
+<longitude>70.22586133</longitude>
+<latitude>21.09859110</latitude>
+<range>449</range>
+</LookAt>
+<Style id="Filled_Label_00">
+<IconStyle>
+<scale>0.0</scale>
+<Icon>
+<href>http://www.topografix.com/symbols/blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.0</scale>
+</LabelStyle>
+</Style>
+<Style id="Filled_Label_01">
+<IconStyle>
+<scale>0.0</scale>
+<Icon>
+<href>http://www.topografix.com/symbols/blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.3</scale>
+</LabelStyle>
+</Style>
+<Style id="Filled_Label_02">
+<IconStyle>
+<scale>0.0</scale>
+<Icon>
+<href>http://www.topografix.com/symbols/blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.4</scale>
+</LabelStyle>
+</Style>
+<Style id="Filled_Label_03">
+<IconStyle>
+<scale>0.0</scale>
+<Icon>
+<href>http://www.topografix.com/symbols/blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.5</scale>
+</LabelStyle>
+</Style>
+<Style id="Filled_Label_04">
+<IconStyle>
+<scale>0.0</scale>
+<Icon>
+<href>http://www.topografix.com/symbols/blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.6</scale>
+</LabelStyle>
+</Style>
+<Style id="Filled_Label_05">
+<IconStyle>
+<scale>0.0</scale>
+<Icon>
+<href>http://www.topografix.com/symbols/blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.7</scale>
+</LabelStyle>
+</Style>
+<Style id="Filled_Label_06">
+<IconStyle>
+<scale>0.0</scale>
+<Icon>
+<href>http://www.topografix.com/symbols/blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.8</scale>
+</LabelStyle>
+</Style>
+<Style id="Filled_Label_07">
+<IconStyle>
+<scale>0.0</scale>
+<Icon>
+<href>http://www.topografix.com/symbols/blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.9</scale>
+</LabelStyle>
+</Style>
+<Style id="Filled_Label_08">
+<IconStyle>
+<scale>0.0</scale>
+<Icon>
+<href>http://www.topografix.com/symbols/blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>1.0</scale>
+</LabelStyle>
+</Style>
+<Style id="Filled_Label_09">
+<IconStyle>
+<scale>0.0</scale>
+<Icon>
+<href>http://www.topografix.com/symbols/blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>1.1</scale>
+</LabelStyle>
+</Style>
+<Style id="Line_LEASE_BOUNDARY_ff0000_03">
+<LineStyle>
+<color>ff0000ff</color>
+<width>1.7</width>
+</LineStyle>
+<PolyStyle>
+<color>ff0000ff</color>
+<fill>1</fill>
+</PolyStyle>
+<BalloonStyle>
+<text>
+<![CDATA[<style>td{font-size:1.5em; } table{border-collapse:collapse; border:1px;}</style><b><font color="#eb6b0b" size="+5">$[name]</font></b><br /><br /><font size="+3">$[description]</font><br /><br /><table width="1000px" border="1px"><tr style="background-color:FFFFFF"><td width="20%">Type</td><td>$[Type]</td></tr><tr style="background-color:D8E6E6"><td width="20%">Number of Trackpoints</td><td>$[Number of Trackpoints]</td></tr></table></body>]]></text>
+</BalloonStyle>
+</Style>
+<Folder>
+<name>Shapes</name>
+<Folder>
+<name>LEASE BOUNDARY</name>
+<Placemark>
+<LookAt>
+<longitude>70.22586133</longitude>
+<latitude>21.09859110</latitude>
+<range>449</range>
+</LookAt>
+<styleUrl>#Line_LEASE_BOUNDARY_ff0000_03</styleUrl>
+<ExtendedData>
+<Data name="Type">
+<value>LEASE BOUNDARY</value>
+</Data>
+<Data name="Number of Trackpoints">
+<value>26</value>
+</Data>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>70.22413053,21.09737634 70.22413053,21.09773059 70.22538575,21.09840280 70.22555028,21.09901648 70.22610539,21.09956311 70.22652380,21.09974442 70.22692268,21.09980585 70.22728526,21.09967468 70.22759213,21.09925635 70.22754471,21.09898019 70.22671344,21.09812940 70.22564793,21.09766357 70.22413053,21.09737634 70.22413053,21.09737634 70.22413053,21.09773059 70.22538575,21.09840280 70.22555028,21.09901648 70.22610539,21.09956311 70.22652380,21.09974442 70.22692268,21.09980585 70.22728526,21.09967468 70.22759213,21.09925635 70.22754471,21.09898019 70.22671344,21.09812940 70.22564793,21.09766357 70.22413053,21.09737634 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+</Folder>
+</Folder>
+</Document>
+</kml>

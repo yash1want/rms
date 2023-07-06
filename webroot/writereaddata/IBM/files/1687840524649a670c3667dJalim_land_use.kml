@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Zalim land use</name>
+<visibility>1</visibility>
+<Schema name="Total Excavation" id="kml_schema_ft_Total_Excavation">
+<SimpleField type="xsd:string" name="Layer">
+<displayName>Layer</displayName>
+</SimpleField>
+</Schema>
+<Schema name="RECLAMATION-BACKFILLED" id="kml_schema_ft_RECLAMATION-BACKFILLED">
+<SimpleField type="xsd:string" name="Layer">
+<displayName>Layer</displayName>
+</SimpleField>
+</Schema>
+<Schema name="afforestation" id="kml_schema_ft_afforestation">
+<SimpleField type="xsd:string" name="Layer">
+<displayName>Layer</displayName>
+</SimpleField>
+</Schema>
+<Schema name="Mined out 2022-23" id="kml_schema_ft_Mined_out_2022-23">
+<SimpleField type="xsd:string" name="Layer">
+<displayName>Layer</displayName>
+</SimpleField>
+</Schema>
+<Schema name="Lease boundary" id="kml_schema_ft_Lease_boundary">
+<SimpleField type="xsd:string" name="Layer">
+<displayName>Layer</displayName>
+</SimpleField>
+</Schema>
+<Schema name="Backfilled 2022-23" id="kml_schema_ft_Backfilled_2022-23">
+<SimpleField type="xsd:string" name="Layer">
+<displayName>Layer</displayName>
+</SimpleField>
+</Schema>
+<Schema name="Afforestation 2022-23" id="kml_schema_ft_Afforestation_2022-23">
+<SimpleField type="xsd:string" name="Layer">
+<displayName>Layer</displayName>
+</SimpleField>
+</Schema>
+<Folder id="kml_ft_Afforestation_2022-23">
+<name>Afforestation 2022-23</name>
+<Placemark id="kml_1">
+<name>Afforestation 2022-23</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Layer</th>
+<td>Afforestation 2022-23</td>
+</tr></table></center>]]></description>
+<Style>
+<LineStyle>
+<color>ffabab42</color>
+</LineStyle>
+<PolyStyle>
+<color>b0abab42</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Afforestation_2022-23">
+<SimpleData name="Layer">Afforestation 2022-23</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>84.4330139311034,23.423314151007,0.0 84.4330075494539,23.4239219683684,0.0 84.4333685477451,23.4239203915843,0.0 84.4335214650698,23.4233229290556,0.0 84.4330139311034,23.423314151007,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_6">
+<name>Afforestation 2022-23</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Layer</th>
+<td>Afforestation 2022-23</td>
+</tr></table></center>]]></description>
+<Style>
+<LineStyle>
+<color>ffabab42</color>
+</LineStyle>
+<PolyStyle>
+<color>b0abab42</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Afforestation_2022-23">
+<SimpleData name="Layer">Afforestation 2022-23</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>84.4330139311034,23.423314151007,0.0 84.4330090839863,23.4238554768093,0.0 84.433370082097,23.4238539000057,0.0 84.4335214650698,23.4233229290556,0.0 84.4330139311034,23.423314151007,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+</Folder>
+<Folder id="kml_ft_Backfilled_2022-23">
+<name>Backfilled 2022-23</name>
+<Placemark id="kml_2">
+<name>Backfilled 2022-23</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Layer</th>
+<td>Backfilled 2022-23</td>
+</tr></table></center>]]></description>
+<Style>
+<LineStyle>
+<color>ff7be0ae</color>
+</LineStyle>
+<PolyStyle>
+<color>b07be0ae</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Backfilled_2022-23">
+<SimpleData name="Layer">Backfilled 2022-23</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>84.4347882942553,23.425217051502,0.0 84.4347625245249,23.4250799706285,0.0 84.4347704569927,23.4248121053895,0.0 84.4343739967678,23.4251217916208,0.0 84.4338335176347,23.4252214152631,0.0 84.4333261330351,23.4251664673963,0.0 84.4333261330351,23.4251664673963,0.0 84.4333261330351,23.4251664673963,0.0 84.4331970976224,23.4253167022266,0.0 84.4331970976224,23.4253167022266,0.0 84.4333794398437,23.4254736547844,0.0 84.4338382054443,23.4254714787163,0.0 84.4345309168325,23.4252856303461,0.0 84.4347882942553,23.425217051502,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+</Folder>
+<Folder id="kml_ft_Lease_boundary">
+<name>Lease boundary</name>
+<Placemark id="kml_3">
+<name>Lease boundary</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Layer</th>
+<td>Lease boundary</td>
+</tr></table></center>]]></description>
+<Style>
+<LineStyle>
+<color>ff940f52</color>
+</LineStyle>
+<PolyStyle>
+<color>b0940f52</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Lease_boundary">
+<SimpleData name="Layer">Lease boundary</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>84.4354759968697,23.4220523675335,0.0 84.4334717887615,23.4218704101504,0.0 84.4334663635904,23.4220397325956,0.0 84.4333783235332,23.422575111322,0.0 84.4331184388023,23.4226470662227,0.0 84.4328250988494,23.4227761757768,0.0 84.4323016174282,23.4229962759199,0.0 84.4320398291283,23.4230882182933,0.0 84.4317464415861,23.4234408544143,0.0 84.431786416531,23.4238334654802,0.0 84.4318304841489,23.4241467453163,0.0 84.4319006782487,23.4242098010328,0.0 84.4322837714705,23.4243359124662,0.0 84.4322885303925,23.4244049168353,0.0 84.4323337401516,23.4245441153042,0.0 84.4324420056273,23.424647621858,0.0 84.4324562823934,23.424666657546,0.0 84.4324608789734,23.4247178732962,0.0 84.4324592861054,23.4247692433685,0.0 84.4324515234715,23.424820132781,0.0 84.4323646255556,23.4250805409935,0.0 84.4323268471551,23.4251609134013,0.0 84.4328973392854,23.4261931293705,0.0 84.4341936696414,23.4262159721961,0.0 84.4345622362542,23.4255791570473,0.0 84.4346054115741,23.4253957243983,0.0 84.4348700076379,23.4252510531692,0.0 84.4348357433993,23.4250854426831,0.0 84.4348604897937,23.4242497759779,0.0 84.4348719112067,23.4239566263819,0.0 84.4350851109128,23.4237510409511,0.0 84.4351688679402,23.4236653803548,0.0 84.4352716606555,23.4234655056304,0.0 84.4353592248207,23.4225022998152,0.0 84.4354759968697,23.4220523675335,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+</Folder>
+<Folder id="kml_ft_Mined_out_2022-23">
+<name>Mined out 2022-23</name>
+<Placemark id="kml_4">
+<name>Mined out 2022-23</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Layer</th>
+<td>Mined out 2022-23</td>
+</tr></table></center>]]></description>
+<Style>
+<LineStyle>
+<color>ff669aac</color>
+</LineStyle>
+<PolyStyle>
+<color>b0669aac</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Mined_out_2022-23">
+<SimpleData name="Layer">Mined out 2022-23</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>84.4346048592301,23.4248150981754,0.0 84.4345268022236,23.4248047884283,0.0 84.4344178407914,23.4248752111693,0.0 84.4343382159687,23.4249461160781,0.0 84.4342392074463,23.4250076755644,0.0 84.434091478482,23.4250594072931,0.0 84.4340032940387,23.4250669842256,0.0 84.4338861213163,23.4250560310549,0.0 84.4338871667103,23.4250018879075,0.0 84.4337699940633,23.4249909346553,0.0 84.4337217965063,23.4249540352879,0.0 84.4336739474682,23.4248990881947,0.0 84.4335468217941,23.4248969978478,0.0 84.4334284294561,23.424949211334,0.0 84.4334490328241,23.4248953898185,0.0 84.433336391299,23.4246498160367,0.0 84.4333300977474,23.4244691781351,0.0 84.4332970293465,23.4242894608361,0.0 84.4332876513108,23.4241344914584,0.0 84.4334265161412,23.4241846869502,0.0 84.4333718691909,23.4240019633168,0.0 84.4331063918599,23.4241678869429,0.0 84.4331063918599,23.4241678869429,0.0 84.4332410529482,23.4249931897395,0.0 84.4333261330351,23.4251664673963,0.0 84.4338454348504,23.4252192186484,0.0 84.4343739967678,23.4251217916208,0.0 84.434686926591,23.4248773535518,0.0 84.4346048592301,23.4248150981754,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+</Folder>
+<Folder id="kml_ft_RECLAMATION-BACKFILLED">
+<name>RECLAMATION-BACKFILLED</name>
+<Placemark id="kml_7">
+<name>RECLAMATION-BACKFILLED</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Layer</th>
+<td>RECLAMATION-BACKFILLED</td>
+</tr></table></center>]]></description>
+<Style>
+<LineStyle>
+<color>ffc646f1</color>
+</LineStyle>
+<PolyStyle>
+<color>b0c646f1</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_RECLAMATION-BACKFILLED">
+<SimpleData name="Layer">RECLAMATION-BACKFILLED</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>84.4347996089618,23.4239284429331,0.0 84.4351122402612,23.423624803381,0.0 84.4352041916868,23.4234408246638,0.0 84.4352865944566,23.4224915259839,0.0 84.435385060647,23.4221121287286,0.0 84.4335427867422,23.4219448728588,0.0 84.4335395519829,23.4220458329803,0.0 84.4334438787082,23.422627631599,0.0 84.4331449234042,23.4227104041089,0.0 84.4328560967834,23.4228375271719,0.0 84.4323298985279,23.4230587696103,0.0 84.4320853508576,23.4231446569377,0.0 84.4318221672827,23.423460989672,0.0 84.4318999409094,23.424114672805,0.0 84.4319403860132,23.4241510048301,0.0 84.4323539087659,23.4242871333131,0.0 84.432361202774,23.4243928955901,0.0 84.4323988906828,23.4245089344897,0.0 84.4324989270153,23.4246045735627,0.0 84.4325277657249,23.4246430251467,0.0 84.4325343189967,23.4247160421885,0.0 84.4325324925403,23.4247749465431,0.0 84.4325233467496,23.4248349037125,0.0 84.4324335361238,23.4251040408992,0.0 84.432407900326,23.4251585803584,0.0 84.4329408113112,23.4261226302189,0.0 84.4341501370166,23.4261475032627,0.0 84.4344927213389,23.4255555810254,0.0 84.4345405149105,23.4253525278695,0.0 84.4347882942553,23.425217051502,0.0 84.4347625245249,23.4250799706285,0.0 84.4347704569927,23.4248121053895,0.0 84.4343739967678,23.4251217916208,0.0 84.4338335176347,23.4252214152631,0.0 84.4333261330351,23.4251664673963,0.0 84.4333261330351,23.4251664673963,0.0 84.4333261330351,23.4251664673963,0.0 84.4332410529482,23.4249931897395,0.0 84.4331063918599,23.4241678869429,0.0 84.4331063918599,23.4241678869429,0.0 84.4331063918599,23.4241678869429,0.0 84.4327085441829,23.4240999458537,0.0 84.4327085441829,23.4240999458537,0.0 84.4327085441829,23.4240999458537,0.0 84.4325966658565,23.4239516191756,0.0 84.4326429954392,23.4237882788655,0.0 84.4326298386159,23.4237223676962,0.0 84.4326298386159,23.4237223676962,0.0 84.4326298386159,23.4237223676962,0.0 84.4326298386159,23.4237223676962,0.0 84.4326298386159,23.4237223676962,0.0 84.4326607920735,23.4237077662279,0.0 84.4326607920735,23.4237077662279,0.0 84.4326607920735,23.4237077662279,0.0 84.4326607920735,23.4237077662279,0.0 84.4326607920735,23.4237077662279,0.0 84.4326607920735,23.4237077662279,0.0 84.4326607920735,23.4237077662279,0.0 84.4326607920735,23.4237077662279,0.0 84.4326607920735,23.4237077662279,0.0 84.4327990398282,23.4236029059058,0.0 84.4329432712551,23.4237249821658,0.0 84.433003296839,23.4239447780684,0.0 84.4332578074577,23.423996352619,0.0 84.4335480343193,23.4236953051623,0.0 84.4335436249005,23.4233130455491,0.0 84.4336378975571,23.4232835017347,0.0 84.4338518160399,23.4234202456938,0.0 84.4339186197314,23.4235227909273,0.0 84.4339186197314,23.4235227909273,0.0 84.4339186197314,23.4235227909273,0.0 84.4339186197314,23.4235227909273,0.0 84.4339186197314,23.4235227909273,0.0 84.4339186197314,23.4235227909273,0.0 84.4339979716982,23.4238226627464,0.0 84.4338521947438,23.4239319273364,0.0 84.4338521947438,23.4239319273364,0.0 84.4339229086492,23.4241803733986,0.0 84.4342101795433,23.4243036879705,0.0 84.4345751212467,23.4245622625773,0.0 84.4346000818433,23.4241956756442,0.0 84.4347996089618,23.4239284429331,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_8">
+<name>RECLAMATION-BACKFILLED</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Layer</th>
+<td>RECLAMATION-BACKFILLED</td>
+</tr></table></center>]]></description>
+<Style>
+<LineStyle>
+<color>ffc646f1</color>
+</LineStyle>
+<PolyStyle>
+<color>b0c646f1</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_RECLAMATION-BACKFILLED">
+<SimpleData name="Layer">RECLAMATION-BACKFILLED</SimpleData>
+</SchemaData>
+</ExtendedData>
+</Placemark>
+</Folder>
+<Folder id="kml_ft_Total_Excavation">
+<name>Total Excavation</name>
+<Placemark id="kml_9">
+<name>Total Excavation</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Layer</th>
+<td>Total Excavation</td>
+</tr></table></center>]]></description>
+<Style>
+<LineStyle>
+<color>ff6b4f20</color>
+</LineStyle>
+<PolyStyle>
+<color>b06b4f20</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Total_Excavation">
+<SimpleData name="Layer">Total Excavation</SimpleData>
+</SchemaData>
+</ExtendedData>
+<MultiGeometry>
+<Polygon>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>84.4347704569927,23.4248121053895,0.0 84.434686926591,23.4248773535518,0.0 84.4343739967678,23.4251217916208,0.0 84.4338335176347,23.4252214152631,0.0 84.4333261330351,23.4251664673963,0.0 84.4332410529482,23.4249931897395,0.0 84.4331063918599,23.4241678869429,0.0 84.4332298043003,23.4240907541443,0.0 84.4332300238915,23.4240793834544,0.0 84.4332578074577,23.423996352619,0.0 84.4334333676864,23.4238142471823,0.0 84.4334517244628,23.423924546978,0.0 84.4335387470153,23.4240274418782,0.0 84.4336108757884,23.4241127263237,0.0 84.433736606838,23.4241870074155,0.0 84.4338623380345,23.4242612884176,0.0 84.4339494766069,23.4243078546731,0.0 84.4340175892763,23.4243506158961,0.0 84.4341185773833,23.4244046149991,0.0 84.4342195655768,23.4244586140436,0.0 84.4342618709021,23.4244822587939,0.0 84.4344459145862,23.4245980305887,0.0 84.4344616595643,23.4246322098634,0.0 84.4345011234795,23.4246148050966,0.0 84.434586632934,23.424562451792,0.0 84.4346029184541,23.424408863587,0.0 84.4346727639326,23.4243377977724,0.0 84.4347963802127,23.4240148672861,0.0 84.4347996089731,23.4239284429221,0.0 84.4351125680973,23.4236291079626,0.0 84.4352041916868,23.4234408246638,0.0 84.4352280311233,23.4231679530085,0.0 84.43528573429,23.4225014354126,0.0 84.435385060647,23.4221121287286,0.0 84.4335427867422,23.4219448728588,0.0 84.4335395519829,23.4220458329803,0.0 84.4334438787082,23.422627631599,0.0 84.4331449234041,23.4227104041088,0.0 84.4328560967834,23.4228375271719,0.0 84.4320853508576,23.4231446569377,0.0 84.4318221672828,23.423460989672,0.0 84.4318999409094,23.424114672805,0.0 84.4319403860131,23.4241510048299,0.0 84.4323539087659,23.4242871333132,0.0 84.4323612027739,23.4243928955901,0.0 84.4323988906828,23.4245089344897,0.0 84.4324989270153,23.4246045735627,0.0 84.4325277657249,23.4246430251467,0.0 84.4325343189967,23.4247160421885,0.0 84.4325324925403,23.4247749465432,0.0 84.4325233467495,23.4248349037125,0.0 84.4324079003259,23.4251585803583,0.0 84.4329408113112,23.4261226302189,0.0 84.4341501370166,23.4261475032627,0.0 84.4344927213387,23.4255555810259,0.0 84.4345405149105,23.4253525278695,0.0 84.4347882942553,23.425217051502,0.0 84.4347622000077,23.4250909289297,0.0 84.4347704569927,23.4248121053895,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Polygon>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>84.4347704569927,23.4248121053895,0.0 84.4347704569927,23.4248121053895,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+</Folder>
+<Folder id="kml_ft_afforestation">
+<name>afforestation</name>
+<Placemark id="kml_5">
+<name>afforestation</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Layer</th>
+<td>afforestation</td>
+</tr></table></center>]]></description>
+<Style>
+<LineStyle>
+<color>ffdeb1a2</color>
+</LineStyle>
+<PolyStyle>
+<color>b0deb1a2</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_afforestation">
+<SimpleData name="Layer">afforestation</SimpleData>
+</SchemaData>
+</ExtendedData>
+<MultiGeometry>
+<Polygon>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>84.435385060647,23.4221121287286,0.0 84.4335427867422,23.4219448728588,0.0 84.4335395519829,23.4220458329803,0.0 84.4334855888758,23.4223739879571,0.0 84.4337337992987,23.4224370188858,0.0 84.4348917488961,23.4229335718194,0.0 84.4352280748932,23.4231656846856,0.0 84.4352865944566,23.4224915259839,0.0 84.435385060647,23.4221121287286,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Polygon>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>84.4332994664241,23.4233236688512,0.0 84.43328994858,23.4227478392877,0.0 84.4329720525896,23.4227992356455,0.0 84.4330139311034,23.423314151007,0.0 84.4332994664241,23.4233236688512,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Polygon>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>84.4327944872915,23.4258579751131,0.0 84.4329408113112,23.4261226302189,0.0 84.4341501370166,23.4261475032627,0.0 84.4343279368174,23.4258402981486,0.0 84.4327944872915,23.4258579751131,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Polygon>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>84.4342759972208,23.4227630678383,0.0 84.4340482960902,23.4226832245847,0.0 84.4337855478515,23.4230534921226,0.0 84.4340494725331,23.4231361673239,0.0 84.4342759972208,23.4227630678383,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+</Folder>
+</Document></kml>

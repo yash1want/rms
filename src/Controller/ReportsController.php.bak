@@ -1,0 +1,2874 @@
+<?php
+
+namespace App\Controller;
+
+use Cake\Datasource\ConnectionManager;
+
+class ReportsController extends AppController
+{
+    public function initialize(): void
+    {
+        parent::initialize();
+
+        $this->loadModel('DirMeMineral');
+        $this->loadModel('DirState');
+    }
+
+    public function reportList()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+    }
+
+    public function monthlyFilter()
+    {
+        $title = $this->request->getQuery('title');
+        $this->set('title', $title);
+
+        $this->viewBuilder()->setLayout('mc_panel');
+
+        $queryMineral = $this->DirMeMineral->find('list', [
+            'keyField' => 'mineral_name',
+            'valueField' => 'mineral_name',
+        ])
+            ->select(['mineral_name'])->order(['mineral_name' => 'ASC']);
+        $minerals = $queryMineral->toArray();
+        $this->set('minerals', $minerals);
+
+        $queryState = $this->DirState->find('list', [
+            'keyField' => 'state_code',
+            'valueField' => 'state_name',
+        ])
+            ->select(['state_name']);
+        $states = $queryState->toArray();
+        $this->set('states', $states);
+    }
+
+    public function annualFilter()
+    {
+        $title = $this->request->getQuery('title');
+        $this->set('title', $title);
+
+        $this->viewBuilder()->setLayout('mc_panel');
+
+        $queryMineral = $this->DirMeMineral->find('list', [
+            'keyField' => 'mineral_name',
+            'valueField' => 'mineral_name',
+        ])
+            ->select(['mineral_name'])->order(['mineral_name' => 'ASC']);
+        $minerals = $queryMineral->toArray();
+        $this->set('minerals', $minerals);
+
+        $queryState = $this->DirState->find('list', [
+            'keyField' => 'state_code',
+            'valueField' => 'state_name',
+        ])
+            ->select(['state_name']);
+        $states = $queryState->toArray();
+        $this->set('states', $states);
+    }
+
+    public function reportM01()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $fromDate = $this->request->getData('from_date');
+            $fromDate = explode(' ', $fromDate);
+            $month1 = $fromDate[0];
+            $monthno = date('m', strtotime($month1));
+            $year1 = $fromDate[1];
+            $from_date = $year1 . '-' . $monthno . '-01';
+
+            $toDate = $this->request->getData('to_date');
+            $toDate = explode(' ', $toDate);
+            $month2 = $toDate[0];
+            $monthno = date('m', strtotime($month2));
+            $year2 = $toDate[1];
+            $to_date = $year2 . '-' . $monthno . '-01';
+
+            $showDate = $month1 . ' ' . $year1 . ' To ' . $month2 . ' ' . $year2;
+
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT m.MINE_NAME, m.lessee_owner_name, m.registration_no, p.open_oc_rom, p.open_ug_rom, p.open_dw_rom,
+                (p.trans_cost + p.loading_charges + p.railway_freight + p.port_handling + p.sampling_cost + p.plot_rent + p.other_cost) AS detail_deduction,
+                (ml.under_forest_area + ml.outside_forest_area) AS lease_area, gp.despatches, gp.pmv, dmg.grade_name, s.state_name, d.district_name, gs.sale_value, '$showDate' AS showDate
+                FROM
+                mine m
+                    INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                    INNER JOIN
+                prod_1 p ON m.mine_code = p.mine_code
+                    INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                    INNER JOIN
+                dir_district d ON m.district_code = d.district_code
+                    AND s.state_code = d.state_code
+                    INNER JOIN
+                grade_prod gp ON p.mine_code = gp.mine_code
+                    AND m.mine_code = gp.mine_code
+                    AND gp.mineral_name = p.mineral_name
+                    AND gp.return_date BETWEEN '$from_date' AND '$to_date'
+                    AND gp.return_type = '$returnType'
+                    INNER JOIN
+                dir_mineral_grade dmg ON gp.grade_code = dmg.grade_code
+                    INNER JOIN
+                grade_sale gs ON gp.mine_code = gs.mine_code
+                    AND p.mine_code = gs.mine_code
+                    AND m.mine_code = gs.mine_code
+                    AND gs.return_date BETWEEN '$from_date' AND '$to_date'
+                    AND gs.return_type = '$returnType'
+                    AND gs.mineral_name = gp.mineral_name
+                    AND p.mineral_name = gs.mineral_name
+                WHERE
+                p.return_type = '$returnType'
+                    AND (p.return_date BETWEEN '$from_date' AND '$to_date')
+                    AND gp.return_date BETWEEN '$from_date' AND '$to_date'
+                    AND gp.return_type = '$returnType'
+                    AND gs.return_date BETWEEN '$from_date' AND '$to_date'
+                    AND gs.return_type = '$returnType'";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND p.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND p.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+            // $sql .= " GROUP BY gp.mine_code, gp.mineral_name";
+             //pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportM02()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $fromDate = $this->request->getData('from_date');
+            $fromDate = explode(' ', $fromDate);
+            $month1 = $fromDate[0];
+            $monthno = date('m', strtotime($month1));
+            $year1 = $fromDate[1];
+            $from_date = $year1 . '-' . $monthno . '-01';
+
+            $toDate = $this->request->getData('to_date');
+            $toDate = explode(' ', $toDate);
+            $month2 = $toDate[0];
+            $monthno = date('m', strtotime($month2));
+            $year2 = $toDate[1];
+            $to_date = $year2 . '-' . $monthno . '-01';
+
+            $showDate = $month1 . ' ' . $year1 . ' To ' . $month2 . ' ' . $year2;
+
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT gp.opening_stock, gp.production, gp.closing_stock, gp.despatches, gs.sale_value, gp.mine_code, gp.mineral_name, m.MINE_NAME, m.lessee_owner_name,
+                m.registration_no, dmg.grade_name, s.state_name, d.district_name, (p.trans_cost + p.loading_charges + p.railway_freight + p.port_handling + p.sampling_cost + p.plot_rent + p.other_cost) AS detail_deduction,gp.pmv,
+                '$showDate' AS showDate, (ml.under_forest_area + ml.outside_forest_area) AS lease_area
+                FROM
+                mine m
+                INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                    INNER JOIN
+                dir_district d ON m.district_code = d.district_code AND s.state_code = d.state_code
+                    INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                    INNER JOIN
+                grade_prod gp ON m.mine_code = gp.mine_code 
+                    AND gp.return_type  = '$returnType' 
+                    AND (gp.return_date BETWEEN '$from_date' AND '$to_date')
+                    INNER JOIN
+                dir_mineral_grade dmg ON gp.grade_code = dmg.grade_code
+                    INNER JOIN
+                prod_1 p ON gp.mine_code = p.mine_code
+                    AND p.return_type = '$returnType'
+                    AND (p.return_date BETWEEN '$from_date' AND '$to_date')
+                    AND gp.mineral_name = p.mineral_name
+                    INNER JOIN
+                grade_sale gs ON p.mine_code = gs.mine_code
+                    AND gs.return_type = '$returnType'
+                    AND (gs.return_date  BETWEEN '$from_date' AND '$to_date')
+                    AND p.mineral_name = gs.mineral_name
+                WHERE
+                gp.return_type = '$returnType' AND (gp.return_date  BETWEEN '$from_date' AND '$to_date')";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND gp.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND gp.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+
+            $sql .= " GROUP BY gp.mine_code, m.MINE_NAME";
+              pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportM03()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $fromDate = $this->request->getData('from_date');
+            $fromDate = explode(' ', $fromDate);
+            $month1 = $fromDate[0];
+            $monthno = date('m', strtotime($month1));
+            $year1 = $fromDate[1];
+            $from_date = $year1 . '-' . $monthno . '-01';
+
+            $toDate = $this->request->getData('to_date');
+            $toDate = explode(' ', $toDate);
+            $month2 = $toDate[0];
+            $monthno = date('m', strtotime($month2));
+            $year2 = $toDate[1];
+            $to_date = $year2 . '-' . $monthno . '-01';
+
+            $showDate = $month1 . ' ' . $year1 . ' To ' . $month2 . ' ' . $year2;
+
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT  p.open_oc_rom,p.open_ug_rom,p.open_dw_rom,p.clos_oc_rom,p.clos_ug_rom, p.clos_dw_rom, p.mine_code, p.mineral_name, m.MINE_NAME, m.lessee_owner_name,
+                m.registration_no, dmg.grade_name, s.state_name, d.district_name,'$showDate' AS showDate, (ml.under_forest_area + ml.outside_forest_area) AS lease_area
+                FROM
+                mine m
+                INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                    INNER JOIN
+                dir_district d ON m.district_code = d.district_code AND s.state_code = d.state_code
+                    INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                    INNER JOIN
+                grade_prod gp ON m.mine_code = gp.mine_code 
+                    AND gp.return_type  = '$returnType' 
+                    AND (gp.return_date BETWEEN '$from_date' AND '$to_date')
+                    INNER JOIN
+                dir_mineral_grade dmg ON gp.grade_code = dmg.grade_code
+                    INNER JOIN
+                prod_1 p ON gp.mine_code = p.mine_code
+                    AND p.return_type = '$returnType'
+                    AND (p.return_date BETWEEN '$from_date' AND '$to_date')
+                    AND gp.mineral_name = p.mineral_name
+                WHERE
+                p.return_type = '$returnType' AND (p.return_date  BETWEEN '$from_date' AND '$to_date')";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND p.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND p.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+
+            $sql .= " GROUP BY p.mine_code, p.mineral_name";
+            // pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportM04()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $fromDate = $this->request->getData('from_date');
+            $fromDate = explode(' ', $fromDate);
+            $month1 = $fromDate[0];
+            $monthno = date('m', strtotime($month1));
+            $year1 = $fromDate[1];
+            $from_date = $year1 . '-' . $monthno . '-01';
+
+            $toDate = $this->request->getData('to_date');
+            $toDate = explode(' ', $toDate);
+            $month2 = $toDate[0];
+            $monthno = date('m', strtotime($month2));
+            $year2 = $toDate[1];
+            $to_date = $year2 . '-' . $monthno . '-01';
+
+            $showDate = $month1 . ' ' . $year1 . ' To ' . $month2 . ' ' . $year2;
+
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT r5.mineral_name, r5.mine_code, m.MINE_NAME, m.lessee_owner_name, m.registration_no, s.state_name, d.district_name,'$showDate' AS showDate, (ml.under_forest_area + ml.outside_forest_area) AS lease_area,
+                CASE
+                    WHEN r5.rom_5_step_sn = 10 THEN r5.tot_qty
+                END AS open_stock_qty,
+                CASE
+                    WHEN r5.rom_5_step_sn = 10 THEN CONCAT(r5.metal_content, ' ', r5.grade)
+                END AS open_stock_metal,
+                CASE
+                    WHEN r5.rom_5_step_sn = 11 THEN r5.tot_qty
+                END AS ore_rec_qty,
+                CASE
+                    WHEN r5.rom_5_step_sn = 11 THEN CONCAT(r5.metal_content, ' ', r5.grade)
+                END AS ore_rec_metal,
+                CASE
+                    WHEN r5.rom_5_step_sn = 12 THEN r5.tot_qty
+                END AS ore_treat_qty,
+                CASE
+                    WHEN r5.rom_5_step_sn = 12 THEN CONCAT(r5.metal_content, ' ', r5.grade)
+                END AS ore_treat_metal,
+                CASE
+                    WHEN r5.rom_5_step_sn = 13 THEN r5.tot_qty
+                END AS concentrate_obtain_qty,
+                CASE
+                    WHEN r5.rom_5_step_sn = 13 THEN CONCAT(r5.metal_content, ' ', r5.grade)
+                END AS concentrate_obtain_metal,
+                CASE
+                    WHEN r5.rom_5_step_sn = 14 THEN r5.tot_qty
+                END AS tail_qty,
+                CASE
+                    WHEN r5.rom_5_step_sn = 14 THEN CONCAT(r5.metal_content, ' ', r5.grade)
+                END AS tail_metal,
+                CASE
+                    WHEN r5.rom_5_step_sn = 15 THEN r5.tot_qty
+                END AS clos_stock_qty,
+                CASE
+                    WHEN r5.rom_5_step_sn = 15 THEN CONCAT(r5.metal_content, ' ', r5.grade)
+                END AS clos_stock_metal,
+                CASE
+                    WHEN rs.smelter_step_sn = 1 THEN rs.qty
+                END AS qyt_open_smelter,
+                CASE
+                    WHEN rs.smelter_step_sn = 1 THEN rs.grade
+                END AS metal_open_smelter,
+                CASE
+                    WHEN rs.smelter_step_sn = 2 THEN rs.qty
+                END AS concentrate_rec_qty,
+                CASE
+                    WHEN rs.smelter_step_sn = 2 THEN rs.grade
+                END AS concentrate_rec_metal,
+                CASE
+                    WHEN rs.smelter_step_sn = 4 THEN rs.qty
+                END AS concentrate_sold_qty,
+                CASE
+                    WHEN rs.smelter_step_sn = 4 THEN rs.grade
+                END AS concentrate_sold_metal,
+                CASE
+                    WHEN rs.smelter_step_sn = 5 THEN rs.qty
+                END AS concentrate_treat_qty,
+                CASE
+                    WHEN rs.smelter_step_sn = 5 THEN rs.grade
+                END AS concentrate_treat_metal,
+                CASE
+                    WHEN rs.smelter_step_sn = 6 THEN rs.qty
+                END AS qyt_close_smelter,
+                CASE
+                    WHEN rs.smelter_step_sn = 6 THEN rs.grade
+                END AS metal_close_smelter,
+                CASE
+                    WHEN rs.smelter_step_sn = 7 THEN rs.qty
+                END AS other_prod_qty,
+                CASE
+                    WHEN rs.smelter_step_sn = 7 THEN rs.grade
+                END AS other_prod_grade,
+                CASE
+                    WHEN rs.smelter_step_sn = 7 THEN rs.value
+                END AS other_prod_value,
+                CASE
+                    WHEN rs.smelter_step_sn = 6 THEN rs.qty
+                END AS metal_recover_qty,
+                CASE
+                    WHEN rs.smelter_step_sn = 6 THEN rs.grade
+                END AS metal_recover_grade,
+                CASE
+                    WHEN rs.smelter_step_sn = 6 THEN rs.value
+                END AS metal_recover_value
+                FROM
+                mine m
+                INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                INNER JOIN
+                dir_district d ON m.district_code = d.district_code
+                AND d.state_code = s.state_code
+                INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                INNER JOIN
+                rom_5 r5 ON m.mine_code = r5.mine_code
+                AND (r5.return_date BETWEEN '$from_date' AND '$to_date')
+                AND r5.return_type = '$returnType'
+                INNER JOIN
+                recov_smelter rs ON rs.mine_code = r5.mine_code
+                AND (rs.return_date  BETWEEN '$from_date' AND '$to_date')
+                AND rs.return_type = '$returnType'
+                WHERE
+                r5.return_type = '$returnType'
+                AND (rs.return_date BETWEEN '$from_date' AND '$to_date')";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND rs.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND rs.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+
+            $sql .= " GROUP BY rs.mine_code, rs.mineral_name";
+            // pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportM05()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $fromDate = $this->request->getData('from_date');
+            $fromDate = explode(' ', $fromDate);
+            $month1 = $fromDate[0];
+            $monthno = date('m', strtotime($month1));
+            $year1 = $fromDate[1];
+            $from_date = $year1 . '-' . $monthno . '-01';
+
+            $toDate = $this->request->getData('to_date');
+            $toDate = explode(' ', $toDate);
+            $month2 = $toDate[0];
+            $monthno = date('m', strtotime($month2));
+            $year2 = $toDate[1];
+            $to_date = $year2 . '-' . $monthno . '-01';
+
+            $showDate = $month1 . ' ' . $year1 . ' To ' . $month2 . ' ' . $year2;
+
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT gs.client_type, gs.client_name, gs.client_reg_no, gs.quantity, gs.sale_value, gs.expo_country, gs.expo_quantity, (ml.under_forest_area + ml.outside_forest_area) AS lease_area,
+                gs.expo_fob, gs.mine_code, gs.mineral_name, m.MINE_NAME, m.lessee_owner_name, m.registration_no, dmg.grade_name, s.state_name, d.district_name, '$showDate' AS showDate
+                FROM
+                mine m
+                    INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                    INNER JOIN
+                dir_district d ON m.district_code = d.district_code
+                    AND s.state_code = d.state_code
+                    INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                    INNER JOIN
+                grade_sale gs ON m.mine_code = gs.mine_code
+                    AND gs.return_type = '$returnType'
+                    AND (gs.return_date BETWEEN '$from_date' AND '$to_date')
+                    INNER JOIN
+                dir_mineral_grade dmg ON gs.grade_code = dmg.grade_code
+                WHERE
+                gs.return_type = '$returnType'
+                AND (gs.return_date BETWEEN '$from_date' AND '$to_date')";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND gs.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND gs.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+
+            $sql .= " GROUP BY gs.mine_code, gs.mineral_name";
+            // pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportM06()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $fromDate = $this->request->getData('from_date');
+            $fromDate = explode(' ', $fromDate);
+            $month1 = $fromDate[0];
+            $monthno = date('m', strtotime($month1));
+            $year1 = $fromDate[1];
+            $from_date = $year1 . '-' . $monthno . '-01';
+
+            $toDate = $this->request->getData('to_date');
+            $toDate = explode(' ', $toDate);
+            $month2 = $toDate[0];
+            $monthno = date('m', strtotime($month2));
+            $year2 = $toDate[1];
+            $to_date = $year2 . '-' . $monthno . '-01';
+
+            $showDate = $month1 . ' ' . $year1 . ' To ' . $month2 . ' ' . $year2;
+
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+
+            $sql = "SELECT ss.mine_code, ss.mineral_name, m.MINE_NAME, m.lessee_owner_name, m.registration_no,  (ml.under_forest_area + ml.outside_forest_area) AS lease_area,
+                s.state_name, d.district_name, ss.metal_content, ss.qty, ss.grade, ss.place_of_sale, ss.product_value, '$showDate' AS showDate
+                FROM
+                mine m
+                    INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                    INNER JOIN
+                dir_district d ON m.district_code = d.district_code
+                    AND d.state_code = s.state_code
+                    INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                    INNER JOIN
+                sale_5 ss ON m.mine_code = ss.mine_code
+                    AND ss.return_type = '$returnType'
+                    AND (ss.return_date BETWEEN '$from_date' AND '$to_date')
+                
+                WHERE
+                ss.return_type = '$returnType'
+                    AND (ss.return_date BETWEEN '$from_date' AND '$to_date')";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND ss.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND ss.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+
+            $sql .= " GROUP BY ss.mine_code, ss.mineral_name";
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportM07()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $fromDate = $this->request->getData('from_date');
+            $fromDate = explode(' ', $fromDate);
+            $month1 = $fromDate[0];
+            $monthno = date('m', strtotime($month1));
+            $year1 = $fromDate[1];
+            $from_date = $year1 . '-' . $monthno . '-01';
+
+            $toDate = $this->request->getData('to_date');
+            $toDate = explode(' ', $toDate);
+            $month2 = $toDate[0];
+            $monthno = date('m', strtotime($month2));
+            $year2 = $toDate[1];
+            $to_date = $year2 . '-' . $monthno . '-01';
+
+            $showDate = $month1 . ' ' . $year1 . ' To ' . $month2 . ' ' . $year2;
+
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT rr.past_surface_rent, rr.past_royalty, rr.past_dead_rent, rr.past_pay_dmf, rr.past_pay_nmet, rr.mine_code,  (ml.under_forest_area + ml.outside_forest_area) AS lease_area,
+                rr.mineral_name, m.MINE_NAME, m.lessee_owner_name, m.registration_no, s.state_name, d.district_name, '$showDate' AS showDate
+                FROM
+                mine m
+                    INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                    INNER JOIN
+                dir_district d ON m.district_code = d.district_code
+                    AND s.state_code = d.state_code
+                    INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                    INNER JOIN
+                rent_returns rr ON m.mine_code = rr.mine_code
+                    AND rr.return_type = '$returnType'
+                    AND (rr.return_date  BETWEEN '$from_date' AND '$to_date')
+                WHERE
+                rr.return_type = '$returnType'
+                AND (rr.return_date  BETWEEN '$from_date' AND '$to_date')";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND rr.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND rr.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+
+            $sql .= " GROUP BY rr.mine_code, rr.mineral_name";
+            // pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportM08()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $fromDate = $this->request->getData('from_date');
+            $fromDate = explode(' ', $fromDate);
+            $month1 = $fromDate[0];
+            $monthno = date('m', strtotime($month1));
+            $year1 = $fromDate[1];
+            $from_date = $year1 . '-' . $monthno . '-01';
+
+            $toDate = $this->request->getData('to_date');
+            $toDate = explode(' ', $toDate);
+            $month2 = $toDate[0];
+            $monthno = date('m', strtotime($month2));
+            $year2 = $toDate[1];
+            $to_date = $year2 . '-' . $monthno . '-01';
+
+            $showDate = $month1 . ' ' . $year1 . ' To ' . $month2 . ' ' . $year2;
+
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT rs.mine_code, rs.mineral_name, m.MINE_NAME, m.lessee_owner_name, m.registration_no, (ml.under_forest_area + ml.outside_forest_area) AS lease_area,
+                s.state_name, d.district_name, rs.oc_type, rs.oc_qty, rs.ug_type,rs.ug_qty, '$showDate' AS showDate
+                FROM
+                mine m
+                    INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                    INNER JOIN
+                dir_district d ON m.district_code = d.district_code
+                AND d.state_code = s.state_code
+                    INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                    INNER JOIN
+                rom_stone rs ON m.mine_code = rs.mine_code
+                AND rs.return_type = '$returnType'
+                AND (rs.return_date  BETWEEN '$from_date' AND '$to_date')
+                
+                WHERE
+                rs.return_type = '$returnType'
+                AND (rs.return_date  BETWEEN '$from_date' AND '$to_date')";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND rs.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND rs.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+
+            // pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportM09()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $fromDate = $this->request->getData('from_date');
+            $fromDate = explode(' ', $fromDate);
+            $month1 = $fromDate[0];
+            $monthno = date('m', strtotime($month1));
+            $year1 = $fromDate[1];
+            $from_date = $year1 . '-' . $monthno . '-01';
+
+            $toDate = $this->request->getData('to_date');
+            $toDate = explode(' ', $toDate);
+            $month2 = $toDate[0];
+            $monthno = date('m', strtotime($month2));
+            $year2 = $toDate[1];
+            $to_date = $year2 . '-' . $monthno . '-01';
+
+            $showDate = $month1 . ' ' . $year1 . ' To ' . $month2 . ' ' . $year2;
+
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT ps.mine_code, ps.mineral_name, m.MINE_NAME, m.lessee_owner_name, m.registration_no, s.state_name, d.district_name, (ml.under_forest_area + ml.outside_forest_area) AS lease_area,
+                CASE
+                    WHEN ps.stone_sn = 1 THEN ps.prod_tot_no
+                END AS rough_prod_no,
+                CASE
+                    WHEN ps.stone_sn = 1 THEN ps.prod_tot_qty
+                END AS rough_prod_qty,
+                CASE
+                    WHEN ps.stone_sn = 2 THEN ps.prod_tot_no
+                END AS cut_prod_no,
+                CASE
+                    WHEN ps.stone_sn = 2 THEN ps.prod_tot_qty
+                END AS cut_prod_qty,
+                CASE
+                    WHEN ps.stone_sn = 3 THEN ps.prod_tot_no
+                END AS industrial_prod_no,
+                CASE
+                    WHEN ps.stone_sn = 3 THEN ps.prod_tot_qty
+                END AS industrial_prod_qty,
+                CASE
+                    WHEN ps.stone_sn = 99 THEN ps.prod_tot_no
+                END AS other_prod_no,
+                CASE
+                    WHEN ps.stone_sn = 99 THEN ps.prod_tot_qty
+                END AS other_prod_qty,
+                '$showDate' AS showDate
+                FROM
+                mine m
+                    INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                    INNER JOIN
+                dir_district d ON m.district_code = d.district_code
+                    AND d.state_code = s.state_code
+                    INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                    INNER JOIN
+                prod_stone ps ON m.mine_code = ps.mine_code
+                    AND ps.return_type = '$returnType'
+                    AND (ps.return_date  BETWEEN '$from_date' AND '$to_date')
+                WHERE
+                ps.return_type = '$returnType'
+                AND (ps.return_date   BETWEEN '$from_date' AND '$to_date')";
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND ps.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND ps.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+
+            $sql .= " GROUP BY ps.mine_code,ps.mineral_name";
+            // pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportM10()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $fromDate = $this->request->getData('from_date');
+            $fromDate = explode(' ', $fromDate);
+            $month1 = $fromDate[0];
+            $monthno = date('m', strtotime($month1));
+            $year1 = $fromDate[1];
+            $from_date = $year1 . '-' . $monthno . '-01';
+
+            $toDate = $this->request->getData('to_date');
+            $toDate = explode(' ', $toDate);
+            $month2 = $toDate[0];
+            $monthno = date('m', strtotime($month2));
+            $year2 = $toDate[1];
+            $to_date = $year2 . '-' . $monthno . '-01';
+
+            $showDate = $month1 . ' ' . $year1 . ' To ' . $month2 . ' ' . $year2;
+
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT ps.mine_code, ps.mineral_name, m.MINE_NAME, m.lessee_owner_name, m.registration_no, s.state_name, d.district_name, (ml.under_forest_area + ml.outside_forest_area) AS lease_area,
+                CASE
+                    WHEN ps.stone_sn = 1 THEN ps.open_tot_no
+                END AS rough_open_prod_no,
+                CASE
+                    WHEN ps.stone_sn = 1 THEN ps.open_tot_qty
+                END AS rough_open_prod_qty,
+                CASE
+                    WHEN ps.stone_sn = 2 THEN ps.open_tot_no
+                END AS cut_open_prod_no,
+                CASE
+                    WHEN ps.stone_sn = 2 THEN ps.open_tot_qty
+                END AS cut_open_prod_qty,
+                CASE
+                    WHEN ps.stone_sn = 3 THEN ps.open_tot_no
+                END AS industrial_open_prod_no,
+                CASE
+                    WHEN ps.stone_sn = 3 THEN ps.open_tot_qty
+                END AS industrial_open_prod_qty,
+                CASE
+                    WHEN ps.stone_sn = 99 THEN ps.open_tot_no
+                END AS other_open_prod_no,
+                CASE
+                    WHEN ps.stone_sn = 99 THEN ps.open_tot_qty
+                END AS other_open_prod_qty,
+                CASE
+                    WHEN ps.stone_sn = 1 THEN ps.clos_tot_no
+                END AS rough_clos_prod_no,
+                CASE
+                    WHEN ps.stone_sn = 1 THEN ps.clos_tot_qty
+                END AS rough_clos_prod_qty,
+                CASE
+                    WHEN ps.stone_sn = 2 THEN ps.clos_tot_no
+                END AS cut_clos_prod_no,
+                CASE
+                    WHEN ps.stone_sn = 2 THEN ps.clos_tot_qty
+                END AS cut_clos_prod_qty,
+                CASE
+                    WHEN ps.stone_sn = 3 THEN ps.clos_tot_no
+                END AS industrial_clos_prod_no,
+                CASE
+                    WHEN ps.stone_sn = 3 THEN ps.clos_tot_qty
+                END AS industrial_clos_prod_qty,
+                CASE
+                    WHEN ps.stone_sn = 99 THEN ps.clos_tot_no
+                END AS other_clos_prod_no,
+                CASE
+                    WHEN ps.stone_sn = 99 THEN ps.clos_tot_qty
+                END AS other_clos_prod_qty,
+                '$showDate' AS showDate
+                FROM
+                mine m
+                INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                INNER JOIN
+                dir_district d ON m.district_code = d.district_code
+                AND d.state_code = s.state_code
+                INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                INNER JOIN
+                prod_stone ps ON m.mine_code = ps.mine_code
+                AND ps.return_type = '$returnType'
+                AND (ps.return_date BETWEEN '$from_date' AND '$to_date')
+                WHERE
+                ps.return_type = '$returnType'
+                AND (ps.return_date BETWEEN '$from_date' AND '$to_date')";
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND ps.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND ps.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+
+            $sql .= "  GROUP BY ps.mineral_name, ps.mine_code";
+            // pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportM11()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $fromDate = $this->request->getData('from_date');
+            $fromDate = explode(' ', $fromDate);
+            $month1 = $fromDate[0];
+            $monthno = date('m', strtotime($month1));
+            $year1 = $fromDate[1];
+            $from_date = $year1 . '-' . $monthno . '-01';
+
+            $toDate = $this->request->getData('to_date');
+            $toDate = explode(' ', $toDate);
+            $month2 = $toDate[0];
+            $monthno = date('m', strtotime($month2));
+            $year2 = $toDate[1];
+            $to_date = $year2 . '-' . $monthno . '-01';
+
+            $showDate = $month1 . ' ' . $year1 . ' To ' . $month2 . ' ' . $year2;
+
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT ps.mine_code, ps.mineral_name, m.MINE_NAME, m.lessee_owner_name, m.registration_no, s.state_name, d.district_name,  (ml.under_forest_area + ml.outside_forest_area) AS lease_area,
+                CASE
+                    WHEN ps.stone_sn = 1 THEN ps.pmv_oc
+                END AS rough_pmv_prod_no,
+                CASE
+                    WHEN ps.stone_sn = 1 THEN ps.pmv_oc
+                END AS rough_pmv_prod_qty,
+                CASE
+                    WHEN ps.stone_sn = 2 THEN ps.pmv_oc
+                END AS cut_pmv_prod_no,
+                CASE
+                    WHEN ps.stone_sn = 2 THEN ps.pmv_oc
+                END AS cut_pmv_prod_qty,
+                CASE
+                    WHEN ps.stone_sn = 3 THEN ps.pmv_oc
+                END AS industrial_pmv_prod_no,
+                CASE
+                    WHEN ps.stone_sn = 3 THEN ps.pmv_oc
+                END AS industrial_pmv_prod_qty,
+                CASE
+                    WHEN ps.stone_sn = 99 THEN ps.pmv_oc
+                END AS other_pmv_prod_no,
+                CASE
+                    WHEN ps.stone_sn = 99 THEN ps.pmv_oc
+                END AS other_pmv_prod_qty,
+                '$showDate' AS showDate
+                FROM
+                mine m
+                    INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                    INNER JOIN
+                dir_district d ON m.district_code = d.district_code
+                    AND d.state_code = s.state_code
+                    INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                    INNER JOIN
+                prod_stone ps ON m.mine_code = ps.mine_code
+                    AND ps.return_type = '$returnType'
+                    AND (ps.return_date BETWEEN '$from_date' AND '$to_date')
+                WHERE
+                ps.return_type = '$returnType'
+                AND (ps.return_date BETWEEN '$from_date' AND '$to_date')";
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND ps.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND ps.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+
+            $sql .= " GROUP BY ps.mineral_name, ps.mine_code";
+            // pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportA01()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $from_year = $this->request->getData('from_year');
+            $from_date = $from_year . '-' . '04-01';
+            $showDate = $from_year . ' - ' . $from_year + 1;
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT p.open_oc_rom, p.open_ug_rom, p.open_dw_rom, gp.despatches, gs.sale_value, gp.mine_code, gp.mineral_name, m.MINE_NAME, m.lessee_owner_name,
+                m.registration_no, dmg.grade_name, s.state_name, d.district_name, (p.trans_cost + p.loading_charges + p.railway_freight + p.port_handling + p.sampling_cost + p.plot_rent + p.other_cost) AS detail_deduction,gp.pmv,
+                '$showDate' AS showDate, (ml.under_forest_area + ml.outside_forest_area) AS lease_area
+                FROM
+                mine m
+                INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                    INNER JOIN
+                dir_district d ON m.district_code = d.district_code AND s.state_code = d.state_code
+                    INNER JOIN 
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                    INNER JOIN
+                grade_prod gp ON m.mine_code = gp.mine_code 
+                    AND gp.return_type  = '$returnType' 
+                    AND gp.return_date = '$from_date'
+                    INNER JOIN
+                dir_mineral_grade dmg ON gp.grade_code = dmg.grade_code
+                    INNER JOIN
+                prod_1 p ON gp.mine_code = p.mine_code
+                    AND p.return_type = '$returnType'
+                    AND p.return_date  = '$from_date'
+                    AND gp.mineral_name = p.mineral_name
+                    INNER JOIN
+                grade_sale gs ON p.mine_code = gs.mine_code
+                    AND gs.return_type = '$returnType'
+                    AND gs.return_date  = '$from_date'
+                    AND p.mineral_name = gs.mineral_name
+                WHERE
+                gp.return_type = '$returnType' AND gp.return_date  = '$from_date'";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND gp.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND gp.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+            $sql .= " GROUP BY gp.mine_code, m.MINE_NAME";
+            // pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportA02()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $from_year = $this->request->getData('from_year');
+            $from_date = $from_year . '-' . '04-01';
+            $showDate = $from_year . ' - ' . $from_year + 1;
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT gp.opening_stock, gp.production, gp.closing_stock, gp.despatches, gs.sale_value, gp.mine_code, gp.mineral_name, m.MINE_NAME, m.lessee_owner_name,
+                m.registration_no, dmg.grade_name, s.state_name, d.district_name, (p.trans_cost + p.loading_charges + p.railway_freight + p.port_handling + p.sampling_cost + p.plot_rent + p.other_cost) AS detail_deduction,gp.pmv,
+                '$showDate' AS showDate, (ml.under_forest_area + ml.outside_forest_area) AS lease_area
+                FROM
+                mine m
+                INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                    INNER JOIN
+                dir_district d ON m.district_code = d.district_code AND s.state_code = d.state_code
+                    INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                    INNER JOIN
+                grade_prod gp ON m.mine_code = gp.mine_code 
+                    AND gp.return_type  = '$returnType' 
+                    AND gp.return_date = '$from_date'
+                    INNER JOIN
+                dir_mineral_grade dmg ON gp.grade_code = dmg.grade_code
+                    INNER JOIN
+                prod_1 p ON gp.mine_code = p.mine_code
+                    AND p.return_type = '$returnType'
+                    AND p.return_date = '$from_date'
+                    AND gp.mineral_name = p.mineral_name
+                    INNER JOIN
+                grade_sale gs ON p.mine_code = gs.mine_code
+                    AND gs.return_type = '$returnType'
+                    AND gs.return_date = '$from_date'
+                    AND p.mineral_name = gs.mineral_name
+                WHERE
+                gp.return_type = '$returnType' AND gp.return_date = '$from_date'";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND gp.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND gp.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+
+            $sql .= " GROUP BY gp.mine_code, m.MINE_NAME";
+            // pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportA03()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $from_year = $this->request->getData('from_year');
+            $from_date = $from_year . '-' . '04-01';
+            $showDate = $from_year . ' - ' . $from_year + 1;
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT  p.open_oc_rom,p.open_ug_rom,p.open_dw_rom,p.clos_oc_rom,p.clos_ug_rom, p.clos_dw_rom, p.mine_code, p.mineral_name, m.MINE_NAME, m.lessee_owner_name,
+                m.registration_no, dmg.grade_name, s.state_name, d.district_name,'$showDate' AS showDate,  (ml.under_forest_area + ml.outside_forest_area) AS lease_area
+                FROM
+                mine m
+                INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                    INNER JOIN
+                dir_district d ON m.district_code = d.district_code AND s.state_code = d.state_code
+                    INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                    INNER JOIN
+                grade_prod gp ON m.mine_code = gp.mine_code 
+                    AND gp.return_type  = '$returnType' 
+                    AND gp.return_date = '$from_date'
+                    INNER JOIN
+                dir_mineral_grade dmg ON gp.grade_code = dmg.grade_code
+                    INNER JOIN
+                prod_1 p ON gp.mine_code = p.mine_code
+                    AND p.return_type = '$returnType'
+                    AND p.return_date = '$from_date'
+                    AND gp.mineral_name = p.mineral_name
+                WHERE
+                p.return_type = '$returnType' AND p.return_date = '$from_date'";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND p.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND p.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+
+            $sql .= " GROUP BY gp.mine_code, m.MINE_NAME";
+            // pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportA04()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $from_year = $this->request->getData('from_year');
+            $from_date = $from_year . '-' . '04-01';
+            $showDate = $from_year . ' - ' . $from_year + 1;
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT r5.mineral_name, r5.mine_code, m.MINE_NAME, m.lessee_owner_name, m.registration_no, s.state_name, d.district_name,'$showDate' AS showDate, (ml.under_forest_area + ml.outside_forest_area) AS lease_area,
+                CASE
+                    WHEN r5.rom_5_step_sn = 10 THEN r5.tot_qty
+                END AS open_stock_qty,
+                CASE
+                    WHEN r5.rom_5_step_sn = 10 THEN CONCAT(r5.metal_content, ' ', r5.grade)
+                END AS open_stock_metal,
+                CASE
+                    WHEN r5.rom_5_step_sn = 11 THEN r5.tot_qty
+                END AS ore_rec_qty,
+                CASE
+                    WHEN r5.rom_5_step_sn = 11 THEN CONCAT(r5.metal_content, ' ', r5.grade)
+                END AS ore_rec_metal,
+                CASE
+                    WHEN r5.rom_5_step_sn = 12 THEN r5.tot_qty
+                END AS ore_treat_qty,
+                CASE
+                    WHEN r5.rom_5_step_sn = 12 THEN CONCAT(r5.metal_content, ' ', r5.grade)
+                END AS ore_treat_metal,
+                CASE
+                    WHEN r5.rom_5_step_sn = 13 THEN r5.tot_qty
+                END AS concentrate_obtain_qty,
+                CASE
+                    WHEN r5.rom_5_step_sn = 13 THEN CONCAT(r5.metal_content, ' ', r5.grade)
+                END AS concentrate_obtain_metal,
+                CASE
+                    WHEN r5.rom_5_step_sn = 14 THEN r5.tot_qty
+                END AS tail_qty,
+                CASE
+                    WHEN r5.rom_5_step_sn = 14 THEN CONCAT(r5.metal_content, ' ', r5.grade)
+                END AS tail_metal,
+                CASE
+                    WHEN r5.rom_5_step_sn = 15 THEN r5.tot_qty
+                END AS clos_stock_qty,
+                CASE
+                    WHEN r5.rom_5_step_sn = 15 THEN CONCAT(r5.metal_content, ' ', r5.grade)
+                END AS clos_stock_metal,
+                CASE
+                    WHEN rs.smelter_step_sn = 1 THEN rs.qty
+                END AS qyt_open_smelter,
+                CASE
+                    WHEN rs.smelter_step_sn = 1 THEN rs.grade
+                END AS metal_open_smelter,
+                CASE
+                    WHEN rs.smelter_step_sn = 2 THEN rs.qty
+                END AS concentrate_rec_qty,
+                CASE
+                    WHEN rs.smelter_step_sn = 2 THEN rs.grade
+                END AS concentrate_rec_metal,
+                CASE
+                    WHEN rs.smelter_step_sn = 4 THEN rs.qty
+                END AS concentrate_sold_qty,
+                CASE
+                    WHEN rs.smelter_step_sn = 4 THEN rs.grade
+                END AS concentrate_sold_metal,
+                CASE
+                    WHEN rs.smelter_step_sn = 5 THEN rs.qty
+                END AS concentrate_treat_qty,
+                CASE
+                    WHEN rs.smelter_step_sn = 5 THEN rs.grade
+                END AS concentrate_treat_metal,
+                CASE
+                    WHEN rs.smelter_step_sn = 6 THEN rs.qty
+                END AS qyt_close_smelter,
+                CASE
+                    WHEN rs.smelter_step_sn = 6 THEN rs.grade
+                END AS metal_close_smelter,
+                CASE
+                    WHEN rs.smelter_step_sn = 7 THEN rs.qty
+                END AS other_prod_qty,
+                CASE
+                    WHEN rs.smelter_step_sn = 7 THEN rs.grade
+                END AS other_prod_grade,
+                CASE
+                    WHEN rs.smelter_step_sn = 7 THEN rs.value
+                END AS other_prod_value,
+                CASE
+                    WHEN rs.smelter_step_sn = 6 THEN rs.qty
+                END AS metal_recover_qty,
+                CASE
+                    WHEN rs.smelter_step_sn = 6 THEN rs.grade
+                END AS metal_recover_grade,
+                CASE
+                    WHEN rs.smelter_step_sn = 6 THEN rs.value
+                END AS metal_recover_value
+                FROM
+                mine m
+                    INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                    INNER JOIN
+                dir_district d ON m.district_code = d.district_code
+                    AND d.state_code = s.state_code
+                    INNER JOIN 
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                    INNER JOIN
+                rom_5 r5 ON m.mine_code = r5.mine_code
+                    AND r5.return_date = '$from_date'
+                    AND r5.return_type = '$returnType'
+                    INNER JOIN
+                recov_smelter rs ON rs.mine_code = r5.mine_code
+                    AND rs.return_date = '$from_date'
+                    AND rs.return_type = '$returnType'
+                WHERE
+                r5.return_type = '$returnType'
+                    AND rs.return_date = '$from_date'";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND rs.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND rs.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+
+            $sql .= " GROUP BY rs.mine_code, rs.mineral_name";
+            // pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportA05()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $from_year = $this->request->getData('from_year');
+            $from_date = $from_year . '-' . '04-01';
+            $showDate = $from_year . ' - ' . $from_year + 1;
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT gs.client_type, gs.client_name, gs.client_reg_no, gs.quantity, gs.sale_value, gs.expo_country, gs.expo_quantity, (ml.under_forest_area + ml.outside_forest_area) AS lease_area,
+                gs.expo_fob, gs.mine_code, gs.mineral_name, m.MINE_NAME, m.lessee_owner_name, m.registration_no, dmg.grade_name, s.state_name, d.district_name, '$showDate' AS showDate
+                FROM
+                mine m
+                    INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                    INNER JOIN
+                dir_district d ON m.district_code = d.district_code
+                    AND s.state_code = d.state_code
+                    INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                    INNER JOIN
+                grade_sale gs ON m.mine_code = gs.mine_code
+                    AND gs.return_type = '$returnType'
+                    AND gs.return_date = '$from_date'
+                    INNER JOIN
+                dir_mineral_grade dmg ON gs.grade_code = dmg.grade_code
+                WHERE
+                gs.return_type = '$returnType'
+                AND gs.return_date = '$from_date'";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND gs.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND gs.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+
+            // $sql .= " GROUP BY gs.mine_code, gs.mineral_name";
+            // pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportA06()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $from_year = $this->request->getData('from_year');
+            $from_date = $from_year . '-' . '04-01';
+            $showDate = $from_year . ' - ' . $from_year + 1;
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT ss.mine_code, ss.mineral_name, m.MINE_NAME, m.lessee_owner_name, m.registration_no, (ml.under_forest_area + ml.outside_forest_area) AS lease_area,
+                s.state_name, d.district_name, ss.metal_content, ss.qty, ss.grade, ss.place_of_sale, ss.product_value, '$showDate' AS showDate
+                FROM
+                mine m
+                    INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                    INNER JOIN
+                dir_district d ON m.district_code = d.district_code
+                    AND d.state_code = s.state_code
+                    INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                    INNER JOIN
+                sale_5 ss ON m.mine_code = ss.mine_code
+                    AND ss.return_type = '$returnType'
+                    AND ss.return_date = '$from_date'
+                
+                WHERE
+                ss.return_type = '$returnType'
+                AND ss.return_date = '$from_date'";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND ss.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND ss.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+
+            $sql .= " GROUP BY ss.mine_code, ss.mineral_name";
+            // pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportA07()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $from_year = $this->request->getData('from_year');
+            $from_date = $from_year . '-' . '04-01';
+            $showDate = $from_year . ' - ' . $from_year + 1;
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT rr.past_surface_rent, rr.past_royalty, rr.past_dead_rent, rr.past_pay_dmf, rr.past_pay_nmet, rr.mine_code,
+                rr.mineral_name, m.MINE_NAME, m.lessee_owner_name, m.registration_no, s.state_name, d.district_name, '$showDate' AS showDate, (ml.under_forest_area + ml.outside_forest_area) AS lease_area
+                FROM
+                mine m
+                    INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                    INNER JOIN
+                dir_district d ON m.district_code = d.district_code
+                    AND s.state_code = d.state_code
+                    INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                    INNER JOIN
+                rent_returns rr ON m.mine_code = rr.mine_code
+                    AND rr.return_type = '$returnType'
+                    AND rr.return_date = '$from_date'
+                WHERE
+                rr.return_type = '$returnType'
+                    AND rr.return_date = '$from_date'";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND rr.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND rr.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+
+            $sql .= " GROUP BY rr.mine_code, rr.mineral_name";
+            // pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportA08()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $from_year = $this->request->getData('from_year');
+            $from_date = $from_year . '-' . '04-01';
+            $showDate = $from_year . ' - ' . $from_year + 1;
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT rs.mine_code, rs.mineral_name, m.MINE_NAME, m.lessee_owner_name, m.registration_no,
+                s.state_name, d.district_name, rs.oc_type, rs.oc_qty, rs.ug_type,rs.ug_qty, '$showDate' AS showDate, (ml.under_forest_area + ml.outside_forest_area) AS lease_area
+                FROM
+                mine m
+                    INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                    INNER JOIN
+                dir_district d ON m.district_code = d.district_code
+                AND d.state_code = s.state_code
+                    INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                    INNER JOIN
+                rom_stone rs ON m.mine_code = rs.mine_code
+                AND rs.return_type = '$returnType'
+                AND rs.return_date = '$from_date'
+                
+                WHERE
+                rs.return_type = '$returnType'
+                AND rs.return_date = '$from_date' ";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND rs.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND rs.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+            // pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportA09()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $from_year = $this->request->getData('from_year');
+            $from_date = $from_year . '-' . '04-01';
+            $showDate = $from_year . ' - ' . $from_year + 1;
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT ps.mine_code, ps.mineral_name, m.MINE_NAME, m.lessee_owner_name, m.registration_no, s.state_name, d.district_name, (ml.under_forest_area + ml.outside_forest_area) AS lease_area,
+                CASE
+                    WHEN ps.stone_sn = 1 THEN ps.prod_oc_no
+                END AS rough_prod_no,
+                CASE
+                    WHEN ps.stone_sn = 1 THEN ps.prod_oc_qty
+                END AS rough_prod_qty,
+                CASE
+                    WHEN ps.stone_sn = 2 THEN ps.prod_oc_no
+                END AS cut_prod_no,
+                CASE
+                    WHEN ps.stone_sn = 2 THEN ps.prod_oc_qty
+                END AS cut_prod_qty,
+                CASE
+                    WHEN ps.stone_sn = 3 THEN ps.prod_oc_no
+                END AS industrial_prod_no,
+                CASE
+                    WHEN ps.stone_sn = 3 THEN ps.prod_oc_qty
+                END AS industrial_prod_qty,
+                CASE
+                    WHEN ps.stone_sn = 99 THEN ps.prod_oc_no
+                END AS other_prod_no,
+                CASE
+                    WHEN ps.stone_sn = 99 THEN ps.prod_oc_qty
+                END AS other_prod_qty,
+                '$showDate' AS showDate
+                FROM
+                mine m
+                    INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                    INNER JOIN
+                dir_district d ON m.district_code = d.district_code
+                    AND d.state_code = s.state_code
+                    INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                    INNER JOIN
+                prod_stone ps ON m.mine_code = ps.mine_code
+                    AND ps.return_type = '$returnType'
+                    AND ps.return_date = '$from_date'
+                WHERE
+                ps.return_type = '$returnType'
+                    AND ps.return_date = '$from_date'";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND ps.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND ps.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+
+            $sql .= " GROUP BY ps.mine_code,ps.mineral_name";
+            // pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportA10()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $from_year = $this->request->getData('from_year');
+            $from_date = $from_year . '-' . '04-01';
+            $showDate = $from_year . ' - ' . $from_year + 1;
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT ps.mine_code, ps.mineral_name, m.MINE_NAME, m.lessee_owner_name, m.registration_no, s.state_name, d.district_name, (ml.under_forest_area + ml.outside_forest_area) AS lease_area,
+                CASE
+                WHEN ps.stone_sn = 1 THEN ps.open_tot_no
+                END AS rough_open_prod_no,
+                CASE
+                WHEN ps.stone_sn = 1 THEN ps.open_tot_qty
+                END AS rough_open_prod_qty,
+                CASE
+                WHEN ps.stone_sn = 2 THEN ps.open_tot_no
+                END AS cut_open_prod_no,
+                CASE
+                WHEN ps.stone_sn = 2 THEN ps.open_tot_qty
+                END AS cut_open_prod_qty,
+                CASE
+                WHEN ps.stone_sn = 3 THEN ps.open_tot_no
+                END AS industrial_open_prod_no,
+                CASE
+                WHEN ps.stone_sn = 3 THEN ps.open_tot_qty
+                END AS industrial_open_prod_qty,
+                CASE
+                WHEN ps.stone_sn = 99 THEN ps.open_tot_no
+                END AS other_open_prod_no,
+                CASE
+                WHEN ps.stone_sn = 99 THEN ps.open_tot_qty
+                END AS other_open_prod_qty,
+                CASE
+                WHEN ps.stone_sn = 1 THEN ps.clos_tot_no
+                END AS rough_clos_prod_no,
+                CASE
+                WHEN ps.stone_sn = 1 THEN ps.clos_tot_qty
+                END AS rough_clos_prod_qty,
+                CASE
+                WHEN ps.stone_sn = 2 THEN ps.clos_tot_no
+                END AS cut_clos_prod_no,
+                CASE
+                WHEN ps.stone_sn = 2 THEN ps.clos_tot_qty
+                END AS cut_clos_prod_qty,
+                CASE
+                WHEN ps.stone_sn = 3 THEN ps.clos_tot_no
+                END AS industrial_clos_prod_no,
+                CASE
+                WHEN ps.stone_sn = 3 THEN ps.clos_tot_qty
+                END AS industrial_clos_prod_qty,
+                CASE
+                WHEN ps.stone_sn = 99 THEN ps.clos_tot_no
+                END AS other_clos_prod_no,
+                CASE
+                WHEN ps.stone_sn = 99 THEN ps.clos_tot_qty
+                END AS other_clos_prod_qty,
+                '$showDate' AS showDate
+                FROM
+                mine m
+                INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                INNER JOIN
+                dir_district d ON m.district_code = d.district_code
+                AND d.state_code = s.state_code
+                INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                INNER JOIN
+                prod_stone ps ON m.mine_code = ps.mine_code
+                AND ps.return_type = '$returnType'
+                AND ps.return_date = '$from_date'
+                WHERE
+                ps.return_type = '$returnType'
+                AND ps.return_date = '$from_date'";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND ps.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND ps.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+
+            $sql .= "  GROUP BY ps.mineral_name, ps.mine_code";
+            // pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportA11()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $from_year = $this->request->getData('from_year');
+            $from_date = $from_year . '-' . '04-01';
+            $showDate = $from_year . ' - ' . $from_year + 1;
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT ps.mine_code, ps.mineral_name, m.MINE_NAME, m.lessee_owner_name, m.registration_no, s.state_name, d.district_name, (ml.under_forest_area + ml.outside_forest_area) AS lease_area,
+                CASE
+                    WHEN ps.stone_sn = 1 THEN ps.pmv_oc
+                END AS rough_pmv_prod_no,
+                CASE
+                    WHEN ps.stone_sn = 1 THEN ps.pmv_oc
+                END AS rough_pmv_prod_qty,
+                CASE
+                    WHEN ps.stone_sn = 2 THEN ps.pmv_oc
+                END AS cut_pmv_prod_no,
+                CASE
+                    WHEN ps.stone_sn = 2 THEN ps.pmv_oc
+                END AS cut_pmv_prod_qty,
+                CASE
+                    WHEN ps.stone_sn = 3 THEN ps.pmv_oc
+                END AS industrial_pmv_prod_no,
+                CASE
+                    WHEN ps.stone_sn = 3 THEN ps.pmv_oc
+                END AS industrial_pmv_prod_qty,
+                CASE
+                    WHEN ps.stone_sn = 99 THEN ps.pmv_oc
+                END AS other_pmv_prod_no,
+                CASE
+                    WHEN ps.stone_sn = 99 THEN ps.pmv_oc
+                END AS other_pmv_prod_qty,
+                '$showDate' AS showDate
+                FROM
+                mine m
+                    INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                    INNER JOIN
+                dir_district d ON m.district_code = d.district_code
+                    AND d.state_code = s.state_code
+                    INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                    INNER JOIN
+                prod_stone ps ON m.mine_code = ps.mine_code
+                    AND ps.return_type = '$returnType'
+                    AND ps.return_date = '$from_date'
+                WHERE
+                ps.return_type = '$returnType'
+                AND ps.return_date = '$from_date'";
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND ps.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND ps.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+            $sql .= " GROUP BY ps.mineral_name, ps.mine_code";
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportA12()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $from_year = $this->request->getData('from_year');
+            $from_date = $from_year . '-' . '04-01';
+            $showDate = $from_year . ' - ' . $from_year + 1;
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT rr.mine_code, rr.mineral_name, m.MINE_NAME, m.lessee_owner_name, m.registration_no, s.state_name, d.district_name,
+                '$showDate' AS showDate, rr.proved_balance, rr.probable_first_balance, (ml.under_forest_area + ml.outside_forest_area) AS lease_area,
+                SUM(rr.feasibility_balance + rr.prefeasibility_first_balance + rr.prefeasibility_sec_balance + rr.measured_sec_balance + rr.indicated_sec_balance+ rr.inferred_sec_balance + rr.reconnaissance_sec_balance) AS resources
+                FROM
+                mine m
+                    INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                    INNER JOIN
+                dir_district d ON m.district_code = d.district_code
+                    AND d.state_code = s.state_code
+                    INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                    INNER JOIN
+                reserves_resources rr ON m.mine_code = rr.mine_code
+                    AND rr.return_type = '$returnType'
+                    AND rr.return_date = '$from_date'
+                WHERE
+                rr.return_type = '$returnType'
+                AND rr.return_date = '$from_date'";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND rr.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND rr.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportA13()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $from_year = $this->request->getData('from_year');
+            $from_date = $from_year . '-' . '04-01';
+            $showDate = $from_year . ' - ' . $from_year + 1;
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT smr.mine_code, smr.mineral_name, m.MINE_NAME, m.lessee_owner_name, m.registration_no, s.state_name, d.district_name,
+                '$showDate' AS showDate, smr.unprocessed_begin, smr.unprocessed_generated, smr.unprocessed_disposed, smr.unprocessed_total,
+                smr.unprocessed_average, smr.processed_begin, smr.processed_generated, smr.processed_disposed, smr.processed_total, smr.processed_average, (ml.under_forest_area + ml.outside_forest_area) AS lease_area
+                FROM
+                mine m
+                    INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                    INNER JOIN
+                dir_district d ON m.district_code = d.district_code
+                    AND d.state_code = s.state_code
+                    INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                    INNER JOIN
+                subgrade_mineral_reject smr ON m.mine_code = smr.mine_code
+                    AND smr.return_type = '$returnType'
+                    AND smr.return_date = '$from_date'
+                WHERE
+                smr.return_type = '$returnType'
+                AND smr.return_date = '$from_date'";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND smr.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND smr.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+
+            // pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportA14()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $from_year = $this->request->getData('from_year');
+            $from_date = $from_year . '-' . '04-01';
+            $showDate = $from_year . ' - ' . $from_year + 1;
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT tps.mine_code, gp.mineral_name, m.MINE_NAME, m.lessee_owner_name, m.registration_no, s.state_name, d.district_name,
+                '$showDate' AS showDate, tps.trees_wi_lease, tps.surv_wi_lease, tps.ttl_eoy_wi_lease, tps.trees_os_lease, tps.surv_os_lease, tps.ttl_eoy_os_lease, (ml.under_forest_area + ml.outside_forest_area) AS lease_area
+                FROM
+                mine m
+                INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                INNER JOIN
+                dir_district d ON m.district_code = d.district_code
+                AND d.state_code = s.state_code
+                INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                INNER JOIN
+                trees_plant_survival tps ON m.mine_code = tps.mine_code
+                AND tps.return_type = '$returnType'
+                AND tps.return_date = '$from_date'
+                INNER JOIN
+                grade_prod gp ON tps.mine_code = gp.mine_code
+                AND gp.return_type = '$returnType'
+                AND gp.return_date = '$from_date'
+                WHERE
+                tps.return_type = '$returnType'
+               AND tps.return_date = '$from_date'";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND gp.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND tps.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+            // pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportA15()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $from_year = $this->request->getData('from_year');
+            $from_date = $from_year . '-' . '04-01';
+            $showDate = $from_year . ' - ' . $from_year + 1;
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = " SELECT cp.exploration_cost, cp.mining_cost, cp.beneficiation_cost, cp.overhead_cost, cp.depreciation_cost, cp.interest_cost,
+                cp.royalty_cost, cp.past_pay_dmf, cp.past_pay_nmet, cp.taxes_cost, cp.dead_rent_cost, cp.others_cost, cp.mine_code, cp.total_cost,
+                m.MINE_NAME, m.lessee_owner_name, m.registration_no, s.state_name, d.district_name, '$showDate' AS showDate, p.mineral_name, (ml.under_forest_area + ml.outside_forest_area) AS lease_area
+                FROM
+                cost_production cp
+                INNER JOIN
+                mine m ON cp.mine_code = m.mine_code
+                INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                INNER JOIN
+                dir_district d ON m.district_code = d.district_code
+                AND s.state_code = d.state_code
+                INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                INNER JOIN
+                prod_1 p ON cp.mine_code = p.mine_code
+                    -- AND m.mine_code = p.mine_code
+                    -- AND p.return_type = cp.return_type
+                    -- AND p.return_date = cp.return_date
+                    AND p.return_type = '$returnType'
+                    AND p.return_date = '$from_date'
+                WHERE
+                cp.return_date = '$from_date'
+                    AND cp.return_type = '$returnType'
+                    -- AND p.return_type = '$returnType'
+                    -- AND p.return_date = '$from_date'
+                ";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND p.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND cp.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+            // pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportA16()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $from_year = $this->request->getData('from_year');
+            $from_date = $from_year . '-' . '04-01';
+            $showDate = $from_year . ' - ' . $from_year + 1;
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT lr.forest_abandoned_area, lr.non_forest_abandoned_area, lr.total_abandoned_area, lr.forest_working_area, lr.non_forest_working_area,
+                lr.total_working_area, lr.forest_reclaimed_area, lr.non_forest_reclaimed_area, lr.total_reclaimed_area, lr.forest_waste_area, lr.non_forest_waste_area,
+                lr.total_waste_area, lr.forest_building_area, lr.non_forest_building_area, lr.total_building_area, lr.forest_other_area, lr.non_forest_other_area,
+                lr.total_other_area, lr.forest_progressive_area, lr.non_forest_progressive_area, lr.total_progressive_area, lr.mine_code, m.MINE_NAME, m.lessee_owner_name, m.registration_no,
+                s.state_name, d.district_name, '$showDate' AS showDate,  p.mineral_name, (ml.under_forest_area + ml.outside_forest_area) AS lease_area
+                FROM
+                lease_return lr
+                    INNER JOIN
+                mine m ON lr.mine_code = m.mine_code
+                    INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                    INNER JOIN
+                dir_district d ON m.district_code = d.district_code
+                    AND s.state_code = d.state_code
+                    INNER JOIN 
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                INNER JOIN
+                prod_1 p ON lr.mine_code = p.mine_code
+                    AND m.mine_code = p.mine_code
+                    AND p.return_type = lr.return_type
+                    AND p.return_date = lr.return_date
+                    AND p.return_type = '$returnType'
+                AND p.return_date = '$from_date'
+                WHERE
+                lr.return_date = '$from_date'
+                    AND lr.return_type = '$returnType'
+                    AND p.return_type = '$returnType'
+                AND p.return_date = '$from_date'
+                
+                group by lr.mine_code, p.mineral_name";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND p.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND lr.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+            // pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportA17()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $from_year = $this->request->getData('from_year');
+            $from_date = $from_year . '-' . '04-01';
+            $showDate = $from_year . ' - ' . $from_year + 1;
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT rr.wholly_employed_geologist, rr.partly_employed_geologist, rr.no_work_days, rr.mine_code, p.mineral_name, m.MINE_NAME,
+                m.lessee_owner_name, m.registration_no, s.state_name, d.district_name, '$showDate' AS showDate, (ml.under_forest_area + ml.outside_forest_area) AS lease_area
+                FROM
+                rent_returns rr
+                    INNER JOIN
+                mine m ON rr.mine_code = m.mine_code
+                    INNER join prod_1 p ON m.mine_code = p.mine_code 
+                AND rr.mine_code = p.mine_code
+                AND p.return_date = '$from_date'
+                AND p.return_type = '$returnType'
+                    INNER JOIN
+                mcp_lease ml ON m.mine_code = ml.mine_code
+                    INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                    INNER JOIN
+                dir_district d ON m.district_code = d.district_code
+                    AND s.state_code = d.state_code
+                
+                WHERE
+                rr.return_date = '$from_date'
+                AND rr.return_type = '$returnType'";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND p.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND rr.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+
+            $sql .= " GROUP BY rr.mine_code, p.mineral_name";
+            // pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+
+    public function reportA18()
+    {
+        $this->viewBuilder()->setLayout('mc_panel');
+        if ($this->request->is('post')) {
+            $returnType = $this->request->getData('returnType');
+            $from_year = $this->request->getData('from_year');
+            $from_date = $from_year . '-' . '04-01';
+            $showDate = $from_year . ' - ' . $from_year + 1;
+            $mineral = $this->request->getData('mineral');
+            $mineral = strtolower(str_replace(' ', '_', $mineral));
+            $state = $this->request->getData('state');
+            $district = $this->request->getData('district');
+            $minecode = $this->request->getData('minecode');
+            if ($minecode != '') {
+                $minecode = implode('\', \'', $minecode);
+            }
+            $minename = $this->request->getData('minename');
+            $owner = $this->request->getData('owner');
+            $lesseearea = $this->request->getData('lesseearea');
+            $ibm = $this->request->getData('ibm');
+
+            $con = ConnectionManager::get('default');
+
+            $sql = "SELECT dr.machinery_name, mc.capacity, mc.unit_no, mc.no_of_machinery, mc.oc_machinery, p.mineral_name, m.MINE_NAME, m.lessee_owner_name,
+                m.registration_no, s.state_name, d.district_name, '$showDate' AS showDate, mc.mine_code, (ml.under_forest_area + ml.outside_forest_area) AS lease_area,
+                CASE WHEN mc.electrical_machinery = 1 THEN 'Electrical' 
+                WHEN mc.electrical_machinery = 2 THEN 'Non Electrical' END AS electrical_machinery,
+                
+                CASE WHEN mc.oc_machinery = 1 THEN 'Open Cast'
+                WHEN mc.oc_machinery = 2 THEN 'Underground'
+                WHEN mc.oc_machinery = 3 THEN 'Both' END AS oc_machinery
+                FROM
+                machinery mc
+                    INNER JOIN
+                mine m ON mc.mine_code = m.mine_code
+                    AND mc.return_type = '$returnType'
+                    AND mc.return_date = '$from_date'
+                    INNER JOIN 
+                dir_machinery dr on dr.machinery_code = SUBSTRING_INDEX(mc.machinery_code,'-',1) 
+                    INNER JOIN
+                mcp_lease ml ON m.mine_code =  ml.mine_code
+                    INNER JOIN
+                dir_state s ON m.state_code = s.state_code
+                    INNER JOIN
+                dir_district d ON m.district_code = d.district_code
+                    AND s.state_code = d.state_code
+                    INNER JOIN 
+                prod_1 p ON p.mine_code = mc.mine_code AND m.mine_code = p.mine_code
+                    AND p.return_type = '$returnType'
+                    AND p.return_date = '$from_date'
+                
+                WHERE
+                mc.return_date = '$from_date'
+                AND mc.return_type = '$returnType'";
+
+            if ($state != '') {
+                $sql .= " AND m.state_code = '$state'";
+            }
+            if ($district != '') {
+                $sql .= " AND m.district_code = '$district'";
+            }
+            if ($mineral != '') {
+                $sql .= " AND p.mineral_name = '$mineral'";
+            }
+            if ($minecode != '') {
+                $sql .= " AND mc.mine_code IN('$minecode')";
+            }
+            if ($ibm != '') {
+                $sql .= " AND m.registration_no  = '$ibm'";
+            }
+            if ($minename != '') {
+                $sql .= " AND m.MINE_NAME = '$minename'";
+            }
+            if ($owner != '') {
+                $sql .= "  AND m.lessee_owner_name = '$owner'";
+            }
+            
+            // pr($sql);exit;
+            $query = $con->execute($sql);
+            $records = $query->fetchAll('assoc');
+            if (!empty($records)) {
+                $this->set('records', $records);
+            } else {
+                return $this->redirect('/reports/report-list');
+            }
+        }
+    }
+}

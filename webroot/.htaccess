@@ -1,0 +1,34 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+    
+    RedirectMatch 301 /WebPolicy.html /pages/webpolicies
+</IfModule>
+
+
+
+<IfModule mod_headers.c>
+     RewriteEngine On
+     Header set Test-Output-Request_URI "%{Request_URI}e"
+    <If "%{THE_REQUEST} =~ m#/mms/home#">
+        Header set Content-Security-Policy: "default-src 'self' 'unsafe-inline';"
+    </If>
+    <Else>   
+    </Else>
+	Header edit Set-Cookie (.*) "$1;HTTPOnly;Secure;SameSite=None"
+	Header set Referrer-Policy "same-origin"
+</IfModule>
+
+<IfModule mod_php8.c>
+    #Session timeout
+    php_value session.cookie_lifetime 3000
+    php_value session.gc_maxlifetime 3000
+	
+	php_value upload_max_filesize 40M
+	php_value post_max_size 42M
+	php_value max_input_vars 5000
+</IfModule>
+<IfModule mod_php.c>
+    php_value max_input_vars 5000
+</IfModule>

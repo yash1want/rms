@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Go.No.262_KML.kmz</name>
+	<Style id="area1">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf00ffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area11">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf00ffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="line1">
+		<LineStyle>
+			<color>ff4080ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>Area Features</name>
+		<description>Area Features</description>
+		<Placemark>
+			<name>Kallakudi Limestone Mines Go.No.262_Lease_Boundary</name>
+			<description><![CDATA[Unknown Area Type<BR><BR><B>Name</B> = Kallakudi Limestone Mines Go.No.262_Lease_Boundary]]></description>
+			<styleUrl>#area10</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9462668574,10.9770968875,0 78.9461821725,10.9768661258,0 78.94626040049999,10.9766043897,0 78.9456750793,10.9763553051,0 78.945903982,10.9762522817,0 78.94615496110001,10.9763060645,0 78.9464194892,10.9765060818,0 78.9466639892,10.9764829672,0 78.94711802170001,10.9764263656,0 78.94718144629999,10.9764072356,0 78.9472961404,10.9763580509,0 78.9477326642,10.9761435452,0 78.9478179912,10.9769212126,0 78.9471069045,10.9768608937,0 78.9462668574,10.9770968875,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Line Features</name>
+		<description>Line Features</description>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 88.736]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9443935414,10.9756950346,88.736 78.9445616089,10.9757004718,88.736 78.9445488905,10.975383493,88.736 78.94438633359999,10.975398683,88.736 78.9443935414,10.9756950346,88.736 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 90.055]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9457218891,10.9781381032,90.05500000000001 78.9456334867,10.9779620222,90.05500000000001 78.945478616,10.9776102072,90.05500000000001 78.94585936670001,10.9774953566,90.05500000000001 78.94596321669999,10.9778875551,90.05500000000001 78.9456334867,10.9779620222,90.05500000000001 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9480787902,10.9778223933,0 78.94811897149999,10.9775792635,0 78.9488556726,10.976943979,0 78.9493524646,10.9764028673,0 78.94932237739999,10.9758766264,0 78.9488508566,10.9758736577,0 78.9487986691,10.9763941151,0 78.94861780790001,10.9764126715,0 78.94844955089999,10.9759253298,0 78.94813083539999,10.976004014,0 78.94773500070001,10.9757839854,0 78.9476796197,10.9758159793,0 78.9477326958,10.9761389791,0 78.9472961404,10.9763580509,0 78.94724042209999,10.9758349186,0 78.9472623587,10.9758229096,0 78.94728707,10.9753866203,0 78.9469348256,10.9754234273,0 78.9469597083,10.9759185308,0 78.9471434558,10.9758590034,0 78.9471814778,10.9764026695,0 78.94711802170001,10.9764263656,0 78.94666861029999,10.9764829984,0 78.9466247248,10.976071871,0 78.94672567409999,10.9760353219,0 78.9468516363,10.9759585841,0 78.94679977139999,10.9754100704,0 78.9466453448,10.9754336924,0 78.94672567409999,10.9760353219,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9466247248,10.976071871,0 78.9461559974,10.9760975963,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9461559974,10.9760975963,0 78.94616899890001,10.9758615688,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.94616899890001,10.9758615688,0 78.94542621630001,10.9757818346,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.94542621630001,10.9757818346,0 78.9452465001,10.9757861714,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9452465001,10.9757861714,0 78.9449777932,10.9744228658,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9449777932,10.9744228658,0 78.9452084119,10.974372604,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9452084119,10.974372604,0 78.9460730504,10.9742371558,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9460730504,10.9742371558,0 78.9460010177,10.9736447684,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9460010177,10.9736447684,0 78.9451348489,10.9737530725,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9451348489,10.9737530725,0 78.9441332558,10.9739624782,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9441332558,10.9739624782,0 78.94332678870001,10.9741426843,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.94332678870001,10.9741426843,0 78.9433679478,10.9744025232,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9433679478,10.9744025232,0 78.94255051570001,10.9745358601,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.94255051570001,10.9745358601,0 78.94262150669999,10.9747319075,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.94262150669999,10.9747319075,0 78.9434065782,10.9745756832,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9434065782,10.9745756832,0 78.9434300035,10.9747332393,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9434300035,10.9747332393,0 78.9442322909,10.974600783,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9442322909,10.974600783,0 78.9443684221,10.9745694254,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9443684221,10.9745694254,0 78.9444586163,10.9751350649,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9444586163,10.9751350649,0 78.94378670570001,10.9751903978,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.94378670570001,10.9751903978,0 78.9437493304,10.9750182586,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9437493304,10.9750182586,0 78.9435021483,10.9750587721,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9435021483,10.9750587721,0 78.9435368968,10.9752284531,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9435368968,10.9752284531,0 78.9433447735,10.975265027,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9433447735,10.975265027,0 78.94310308270001,10.975313043,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.94310308270001,10.975313043,0 78.9428489507,10.9753717127,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9428489507,10.9753717127,0 78.9429098218,10.9755457099,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9429098218,10.9755457099,0 78.9431520454,10.9755028674,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9431520454,10.9755028674,0 78.9433798833,10.9754618081,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9433798833,10.9754618081,0 78.9436314756,10.9754330928,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9436314756,10.9754330928,0 78.94370263250001,10.9757877412,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.94370263250001,10.9757877412,0 78.94323494699999,10.9758435789,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.94323494699999,10.9758435789,0 78.9430183564,10.975863128,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9430183564,10.975863128,0 78.9433286176,10.9767246305,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9433286176,10.9767246305,0 78.9438412601,10.9771025893,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9438412601,10.9771025893,0 78.9440735508,10.9772737583,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9440735508,10.9772737583,0 78.9441093909,10.9770212544,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9441093909,10.9770212544,0 78.9442078979,10.9769808032,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9442078979,10.9769808032,0 78.94427513860001,10.9773648006,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.94427513860001,10.9773648006,0 78.9444440292,10.9774814996,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9444440292,10.9774814996,0 78.9447161471,10.9776569683,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9447161471,10.9776569683,0 78.94546930689999,10.9782302641,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.94546930689999,10.9782302641,0 78.9457218891,10.9781381032,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9457218891,10.9781381032,0 78.94586772140001,10.9784397833,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.94586772140001,10.9784397833,0 78.9458402395,10.9784493776,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9458402395,10.9784493776,0 78.9466960741,10.9789543271,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9466960741,10.9789543271,0 78.94729521150001,10.9787941464,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.94729521150001,10.9787941464,0 78.9473780326,10.9790182567,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9473780326,10.9790182567,0 78.9469477058,10.9790964393,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9469477058,10.9790964393,0 78.9470452167,10.9791512564,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9470452167,10.9791512564,0 78.9474045386,10.9790717993,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9474045386,10.9790717993,0 78.94741933660001,10.9791238801,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.94741933660001,10.9791238801,0 78.9471500099,10.9792085991,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9471500099,10.9792085991,0 78.94737588949999,10.979336419,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.94737588949999,10.979336419,0 78.9474930133,10.9792879305,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9474930133,10.9792879305,0 78.94755157589999,10.9794350671,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.94755157589999,10.9794350671,0 78.9479285071,10.9796444212,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9479285071,10.9796444212,0 78.94801576570001,10.9796923267,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.94801576570001,10.9796923267,0 78.9483182754,10.9796388421,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9483182754,10.9796388421,0 78.9482121225,10.9790033724,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.9482121225,10.9790033724,0 78.9480787902,10.9778223933,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

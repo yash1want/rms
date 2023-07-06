@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Pachhtardi_76.19Ha.kml</name>
+	<Style id="Line_ml_ff0000_031">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>8</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0d18fc</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="Line_ml_ff0000_030">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>8</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0d18fc</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="Line_ml_ff0000_03">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Line_ml_ff0000_030</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Line_ml_ff0000_031</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>ml</name>
+		<Placemark>
+			<LookAt>
+				<longitude>69.70545833</longitude>
+				<latitude>21.84873889</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1669</range>
+			</LookAt>
+			<styleUrl>#Line_ml_ff0000_03</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							69.70154167,21.84396389,0 69.69956944,21.84441389,0 69.70051943999999,21.84825,0 69.69921110999999,21.84840556,0 69.70215833,21.85351389,0 69.70489999999999,21.85276389,0 69.70748333,21.85128333,0 69.70758889,21.85136944,0 69.71098333,21.84944167,0 69.71170556,21.84525,0 69.71156388999999,21.84459167,0 69.70656667,21.84472222,0 69.70677222,21.84734444,0 69.70266667,21.847525,0 69.70154167,21.84396389,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

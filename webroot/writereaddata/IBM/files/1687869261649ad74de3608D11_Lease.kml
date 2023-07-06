@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>D11_Pillars</name>
+	<open>1</open>
+	<Schema name="D11_ML" id="D11_ML">
+		<SimpleField type="string" name="Longitude"></SimpleField>
+		<SimpleField type="string" name="Latitude"></SimpleField>
+		<SimpleField type="string" name="Type"></SimpleField>
+		<SimpleField type="string" name="Point-ID"></SimpleField>
+	</Schema>
+	<Style id="PolyStyle00633">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="PolyStyle00487">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PolyStyle00596</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PolyStyle00633</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="PolyStyle00596">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin130">
+		<IconStyle>
+			<color>ff000055</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl12">
+		<IconStyle>
+			<color>ff000055</color>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="PolyStyle00629">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PolyStyle00579</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PolyStyle00475</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin130</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="PolyStyle00579">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle00475">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+		</PolyStyle>
+	</Style>
+	<Placemark id="ID_00001">
+		<name>D11 Lease</name>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Lease</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Landuse</td>
+
+<td>Lease</td>
+
+</tr>
+
+<tr>
+
+<td>Area</td>
+
+<td>858.717</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Unit</td>
+
+<td>Hect.</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+		<styleUrl>#PolyStyle00629</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.23184264814824,18.62627794519629,0 81.24231309473107,18.64029516254051,0 81.25480861470858,18.64218471324837,0 81.25501100036301,18.64300572138455,0 81.2548224724282,18.64386621900783,0 81.25470436123767,18.64503574628027,0 81.25476719438448,18.64567169837515,0 81.25460322186831,18.64605894391833,0 81.25421924975984,18.64650605611775,0 81.25399722234084,18.64696930749293,0 81.25338699979893,18.64853141984706,0 81.25152629347316,18.65026863694548,0 81.24664117875965,18.64895542426918,0 81.24103869150568,18.65139966960232,0 81.23910763906754,18.66389722562808,0 81.22738370314192,18.6684120510277,0 81.22582335601584,18.67925330466003,0 81.22792275574869,18.6792419733251,0 81.22903037736152,18.68977663262171,0 81.21861850538804,18.69060533273574,0 81.22034098649807,18.6682153838947,0 81.22631186117951,18.65144689186957,0 81.23065180528188,18.65146594615031,0 81.23184264814824,18.62627794519629,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Folder>
+		<name>D11_ML</name>
+		<Placemark>
+			<name>A113</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 14- 29.2306</SimpleData>
+					<SimpleData name="Latitude">N18- 41- 19.6363</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A113</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.2414529444444,18.6887878611111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A114</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 14- 28.6045</SimpleData>
+					<SimpleData name="Latitude">N18- 41- 16.1626</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A114</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.24127902777779,18.6878229444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A115</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 14- 27.7896</SimpleData>
+					<SimpleData name="Latitude">N18- 41- 13.5232</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A115</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.2410526666667,18.6870897777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A116</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 14- 26.8849</SimpleData>
+					<SimpleData name="Latitude">N18- 41- 11.1929</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A116</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.2408013611111,18.6864424722222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A117</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 14- 06.3649</SimpleData>
+					<SimpleData name="Latitude">N18- 41- 13.5250</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A117</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23510136111111,18.6870902777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A112</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 14- 06.7911</SimpleData>
+					<SimpleData name="Latitude">N18- 41- 21.4228</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A112</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23521975,18.6892841111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A95</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 15- 18.0396</SimpleData>
+					<SimpleData name="Latitude">N18- 38- 34.8206</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A95</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.255011,18.6430057222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A94</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 15- 17.3609</SimpleData>
+					<SimpleData name="Latitude">N18- 38- 37.9184</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A94</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.2548224722222,18.6438662222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A93</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 15- 16.9357</SimpleData>
+					<SimpleData name="Latitude">N18- 38- 42.1287</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A93</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.2547043611111,18.64503575,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A92</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 15- 17.1619</SimpleData>
+					<SimpleData name="Latitude">N18- 38- 44.4181</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A92</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.2547671944444,18.6456716944444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A91</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 15- 16.5716</SimpleData>
+					<SimpleData name="Latitude">N18- 38- 45.8122</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A91</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.2546032222222,18.6460589444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A90</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 15- 15.1893</SimpleData>
+					<SimpleData name="Latitude">N18- 38- 47.4218</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A90</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.25421925000001,18.6465060555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A89</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 15- 14.3900</SimpleData>
+					<SimpleData name="Latitude">N18- 38- 49.0895</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A89</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.2539972222222,18.6469693055556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A88</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 15- 12.1932</SimpleData>
+					<SimpleData name="Latitude">N18- 38- 54.7131</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A88</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.253387,18.6485314166667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A87</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 15- 05.4947</SimpleData>
+					<SimpleData name="Latitude">N18- 39- 00.9671</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A87</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.2515263055556,18.6502686388889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A86</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 14- 47.9083</SimpleData>
+					<SimpleData name="Latitude">N18- 38- 56.2395</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A86</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.24664119444451,18.6489554166667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A85</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 14- 27.7393</SimpleData>
+					<SimpleData name="Latitude">N18- 39- 05.0388</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A85</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.2410386944444,18.6513996666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A84</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 14- 20.7875</SimpleData>
+					<SimpleData name="Latitude">N18- 39- 50.0300</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A84</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.2391076388889,18.6638972222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A83</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 13- 38.5813</SimpleData>
+					<SimpleData name="Latitude">N18- 40- 06.2834</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A83</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.2273836944444,18.6684120555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A82</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 13- 32.9641</SimpleData>
+					<SimpleData name="Latitude">N18- 40- 45.3119</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A82</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.2258233611111,18.6792533055556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A81</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 13- 40.5219</SimpleData>
+					<SimpleData name="Latitude">N18- 40- 45.2711</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A81</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.22792275,18.6792419722222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A37</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 13- 44.5094</SimpleData>
+					<SimpleData name="Latitude">N18- 41- 23.1959</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A37</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.2290303888889,18.6897766388889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A80</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 13- 07.0266</SimpleData>
+					<SimpleData name="Latitude">N18- 41- 26.1792</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A80</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.21861850000001,18.6906053333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A79</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 13- 13.2276</SimpleData>
+					<SimpleData name="Latitude">N18- 40- 05.5754</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A79</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.220341,18.6682153888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A78</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 13- 34.7227</SimpleData>
+					<SimpleData name="Latitude">N18- 39- 05.2088</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A78</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.2263118611111,18.6514468888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A77</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 13- 50.3465</SimpleData>
+					<SimpleData name="Latitude">N18- 39- 05.2774</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A77</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.2306518055556,18.6514659444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A64</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 13- 54.6335</SimpleData>
+					<SimpleData name="Latitude">N18- 37- 34.6006</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A64</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.23184263888891,18.6262779444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A74</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 14- 32.3272</SimpleData>
+					<SimpleData name="Latitude">N18- 38- 25.0626</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A74</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.2423131111111,18.6402951666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A75</name>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#D11_ML">
+					<SimpleData name="Longitude">E81- 15- 17.3110</SimpleData>
+					<SimpleData name="Latitude">N18- 38- 31.8650</SimpleData>
+					<SimpleData name="Type">Corner Pillar</SimpleData>
+					<SimpleData name="Point-ID">A75</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>81.2548086111111,18.6421847222222,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>D11_Lease_Part</name>
+		<open>1</open>
+		<Placemark id="ID_00000">
+			<name>D 11 Lease part</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Lease</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Landuse</td>
+
+<td>Lease</td>
+
+</tr>
+
+<tr>
+
+<td>Area</td>
+
+<td>16.207</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Unit</td>
+
+<td>Hect.</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00487</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.23521975879116,18.68928409934831,0 81.23510136995723,18.68709028187699,0 81.24080136121944,18.68644246355668,0 81.24105266416103,18.68708977152099,0 81.2412790359253,18.68782293527463,0 81.24145295315233,18.68878786239078,0 81.23521975879116,18.68928409934831,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

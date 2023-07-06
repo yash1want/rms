@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="Surface right area_Jururi Lease Boundary">
+	<name>Surface right area_Jururi Lease Boundary</name>
+	<open>1</open>
+	<Snippet maxLines="0"></Snippet>
+	<Style id="PolyStyle00">
+		<IconStyle>
+			<scale>0</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="PolyStyle000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PolyStyle00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PolyStyle001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="PolyStyle001">
+		<IconStyle>
+			<scale>0</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Folder id="FeatureLayer0">
+		<name>Surface right area_Jururi Lease Boundary</name>
+		<Snippet maxLines="0"></Snippet>
+		<Placemark>
+			<name>JURURI IRON ORE MINES_JAGAT JANANI SERVICES</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#PolyStyle000</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								85.404679,21.958622,0 85.40625300000001,21.957998,0 85.40691,21.957742,0 85.40974799999999,21.956618,0 85.409905,21.957488,0 85.41026700000001,21.95942,0 85.410955,21.962775,0 85.414209,21.962169,0 85.417163,21.962266,0 85.41744199999999,21.957686,0 85.417241,21.957711,0 85.41484300000001,21.958285,0 85.41394800000001,21.958515,0 85.41403699999999,21.957637,0 85.41411700000001,21.954902,0 85.41416700000001,21.953823,0 85.41307500000001,21.953782,0 85.410448,21.953693,0 85.40826300000001,21.953594,0 85.407039,21.953537,0 85.406192,21.953871,0 85.404679,21.958622,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>GO-1169.kml</name>
+	<open>1</open>
+	<StyleMap id="area1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area10">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area11">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Area Features</name>
+		<description>Area Features</description>
+		<Placemark>
+			<description>0</description>
+			<styleUrl>#area1</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							77.7112017324,8.886855092399999,0 77.71120159269999,8.8868360972,0 77.7112218705,8.8868359497,0 77.7112220102,8.8868549449,0 77.7112017324,8.886855092399999,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<description>G_O_NO_1169</description>
+			<styleUrl>#area1</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							77.7093218476,8.883012988500001,0 77.7102947583,8.8831966285,0 77.7112702308,8.883343873299999,0 77.71124454370001,8.8842081359,0 77.7111884561,8.8842029676,0 77.7102755314,8.8841595917,0 77.7102280805,8.884594342,0 77.7101294534,8.885497976,0 77.7110013172,8.8856256357,0 77.711502161,8.8856909852,0 77.71132989589999,8.8861881441,0 77.7112119656,8.8868353662,0 77.71099940009999,8.8868319098,0 77.7101508456,8.8868347254,0 77.7098100594,8.886811228299999,0 77.70972038399999,8.886796733200001,0 77.70953648219999,8.887594631100001,0 77.70894002350001,8.8876526301,0 77.7089095876,8.888101564599999,0 77.7087792104,8.888886020299999,0 77.70832758749999,8.8888588755,0 77.7083673578,8.888423363199999,0 77.7084636614,8.887368775600001,0 77.70896092530001,8.887344325799999,0 77.7089992634,8.8866930985,0 77.7090804341,8.8867029015,0 77.7092143616,8.8858732497,0 77.7099538128,8.885884334,0 77.7100065196,8.8855103175,0 77.70956478550001,8.8854553856,0 77.70967859370001,8.884803764700001,0 77.7097970662,8.8841254381,0 77.7092923896,8.884104048999999,0 77.7093070209,8.8835621315,0 77.70900093829999,8.883537563300001,0 77.7089990379,8.8832827773,0 77.7093137514,8.883312849499999,0 77.7093218476,8.883012988500001,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<description>G_O_NO_1169</description>
+			<styleUrl>#area1</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							77.7095523368,8.889259235200001,0 77.7091836986,8.8891252567,0 77.7094678742,8.887892301700001,0 77.7099036507,8.8879481525,0 77.7097210944,8.888770429999999,0 77.7095523368,8.889259235200001,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

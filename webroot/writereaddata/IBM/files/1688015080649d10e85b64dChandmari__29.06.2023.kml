@@ -1,0 +1,2212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Temporary Places</name>
+	<open>1</open>
+	<Document>
+		<name>Adit Opening.shp</name>
+		<Schema name="Adit Opening" id="S_Adit_Opening_S">
+			<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="style0">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[Adit Opening/LAYER]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffff0000</color>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="style00">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#style01</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#style0</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="style01">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[Adit Opening/LAYER]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffff0000</color>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>Adit Opening</name>
+			<Placemark>
+				<styleUrl>#style00</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Adit_Opening_S">
+						<SimpleData name="LAYER">Adit Opening</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						75.77547039656292,27.99935891641804,0 75.77561813350532,27.99935508315421,0 75.77561654051281,27.99924729519046,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#style00</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Adit_Opening_S">
+						<SimpleData name="LAYER">Adit Opening</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						75.77580159043616,27.99934871855125,0 75.77570155024939,27.9993541118939,0 75.77569506698511,27.99923792597665,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#style00</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Adit_Opening_S">
+						<SimpleData name="LAYER">Adit Opening</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						75.77565645363707,27.99913117587705,0 75.77576772901365,27.99913426366272,0 75.77577075249748,27.99902161503174,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#style00</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Adit_Opening_S">
+						<SimpleData name="LAYER">Adit Opening</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						75.77593942264708,27.99912952199394,0 75.77585827422543,27.99912789789381,0 75.77586815219854,27.99901216879407,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>Bore hole drilled by G.S.I.shp</name>
+		<Schema name="Bore hole drilled by G" id="S_Bore_hole_drilled_by_G_SS">
+			<SimpleField type="string" name="LARER"><displayName>&lt;b&gt;LARER&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="NAME"><displayName>&lt;b&gt;NAME&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<StyleMap id="msn_placemark_circle">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_placemark_circle</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_placemark_circle_highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sh_placemark_circle_highlight">
+			<IconStyle>
+				<color>ffffff00</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<color>80ffffff</color>
+			</LabelStyle>
+		</Style>
+		<Style id="sn_placemark_circle">
+			<IconStyle>
+				<color>ffffff00</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<color>80ffffff</color>
+			</LabelStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>Bore hole drilled by G</name>
+			<Placemark>
+				<name>KKBH-55</name>
+				<styleUrl>#msn_placemark_circle</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_G_SS">
+						<SimpleData name="LARER">Bore hole drilled by G.S.I</SimpleData>
+						<SimpleData name="NAME">KKBH-55</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77271477496109,27.99937802857311,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>KKBH-31</name>
+				<styleUrl>#msn_placemark_circle</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_G_SS">
+						<SimpleData name="LARER">Bore hole drilled by G.S.I</SimpleData>
+						<SimpleData name="NAME">KKBH-31</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77031185127998,28.0061345573876,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>KKBH-18</name>
+				<styleUrl>#msn_placemark_circle</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_G_SS">
+						<SimpleData name="LARER">Bore hole drilled by G.S.I</SimpleData>
+						<SimpleData name="NAME">KKBH-18</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76998335692883,28.00713837580269,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>KKBH-54</name>
+				<styleUrl>#msn_placemark_circle</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_G_SS">
+						<SimpleData name="LARER">Bore hole drilled by G.S.I</SimpleData>
+						<SimpleData name="NAME">KKBH-54</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76994710408812,28.00776143004821,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>KKBH-17</name>
+				<styleUrl>#msn_placemark_circle</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_G_SS">
+						<SimpleData name="LARER">Bore hole drilled by G.S.I</SimpleData>
+						<SimpleData name="NAME">KKBH-17</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77054977164755,28.0052666482949,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>KKBH-57</name>
+				<styleUrl>#msn_placemark_circle</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_G_SS">
+						<SimpleData name="LARER">Bore hole drilled by G.S.I</SimpleData>
+						<SimpleData name="NAME">KKBH-57</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77073240449513,27.99948845044182,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>KKBH-63</name>
+				<styleUrl>#msn_placemark_circle</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_G_SS">
+						<SimpleData name="LARER">Bore hole drilled by G.S.I</SimpleData>
+						<SimpleData name="NAME">KKBH-63</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76631333489033,28.00018113735895,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>KKBH-60</name>
+				<styleUrl>#msn_placemark_circle</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_G_SS">
+						<SimpleData name="LARER">Bore hole drilled by G.S.I</SimpleData>
+						<SimpleData name="NAME">KKBH-60</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76602262641256,28.00077852893691,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>KKBH-30</name>
+				<styleUrl>#msn_placemark_circle</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_G_SS">
+						<SimpleData name="LARER">Bore hole drilled by G.S.I</SimpleData>
+						<SimpleData name="NAME">KKBH-30</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77162369440963,28.00468290760198,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>KKBH-19</name>
+				<styleUrl>#msn_placemark_circle</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_G_SS">
+						<SimpleData name="LARER">Bore hole drilled by G.S.I</SimpleData>
+						<SimpleData name="NAME">KKBH-19</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77170152548945,28.00275975560312,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>KKBH-16</name>
+				<styleUrl>#msn_placemark_circle</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_G_SS">
+						<SimpleData name="LARER">Bore hole drilled by G.S.I</SimpleData>
+						<SimpleData name="NAME">KKBH-16</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77217783950491,28.00252238354498,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>Bore hole drilled by M.E.C.L.shp</name>
+		<Schema name="Bore hole drilled by M" id="S_Bore_hole_drilled_by_M_SS">
+			<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="NAME"><displayName>&lt;b&gt;NAME&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="hlightPointStyle">
+			<IconStyle>
+				<color>ff7f00ff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[Bore hole drilled by M/LAYER]</td></tr>
+  <tr><td><b>NAME</b></td><td>$[Bore hole drilled by M/NAME]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id="normPointStyle">
+			<IconStyle>
+				<color>ff7f00ff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[Bore hole drilled by M/LAYER]</td></tr>
+  <tr><td><b>NAME</b></td><td>$[Bore hole drilled by M/NAME]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id="pointStyleMap">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#normPointStyle</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#hlightPointStyle</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Folder id="layer 0">
+			<name>Bore hole drilled by M</name>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-36</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.7761752664568,27.99686389008714,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-28</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77571135997538,27.99693879870141,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-24</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77512168387547,27.996907556083,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-26</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77443859835368,27.99660744479442,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-22</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77480669869969,27.99741773655299,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-3623</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77400977855162,27.99755527112092,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-19</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.7744895751908,27.99783007842688,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">STC-18/19</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77513289543072,27.99806813421815,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-37</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77621449512441,27.99806915893435,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-16</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77441867989999,27.99844494571908,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77384538400879,27.99851950264159,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77387026206689,27.99855163731064,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-10/34</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77341464447136,27.99857572122626,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-7</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77324543745952,27.99884459894331,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-9</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77320523748872,27.9993017093773,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-13</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77315881897174,27.99975708392025,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-2/32</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77287906952904,27.99998241770044,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-30</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77847274697156,27.99887512342138,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-35</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77899013722656,27.99886682782265,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-21</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77797876924632,27.99893905891448,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-33</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77785702540463,27.99838945689294,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-29</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77743699223375,27.99877135065084,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-27</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77669143153129,27.99886860816808,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">SH-1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77614383263686,27.99919928227106,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-25</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77608359444503,27.99941390011048,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-18</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77680582356918,27.99938347267083,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-20</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77759440652767,27.99947277414321,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CM-31</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77692942922424,28.00001083145315,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CI-7</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76855278555358,28.00325611222211,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CI-5</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76900731358579,28.00446171701926,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CI-4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76907000351392,28.00571435139733,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CI-2</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.7691595229593,28.00716319687696,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">KKBH-67/68</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76840658421675,28.00774747913518,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">KKBH-26</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76777790991193,28.00795614478517,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">KKBH-13</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.766548281906,28.00908787112414,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">KKBH-48</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76929164199309,28.00928501067006,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">KKBH-15</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76749896906931,28.00914881149141,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">KKBH-12</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76886079168854,28.01008336685674,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CI-13</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.7685459022963,28.00955707389461,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">KKBH-9</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76543270990834,28.01076851959409,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">SK-3</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76675053940262,28.01198550640665,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">SK-10</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76737721103422,28.01220778862217,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">SK-5</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76721165355232,28.01242291544113,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">KKBH-6</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76555594378108,28.0094325179499,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CI-8</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76552615576067,28.00997749765446,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">CI-6</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76539055184901,28.01085426049383,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L</SimpleData>
+						<SimpleData name="NAME">KKBH-7</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76615257172868,28.01105289633209,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>Bore hole drilled by M.E.C.L_2012_14.shp</name>
+		<Schema name="Bore hole drilled by M" id="S_Bore_hole_drilled_by_M_SS0">
+			<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="NAME"><displayName>&lt;b&gt;NAME&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<StyleMap id="msn_placemark_circle0">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_placemark_circle0</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_placemark_circle_highlight0</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sh_placemark_circle_highlight0">
+			<IconStyle>
+				<color>ffff00aa</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<color>80ff00aa</color>
+			</LabelStyle>
+		</Style>
+		<Style id="sn_placemark_circle0">
+			<IconStyle>
+				<color>ffff00aa</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<color>80ff00aa</color>
+			</LabelStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>Bore hole drilled by M</name>
+			<open>1</open>
+			<Placemark>
+				<name>CBI-1</name>
+				<styleUrl>#msn_placemark_circle0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS0">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L_2012_14</SimpleData>
+						<SimpleData name="NAME">CBI 1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76579902010964,28.00942748426716,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CBI-6</name>
+				<styleUrl>#msn_placemark_circle0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS0">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L_2012_14</SimpleData>
+						<SimpleData name="NAME">CBI 6</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76663019570877,28.00902567071846,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CBI-2</name>
+				<styleUrl>#msn_placemark_circle0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS0">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L_2012_14</SimpleData>
+						<SimpleData name="NAME">CBI 2</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76680590765663,28.00942187119301,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CBI-19</name>
+				<styleUrl>#msn_placemark_circle0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS0">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L_2012_14</SimpleData>
+						<SimpleData name="NAME">CBI 19</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76839734343505,28.00579322536965,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CBI-10</name>
+				<styleUrl>#msn_placemark_circle0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS0">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L_2012_14</SimpleData>
+						<SimpleData name="NAME">CBI 10</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76841768390543,28.00579311167622,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CBI-23</name>
+				<styleUrl>#msn_placemark_circle0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS0">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L_2012_14</SimpleData>
+						<SimpleData name="NAME">CBI 23</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77108234877116,28.00578721829054,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CBI-8</name>
+				<styleUrl>#msn_placemark_circle0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS0">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L_2012_14</SimpleData>
+						<SimpleData name="NAME">CBI 8</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76725341488728,28.00654884173429,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CBI-15</name>
+				<styleUrl>#msn_placemark_circle0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS0">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L_2012_14</SimpleData>
+						<SimpleData name="NAME">CBI 15</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76828048785386,28.00652505191222,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CBI-27</name>
+				<styleUrl>#msn_placemark_circle0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS0">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L_2012_14</SimpleData>
+						<SimpleData name="NAME">CBI 27</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77041612264853,28.00649504626329,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CBI-22</name>
+				<styleUrl>#msn_placemark_circle0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS0">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L_2012_14</SimpleData>
+						<SimpleData name="NAME">CBI 22</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76911958165516,28.00724250636378,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CBI-18</name>
+				<styleUrl>#msn_placemark_circle0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS0">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L_2012_14</SimpleData>
+						<SimpleData name="NAME">CBI 18</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77063496639578,28.00723401960238,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CBI-4</name>
+				<styleUrl>#msn_placemark_circle0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS0">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L_2012_14</SimpleData>
+						<SimpleData name="NAME">CBI 4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76754963631805,28.00816299103918,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CBI-24</name>
+				<styleUrl>#msn_placemark_circle0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS0">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L_2012_14</SimpleData>
+						<SimpleData name="NAME">CBI 24</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76945157592623,28.00816138506438,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CBI-21</name>
+				<styleUrl>#msn_placemark_circle0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS0">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L_2012_14</SimpleData>
+						<SimpleData name="NAME">CBI 21</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76881327263213,28.00850797594199,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CBI-24</name>
+				<styleUrl>#msn_placemark_circle0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS0">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L_2012_14</SimpleData>
+						<SimpleData name="NAME">CBI 24</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76915338715965,28.00913795128341,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CBI-26</name>
+				<styleUrl>#msn_placemark_circle0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS0">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L_2012_14</SimpleData>
+						<SimpleData name="NAME">CBI 26</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76773790134938,28.01176364419285,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CBI-25</name>
+				<styleUrl>#msn_placemark_circle0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS0">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L_2012_14</SimpleData>
+						<SimpleData name="NAME">CBI 25</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76833144437448,28.01083959148459,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CBI-3</name>
+				<styleUrl>#msn_placemark_circle0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS0">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L_2012_14</SimpleData>
+						<SimpleData name="NAME">CBI 3</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76598200972568,28.01085270386613,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CBI-9</name>
+				<styleUrl>#msn_placemark_circle0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS0">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L_2012_14</SimpleData>
+						<SimpleData name="NAME">CBI 9</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76895764697602,28.00449022848558,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CBI-17</name>
+				<styleUrl>#msn_placemark_circle0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bore_hole_drilled_by_M_SS0">
+						<SimpleData name="LAYER">Bore hole drilled by M.E.C.L_2012_14</SimpleData>
+						<SimpleData name="NAME">CBI 17</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76882344312131,28.00850791905984,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>GCP_Points.shp</name>
+		<Schema name="GCP_Points" id="S_GCP_Points_SDDD">
+			<SimpleField type="string" name="NAME"><displayName>&lt;b&gt;NAME&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="EASTING"><displayName>&lt;b&gt;EASTING&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="NORTHING"><displayName>&lt;b&gt;NORTHING&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="ELEVATION"><displayName>&lt;b&gt;ELEVATION&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<StyleMap id="msn_placemark_circle1">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_placemark_circle1</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_placemark_circle_highlight1</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sh_placemark_circle_highlight1">
+			<IconStyle>
+				<color>ff00ffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<color>8000ffff</color>
+			</LabelStyle>
+		</Style>
+		<Style id="sn_placemark_circle1">
+			<IconStyle>
+				<color>ff00ffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<color>8000ffff</color>
+			</LabelStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>GCP_Points</name>
+			<open>1</open>
+			<Placemark>
+				<name>C_GCP-11</name>
+				<styleUrl>#msn_placemark_circle1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_GCP_Points_SDDD">
+						<SimpleData name="NAME">C_GCP-11</SimpleData>
+						<SimpleData name="EASTING">576565</SimpleData>
+						<SimpleData name="NORTHING">3.09794e+06</SimpleData>
+						<SimpleData name="ELEVATION">414.903</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.7787312401998,28.00445326758393,414.903</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C_GCP-10</name>
+				<styleUrl>#msn_placemark_circle1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_GCP_Points_SDDD">
+						<SimpleData name="NAME">C_GCP-10</SimpleData>
+						<SimpleData name="EASTING">576277</SimpleData>
+						<SimpleData name="NORTHING">3.09791e+06</SimpleData>
+						<SimpleData name="ELEVATION">415.133</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77579020934213,28.00420811748434,415.133</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C_GCP-9</name>
+				<styleUrl>#msn_placemark_circle1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_GCP_Points_SDDD">
+						<SimpleData name="NAME">C_GCP-9</SimpleData>
+						<SimpleData name="EASTING">575860</SimpleData>
+						<SimpleData name="NORTHING">3.09761e+06</SimpleData>
+						<SimpleData name="ELEVATION">443.177</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77154016704942,28.00152398499342,443.177</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C_GCP-12</name>
+				<styleUrl>#msn_placemark_circle1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_GCP_Points_SDDD">
+						<SimpleData name="NAME">C_GCP-12</SimpleData>
+						<SimpleData name="EASTING">576482</SimpleData>
+						<SimpleData name="NORTHING">3.09772e+06</SimpleData>
+						<SimpleData name="ELEVATION">403.046</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.7778726653244,28.00244514638274,403.046</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C_GCP-14</name>
+				<styleUrl>#msn_placemark_circle1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_GCP_Points_SDDD">
+						<SimpleData name="NAME">C_GCP-14</SimpleData>
+						<SimpleData name="EASTING">576511</SimpleData>
+						<SimpleData name="NORTHING">3.09709e+06</SimpleData>
+						<SimpleData name="ELEVATION">467.935</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77811695979922,27.99681102256115,467.935</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C_GCP-8</name>
+				<styleUrl>#msn_placemark_circle1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_GCP_Points_SDDD">
+						<SimpleData name="NAME">C_GCP-8</SimpleData>
+						<SimpleData name="EASTING">575905</SimpleData>
+						<SimpleData name="NORTHING">3.09798e+06</SimpleData>
+						<SimpleData name="ELEVATION">447.896</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77201138167142,28.00485224082345,447.896</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C_GCP-5</name>
+				<styleUrl>#msn_placemark_circle1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_GCP_Points_SDDD">
+						<SimpleData name="NAME">C_GCP-5</SimpleData>
+						<SimpleData name="EASTING">575645</SimpleData>
+						<SimpleData name="NORTHING">3.09832e+06</SimpleData>
+						<SimpleData name="ELEVATION">513.544</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76938875733754,28.00790898546634,513.544</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C_GCP-4</name>
+				<styleUrl>#msn_placemark_circle1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_GCP_Points_SDDD">
+						<SimpleData name="NAME">C_GCP-4</SimpleData>
+						<SimpleData name="EASTING">576060</SimpleData>
+						<SimpleData name="NORTHING">3.09817e+06</SimpleData>
+						<SimpleData name="ELEVATION">434.544</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77361004561583,28.00654029748254,434.5439999999999</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C_GCP-3</name>
+				<styleUrl>#msn_placemark_circle1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_GCP_Points_SDDD">
+						<SimpleData name="NAME">C_GCP-3</SimpleData>
+						<SimpleData name="EASTING">575947</SimpleData>
+						<SimpleData name="NORTHING">3.09862e+06</SimpleData>
+						<SimpleData name="ELEVATION">458.394</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77247961005357,28.01060872530011,458.3939999999999</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C_GCP-2</name>
+				<styleUrl>#msn_placemark_circle1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_GCP_Points_SDDD">
+						<SimpleData name="NAME">C_GCP-2</SimpleData>
+						<SimpleData name="EASTING">575659</SimpleData>
+						<SimpleData name="NORTHING">3.09863e+06</SimpleData>
+						<SimpleData name="ELEVATION">558.472</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76955090274451,28.01068834055807,558.472</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C_GCP-1</name>
+				<styleUrl>#msn_placemark_circle1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_GCP_Points_SDDD">
+						<SimpleData name="NAME">C_GCP-1</SimpleData>
+						<SimpleData name="EASTING">575487</SimpleData>
+						<SimpleData name="NORTHING">3.09847e+06</SimpleData>
+						<SimpleData name="ELEVATION">494.651</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76779181367776,28.00932609964794,494.651</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C_GCP-13</name>
+				<styleUrl>#msn_placemark_circle1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_GCP_Points_SDDD">
+						<SimpleData name="NAME">C_GCP-13</SimpleData>
+						<SimpleData name="EASTING">575981</SimpleData>
+						<SimpleData name="NORTHING">3.0973e+06</SimpleData>
+						<SimpleData name="ELEVATION">471.921</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77275049513335,27.99868276141906,471.921</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C_GCP-15</name>
+				<styleUrl>#msn_placemark_circle1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_GCP_Points_SDDD">
+						<SimpleData name="NAME">C_GCP-15</SimpleData>
+						<SimpleData name="EASTING">575646</SimpleData>
+						<SimpleData name="NORTHING">3.09785e+06</SimpleData>
+						<SimpleData name="ELEVATION">487.148</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76937921262767,28.00370253532762,487.148</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C_GCP-7</name>
+				<styleUrl>#msn_placemark_circle1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_GCP_Points_SDDD">
+						<SimpleData name="NAME">C_GCP-7</SimpleData>
+						<SimpleData name="EASTING">575291</SimpleData>
+						<SimpleData name="NORTHING">3.09768e+06</SimpleData>
+						<SimpleData name="ELEVATION">535.212</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76575812570938,28.00220624331498,535.212</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C_GCP-6</name>
+				<styleUrl>#msn_placemark_circle1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_GCP_Points_SDDD">
+						<SimpleData name="NAME">C_GCP-6</SimpleData>
+						<SimpleData name="EASTING">575324</SimpleData>
+						<SimpleData name="NORTHING">3.09787e+06</SimpleData>
+						<SimpleData name="ELEVATION">587.02</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.7660954386095,28.00388335622403,587.02</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C_p2</name>
+				<styleUrl>#msn_placemark_circle1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_GCP_Points_SDDD">
+						<SimpleData name="NAME">C_p2</SimpleData>
+						<SimpleData name="EASTING">576074</SimpleData>
+						<SimpleData name="NORTHING">3.09768e+06</SimpleData>
+						<SimpleData name="ELEVATION">427.868</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77371053074063,28.00209853238867,427.868</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C_p1</name>
+				<styleUrl>#msn_placemark_circle1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_GCP_Points_SDDD">
+						<SimpleData name="NAME">cp_1</SimpleData>
+						<SimpleData name="EASTING">576345</SimpleData>
+						<SimpleData name="NORTHING">3.09797e+06</SimpleData>
+						<SimpleData name="ELEVATION">415.292</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77649602138445,28.00477282272819,415.292</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>INFRASTRUCTURE.shp</name>
+		<Schema name="INFRASTRUCTURE" id="S_INFRASTRUCTURE_SD">
+			<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="falseColor">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[INFRASTRUCTURE/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[INFRASTRUCTURE/AREA]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffff0000</color>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="falseColor0">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor1</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="falseColor1">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[INFRASTRUCTURE/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[INFRASTRUCTURE/AREA]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffff0000</color>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>INFRASTRUCTURE</name>
+			<Placemark>
+				<styleUrl>#falseColor0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+						<SimpleData name="LAYER">Infrastructure</SimpleData>
+						<SimpleData name="AREA">0.009</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								75.77336053967052,28.00455860406273,0 75.77347046405771,28.00456968508799,0 75.77346282587435,28.00464238304325,0 75.77335513745312,28.00463338416592,0 75.77336053967052,28.00455860406273,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+						<SimpleData name="LAYER">Infrastructure</SimpleData>
+						<SimpleData name="AREA">0.013</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								75.77371057183205,28.00465631515351,0 75.7737132495533,28.00457441967643,0 75.77385615685945,28.004577928225,0 75.77384906109067,28.00466734327201,0 75.77371057183205,28.00465631515351,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+						<SimpleData name="LAYER">Infrastructure</SimpleData>
+						<SimpleData name="AREA">0.021</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								75.77615440304085,28.00530291116828,0 75.77615468488976,28.005205566497,0 75.7761923868472,28.00520466478078,0 75.77619720234468,28.00522565257056,0 75.77623529827524,28.00522543747135,0 75.77623517727864,28.00520855712135,0 75.77625266040489,28.00520708049077,0 75.77625436846527,28.0052284304576,0 75.77629814412565,28.00522685292938,0 75.77629696076872,28.005204763162,0 75.77633465778415,28.00520317237502,0 75.77633404570308,28.0052262487378,0 75.77637447300411,28.0052260204345,0 75.77637424908291,28.00530341241041,0 75.77615693648251,28.00530291694646,0 75.77615440304085,28.00530291116828,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+						<SimpleData name="LAYER">Infrastructure</SimpleData>
+						<SimpleData name="AREA">0.068</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								75.77664082316211,28.00464482609896,0 75.77695160798767,28.00464058765265,0 75.77695306217404,28.00464412523332,0 75.77699233730955,28.00464392802691,0 75.77699276629056,28.004703718604,0 75.77695200061824,28.00470394899866,0 75.77695186721898,28.00483827139534,0 75.77664686355087,28.00483636212157,0 75.77664082316211,28.00464482609896,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+						<SimpleData name="LAYER">Infrastructure</SimpleData>
+						<SimpleData name="AREA">0.005</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								75.77614626318994,28.00451298559553,0 75.77614522938006,28.00446510707418,0 75.77624790603424,28.00446569395412,0 75.77625349732644,28.00451116158191,0 75.77615083677129,28.00451290780224,0 75.77614626318994,28.00451298559553,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+						<SimpleData name="LAYER">Infrastructure</SimpleData>
+						<SimpleData name="AREA">0.008</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								75.7763176500052,28.00436240323055,0 75.77636832338881,28.00436257675934,0 75.77637766118802,28.0043626087342,0 75.7763758909059,28.00449147650614,0 75.77636924741343,28.00449147041189,0 75.7763185685118,28.00449142391209,0 75.7763176500052,28.00436240323055,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+						<SimpleData name="LAYER">Infrastructure</SimpleData>
+						<SimpleData name="AREA">0.038</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								75.77640557606232,28.00530480215805,0 75.77640456057598,28.00521218031133,0 75.7765219270038,28.00521151742019,0 75.7765186835893,28.00501960478589,0 75.77662852529447,28.00501873427798,0 75.77663049264363,28.00521427308949,0 75.77654890070023,28.00521473399971,0 75.77655151227583,28.00530354169667,0 75.77640610457699,28.0053047975935,0 75.77640557606232,28.00530480215805,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+						<SimpleData name="LAYER">Infrastructure</SimpleData>
+						<SimpleData name="AREA">0.023</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								75.77608427288149,28.00478790247151,0 75.77630396877537,28.00478609434538,0 75.77630272638822,28.00488090949552,0 75.77608689810141,28.00488610208399,0 75.77608427288149,28.00478790247151,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>LEASE BOUNDARY.shp</name>
+		<Schema name="LEASE BOUNDARY" id="S_LEASE_BOUNDARY_SD">
+			<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<StyleMap id="falseColor2">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor3</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor4</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="falseColor3">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[LEASE BOUNDARY/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[LEASE BOUNDARY/AREA]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="falseColor4">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[LEASE BOUNDARY/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[LEASE BOUNDARY/AREA]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>LEASE BOUNDARY</name>
+			<Placemark>
+				<styleUrl>#falseColor2</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_LEASE_BOUNDARY_SD">
+						<SimpleData name="LAYER">Lease Boundary</SimpleData>
+						<SimpleData name="AREA">148.452</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								75.7671235769904,28.00179243367423,0 75.76781416151481,28.00179021065858,0 75.76874267569359,28.00178902032738,0 75.77018102177499,28.00178390788359,0 75.77144571549299,28.00176718893537,0 75.77185555555555,28.00176111111112,0 75.77273410977705,28.00041835040706,0 75.77444124448628,27.99776434828219,0 75.77595555555554,27.99536666666665,0 75.77737610322288,27.99537037544934,0 75.77900555555557,27.9953472222222,0 75.77900833333331,28.00623333333331,0 75.77883822579069,28.00622974266291,0 75.77750388200135,28.00623305281858,0 75.77650829152833,28.00623988887103,0 75.77555531811174,28.00624642554663,0 75.77495019225648,28.00625057282219,0 75.77392222222223,28.00626111111111,0 75.77396111111106,28.01172777777778,0 75.77261161022442,28.01172560603259,0 75.77220740830541,28.01172680564256,0 75.7677653340983,28.01173991073405,0 75.76750327184125,28.01174067939063,0 75.76582500000002,28.01177499999999,0 75.7658153118718,28.00431693100281,0 75.76575555555551,28.00179444444446,0 75.7671235769904,28.00179243367423,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>OPEN PIT MINE.shp</name>
+		<Schema name="OPEN PIT MINE" id="S_OPEN_PIT_MINE_SD">
+			<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<StyleMap id="falseColor5">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor7</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor6</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="falseColor6">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[OPEN PIT MINE/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[OPEN PIT MINE/AREA]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="falseColor7">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[OPEN PIT MINE/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[OPEN PIT MINE/AREA]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>OPEN PIT MINE</name>
+			<Placemark>
+				<styleUrl>#falseColor5</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_OPEN_PIT_MINE_SD">
+						<SimpleData name="LAYER">Area under mining</SimpleData>
+						<SimpleData name="AREA">9.025</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								75.77460771282064,27.99957140563258,0 75.77479064843521,27.99921173182572,0 75.77493152589959,27.99898220381437,0 75.77501970979057,27.99889954903747,0 75.77513693044064,27.99880156168268,0 75.7752842247362,27.99866205137649,0 75.77533843455124,27.99863990651103,0 75.77538649034402,27.99863443655746,0 75.77545736990464,27.99864326371962,0 75.77552059362142,27.99864193806443,0 75.77565084267017,27.99861268231597,0 75.77579209952378,27.99860337502851,0 75.7759979459574,27.99860139090748,0 75.77620132588902,27.99861450407335,0 75.77635078485399,27.99865531034272,0 75.77639743034086,27.99867540129682,0 75.77643603213505,27.99869677774087,0 75.77654115997957,27.99879878816646,0 75.77666709254319,27.99892082671001,0 75.77671573191975,27.99898670943053,0 75.77683137511353,27.99930311956446,0 75.77685910787618,27.9994225335813,0 75.77687340427197,27.99952413775661,0 75.77687875330322,27.99960363005383,0 75.77687380988016,27.99964643927656,0 75.77686040704687,27.99969677777393,0 75.77683591718521,27.99973512282331,0 75.7767821513051,27.99981208836457,0 75.77668365441646,27.99996253380348,0 75.77661003620058,28.00008574275012,0 75.77653388516813,28.00021452339987,0 75.77650739045504,28.00026812950018,0 75.77645413466917,28.00036239702785,0 75.77642662965683,28.00041637737632,0 75.77639269277444,28.00048298060169,0 75.77635092897098,28.00057567467839,0 75.77632607019326,28.00065397092683,0 75.77630584795099,28.00069376294651,0 75.77625745034139,28.00075316650878,0 75.77621114585786,28.0008424619782,0 75.77618984906449,28.00090216376104,0 75.77617927107252,28.00096965563445,0 75.7761856744675,28.00101128416179,0 75.77622303989433,28.00113385620135,0 75.77623395467042,28.00125527905344,0 75.7762396593601,28.0013659315152,0 75.77624661594433,28.00142936002204,0 75.77624212573197,28.0014812651522,0 75.77623233251968,28.00151586943185,0 75.77615029591065,28.00162736057491,0 75.7760631691138,28.0017141763885,0 75.77595253255122,28.00178772858722,0 75.77574084117231,28.00197422594035,0 75.77551308295446,28.00224489367697,0 75.77541648646066,28.00229853262537,0 75.77520745657833,28.00237539962702,0 75.77510139728315,28.00238868638331,0 75.77494501183959,28.00242446998851,0 75.77479746758242,28.00247329785614,0 75.77461835924318,28.00254077633175,0 75.7744646452181,28.00259209276693,0 75.7740009176283,28.00264618262488,0 75.77386697414416,28.00262705715523,0 75.77375470586924,28.00260105212071,0 75.77366367435519,28.00256810986426,0 75.77356797345406,28.00251368445696,0 75.77352234291489,28.00246540947823,0 75.77348083506705,28.00239456447521,0 75.77343471953286,28.00228246197245,0 75.77341009353925,28.00219317647513,0 75.77339861340185,28.00211912874686,0 75.77338863603363,28.0021005185729,0 75.77337883045153,28.00209354732944,0 75.77337754565782,28.00199651231809,0 75.77346321359325,28.0017724310067,0 75.77349758964205,28.00171857438358,0 75.77355626118451,28.00161838077925,0 75.77359816519071,28.00155529639669,0 75.77362109536898,28.00150772192013,0 75.77368301253286,28.00137965115878,0 75.77371785540947,28.00130752161212,0 75.77376191065294,28.00123452273686,0 75.7738005672287,28.00118932233728,0 75.77384344567174,28.00113918533228,0 75.77391723705175,28.00108042129001,0 75.7739438582793,28.00105103013247,0 75.77400190626639,28.00098694219891,0 75.77402447411531,28.00095282077202,0 75.77408111093006,28.00087082827995,0 75.77426016901059,28.00058218050706,0 75.77443994302885,28.00041115014799,0 75.77447954887462,28.00035351394514,0 75.7745082268865,28.0003035551225,0 75.77451620223364,28.00028325627517,0 75.77453886517321,28.0002250394077,0 75.77458117077727,28.00003409357466,0 75.77459569953686,27.99992020998474,0 75.77460105283707,27.99982541772374,0 75.77460771282064,27.99957140563258,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>Pillar_Coordinate.shp</name>
+		<Schema name="Pillar_Coordinate" id="S_Pillar_Coordinate_SSS">
+			<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="X"><displayName>&lt;b&gt;X&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Y"><displayName>&lt;b&gt;Y&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="hlightPointStyle0">
+			<IconStyle>
+				<color>ff00ff00</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>2</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[Pillar_Coordinate/Name]</td></tr>
+  <tr><td><b>X</b></td><td>$[Pillar_Coordinate/X]</td></tr>
+  <tr><td><b>Y</b></td><td>$[Pillar_Coordinate/Y]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id="normPointStyle0">
+			<IconStyle>
+				<color>ff00ff00</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>2</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[Pillar_Coordinate/Name]</td></tr>
+  <tr><td><b>X</b></td><td>$[Pillar_Coordinate/X]</td></tr>
+  <tr><td><b>Y</b></td><td>$[Pillar_Coordinate/Y]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id="pointStyleMap0">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#normPointStyle0</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#hlightPointStyle0</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Folder id="layer 0">
+			<name>Pillar_Coordinate</name>
+			<open>1</open>
+			<Placemark>
+				<name>B</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Pillar_Coordinate_SSS">
+						<SimpleData name="Name">B</SimpleData>
+						<SimpleData name="X">28° 0&apos; 22.540&quot; N</SimpleData>
+						<SimpleData name="Y">75° 46&apos; 26.120&quot; E</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77391315456387,28.00625875982302,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>D</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Pillar_Coordinate_SSS">
+						<SimpleData name="Name">D</SimpleData>
+						<SimpleData name="X">27° 59&apos; 43.320&quot; N</SimpleData>
+						<SimpleData name="Y">75° 46&apos; 33.440&quot; E</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.7759505792759,27.99536091747587,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>L</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Pillar_Coordinate_SSS">
+						<SimpleData name="Name">L</SimpleData>
+						<SimpleData name="X">28° 0&apos; 42.390&quot; N</SimpleData>
+						<SimpleData name="Y">75° 45&apos; 56.970&quot; E</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76581562008083,28.01177436751493,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>F</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Pillar_Coordinate_SSS">
+						<SimpleData name="Name">F</SimpleData>
+						<SimpleData name="X">28° 0&apos; 42.220&quot; N</SimpleData>
+						<SimpleData name="Y">75° 46&apos; 26.260&quot; E</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.773952188588,28.01171976744261,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>E</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Pillar_Coordinate_SSS">
+						<SimpleData name="Name">E</SimpleData>
+						<SimpleData name="X">28° 0&apos; 6.460&quot; N</SimpleData>
+						<SimpleData name="Y">75° 45&apos; 56.720&quot; E</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.76575519004778,28.00179102498491,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Pillar_Coordinate_SSS">
+						<SimpleData name="Name">C</SimpleData>
+						<SimpleData name="X">28° 0&apos; 6.340&quot; N</SimpleData>
+						<SimpleData name="Y">75° 46&apos; 18.680&quot; E</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77184693429621,28.00175696083771,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>N</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Pillar_Coordinate_SSS">
+						<SimpleData name="Name">N</SimpleData>
+						<SimpleData name="X">27° 59&apos; 43.250&quot; N</SimpleData>
+						<SimpleData name="Y">75° 46&apos; 44.420&quot; E</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77900134921833,27.99534366809497,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>A</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Pillar_Coordinate_SSS">
+						<SimpleData name="Name">A</SimpleData>
+						<SimpleData name="X">28° 0&apos; 22.440&quot; N</SimpleData>
+						<SimpleData name="Y">75° 46&apos; 44.430&quot; E</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>75.77899828367558,28.00623003835732,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>ROAD.shp</name>
+		<Schema name="ROAD" id="S_ROAD_SD">
+			<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="ROAD"><displayName>&lt;b&gt;ROAD&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<StyleMap id="falseColor10">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor9</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor8</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="falseColor8">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[ROAD/LAYER]</td></tr>
+  <tr><td><b>ROAD</b></td><td>$[ROAD/ROAD]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="falseColor9">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[ROAD/LAYER]</td></tr>
+  <tr><td><b>ROAD</b></td><td>$[ROAD/ROAD]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>ROAD</name>
+			<Placemark>
+				<styleUrl>#falseColor10</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_ROAD_SD">
+						<SimpleData name="LAYER">Road</SimpleData>
+						<SimpleData name="ROAD">0.854</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								75.77697661754577,28.00417736041664,0 75.77691733940846,28.00422627800118,0 75.77690412311053,28.00424387430484,0 75.77690230649482,28.0042563340862,0 75.77690521219338,28.00427491513538,0 75.77691469022358,28.00429176838925,0 75.77691528262619,28.00429347869255,0 75.77691689789255,28.00429364257027,0 75.77718071054048,28.00433634730322,0 75.77728297973867,28.00435123390613,0 75.77754936173217,28.00438040259879,0 75.77772892614779,28.00440155193223,0 75.77792432201232,28.00442030904138,0 75.77824548176862,28.00443925051605,0 75.77848091009498,28.00444582855996,0 75.77883559298056,28.00444307557088,0 75.77900728157034,28.00443672091484,0 75.77900731199237,28.00448327053552,0 75.77883687507887,28.00448820053512,0 75.77848033216927,28.00449096796409,0 75.77824299515436,28.0044843365922,0 75.77791990021926,28.00446528098643,0 75.77772284644153,28.00444636472723,0 75.77754290359859,28.00442517082423,0 75.77727574864463,28.0043959174938,0 75.77717203289559,28.00438082032776,0 75.7769094400122,28.0043383130485,0 75.77678618731591,28.00432580832464,0 75.77658475267822,28.00429393237385,0 75.77643019600704,28.00425275283835,0 75.77626680951965,28.00419979156614,0 75.77613756925832,28.00418542983074,0 75.77593723971033,28.00420018621849,0 75.77566032904761,28.00424434941735,0 75.77545152647163,28.00427797078971,0 75.77525057606459,28.00430405780027,0 75.77516446199444,28.00430822860461,0 75.77507146422847,28.00430400442796,0 75.77475287639531,28.00429390006333,0 75.77366584651601,28.00427201612567,0 75.77349115753269,28.00425309482155,0 75.77333349085377,28.00421349215424,0 75.77312527521804,28.00417288318214,0 75.77301923256539,28.00415596176391,0 75.77297074206226,28.00415144127381,0 75.77293147791204,28.00425518266621,0 75.77293727107231,28.00435289849859,0 75.77295748875696,28.00446993293926,0 75.77301614328695,28.00466030291783,0 75.7730357034763,28.00472983996823,0 75.77304210462627,28.00477706897222,0 75.77304937938558,28.00501666816426,0 75.77306409648445,28.00519742195647,0 75.77307557954123,28.00534624595208,0 75.77309532854746,28.00542322779051,0 75.77313651310486,28.00552240291726,0 75.77316382094916,28.00557696778448,0 75.7732846615648,28.00579111136195,0 75.77339213902889,28.00597270411718,0 75.7736100032902,28.00633601286835,0 75.77364881680916,28.00645020438755,0 75.77364521898056,28.00653321011515,0 75.77360050776603,28.00662963546834,0 75.77350954517733,28.00677322410325,0 75.77340409605294,28.00695919152423,0 75.77337867210839,28.00705127265694,0 75.77337803711205,28.00717617642779,0 75.77342515644213,28.00733688972366,0 75.77351249705872,28.00749449475533,0 75.77362258896922,28.00766431338485,0 75.77373951190435,28.0078131778044,0 75.7739301722892,28.00799033151118,0 75.77393454967721,28.0079941659681,0 75.7739351695562,28.00808130754121,0 75.77392561258746,28.00806605740434,0 75.77391528186702,28.00804161015938,0 75.77380655483596,28.00794172444325,0 75.7736999653409,28.00784175154673,0 75.77357961079497,28.00768851798425,0 75.77346759473309,28.00751573121348,0 75.77337724372582,28.00735269384348,0 75.77332715494926,28.00718185217734,0 75.77332784707821,28.00704572300417,0 75.77335607784732,28.0069434762079,0 75.77346464582938,28.00675200859829,0 75.77355466168514,28.00660991452287,0 75.77359475169641,28.00652345546104,0 75.77359767499713,28.00645601253819,0 75.77356276270972,28.00635329852019,0 75.77334718410224,28.00599380104827,0 75.77323941372777,28.00581171326889,0 75.77311782532566,28.00559624436845,0 75.77308936950443,28.00553938563557,0 75.77304647619525,28.00543609561212,0 75.77302511710064,28.00535283748376,0 75.77301336998364,28.00520059026857,0 75.77299857702423,28.00501890372004,0 75.77299133500472,28.0047803791593,0 75.77298559570356,28.00473803326763,0 75.77296694322824,28.00467172305902,0 75.77290766744544,28.00447933644718,0 75.77288662299354,28.00435751575989,0 75.77288020481156,28.00424925654233,0 75.77291958311405,28.00414073127176,0 75.77290438686367,28.00410843914451,0 75.77288319779386,28.00404059293994,0 75.77287582657142,28.00397166800578,0 75.77291146360199,28.00377239605272,0 75.77291588258781,28.00369730516037,0 75.77295049829587,28.00331801838514,0 75.77301804473751,28.00306305895366,0 75.7730831277331,28.00277720586046,0 75.77312683784479,28.00260932630293,0 75.77319317249312,28.00239766286427,0 75.77313731038255,28.00226476745419,0 75.77281089038399,28.00205679336181,0 75.7726512795865,28.00195450900814,0 75.77245214898964,28.00177939123226,0 75.77234176592444,28.0016953208867,0 75.77227819273141,28.00166223942073,0 75.77206998845722,28.00157148066274,0 75.77198795618905,28.00155275439296,0 75.77201522746121,28.00151208895083,0 75.77208781899623,28.00152897048348,0 75.7723022928523,28.00162246222551,0 75.77237141882709,28.00165843317773,0 75.77248664533074,28.00174619238363,0 75.77268425679821,28.0019199741809,0 75.77284060053357,28.00202016486417,0 75.77317954119779,28.00223611626433,0 75.77324659138607,28.00239562783457,0 75.77317612971298,28.00262046031856,0 75.77313283137714,28.00278675864139,0 75.7730677291634,28.00307269672032,0 75.77300087451722,28.00332504536131,0 75.77296662653593,28.00370030484815,0 75.77296210589007,28.00377712383804,0 75.77292705911815,28.00397309575941,0 75.77293339817794,28.00403236915269,0 75.77295253871254,28.00409365597446,0 75.77303023905422,28.00411186120726,0 75.77313523493446,28.00412861558971,0 75.77334588235372,28.00416969884122,0 75.77350122101393,28.00420871676132,0 75.77366951214053,28.00422694508697,0 75.77475436094116,28.00424878511344,0 75.775073671844,28.00425891241368,0 75.77516437585422,28.00426303240438,0 75.77524550047501,28.00425910325698,0 75.77544330566087,28.00423342455385,0 75.77565129364127,28.00419993434888,0 75.77593062511666,28.00415538506598,0 75.77613863647341,28.00414006283138,0 75.77627884305427,28.00415564319245,0 75.77644624241272,28.00420990522984,0 75.77659656501169,28.0042499566551,0 75.77679310503747,28.00428105806059,0 75.7767946942585,28.00427968949714,0 75.77683881064873,28.0042323221078,0 75.77690238102649,28.00418564818859,0 75.77708830819671,28.0040445487481,0 75.77720861294146,28.00396621107459,0 75.77729492683294,28.00390181021151,0 75.77736115135565,28.00384508246956,0 75.77745061491122,28.00374900832384,0 75.77744908340674,28.00369293642076,0 75.77747383453816,28.00363806510903,0 75.77756407274238,28.00353181168821,0 75.77765208224567,28.00349039823002,0 75.7778153921557,28.00347193909204,0 75.77792539021033,28.00344953045574,0 75.77804547010271,28.00341378037041,0 75.778078173393,28.00338251001303,0 75.7782065191642,28.00324734640144,0 75.77824481951538,28.00321051099336,0 75.77829518370807,28.00317218669267,0 75.77831218603002,28.00312214145039,0 75.77845972136697,28.00303309835238,0 75.7786350217047,28.00293380178065,0 75.77887631700104,28.00280334394628,0 75.77900742936464,28.00270293415188,0 75.77900744274278,28.00275526734714,0 75.77900036242077,28.00276727490628,0 75.77884516448283,28.00287425284847,0 75.77860127595518,28.00301085968387,0 75.77844036127264,28.00310353899933,0 75.7783225664276,28.00321144060718,0 75.77824062094017,28.00329336160601,0 75.77816909986167,28.00337006805524,0 75.77806503860081,28.00344798972204,0 75.7780105756693,28.00347201329665,0 75.77788539094927,28.00352221460524,0 75.77774833012761,28.00353742549982,0 75.77762874992256,28.00355872397177,0 75.77756633515348,28.00360856993233,0 75.7775198552735,28.0036791950502,0 75.77749496082539,28.00373299311816,0 75.77745969524894,28.00378845146955,0 75.77741847781938,28.00383233113086,0 75.77727909450302,28.00394869059912,0 75.77714919861141,28.00403497587648,0 75.77706409919118,28.00410383849972,0 75.77697661754577,28.00417736041664,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>WASTE_DUMP.shp</name>
+		<Schema name="WASTE_DUMP" id="S_WASTE_DUMP_SD">
+			<SimpleField type="string" name="GM_LAYER"><displayName>&lt;b&gt;GM_LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<StyleMap id="falseColor11">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor12</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor13</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="falseColor12">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[WASTE_DUMP/GM_LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[WASTE_DUMP/AREA]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff00aaff</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="falseColor13">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>GM_LAYER</b></td><td>$[WASTE_DUMP/GM_LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[WASTE_DUMP/AREA]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff00aaff</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>WASTE_DUMP</name>
+			<Placemark>
+				<styleUrl>#falseColor11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_WASTE_DUMP_SD">
+						<SimpleData name="GM_LAYER">Waste Dumping</SimpleData>
+						<SimpleData name="AREA">10.911</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								75.76955317379395,28.003349601236,0 75.76950644573613,28.00315380190225,0 75.76946200022657,28.0029090712934,0 75.76939029637647,28.0026903727721,0 75.76929311456671,28.00250400245432,0 75.76925527765059,28.00242315700963,0 75.76920988663653,28.00231547903069,0 75.76915791788898,28.00221780924951,0 75.76908982511037,28.00207124942396,0 75.76896634174619,28.00190050921594,0 75.76891318721385,28.00185972244866,0 75.76887728882531,28.00183217671121,0 75.76882068540912,28.00178874343631,0 75.76997601694903,28.00178463747038,0 75.77018102177499,28.00178390788359,0 75.77061317305328,28.00177819625582,0 75.77086801621117,28.00177482742525,0 75.77144571549299,28.00176718893537,0 75.77185555555555,28.00176111111112,0 75.77191249155926,28.00167409268161,0 75.77191622423959,28.00166875056555,0 75.77193811682345,28.00166467784163,0 75.77199118645746,28.00166164551177,0 75.77204434934359,28.00167167704301,0 75.77209037348985,28.00168934425147,0 75.77214441210846,28.00169777584989,0 75.77223030306861,28.00173827185979,0 75.77227388484863,28.00175249001633,0 75.77238159259072,28.00180371061888,0 75.77243492610584,28.00185162087521,0 75.77246358790421,28.00186953855583,0 75.77252093753295,28.00190898951364,0 75.77256742606085,28.00194970670147,0 75.77269600038987,28.00202537182156,0 75.77286385316336,28.00212687437212,0 75.77297425768336,28.0022186006391,0 75.77307636305876,28.00229725227123,0 75.77308740366139,28.00243588932998,0 75.77306135465612,28.00256173702073,0 75.77293103286699,28.00319134210812,0 75.77288584293132,28.00342216065555,0 75.77283864912046,28.00367680644793,0 75.77280192599288,28.00403963585408,0 75.77276468726778,28.0041479144122,0 75.77264603679838,28.0043798780491,0 75.77257061096155,28.00448123023555,0 75.77246625141736,28.00450240240061,0 75.77233348082603,28.00455155992861,0 75.77224534831414,28.00465271731868,0 75.77221630604515,28.00472817957269,0 75.77217600385349,28.00488193529448,0 75.77212844550019,28.00497688377803,0 75.77196020264334,28.005167738681,0 75.77190964553864,28.00523046300409,0 75.77183555166992,28.00531368091649,0 75.7716700236695,28.00543943609888,0 75.7714622689093,28.00563442387816,0 75.77137340947134,28.00573107337537,0 75.77128297292192,28.00578215726301,0 75.77117474188887,28.00579665907848,0 75.77106191779804,28.00578172994471,0 75.77096640533486,28.00573557965016,0 75.7709031538548,28.00564700869096,0 75.7708839116027,28.00540701728649,0 75.77089643963134,28.00505569062728,0 75.77066141216778,28.00476355360643,0 75.76969628091422,28.00350623664892,0 75.76955317379395,28.003349601236,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_WASTE_DUMP_SD">
+						<SimpleData name="GM_LAYER">Waste Dumping</SimpleData>
+						<SimpleData name="AREA">2.528</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								75.77628871119626,28.00302512925016,0 75.77616901131505,28.0029735190536,0 75.7760581460613,28.0028900180298,0 75.77601086844508,28.00282693835698,0 75.77594482624214,28.00272743138528,0 75.77587852725759,28.0025920629716,0 75.77584822790749,28.00252687641857,0 75.77584338275517,28.00243037569687,0 75.77587802875284,28.00225890989683,0 75.77593469293542,28.00215636420286,0 75.77604163949239,28.00200929264189,0 75.77614728668532,28.00189172302161,0 75.77627475318231,28.00176263445194,0 75.77639114626317,28.00161651478645,0 75.77645355060925,28.00152466180707,0 75.77649837834717,28.00140408371576,0 75.77651911614358,28.00129436701099,0 75.77648973374166,28.00114638917917,0 75.77644425179029,28.00096498556428,0 75.77648662187002,28.00076498678478,0 75.77653789568258,28.00054281668234,0 75.77657980751579,28.0004896235811,0 75.7768848045235,28.00047315319217,0 75.77700605281784,28.00068831552807,0 75.77707140911561,28.00085016694522,0 75.77728035143794,28.00112985572512,0 75.7775546231655,28.00146213107104,0 75.77764904202172,28.00162180680927,0 75.77761613322851,28.0018244337186,0 75.77758110496445,28.00188965420054,0 75.77752568104272,28.00195431968586,0 75.77745191536415,28.00198892385415,0 75.77736375724439,28.00201757635836,0 75.77728764404273,28.00204079804014,0 75.77720455108359,28.00203858645662,0 75.77711072158624,28.00201364416371,0 75.77700703105241,28.00198272453333,0 75.77693833531303,28.00198713475768,0 75.77672707591657,28.00222696724739,0 75.7768009809912,28.00231704474653,0 75.77688078369221,28.00238697886662,0 75.77696136094939,28.00245958989562,0 75.777008747146,28.00253775113298,0 75.77696923025327,28.00260902983216,0 75.77672205778994,28.00294894497939,0 75.776594342943,28.00304351317414,0 75.77648586960409,28.0030830052187,0 75.77635084606722,28.00305360274049,0 75.77628871119626,28.00302512925016,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_WASTE_DUMP_SD">
+						<SimpleData name="GM_LAYER">Waste Dumping</SimpleData>
+						<SimpleData name="AREA">4.025</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								75.77249335287755,28.00078632115225,0 75.77252572544977,28.00073684336262,0 75.77273410977705,28.0004183504071,0 75.77299452881509,28.00001349878703,0 75.77328052193832,27.99956888529193,0 75.77372300028804,27.99888098693265,0 75.77372436493631,27.99888344896679,0 75.77372703778227,27.99888826979349,0 75.77372971141369,27.99889309029189,0 75.77373238598761,27.99889791039632,0 75.77373506166106,27.99890273004121,0 75.77373773859114,27.99890754916087,0 75.7737404169348,27.99891236768961,0 75.77374309684913,27.99891718556187,0 75.7737457784912,27.99892200271191,0 75.77374846201796,27.99892681907417,0 75.77375114758665,27.99893163458297,0 75.7737538353541,27.99893644917265,0 75.77375652547742,27.99894126277757,0 75.77375921811374,27.99894607533208,0 75.77376191342,27.99895088677057,0 75.77376461153101,27.99895569703456,0 75.77376731245789,27.99896050610595,0 75.77377001616883,27.99896531398036,0 75.77377272263216,27.99897012065369,0 75.77377543181608,27.99897492612144,0 75.77377814368889,27.99897973037959,0 75.77378085821873,27.99898453342367,0 75.77378357537403,27.99898933524961,0 75.77378629512278,27.99899413585297,0 75.77378901743339,27.99899893522958,0 75.7737917422741,27.99900373337514,0 75.77379446961318,27.99900853028541,0 75.77379719941872,27.99901332595611,0 75.77379993165911,27.99901812038301,0 75.77380266630259,27.99902291356182,0 75.77380540331733,27.99902770548828,0 75.77380814267163,27.99903249615818,0 75.77381088433373,27.99903728556713,0 75.77381362827208,27.99904207371081,0 75.77381637457606,27.99904686054154,0 75.77381912364939,27.99905164589837,0 75.7738218759465,27.9990564296024,0 75.77382463192158,27.9990612114745,0 75.77382739202905,27.99906599133573,0 75.77383015672312,27.99907076900707,0 75.77383292645821,27.99907554430954,0 75.77383570168861,27.99908031706413,0 75.77383848286865,27.99908508709179,0 75.77384127045262,27.99908985421352,0 75.7738440648949,27.99909461825033,0 75.77384686664973,27.99909937902322,0 75.77384967617151,27.99910413635324,0 75.77385249391442,27.99910889006126,0 75.773855320333,27.99911363996837,0 75.7738581558814,27.9991183858955,0 75.77386100101397,27.99912312766368,0 75.77386385618507,27.99912786509393,0 75.77386672184898,27.99913259800715,0 75.77386959846008,27.99913732622445,0 75.77387248647267,27.99914204956676,0 75.77387538634102,27.99914676785508,0 75.77387829851948,27.99915148091039,0 75.7738812234624,27.99915618855366,0 75.77388416162408,27.99916089060597,0 75.77388711345885,27.99916558688825,0 75.77389007942101,27.99917027722158,0 75.77389305996486,27.99917496142672,0 75.77389605554481,27.99917963932491,0 75.77389906661512,27.99918431073709,0 75.77390209367053,27.99918897544271,0 75.77390513775643,27.9991936326566,0 75.77390820031583,27.99919828118576,0 75.77391128280074,27.99920291982804,0 75.77391438666282,27.99920754738134,0 75.77391751335409,27.99921216264359,0 75.77392066432645,27.99921676441259,0 75.77392384103167,27.99922135148631,0 75.77392704492175,27.99922592266263,0 75.77393027744844,27.99923047673943,0 75.77393354006369,27.99923501251466,0 75.7739368342194,27.9992395287861,0 75.77394016136736,27.99924402435174,0 75.77394352295948,27.99924849800942,0 75.7739469204477,27.99925294855704,0 75.77395035528383,27.99925737479249,0 75.77395382891977,27.99926177551372,0 75.77395734280735,27.99926614951848,0 75.77396089839857,27.99927049560485,0 75.77396449714512,27.99927481257059,0 75.77396814049905,27.99927909921355,0 75.77397182991214,27.99928335433185,0 75.77397556683631,27.99928757672309,0 75.7739793526079,27.99929176525501,0 75.77398318708943,27.99929591968397,0 75.77398706912659,27.99930004037972,0 75.77399099754474,27.99930412772422,0 75.77399497116926,27.99930818209926,0 75.77399898882567,27.99931220388676,0 75.77400304933934,27.99931619346874,0 75.77400715153566,27.99932015122702,0 75.77401129424011,27.99932407754353,0 75.77401547627811,27.99932797280017,0 75.77401969647509,27.99933183737891,0 75.77402395365642,27.9993356716616,0 75.7740282466475,27.9993394760301,0 75.7740325742738,27.99934325086639,0 75.77403693536078,27.99934699655246,0 75.77404132873376,27.99935071347,0 75.77404575321826,27.99935440200112,0 75.77405020763969,27.9993580625276,0 75.77405469082336,27.99936169543146,0 75.7740592015948,27.99936530109447,0 75.77406373877938,27.99936887989868,0 75.77406830120255,27.99937243222595,0 75.7740728876897,27.99937595845814,0 75.77407749706622,27.99937945897725,0 75.77408212816044,27.99938293417394,0 75.77408677990076,27.99938638475428,0 75.77409145134071,27.99938981181768,0 75.77409614154169,27.9993932164883,0 75.7741008495651,27.99939659989042,0 75.77410557447242,27.99939996314817,0 75.77411031532496,27.99940330738582,0 75.77411507118423,27.99940663372758,0 75.77411984111153,27.99940994329752,0 75.77412462416839,27.99941323722006,0 75.77412941941616,27.99941651661921,0 75.77413422591623,27.99941978261928,0 75.77413904273006,27.99942303634445,0 75.77414386891898,27.99942627891894,0 75.77414870354448,27.99942951146693,0 75.77415354566803,27.9994327351126,0 75.77415839435085,27.99943595098021,0 75.77416324865452,27.99943916019398,0 75.77416810764034,27.99944236387806,0 75.77417297036983,27.99944556315666,0 75.7741778359043,27.99944875915405,0 75.77418270330521,27.99945195299432,0 75.77418757163399,27.99945514580174,0 75.77419243995195,27.99945833870053,0 75.77419730732065,27.99946153281494,0 75.77420217280142,27.99946472926904,0 75.77420703545567,27.99946792918717,0 75.77421189434484,27.99947113369351,0 75.77421674853029,27.99947434391212,0 75.77422159707351,27.99947756096746,0 75.77422643903581,27.99948078598356,0 75.77423127347873,27.99948402008467,0 75.77423609946362,27.99948726439496,0 75.77424091605184,27.99949052003872,0 75.77424572230483,27.99949378814011,0 75.77425051728784,27.99949706981648,0 75.77425530022684,27.99950036589253,0 75.77426007056577,27.99950367679637,0 75.77426482776413,27.9995070029279,0 75.77426957128122,27.9995103446872,0 75.77427430057658,27.99951370247421,0 75.77427901510963,27.99951707668892,0 75.7742837143397,27.99952046773125,0 75.77428839772635,27.99952387600107,0 75.77429306472889,27.9995273018986,0 75.77429771480689,27.99953074582355,0 75.77430234741963,27.99953420817612,0 75.77430696202664,27.99953768935609,0 75.77431155808726,27.99954118976346,0 75.77431613506106,27.99954470979828,0 75.77432069240736,27.99954824986049,0 75.77432522958556,27.99955181034999,0 75.77432974605512,27.99955539166687,0 75.77433424127554,27.99955899421097,0 75.77433871470625,27.99956261838238,0 75.77434316580654,27.99956626458092,0 75.774347594036,27.99956993320672,0 75.77435199885392,27.99957362465963,0 75.7743563797215,27.99957733933144,0 75.77436073613869,27.99958107742479,0 75.77436506764428,27.9995848389534,0 75.77436937377877,27.99958862392262,0 75.77437365408257,27.99959243233792,0 75.7743779080963,27.9995962642047,0 75.77438213536028,27.99960011952857,0 75.77438633541503,27.99960399831478,0 75.7743905078011,27.99960790056894,0 75.77439465205892,27.99961182629632,0 75.77439876772901,27.99961577550252,0 75.77440285435172,27.9996197481929,0 75.77440691146769,27.99962374437293,0 75.77441093861734,27.99962776404804,0 75.7744149353411,27.99963180722371,0 75.77441890117943,27.99963587390531,0 75.77442283567296,27.99963996409837,0 75.77442673836201,27.99964407780829,0 75.77443060878716,27.99964821504054,0 75.7744344464888,27.99965237580055,0 75.77443825100745,27.99965656009379,0 75.77444202188366,27.99966076792563,0 75.77444575865775,27.99966499930157,0 75.77444946087037,27.99966925422705,0 75.77445312803451,27.99967353272161,0 75.77445675947877,27.99967783489926,0 75.774460354455,27.99968216091365,0 75.77446391221513,27.99968651091833,0 75.77446743201087,27.99969088506677,0 75.77447091309392,27.99969528351262,0 75.77447435471608,27.99969970640943,0 75.77447775612903,27.99970415391079,0 75.77448111658462,27.99970862617027,0 75.77448443533466,27.99971312334143,0 75.77448771163073,27.99971764557786,0 75.7744909447248,27.99972219303311,0 75.77449413386847,27.99972676586079,0 75.77449727831358,27.99973136421444,0 75.77450037731184,27.99973598824768,0 75.77450343011344,27.9997406381089,0 75.77450643590714,27.99974531374134,0 75.77450939380039,27.99975001481675,0 75.77451230289483,27.9997547409884,0 75.77451516229243,27.99975949190974,0 75.77451797109502,27.99976426723395,0 75.77452072840433,27.99976906661437,0 75.77452343332226,27.99977388970425,0 75.77452608495065,27.99977873615689,0 75.77452868239128,27.99978360562572,0 75.77453122474596,27.99978849776377,0 75.77453371111659,27.99979341222461,0 75.77453614060492,27.99979834866139,0 75.77453851231279,27.99980330672743,0 75.77454082534207,27.99980828607605,0 75.77454307879451,27.99981328636047,0 75.77454527177203,27.99981830723415,0 75.7745474033764,27.99982334835019,0 75.77454947270947,27.999828409362,0 75.77455147887298,27.99983348992289,0 75.77455342096881,27.99983858968606,0 75.77455529809879,27.99984370830492,0 75.77455710936476,27.99984884543268,0 75.77455885388166,27.99985400071544,0 75.77456053110933,27.99985917360831,0 75.77456214087866,27.9998643633613,0 75.77456368303878,27.99986956921421,0 75.77456515743877,27.99987479040697,0 75.77456656392771,27.99988002617934,0 75.77456790235475,27.99988527577118,0 75.774569172569,27.99989053842238,0 75.77457037441958,27.99989581337273,0 75.77457150775565,27.99990109986202,0 75.77457257242624,27.9999063971302,0 75.77457356828047,27.99991170441714,0 75.77457449516744,27.99991702096254,0 75.77457535293634,27.9999223460063,0 75.77457614143628,27.99992767878827,0 75.77457686051632,27.99993301854835,0 75.77457751002561,27.99993836452634,0 75.77457808980172,27.99994371601019,0 75.77457859964925,27.9999490724269,0 75.77457903936663,27.99995443322855,0 75.7745794087525,27.99995979786716,0 75.77457970760533,27.99996516579502,0 75.77457993572365,27.99997053646397,0 75.77458009290592,27.9999759093262,0 75.77458017895077,27.9999812838338,0 75.77458019362791,27.99998665937533,0 75.77458013661339,27.99999203513185,0 75.77458000756398,27.99999741024209,0 75.77457980613652,28.00000278384477,0 75.77457953198785,28.00000815507871,0 75.77457918477479,28.00001352308264,0 75.77457876415417,28.00001888699531,0 75.77457826978282,28.00002424595547,0 75.77457770131763,28.00002959910195,0 75.77457705841537,28.00003494557338,0 75.77457634076804,28.00004028451426,0 75.77457554840854,28.0000456151251,0 75.77457468156126,28.00005093663745,0 75.77457374045268,28.00005624828329,0 75.77457272530934,28.00006154929476,0 75.77457163635769,28.00006683890375,0 75.77457047382431,28.00007211634248,0 75.77456923793568,28.00007738084275,0 75.7745679289183,28.00008263163675,0 75.77456654699868,28.00008786795645,0 75.77456509240332,28.0000930890339,0 75.77456356536283,28.00009829410148,0 75.7745619662531,28.00010348240603,0 75.77456029563226,28.00010865321245,0 75.77455855406969,28.00011380578677,0 75.77455674213485,28.00011893939499,0 75.77455486039732,28.00012405330317,0 75.77455290942645,28.00012914677721,0 75.7745508897918,28.00013421908323,0 75.77454880206277,28.00013926948724,0 75.7745466468089,28.0001442972552,0 75.7745444245997,28.00014930165313,0 75.77454213600454,28.00015428194712,0 75.77453978159299,28.00015923740312,0 75.77453736193443,28.00016416728718,0 75.77453487759043,28.00016907088663,0 75.77453232904797,28.00017394768735,0 75.77452971675359,28.00017879728308,0 75.77452704115341,28.00018361926853,0 75.77452430269375,28.00018841323831,0 75.7745215018207,28.00019317878735,0 75.77451863898033,28.0001979155102,0 75.77451571461897,28.00020262300176,0 75.77451272918272,28.0002073008567,0 75.77450968310556,28.00021194864825,0 75.7745065766179,28.00021656559356,0 75.77450340978258,28.00022115061612,0 75.77450018265746,28.00022570263081,0 75.77449689530032,28.00023022055244,0 75.7744935477691,28.0002347032957,0 75.77449014012157,28.00023914977556,0 75.77448667241553,28.0002435589067,0 75.77448314470888,28.00024792960395,0 75.77447955705944,28.0002522607822,0 75.77447590952504,28.00025655135622,0 75.77447220220063,28.00026080027628,0 75.77446843648126,28.00026500773741,0 75.77446461537194,28.0002691754761,0 75.77446074197782,28.00027330532443,0 75.77445681940395,28.0002773991147,0 75.77445285075554,28.00028145867902,0 75.77444883913766,28.0002854858497,0 75.77444478765555,28.00028948245895,0 75.77444069941417,28.00029345033886,0 75.7744365775187,28.00029739132176,0 75.77443242507444,28.0003013072401,0 75.77442824530894,28.00030520018063,0 75.77442404181392,28.0003090729877,0 75.77441981824857,28.00031292864558,0 75.77441557827204,28.0003167701385,0 75.77441132554344,28.00032060045077,0 75.77440706372194,28.00032442256667,0 75.77440279646659,28.00032823947051,0 75.77439852743662,28.0003320541466,0 75.7743942602911,28.00033586957921,0 75.77438999868927,28.00033968875263,0 75.77438574629019,28.00034351465122,0 75.774381506753,28.00034735025914,0 75.77437728373683,28.00035119856077,0 75.77437308090082,28.00035506254047,0 75.77436890190415,28.00035894518236,0 75.77436475040592,28.00036284947089,0 75.7743606300653,28.00036677839032,0 75.77435654454142,28.0003707349249,0 75.7743524974934,28.00037472205896,0 75.77434849229411,28.00037874252436,0 75.77434452968934,28.00038279673533,0 75.77434060901224,28.00038688386029,0 75.77433672958239,28.00039100305551,0 75.77433289071936,28.00039515347736,0 75.77432909174274,28.0003993342821,0 75.77432533197214,28.00040354462613,0 75.7743216107271,28.00040778366569,0 75.77431792732723,28.00041205055722,0 75.77431428109212,28.00041634445693,0 75.7743106713413,28.00042066452124,0 75.7743070973944,28.00042500990645,0 75.77430355857096,28.00042937976888,0 75.77430005419062,28.00043377326485,0 75.77429658357295,28.00043818955062,0 75.77429314603749,28.00044262778272,0 75.77428974090384,28.00044708711723,0 75.77428636749164,28.00045156671068,0 75.77428302512038,28.00045606571925,0 75.77427971310972,28.00046058329936,0 75.77427643077915,28.00046511860729,0 75.77427317744839,28.00046967079939,0 75.7742699524369,28.00047423903191,0 75.77426675506429,28.0004788224613,0 75.7742635846502,28.00048342024382,0 75.77426044051417,28.00048803153576,0 75.77425732197578,28.0004926554935,0 75.77425422835465,28.00049729127342,0 75.77425115922387,28.00050193824111,0 75.77424811502409,28.00050659647879,0 75.77424509638136,28.00051126622166,0 75.77424210392184,28.00051594770502,0 75.7742391382714,28.00052064116408,0 75.77423620005624,28.00052534683413,0 75.77423328990237,28.00053006495047,0 75.77423040843586,28.00053479574827,0 75.77422755628282,28.00053953946281,0 75.77422473406924,28.00054429632931,0 75.77422194242121,28.0005490665831,0 75.77421918196478,28.00055385045951,0 75.77421645332599,28.0005586481936,0 75.77421375713101,28.00056346002078,0 75.77421109400576,28.00056828617618,0 75.7742084645764,28.00057312689524,0 75.77420586946896,28.00057798241299,0 75.77420330930947,28.00058285296491,0 75.7742007847241,28.00058773878614,0 75.77419829633875,28.00059264011193,0 75.7741958447796,28.00059755717756,0 75.77419343067268,28.00060249021826,0 75.77419105464408,28.00060743946934,0 75.77418871731977,28.00061240516604,0 75.77418641932594,28.00061738754359,0 75.77418416128859,28.00062238683725,0 75.77418194360263,28.00062740318119,0 75.7741797638969,28.00063243549987,0 75.77417761797757,28.00063748192043,0 75.77417550161877,28.00064254055614,0 75.77417341059441,28.00064760952015,0 75.77417134067849,28.0006526869256,0 75.77416928764511,28.0006577708857,0 75.77416724726828,28.00066285951366,0 75.77416521532199,28.00066795092259,0 75.77416318758026,28.00067304322573,0 75.77416115981714,28.00067813453623,0 75.77415912780658,28.00068322296722,0 75.77415708732272,28.00068830663202,0 75.77415503413941,28.00069338364368,0 75.77415296403078,28.0006984521154,0 75.7741508727708,28.00070351016035,0 75.7741487561335,28.0007085558917,0 75.77414660989295,28.00071358742273,0 75.77414442982307,28.00071860286651,0 75.77414221169791,28.00072360033623,0 75.77413995129145,28.00072857794511,0 75.77413764437766,28.00073353380624,0 75.77413528673078,28.00073846603282,0 75.77413287412455,28.00074337273815,0 75.77413040233306,28.00074825203527,0 75.77412786713045,28.00075310203735,0 75.77412526429055,28.00075792085766,0 75.77412258958749,28.00076270660929,0 75.77411983879522,28.00076745740544,0 75.77411700768771,28.00077217135927,0 75.7741140928469,28.00077684691814,0 75.77411109606335,28.00078148468378,0 75.77410802119415,28.00078608611262,0 75.77410487210149,28.00079065266335,0 75.77410165264759,28.00079518579467,0 75.77409836669484,28.00079968696511,0 75.77409501810543,28.00080415763338,0 75.77409161074161,28.00080859925805,0 75.77408814846569,28.00081301329783,0 75.7740846351399,28.00081740121134,0 75.77408107462654,28.00082176445718,0 75.77407747078783,28.00082610449407,0 75.77407382748605,28.00083042278064,0 75.77407014858348,28.00083472077548,0 75.77406643794235,28.00083899993719,0 75.77406269942497,28.00084326172451,0 75.77405893689361,28.00084750759616,0 75.77405515421053,28.00085173901054,0 75.77405135523792,28.00085595742648,0 75.77404754383819,28.00086016430257,0 75.77404372385722,28.00086436108928,0 75.77403989711642,28.00086854821637,0 75.77403606147506,28.00087272411652,0 75.7740322143332,28.00087688699076,0 75.77402835309088,28.00088103504014,0 75.77402447514804,28.00088516646575,0 75.77402057790475,28.00088927946868,0 75.77401665876094,28.00089337224992,0 75.77401271511673,28.00089744301057,0 75.77400874437195,28.00090148995159,0 75.77400474392674,28.00090551127422,0 75.77400071118109,28.00090950517939,0 75.7739966435349,28.00091346986817,0 75.77399253843832,28.00091740357981,0 75.77398839533706,28.00092130607269,0 75.7739842162989,28.00092517910183,0 75.77398000356982,28.00092902455766,0 75.77397575939584,28.00093284433072,0 75.77397148602299,28.00093664031156,0 75.77396718569729,28.00094041439078,0 75.77396286066472,28.00094416845888,0 75.77395851317128,28.00094790440631,0 75.77395414546304,28.00095162412376,0 75.77394975978598,28.00095532950165,0 75.77394535838613,28.00095902243057,0 75.77394094350952,28.00096270480102,0 75.77393651740203,28.0009663785036,0 75.77393208230986,28.0009700454288,0 75.77392764047892,28.0009737074672,0 75.7739231941552,28.0009773665093,0 75.77391874558481,28.00098102444562,0 75.77391429701362,28.00098468316678,0 75.77390985068783,28.00098834456332,0 75.7739054088533,28.00099201052566,0 75.77390097375608,28.00099568294443,0 75.77389654767778,28.00099936372875,0 75.77389213331726,28.00100305500472,0 75.77387899026142,28.00101421446695,0 75.77387465250051,28.00101797039848,0 75.77387034132622,28.00102174816857,0 75.77386605971327,28.00102555004687,0 75.77386181063642,28.0010293783033,0 75.77385759707032,28.00103323520765,0 75.77385342198971,28.00103712302984,0 75.77384928836919,28.00104104403963,0 75.7738451991836,28.00104500050687,0 75.77384115740757,28.00104899470132,0 75.77383716601584,28.00105302889286,0 75.77383322718077,28.00105710462589,0 75.77382934013173,28.00106122078307,0 75.77382550342298,28.00106537563684,0 75.77382171560896,28.00106956745966,0 75.77381797524394,28.00107379452392,0 75.77381428088241,28.00107805510201,0 75.77381063107859,28.00108234746643,0 75.77380702438691,28.00108666988957,0 75.77380345936173,28.00109102064377,0 75.77379993455736,28.00109539800161,0 75.77379644852829,28.00109980023542,0 75.77379299982873,28.00110422561765,0 75.7737895870131,28.00110867242069,0 75.7737862086358,28.00111313891698,0 75.77378286324327,28.00111762339301,0 75.77377954918805,28.00112212448415,0 75.77377626462055,28.00112664118892,0 75.77377300768171,28.00113117252263,0 75.77376977651254,28.0011357175009,0 75.77376656925399,28.00114027513905,0 75.77376338404717,28.00114484445258,0 75.77376021903292,28.00114942445692,0 75.77375707235225,28.00115401416757,0 75.7737539421462,28.00115861259984,0 75.77375082655577,28.00116321876933,0 75.77374772372183,28.00116783169141,0 75.77374463178552,28.0011724503816,0 75.7737415488877,28.00117707385521,0 75.77373847316926,28.00118170112781,0 75.77373540275825,28.00118633121441,0 75.7737323357584,28.00119096312934,0 75.77372927027113,28.00119559588683,0 75.77372620439753,28.00120022850125,0 75.77372313623893,28.00120485998688,0 75.77372006389655,28.00120948935789,0 75.77371698547159,28.00121411562849,0 75.7737138990653,28.00121873781321,0 75.77371080277888,28.00122335492606,0 75.77370769471359,28.0012279659814,0 75.77370457297073,28.00123256999349,0 75.77370143565145,28.0012371659766,0 75.77369828085698,28.00124175294501,0 75.77369510668861,28.00124632991293,0 75.77369191125841,28.00125089589553,0 75.77368869305387,28.00125544993511,0 75.77368545102378,28.00125999110783,0 75.77368218414517,28.00126451849162,0 75.77367889139526,28.00126903116477,0 75.7736755717511,28.00127352820523,0 75.77367222418971,28.00127800869125,0 75.77366884768831,28.00128247170086,0 75.77366544122401,28.00128691631214,0 75.77366200377377,28.00129134160319,0 75.77365853431492,28.0012957466522,0 75.77365503182435,28.00130013053717,0 75.77365149527932,28.00130449233633,0 75.77364792365688,28.00130883112758,0 75.77364431593412,28.00131314598925,0 75.7736406710881,28.00131743599927,0 75.77363698858052,28.00132170057337,0 75.77363327014356,28.00132594070909,0 75.77362951817447,28.00133015786731,0 75.77362573507048,28.00133435350887,0 75.77362192322876,28.00133852909462,0 75.77361808504666,28.00134268608542,0 75.77361422292132,28.00134682594211,0 75.77361033925006,28.00135095012563,0 75.77360643643007,28.00135506009679,0 75.77360251685865,28.00135915731644,0 75.77359858293295,28.00136324324551,0 75.77359463705028,28.00136731934477,0 75.77359068160787,28.0013713870752,0 75.77358671900295,28.00137544789756,0 75.77358275142304,28.00137950323566,0 75.77357878010208,28.00138355434491,0 75.77357480600348,28.00138760243282,0 75.77357083009036,28.00139164870685,0 75.77356685332607,28.00139569437449,0 75.77356287667388,28.00139974064337,0 75.77355890109696,28.00140378872085,0 75.77355492755866,28.00140783981455,0 75.77355095702212,28.00141189513183,0 75.7735469904507,28.00141595588037,0 75.77354302880761,28.00142002326747,0 75.77353907305611,28.00142409850086,0 75.77353512415947,28.00142818278797,0 75.7735311831125,28.00143227734127,0 75.77352725205482,28.00143638355604,0 75.77352333456552,28.00144050305722,0 75.77351943431536,28.00144463748434,0 75.77351555497512,28.00144878847705,0 75.77351170021552,28.00145295767479,0 75.77350787370725,28.00145714671727,0 75.77350407912112,28.00146135724388,0 75.77350032012789,28.00146559089434,0 75.77349660039825,28.00146984930813,0 75.77349292360297,28.00147413412479,0 75.77348929341282,28.00147844698398,0 75.7734857134985,28.00148278952518,0 75.77348218753083,28.00148716338806,0 75.77347871918046,28.001491570212,0 75.77347531211822,28.00149601163675,0 75.77347197001487,28.00150048930179,0 75.7734686965411,28.00150500484669,0 75.77346549536769,28.00150955991113,0 75.77346237016543,28.00151415613449,0 75.77345932460496,28.00151879515642,0 75.77345636230619,28.00152347857675,0 75.77345348506418,28.00152820657287,0 75.77345069238997,28.00153297754113,0 75.77344798365026,28.00153778976575,0 75.77344535821187,28.00154264153086,0 75.77344281544147,28.00154753112043,0 75.77344035470594,28.00155245681868,0 75.773437975372,28.00155741690962,0 75.7734356768064,28.00156240967734,0 75.77343345837592,28.00156743340601,0 75.77343131944724,28.00157248637969,0 75.77342925938727,28.00157756688243,0 75.77342727756269,28.00158267319836,0 75.77342537334027,28.00158780361153,0 75.77342354608672,28.00159295640612,0 75.77342179516887,28.00159812986614,0 75.77342011995354,28.00160332227573,0 75.77341851980741,28.00160853191896,0 75.77341699409722,28.00161375707991,0 75.77341554218974,28.00161899604269,0 75.77341416345182,28.00162424709145,0 75.773412857138,28.00162950853033,0 75.77341162001652,28.00163477911158,0 75.77341044641905,28.00164005802621,0 75.77340933057516,28.00164534448372,0 75.77340826671436,28.00165063769343,0 75.77340724906622,28.00165593686485,0 75.7734062718604,28.00166124120729,0 75.77340532932635,28.00166654993028,0 75.77340441569373,28.00167186224311,0 75.77340352519202,28.00167717735538,0 75.77340265205082,28.00168249447632,0 75.77340179049968,28.00168781281549,0 75.77340093476819,28.0016931315822,0 75.77340007908582,28.00169844998596,0 75.77339921768227,28.00170376723612,0 75.773398344787,28.00170908254223,0 75.77339745462949,28.00171439511349,0 75.77339654143944,28.00171970415953,0 75.77339559944636,28.00172500888963,0 75.77339462287978,28.00173030851329,0 75.77339360596922,28.00173560223987,0 75.77339254296146,28.00174088927887,0 75.77339142951229,28.00174616884566,0 75.77339308983744,28.00174936716395,0 75.77339246662508,28.00175444003467,0 75.77339383277831,28.0017610615622,0 75.77339242982468,28.00178004464215,0 75.7733890145682,28.00179429709049,0 75.77337849848288,28.00183074008707,0 75.77337591429762,28.00184144778843,0 75.77337211928075,28.00185176388769,0 75.77336714746524,28.00186124534199,0 75.77334940401128,28.00188885046254,0 75.77334126285218,28.00189774743374,0 75.77333140539868,28.00191471848642,0 75.77331691962843,28.00193564941278,0 75.77330502342936,28.00195412481902,0 75.77329418872027,28.00197184558088,0 75.77327976637172,28.00198839592485,0 75.77326755125779,28.0020007670005,0 75.77326473957834,28.0020142756899,0 75.77325125030548,28.00203617827761,0 75.77323375694728,28.00205096705364,0 75.77321231106309,28.00206480983845,0 75.77318838678573,28.00208191107048,0 75.77315180318834,28.00208647965991,0 75.77311989825924,28.00208225041088,0 75.77310628535828,28.00208175208525,0 75.7730777572181,28.00207990062847,0 75.77306672205788,28.00207737583701,0 75.77304299885424,28.00206773682978,0 75.7730000579363,28.00205190639841,0 75.77297828702406,28.00204340615223,0 75.77296529330256,28.00203888049042,0 75.77295622722096,28.0020332238051,0 75.77294591055389,28.00202786841993,0 75.77293557748784,28.00202023384499,0 75.77291527727353,28.00201123075236,0 75.77290307943147,28.00200111200984,0 75.7728780115449,28.00198381135841,0 75.77285290251852,28.00197034930989,0 75.77284721477429,28.00196848754146,0 75.77283581691444,28.00196479288057,0 75.77283012167992,28.00196293102015,0 75.7728244388296,28.001961040161,0 75.77281877580411,28.00195910581915,0 75.7728075389896,28.00195504875131,0 75.77280198008162,28.00195289705733,0 75.77279647076058,28.00195064394459,0 75.7727910184089,28.00194827587797,0 75.7727856298502,28.00194578845786,0 75.77278031159585,28.0019431823883,0 75.7727750701539,28.00194045842908,0 75.77276991203225,28.00193761733992,0 75.77276484373881,28.0019346598806,0 75.77275987178162,28.00193158681084,0 75.77275500266862,28.00192839889043,0 75.77275024279832,28.00192509692717,0 75.77274559353083,28.00192168394275,0 75.77274104918793,28.00191816605142,0 75.77273660356778,28.00191454959724,0 75.77273225046865,28.00191084092471,0 75.77272798368877,28.00190704637775,0 75.77272379702639,28.00190317230081,0 75.77271968427972,28.00189922503802,0 75.77271563924694,28.00189521093373,0 75.77271165572638,28.00189113633199,0 75.77270772751619,28.00188700757714,0 75.77270384841462,28.00188283101336,0 75.77270001221994,28.00187861298487,0 75.77269621273034,28.00187435983596,0 75.77269244374406,28.00187007791083,0 75.77268869905758,28.00186577355415,0 75.77268497240188,28.00186145313106,0 75.77268125742398,28.00185712303266,0 75.77267754776557,28.0018527896518,0 75.77267383706818,28.00184845938118,0 75.77267011897347,28.0018441386136,0 75.77266638712295,28.00183983374182,0 75.7726626351583,28.00183555115869,0 75.77265885672114,28.00183129725702,0 75.77265504545299,28.00182707842952,0 75.77265119499548,28.00182290106899,0 75.77264729899025,28.00181877156821,0 75.77264335107884,28.00181469632003,0 75.77263934490293,28.00181068171718,0 75.77263527410408,28.00180673415243,0 75.7726311323238,28.00180286001858,0 75.77262691320378,28.00179906570843,0 75.77262261038572,28.00179535761464,0 75.77261821751098,28.00179174213017,0 75.77261372822136,28.0017882256477,0 75.77260913615943,28.00178481455869,0 75.77260443980616,28.00178150923755,0 75.77259965359809,28.00177829021618,0 75.77259479525617,28.0017751339417,0 75.77258988250132,28.00177201686143,0 75.77258493305459,28.00176891542252,0 75.7725799646369,28.0017658060723,0 75.77257499496915,28.00176266525785,0 75.77257004177238,28.00175946942653,0 75.77256512392029,28.00175619589381,0 75.77256027037025,28.00175282957003,0 75.77255551529312,28.00174935929224,0 75.77255089290345,28.00174577393056,0 75.77254643741576,28.00174206235495,0 75.77254218304473,28.00173821343545,0 75.7725381640048,28.00173421604211,0 75.7725344145106,28.00173005904497,0 75.77253096877666,28.00172573131411,0 75.77252784997437,28.00172122639843,0 75.77252502224219,28.00171656285868,0 75.77252243007392,28.0017117675789,0 75.77252001795021,28.00170686744868,0 75.77251773035162,28.00170188935778,0 75.77251551175875,28.00169686019565,0 75.77251330665217,28.00169180685195,0 75.77251105951247,28.00168675621636,0 75.77250871482026,28.00168173517846,0 75.77250621705623,28.00167677062781,0 75.77250351075701,28.00167188944143,0 75.77250055763785,28.00166711462505,0 75.77249736073755,28.00166245987199,0 75.77249392918219,28.00165793750379,0 75.7724902720978,28.00165355984187,0 75.77248639861043,28.00164933920791,0 75.77248231784614,28.0016452879234,0 75.77247803893096,28.00164141830981,0 75.77246410454035,28.00163102271011,0 75.77245399933072,28.00162519235415,0 75.77244338331705,28.00162011009554,0 75.77243240200001,28.00161555774201,0 75.77242681983087,28.00161341205422,0 75.77241556342783,28.00160924520539,0 75.77240430554195,28.00160506246596,0 75.77239871647231,28.00160290487153,0 75.77239315704355,28.00160070015748,0 75.77238211148129,28.00159617956426,0 75.77237661753419,28.00159387878194,0 75.77237113760064,28.00159156107371,0 75.7723656677739,28.00158923398811,0 75.77236020414711,28.00158690507345,0 75.77235474281348,28.00158458187825,0 75.77234927986615,28.00158227195084,0 75.7723438113983,28.0015799828397,0 75.77233833350317,28.00157772209327,0 75.7723328422739,28.00157549725999,0 75.77232733380362,28.00157331588827,0 75.77232180418561,28.00157118552654,0 75.77231624951297,28.00156911372326,0 75.77231066587886,28.00156710802677,0 75.77230504937971,28.00156517597877,0 75.77229939775894,28.00156332166206,0 75.77229371308452,28.00156154007854,0 75.77228799812558,28.00155982475742,0 75.77228225565101,28.00155816922807,0 75.77227648842995,28.0015565670199,0 75.77227069923147,28.00155501166213,0 75.77226489082454,28.00155349668427,0 75.77225906597839,28.00155201561552,0 75.77225322746196,28.00155056198535,0 75.77224737804433,28.00154912932312,0 75.7722415204946,28.00154771115801,0 75.77223565758185,28.00154630101953,0 75.77222979207512,28.00154489243696,0 75.77222392674346,28.00154347893968,0 75.77221806435601,28.00154205405703,0 75.77221220765544,28.00154061141338,0 75.77220635898378,28.00153914607905,0 75.77220052037119,28.00153765424999,0 75.77219469383941,28.00153613215182,0 75.77218888141034,28.00153457601017,0 75.77218308510584,28.00153298205056,0 75.77217730694775,28.00153134649883,0 75.77217154895787,28.00152966558046,0 75.77216581315815,28.00152793552112,0 75.77216010157035,28.00152615254644,0 75.77215441621645,28.00152431288198,0 75.77214875911814,28.00152241275348,0 75.77214313229742,28.00152044838649,0 75.772137537776,28.00151841600675,0 75.7721319775759,28.00151631183971,0 75.77212645371857,28.00151413211175,0 75.77212096719505,28.00151187532579,0 75.7721155156444,28.00150954738919,0 75.77211009602566,28.00150715571201,0 75.77210470529762,28.00150470770438,0 75.77209934041925,28.00150221077639,0 75.77209399834938,28.00149967233805,0 75.77208867604702,28.00149709979955,0 75.77208337047104,28.00149450057092,0 75.77207807859971,28.00149188198717,0 75.77207279802377,28.00148924902904,0 75.77206752705358,28.0014866039086,0 75.7720622640408,28.00148394867968,0 75.77205700733708,28.00148128539593,0 75.772051755294,28.00147861611101,0 75.77204650626319,28.0014759428787,0 75.77204323225273,28.00147427387216,0 75.77249335287755,28.00078632115225,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+</Folder>
+</kml>

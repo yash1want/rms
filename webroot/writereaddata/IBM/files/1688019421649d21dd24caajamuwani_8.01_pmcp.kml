@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>jamuwani 8.01 pmcp.kml</name>
+	<open>1</open>
+	<Schema name="jamuwani_pmcp" id="jamuwani_pmcp">
+		<SimpleField type="float" name="AREA"></SimpleField>
+		<SimpleField type="string" name="land use 2022-23"></SimpleField>
+	</Schema>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>ffffff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>ffff00ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin8">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>ffff00ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>ff00aaff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>ffffff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>ff00ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin8">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>ff00ffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>ff00aaff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>8.01</name>
+		<open>1</open>
+		<Placemark>
+			<name>reclamation</name>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#jamuwani_pmcp">
+					<SimpleData name="AREA">745.091729270588189</SimpleData>
+					<SimpleData name="land use 2022-23">reclamation</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.73386092204881,24.1121954351635,0 80.73389530550099,24.1120571512166,0 80.73409810119701,24.1120041409805,0 80.73420433649839,24.1120594468906,0 80.7342864975401,24.1120143427219,0 80.7342261392606,24.1119575312921,0 80.7341105832775,24.1119333433508,0 80.73397165552851,24.1119681545582,0 80.7337882593356,24.1120171829998,0 80.733720104188,24.1119389964716,0 80.7336820554352,24.1121404855253,0 80.7337077470777,24.112191888979,0 80.73386092204881,24.1121954351635,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Plantation</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#jamuwani_pmcp">
+					<SimpleData name="AREA">420.883447496894405</SimpleData>
+					<SimpleData name="land use 2022-23">PLANTATION</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.73360159180631,24.1126448601993,0 80.7336637850089,24.1125967932161,0 80.7337212873239,24.1125070585381,0 80.7337455686736,24.1123884509875,0 80.733745810572,24.1122714965229,0 80.7336817981799,24.1121409549688,0 80.73365818084309,24.1122688414429,0 80.73360159180631,24.1126448601993,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Plantation</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#jamuwani_pmcp">
+					<SimpleData name="AREA">1065.555900082496919</SimpleData>
+					<SimpleData name="land use 2022-23">PLANTATION</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.7363100067906,24.1101564865519,0 80.7364452255615,24.1101567198293,0 80.7364592662241,24.1094282878279,0 80.736443421754,24.1092490440643,0 80.73636069894999,24.1092746448232,0 80.73637343292521,24.1094286940775,0 80.7363100067906,24.1101564865519,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>plantation</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#jamuwani_pmcp">
+					<SimpleData name="AREA">2384.493339700301931</SimpleData>
+					<SimpleData name="land use 2022-23">PLANTATION</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.7359080827748,24.1086614486068,0 80.73585808572329,24.1084845388223,0 80.7358395865752,24.1082771503057,0 80.7351387654696,24.1083025393353,0 80.735096865708,24.1083826226955,0 80.7356331290172,24.1086695419002,0 80.7359080827748,24.1086614486068,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>pit</name>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#jamuwani_pmcp">
+					<SimpleData name="AREA">8446.756055445815946</SimpleData>
+					<SimpleData name="land use 2022-23">pits</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.73454515687629,24.1107969756816,0 80.7343966929442,24.1108046484898,0 80.7343170170941,24.110998369743,0 80.73440054127531,24.1110391104231,0 80.7343745575794,24.1112689177566,0 80.7342761421651,24.1113802322973,0 80.73414046555899,24.1114458442628,0 80.7341499075889,24.1115988561695,0 80.7341212789276,24.1117191785324,0 80.73376866386241,24.1116717089648,0 80.7337195547133,24.1119363554455,0 80.7337886164551,24.1120162454235,0 80.73397179149291,24.1119665850797,0 80.73411051271729,24.1119322729092,0 80.7342262203564,24.1119566977608,0 80.7345110098899,24.1118129044497,0 80.7346564834988,24.1117421057916,0 80.7346648087541,24.1115711033253,0 80.7347037849246,24.11150111484,0 80.7347354954092,24.1114680196699,0 80.7347875302293,24.1114432473379,0 80.7348327610834,24.111429858554,0 80.734877996195,24.1114143978897,0 80.7349333891743,24.1114051704912,0 80.735048676281,24.1113960469377,0 80.7351220880083,24.1112429643208,0 80.7351245975306,24.1111189723219,0 80.7348280586636,24.1109871026146,0 80.7348355627886,24.110927779842,0 80.7349024509719,24.1108676472685,0 80.735025623279,24.1108031021388,0 80.7350180100984,24.1107619247649,0 80.7347452102085,24.1108420156093,0 80.7346811228355,24.110811913315,0 80.73454515687629,24.1107969756816,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>others</name>
+			<styleUrl>#msn_ylw-pushpin4</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#jamuwani_pmcp">
+					<SimpleData name="AREA">1097.489607500074953</SimpleData>
+					<SimpleData name="land use 2022-23">others</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.7363798518185,24.1092563725761,0 80.73616435022809,24.1090581095923,0 80.7360049324962,24.1090973484194,0 80.7358304570544,24.1091358713776,0 80.73583206309451,24.1093187246524,0 80.7360603700083,24.1093156729777,0 80.7363798518185,24.1092563725761,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>others</name>
+			<styleUrl>#msn_ylw-pushpin4</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#jamuwani_pmcp">
+					<SimpleData name="AREA">53.149122493140553</SimpleData>
+					<SimpleData name="land use 2022-23">others</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.7358565418171,24.1089345283731,0 80.7358579004156,24.1089605714069,0 80.7360355411102,24.1089494257464,0 80.73603364840601,24.1089224196988,0 80.7358565418171,24.1089345283731,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>others</name>
+			<styleUrl>#msn_ylw-pushpin4</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#jamuwani_pmcp">
+					<SimpleData name="AREA">147.116579998744868</SimpleData>
+					<SimpleData name="land use 2022-23">others</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.7359267729141,24.1088934680635,0 80.73605996489989,24.1088845705124,0 80.7360516160047,24.1087869612361,0 80.7359184241194,24.1087958587809,0 80.7359267729141,24.1088934680635,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>dump 8.01</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#jamuwani_pmcp">
+					<SimpleData name="AREA">5718.477876363263931</SimpleData>
+					<SimpleData name="land use 2022-23">Dump 8.01</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.7338698279233,24.1078540869064,0 80.73380813111071,24.1080282809659,0 80.73378178002891,24.1083274277714,0 80.73377170149961,24.1083993133763,0 80.7337452869493,24.1085403360447,0 80.73374394674821,24.1085776808146,0 80.7339104861516,24.1085158851816,0 80.73382578199291,24.1087406978176,0 80.7337447461174,24.1088486997922,0 80.7337354782095,24.1089950037719,0 80.7338488725642,24.1089812794626,0 80.73397783792301,24.1089200384676,0 80.7341106008067,24.1088466804925,0 80.73417681374821,24.1086922205113,0 80.73423847228619,24.108420285887,0 80.73434107593761,24.1081701076521,0 80.7343872212208,24.1080332743276,0 80.7344638170743,24.1079732396964,0 80.7344512431274,24.1078938862299,0 80.73445014638629,24.1078432300265,0 80.7338698279233,24.1078540869064,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>dump 8.01</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#jamuwani_pmcp">
+					<SimpleData name="AREA">6487.772490903629659</SimpleData>
+					<SimpleData name="land use 2022-23">Dump 8.01</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.73572413757969,24.1098979030492,0 80.7356063049792,24.1099246181556,0 80.7354425468076,24.1099873998497,0 80.73537755814689,24.1101285126542,0 80.7353557909228,24.1102760554214,0 80.7355109095419,24.110352464339,0 80.73537948784239,24.1104950074754,0 80.7352862933441,24.11069755866509,0 80.7353374398094,24.1107934389903,0 80.7354120409783,24.1108422991243,0 80.7355352150244,24.1108230532212,0 80.7356705026787,24.1107329704809,0 80.7358172584227,24.1106094242789,0 80.7359970003867,24.1104985855594,0 80.7362089451963,24.110342538307,0 80.7362332995931,24.1102388640323,0 80.7362204167528,24.1101052538412,0 80.73615592065769,24.1099847377864,0 80.7359012191847,24.1098957495251,0 80.73572413757969,24.1098979030492,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Plantation</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#jamuwani_pmcp">
+					<SimpleData name="AREA">906.469491821584484</SimpleData>
+					<SimpleData name="land use 2022-23">PLANTATION</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.7342050581897,24.1120596688049,0 80.7342740019009,24.112094988601,0 80.73440326601499,24.1120803694208,0 80.7344510275138,24.1120798305967,0 80.73458721447849,24.1120748327082,0 80.73467652047449,24.1119877468392,0 80.7347658263497,24.1119006609159,0 80.7347726490398,24.1117538954706,0 80.7342050581897,24.1120596688049,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>broken 8.01</name>
+			<styleUrl>#msn_ylw-pushpin8</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#jamuwani_pmcp">
+					<SimpleData name="AREA">295.255207812993433</SimpleData>
+					<SimpleData name="land use 2022-23">2022-23 broken</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.7351245975306,24.1111189723219,0 80.735079103289,24.1110851176509,0 80.73509324276471,24.1110789521188,0 80.735244011501,24.1110816313849,0 80.73527055289949,24.1110400821275,0 80.7351006645746,24.1110049085173,0 80.73508745359401,24.1109810313671,0 80.7348302848456,24.1109874702894,0 80.7350664083847,24.1110930958964,0 80.7351245975306,24.1111189723219,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Mining lease 8.01</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#jamuwani_pmcp">
+					<SimpleData name="AREA">79264.851219932272215</SimpleData>
+					<SimpleData name="land use 2022-23">Jamuwani 8.01 ha lease boundary</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.73381067449191,24.1078258121249,0 80.73380813111071,24.1080282809659,0 80.73378178002891,24.1083274277714,0 80.7337717014577,24.1083993134145,0 80.73374528695869,24.1085403357824,0 80.7337279501773,24.1090234099732,0 80.7337026534686,24.1094486116518,0 80.73388595800991,24.109363136052,0 80.7340325367409,24.1093260886833,0 80.7344181289356,24.1092893054997,0 80.7346984009061,24.1092687463381,0 80.734872889616,24.1098429971275,0 80.7349266219877,24.1101515801818,0 80.7349849197163,24.1107696664244,0 80.7345083447011,24.1107486059101,0 80.73432123273,24.11075016158791,0 80.7343212326996,24.1107501615763,0 80.7342738736866,24.1110359883281,0 80.7341228201138,24.1111598919092,0 80.7341499075889,24.1115988561695,0 80.7341212789276,24.1117191785324,0 80.73376866386241,24.1116717089648,0 80.7337195547133,24.1119363554455,0 80.7336575168333,24.1122674829318,0 80.73359841868511,24.112648344439,0 80.73381589964789,24.1126501893267,0 80.7338091466651,24.112425088572,0 80.7338963170064,24.1120576490692,0 80.7340980501224,24.1120055917929,0 80.73427354652721,24.1120955162651,0 80.7343980480909,24.1120817748412,0 80.7344510275138,24.1120798305967,0 80.73458721447849,24.1120748327082,0 80.73467652047449,24.1119877468392,0 80.7347658263497,24.1119006609159,0 80.7347772153736,24.1116556671401,0 80.7352286033659,24.1115164977015,0 80.7356802708867,24.1114434423194,0 80.7356554263723,24.1109174485537,0 80.7362647730188,24.1108910784682,0 80.7362874625851,24.1108162344181,0 80.7363119572573,24.1104266142296,0 80.7363100067906,24.1101564865519,0 80.7364452255615,24.1101567198293,0 80.7364592662241,24.1094282878279,0 80.7364080777231,24.1088492058737,0 80.73635639096091,24.1086394982046,0 80.7359080827748,24.1086614486068,0 80.73585808572329,24.1084845388223,0 80.7358395865752,24.1082771503057,0 80.7351387654696,24.1083025393353,0 80.735096865708,24.1083826226955,0 80.734916136146,24.1083221924428,0 80.73491617011059,24.1079530554833,0 80.7349136402058,24.107814634722,0 80.7341447255958,24.1078228409098,0 80.73381067449191,24.1078258121249,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Plantation-8.01</name>
+			<styleUrl>#msn_ylw-pushpin7</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#jamuwani_pmcp">
+					<SimpleData name="AREA">297.689436776815910</SimpleData>
+					<SimpleData name="land use 2022-23">2022-23 Plantation</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								80.7357233680623,24.1108344000446,0 80.7357226242066,24.1108481756092,0 80.7359932999946,24.110869662283,0 80.7361071281472,24.1108765860867,0 80.7362563452926,24.1108602826008,0 80.73626748263661,24.1106603233471,0 80.7362255035702,24.1106620324225,0 80.73619994009201,24.1108259238059,0 80.73592082815181,24.1108327261301,0 80.7357233680623,24.1108344000446,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,2565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Khetri Lease KML 26.06.2023.kml</name>
+	<Schema name="ROADS" id="S_ROADS_SD">
+		<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="falseColor17">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor18</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor19</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor18">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[ROADS/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[ROADS/AREA]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor19">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[ROADS/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[ROADS/AREA]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Temporary Places</name>
+		<Document>
+			<name>STP.shp</name>
+			<Schema name="STP" id="S_STP_SD">
+				<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<StyleMap id="falseColor">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor10</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor00</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="falseColor0">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor1</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor01</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor00">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[STP/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[STP/AREA]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ffffff00</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>59ffffff</color>
+					<colorMode>random</colorMode>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor01">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[STP/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[STP/AREA]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ffffff00</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>59ffffff</color>
+					<colorMode>random</colorMode>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor1">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[STP/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[STP/AREA]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ffffff00</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>59ffffff</color>
+					<colorMode>random</colorMode>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor10">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[STP/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[STP/AREA]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ffffff00</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>59ffffff</color>
+					<colorMode>random</colorMode>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>STP</name>
+				<Placemark>
+					<styleUrl>#falseColor</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_STP_SD">
+							<SimpleData name="LAYER">STP</SimpleData>
+							<SimpleData name="AREA">1.501</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81967738427902,28.08244035996553,0 75.81962253324726,28.08250243671027,0 75.81917878624616,28.08295974031985,0 75.81852524179099,28.08364983452419,0 75.81829792301279,28.08389142668809,0 75.81824096155485,28.08383357456168,0 75.81817587899457,28.08376974747393,0 75.81815791752339,28.08369508952149,0 75.81814385837404,28.08364707265374,0 75.81815094298797,28.08358813783572,0 75.81815851017163,28.08349948563891,0 75.81816987408462,28.08336812607403,0 75.81819019376987,28.08318684401378,0 75.81821073052075,28.08296871648083,0 75.81824367417569,28.08274269479015,0 75.81826255505999,28.08250812945259,0 75.81826240034601,28.08250691563257,0 75.81826238477662,28.08248046828835,0 75.81967738427902,28.08244035996553,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>STP -2
+0.30 Hect</description>
+					<styleUrl>#falseColor0</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.82310686620582,28.08768215649504,0 75.82282197162307,28.0879333272532,0 75.82201333955793,28.08743935663601,0 75.82216678298616,28.08728510824405,0 75.82310686620582,28.08768215649504,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>Lease_Boundary.shp</name>
+			<Schema name="Lease_Boundary" id="S_Lease_Boundary_SD">
+				<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<StyleMap id="falseColor2">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor3</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor4</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor3">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[Lease_Boundary/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[Lease_Boundary/AREA]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>33bebebe</color>
+					<colorMode>random</colorMode>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor4">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[Lease_Boundary/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[Lease_Boundary/AREA]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>33bebebe</color>
+					<colorMode>random</colorMode>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>Lease_Boundary</name>
+				<open>1</open>
+				<Placemark>
+					<styleUrl>#falseColor2</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Lease_Boundary_SD">
+							<SimpleData name="LAYER"></SimpleData>
+							<SimpleData name="AREA">395.07</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.80190125242224,28.07928025438368,0 75.8017309881966,28.07911141387798,0 75.80129131109179,28.07863902338286,0 75.80038980961477,28.07762249079424,0 75.79985555555554,28.07706666666667,0 75.80035277777777,28.07681666666669,0 75.79989534638916,28.07567924716558,0 75.79890781081433,28.07384788231698,0 75.79703743618155,28.07099372737694,0 75.79332499999997,28.06578055555556,0 75.79750555555553,28.06364999999998,0 75.80749722222218,28.07249999999998,0 75.81065555555553,28.07088888888885,0 75.81421188861276,28.07399296461711,0 75.81993946550166,28.07985275680435,0 75.82104706909082,28.08098582681033,0 75.82105277777778,28.08099166666669,0 75.81715277777776,28.08511111111109,0 75.81965677747166,28.08619813836986,0 75.82158660457256,28.08702997150611,0 75.82305946313798,28.08765880114755,0 75.82391395907626,28.08804357953825,0 75.82524227483857,28.08861242632002,0 75.82658614229724,28.08919756902071,0 75.82792066126441,28.08976771886341,0 75.83087115423253,28.09102382742189,0 75.83331107574824,28.09205756559863,0 75.83331498340607,28.0920692649255,0 75.83067597870651,28.09689255891927,0 75.8306111111111,28.09701111111109,0 75.82847764435894,28.09626530063655,0 75.82536840917591,28.0952288013836,0 75.82242650577338,28.09429784528887,0 75.82093636014082,28.09382687394586,0 75.82295024622479,28.09157940545627,0 75.82296144274186,28.09156573293364,0 75.82307689856704,28.09142474487465,0 75.81399999999995,28.0884361111111,0 75.81074905947777,28.08609694241532,0 75.80544166666665,28.08256944444444,0 75.80484136450524,28.08286382432087,0 75.80457500000001,28.08299444444443,0 75.80455746603934,28.08296553678572,0 75.8041616124989,28.08235754840376,0 75.80359589998487,28.0813505071969,0 75.80321386072102,28.08081811927319,0 75.80293614445422,28.08042721277154,0 75.802793370803,28.08027029685856,0 75.80245418755943,28.07990134325125,0 75.80190125242224,28.07928025438368,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>GCP_Points.shp</name>
+			<Schema name="GCP_Points" id="S_GCP_Points_SSDD">
+				<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="Easting"><displayName>&lt;b&gt;Easting&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="double" name="Northing"><displayName>&lt;b&gt;Northing&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="double" name="Elevation"><displayName>&lt;b&gt;Elevation&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<Style id="hlightPointStyle">
+				<IconStyle>
+					<color>ffffff00</color>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff00ffff</color>
+				</LabelStyle>
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[GCP_Points/Name]</td></tr>
+  <tr><td><b>Easting</b></td><td>$[GCP_Points/Easting]</td></tr>
+  <tr><td><b>Northing</b></td><td>$[GCP_Points/Northing]</td></tr>
+  <tr><td><b>Elevation</b></td><td>$[GCP_Points/Elevation]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+			</Style>
+			<StyleMap id="msn_placemark_circle">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#sn_placemark_circle</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#sh_placemark_circle_highlight</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="normPointStyle">
+				<IconStyle>
+					<color>ffffff00</color>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff00ffff</color>
+				</LabelStyle>
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[GCP_Points/Name]</td></tr>
+  <tr><td><b>Easting</b></td><td>$[GCP_Points/Easting]</td></tr>
+  <tr><td><b>Northing</b></td><td>$[GCP_Points/Northing]</td></tr>
+  <tr><td><b>Elevation</b></td><td>$[GCP_Points/Elevation]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+			</Style>
+			<StyleMap id="pointStyleMap">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#normPointStyle</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#hlightPointStyle</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="sh_placemark_circle_highlight">
+				<IconStyle>
+					<color>ffffff00</color>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff00ffff</color>
+				</LabelStyle>
+			</Style>
+			<Style id="sn_placemark_circle">
+				<IconStyle>
+					<color>ffffff00</color>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff00ffff</color>
+				</LabelStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>GCP_Points</name>
+				<Placemark>
+					<name>GCP-13</name>
+					<styleUrl>#pointStyleMap</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">GCP-13</SimpleData>
+							<SimpleData name="Easting">580363.367</SimpleData>
+							<SimpleData name="Northing">3.10663e+06</SimpleData>
+							<SimpleData name="Elevation">353.64</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.81795413280234,28.08269363882821,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GCP-20</name>
+					<styleUrl>#pointStyleMap</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">GCP-20</SimpleData>
+							<SimpleData name="Easting">580643.559</SimpleData>
+							<SimpleData name="Northing">3.10625e+06</SimpleData>
+							<SimpleData name="Elevation">359.567</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.82077913219587,28.07917682332932,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GCP-19</name>
+					<styleUrl>#pointStyleMap</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">GCP-19</SimpleData>
+							<SimpleData name="Easting">580062.675</SimpleData>
+							<SimpleData name="Northing">3.10617e+06</SimpleData>
+							<SimpleData name="Elevation">359.951</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.81486236128073,28.07853595712809,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GCP-18</name>
+					<styleUrl>#pointStyleMap</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">GCP-18</SimpleData>
+							<SimpleData name="Easting">579498.444</SimpleData>
+							<SimpleData name="Northing">3.10628e+06</SimpleData>
+							<SimpleData name="Elevation">364.281</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.80912754629225,28.07955046638757,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GCP-14</name>
+					<styleUrl>#pointStyleMap</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">GCP-14</SimpleData>
+							<SimpleData name="Easting">579855.216</SimpleData>
+							<SimpleData name="Northing">3.10668e+06</SimpleData>
+							<SimpleData name="Elevation">356.183</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.81278589122248,28.08317489636312,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GCP-15</name>
+					<styleUrl>#pointStyleMap</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">GCP-15</SimpleData>
+							<SimpleData name="Easting">579312.117</SimpleData>
+							<SimpleData name="Northing">3.10672e+06</SimpleData>
+							<SimpleData name="Elevation">392.497</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.80726108133526,28.08354640689789,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GCP-09</name>
+					<styleUrl>#pointStyleMap</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">GCP-09</SimpleData>
+							<SimpleData name="Easting">579899.755</SimpleData>
+							<SimpleData name="Northing">3.10705e+06</SimpleData>
+							<SimpleData name="Elevation">355.072</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.8132644423229,28.08652450533671,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GCP-06</name>
+					<styleUrl>#pointStyleMap</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">GCP-06</SimpleData>
+							<SimpleData name="Easting">580691.074</SimpleData>
+							<SimpleData name="Northing">3.10766e+06</SimpleData>
+							<SimpleData name="Elevation">351.173</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.82135973611074,28.09192614064891,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GCP-11</name>
+					<styleUrl>#pointStyleMap</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">GCP-11</SimpleData>
+							<SimpleData name="Easting">580803.808</SimpleData>
+							<SimpleData name="Northing">3.10714e+06</SimpleData>
+							<SimpleData name="Elevation">352.972</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.82247138537646,28.08722491450965,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GCP-04</name>
+					<styleUrl>#pointStyleMap</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">GCP-04</SimpleData>
+							<SimpleData name="Easting">581815.062</SimpleData>
+							<SimpleData name="Northing">3.10772e+06</SimpleData>
+							<SimpleData name="Elevation">341.773</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.83280421437269,28.09241577040765,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GCP-03</name>
+					<styleUrl>#pointStyleMap</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">GCP-03</SimpleData>
+							<SimpleData name="Easting">581681.011</SimpleData>
+							<SimpleData name="Northing">3.10815e+06</SimpleData>
+							<SimpleData name="Elevation">345.912</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.83146995956469,28.09633580169178,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GCP-12</name>
+					<styleUrl>#pointStyleMap</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">GCP-12</SimpleData>
+							<SimpleData name="Easting">581465.899</SimpleData>
+							<SimpleData name="Northing">3.10737e+06</SimpleData>
+							<SimpleData name="Elevation">351.285</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.82922606576824,28.08927713338684,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GCP-05</name>
+					<styleUrl>#pointStyleMap</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">GCP-05</SimpleData>
+							<SimpleData name="Easting">581128.695</SimpleData>
+							<SimpleData name="Northing">3.10765e+06</SimpleData>
+							<SimpleData name="Elevation">346.653</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.82581344511397,28.09183580316625,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GCP-02</name>
+					<styleUrl>#pointStyleMap</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">GCP-02</SimpleData>
+							<SimpleData name="Easting">580991.144</SimpleData>
+							<SimpleData name="Northing">3.10803e+06</SimpleData>
+							<SimpleData name="Elevation">348.444</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.82443954632076,28.09526270246742,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GCP-21</name>
+					<styleUrl>#pointStyleMap</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">GCP-21</SimpleData>
+							<SimpleData name="Easting">580172.616</SimpleData>
+							<SimpleData name="Northing">3.10581e+06</SimpleData>
+							<SimpleData name="Elevation">370.787</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.81595639983944,28.07524430389894,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GCP-28</name>
+					<styleUrl>#pointStyleMap</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">GCP-28</SimpleData>
+							<SimpleData name="Easting">579673.171</SimpleData>
+							<SimpleData name="Northing">3.10536e+06</SimpleData>
+							<SimpleData name="Elevation">409.045</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.81084376409956,28.07128544587378,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BM_T-1</name>
+					<styleUrl>#pointStyleMap</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">BM_T-1</SimpleData>
+							<SimpleData name="Easting">579725.293</SimpleData>
+							<SimpleData name="Northing">3.10543e+06</SimpleData>
+							<SimpleData name="Elevation">400.978</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.81137880575197,28.07189894289197,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BM_T</name>
+					<styleUrl>#msn_placemark_circle</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">BM_T</SimpleData>
+							<SimpleData name="Easting">579631.753</SimpleData>
+							<SimpleData name="Northing">3.10553e+06</SimpleData>
+							<SimpleData name="Elevation">383.583</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.81043358269291,28.07279367468663,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BM_Y</name>
+					<styleUrl>#msn_placemark_circle</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">BM_Y</SimpleData>
+							<SimpleData name="Easting">579670.697</SimpleData>
+							<SimpleData name="Northing">3.10547e+06</SimpleData>
+							<SimpleData name="Elevation">384.275</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.81082576507956,28.07224147930333,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GCP-23</name>
+					<styleUrl>#msn_placemark_circle</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">GCP-23</SimpleData>
+							<SimpleData name="Easting">579101.613</SimpleData>
+							<SimpleData name="Northing">3.10557e+06</SimpleData>
+							<SimpleData name="Elevation">378.377</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.80504156547907,28.07321740853028,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GCP-17</name>
+					<styleUrl>#msn_placemark_circle</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">GCP-17</SimpleData>
+							<SimpleData name="Easting">578894.395</SimpleData>
+							<SimpleData name="Northing">3.10603e+06</SimpleData>
+							<SimpleData name="Elevation">377.213</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.80296325876166,28.07732380546229,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GCP-24</name>
+					<styleUrl>#msn_placemark_circle</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">GCP-24</SimpleData>
+							<SimpleData name="Easting">578699.84</SimpleData>
+							<SimpleData name="Northing">3.10564e+06</SimpleData>
+							<SimpleData name="Elevation">374.546</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.80095718133708,28.07381518564425,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GCP-26</name>
+					<styleUrl>#msn_placemark_circle</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">GCP-26</SimpleData>
+							<SimpleData name="Easting">578202.229</SimpleData>
+							<SimpleData name="Northing">3.10498e+06</SimpleData>
+							<SimpleData name="Elevation">379.537</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.79584968076286,28.06793781316235,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GCP-30</name>
+					<styleUrl>#msn_placemark_circle</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">GCP-30</SimpleData>
+							<SimpleData name="Easting">578111.017</SimpleData>
+							<SimpleData name="Northing">3.10458e+06</SimpleData>
+							<SimpleData name="Elevation">380.617</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.79489498426467,28.064339308275,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GCP-27</name>
+					<styleUrl>#msn_placemark_circle</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">GCP-27</SimpleData>
+							<SimpleData name="Easting">578678.637</SimpleData>
+							<SimpleData name="Northing">3.1051e+06</SimpleData>
+							<SimpleData name="Elevation">371.125</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.80070516766273,28.0689288375236,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GCP-29</name>
+					<styleUrl>#msn_placemark_circle</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">GCP-29</SimpleData>
+							<SimpleData name="Easting">578460.496</SimpleData>
+							<SimpleData name="Northing">3.10472e+06</SimpleData>
+							<SimpleData name="Elevation">388.759</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.79845988113054,28.06549746526339,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GCP-22</name>
+					<styleUrl>#msn_placemark_circle</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">GCP-22</SimpleData>
+							<SimpleData name="Easting">579402.868</SimpleData>
+							<SimpleData name="Northing">3.10564e+06</SimpleData>
+							<SimpleData name="Elevation">457.943</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.80811160340959,28.07377682345666,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>KH_P-1</name>
+					<styleUrl>#msn_placemark_circle</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">KH_P-1</SimpleData>
+							<SimpleData name="Easting">580458.066</SimpleData>
+							<SimpleData name="Northing">3.10708e+06</SimpleData>
+							<SimpleData name="Elevation">350.932</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.81894834145878,28.08669759018093,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>KH_P-2</name>
+					<styleUrl>#msn_placemark_circle</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">KH_P-2</SimpleData>
+							<SimpleData name="Easting">579538.372</SimpleData>
+							<SimpleData name="Northing">3.10621e+06</SimpleData>
+							<SimpleData name="Elevation">365.422</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.80952911524338,28.07891046197071,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>KH_P-3</name>
+					<styleUrl>#msn_placemark_circle</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">KH_P-3</SimpleData>
+							<SimpleData name="Easting">578311.2</SimpleData>
+							<SimpleData name="Northing">3.10501e+06</SimpleData>
+							<SimpleData name="Elevation">376.022</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.79696059339518,28.06820546435216,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>H-1</name>
+					<styleUrl>#msn_placemark_circle</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">H-1</SimpleData>
+							<SimpleData name="Easting">578179.121</SimpleData>
+							<SimpleData name="Northing">3.10471e+06</SimpleData>
+							<SimpleData name="Elevation">378.597</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.79559607134399,28.06543273421919,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>H-3</name>
+					<styleUrl>#msn_placemark_circle</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">H-3</SimpleData>
+							<SimpleData name="Easting">578891.716</SimpleData>
+							<SimpleData name="Northing">3.10602e+06</SimpleData>
+							<SimpleData name="Elevation">378.079</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.80293575121986,28.07729119948145,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>H-4</name>
+					<styleUrl>#msn_placemark_circle</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">H-4</SimpleData>
+							<SimpleData name="Easting">579101.758</SimpleData>
+							<SimpleData name="Northing">3.10572e+06</SimpleData>
+							<SimpleData name="Elevation">370.932</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.80505269838119,28.07451271988434,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>H-5</name>
+					<styleUrl>#msn_placemark_circle</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">H-5</SimpleData>
+							<SimpleData name="Easting">579569.546</SimpleData>
+							<SimpleData name="Northing">3.10624e+06</SimpleData>
+							<SimpleData name="Elevation">366.603</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.80984824791706,28.07915846491373,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>H-6</name>
+					<styleUrl>#msn_placemark_circle</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_GCP_Points_SSDD">
+							<SimpleData name="Name">H-6</SimpleData>
+							<SimpleData name="Easting">579469.231</SimpleData>
+							<SimpleData name="Northing">3.10671e+06</SimpleData>
+							<SimpleData name="Elevation">365.322</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.80885972079898,28.08348614570398,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>Pillar_Coordinate.shp</name>
+			<Schema name="Pillar_Coordinate" id="S_Pillar_Coordinate_SSS">
+				<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="X"><displayName>&lt;b&gt;X&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="string" name="Y"><displayName>&lt;b&gt;Y&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<StyleMap id="msn_placemark_circle0">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#sn_placemark_circle0</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#sh_placemark_circle_highlight0</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="sh_placemark_circle_highlight0">
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+					</Icon>
+				</IconStyle>
+			</Style>
+			<Style id="sn_placemark_circle0">
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+				</IconStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>Pillar_Coordinate</name>
+				<Placemark>
+					<name>PB - 2(a)</name>
+					<styleUrl>#msn_placemark_circle0</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Pillar_Coordinate_SSS">
+							<SimpleData name="Name">PB2(a)</SimpleData>
+							<SimpleData name="X">28° 5&apos; 49.240&quot; N</SimpleData>
+							<SimpleData name="Y">75° 49&apos; 50.200&quot; E</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.8306111111111,28.09701111111109,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>PB -1</name>
+					<styleUrl>#msn_placemark_circle0</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Pillar_Coordinate_SSS">
+							<SimpleData name="Name">PB -1</SimpleData>
+							<SimpleData name="X">28° 5&apos; 42.070&quot; N</SimpleData>
+							<SimpleData name="Y">75° 49&apos; 28.420&quot; E</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.82456111111111,28.09501944444442,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>PB 5(C)</name>
+					<styleUrl>#msn_placemark_circle0</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Pillar_Coordinate_SSS">
+							<SimpleData name="Name">PB 5(C)</SimpleData>
+							<SimpleData name="X">28° 5&apos; 37.760&quot; N</SimpleData>
+							<SimpleData name="Y">75° 49&apos; 15.320&quot; E</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.82092222222222,28.09382222222222,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>PB 5(b)</name>
+					<styleUrl>#msn_placemark_circle0</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Pillar_Coordinate_SSS">
+							<SimpleData name="Name">PB 5(b)</SimpleData>
+							<SimpleData name="X">28° 5&apos; 29.140&quot; N</SimpleData>
+							<SimpleData name="Y">75° 49&apos; 23.110&quot; E</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.8230861111111,28.09142777777778,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>PB 5(a)</name>
+					<styleUrl>#msn_placemark_circle0</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Pillar_Coordinate_SSS">
+							<SimpleData name="Name">PB 5(a)</SimpleData>
+							<SimpleData name="X">28° 5&apos; 18.370&quot; N</SimpleData>
+							<SimpleData name="Y">75° 48&apos; 50.400&quot; E</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.81399999999995,28.0884361111111,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MB 14</name>
+					<styleUrl>#msn_placemark_circle0</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Pillar_Coordinate_SSS">
+							<SimpleData name="Name">MB 14</SimpleData>
+							<SimpleData name="X">28° 4&apos; 57.250&quot; N</SimpleData>
+							<SimpleData name="Y">75° 48&apos; 19.590&quot; E</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.80544166666665,28.08256944444444,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MB 15</name>
+					<styleUrl>#msn_placemark_circle0</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Pillar_Coordinate_SSS">
+							<SimpleData name="Name">MB 15</SimpleData>
+							<SimpleData name="X">28° 4&apos; 58.780&quot; N</SimpleData>
+							<SimpleData name="Y">75° 48&apos; 16.470&quot; E</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.80457500000001,28.08299444444443,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MB 16</name>
+					<styleUrl>#msn_placemark_circle0</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Pillar_Coordinate_SSS">
+							<SimpleData name="Name">MB 16</SimpleData>
+							<SimpleData name="X">28° 4&apos; 37.440&quot; N</SimpleData>
+							<SimpleData name="Y">75° 47&apos; 59.480&quot; E</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.79985555555554,28.07706666666667,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MB 17</name>
+					<styleUrl>#msn_placemark_circle0</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Pillar_Coordinate_SSS">
+							<SimpleData name="Name">MB 17</SimpleData>
+							<SimpleData name="X">28° 4&apos; 36.540&quot; N</SimpleData>
+							<SimpleData name="Y">75° 48&apos; 1.270&quot; E</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.80035277777777,28.07681666666669,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MB 18</name>
+					<styleUrl>#msn_placemark_circle0</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Pillar_Coordinate_SSS">
+							<SimpleData name="Name">MB 18</SimpleData>
+							<SimpleData name="X">28° 3&apos; 56.810&quot; N</SimpleData>
+							<SimpleData name="Y">75° 47&apos; 35.970&quot; E</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.79332499999997,28.06578055555556,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MB 19</name>
+					<styleUrl>#msn_placemark_circle0</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Pillar_Coordinate_SSS">
+							<SimpleData name="Name">MB 19</SimpleData>
+							<SimpleData name="X">28° 3&apos; 49.140&quot; N</SimpleData>
+							<SimpleData name="Y">75° 47&apos; 51.020&quot; E</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.79750555555553,28.06364999999998,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MB 7</name>
+					<styleUrl>#msn_placemark_circle0</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Pillar_Coordinate_SSS">
+							<SimpleData name="Name">MB 7</SimpleData>
+							<SimpleData name="X">28° 4&apos; 21.000&quot; N</SimpleData>
+							<SimpleData name="Y">75° 48&apos; 26.990&quot; E</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.80749722222218,28.07249999999998,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MB 12</name>
+					<styleUrl>#msn_placemark_circle0</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Pillar_Coordinate_SSS">
+							<SimpleData name="Name">MB 12</SimpleData>
+							<SimpleData name="X">28° 4&apos; 15.200&quot; N</SimpleData>
+							<SimpleData name="Y">75° 48&apos; 38.360&quot; E</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.81065555555553,28.07088888888885,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MB 11</name>
+					<styleUrl>#msn_placemark_circle0</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Pillar_Coordinate_SSS">
+							<SimpleData name="Name">MB 11</SimpleData>
+							<SimpleData name="X">28° 4&apos; 51.570&quot; N</SimpleData>
+							<SimpleData name="Y">75° 49&apos; 15.790&quot; E</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.82105277777778,28.08099166666669,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>PB 4</name>
+					<styleUrl>#msn_placemark_circle0</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Pillar_Coordinate_SSS">
+							<SimpleData name="Name">PB 4</SimpleData>
+							<SimpleData name="X">28° 5&apos; 6.400&quot; N</SimpleData>
+							<SimpleData name="Y">75° 49&apos; 1.750&quot; E</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.81715277777776,28.08511111111109,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MB 3(a)</name>
+					<styleUrl>#msn_placemark_circle0</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Pillar_Coordinate_SSS">
+							<SimpleData name="Name">MB 3(a)</SimpleData>
+							<SimpleData name="X">28° 5&apos; 31.420&quot; N</SimpleData>
+							<SimpleData name="Y">75° 49&apos; 59.950&quot; E</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>75.83331944444446,28.09206111111108,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>WAST DUMP.shp</name>
+			<Schema name="WAST DUMP" id="S_WAST_DUMP_SD">
+				<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<Style id="falseColor000">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[WAST DUMP/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[WAST DUMP/AREA]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ffff00ff</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>33ffffff</color>
+					<colorMode>random</colorMode>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor100">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[WAST DUMP/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[WAST DUMP/AREA]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ffff00ff</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>33ffffff</color>
+					<colorMode>random</colorMode>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="falseColor5">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor000</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor100</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Folder id="layer 0">
+				<name>WAST DUMP</name>
+				<Placemark>
+					<styleUrl>#falseColor5</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_WAST_DUMP_SD">
+							<SimpleData name="LAYER">WAST DUMP</SimpleData>
+							<SimpleData name="AREA">2.377</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.80706973170776,28.07619523575296,0 75.80703954934422,28.07617616183368,0 75.80700850233046,28.07615831065107,0 75.80697647262662,28.07614186454451,0 75.80694361902118,28.07612662796096,0 75.80691011025841,28.07611239175758,0 75.8068761150825,28.07609894679148,0 75.80684180223805,28.07608608392015,0 75.80680734046962,28.07607359400101,0 75.80677289852215,28.0760612678918,0 75.80673864501394,28.07604889659229,0 75.80670470001256,28.07603632546152,0 75.80667106194835,28.07602353604831,0 75.8066377105099,28.07601053088508,0 75.80660462538593,28.07599731250421,0 75.80657178626511,28.07598388343819,0 75.80653917283604,28.07597024621936,0 75.80650676478747,28.07595640338,0 75.80647454180803,28.07594235745263,0 75.80644248358642,28.07592811096943,0 75.80641056981136,28.07591366646276,0 75.80637878017149,28.07589902646491,0 75.80634709435556,28.07588419350808,0 75.80631549205231,28.07586917012458,0 75.80628395295034,28.07585395884659,0 75.80625245673845,28.07583856220639,0 75.80622098310535,28.07582298273611,0 75.80618951173984,28.07580722296793,0 75.80615802233056,28.07579128543405,0 75.80612649456636,28.07577517266649,0 75.80609490813589,28.07575888719743,0 75.80606324272803,28.07574243155902,0 75.80603147803156,28.07572580828323,0 75.80599959373519,28.07570901990214,0 75.80596756952779,28.07569206894786,0 75.80593538509815,28.07567495795236,0 75.80590302013512,28.07565768944757,0 75.80587045432755,28.07564026596556,0 75.8058376673642,28.07562269003828,0 75.80580463893398,28.07560496419761,0 75.80577134872574,28.07558709097555,0 75.8057377764284,28.07556907290387,0 75.80570390173084,28.0755509125146,0 75.80566970432193,28.07553261233942,0 75.80563516389061,28.07551417491027,0 75.80560026106639,28.0754956024175,0 75.80556524797555,28.075476798497,0 75.80553102243675,28.07545743239587,0 75.80549857618144,28.07543713927161,0 75.80546890094077,28.07541555428234,0 75.80544298844522,28.07539231258697,0 75.80542183042472,28.07536704934503,0 75.80540641860786,28.07533939971612,0 75.80539768756601,28.07530904305487,0 75.80539552357135,28.07527646930009,0 75.80539889414297,28.0752428788055,0 75.80540673569521,28.07520949597624,0 75.80541803423723,28.0751774181261,0 75.80543214451978,28.07514679761078,0 75.80544858743549,28.07511736102165,0 75.80546688467993,28.07508883289351,0 75.80548655794934,28.07506093776131,0 75.80550712895185,28.07503340017034,0 75.80552830866962,28.07500610785821,0 75.80555047754528,28.07497952577268,0 75.80557416396199,28.07495424641575,0 75.80559989626524,28.0749308622539,0 75.80562801284857,28.07490978822838,0 75.80565822058753,28.07489084907873,0 75.80569009528537,28.0748737470475,0 75.80572321274546,28.07485818437767,0 75.80575714877121,28.07484386331237,0 75.8057914947846,28.07483049786179,0 75.805826076323,28.07481797840859,0 75.80586089935673,28.07480633126602,0 75.80589597450984,28.07479558625306,0 75.80593131240636,28.0747857731887,0 75.80596692367043,28.07477692189197,0 75.80600281892619,28.07476906218177,0 75.80603900793007,28.07476222533527,0 75.80607547885694,28.07475647889531,0 75.8061121973585,28.07475192825261,0 75.8061491280303,28.07474868057296,0 75.80618623546819,28.07474684302217,0 75.80622348426812,28.07474652276603,0 75.80626083902608,28.07474782697037,0 75.80629826433841,28.07475086280112,0 75.80633572480154,28.07475573742419,0 75.80637308456789,28.07476260535857,0 75.80640960807683,28.07477190385075,0 75.80644433813798,28.07478417463249,0 75.80647631720613,28.0747999596039,0 75.80650463348989,28.07481975890458,0 75.80652906596697,28.07484344218584,0 75.80654992853509,28.07487039085873,0 75.80656754903511,28.07489997360662,0 75.8065822553073,28.07493155911239,0 75.80659437519161,28.07496451605873,0 75.80660423652775,28.0749982131279,0 75.8066121868402,28.07503205907215,0 75.80661872807656,28.07506577698597,0 75.806624435058,28.07509923830369,0 75.80662988303642,28.07513231533468,0 75.80663564726429,28.07516488038821,0 75.80664230299473,28.07519680577331,0 75.80665042548158,28.07522796379899,0 75.80666058997906,28.07525822677404,0 75.80667336840149,28.0752874677725,0 75.8066890493227,28.07531562479058,0 75.80670742637898,28.07534274923099,0 75.80672824337314,28.07536890391449,0 75.8067512441077,28.07539415166214,0 75.80677617238506,28.07541855529497,0 75.80680277200709,28.07544217763398,0 75.80683078677555,28.0754650815005,0 75.80685996049203,28.07548732971586,0 75.80689003695791,28.07550898510174,0 75.80692075997432,28.07553011047982,0 75.80695187334237,28.07555076867218,0 75.80698312086294,28.07557102250115,0 75.80701424633689,28.07559093478901,0 75.80704502493501,28.07561055634887,0 75.80707552042301,28.07562982750726,0 75.80710595202549,28.07564862907456,0 75.80713654047152,28.07566684128494,0 75.80716750649002,28.07568434437236,0 75.80719907081006,28.07570101857058,0 75.80723145416066,28.07571674411321,0 75.80726487727063,28.07573140123353,0 75.80729956005615,28.07574487081838,0 75.80733541053597,28.0757572846324,0 75.80737155511514,28.07576940314003,0 75.8074069997365,28.07578208370235,0 75.80744075034364,28.07579618368145,0 75.80747181288071,28.0758125604404,0 75.8074991932918,28.07583207134286,0 75.80752216395126,28.07585535398531,0 75.8075413254068,28.0758819504061,0 75.80755769126095,28.07591106192981,0 75.8075722752473,28.07594188977246,0 75.80758609109988,28.07597363514937,0 75.80760015255332,28.07600549927563,0 75.80761547334312,28.07603668336562,0 75.80763306720536,28.07606638863355,0 75.80765394196033,28.07609381979249,0 75.80767855432715,28.07611850755773,0 75.80770636953493,28.07614056915783,0 75.80773674917769,28.07616018312616,0 75.80776905484883,28.07617752799662,0 75.80780264814138,28.07619278230344,0 75.80783690684285,28.07620612417197,0 75.80787155510511,28.07621772296725,0 75.80790664952748,28.07622773964578,0 75.80794226011939,28.07623633482467,0 75.8079784568905,28.07624366912104,0 75.80801530985077,28.07624990315193,0 75.80805286406728,28.07625522392551,0 75.80809071198328,28.07626029735747,0 75.80812805193244,28.07626620636,0 75.80816406908019,28.07627404778039,0 75.8081979485931,28.0762849184669,0 75.80822891479527,28.07629986422753,0 75.80825693886889,28.0763189573401,0 75.80828266227449,28.07634139637193,0 75.80830675025655,28.07636634888651,0 75.80832986805898,28.0763929824467,0 75.80835268092549,28.07642046461504,0 75.80837585409984,28.07644796295353,0 75.80840005282546,28.07647464502372,0 75.80842588360869,28.07649974413032,0 75.80845337330017,28.07652314237702,0 75.80848221856995,28.07654509143335,0 75.80851211225571,28.07656584725857,0 75.80854274719506,28.07658566581209,0 75.80857381622569,28.0766048030538,0 75.80860501218523,28.07662351494359,0 75.80863602791153,28.07664205744181,0 75.80866655624247,28.07666068650902,0 75.80869629001603,28.07667965810599,0 75.80872492207028,28.0766992281939,0 75.8087521452432,28.07671965273392,0 75.80877765237297,28.07674118768766,0 75.80880115282963,28.07676409514791,0 75.80882248311764,28.07678868435686,0 75.80884153872103,28.07681528642993,0 75.8088582154473,28.07684423260246,0 75.80887240910387,28.07687585410992,0 75.80888401549784,28.0769104821874,0 75.80889292237742,28.07694842540213,0 75.80889844554,28.07698838347143,0 75.80889895927933,28.07702640774572,0 75.80889275011246,28.07705830267297,0 75.80887810455705,28.07707987269994,0 75.80885378623786,28.07708776082194,0 75.80882140350077,28.07708360987175,0 75.80878361464501,28.07707090806606,0 75.80874307963445,28.0770531465532,0 75.80870245786683,28.07703381577347,0 75.80866375422265,28.07701557542156,0 75.80862705575863,28.07699865096852,0 75.80859210009099,28.0769828243519,0 75.80855862483686,28.07696787750882,0 75.80852636761357,28.07695359237626,0 75.80849506603916,28.07693975089078,0 75.80846445773183,28.07692613498882,0 75.80843428031038,28.07691252660628,0 75.80840427139391,28.07689870767907,0 75.80837416993967,28.07688446149232,0 75.80834381144187,28.07686966870853,0 75.80831319121268,28.07685437120039,0 75.80828231957538,28.07683862598282,0 75.80825120685343,28.07682249007069,0 75.80821986336998,28.07680602047896,0 75.80818829944826,28.07678927422246,0 75.80815652541146,28.07677230831618,0 75.80812455158255,28.07675517977507,0 75.80809238828458,28.07673794561401,0 75.80806004584041,28.076720662848,0 75.80802753457289,28.07670338849205,0 75.80799486480475,28.07668617956101,0 75.80796204685876,28.07666909306999,0 75.80792909105743,28.07665218603398,0 75.80789600772336,28.07663551546793,0 75.80786280717889,28.07661913838692,0 75.80782949974652,28.07660311180598,0 75.80779609574843,28.07658749274013,0 75.80776260993339,28.07657231733188,0 75.80772907992598,28.0765575138556,0 75.80769555071889,28.07654297584317,0 75.80766206730844,28.07652859680968,0 75.80762867469109,28.07651427027033,0 75.80759541786328,28.07649988974024,0 75.80756234182185,28.07648534873472,0 75.80752949156334,28.07647054076903,0 75.80749691208479,28.07645535935846,0 75.80746464838312,28.07643969801831,0 75.80743274523184,28.0764234507268,0 75.80740122187815,28.07640656429363,0 75.8073700487912,28.07638908648411,0 75.80733919094571,28.07637107643538,0 75.80730861331617,28.07635259328449,0 75.8072782808772,28.0763336961685,0 75.80724815860322,28.07631444422442,0 75.80721821146868,28.07629489658915,0 75.80718840444798,28.07627511239974,0 75.80715870251551,28.07625515079305,0 75.80712907064547,28.07623507090602,0 75.80709947381222,28.07621493187546,0 75.80706973170776,28.07619523575296,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor5</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_WAST_DUMP_SD">
+							<SimpleData name="LAYER">WAST DUMP</SimpleData>
+							<SimpleData name="AREA">12.316</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.80450823813007,28.07504562024262,0 75.8046817274513,28.07517277141621,0 75.80492844478829,28.07533712442996,0 75.80529206426367,28.07550077659614,0 75.80571055810765,28.07570556283623,0 75.80662047992034,28.07611705598179,0 75.80765045860532,28.07661850279178,0 75.80906430386207,28.07729342451921,0 75.80926141428841,28.07735610407875,0 75.80926227101914,28.07754904765666,0 75.80921188120682,28.0777327934104,0 75.80932480529306,28.07794830319422,0 75.80943057195441,28.0780396288953,0 75.80951703327663,28.07816552401263,0 75.80962668175533,28.07857789439451,0 75.80962409401722,28.07887644759012,0 75.80963545975629,28.07894263352853,0 75.80966053304793,28.07907282721316,0 75.80973263510926,28.07920487873388,0 75.81025912258147,28.0796716575954,0 75.81079425268075,28.08004737804711,0 75.81126471638918,28.08037351608744,0 75.81168389143285,28.08056178571046,0 75.81210603226555,28.08100119554398,0 75.8126443012616,28.08162678191044,0 75.81303997716476,28.08166869883378,0 75.81320040967212,28.08168878182101,0 75.81335362508224,28.08203712158397,0 75.81345027426066,28.08220351014281,0 75.81355022292796,28.08231386694674,0 75.81360898980277,28.08252363659872,0 75.81395222327245,28.08274945539235,0 75.81406989778695,28.08287956364108,0 75.81427707925893,28.08300070110054,0 75.81444341699439,28.08309015259639,0 75.81450595967486,28.08315057252677,0 75.8145444983534,28.08321852862832,0 75.81459421418225,28.08329790840179,0 75.81464492805503,28.08339234565037,0 75.81474073929085,28.0834472950353,0 75.81482703008608,28.08348574129075,0 75.81488929632793,28.08355829185343,0 75.81500099505547,28.08361894256037,0 75.81506735093734,28.08372069497606,0 75.81515770678743,28.08379970239747,0 75.81521515013866,28.08385322339678,0 75.81528977689844,28.08394256497012,0 75.81534073082071,28.08400524677099,0 75.81538597786043,28.08405387228472,0 75.81540604837687,28.08411092718673,0 75.815414088352,28.08417552827269,0 75.81525098502632,28.08421681309653,0 75.81490147276975,28.08396073384968,0 75.8147164173932,28.08379349136282,0 75.81418641618887,28.0833839255002,0 75.81374941580607,28.08312041657168,0 75.81305635596796,28.08302134681152,0 75.81275459919739,28.08283287331491,0 75.81247642094399,28.08248717573979,0 75.81248135386571,28.08211454097238,0 75.81252795502128,28.08175593850003,0 75.81236959429974,28.08167821794763,0 75.81202509925153,28.08175891498856,0 75.81160020792497,28.08163907631666,0 75.81141134214208,28.08143918280827,0 75.81143876038099,28.08115060754291,0 75.81120072929791,28.08096847916053,0 75.8110608717174,28.08072460129135,0 75.81075350478658,28.08049918773749,0 75.81044440005468,28.08060162044401,0 75.81019493038092,28.08095694622716,0 75.81004990097628,28.08106451019182,0 75.8098701476174,28.08103752147449,0 75.80976389828494,28.0809805384527,0 75.80966643905681,28.08087227037152,0 75.80954182517401,28.08064616790837,0 75.80938927440471,28.08019782286168,0 75.80923354654757,28.08007750743606,0 75.8090031663461,28.07981908314641,0 75.80881011661734,28.07944327188757,0 75.80832292558586,28.07890427965209,0 75.80808435895717,28.07852617877325,0 75.80769028719342,28.07832262179969,0 75.80754214305971,28.07819591186578,0 75.80744588327541,28.07801090878185,0 75.80733652271348,28.07782307749097,0 75.80721865273927,28.0775910790495,0 75.80705945265227,28.07739974936425,0 75.80689061185164,28.07723468104396,0 75.80675131984307,28.07706945333809,0 75.80670902470253,28.07696624786088,0 75.80661836044455,28.07685915769543,0 75.80629475150134,28.07677496370489,0 75.80613586582341,28.07668951098307,0 75.80605295285511,28.07658911495869,0 75.80596889114936,28.07643352685881,0 75.80595998956453,28.07621833298673,0 75.80570991180207,28.07622625085013,0 75.80561879212671,28.0762208591379,0 75.80551042783561,28.07617576735579,0 75.80537589329634,28.07604525643143,0 75.80528479768417,28.07588004936884,0 75.80523154727852,28.07569586714622,0 75.80516872532924,28.07559671811787,0 75.80504813777742,28.07555766784601,0 75.80496681854235,28.0756559628633,0 75.80480297311449,28.07573517526617,0 75.80459852298674,28.07571028529621,0 75.80435216270145,28.07563347779162,0 75.80423558779133,28.07555436963851,0 75.80416492817317,28.07546139603073,0 75.80450823813007,28.07504562024262,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>EFFLUENT TREATMENT PLANT.shp</name>
+			<Schema name="EFFLUENT TREATMENT PLANT" id="S_EFFLUENT_TREATMENT_PLANT_SD">
+				<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<StyleMap id="falseColor0000">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor20</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor1000</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor1000">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[EFFLUENT TREATMENT PLANT/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[EFFLUENT TREATMENT PLANT/AREA]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ff00aaff</color>
+					<width>3</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>4d0055ff</color>
+					<colorMode>random</colorMode>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor20">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[EFFLUENT TREATMENT PLANT/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[EFFLUENT TREATMENT PLANT/AREA]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ff00aaff</color>
+					<width>3</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>4d0055ff</color>
+					<colorMode>random</colorMode>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>EFFLUENT TREATMENT PLANT</name>
+				<open>1</open>
+				<Placemark>
+					<styleUrl>#falseColor0000</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_EFFLUENT_TREATMENT_PLANT_SD">
+							<SimpleData name="LAYER">EFFLUENT_TREATMENT_PLANT</SimpleData>
+							<SimpleData name="AREA">1.282</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81241956092258,28.07559202340461,0 75.81242973244792,28.07571734096122,0 75.81235301665168,28.07593990277276,0 75.81220367403286,28.07596399432959,0 75.81222331043161,28.07613359104703,0 75.81142435243908,28.07621591368057,0 75.81140684420198,28.07604477288224,0 75.81138977785793,28.07598806735573,0 75.81129951640581,28.07600237815275,0 75.81128009239045,28.07588177784429,0 75.8113724763718,28.07584696656739,0 75.81120432097332,28.07560979368434,0 75.81111559175194,28.0748709049746,0 75.81188694252755,28.07479054699165,0 75.81200174235863,28.07563163345909,0 75.81241956092258,28.07559202340461,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>INFRASTRUCTURE.shp</name>
+			<Schema name="INFRASTRUCTURE" id="S_INFRASTRUCTURE_SD">
+				<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<StyleMap id="falseColor6">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor11</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor02</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor02">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[STP/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[STP/AREA]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ffff0000</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>59ffffff</color>
+					<colorMode>random</colorMode>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor11">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[STP/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[STP/AREA]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ffff0000</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>59ffffff</color>
+					<colorMode>random</colorMode>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="falseColor200">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor40</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor30</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor30">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[INFRASTRUCTURE/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[INFRASTRUCTURE/AREA]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ffff0000</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<colorMode>random</colorMode>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor40">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[INFRASTRUCTURE/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[INFRASTRUCTURE/AREA]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ffff0000</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<colorMode>random</colorMode>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>INFRASTRUCTURE</name>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.017</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.80975780471134,28.07301537462919,0 75.80991939144313,28.07297085382478,0 75.80995037331633,28.07305931957795,0 75.80978596836783,28.07310461686895,0 75.80975780471134,28.07301537462919,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.093</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.80973909541939,28.07292329118248,0 75.80967859980071,28.07293884851039,0 75.80962357862101,28.07277052431265,0 75.80966803789644,28.0727590166292,0 75.80961097820642,28.07258558337828,0 75.80980705394603,28.07253110159899,0 75.80982348932996,28.07258202363046,0 75.80976588143807,28.07259787992618,0 75.80980935251436,28.07272213377055,0 75.80986644097264,28.07270757895388,0 75.80992146268163,28.07287736537261,0 75.80991623915914,28.07287915560677,0 75.80993428630217,28.07293488388148,0 75.80975858060741,28.07298042070219,0 75.80973909541939,28.07292329118248,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.021</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.80991806238995,28.07354412940803,0 75.80991228580206,28.07354556955299,0 75.80987393610673,28.07342455174562,0 75.81000739724347,28.07338765180831,0 75.81002463926991,28.07343822318192,0 75.81008414314849,28.0734234593622,0 75.81009154863004,28.07344360633197,0 75.81004055628021,28.07345835221524,0 75.81005614604338,28.07350737303912,0 75.80991806232799,28.07354412114359,0 75.80991806238995,28.07354412940803,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">4.46</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81488818627348,28.08308219550505,0 75.81478635841202,28.0830598758739,0 75.81465055558596,28.0829892225173,0 75.8144394599736,28.08268992437782,0 75.81377777036694,28.08161718979694,0 75.81367896751408,28.08145700793652,0 75.81373861092612,28.08125699517081,0 75.81528805937766,28.08051008763388,0 75.81650054296652,28.08234554657103,0 75.81488818627348,28.08308219550505,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.035</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81499420178572,28.08278109313613,0 75.81517669446134,28.08269099572352,0 75.81526337668377,28.08282662310808,0 75.81508325061364,28.08291512638347,0 75.81499420178572,28.08278109313613,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.02</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81487362625781,28.08301934928514,0 75.81482615060895,28.08294305746428,0 75.81501127776848,28.08285244071589,0 75.8150587535049,28.08292873247176,0 75.81487432966766,28.08301900497808,0 75.81487362625781,28.08301934928514,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.018</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81492083543725,28.08250304554942,0 75.81496652435958,28.08257791929854,0 75.81479968013518,28.08266272309528,0 75.81475128498181,28.08258776679579,0 75.81492083543725,28.08250304554942,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.007</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81437281525905,28.08252521272003,0 75.8144918652502,28.08246690496829,0 75.81451878473445,28.08251013819936,0 75.81439931596293,28.08256776891081,0 75.81437281525905,28.08252521272003,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.377</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81538417834521,28.08269020735219,0 75.81530978801568,28.08256032330787,0 75.81520473015631,28.08239726597595,0 75.81609717747862,28.08194496880736,0 75.81619888370386,28.08211181588207,0 75.81628053683033,28.08224576579879,0 75.81538417834521,28.08269020735219,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.511</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81427587829272,28.08184491200779,0 75.81547526276542,28.08126273961246,0 75.81566142048386,28.08155042070872,0 75.81448762720164,28.08214944183554,0 75.81427587829272,28.08184491200779,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.133</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81452266778572,28.08127118346647,0 75.81478541617464,28.08113626502493,0 75.81501410245345,28.0814865854022,0 75.81474769389459,28.08161589817233,0 75.81452266778572,28.08127118346647,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.018</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81463844466084,28.08129266056889,0 75.81474577122697,28.08123886983914,0 75.81482064179467,28.08135220220283,0 75.81471224785672,28.08140852963983,0 75.81463844466084,28.08129266056889,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.034</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81464920738944,28.08146502824215,0 75.81456568975858,28.08150422894527,0 75.81450805271872,28.08152965670612,0 75.81441500110203,28.08139746459079,0 75.81447293502777,28.08136672427566,0 75.81444661584345,28.08131736881046,0 75.81452593869527,28.08127619415122,0 75.81464920738944,28.08146502824215,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.021</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.8135678499291,28.08209113131433,0 75.81363815995367,28.08205762709242,0 75.81360463906036,28.08199689248927,0 75.81364833366666,28.08197792282179,0 75.8136713752555,28.08201627989819,0 75.81372927990449,28.08199067727465,0 75.81378117930954,28.08207924492314,0 75.81360580545214,28.08215660478358,0 75.8135678499291,28.08209113131433,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.097</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81102204872917,28.07463173796664,0 75.81098746754954,28.07435004353878,0 75.81123022464628,28.07432659848097,0 75.81123199674806,28.07439639818014,0 75.81128772549756,28.07439528508085,0 75.81131621121578,28.0746001556733,0 75.81115490394124,28.07461796985395,0 75.81118966228441,28.07486318862816,0 75.81115035482412,28.07486534737774,0 75.81111903948272,28.07462348616209,0 75.81102204872917,28.07463173796664,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.125</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81386130051605,28.08012801535234,0 75.81369572510702,28.08021262012157,0 75.81346496366028,28.0798573702419,0 75.81338688924487,28.07972728192894,0 75.81358602051385,28.07962913130599,0 75.81369828496655,28.07980042921756,0 75.81366169054921,28.07981902530656,0 75.81386131791466,28.08012804228476,0 75.81386130051605,28.08012801535234,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.068</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81321847350347,28.07935521960287,0 75.81332790589042,28.07929038188891,0 75.81340073952958,28.07942530330483,0 75.81345297130338,28.07940312336479,0 75.81357748322894,28.07963333929271,0 75.81343490753613,28.07970361404009,0 75.81321847350347,28.07935521960287,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.138</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81393027324638,28.07932473389607,0 75.81365826942111,28.07944963397459,0 75.81360682315147,28.07938461773904,0 75.81399746747584,28.07918654381949,0 75.81440722875595,28.07982224876825,0 75.81428233103905,28.07987922601717,0 75.81393027324638,28.07932473389607,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">1.047</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81494305329029,28.07812876978205,0 75.81493847440198,28.07813007916313,0 75.81492402715442,28.07810847579696,0 75.81496995825215,28.07808431256802,0 75.81496779170533,28.07807604299547,0 75.81524484978732,28.07794444219126,0 75.8150558420475,28.07764987500106,0 75.81498035139545,28.07768751811489,0 75.81491199072737,28.07758119108318,0 75.81499018947193,28.0775394890225,0 75.81493383326358,28.07744456403032,0 75.81499783761556,28.07741279112621,0 75.81500827702818,28.07742933427821,0 75.81505097996457,28.07740813574952,0 75.81504084306492,28.07739207199452,0 75.81520060363107,28.07731276370385,0 75.81521351700016,28.07733345289834,0 75.81533273608473,28.07727305612847,0 75.81530880659058,28.07723101310761,0 75.81538980009664,28.07719533764798,0 75.81536917897547,28.0771585091146,0 75.81557894626849,28.07705437380746,0 75.81562195907073,28.07712930737905,0 75.8159427078463,28.07696901121962,0 75.81592804742927,28.07694217017903,0 75.81593690692692,28.07693289029821,0 75.81595709184022,28.07692047971944,0 75.8159309540431,28.07687443722779,0 75.8159818092539,28.07685172602746,0 75.81600664884412,28.07689333014913,0 75.81601644601716,28.07689327189793,0 75.8160352836835,28.07692581787528,0 75.81605013532605,28.07692046097276,0 75.81622376748015,28.07720010391328,0 75.81634831270856,28.07739845788401,0 75.81628851868626,28.07742964804955,0 75.8163315929031,28.07749851289929,0 75.81624368896478,28.07754176600598,0 75.81628593784077,28.0776093113276,0 75.81609003776141,28.07770570359956,0 75.81605462711332,28.07765132621901,0 75.81597284740671,28.07768948718343,0 75.8160115324813,28.07775470368743,0 75.81591822547769,28.07779784881314,0 75.81588355489532,28.07773928679907,0 75.81579655899748,28.07777980316812,0 75.81582435122624,28.07783184807919,0 75.8157168265747,28.07788616814063,0 75.81568063601311,28.07783199026269,0 75.815641047952,28.07785646890228,0 75.81567038932577,28.07789379768179,0 75.81548121864262,28.07798735379377,0 75.81546413240322,28.0779620621601,0 75.81540650767411,28.07799233206712,0 75.81543297019665,28.07803887998584,0 75.81501692302565,28.07824285553973,0 75.81494305329029,28.07812876978205,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.202</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81436771931774,28.07736412635895,0 75.81428024447166,28.07740998642533,0 75.81418877644235,28.07725554151835,0 75.81426728273142,28.07720635702184,0 75.81396814033596,28.07672712229257,0 75.81414311289036,28.07664098326666,0 75.81460153411346,28.07737170620302,0 75.81442893303152,28.07746129828505,0 75.81436771931774,28.07736412635895,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.167</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81217321597877,28.07801091984488,0 75.81213277817348,28.07801115914582,0 75.81213298472721,28.0780386173363,0 75.81190771127224,28.07803314450367,0 75.8119008581122,28.07791147006675,0 75.81188643770793,28.07791155537571,0 75.81186348352885,28.0779049292431,0 75.81186075927398,28.07782850645441,0 75.81212665122312,28.07781371115822,0 75.81213666601759,28.07788216655113,0 75.81221944928213,28.07788167664662,0 75.81222766088948,28.07787967267347,0 75.81283987732019,28.07810629607775,0 75.81278149001467,28.07823315600575,0 75.81217321597877,28.07801091984488,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.367</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81679057600263,28.0802746371632,0 75.81674187566462,28.08020703714334,0 75.81667148026879,28.08023449993378,0 75.81662682426709,28.08014445750798,0 75.81704089560867,28.07993573788487,0 75.81709624125158,28.08002210773862,0 75.81704220840933,28.08004934402505,0 75.81709025176012,28.08012431818217,0 75.81715955853103,28.08010336655422,0 75.81742733547286,28.08055722402175,0 75.81727400607464,28.08062838547009,0 75.81731786909374,28.08070272903115,0 75.81722058032265,28.08075278347638,0 75.81717713614441,28.08068636098083,0 75.81701513920609,28.08075276898681,0 75.81672656309321,28.08031091316028,0 75.81679057600263,28.0802746371632,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.025</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81211864130184,28.0724566984113,0 75.81220988328126,28.07241364499511,0 75.8122689601441,28.07249851237771,0 75.8122894680846,28.07248969839249,0 75.81230278382331,28.07251407341401,0 75.81228381197405,28.07252308855936,0 75.81232403720932,28.07258968718561,0 75.81223407970408,28.07264218547757,0 75.81211864130184,28.0724566984113,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.023</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.8120541496244,28.07494610177627,0 75.81215414148359,28.07493484333721,0 75.81216102991438,28.07498297328136,0 75.81218169577276,28.07498285099178,0 75.81219011418069,28.0750415693737,0 75.81216765742823,28.07504459244301,0 75.81218019431792,28.07513327515534,0 75.81207796248732,28.07514243397121,0 75.8120541496244,28.07494610177627,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.074</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81186820423308,28.0777877336217,0 75.81187205225957,28.0778139556841,0 75.81179004606933,28.0778234224914,0 75.81175815887657,28.07763624500149,0 75.81176556961499,28.0774297805613,0 75.81187116079656,28.07740533867203,0 75.81190543840758,28.07767189445148,0 75.81205593070081,28.07765830070208,0 75.81205861602812,28.07777737348851,0 75.81186820423308,28.0777877336217,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.025</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81221510782773,28.07758242275575,0 75.81230620264542,28.07759015273493,0 75.8122731584582,28.07785201884236,0 75.81218769174232,28.077844690638,0 75.81221510782773,28.07758242275575,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.016</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81474223915269,28.07815067282299,0 75.81480279825627,28.07811940343875,0 75.81485069583425,28.07820087899397,0 75.81490566018472,28.07817462867269,0 75.81493874935389,28.07823326058354,0 75.81483958917697,28.07828881181096,0 75.81474223915269,28.07815067282299,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.151</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81299640481116,28.07699464159868,0 75.81354922067864,28.07672442519807,0 75.8136715908129,28.07692136616812,0 75.81313048494376,28.07718154080699,0 75.81299640481116,28.07699464159868,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.206</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.8124737204498,28.07644529288297,0 75.81315699324007,28.07612214363537,0 75.81328060801968,28.07633243030768,0 75.81260904795913,28.07666752158804,0 75.8124737204498,28.07644529288297,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.023</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81247655863102,28.07611946483914,0 75.81278359389559,28.07600509983611,0 75.81279907890342,28.07603780423382,0 75.81263488663735,28.07609896295967,0 75.81263745788222,28.07610566571042,0 75.81265306833455,28.07610095478022,0 75.81267502202189,28.07614252891707,0 75.81251188982658,28.07620213891305,0 75.81247655863102,28.07611946483914,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.07</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81312147928413,28.07675834676758,0 75.81310851698527,28.07674303457019,0 75.81305900008108,28.07677601020398,0 75.81302002895823,28.07671605090589,0 75.81307587908935,28.07668749432051,0 75.81303720523132,28.07662799234848,0 75.81337906430973,28.07645319648906,0 75.81346138769236,28.07659188400101,0 75.81312147928413,28.07675834676758,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.052</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81213112580967,28.0769584500536,0 75.81236213301895,28.07683081615919,0 75.81242933706295,28.07691998238583,0 75.8124398079711,28.07691377406845,0 75.81239673626283,28.07684770899396,0 75.8124343223312,28.0768284318998,0 75.8124751367554,28.07690196539189,0 75.81249471172117,28.07695668433371,0 75.81224100635109,28.07707710270191,0 75.81221202206036,28.07704040504843,0 75.81219701613759,28.07704473607977,0 75.81213112580967,28.0769584500536,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.027</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81189930008001,28.07706197122631,0 75.81196651809849,28.07708151289456,0 75.81204288426879,28.07711939692827,0 75.81224458901842,28.07715294431502,0 75.81222521132204,28.07724459873639,0 75.81213475163003,28.07722735933424,0 75.81213461347183,28.07720899271038,0 75.81201854011594,28.0771856835314,0 75.81198673046235,28.0771592096412,0 75.81195890213115,28.07712826795166,0 75.81189501888609,28.07710723793378,0 75.81189930008001,28.07706197122631,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.018</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81189568171105,28.07720791096773,0 75.81180006954823,28.0771510957496,0 75.81180805519101,28.07713986688368,0 75.81169691824796,28.07708041047688,0 75.81171711209169,28.07705003493196,0 75.81169099318237,28.07703420391675,0 75.81172322592376,28.0770015960977,0 75.81185324948555,28.07707684411839,0 75.81183340748923,28.07711166183886,0 75.81187969482528,28.07714180047181,0 75.81187312183717,28.07715167922503,0 75.81191835322196,28.07717535436479,0 75.81189568171105,28.07720791096773,0 75.81189568171105,28.07720791096773,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.052</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81187441786984,28.07686214791774,0 75.81229056776982,28.07665182308662,0 75.81231508586869,28.07669227215116,0 75.81225515407185,28.07672085012199,0 75.81228763565387,28.07677443704333,0 75.81194432339058,28.07695824113999,0 75.81187441786984,28.07686214791774,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.679</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81062032006388,28.07984962404298,0 75.81039153844256,28.07965981924534,0 75.81026150064847,28.07954647243956,0 75.81007338945336,28.07934655226251,0 75.80971242090435,28.0789016345476,0 75.809714918547,28.0787588165588,0 75.81002627056348,28.07860795517741,0 75.81014714839371,28.07875648150413,0 75.81028116287827,28.07880271957986,0 75.810427589959,28.07885281248404,0 75.81049476664765,28.07894719652626,0 75.81052072604233,28.07916263261631,0 75.81052210917618,28.07934685536453,0 75.8106605231079,28.0794878773023,0 75.81094073798204,28.07980369824197,0 75.81075774670994,28.07995869082678,0 75.81062032006388,28.07984962404298,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.007</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81015785495116,28.07892049268936,0 75.8102343511642,28.07893101907449,0 75.81024041784455,28.07895401937028,0 75.8102886085545,28.07895715416326,0 75.81030837595789,28.0789921874449,0 75.81025715852964,28.07899194992985,0 75.8102347413891,28.07898380371986,0 75.81014656595902,28.07896356901207,0 75.81015785495116,28.07892049268936,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">0.913</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81473864359344,28.07717037501978,0 75.81469745131197,28.07711949281477,0 75.81480315600949,28.07705787055843,0 75.81468504198293,28.07688162912478,0 75.81492379110452,28.07676754553205,0 75.81473293997686,28.07647271570282,0 75.81486014504434,28.07640793813427,0 75.81489756484656,28.07646379009617,0 75.81503767810919,28.07639984260598,0 75.81510529233373,28.07648320567683,0 75.81512902946787,28.07647549914322,0 75.81522240179194,28.07661917700635,0 75.81627561677288,28.07610443487179,0 75.8165568776496,28.07639219343269,0 75.81650244469445,28.0764168455382,0 75.8165138959709,28.076435022474,0 75.81491439994187,28.07722325113271,0 75.81485526418913,28.07711855591969,0 75.81473864359344,28.07717037501978,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">3.299</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.80997312198787,28.08407070439803,0 75.81008127392164,28.08386154304155,0 75.81035123317267,28.08394714957605,0 75.81048712141772,28.08382628838036,0 75.8105357480363,28.0838500128926,0 75.81059912789387,28.08375106403861,0 75.81074705187301,28.08382706413898,0 75.81084269773088,28.08374321682245,0 75.81109986829361,28.08389865999858,0 75.81128132799023,28.08380602552213,0 75.81176938570135,28.08425045097437,0 75.81166523036173,28.08444636067008,0 75.81169007452054,28.08449682248676,0 75.8119311473526,28.08483423457939,0 75.81203425459266,28.08510749691367,0 75.81206182390514,28.08537781649535,0 75.81163975457105,28.08585585130855,0 75.81141628131743,28.08598739295222,0 75.81117400565709,28.0858493028131,0 75.81112541678573,28.08577777873008,0 75.81071398808194,28.08595282942846,0 75.81025671856669,28.08530847759225,0 75.81077047916624,28.08493673655686,0 75.81039446027273,28.0845799117404,0 75.81003917255892,28.08470725722464,0 75.8098820469253,28.08446680362097,0 75.81023986444735,28.08422693474125,0 75.80997312198787,28.08407070439803,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">1.924</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.82228304871352,28.09417986126028,0 75.82208459365468,28.09417836510896,0 75.82208233093787,28.09416194964049,0 75.82206993887002,28.09384481728092,0 75.82206559634687,28.09364895873078,0 75.82235251317502,28.09268091428898,0 75.82240873300812,28.0925802790364,0 75.8224234499055,28.09254796463957,0 75.82285704092951,28.09259654748315,0 75.82335555531108,28.09293603863307,0 75.82330511574928,28.09418328549462,0 75.82297199489069,28.0941746039359,0 75.82263080513589,28.09418441122485,0 75.82256374711383,28.09417407125732,0 75.82228304871352,28.09417986126028,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor200</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_INFRASTRUCTURE_SD">
+							<SimpleData name="LAYER">INFRASTRCUTRE</SimpleData>
+							<SimpleData name="AREA">2.429</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81958322404201,28.07997737590942,0 75.81948561452509,28.08001549388824,0 75.81717474700639,28.07901040816331,0 75.81704661106933,28.07886108882701,0 75.81818094798034,28.07807104734038,0 75.81983081058276,28.07976662160194,0 75.81958322404201,28.07997737590942,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>[no Name]</name>
+					<styleUrl>#falseColor6</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81971901944598,28.08238943480664,0 75.81846928307621,28.08240722805062,0 75.81853770194513,28.08180245936276,0 75.82028491233898,28.08178487311506,0 75.81971901944598,28.08238943480664,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>MINERAL SEPRATION.shp</name>
+			<Schema name="MINERAL SEPRATION" id="S_MINERAL_SEPRATION_SD">
+				<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<StyleMap id="falseColor50">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor7</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor60</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor60">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[MINERAL SEPRATION/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[MINERAL SEPRATION/AREA]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ff8000ff</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<colorMode>random</colorMode>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor7">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[MINERAL SEPRATION/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[MINERAL SEPRATION/AREA]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ff8000ff</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<colorMode>random</colorMode>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>MINERAL SEPRATION</name>
+				<open>1</open>
+				<Placemark>
+					<styleUrl>#falseColor50</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_MINERAL_SEPRATION_SD">
+							<SimpleData name="LAYER">MINERAL_SEPRATION</SimpleData>
+							<SimpleData name="AREA">2.003</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81216679303024,28.0734156046894,0 75.81188447154933,28.07297588833528,0 75.81209821579272,28.07286047864803,0 75.81221517840196,28.073000572431,0 75.81241068659183,28.07331143353546,0 75.81295020594618,28.0731332009606,0 75.81313263165281,28.07334059727129,0 75.8139241548551,28.0741052598768,0 75.81310668788035,28.07452874390832,0 75.81276009525436,28.07465563304892,0 75.81259020680477,28.07465544784399,0 75.81219771959552,28.07402497558051,0 75.81196240366697,28.07363849501892,0 75.81216679303024,28.0734156046894,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>MINERAL STORAGE.shp</name>
+			<Schema name="MINERAL STORAGE" id="S_MINERAL_STORAGE_SD">
+				<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<Style id="falseColor10000">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[MINERAL STORAGE/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[MINERAL STORAGE/AREA]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>40ffffff</color>
+					<colorMode>random</colorMode>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="falseColor8">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor9</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor10000</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor9">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[MINERAL STORAGE/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[MINERAL STORAGE/AREA]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>40ffffff</color>
+					<colorMode>random</colorMode>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>MINERAL STORAGE</name>
+				<open>1</open>
+				<Placemark>
+					<styleUrl>#falseColor8</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_MINERAL_STORAGE_SD">
+							<SimpleData name="LAYER">MINERAL_STORAGE</SimpleData>
+							<SimpleData name="AREA">1.202</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81191287227658,28.0729091737288,0 75.81188240888717,28.07294680013227,0 75.81171541807431,28.07307598787101,0 75.81158477220599,28.07319571320746,0 75.81120512254448,28.07344397238104,0 75.81089465790944,28.07342738798059,0 75.81075015779813,28.07340410983374,0 75.81070056286428,28.07326948085193,0 75.8107182135052,28.07313210833046,0 75.81078233183264,28.07301013489478,0 75.81069557222023,28.07290272916372,0 75.81063822774998,28.07277068002049,0 75.81063145256648,28.07265986463215,0 75.8107082062572,28.07241552334111,0 75.81082763506744,28.07231675660132,0 75.81095343814604,28.07225241090835,0 75.81114778189745,28.0722535915714,0 75.81129859708483,28.07228471376314,0 75.81142541889572,28.07234942009315,0 75.81164676370868,28.07250047431388,0 75.81186737776051,28.07269217787891,0 75.81191978893203,28.07278393078546,0 75.81196368671344,28.07289763223156,0 75.81191287227658,28.0729091737288,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>MINING OPENING AREA.shp</name>
+			<Schema name="MINING OPENING AREA" id="S_MINING_OPENING_AREA_SD">
+				<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<Style id="falseColor110">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[MINING OPENING AREA/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[MINING OPENING AREA/AREA]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<colorMode>random</colorMode>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="falseColor12">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor110</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor13</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor13">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[MINING OPENING AREA/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[MINING OPENING AREA/AREA]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<colorMode>random</colorMode>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>MINING OPENING AREA</name>
+				<Placemark>
+					<styleUrl>#falseColor12</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_MINING_OPENING_AREA_SD">
+							<SimpleData name="LAYER">MINING_OPENING_AREA</SimpleData>
+							<SimpleData name="AREA">0.016</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81143584398887,28.07646444985813,0 75.81154567134976,28.07645058984156,0 75.81155089399819,28.0764761250629,0 75.81160385117431,28.07646423792634,0 75.81161159042611,28.07646215347181,0 75.8116238807948,28.07652577921772,0 75.81161692949598,28.07652635369399,0 75.81156237614974,28.07653192513338,0 75.81156647735196,28.0765502742757,0 75.81145786695488,28.07656573425209,0 75.81143584398887,28.07646444985813,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#falseColor12</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_MINING_OPENING_AREA_SD">
+							<SimpleData name="LAYER">MINING_OPENING_AREA</SimpleData>
+							<SimpleData name="AREA">0.016</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81027459307248,28.07886006440902,0 75.81028025970225,28.07885556799526,0 75.81031910435195,28.07890038850932,0 75.81023202377496,28.07896020084709,0 75.81019809441875,28.07905091996015,0 75.81009823703228,28.07893500839388,0 75.81010294835221,28.07893499403876,0 75.81019493540826,28.07892327190086,0 75.81027459307248,28.07886006440902,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Folder id="layer 0">
+			<name>ROADS</name>
+			<Placemark>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_ROADS_SD">
+						<SimpleData name="LAYER">ROAD</SimpleData>
+						<SimpleData name="AREA">3.58</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								75.79690742132583,28.06883498779565,0 75.79693733374661,28.06881636093652,0 75.79697701131217,28.06886807292393,0 75.79702524737955,28.06893101216263,0 75.7971365025242,28.06907628311798,0 75.79721811654558,28.06917251759213,0 75.797288843098,28.06925514621475,0 75.79736958396983,28.06934136607968,0 75.79739354130631,28.06936876366708,0 75.79744723064432,28.06941855598435,0 75.79752248929019,28.06944477037117,0 75.79777681399325,28.06951740035116,0 75.79798822040982,28.06964056860967,0 75.79836394901749,28.06993124081885,0 75.79863009434047,28.07013895702025,0 75.79888702514167,28.07030852861122,0 75.79911805952133,28.07047825046975,0 75.79936965909438,28.07067180149619,0 75.79964784902356,28.07088425885226,0 75.79989718058964,28.07106763133586,0 75.80040092280369,28.07145496071451,0 75.80131217097194,28.07217582109765,0 75.8014421900542,28.0723200397984,0 75.80156740525689,28.07248597633854,0 75.80169895052605,28.07268804414135,0 75.80176134704867,28.07285385862322,0 75.80183425363276,28.07309927980871,0 75.80189469697417,28.07329883017131,0 75.80198681728811,28.07353436376518,0 75.80208244744431,28.07379724741718,0 75.80215385680089,28.07391511038013,0 75.8021829456417,28.07397359175128,0 75.80230640097962,28.07405058323035,0 75.80234202129232,28.07404013109008,0 75.80245595948053,28.07400669790218,0 75.80267880561227,28.07389574487513,0 75.80286223645999,28.07379286580483,0 75.80294295721798,28.07376728924764,0 75.80301394442749,28.07375416615251,0 75.80311155873665,28.07376483653145,0 75.8031768554964,28.07380160031514,0 75.80342351448739,28.07399566126749,0 75.80360278586834,28.07416812206158,0 75.80377558479027,28.07433412544702,0 75.803905358508,28.0744680033041,0 75.80417757162485,28.07469689478119,0 75.80418576454279,28.07470278789115,0 75.80431567772381,28.07481204378332,0 75.80446862029693,28.07492649508424,0 75.8044894172594,28.07491000532,0 75.80461675370854,28.07481847716803,0 75.80485776994864,28.07462215116146,0 75.80490929123839,28.07458876268155,0 75.80498327927589,28.07454081450932,0 75.80501668658668,28.07457752490345,0 75.80494580362407,28.07463022460537,0 75.80487060135845,28.07468291689901,0 75.80484480290552,28.07470099319044,0 75.80470703595523,28.07480726790743,0 75.8045648859806,28.07493225760134,0 75.80459692311614,28.07500098184619,0 75.8047645003155,28.07517556463874,0 75.80516467311639,28.07538996430468,0 75.80579519261909,28.07567020301148,0 75.80635638923378,28.07594716018152,0 75.8071538822096,28.0763196128013,0 75.8078902807826,28.07669675515905,0 75.80874525931473,28.07710038492102,0 75.80896671498226,28.07718892378886,0 75.80929000619373,28.07731165179338,0 75.80941074218978,28.07731875995747,0 75.80953689330029,28.0773131282939,0 75.80962400025847,28.07729676668096,0 75.80983948639675,28.07722561274777,0 75.80983948639675,28.07722561274777,0 75.8101428904307,28.07714337377961,0 75.81050089654121,28.07704546290888,0 75.81078575364008,28.07696655617669,0 75.81105131671153,28.07688678535783,0 75.81114605080906,28.07688036035925,0 75.81126397189611,28.07691069524609,0 75.81186711615118,28.0771994494508,0 75.81235993255474,28.07743689462145,0 75.81263873235794,28.07752060412973,0 75.81268282408094,28.07749345004119,0 75.81254720992511,28.07700054412551,0 75.81242089594279,28.07677391677974,0 75.8124719248987,28.07673464150415,0 75.81270276572707,28.07722049054563,0 75.81277120890859,28.07755139369003,0 75.8131727859399,28.07767983959167,0 75.8136584545954,28.07784691944674,0 75.81408486751485,28.07797831106217,0 75.81436216103863,28.07806562031483,0 75.81436524484728,28.07804214608204,0 75.81436411784607,28.07789273862703,0 75.81340006929564,28.07639134226367,0 75.81316276973564,28.0760460714626,0 75.81265079675515,28.0752111000924,0 75.81231681750417,28.07465440791157,0 75.8118497463732,28.07395347469386,0 75.81159760568802,28.07355869697794,0 75.81142846848043,28.07348175055331,0 75.81106935908041,28.07347736544136,0 75.81115692216879,28.07343138164271,0 75.81156744966052,28.07344844874156,0 75.81163900710496,28.07321415723005,0 75.81166135543175,28.07326599905536,0 75.81166272260613,28.07344788537329,0 75.81274579812036,28.0751889374241,0 75.81370291907038,28.07671245949564,0 75.81433340428701,28.07770912375112,0 75.81557232914595,28.07962789564801,0 75.81608455085193,28.0804265530756,0 75.81635809408164,28.08074323351823,0 75.81677076326413,28.08103960608125,0 75.81745470825466,28.08134734788181,0 75.81772627718333,28.08139770379349,0 75.81793200546177,28.08146793092048,0 75.81851890304051,28.08154239235642,0 75.82002078120367,28.08146845139659,0 75.81937442546202,28.08128392511825,0 75.81883757195577,28.08104027543902,0 75.81846244395059,28.08086063376572,0 75.81832258157391,28.08078350703763,0 75.81796192227273,28.08057777621794,0 75.8183723789485,28.08058182220428,0 75.81868957645827,28.08085277130168,0 75.81911662062291,28.08111007780379,0 75.81967507657286,28.08130162348102,0 75.82026971360348,28.08143448362847,0 75.82056303317927,28.08145222385962,0 75.82049807690606,28.08154963108292,0 75.81963932783701,28.08156745859155,0 75.81937324337926,28.08158934036143,0 75.81866625788041,28.08161132510045,0 75.81823831888325,28.08159094091208,0 75.81797183027955,28.08155954116983,0 75.81771091814748,28.08151034243295,0 75.81715414083523,28.08133095148776,0 75.81654959694596,28.0809887159433,0 75.81654156217715,28.08098256852565,0 75.81653523987582,28.08098733905515,0 75.81652758324253,28.08099311641161,0 75.81647859969787,28.08102347774466,0 75.81641125185297,28.08109743789315,0 75.81637037178096,28.08117790797294,0 75.81636155905586,28.08125987229116,0 75.81636582177903,28.08132169847257,0 75.81630150477747,28.08137745403522,0 75.81624172769951,28.08137090977197,0 75.81602930166245,28.08146245196799,0 75.8141990678958,28.08236964779341,0 75.81439099969761,28.08265269479701,0 75.81448403141621,28.08279840455459,0 75.81462340810201,28.08298205692838,0 75.81477980119125,28.08308664499482,0 75.81485286060585,28.0831572730579,0 75.81483720103353,28.08316792896234,0 75.81480811221745,28.083142024163,0 75.81453388317226,28.08295442252093,0 75.81414960406677,28.08234800706273,0 75.81366285640075,28.08149672372526,0 75.8136045126988,28.08140150431403,0 75.81363446575072,28.08128109171557,0 75.81371130722594,28.08118708995664,0 75.81393572510719,28.08105937470011,0 75.81424512522379,28.08091688732189,0 75.81456821891044,28.08073058284449,0 75.81475369396982,28.08062348285345,0 75.81491390149479,28.08052060954418,0 75.81477382771561,28.08024421224093,0 75.81462049638982,28.08003924045167,0 75.81454343874283,28.07988477527974,0 75.81450192104519,28.07986871416786,0 75.81436881530749,28.0799061960483,0 75.81421080076171,28.07999478713496,0 75.8140299857896,28.08011001251712,0 75.81397243265111,28.08010220012839,0 75.81386103318725,28.07996832368685,0 75.81368423100636,28.07973816685522,0 75.81353727848133,28.07946384793432,0 75.81339783931975,28.07927102197796,0 75.81324535415645,28.07917815734394,0 75.81313238030874,28.07914009585689,0 75.81303020958798,28.07920850213857,0 75.81299211308627,28.07916362016795,0 75.81311222168313,28.07906131583927,0 75.81317666448126,28.07910452542554,0 75.81328819112439,28.07915754568428,0 75.81334059136869,28.079153194082,0 75.81335147807091,28.07915910575851,0 75.81337190233764,28.07909055825723,0 75.81345579732323,28.07888869172838,0 75.8135326785461,28.07885304525616,0 75.81364644585183,28.07859332780182,0 75.81371127263014,28.07842065540796,0 75.81373886669853,28.07831638582975,0 75.81380694232058,28.07813611833865,0 75.81390777293848,28.07809764146229,0 75.81401899405728,28.07811166067568,0 75.81409446363479,28.07814354353663,0 75.81421769670773,28.07816099826145,0 75.81432944173808,28.07816639684116,0 75.81436340537866,28.07813588532057,0 75.81436868990647,28.07812815009607,0 75.81433458131345,28.07812894639897,0 75.81288188266507,28.07764817845571,0 75.8122943741878,28.0774892420763,0 75.81129384493927,28.07697258134538,0 75.8112270507941,28.07695242576465,0 75.81120242860885,28.07694886042555,0 75.81104188616426,28.07692561346052,0 75.81068081804443,28.07705681298608,0 75.81011128471697,28.07720319558257,0 75.80945932328872,28.07737796868895,0 75.80928635527629,28.07741197079556,0 75.80926580219757,28.07736897658417,0 75.80898697267861,28.07724525642286,0 75.80860537382306,28.07711016644561,0 75.80817456878158,28.07690376320979,0 75.80760414897351,28.07660800656373,0 75.80665405381536,28.07614396770708,0 75.80603146972112,28.07583971334173,0 75.80536281353774,28.07552131554133,0 75.8052796135522,28.07549701111414,0 75.80514544849633,28.07543158338454,0 75.80496270764804,28.07534246655191,0 75.80456904332486,28.07509208526209,0 75.80451081399139,28.07504257294692,0 75.80449088876361,28.0750511689065,0 75.80405558958961,28.07557563039346,0 75.80378096173683,28.07601491368972,0 75.80375503159392,28.07621192421154,0 75.80385907282148,28.07685573178239,0 75.80395079104022,28.07717311010753,0 75.80409623892496,28.07737899923428,0 75.80421012732114,28.07734534114892,0 75.80428407160244,28.07727892628931,0 75.80430398509074,28.07728760719598,0 75.80425488709271,28.07735827475831,0 75.80418325932979,28.07740268252233,0 75.80420113711125,28.07747075794099,0 75.80428864912248,28.07756041879678,0 75.80445753288139,28.07758142349847,0 75.80453191729565,28.07757438951656,0 75.80455692752562,28.07760063469662,0 75.8044977884589,28.07765596565072,0 75.80447101887255,28.07772650239801,0 75.80447123191769,28.07775509362614,0 75.80444134999348,28.07775993729749,0 75.80445570903974,28.07767687312348,0 75.80438042443052,28.07762420632647,0 75.80423781147964,28.07758189238636,0 75.8040722630318,28.07747664831199,0 75.80401513185325,28.07734753382616,0 75.80387887124066,28.07715249901194,0 75.80382811708074,28.07687398222235,0 75.8037663032931,28.07661876527354,0 75.8037224556346,28.07630844547716,0 75.80371680891922,28.07605289954834,0 75.8040573415069,28.07551983130843,0 75.80434678427342,28.07516629952067,0 75.80444305727934,28.07501158621246,0 75.80443519789469,28.0749618446627,0 75.80399433550241,28.07459267637612,0 75.80370403978419,28.07432883916892,0 75.803383446135,28.07401871048263,0 75.80315018923501,28.07383537428401,0 75.8031441047895,28.07383059199308,0 75.80312355610842,28.07381444100574,0 75.80301856578107,28.07379513963643,0 75.80287650135409,28.07382584371619,0 75.80263905390935,28.07395235231227,0 75.80232959904949,28.07409735927263,0 75.8021906617754,28.0740450642932,0 75.80208458658085,28.07387972406261,0 75.80187470251137,28.07334987644595,0 75.8017521761595,28.07302356453075,0 75.80170172538898,28.07278487625568,0 75.80157279308487,28.07256656094893,0 75.80128935668964,28.07221637979625,0 75.80114219879216,28.07210851658921,0 75.8008105185861,28.07184962776475,0 75.80054101325378,28.07162001555319,0 75.80034756846362,28.07146423818778,0 75.80030979742929,28.07143081690752,0 75.80012476014112,28.07129252840235,0 75.79986928624088,28.07109704634836,0 75.79961381326251,28.07090156379426,0 75.79940106169842,28.07074542166383,0 75.79925962983388,28.07062038248722,0 75.79925962983388,28.07062038248722,0 75.79862222172547,28.07017421510346,0 75.79801478520518,28.06970999145754,0 75.79791253139972,28.06964097510031,0 75.79788625522269,28.06962323992878,0 75.79776571470636,28.06956675537083,0 75.79762533470449,28.06950989722587,0 75.79742161883588,28.06944995223954,0 75.79733607842161,28.06935473427071,0 75.79726086690887,28.06927512880821,0 75.79718743612115,28.06919149069837,0 75.79710888637059,28.06909284633058,0 75.79699611550687,28.06895100141276,0 75.79694865748816,28.06888908282463,0 75.79690742132583,28.06883498779565,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+					<innerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								75.81365963543462,28.08133030726265,0 75.81365482848474,28.08142368896167,0 75.81378275263913,28.08165264770171,0 75.81388891327452,28.08184556713574,0 75.81395975749869,28.08193799413064,0 75.81417931559292,28.08233022531705,0 75.81561261158161,28.08161893341831,0 75.81597003605803,28.08144071039021,0 75.81616161717557,28.08128713567423,0 75.81624026924543,28.08110006738017,0 75.81626412058037,28.08077029667383,0 75.81625011173465,28.08075957840332,0 75.81594978235113,28.08041371456303,0 75.8156427454182,28.07996009270204,0 75.81535297943827,28.07949997605006,0 75.81500220311101,28.07894265012453,0 75.81476728323126,28.07854309923184,0 75.81448057249503,28.0781255380134,0 75.81439775242383,28.07815588782286,0 75.81433649404154,28.07819464445425,0 75.81419964400756,28.07818535274085,0 75.8140603908908,28.07815991090881,0 75.81392337335433,28.07812839306371,0 75.81381436652872,28.07818359687328,0 75.81375668880044,28.07840294320166,0 75.81369181415702,28.07856700098682,0 75.81363399147594,28.07875930536803,0 75.81357999780205,28.07885459649286,0 75.81350056157002,28.07890154263744,0 75.81343275271813,28.07897872878471,0 75.81340860671769,28.07910213238533,0 75.8133862675911,28.07916288374195,0 75.81339367970466,28.07919232684795,0 75.81349937854453,28.07930283661413,0 75.81356635526011,28.07941761691223,0 75.8136656419033,28.07958474244264,0 75.81379021696324,28.07978000739137,0 75.81392406512708,28.07999542353074,0 75.81398822821832,28.08003949665373,0 75.81405208900638,28.08004315993605,0 75.81430193084408,28.07992043775507,0 75.81447688053765,28.07984261535631,0 75.81454993535796,28.079856325463,0 75.81460771700247,28.07996105715456,0 75.81474142428732,28.08014530761589,0 75.8148754554598,28.08038497008488,0 75.81495150653076,28.08049363316441,0 75.81495883373772,28.08055825066032,0 75.81490213440033,28.08059698047424,0 75.81476368627888,28.08067862776749,0 75.81456779930504,28.08076360163263,0 75.81442262069739,28.08085943326098,0 75.81424993301232,28.08093522267809,0 75.81405689773915,28.08103335942393,0 75.81383654897331,28.0811377194723,0 75.81374129350512,28.08120294536103,0 75.81365963543462,28.08133030726265,0 
+							</coordinates>
+						</LinearRing>
+					</innerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Document>
+			<name>PLANT RELATED ACTIVITIES.shp</name>
+			<Schema name="PLANT RELATED ACTIVITIES" id="S_PLANT_RELATED_ACTIVITIES_SD">
+				<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<StyleMap id="falseColor14">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor16</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor15</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor15">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[PLANT RELATED ACTIVITIES/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[PLANT RELATED ACTIVITIES/AREA]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>3311fff4</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>33ffffff</color>
+					<colorMode>random</colorMode>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor16">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[PLANT RELATED ACTIVITIES/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[PLANT RELATED ACTIVITIES/AREA]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>3311fff4</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>33ffffff</color>
+					<colorMode>random</colorMode>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>PLANT RELATED ACTIVITIES</name>
+				<Placemark>
+					<styleUrl>#falseColor14</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_PLANT_RELATED_ACTIVITIES_SD">
+							<SimpleData name="LAYER">PLANT_RELATED_ACTIVITIES</SimpleData>
+							<SimpleData name="AREA">13.469</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.8181597645564,28.07805989084322,0 75.81702559765564,28.07885417279522,0 75.81713351129899,28.07900868532924,0 75.81821556804107,28.07948061095417,0 75.81758321455003,28.07974807238853,0 75.81743326433485,28.07954820953047,0 75.81600113715746,28.08026211129338,0 75.81561969168496,28.07968336762774,0 75.81498525415617,28.07871364743999,0 75.81492850850192,28.07862482484332,0 75.81490830382103,28.07859732671646,0 75.81476793773727,28.07837162510074,0 75.81644398561151,28.07754924372187,0 75.81636221940524,28.07739728592684,0 75.81600787717151,28.0768332749275,0 75.81431596413972,28.07766627795693,0 75.81424558196932,28.07755408269377,0 75.8146057893938,28.07737009354669,0 75.81413945055965,28.0766309258002,0 75.81395710911107,28.07672213863237,0 75.81425687701301,28.07720143806991,0 75.81410000868141,28.07729264774316,0 75.81246151582717,28.07470935161411,0 75.81258920263386,28.07465842369096,0 75.8127610110671,28.07465766858686,0 75.81310730422804,28.07453271163926,0 75.8141695644089,28.07400668749986,0 75.81620453711237,28.07609500059071,0 75.81554564923407,28.0764438422655,0 75.81540277302696,28.07622751629572,0 75.8150278347983,28.07638943119689,0 75.81479751365806,28.07606055491588,0 75.81455859861971,28.07622976418859,0 75.81487422399539,28.0767683565254,0 75.81465608962166,28.07686587115466,0 75.81476885445856,28.0770326797928,0 75.81466603836645,28.07709390760354,0 75.81473637762919,28.07716771516268,0 75.81487011992495,28.07713599388187,0 75.8149393162459,28.07724320949627,0 75.81654296757678,28.07641794300045,0 75.81746389360434,28.07735284594818,0 75.8174843385532,28.07737956840963,0 75.8181597645564,28.07805989084322,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>ROADS.shp</name>
+			<open>1</open>
+		</Document>
+		<Document>
+			<name>TTD.shp</name>
+			<Schema name="TTD" id="S_TTD_SD">
+				<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<Style id="falseColor23">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[TTD/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[TTD/AREA]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ff00ffaa</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<colorMode>random</colorMode>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="falseColor24">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor25</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor23</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="falseColor25">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>LAYER</b></td><td>$[TTD/LAYER]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[TTD/AREA]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ff00ffaa</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<colorMode>random</colorMode>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Folder id="layer 0">
+				<name>TTD</name>
+				<Placemark>
+					<styleUrl>#falseColor24</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_TTD_SD">
+							<SimpleData name="LAYER">TREE</SimpleData>
+							<SimpleData name="AREA">0.503</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									75.81126966970677,28.07403597912099,0 75.8121304587993,28.07447048701313,0 75.81220789212541,28.07450811910753,0 75.81219708893008,28.07454659457903,0 75.81213811459746,28.07475663059277,0 75.81202303921356,28.07477473318403,0 75.81134436873597,28.07484104057029,0 75.81131974124169,28.07459816253425,0 75.8112931590307,28.07439328465695,0 75.81126600048977,28.0740503610687,0 75.81126966970677,28.07403597912099,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+	</Folder>
+</Document>
+</kml>

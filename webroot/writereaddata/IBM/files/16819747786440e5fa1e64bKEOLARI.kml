@@ -1,0 +1,1519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KEOLARI.kml</name>
+	<Style id="IconStyle10">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ff55</color>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="IconStyle100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#IconStyle10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#IconStyle101</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="PolyStyle20">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="IconStyle101">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ff55</color>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Folder id="GroupLayer0">
+		<name>New Group Layer</name>
+		<open>1</open>
+		<Snippet maxLines="0"></Snippet>
+		<Folder id="FeatureLayer1">
+			<name>pillar</name>
+			<Snippet maxLines="0"></Snippet>
+			<Placemark id="ID_10000">
+				<name>BP-1</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-1</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Style</td>
+
+<td>Standard</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Text</td>
+
+<td>BP-1</td>
+
+</tr>
+
+<tr>
+
+<td>long</td>
+
+<td>80° 3' 5.187" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>lat</td>
+
+<td>23° 22' 54.943" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle100</styleUrl>
+				<Point>
+					<coordinates>80.05144093724856,23.38192872894672,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_10001">
+				<name>BP-2</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-2</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Style</td>
+
+<td>Standard</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Text</td>
+
+<td>BP-2</td>
+
+</tr>
+
+<tr>
+
+<td>long</td>
+
+<td>80° 3' 7.324" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>lat</td>
+
+<td>23° 22' 54.853" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle100</styleUrl>
+				<Point>
+					<coordinates>80.05203448931896,23.38190373758801,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_10002">
+				<name>BP-2/1</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-2/1</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Style</td>
+
+<td>Standard</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Text</td>
+
+<td>BP-2/1</td>
+
+</tr>
+
+<tr>
+
+<td>long</td>
+
+<td>80° 3' 8.931" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>lat</td>
+
+<td>23° 22' 54.188" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle100</styleUrl>
+				<Point>
+					<coordinates>80.05248088860435,23.38171896418254,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_10003">
+				<name>BP-3</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-3</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Style</td>
+
+<td>Standard</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Text</td>
+
+<td>BP-3</td>
+
+</tr>
+
+<tr>
+
+<td>long</td>
+
+<td>80° 3' 10.724" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>lat</td>
+
+<td>23° 22' 53.404" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle100</styleUrl>
+				<Point>
+					<coordinates>80.05297876226908,23.38150121586813,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_10004">
+				<name>BP-4</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-4</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Style</td>
+
+<td>Standard</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Text</td>
+
+<td>BP-4</td>
+
+</tr>
+
+<tr>
+
+<td>long</td>
+
+<td>80° 3' 11.242" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>lat</td>
+
+<td>23° 22' 52.507" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle100</styleUrl>
+				<Point>
+					<coordinates>80.05312275356721,23.38125191410592,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_10005">
+				<name>BP-4/1</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-4/1</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Style</td>
+
+<td>Standard</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Text</td>
+
+<td>BP-4/1</td>
+
+</tr>
+
+<tr>
+
+<td>long</td>
+
+<td>80° 3' 10.907" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>lat</td>
+
+<td>23° 22' 50.536" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle100</styleUrl>
+				<Point>
+					<coordinates>80.05302971450978,23.38070456463044,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_10006">
+				<name>BP-5</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-5</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Style</td>
+
+<td>Standard</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Text</td>
+
+<td>BP-5</td>
+
+</tr>
+
+<tr>
+
+<td>long</td>
+
+<td>80° 3' 10.910" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>lat</td>
+
+<td>23° 22' 48.453" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle100</styleUrl>
+				<Point>
+					<coordinates>80.05303069330363,23.38012577079362,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_10007">
+				<name>BP-5/1</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-5/1</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Style</td>
+
+<td>Standard</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Text</td>
+
+<td>BP-5/1</td>
+
+</tr>
+
+<tr>
+
+<td>long</td>
+
+<td>80° 3' 9.518" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>lat</td>
+
+<td>23° 22' 47.863" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle100</styleUrl>
+				<Point>
+					<coordinates>80.05264394113127,23.37996200851919,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_10008">
+				<name>BP-5/2</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-5/2</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Style</td>
+
+<td>Standard</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Text</td>
+
+<td>BP-5/2</td>
+
+</tr>
+
+<tr>
+
+<td>long</td>
+
+<td>80° 3' 7.779" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>lat</td>
+
+<td>23° 22' 47.605" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle100</styleUrl>
+				<Point>
+					<coordinates>80.05216095000081,23.37989019294582,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_10009">
+				<name>BP-5/3</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-5/3</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Style</td>
+
+<td>Standard</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Text</td>
+
+<td>BP-5/3</td>
+
+</tr>
+
+<tr>
+
+<td>long</td>
+
+<td>80° 3' 6.476" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>lat</td>
+
+<td>23° 22' 47.693" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle100</styleUrl>
+				<Point>
+					<coordinates>80.05179900537215,23.37991483352802,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_10010">
+				<name>BP-6</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-6</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Style</td>
+
+<td>Standard</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Text</td>
+
+<td>BP-6</td>
+
+</tr>
+
+<tr>
+
+<td>long</td>
+
+<td>80° 3' 5.155" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>lat</td>
+
+<td>23° 22' 47.752" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle100</styleUrl>
+				<Point>
+					<coordinates>80.05143184397251,23.37993116275299,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_10011">
+				<name>BP-7</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-7</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Style</td>
+
+<td>Standard</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Text</td>
+
+<td>BP-7</td>
+
+</tr>
+
+<tr>
+
+<td>long</td>
+
+<td>80° 3' 4.355" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>lat</td>
+
+<td>23° 22' 47.269" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle100</styleUrl>
+				<Point>
+					<coordinates>80.05120958420071,23.37979705359949,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_10012">
+				<name>BP-8</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-8</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Style</td>
+
+<td>Standard</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Text</td>
+
+<td>BP-8</td>
+
+</tr>
+
+<tr>
+
+<td>long</td>
+
+<td>80° 3' 3.580" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>lat</td>
+
+<td>23° 22' 47.842" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle100</styleUrl>
+				<Point>
+					<coordinates>80.05099432038769,23.37995609091543,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_10013">
+				<name>BP-9</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-9</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Style</td>
+
+<td>Standard</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Text</td>
+
+<td>BP-9</td>
+
+</tr>
+
+<tr>
+
+<td>long</td>
+
+<td>80° 3' 4.639" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>lat</td>
+
+<td>23° 22' 49.206" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle100</styleUrl>
+				<Point>
+					<coordinates>80.05128850159076,23.38033511457419,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_10014">
+				<name>BP-10</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-10</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Style</td>
+
+<td>Standard</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Text</td>
+
+<td>BP-10</td>
+
+</tr>
+
+<tr>
+
+<td>long</td>
+
+<td>80° 3' 2.767" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>lat</td>
+
+<td>23° 22' 50.537" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle100</styleUrl>
+				<Point>
+					<coordinates>80.05076854414132,23.38070477536481,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_10015">
+				<name>BP-10/1</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-10/1</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Style</td>
+
+<td>Standard</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Text</td>
+
+<td>BP-10/1</td>
+
+</tr>
+
+<tr>
+
+<td>long</td>
+
+<td>80° 3' 3.401" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>lat</td>
+
+<td>23° 22' 52.054" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle100</styleUrl>
+				<Point>
+					<coordinates>80.05094480453056,23.38112604443139,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_10016">
+				<name>BP-10/2</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BP-10/2</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Style</td>
+
+<td>Standard</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Text</td>
+
+<td>BP-10/2</td>
+
+</tr>
+
+<tr>
+
+<td>long</td>
+
+<td>80° 3' 4.135" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>lat</td>
+
+<td>23° 22' 53.611" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle100</styleUrl>
+				<Point>
+					<coordinates>80.05114873286269,23.38155861059861,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder id="FeatureLayer2">
+			<name>lease_boundary</name>
+			<Snippet maxLines="0"></Snippet>
+			<Placemark id="ID_20000">
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>LWPolyline</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>FINAL LEASE</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>100</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>area</td>
+
+<td>4.173</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle20</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									80.05303155369121,23.38048276395935,0 80.05302971482084,23.38070456451547,0 80.05307322934847,23.38104937466835,0 80.05312275334471,23.38125191380622,0 80.05297876257542,23.38150121549328,0 80.05261111456477,23.38166506021618,0 80.05203448955019,23.38190373737751,0 80.05163253622239,23.38191665859997,0 80.05144093687363,23.38192872855078,0 80.05114873297207,23.38155861048876,0 80.05100097318746,23.38126029021216,0 80.05076854381981,23.38070477524823,0 80.05096832384351,23.38064987296634,0 80.05107095848321,23.38056243569258,0 80.05116146841029,23.3804869994041,0 80.05122947834343,23.38038953225512,0 80.05128850172355,23.38033511502481,0 80.05099400425132,23.37995568291905,0 80.05120958378187,23.37979705396375,0 80.05143184428901,23.37993116283648,0 80.05154595648405,23.37995414164593,0 80.05164812918761,23.37994751719795,0 80.05179900556902,23.37991483378027,0 80.05200979578481,23.37989886429106,0 80.05224018000068,23.37988564805728,0 80.05241613786789,23.37989156209928,0 80.05255102865051,23.37992292027577,0 80.05267170207793,23.37997368810131,0 80.05303069361906,23.38012577081826,0 80.05303155369121,23.38048276395935,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

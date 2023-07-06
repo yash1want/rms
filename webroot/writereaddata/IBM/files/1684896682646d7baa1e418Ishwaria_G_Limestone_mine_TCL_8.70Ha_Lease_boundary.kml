@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Ishwaria_TCL_8.7Ha_Lease Boundary.kml</name>
+	<open>1</open>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="Line_ML_BOUNDARY_ff0000_030">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Line_ML_BOUNDARY_ff0000_031</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Line_ML_BOUNDARY_ff0000_03</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="Line_ML_BOUNDARY_ff0000_03">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="Line_ML_BOUNDARY_ff0000_031">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Ishwaria_TCL_8.7Ha_Lease Boundary</name>
+		<Placemark>
+			<LookAt>
+				<longitude>69.94737222000001</longitude>
+				<latitude>21.70890555</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>702</range>
+			</LookAt>
+			<styleUrl>#Line_ML_BOUNDARY_ff0000_030</styleUrl>
+			<LineString>
+				<coordinates>
+					69.95000833,21.7096,0 69.94876389,21.7109,0 69.94557777999999,21.70826111,0 69.94473610999999,21.70801389,0 69.94516944,21.70691111,0 69.94621110999999,21.70736667,0 69.94633889000001,21.70723056,0 69.95000833,21.7096,0 69.95000833,21.7096,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Lease Boundary</name>
+		<LookAt>
+			<longitude>69.94735662921703</longitude>
+			<latitude>21.70890120985688</latitude>
+			<altitude>0</altitude>
+			<heading>-8.588629122279426e-09</heading>
+			<tilt>0</tilt>
+			<range>730.4134708472641</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>69.9487646142524,21.71088714469601,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

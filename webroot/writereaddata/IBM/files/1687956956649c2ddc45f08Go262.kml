@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Go.No.262_KML.kmz</name>
+	<Style id="area1">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf00ffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area11">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf00ffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="line1">
+		<LineStyle>
+			<color>ff4080ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>Area Features</name>
+		<description>Area Features</description>
+		<Placemark>
+			<name>Kallakudi Limestone Mines Go.No.262_Lease_Boundary</name>
+			<description><![CDATA[Unknown Area Type<BR><BR><B>Name</B> = Kallakudi Limestone Mines Go.No.262_Lease_Boundary]]></description>
+			<styleUrl>#area10</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9462668574,10.9770968875,0 78.9461821725,10.9768661258,0 78.94626040049999,10.9766043897,0 78.9456750793,10.9763553051,0 78.945903982,10.9762522817,0 78.94615496110001,10.9763060645,0 78.9464194892,10.9765060818,0 78.9466639892,10.9764829672,0 78.94711802170001,10.9764263656,0 78.94718144629999,10.9764072356,0 78.9472961404,10.9763580509,0 78.9477326642,10.9761435452,0 78.9478179912,10.9769212126,0 78.9471069045,10.9768608937,0 78.9462668574,10.9770968875,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Line Features</name>
+		<description>Line Features</description>
+		<Placemark>
+			<description><![CDATA[MAIN_BOUNDARY<BR><BR><B>ELEVATION</B> = 0.0]]></description>
+			<styleUrl>#line1</styleUrl>
+			<LineString>
+				<coordinates>
+					78.94586772140001,10.9784397833,0 78.9458402395,10.9784493776,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:globalmapper="http://www.bluemarblegeo.com/globalmapper">
+<Document>
+  <!-- Begin Style Definitions -->
+  <Style id="area1">
+    <LineStyle>
+      <color>FF000000</color>
+      <width>1</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>BF000000</color>
+      <fill>0</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="area2">
+    <LineStyle>
+      <color>FF00FFFF</color>
+      <width>2</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>00000000</color>
+      <fill>0</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="area3">
+    <LineStyle>
+      <color>FF00C800</color>
+      <width>5</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>00000000</color>
+      <fill>1</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="point1">
+    <IconStyle><Icon><href>kml_symbol_dot_0.png</href></Icon></IconStyle>
+  </Style>
+  <Folder>
+    <name>Point Features</name>
+    <description>Point Features</description>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.6539449112,30.6022176898,1408.16</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <name>SCP-1</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.6544065386,30.6010307255,1431.894</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <name>SCP-2</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.6573861594,30.6023550737,1338.569</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <name>SCP-3</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.6561062486,30.5998948208,1356.09</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <name>SCP-5</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.6519724071,30.6015902547,1444.403</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <name>SCP-7</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.6534069875,30.5990633117,1524.795</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Area Features</name>
+    <description>Area Features</description>
+    <Placemark>
+      <description>Unknown Area Type</description>
+      <name>final jakra</name>
+      <styleUrl>#area1</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.6560925455,30.6017436824,0
+              77.6552099395,30.6015417510,0
+              77.6548929591,30.6023323172,0
+              77.6540918159,30.6022014722,0
+              77.6539507310,30.6021008829,0
+              77.6538116370,30.6018117632,0
+              77.6534467731,30.6018255694,0
+              77.6532757177,30.6020895162,0
+              77.6523011207,30.6012182503,0
+              77.6524345647,30.6005200080,0
+              77.6524758310,30.5999757383,0
+              77.6527934201,30.5999393126,0
+              77.6527985117,30.5998890397,0
+              77.6516600870,30.5990336318,0
+              77.6517206353,30.5989187700,0
+              77.6525522659,30.5990025344,0
+              77.6526563396,30.5989591211,0
+              77.6527523533,30.5988761833,0
+              77.6531347368,30.5989233472,0
+              77.6533534812,30.5990990095,0
+              77.6533518918,30.5992682954,0
+              77.6533829825,30.5993342265,0
+              77.6533652428,30.5994311267,0
+              77.6534318347,30.5994319563,0
+              77.6534835280,30.5993756798,0
+              77.6535194246,30.5994423065,0
+              77.6536091685,30.5994290436,0
+              77.6536181167,30.5993636068,0
+              77.6537831053,30.5993749109,0
+              77.6538149185,30.5994501060,0
+              77.6539102429,30.5994414589,0
+              77.6539463942,30.5993222920,0
+              77.6541374313,30.5993350065,0
+              77.6542571646,30.5994846519,0
+              77.6542804174,30.5995674305,0
+              77.6544961435,30.5995901875,0
+              77.6545381235,30.5996517397,0
+              77.6546117202,30.5996437737,0
+              77.6548081611,30.5997097552,0
+              77.6550331281,30.5996197544,0
+              77.6551611858,30.5998123242,0
+              77.6553427158,30.5998513737,0
+              77.6553938778,30.6000774320,0
+              77.6552400049,30.6002455665,0
+              77.6552531766,30.6003031927,0
+              77.6549531197,30.6006363607,0
+              77.6549892240,30.6006596855,0
+              77.6552936948,30.6003433748,0
+              77.6553229587,30.6004593348,0
+              77.6554874246,30.6004515280,0
+              77.6559268016,30.6011285089,0
+              77.6558144424,30.6012408866,0
+              77.6559969789,30.6014225501,0
+              77.6560925455,30.6017436824,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>My Places</name>
+    <description>My Places</description>
+    <Placemark>
+      <description>Unknown Area Type</description>
+      <name>final jakra</name>
+      <styleUrl>#area2</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.6560925454,30.6017436825,0
+              77.6552099394,30.6015417510,0
+              77.6548929590,30.6023323173,0
+              77.6540918159,30.6022014722,0
+              77.6539507310,30.6021008830,0
+              77.6538116370,30.6018117632,0
+              77.6534467730,30.6018255695,0
+              77.6532757177,30.6020895163,0
+              77.6523011207,30.6012182503,0
+              77.6524345647,30.6005200080,0
+              77.6524758310,30.5999757383,0
+              77.6527934201,30.5999393126,0
+              77.6527985117,30.5998890397,0
+              77.6516600869,30.5990336318,0
+              77.6517206353,30.5989187700,0
+              77.6525522659,30.5990025344,0
+              77.6526563396,30.5989591211,0
+              77.6527523533,30.5988761834,0
+              77.6531347368,30.5989233473,0
+              77.6533534812,30.5990990096,0
+              77.6533518917,30.5992682954,0
+              77.6533829825,30.5993342266,0
+              77.6533652428,30.5994311267,0
+              77.6534318347,30.5994319564,0
+              77.6534835280,30.5993756798,0
+              77.6535194246,30.5994423066,0
+              77.6536091684,30.5994290436,0
+              77.6536181167,30.5993636069,0
+              77.6537831052,30.5993749109,0
+              77.6538149184,30.5994501061,0
+              77.6539102429,30.5994414589,0
+              77.6539463942,30.5993222921,0
+              77.6541374312,30.5993350066,0
+              77.6542571646,30.5994846519,0
+              77.6542804173,30.5995674306,0
+              77.6544961434,30.5995901876,0
+              77.6545381235,30.5996517397,0
+              77.6546117202,30.5996437738,0
+              77.6548081611,30.5997097552,0
+              77.6550331281,30.5996197544,0
+              77.6551611858,30.5998123243,0
+              77.6553427157,30.5998513738,0
+              77.6553938778,30.6000774320,0
+              77.6552400048,30.6002455666,0
+              77.6552531765,30.6003031928,0
+              77.6549531197,30.6006363608,0
+              77.6549892239,30.6006596855,0
+              77.6552936948,30.6003433748,0
+              77.6553229587,30.6004593349,0
+              77.6554874246,30.6004515280,0
+              77.6559268015,30.6011285089,0
+              77.6558144423,30.6012408866,0
+              77.6559969789,30.6014225501,0
+              77.6560925454,30.6017436825,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <description>Aerial Coverage</description>
+      <name>final jakra</name>
+      <styleUrl>#area3</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.6558782413,30.6026276859,0
+              77.6555834046,30.6033630309,0
+              77.6538312891,30.6030768747,0
+              77.6535003668,30.6035875023,0
+              77.6511866979,30.6015191418,0
+              77.6513974076,30.6004166754,0
+              77.6514250733,30.6000518359,0
+              77.6503880676,30.5992726198,0
+              77.6510869596,30.5979468281,0
+              77.6522203625,30.5980609927,0
+              77.6523840334,30.5979196119,0
+              77.6533766989,30.5980420499,0
+              77.6537162615,30.5976723768,0
+              77.6541241420,30.5984294367,0
+              77.6547123320,30.5984685847,0
+              77.6548854951,30.5986850059,0
+              77.6554612960,30.5984546460,0
+              77.6555812197,30.5986349839,0
+              77.6558574395,30.5983480170,0
+              77.6560401240,30.5990719054,0
+              77.6562384973,30.5991145771,0
+              77.6564649580,30.6001151439,0
+              77.6571946179,30.6012393685,0
+              77.6571945711,30.6012394153,0
+              77.6570192938,30.6012396022,0
+              77.6575459430,30.6030092201,0
+              77.6558782413,30.6026276859,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>

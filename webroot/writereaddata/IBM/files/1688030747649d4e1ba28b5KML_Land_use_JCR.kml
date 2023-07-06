@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KML Land use JCR.kml</name>
+	<Style id="area1">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area10">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area2">
+		<LineStyle>
+			<color>ff007fff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area20">
+		<LineStyle>
+			<color>ff007fff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area21">
+		<LineStyle>
+			<color>ff007fff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area22">
+		<LineStyle>
+			<color>ff007fff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area23">
+		<LineStyle>
+			<color>ff007fff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area24">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area22</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area29</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="area25">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area27</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area23</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="area26">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area21</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area27">
+		<LineStyle>
+			<color>ff007fff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area28">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area210</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area29">
+		<LineStyle>
+			<color>ff007fff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area210">
+		<LineStyle>
+			<color>ff007fff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area3">
+		<LineStyle>
+			<color>ff816000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area30">
+		<LineStyle>
+			<color>ff816000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area31">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area33</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="area32">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area37</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area36</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area33">
+		<LineStyle>
+			<color>ff816000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area34">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area35</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area35">
+		<LineStyle>
+			<color>ff816000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area36">
+		<LineStyle>
+			<color>ff816000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area37">
+		<LineStyle>
+			<color>ff816000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area4">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area40">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area41">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Area Features</name>
+		<open>1</open>
+		<description>Area Features</description>
+		<Placemark>
+			<name>LEASE_BOUNDARY</name>
+			<description>LEASE_BOUNDARY</description>
+			<styleUrl>#area11</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							77.81733899690001,14.814107125,0 77.81927645090001,14.8143800587,0 77.8190488155,14.8152555809,0 77.8198339862,14.8162403713,0 77.8206646854,14.8175069785,0 77.8225820808,14.8176768822,0 77.82284596060001,14.8184597706,0 77.8215553232,14.820310362,0 77.8204775601,14.8223693945,0 77.81984695209999,14.8219947466,0 77.8191552282,14.8218688767,0 77.8193294009,14.8215391952,0 77.8188894757,14.8213352562,0 77.8178915583,14.8212306103,0 77.81819593980001,14.8202587267,0 77.8172733793,14.8201441946,0 77.8164874607,14.8195830516,0 77.8164253863,14.8183727805,0 77.8168998022,14.815688381,0 77.8170329384,14.8149350244,0 77.8169229152,14.8148697344,0 77.81733899690001,14.814107125,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SAFETY_ZONE</name>
+			<description>SAFETY_ZONE</description>
+			<styleUrl>#area41</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							77.8173775187,14.8141809916,0 77.8191900066,14.814436321,0 77.81897299160001,14.8152709938,0 77.81977701149999,14.8162794259,0 77.8206243594,14.8175714184,0 77.8225301834,14.817740297,0 77.8227691485,14.818449268,0 77.821495258,14.8202758456,0 77.8204496494,14.8222734474,0 77.8198723256,14.8219304559,0 77.8192598573,14.8218190079,0 77.8194241242,14.8215080761,0 77.818908725,14.8212691493,0 77.8179826871,14.8211720411,0 77.8182865858,14.8202016974,0 77.8173000572,14.8200792241,0 77.81655534950001,14.8195475056,0 77.8164953081,14.8183768808,0 77.8169684194,14.8156998579,0 77.8171095685,14.8149011584,0 77.81701516059999,14.8148451348,0 77.8173775187,14.8141809916,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Road</name>
+			<description>Road</description>
+			<styleUrl>#area26</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							77.8169576879,14.8153608325,0 77.8169816212,14.8152254048,0 77.8170503132,14.8154167267,0 77.8171325256,14.8157697651,0 77.8172021932,14.8161537274,0 77.81718568949999,14.8166091033,0 77.81710432129999,14.8169012839,0 77.81696538369999,14.8171980074,0 77.8167701206,14.8179662081,0 77.8167284612,14.8183065415,0 77.81679548450001,14.818894632,0 77.8167782793,14.8192214789,0 77.8168056527,14.8194718929,0 77.8167917183,14.8195939971,0 77.81708449360001,14.8198625234,0 77.817061228,14.8199276822,0 77.81678896530001,14.8196679152,0 77.8167671579,14.8197024213,0 77.8167954084,14.8198029259,0 77.8164874607,14.8195830516,0 77.8164835892,14.8195075688,0 77.8166996842,14.8196473835,0 77.8167454694,14.8194594089,0 77.8167105773,14.8192448168,0 77.8167189884,14.8189802391,0 77.8166508023,14.8183843049,0 77.81667929549999,14.8180304718,0 77.81682046749999,14.8174068325,0 77.81703198699999,14.81684731,0 77.81711884240001,14.8165793787,0 77.81714639729999,14.816169102,0 77.8170663862,14.8157237105,0 77.8169576879,14.8153608325,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Mining Area</name>
+			<description>Mining Area</description>
+			<styleUrl>#area34</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							77.8170469663,14.8199825372,0 77.817061228,14.8199276822,0 77.81708449360001,14.8198625234,0 77.8170024945,14.8197873159,0 77.81707399619999,14.8197306432,0 77.8172844539,14.8197826697,0 77.8174318384,14.8197371821,0 77.8175759829,14.8198755656,0 77.81782499080001,14.8200376343,0 77.81780239699999,14.8202098705,0 77.8172733793,14.8201441946,0 77.8170469663,14.8199825372,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Mining Area</name>
+			<description>Mining Area</description>
+			<styleUrl>#area31</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							77.81819593980001,14.8202587267,0 77.81796243300001,14.8202297382,0 77.8180528234,14.8201261941,0 77.81823009670001,14.820158975,0 77.81857780119999,14.8199275262,0 77.81876065340001,14.8199281988,0 77.81887387880001,14.8201073977,0 77.8188627956,14.8201774379,0 77.8187298551,14.8203276135,0 77.8189200967,14.8204359644,0 77.8189976227,14.8206359895,0 77.8188704761,14.8208209609,0 77.8193289718,14.8210251655,0 77.81919056780001,14.8212221136,0 77.8190281558,14.8211862191,0 77.81883625499999,14.8212345791,0 77.8187852766,14.8212114926,0 77.81858080799999,14.8212212935,0 77.8183552468,14.8211966979,0 77.81811673759999,14.8211868521,0 77.8179102702,14.8211708639,0 77.81819593980001,14.8202587267,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Road</name>
+			<description>Road</description>
+			<styleUrl>#area25</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							77.8199269939,14.820069774,0 77.8200239791,14.820059175,0 77.82004612270001,14.8201917434,0 77.8201649264,14.8202653807,0 77.8202610124,14.8203749657,0 77.8203758521,14.8205152448,0 77.8205901468,14.8207253236,0 77.8207565973,14.8206155975,0 77.8208835959,14.8204723439,0 77.82118670929999,14.8203261799,0 77.82158287359999,14.8201536016,0 77.8217063458,14.8200938187,0 77.821677823,14.820134716,0 77.8214017862,14.8202846902,0 77.8210005956,14.8204508964,0 77.8209051422,14.8205070437,0 77.8207917677,14.8206506112,0 77.8206243824,14.8207551434,0 77.82039441160001,14.8209131468,0 77.8201134518,14.821089343,0 77.8198251546,14.821257505,0 77.8196124968,14.8213390847,0 77.8194139022,14.8213444435,0 77.8195237242,14.8214571699,0 77.8197722149,14.821585746,0 77.8201448184,14.8217683739,0 77.82066886600001,14.8220039132,0 77.8206274156,14.8220831025,0 77.8198448986,14.8216954716,0 77.81951143009999,14.8215221726,0 77.8193081857,14.8213434651,0 77.81908349050001,14.8212467989,0 77.81899280339999,14.8212364825,0 77.8188558706,14.8212659278,0 77.81874853399999,14.8213204767,0 77.81859672749999,14.8213045578,0 77.8187262133,14.8212756226,0 77.81883625499999,14.8212345791,0 77.8190281558,14.8211862191,0 77.81919056780001,14.8212221136,0 77.8192688573,14.8212874049,0 77.8193734764,14.821310084,0 77.81949653540001,14.8212919873,0 77.8196236717,14.8212764246,0 77.8198667711,14.8211835585,0 77.8201742143,14.8209925415,0 77.820533748,14.8207625024,0 77.8203139946,14.8205513952,0 77.8201112256,14.8203062226,0 77.81996887690001,14.8202214362,0 77.8199269939,14.820069774,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Road</name>
+			<description>Road</description>
+			<styleUrl>#area24</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							77.8196813883,14.8212543764,0 77.8196236717,14.8212764246,0 77.81958226970001,14.8208756715,0 77.8195063232,14.8206180658,0 77.81941207609999,14.8203318198,0 77.8192859552,14.8200977372,0 77.819136836,14.819961551,0 77.8188374413,14.8198391663,0 77.8185863233,14.8198194443,0 77.81839694689999,14.8198692452,0 77.8180979377,14.8199961036,0 77.8180277169,14.8201160382,0 77.8179480992,14.8202279587,0 77.8178962316,14.8202215196,0 77.81798839069999,14.8200919695,0 77.8180652405,14.819960713,0 77.8183815295,14.8198265234,0 77.8185820077,14.819773803,0 77.8188485773,14.8197947385,0 77.8191625166,14.8199230687,0 77.8193234325,14.8200700285,0 77.8194550544,14.820314321,0 77.8195507451,14.8206049512,0 77.81962782239999,14.8208663924,0 77.8196813883,14.8212543764,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Road</name>
+			<description>Road</description>
+			<styleUrl>#area28</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							77.82226739959999,14.8192893493,0 77.8221632211,14.8192205883,0 77.8221197819,14.8189716372,0 77.822098888,14.8187915437,0 77.8219148167,14.8186705623,0 77.82159596469999,14.8186850193,0 77.8214482894,14.8187409067,0 77.82133327690001,14.8189315851,0 77.8211489742,14.8190239727,0 77.82090527770001,14.8190660158,0 77.82039062530001,14.8189551591,0 77.8200160098,14.818914687,0 77.8198185638,14.8189471495,0 77.81941076210001,14.8189701725,0 77.8193080921,14.8189203582,0 77.8190383046,14.8188575702,0 77.8187295547,14.8187505729,0 77.8187451309,14.8187080359,0 77.8190515305,14.8188142187,0 77.8193240563,14.818877644,0 77.8194204151,14.8189243962,0 77.8198133361,14.8189022133,0 77.8200146785,14.8188691102,0 77.82039822599999,14.8189105473,0 77.8209062806,14.8190199829,0 77.82113395499999,14.8189807039,0 77.8213000539,14.8188974416,0 77.8214164226,14.8187045149,0 77.8215862158,14.818640257,0 77.82192804,14.8186247584,0 77.8221426108,14.8187657857,0 77.8221657605,14.8189653217,0 77.8222056689,14.8191940378,0 77.82229345979999,14.8192519826,0 77.82226739959999,14.8192893493,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Mining Area</name>
+			<description>Mining Area</description>
+			<styleUrl>#area32</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							77.82179332370001,14.8199691055,0 77.8217799161,14.8197438731,0 77.8217009957,14.8197598439,0 77.82137553930001,14.8199192471,0 77.8213825206,14.8199820855,0 77.8213035638,14.8200759416,0 77.8210325626,14.8201032357,0 77.8208557398,14.820021505,0 77.8202453657,14.8200349807,0 77.8199269939,14.820069774,0 77.8200239645,14.8199701189,0 77.82013651770001,14.8198881757,0 77.8205630012,14.8198620608,0 77.8207811378,14.8198713217,0 77.8209598648,14.8199198556,0 77.82136347780001,14.8198129409,0 77.8216475001,14.8196917586,0 77.82184937620001,14.8196146086,0 77.8218637832,14.8198680769,0 77.82179332370001,14.8199691055,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

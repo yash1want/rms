@@ -1,0 +1,2304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Temporary Places</name>
+	<open>1</open>
+	<Folder>
+		<name>Temporary Places</name>
+		<open>1</open>
+		<Document>
+			<name>MLB.kml</name>
+			<open>1</open>
+			<Style id="area1">
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000001</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="area10">
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000001</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="area11">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#area10</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#area1</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="m_ylw-pushpin000">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#s_ylw-pushpin00</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#s_ylw-pushpin_hl000</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="m_ylw-pushpin02000">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#s_ylw-pushpin0400</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#s_ylw-pushpin_hl0200</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="s_ylw-pushpin00">
+				<IconStyle>
+					<scale>1.1</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+			</Style>
+			<Style id="s_ylw-pushpin0400">
+				<IconStyle>
+					<scale>1.1</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+			</Style>
+			<Style id="s_ylw-pushpin_hl000">
+				<IconStyle>
+					<scale>1.3</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+			</Style>
+			<Style id="s_ylw-pushpin_hl0200">
+				<IconStyle>
+					<scale>1.3</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+					</Icon>
+					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+			</Style>
+			<Style id="waypntStyle000">
+				<IconStyle>
+					<scale>1.2</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+				</IconStyle>
+			</Style>
+			<Style id="waypntStyle100">
+				<IconStyle>
+					<scale>1.2</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+					</Icon>
+				</IconStyle>
+			</Style>
+			<StyleMap id="waypntStyle20">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#waypntStyle000</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#waypntStyle100</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Folder>
+				<name>Area Features</name>
+				<open>1</open>
+				<description>Area Features</description>
+				<Folder>
+					<name>Waypoints</name>
+					<open>1</open>
+					<Placemark>
+						<name>BP A</name>
+						<description>29E</description>
+						<styleUrl>#waypntStyle20</styleUrl>
+						<Point>
+							<coordinates>77.12641666666666,17.12969444444445,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>BP B</name>
+						<description>29F</description>
+						<styleUrl>#waypntStyle20</styleUrl>
+						<Point>
+							<coordinates>77.14505555555556,17.13333333333333,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>BP C</name>
+						<description>2A0</description>
+						<styleUrl>#waypntStyle20</styleUrl>
+						<Point>
+							<coordinates>77.14772222222223,17.13386111111111,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>BP D</name>
+						<description>2A1</description>
+						<styleUrl>#waypntStyle20</styleUrl>
+						<Point>
+							<coordinates>77.15050000000001,17.13541666666667,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>BP E</name>
+						<description>2A2</description>
+						<styleUrl>#waypntStyle20</styleUrl>
+						<Point>
+							<coordinates>77.1536325,17.1362742,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>BP F</name>
+						<description>2A3</description>
+						<styleUrl>#waypntStyle20</styleUrl>
+						<Point>
+							<coordinates>77.15333333333334,17.12166666666667,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>BP G</name>
+						<description>2A4</description>
+						<styleUrl>#waypntStyle20</styleUrl>
+						<Point>
+							<coordinates>77.15161111111112,17.12166666666667,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>BP H</name>
+						<description>2A5</description>
+						<styleUrl>#waypntStyle20</styleUrl>
+						<Point>
+							<coordinates>77.15058333333334,17.11366666666667,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>BP I</name>
+						<description>2A6</description>
+						<styleUrl>#waypntStyle20</styleUrl>
+						<Point>
+							<coordinates>77.14644444444446,17.11313888888889,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>BP J</name>
+						<description>2A7</description>
+						<styleUrl>#waypntStyle20</styleUrl>
+						<Point>
+							<coordinates>77.14636111111112,17.11141666666667,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>BP K</name>
+						<description>2A8</description>
+						<styleUrl>#waypntStyle20</styleUrl>
+						<Point>
+							<coordinates>77.13980555555557,17.11155555555556,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>BP L</name>
+						<description>2A9</description>
+						<styleUrl>#waypntStyle20</styleUrl>
+						<Point>
+							<coordinates>77.13825000000001,17.11547222222222,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>BP M</name>
+						<description>2AA</description>
+						<styleUrl>#waypntStyle20</styleUrl>
+						<Point>
+							<coordinates>77.12944444444443,17.11522222222222,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>BP N</name>
+						<description>2AB</description>
+						<styleUrl>#waypntStyle20</styleUrl>
+						<Point>
+							<coordinates>77.12869444444443,17.11955555555556,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>BP O</name>
+						<description>2AC</description>
+						<styleUrl>#waypntStyle20</styleUrl>
+						<Point>
+							<coordinates>77.137,17.12036111111111,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>BP P</name>
+						<description>2AD</description>
+						<styleUrl>#waypntStyle20</styleUrl>
+						<Point>
+							<coordinates>77.1371388888889,17.11883333333333,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>BP Q</name>
+						<description>2AE</description>
+						<styleUrl>#waypntStyle20</styleUrl>
+						<Point>
+							<coordinates>77.1408888888889,17.11911111111111,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>BP R</name>
+						<description>2AF</description>
+						<styleUrl>#waypntStyle20</styleUrl>
+						<Point>
+							<coordinates>77.13883333333334,17.12352777777778,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>BP S</name>
+						<description>2B0</description>
+						<styleUrl>#waypntStyle20</styleUrl>
+						<Point>
+							<coordinates>77.1363888888889,17.12313888888889,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>BP T</name>
+						<description>2B1</description>
+						<styleUrl>#waypntStyle20</styleUrl>
+						<Point>
+							<coordinates>77.13655555555556,17.12158333333333,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>BP U</name>
+						<description>2B2</description>
+						<styleUrl>#waypntStyle20</styleUrl>
+						<Point>
+							<coordinates>77.12841416666666,17.12071944444444,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Untitled Placemark</name>
+						<LookAt>
+							<gx:TimeStamp><when>2019-01-25T12:19:06Z</when>
+</gx:TimeStamp>
+							<longitude>77.12801109208806</longitude>
+							<latitude>17.12876167403611</latitude>
+							<altitude>0</altitude>
+							<heading>-2.711147309836509</heading>
+							<tilt>23.5898766893744</tilt>
+							<range>554.2833374330485</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin02000</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>77.12641666666666,17.12941666666667,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>trail</name>
+						<LookAt>
+							<longitude>77.14202585536474</longitude>
+							<latitude>17.11950043641306</latitude>
+							<altitude>0</altitude>
+							<heading>2.915477017811143</heading>
+							<tilt>14.88932696450054</tilt>
+							<range>819.3318319665727</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin000</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>77.14214473146177,17.11919393888619,0</coordinates>
+						</Point>
+					</Placemark>
+				</Folder>
+				<Placemark>
+					<description>mlb</description>
+					<styleUrl>#area11</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1264109143,17.1296838888,0 77.1284166503,17.1207221886,0 77.1365490057,17.1215883406,0 77.1363847332,17.1231376449,0 77.13883551160001,17.1235442321,0 77.1408792957,17.1191058685,0 77.13713027679999,17.1188310222,0 77.1370000165,17.120361131,0 77.1286944419,17.1195555641,0 77.12944448029999,17.1152222446,0 77.1382710414,17.1154581998,0 77.1398150178,17.1115554837,0 77.1463702739,17.1113996643,0 77.1464605197,17.1131297264,0 77.1505935086,17.1136924764,0 77.1515983622,17.1216487241,0 77.1533454425,17.121654184,0 77.15362703869999,17.1362710239,0 77.15049433190001,17.1354118926,0 77.14769442559999,17.1338643952,0 77.1450399333,17.1333303445,0 77.1264109143,17.1296838888,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>INFRASTRUCTURE.kml</name>
+			<StyleMap id="area12">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#area14</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#area13</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="area13">
+				<LineStyle>
+					<color>ffff00ff</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000002</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="area14">
+				<LineStyle>
+					<color>ffff00ff</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000002</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Folder>
+				<name>Area Features</name>
+				<description>Area Features</description>
+				<Placemark>
+					<description>INFRASTRUCTURE</description>
+					<styleUrl>#area12</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1437681932,17.1127355439,0 77.1436360674,17.1127440261,0 77.1435810573,17.1127461988,0 77.1434442784,17.112753637,0 77.1434106988,17.112426115,0 77.1437383518,17.1123981441,0 77.1437681932,17.1127355439,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>INFRASTRUCTURE</description>
+					<styleUrl>#area12</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1428059184,17.1121178943,0 77.14267834330001,17.1120948696,0 77.14270444,17.1119612134,0 77.1428305912,17.1119842533,0 77.1428059184,17.1121178943,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>INFRASTRUCTURE</description>
+					<styleUrl>#area12</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.14273395879999,17.1124996241,0 77.1425366621,17.1124567963,0 77.14257906500001,17.1122547713,0 77.1427776256,17.1122836178,0 77.14273395879999,17.1124996241,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>INFRASTRUCTURE</description>
+					<styleUrl>#area12</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.14245525539999,17.1124362954,0 77.14237992939999,17.1124244942,0 77.1424009103,17.112316637,0 77.1424799446,17.1123289467,0 77.14245525539999,17.1124362954,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>INFRASTRUCTURE</description>
+					<styleUrl>#area12</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.14254651740001,17.1127574803,0 77.1424716129,17.1127456074,0 77.1425082666,17.1125140641,0 77.142590953,17.112521953,0 77.14254651740001,17.1127574803,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>INFRASTRUCTURE</description>
+					<styleUrl>#area12</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.14460548770001,17.1127158508,0 77.1444996418,17.1126981321,0 77.144501357,17.1126874616,0 77.14445194050001,17.1126801164,0 77.1444503705,17.1126898841,0 77.1443185114,17.1126678106,0 77.14437845,17.1124139683,0 77.1446654259,17.1124620084,0 77.14460548770001,17.1127158508,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>INFRASTURE</description>
+					<styleUrl>#area12</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.14247833180001,17.1121134197,0 77.14253052550001,17.1118461074,0 77.14258658670001,17.1118668767,0 77.1425434369,17.1121280678,0 77.14248181809999,17.1121194082,0 77.14247833180001,17.1121134197,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>INFRASTRUCTURE</description>
+					<styleUrl>#area12</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.14158255220001,17.1133827405,0 77.1415825334,17.1133810974,0 77.14162502169999,17.1131615432,0 77.141896766,17.1132139914,0 77.14185492279999,17.1134401119,0 77.14158255220001,17.1133827405,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area12</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1530934565,17.1292464057,0 77.1531221809,17.1290137822,0 77.1534832009,17.1290869664,0 77.153494427,17.1293382675,0 77.15309205200001,17.1292914052,0 77.1530934565,17.1292464057,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area12</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1432599945,17.1140511058,0 77.143264055,17.1140504108,0 77.143347593,17.1138845598,0 77.143705384,17.1140418242,0 77.1436069379,17.1142084853,0 77.1432599945,17.1140511058,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area12</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1510774779,17.1183370787,0 77.1510774563,17.1182688595,0 77.15111704660001,17.1182620812,0 77.15119014619999,17.1182725517,0 77.1511965956,17.1183248091,0 77.1511579296,17.1183235086,0 77.1511183212,17.1183508263,0 77.1510774779,17.1183370787,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>MINERAL SAOARATION PLANT.kml</name>
+			<StyleMap id="area15">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#area17</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#area16</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="area16">
+				<LineStyle>
+					<color>ff000006</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000006</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="area17">
+				<LineStyle>
+					<color>ff000006</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000006</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Folder>
+				<name>Area Features</name>
+				<description>Area Features</description>
+				<Placemark>
+					<description>CONVEYOR-CENTER</description>
+					<styleUrl>#area15</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.14237746400001,17.1138807017,424.0530000000001 77.14120152940001,17.1146768382,424.0530000000001 77.14119720399999,17.1147194261,424.0530000000001 77.1411731717,17.1147792648,424.0530000000001 77.1411707107,17.1147831863,424.0530000000001 77.14113367349999,17.1148258597,424.0530000000001 77.1410795884,17.1148597038,424.0530000000001 77.1407903792,17.1149837053,424.0530000000001 77.1405663275,17.1148358198,0 77.140141716,17.115002017,424.0530000000001 77.1400902691,17.1148910619,424.0530000000001 77.1381323849,17.1157023668,424.0530000000001 77.1381490502,17.1157395903,424.0530000000001 77.13792401249999,17.1157997583,424.0530000000001 77.1378141996,17.1154468594,424.0530000000001 77.13805431999999,17.1154537772,424.0530000000001 77.1381132761,17.1155692178,424.0530000000001 77.1396138044,17.1149701068,424.0530000000001 77.1396485046,17.1149558842,424.0530000000001 77.14028141510001,17.1146889046,424.0530000000001 77.1402494439,17.1146059016,424.0530000000001 77.1399984753,17.1147207086,424.0530000000001 77.1399464369,17.1144542478,424.0530000000001 77.140279183,17.1143190166,424.0530000000001 77.1404263869,17.1143101539,424.0530000000001 77.1404735685,17.114191769,424.0530000000001 77.1407207362,17.1140857934,424.0530000000001 77.14078457239999,17.1140695777,424.0530000000001 77.1408022561,17.1140686576,424.0530000000001 77.14093088200001,17.1141103591,424.0530000000001 77.14097639889999,17.1141577539,424.0530000000001 77.1423517951,17.113791555,424.0530000000001 77.14237746400001,17.1138807017,424.0530000000001 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>MR-1.kml</name>
+			<Style id="area110">
+				<LineStyle>
+					<color>ffff55aa</color>
+					<width>8</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000007</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="area18">
+				<LineStyle>
+					<color>ffff55aa</color>
+					<width>8</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000007</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="area19">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#area18</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#area110</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Folder>
+				<name>Area Features</name>
+				<description>Area Features</description>
+				<Placemark>
+					<description>MR-1</description>
+					<styleUrl>#area19</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1367323883,17.1170216258,427.435 77.1368775637,17.1166049411,427.435 77.1368937841,17.1165408696,427.435 77.137008029,17.1163913234,427.435 77.1371056837,17.1164515841,0 77.13717932599999,17.116368649,427.435 77.13722216719999,17.1163199453,427.435 77.13736933120001,17.1163809871,427.435 77.1374034846,17.1164027958,427.435 77.13738469010001,17.1164789573,0 77.13740578620001,17.1165449168,0 77.13746206810001,17.1165449743,0 77.1375471429,17.1165427716,427.435 77.1376419815,17.1165939331,0 77.1377233425,17.1164744019,0 77.1377565427,17.1163534233,0 77.1376547009,17.1162234386,0 77.1375896351,17.1161667462,0 77.1375553532,17.1161336912,0 77.1374464595,17.1160393171,0 77.1373636429,17.1159720534,0 77.1373368136,17.1159087626,0 77.1373608123,17.1158429789,0 77.1374079596,17.1158447631,0 77.13753606829999,17.1158998116,0 77.13772522319999,17.1160455011,427.435 77.1378668286,17.1162135361,427.435 77.1379345767,17.1163269278,427.435 77.1379819399,17.1164366226,0 77.1380109599,17.1165432509,427.435 77.13802931799999,17.116666293,427.435 77.1380312876,17.1168463731,427.435 77.13802686059999,17.1170830142,427.435 77.13774080659999,17.1172314017,427.435 77.1375050235,17.1173075734,427.435 77.1373227576,17.1172074098,427.435 77.13719249250001,17.1171354751,427.435 77.13712785840001,17.1171165965,427.435 77.1369449391,17.1170836502,427.435 77.1367323883,17.1170216258,427.435 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>MS-1.kml</name>
+			<Style id="area111">
+				<LineStyle>
+					<color>ffff0000</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000000</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="area112">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#area111</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#area113</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="area113">
+				<LineStyle>
+					<color>ffff0000</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000000</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Folder>
+				<name>Area Features</name>
+				<description>Area Features</description>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area112</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1431342711,17.1136394177,0 77.1431546164,17.1135078719,0 77.1432324962,17.1133914765,0 77.1431468884,17.1133100827,0 77.14309618590001,17.1132554609,0 77.1430806976,17.1131750756,0 77.14310813740001,17.1131064933,0 77.14324493300001,17.1130463838,0 77.1433952158,17.1130509211,0 77.14345816230001,17.1130616364,0 77.1434992898,17.1130752094,0 77.14362219100001,17.1130739077,0 77.1437487938,17.11307782,0 77.14384256290001,17.1130768267,0 77.1440057377,17.1130543042,0 77.14410244850001,17.113071666,0 77.1442060672,17.1131754135,0 77.1442209968,17.1132864483,0 77.14415839590001,17.1134648451,0 77.1440707733,17.1136049835,0 77.14391285889999,17.1138483041,0 77.1438412418,17.1139550025,0 77.14382753700001,17.1139906068,0 77.1437863803,17.1140142445,0 77.14374335159999,17.1139936874,0 77.1437308558,17.1139758713,0 77.14375291339999,17.1139143502,0 77.14371971849999,17.1138779294,0 77.1436911255,17.1138458374,0 77.14365110769999,17.1138099266,0 77.1436212094,17.1137831017,0 77.1434669537,17.1137497141,0 77.1432765223,17.1136978854,0 77.1432048066,17.1136767565,0 77.14315860169999,17.1136571085,0 77.1431347162,17.1136385374,0 77.1431342711,17.1136394177,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>MS-2.kml</name>
+			<Style id="area114">
+				<LineStyle>
+					<color>ffff0000</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000007</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="area115">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#area114</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#area116</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="area116">
+				<LineStyle>
+					<color>ffff0000</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000007</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Folder>
+				<name>Area Features</name>
+				<description>Area Features</description>
+				<Placemark>
+					<description>MINEARL STOCK-2</description>
+					<styleUrl>#area115</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.14236380139999,17.1154508508,422.302 77.1422945578,17.115532763,0 77.1421929763,17.1155886098,422.302 77.14212012519999,17.115607149,0 77.1420377442,17.1155928611,422.302 77.141898299,17.1155545626,422.302 77.14178001729999,17.1155287548,0 77.1417704022,17.1155180979,422.302 77.1417548487,17.1154921809,0 77.141731882,17.1154702545,422.302 77.1417146671,17.1154472893,0 77.14170288370001,17.1154249185,0 77.1417013299,17.1154076559,0 77.1417154776,17.1153284621,422.302 77.1418096158,17.1151822077,0 77.1418196584,17.1151413489,422.302 77.1418752643,17.1150824026,0 77.14191419639999,17.1150477584,0 77.1419713193,17.1150324829,422.302 77.1420339238,17.1150073687,422.302 77.1421154058,17.1149727631,0 77.14216476519999,17.1149605039,0 77.1421975256,17.1149790663,0 77.1421924262,17.1150074841,0 77.14217609889999,17.1150324345,0 77.142166179,17.1150543828,422.302 77.14216620729999,17.1150716616,422.302 77.1422259756,17.1150801575,422.302 77.1422676059,17.1151035163,0 77.1423171669,17.11510886,0 77.1423854139,17.1151175921,0 77.142389908,17.1151843787,422.302 77.1423726747,17.1152634581,0 77.1423849195,17.1153409214,0 77.14239012980001,17.1153666218,0 77.1423899255,17.1153931947,0 77.14236380139999,17.1154508508,422.302 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>OD-1.kml</name>
+			<StyleMap id="area117">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#area119</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#area118</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="area118">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>8</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000022</color>
+					<outline>0</outline>
+				</PolyStyle>
+			</Style>
+			<Style id="area119">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>8</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000022</color>
+					<outline>0</outline>
+				</PolyStyle>
+			</Style>
+			<Folder>
+				<name>Area Features</name>
+				<description>Area Features</description>
+				<Placemark>
+					<description>0</description>
+					<styleUrl>#area117</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.14598644980001,17.1159211927,0 77.145946567,17.1160223639,0 77.1458818736,17.1161999973,0 77.145860703,17.1162935567,0 77.14580945580001,17.1163653166,0 77.1457690352,17.1164003204,0 77.145738772,17.1164173517,0 77.1456187759,17.1164812119,0 77.1451916061,17.1165811418,0 77.1449602582,17.116594775,0 77.1446512978,17.1165954799,0 77.144225151,17.1166375321,0 77.1441963739,17.1166350525,0 77.14437730340001,17.116406884,0 77.14406286249999,17.1163747644,0 77.1440104735,17.1163292113,0 77.1441334046,17.1161984842,0 77.1441888705,17.1161071363,0 77.1442555814,17.1159946013,0 77.1443458343,17.1158484442,0 77.1443994673,17.1157600678,0 77.14449029879999,17.115579489,0 77.1445943187,17.1154330587,0 77.1447108982,17.1152474286,0 77.1447963971,17.1152056473,0 77.1449569646,17.1152436863,0 77.1451218015,17.1153180929,0 77.1452094353,17.1153748298,0 77.14547891559999,17.1154822613,0 77.14563881540001,17.1155836233,0 77.1460236393,17.1158138521,0 77.14598644980001,17.1159211927,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>OD-3.kml</name>
+			<StyleMap id="area120">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#area121</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#area122</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="area121">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000000</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="area122">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000000</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Folder>
+				<name>Area Features</name>
+				<description>Area Features</description>
+				<Placemark>
+					<description>OD-3</description>
+					<styleUrl>#area120</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1371362979,17.118839237,0 77.1371182382,17.1186829376,0 77.1390906972,17.1187911983,0 77.1390886419,17.1189672713,0 77.1371322075,17.1188373241,0 77.1371362979,17.118839237,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>OD-4.kml</name>
+			<Style id="area123">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>8</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000007</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="area124">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#area123</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#area125</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="area125">
+				<LineStyle>
+					<color>ff0000aa</color>
+					<width>8</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000007</color>
+				</PolyStyle>
+			</Style>
+			<Folder>
+				<name>Area Features</name>
+				<description>Area Features</description>
+				<Placemark>
+					<description>OVER BURDEN DUMP -4</description>
+					<styleUrl>#area124</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1501916985,17.114773382,0 77.1500480996,17.1148014078,0 77.1499939734,17.1147323231,0 77.1499105859,17.114518904,0 77.1498855043,17.1143197083,0 77.1498757296,17.1142274041,0 77.14988984999999,17.1141305095,0 77.14990943719999,17.1140057621,0 77.14999073609999,17.1139996821,0 77.1501832405,17.1139937247,0 77.1502983808,17.1140117365,0 77.1503625795,17.1143946201,0 77.15033510470001,17.1146112214,0 77.1501916985,17.114773382,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>PIT-1.kml</name>
+			<Style id="area126">
+				<IconStyle>
+					<scale>1.1</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/pink-stars.png</href>
+					</Icon>
+					<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<ListStyle>
+					<ItemIcon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/pink-stars-lv.png</href>
+					</ItemIcon>
+				</ListStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000000</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="area127">
+				<IconStyle>
+					<scale>1.3</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/pink-stars.png</href>
+					</Icon>
+					<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<ListStyle>
+					<ItemIcon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/pink-stars-lv.png</href>
+					</ItemIcon>
+				</ListStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000000</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="area128">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#area126</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#area127</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Folder>
+				<name>Area Features</name>
+				<open>1</open>
+				<description>Area Features</description>
+				<Placemark>
+					<description>PIT</description>
+					<styleUrl>#area128</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1512305567,17.1209500886,0 77.1512354024,17.1211945511,0 77.1512473122,17.1213456971,0 77.1512620112,17.1215330016,0 77.1512743083,17.1216293723,0 77.1513001276,17.1216633297,0 77.1513264674,17.1217720214,0 77.1513334588,17.1218197903,0 77.1513627479,17.1218606386,0 77.15138903179999,17.1218907604,0 77.15143106719999,17.1219049027,0 77.1516098413,17.1219131079,0 77.1517831013,17.1219135472,0 77.1519895016,17.1219064614,0 77.15211650329999,17.121953035,0 77.1523957119,17.1219383279,0 77.153230858,17.1219346779,0 77.1532421334,17.1219919197,0 77.1532537204,17.1221201312,0 77.1532405178,17.1231909444,0 77.15324945810001,17.1233527262,0 77.15325886860001,17.1238188122,0 77.1532628455,17.1244278672,0 77.153156653,17.1245691855,0 77.1530608961,17.1245861797,0 77.15260639989999,17.124572108,0 77.1525363229,17.1245519886,0 77.1520152155,17.1245665703,0 77.1513436616,17.1245513527,0 77.1504475367,17.1245710903,0 77.1503607333,17.1244895493,0 77.1500033523,17.1244881321,0 77.1498662107,17.1244739408,0 77.1494907101,17.1244300067,0 77.1494789691,17.1244262193,0 77.14942565699999,17.1243821574,0 77.1493729008,17.1240147267,0 77.1493457994,17.1237680668,0 77.1492261997,17.1229599247,0 77.14910545719999,17.122233533,0 77.14904369999999,17.1218160696,0 77.148997025,17.1212062577,0 77.14894336499999,17.1209623133,0 77.14893078910001,17.1207751489,0 77.1488757475,17.1204109181,0 77.1488129655,17.1200733961,0 77.1487693782,17.1199614079,0 77.14871187529999,17.1198989811,0 77.1484810396,17.1199602528,0 77.14807064039999,17.120055049,0 77.1477984122,17.1201240309,0 77.1476324055,17.1201731923,0 77.14757927310001,17.1202361176,0 77.1475551882,17.1203742292,0 77.14754470130001,17.1204217254,0 77.14752394049999,17.1204482,0 77.14745179000001,17.1204873674,0 77.1473442681,17.1205060797,0 77.1470011184,17.1205602779,0 77.14679252249999,17.1206213119,0 77.14661827499999,17.1206357999,0 77.14644556419999,17.1206079791,0 77.14637154170001,17.1205013322,0 77.1463484394,17.1203824781,0 77.1463087807,17.1199849155,0 77.1462757827,17.119546063,0 77.1463070976,17.1191407723,0 77.1462944885,17.1188741818,0 77.1462816712,17.1186177248,0 77.14627786600001,17.1185506619,0 77.1462784342,17.118567942,0 77.14623065710001,17.1184219526,0 77.1462800279,17.1179599362,0 77.14638370829999,17.1177426885,0 77.1465537655,17.1174314965,0 77.1466009812,17.1173401765,0 77.1465921245,17.1171517523,0 77.1465725522,17.1167234148,0 77.1465408192,17.1164940914,0 77.1465983001,17.1162733376,0 77.14668666279999,17.1161319118,0 77.1468610278,17.1160730679,0 77.14694357739999,17.1160691456,0 77.1472878507,17.1161552328,0 77.14762245590001,17.1162151725,0 77.1478609995,17.1162028601,0 77.1481633575,17.1161562558,0 77.1484917885,17.1161293298,0 77.14929405399999,17.1161080956,0 77.1497561268,17.1160751497,0 77.1503469253,17.1160916938,0 77.1507488731,17.1160782936,0 77.15074368000001,17.1162459225,0 77.1507661752,17.1166101726,0 77.15093402620001,17.1178030401,0 77.1509872415,17.118011986,0 77.1509641735,17.118025598,0 77.1510453738,17.1190797317,0 77.1510799871,17.1194288559,0 77.1511011818,17.1194218657,0 77.1511583955,17.1197240473,0 77.1511472955,17.1198496825,0 77.15115922530001,17.1199731168,0 77.15119468090001,17.1202553981,0 77.1512087265,17.1203802729,0 77.1511841048,17.1204781813,0 77.15119074890001,17.1205547251,0 77.1512305567,17.1209500886,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>PLANTATION.kml</name>
+			<Style id="area129">
+				<LineStyle>
+					<color>ff00ff00</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf00ff00</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="area130">
+				<LineStyle>
+					<color>ff00ff00</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf00ff00</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="area131">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#area130</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#area129</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Folder>
+				<name>Area Features</name>
+				<description>Area Features</description>
+				<Placemark>
+					<description>PLANTATION</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1372153108,17.1188414413,0 77.1372672856,17.1173866669,0 77.1384991769,17.1173817057,0 77.139101694,17.1189743766,0 77.1372153108,17.1188414413,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>PLANTATION</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1422816478,17.1135373056,0 77.1423705972,17.1136786704,0 77.1421686461,17.1137261699,0 77.1414503086,17.1139394697,0 77.1409782809,17.114120394,0 77.1408982833,17.1141138075,0 77.1407911565,17.1140558831,0 77.1406005015,17.1140842757,0 77.14055830220001,17.1141010847,0 77.1404051459,17.1141626934,0 77.1402411838,17.114237314,0 77.1401025304,17.1142480648,0 77.14001373009999,17.1143279814,0 77.1398992231,17.1144350431,0 77.1397415835,17.1146689727,0 77.13969606249999,17.1148075898,0 77.1396160832,17.114948696,0 77.1395251192,17.1149719069,0 77.13942662319999,17.1150396392,0 77.1393195229,17.1150764927,0 77.1391642672,17.1151590889,0 77.13906319429999,17.1152031996,0 77.13900702940001,17.1152418059,0 77.1389777359,17.1152319783,0 77.13899141429999,17.1152080774,0 77.13908573729999,17.1151669107,0 77.13922890800001,17.1150978428,0 77.1393253139,17.1150563047,0 77.1395082393,17.1149653867,0 77.1396120605,17.1148168154,0 77.1396994183,17.1146575116,0 77.1397951348,17.1144744577,0 77.13983143670001,17.1144177314,0 77.14003409190001,17.1142643471,0 77.14018172909999,17.1141362971,0 77.1402939331,17.1140586911,0 77.1403800227,17.1140028161,0 77.14046988530001,17.1139785582,0 77.1405349635,17.1139645956,0 77.1406839476,17.1139220776,0 77.1408278079,17.113876899,0 77.14097532700001,17.1138300768,0 77.1411479314,17.1137812294,0 77.14126955890001,17.1137395978,0 77.1414816284,17.1136636128,0 77.1417930338,17.1135461334,0 77.1421151617,17.1134905601,0 77.1422816478,17.1135373056,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>PLANTATION</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1396340631,17.1144550439,0 77.1396369613,17.1144353624,0 77.139655953,17.1143883188,0 77.139691971,17.1142991002,0 77.1397414563,17.1142264148,0 77.1398240226,17.1141247461,0 77.139937023,17.1140481904,0 77.13997846069999,17.114012414,0 77.1400755695,17.1139399334,0 77.1401874271,17.1138564443,0 77.1402256713,17.1138305002,0 77.1402924763,17.1137650478,0 77.1403337962,17.1137236772,0 77.1403694679,17.1136845262,0 77.1404318223,17.1135982838,0 77.14052637170001,17.1134772603,0 77.1405948302,17.1133809569,0 77.1406445535,17.113311009,0 77.14069891139999,17.1132148219,0 77.14075779389999,17.1131271154,0 77.1407995646,17.113033581,0 77.14083311749999,17.1128882451,0 77.1408514062,17.1127034716,0 77.14087828949999,17.1125320551,0 77.1409231579,17.112337539,0 77.1409501039,17.1121701449,0 77.1409770611,17.1120026815,0 77.14101247320001,17.1118436636,0 77.1410518133,17.1117768379,0 77.1411765916,17.1117539154,0 77.1412808035,17.1117410812,0 77.1417602142,17.111718014,0 77.1420305102,17.1117043525,0 77.1423080064,17.1116770896,0 77.1423867222,17.1117230433,0 77.1424698829,17.1118078979,0 77.1423618593,17.1124423277,0 77.1421076469,17.1124213239,0 77.1420815936,17.1124710855,0 77.1420497124,17.1128409667,0 77.1421076158,17.1129391691,0 77.1421023977,17.1133645033,0 77.1424189192,17.1133471094,0 77.1424253407,17.1133776496,0 77.1421079413,17.1134118582,0 77.1419455586,17.1134319269,0 77.14189274020001,17.1134561313,0 77.1418620052,17.1134554383,0 77.14186000230001,17.1134388613,0 77.141896915,17.1132138436,0 77.14162408289999,17.1131591711,0 77.1416206541,17.1131698333,0 77.1415822148,17.1133739174,0 77.1414582873,17.1135465905,0 77.1413064971,17.1136214118,0 77.14122797180001,17.1136442903,0 77.14107457359999,17.1136916737,0 77.1406987382,17.1138112593,0 77.1406790268,17.1138330842,0 77.1405340532,17.1138701324,0 77.1405095229,17.1138729651,0 77.1403680506,17.1139187755,0 77.14032871249999,17.1139210939,0 77.1401994176,17.113991521,0 77.1400742289,17.1140973921,0 77.1399640492,17.1142013594,0 77.13982090179999,17.1143224961,0 77.13968098230001,17.1144706719,0 77.1396340631,17.1144550439,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>PLANTATION</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.139534244,17.1143524856,0 77.1396067006,17.1142347946,0 77.1397041507,17.1141016026,0 77.13976777089999,17.1140383695,0 77.13989258380001,17.1139305207,0 77.1400003289,17.1138429103,0 77.140107751,17.1137621178,0 77.1402308853,17.1136445439,0 77.1403094616,17.1135447499,0 77.140380897,17.1134371083,0 77.1404683514,17.1133275454,0 77.1405490329,17.1132046601,0 77.1406011043,17.1131339253,0 77.14066544320001,17.1130134239,0 77.1406984978,17.112854933,0 77.1407204235,17.1127005353,0 77.1407424791,17.1125452221,0 77.1407704036,17.1123940042,0 77.1407834932,17.1123106834,0 77.1408726713,17.1118938133,0 77.1409162043,17.1116820886,0 77.1409345552,17.1116484647,0 77.14178693780001,17.1116099596,0 77.1422341557,17.1115885318,0 77.14325723509999,17.1115405778,0 77.1432553753,17.1116051615,0 77.1432328354,17.1116176202,0 77.1429438313,17.111674396,0 77.1426730781,17.1117184857,0 77.1425596341,17.1117097563,0 77.1424708359,17.1116712141,0 77.1423524585,17.1116280524,0 77.1422222284,17.1116042506,0 77.1409795328,17.1116736001,0 77.1409216437,17.1118535018,0 77.1408565752,17.1121559137,0 77.1408112119,17.112408408,0 77.1407639967,17.1126797378,0 77.1407503968,17.1128360096,0 77.1407016754,17.113030038,0 77.1406512337,17.1131357006,0 77.14049583080001,17.1133681674,0 77.14041464420001,17.1134925291,0 77.14031115340001,17.1136354165,0 77.1401993571,17.1137427768,0 77.14009749,17.113825879,0 77.13997963280001,17.1139220256,0 77.1397820887,17.1140831796,0 77.1396994735,17.1141776895,0 77.139565715,17.114362194,0 77.139534244,17.1143524856,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>PLANTATION</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1425400139,17.1117935885,0 77.14254208139999,17.1117641011,0 77.1427308225,17.1117609475,0 77.1429802362,17.1117265367,0 77.1431130655,17.1117233971,0 77.1431199817,17.1118035532,0 77.1431267557,17.1119505485,0 77.1434632994,17.1120001837,0 77.14404673449999,17.1122230383,0 77.14422979379999,17.1126399088,0 77.1437899244,17.112708432,0 77.1437494255,17.1123808386,0 77.14341176009999,17.1124169252,0 77.1434402173,17.1128059432,0 77.144320143,17.1128137113,0 77.1443679658,17.1128595112,0 77.1443398182,17.1130133917,0 77.14410626980001,17.1129985575,0 77.1435550435,17.1129813912,0 77.14334248759999,17.1129386008,0 77.1432697067,17.1129564249,0 77.1429971152,17.1129096749,0 77.1429425595,17.1129325556,0 77.1429889387,17.1130742773,0 77.1430283724,17.1132288915,0 77.1430675225,17.1133650655,0 77.14308340940001,17.1134090384,0 77.14308028879999,17.1134419471,0 77.1430337626,17.1134637917,0 77.1429463843,17.1134714515,0 77.14271347,17.1134323015,0 77.14275832769999,17.1132451681,0 77.1427968042,17.1130284851,0 77.14282220939999,17.1129440278,0 77.1428521847,17.1128538585,0 77.1428265549,17.112729788,0 77.1428430448,17.1126277298,0 77.1428698182,17.1125283016,0 77.14291287970001,17.1122594427,0 77.14294195799999,17.1122414474,0 77.1429989527,17.1122490157,0 77.1430466481,17.1119795992,0 77.1430448322,17.1119457297,0 77.1428938973,17.1119054643,0 77.1427933663,17.111866387,0 77.1427485748,17.1118348322,0 77.14269376759999,17.1118159379,0 77.1425400139,17.1117935885,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>PLANTATION</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1425406658,17.1133580253,0 77.1425403292,17.1133490931,0 77.1425502253,17.1133395333,0 77.1425535977,17.1133176868,0 77.14258988029999,17.1133025131,0 77.1425930657,17.1132822122,0 77.14262046410001,17.113137861,0 77.1426466859,17.1129902356,0 77.14267318660001,17.1128669826,0 77.1426766468,17.1128209341,0 77.1426991188,17.112793582,0 77.142721675,17.1128008066,0 77.1427376832,17.1128035812,0 77.14274590789999,17.1128254045,0 77.14274224810001,17.1129037731,0 77.14270551990001,17.1130044023,0 77.1426804374,17.1131520156,0 77.1426568942,17.1132848231,0 77.14264315050001,17.1133282417,0 77.1426236046,17.1133624098,0 77.1426016676,17.1133867436,0 77.142574291,17.1133837468,0 77.1425406658,17.1133580253,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>PLANTATION</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.142755085,17.1138139315,0 77.142768339,17.1137964082,0 77.1428070158,17.113802894,0 77.1428583215,17.1138076831,0 77.14292100679999,17.1138182739,0 77.1429844166,17.1138327128,0 77.1430460319,17.1138575311,0 77.1430690076,17.1138706923,0 77.1430870975,17.1138948675,0 77.14307731,17.1139211094,0 77.14304282489999,17.1139257618,0 77.14301393380001,17.1139301619,0 77.1429602625,17.1139123253,0 77.1427863239,17.1138442039,0 77.1427521878,17.1138273396,0 77.142755085,17.1138139315,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>PLANTATION</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.14261723049999,17.1137242813,0 77.14262382219999,17.113661244,0 77.1426618374,17.1135154243,0 77.1430085137,17.1135579787,0 77.1429971659,17.1137281962,0 77.14261723049999,17.1137242813,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>PLANTATION</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1431312122,17.113775006,0 77.1431224369,17.1137117,0 77.1431098214,17.1136781585,0 77.1431154646,17.1136504684,0 77.1431351355,17.1136541754,0 77.1432123897,17.1136764803,0 77.1434446688,17.1137441724,0 77.14362163,17.1137835475,0 77.1436832843,17.1138396887,0 77.1437513713,17.113916854,0 77.1437360596,17.1139691197,0 77.14358586359999,17.1139064644,0 77.1435550538,17.1138873496,0 77.1434659733,17.1138567104,0 77.1431312122,17.113775006,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>PLANTATION</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1438837635,17.1140515768,0 77.1438909788,17.1139896229,0 77.1439802897,17.1138517936,0 77.14415729,17.1135786367,0 77.14435372040001,17.113261657,0 77.1445205924,17.1127682017,0 77.1446356496,17.1127437837,0 77.1447327039,17.1123900274,0 77.14477281950001,17.1124127776,0 77.1451109338,17.1126045278,0 77.14537638909999,17.1128017002,0 77.1454008055,17.1128652587,0 77.1454216465,17.113065872,0 77.145363223,17.1133359895,0 77.1452418554,17.1134818847,0 77.1450741397,17.1136096473,0 77.1450313875,17.1136815832,0 77.1450171088,17.1138025157,0 77.1449936683,17.113869591,0 77.14494338900001,17.1140746583,0 77.1448797277,17.1142210052,0 77.14474112400001,17.1144487855,0 77.1443856752,17.1143495731,0 77.14425404790001,17.1142961917,0 77.1438837635,17.1140515768,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>PLANTATION</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1455367321,17.114532472,0 77.145377068,17.1147275331,0 77.14494186420001,17.1144921027,0 77.14492735970001,17.1146490582,0 77.1448717568,17.1146209605,0 77.1449363238,17.1144195383,0 77.1449803547,17.114331276,0 77.1450242176,17.1142522345,0 77.1450535793,17.1141949294,0 77.1451386554,17.1139471391,0 77.1451448074,17.1137199134,0 77.1452090522,17.1136514904,0 77.145223145,17.1135888964,0 77.1452603594,17.1135556363,0 77.1452996636,17.1135059212,0 77.14534011950001,17.1134572894,0 77.14547194470001,17.1134286223,0 77.1453926187,17.1136144879,0 77.1453161207,17.1137489524,0 77.1458386506,17.1140299681,0 77.14577730409999,17.1141320716,0 77.1455367321,17.114532472,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>PLANTATION</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1446272096,17.1122693872,0 77.1445920005,17.1115594051,0 77.14534447299999,17.1115436064,0 77.145161809,17.1125424974,0 77.1446272096,17.1122693872,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>PLANTATION</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.14437304560001,17.1121922235,0 77.1443089588,17.112145254,0 77.14416294270001,17.1120729657,0 77.14394588579999,17.1119325042,0 77.1438040239,17.1118609779,0 77.1436740619,17.1117954514,0 77.14355707919999,17.111736469,0 77.1434874712,17.1116816721,0 77.1434545324,17.1116163895,0 77.1436869188,17.1115848993,0 77.1438767495,17.1115822575,0 77.1441712141,17.1115678557,0 77.144421521,17.1115683592,0 77.1444739369,17.1117267883,0 77.1444777519,17.1118868214,0 77.1444802832,17.1119930057,0 77.1444857219,17.1122211461,0 77.14437304560001,17.1121922235,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>PLANTATION</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1458590112,17.1129336039,0 77.1458772493,17.1127953684,0 77.1458670257,17.1126083791,0 77.14576720389999,17.1124975944,0 77.14571926230001,17.1122820956,0 77.1457007124,17.1120325877,0 77.1460023022,17.1118374141,0 77.1461742732,17.111710377,0 77.1463093192,17.1130822292,0 77.1458652597,17.1129377838,0 77.1458590112,17.1129336039,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>PLANTATION</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1461437439,17.1138730219,0 77.1462418572,17.113346829,0 77.1464137367,17.1133715314,0 77.146653758,17.1134061387,0 77.1467619432,17.1134214937,0 77.1468198295,17.1134297096,0 77.1467746094,17.113946663,0 77.1461437439,17.1138730219,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.14271474589999,17.1140008594,0 77.14279574,17.1139973753,0 77.142760235,17.1139977512,0 77.1427157765,17.114011355,0 77.1426993996,17.1140124039,0 77.1426873942,17.1139976469,0 77.14268988480001,17.1139766077,0 77.14272067749999,17.1139622731,0 77.1427752905,17.1139608193,0 77.14282741300001,17.1139804048,0 77.1429670927,17.1140130717,0 77.1431993429,17.1140990413,0 77.14330457849999,17.1141452058,0 77.14345576460001,17.1142285315,0 77.14360496960001,17.1142978695,0 77.1438062472,17.1143824154,0 77.143958013,17.1144368419,0 77.1440974448,17.1145272959,0 77.1442740822,17.1146068492,0 77.14437791890001,17.1146898003,0 77.1443636437,17.1147153421,0 77.14425014379999,17.1146631371,0 77.14415775339999,17.1146255924,0 77.14394977169999,17.1145122253,0 77.14369096919999,17.1144134048,0 77.1434859398,17.1143192676,0 77.14332462900001,17.1142264182,0 77.1431815262,17.1141333759,0 77.1430051904,17.1140800845,0 77.1427975006,17.1139921034,0 77.14271474589999,17.1140008594,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1451010092,17.1150608057,0 77.145094486,17.1150477418,0 77.14507483600001,17.1150015468,0 77.1451010867,17.1149881355,0 77.1451567508,17.1149989274,0 77.1452319445,17.1150454092,0 77.1452989047,17.1150884761,0 77.1453788009,17.1151480409,0 77.1454625195,17.1152233249,0 77.1456679021,17.1153480998,0 77.145871434,17.1154702675,0 77.1460529963,17.1155821616,0 77.14629879829999,17.1157380263,0 77.1464611224,17.1158396176,0 77.14649435840001,17.1158795396,0 77.1464873665,17.1159050042,0 77.1464427975,17.1159089791,0 77.1463720447,17.1158528199,0 77.14611165620001,17.1156953589,0 77.1458731977,17.1155446692,0 77.1455979326,17.1153602236,0 77.14533031240001,17.1152072158,0 77.1452074372,17.1151314713,0 77.1451010092,17.1150608057,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.14508473550001,17.1151502827,0 77.1450795327,17.1151332649,0 77.1450858,17.1151240054,0 77.1450998408,17.1151177278,0 77.1451167482,17.1151232396,0 77.1451425251,17.115147919,0 77.1452486033,17.1152277815,0 77.1453806829,17.1153121837,0 77.1455136679,17.1153961384,0 77.1456287951,17.1154710892,0 77.1457568335,17.1155603494,0 77.1459136747,17.1156602482,0 77.14608327169999,17.1157608872,0 77.1462195642,17.1158553127,0 77.1462773105,17.115888846,0 77.14631639869999,17.115923015,0 77.1463125229,17.1159423179,0 77.14629660609999,17.1159438,0 77.14623793440001,17.1159089632,0 77.1461488181,17.1158394278,0 77.14602880389999,17.1157750356,0 77.14590853369999,17.1156883198,0 77.14577886009999,17.1156152745,0 77.14565817499999,17.1155320651,0 77.1455251647,17.1154459219,0 77.145337205,17.1153319064,0 77.14516744319999,17.1152168221,0 77.14508473550001,17.1151502827,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>PLANTATION</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.143840062,17.1142629937,0 77.1438357871,17.1142581698,0 77.1438477845,17.1142004244,0 77.1438688523,17.1141977667,0 77.143944269,17.1142245596,0 77.1441337255,17.114334543,0 77.1442493229,17.1144063555,0 77.1443352933,17.1144703667,0 77.14439105949999,17.1145167229,0 77.14460432209999,17.1146397604,0 77.14452007840001,17.1146948814,0 77.14408503670001,17.1144308189,0 77.143840062,17.1142629937,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>PLANTATION</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.14243750519999,17.1136011498,0 77.1423840933,17.1135381749,0 77.14237547419999,17.1135067698,0 77.142385291,17.1134935196,0 77.1424253605,17.1134857007,0 77.1424881315,17.1134954437,0 77.14252365750001,17.1135136915,0 77.1425403378,17.1135277567,0 77.1425475953,17.1135397306,0 77.1425344933,17.1135894417,0 77.14249024350001,17.1136301706,0 77.14247739389999,17.1136272939,0 77.1424582257,17.1136198282,0 77.14243781819999,17.1136036114,0 77.14243750519999,17.1136011498,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>PLANTAITION</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1409462085,17.1145968768,0 77.14094658320001,17.1145300459,0 77.14116305429999,17.1144313497,0 77.1413002499,17.1143740264,0 77.141396121,17.1143393247,0 77.1414660768,17.1143048971,0 77.141551392,17.1142686637,0 77.14161478840001,17.1142334838,0 77.1416765168,17.1142018821,0 77.1417740462,17.1141627805,0 77.1418749617,17.1141209043,0 77.141960236,17.1140811107,0 77.1420187663,17.1140687144,0 77.1421035243,17.1140335822,0 77.142200196,17.1139942156,0 77.14223735509999,17.1139809499,0 77.14231485240001,17.1139335698,0 77.1423354346,17.1139152759,0 77.1424805159,17.1138751229,0 77.1425324967,17.1138877188,0 77.142523854,17.1139288924,0 77.1424939116,17.1139505721,0 77.14244402209999,17.1139713674,0 77.1423708546,17.113949136,0 77.14234902929999,17.1139334819,0 77.1423265352,17.1139589171,0 77.14228635950001,17.1139823483,0 77.1422336346,17.1140042691,0 77.14218939680001,17.1140211702,0 77.1421190781,17.1140487549,0 77.1420669728,17.1140750511,0 77.14206460769999,17.1141172538,0 77.1420564843,17.1141540398,0 77.14205092029999,17.1141656017,0 77.1420172471,17.1141599327,0 77.1420028262,17.1141442003,0 77.1419771958,17.1141444715,0 77.14196025299999,17.1141572494,0 77.1419303979,17.1141616736,0 77.1419169375,17.1141303197,0 77.1419074394,17.1141216561,0 77.1418408854,17.1141546784,0 77.141707696,17.1142136029,0 77.14169802630001,17.1142397239,0 77.1416958922,17.114252345,0 77.1416885255,17.1142557095,0 77.1416688003,17.1142493451,0 77.14165693619999,17.1142330378,0 77.14163456999999,17.1142447775,0 77.1415620543,17.1142795061,0 77.1415087346,17.114299242,0 77.1414833016,17.1143167656,0 77.14138322150001,17.1143569895,0 77.1413060772,17.1143854677,0 77.1412031805,17.1144284602,0 77.1411320886,17.1144631736,0 77.1410419569,17.1145016488,0 77.1409884556,17.1145304246,0 77.1409648472,17.1145580624,0 77.1409788805,17.1146146073,0 77.1409937582,17.1146204753,0 77.1410008534,17.1146680555,0 77.1410040458,17.1146981486,0 77.1409690927,17.1147050915,0 77.1409665387,17.114681017,0 77.1409710949,17.1146560457,0 77.1409687474,17.114625122,0 77.14096194050001,17.1146027357,0 77.1409493411,17.1145968437,0 77.1409462085,17.1145968768,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1404446234,17.1143708901,0 77.1404377761,17.114369867,0 77.140419337,17.1143514381,0 77.1404247695,17.1143283746,0 77.14049499470001,17.1142925751,0 77.14058800239999,17.1142565346,0 77.1406687178,17.1142414391,0 77.1407474806,17.1142548477,0 77.1407946737,17.114297074,0 77.1409082997,17.1143703676,0 77.1408641368,17.1143938407,0 77.1407874516,17.1143628818,0 77.1406578527,17.114287566,0 77.14055451759999,17.1143171426,0 77.1404446234,17.1143708901,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1504893198,17.1138474317,0 77.1504851816,17.1138561152,0 77.1504909838,17.113829972,0 77.1505042814,17.1138070094,0 77.150526007,17.1138093866,0 77.15054263090001,17.1138398558,0 77.1505580899,17.1139459737,0 77.1506317366,17.1142770785,0 77.15069457680001,17.1145528748,0 77.1507279665,17.11475889,0 77.1507427282,17.114878056,0 77.1507540867,17.1149666125,0 77.150760081,17.1150014328,0 77.1507717177,17.1150994408,0 77.1507840399,17.1151980936,0 77.1507777038,17.1152072895,0 77.15071929440001,17.1149040606,0 77.1506750034,17.1147082678,0 77.1506247829,17.114527535,0 77.1505999629,17.1143739178,0 77.1505430414,17.114141093,0 77.1504893198,17.1138474317,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.15084296000001,17.1157816933,0 77.1508730101,17.1160363208,0 77.15089444119999,17.1163079927,0 77.1508873054,17.1163361062,0 77.1508635755,17.1163363584,0 77.1508522364,17.1162347611,0 77.150839968,17.1160523209,0 77.15082566220001,17.1159285857,0 77.1508191816,17.1158367173,0 77.1508105061,17.1157898627,0 77.1508184771,17.1157754332,0 77.1508360901,17.1157739419,0 77.15084296000001,17.1157816933,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1508833858,17.1164375398,0 77.1508715528,17.1164699414,0 77.1508785162,17.1164268329,0 77.1509083107,17.116423256,0 77.1509374946,17.116425554,0 77.1509418024,17.1164463734,0 77.15097535530001,17.1167107441,0 77.1510104892,17.116994659,0 77.1510567751,17.1173638724,0 77.15109339279999,17.1176588562,0 77.15112907779999,17.1179316806,0 77.1511640999,17.1182058161,0 77.15113197709999,17.11821333,0 77.1511250242,17.1181393977,0 77.15111160950001,17.1180342362,0 77.15111077,17.1179612169,0 77.1510975165,17.1178700726,0 77.151084525,17.1177427373,0 77.15107707200001,17.1176547915,0 77.1510600071,17.1175565152,0 77.1510532059,17.1174662803,0 77.15103579629999,17.1173380139,0 77.1510189338,17.1172573405,0 77.15100151670001,17.1171284222,0 77.1509808558,17.1170122531,0 77.150916489,17.116662793,0 77.1509095343,17.1165591929,0 77.1508715678,17.1164712453,0 77.1508833858,17.1164375398,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.15086827899999,17.1164800828,0 77.15102087539999,17.1176474014,0 77.1510397519,17.1178147744,0 77.151060829,17.1179671272,0 77.1510765755,17.1180686776,0 77.1510778307,17.1181188712,0 77.15109942390001,17.1181391808,0 77.1511096336,17.1181720002,0 77.15110653630001,17.118256472,0 77.1510757245,17.1182600597,0 77.1510748316,17.1183298373,0 77.1511309982,17.1184378044,0 77.1511714128,17.1184732368,0 77.1511797159,17.1185171611,0 77.15120260819999,17.1186149112,0 77.15112048650001,17.1186146184,0 77.1510989436,17.1185692048,0 77.15106896429999,17.1184387899,0 77.1510386553,17.1182796889,0 77.1510177257,17.1180516983,0 77.1509996982,17.1179876642,0 77.15097654589999,17.1178317473,0 77.1509646577,17.1177118987,0 77.1509529249,17.1175760736,0 77.15093870290001,17.1174301683,0 77.150922698,17.1173061252,0 77.15091475219999,17.1171458084,0 77.15091398209999,17.1170788197,0 77.1509015876,17.1169886442,0 77.15089122889999,17.1168986101,0 77.1508872215,17.1168301888,0 77.1508808008,17.1167730407,0 77.1508651633,17.1166809436,0 77.15085932789999,17.1166009679,0 77.1508585767,17.1165651138,0 77.1508560844,17.1164810275,0 77.15086827899999,17.1164800828,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1511234753,17.1186145934,0 77.151145911,17.1186147895,0 77.151202793,17.1186146014,0 77.1512160769,17.1187607882,0 77.1512347963,17.1188964485,0 77.151275195,17.1192646375,0 77.1512251175,17.1192675087,0 77.1512019972,17.1192683929,0 77.15118034060001,17.1190285149,0 77.15113436590001,17.1188633862,0 77.1511234753,17.1186145934,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1465600125,17.1132969312,0 77.146561361,17.1132962649,0 77.1465612339,17.1132851815,0 77.1465833458,17.1132621256,0 77.14660031050001,17.1132632498,0 77.1466871679,17.1132688489,0 77.1468704345,17.113285162,0 77.1470327432,17.1133069137,0 77.147296192,17.1133380247,0 77.14751008029999,17.113363793,0 77.14758425799999,17.1133871313,0 77.1477670112,17.1134177939,0 77.14813770230001,17.1134581984,0 77.1483984768,17.1134925966,0 77.14857177579999,17.113526619,0 77.1489174713,17.1135751118,0 77.14932023030001,17.1136327786,0 77.1495843276,17.1136612715,0 77.1497705236,17.11369646,0 77.1500489038,17.1137287128,0 77.1503700273,17.1137631192,0 77.1504060357,17.113769257,0 77.1504157672,17.1137900188,0 77.1503895804,17.1138124664,0 77.15029053390001,17.1138083025,0 77.1501357201,17.1137897341,0 77.1498442708,17.1137413193,0 77.1495272003,17.1137055648,0 77.1491665588,17.1136546237,0 77.1487910391,17.1136071,0 77.1485893019,17.1135766399,0 77.1484154596,17.11355436,0 77.14835059399999,17.1135152742,0 77.1482813044,17.113504273,0 77.14803342659999,17.1134710419,0 77.1477679735,17.1134425612,0 77.1476029153,17.1134175792,0 77.1474417755,17.1133795147,0 77.1472054611,17.11334942,0 77.1470115262,17.1133488693,0 77.1468852556,17.1133358639,0 77.14668023359999,17.1133145652,0 77.1465600125,17.1132969312,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.14635308379999,17.1131093823,0 77.1463364235,17.1128982981,0 77.14632254750001,17.1126343692,0 77.1462924673,17.1123764805,0 77.14627501229999,17.1120369529,0 77.1462605058,17.1118362785,0 77.1463039641,17.111841686,0 77.1463197117,17.1121505859,0 77.14633741359999,17.1125116281,0 77.146365425,17.1128256142,0 77.1463777208,17.1130699986,0 77.14637761109999,17.1131195548,0 77.1463648265,17.1131281669,0 77.1463451648,17.1131283754,0 77.1463539786,17.1131282819,0 77.14635308379999,17.1131093823,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.14352089090001,17.111550375,0 77.14352151289999,17.1115454781,0 77.14352809109999,17.1115278033,0 77.14355106790001,17.1115210396,0 77.14362836559999,17.111520873,0 77.1438520407,17.1115132877,0 77.1443282752,17.1114743368,0 77.14475238670001,17.1114431096,0 77.14481018719999,17.1114574941,0 77.1452343059,17.1114269178,0 77.14558818330001,17.1114205587,0 77.14594472020001,17.1114096066,0 77.1461691848,17.1114117909,0 77.1461829987,17.1114338138,0 77.14596984400001,17.1114422682,0 77.14576581599999,17.1114483435,0 77.1455212808,17.1114698449,0 77.1453325184,17.111476736,0 77.1450848163,17.1114881638,0 77.1448921018,17.111505203,0 77.1446503483,17.1115032005,0 77.1444534537,17.1115105029,0 77.1443203157,17.1115194119,0 77.14409257280001,17.1115270409,0 77.1438649232,17.1115428191,0 77.1436308327,17.1115586652,0 77.1435319253,17.1115665591,0 77.14352089090001,17.111550375,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1454474808,17.1115681072,0 77.1454280041,17.111525279,0 77.1457105513,17.1115072869,0 77.1459348068,17.1114912166,0 77.14618425979999,17.1114846595,0 77.1462156115,17.111498672,0 77.1462131238,17.1115182595,0 77.14620045149999,17.111536651,0 77.1461494158,17.1115208912,0 77.1460842322,17.1115131058,0 77.1459840477,17.1115278609,0 77.1458744386,17.1115485841,0 77.1458395647,17.1115822079,0 77.1457497719,17.1115570782,0 77.1456859816,17.1115525382,0 77.1456114483,17.1115572405,0 77.1454962807,17.1115662858,0 77.1454617409,17.1115699121,0 77.1454468253,17.1115700702,0 77.1454474808,17.1115681072,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.14634157899999,17.1116036187,0 77.14634726520001,17.111596875,0 77.1463546782,17.1115928841,0 77.1463723058,17.1115926972,0 77.1463819919,17.1116095475,0 77.1463878767,17.1117679308,0 77.14640065579999,17.1119953571,0 77.1464131285,17.112196053,0 77.1464253868,17.1124371777,0 77.1464343375,17.1126855099,0 77.1464474285,17.1128809829,0 77.1464501328,17.113057657,0 77.1464599113,17.1131416664,0 77.14652109479999,17.1131553623,0 77.1468069245,17.1131868887,0 77.14704195,17.1132228659,0 77.1473014206,17.1132618437,0 77.1475329814,17.1132913366,0 77.1478127693,17.113328142,0 77.14810827070001,17.1133752128,0 77.148487135,17.1134187901,0 77.14883545239999,17.1134594307,0 77.1491906696,17.1135104301,0 77.1495730364,17.1135637487,0 77.1500055895,17.1136178374,0 77.15024057070001,17.113649899,0 77.15021239479999,17.1136762799,0 77.1498218469,17.1136191373,0 77.14941442430001,17.1135686935,0 77.1490225507,17.1135141715,0 77.148834083,17.113487809,0 77.1486792545,17.1134679355,0 77.1484636224,17.1134379488,0 77.1482731471,17.1134138892,0 77.1481415753,17.1133968656,0 77.14805874459999,17.1133876382,0 77.1479658481,17.1133728122,0 77.14786465749999,17.1133590522,0 77.14769393740001,17.1133429329,0 77.1474384973,17.1133006527,0 77.147088251,17.1132691586,0 77.1468708905,17.1132362543,0 77.1467465867,17.1132173596,0 77.1465273868,17.1132014274,0 77.1464452379,17.1131925181,0 77.1464212429,17.1131696251,0 77.14641062450001,17.1129532606,0 77.14641879529999,17.1128970986,0 77.14640656180001,17.1127172654,0 77.1463999241,17.1125523697,0 77.1463904125,17.1124324953,0 77.1463735678,17.1122644477,0 77.1463706791,17.1121308102,0 77.1463695576,17.1120330162,0 77.14636519840001,17.111830278,0 77.14634157899999,17.1116036187,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.13795577579999,17.1159832987,0 77.13822971890001,17.1158643408,0 77.1385844257,17.1156923656,0 77.1387380414,17.1156059766,0 77.1388543297,17.1155760577,0 77.13882245630001,17.1156350784,0 77.1385296939,17.1157685809,0 77.13826271000001,17.1159031147,0 77.13806698320001,17.1159834279,0 77.1379967987,17.1160128593,0 77.1379491597,17.1159977136,0 77.13795842819999,17.1159780544,0 77.13795577579999,17.1159832987,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1379610064,17.1158476186,0 77.1379433634,17.1158465009,0 77.13796063389999,17.1158150204,0 77.13810134560001,17.115786148,0 77.13823356349999,17.1157260672,0 77.1384774802,17.1155904731,0 77.13880803160001,17.1154409223,0 77.13885416550001,17.1154430429,0 77.1388126809,17.1154917324,0 77.13849966799999,17.1156332734,0 77.13815968359999,17.1157881398,0 77.1379610064,17.1158476186,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1390501824,17.1155068273,0 77.13899163550001,17.1153679091,0 77.13899057739999,17.1153346661,0 77.1390257589,17.1153277739,0 77.1390514038,17.1153764059,0 77.1390951464,17.1154659254,0 77.13908596740001,17.1154934082,0 77.1390569699,17.1155074076,0 77.1390501824,17.1155068273,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.15120026549999,17.1192684974,0 77.1512739042,17.1192643818,0 77.1512910432,17.1193919989,0 77.1513110123,17.1195036472,0 77.1513271589,17.1195973689,0 77.1513035783,17.1196434072,0 77.1513130459,17.1197853058,0 77.151320496,17.1199614216,0 77.1513404196,17.1201739189,0 77.15134132030001,17.1203570594,0 77.1513374824,17.1204950423,0 77.1513372406,17.1206312483,0 77.15133374360001,17.1207202523,0 77.1513273626,17.1207681363,0 77.1513229982,17.1208603373,0 77.1513295626,17.12101183,0 77.1513327265,17.1210772899,0 77.1513318834,17.1211874207,0 77.15131970420001,17.1211897237,0 77.1513110314,17.121143159,0 77.1513133974,17.1210737281,0 77.1513045042,17.1209555865,0 77.15130242239999,17.1208793927,0 77.15129409550001,17.1207842838,0 77.15129795910001,17.1207271532,0 77.1512885998,17.1206863917,0 77.1512909148,17.1205994288,0 77.1512864956,17.1205296353,0 77.15129305409999,17.1204185743,0 77.1512876962,17.1203719744,0 77.1512536904,17.1196687151,0 77.15122797070001,17.119528728,0 77.15120026549999,17.1192684974,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1533971651,17.1244229478,0 77.1533466514,17.1244201529,0 77.1533461132,17.1243995833,0 77.1533408422,17.1242559016,0 77.1533293029,17.1239604345,0 77.1533248894,17.1238126865,0 77.1533183775,17.1236397488,0 77.15332046570001,17.1235070009,0 77.1533161478,17.1233937374,0 77.15331327219999,17.123301034,0 77.1533127507,17.1232033789,0 77.15330757549999,17.1230941817,0 77.1533044464,17.1229794565,0 77.1533092856,17.1228762383,0 77.1533103375,17.1227843624,0 77.15330480439999,17.1226702425,0 77.1533051135,17.1225662031,0 77.1533064101,17.1224693981,0 77.15331073999999,17.1223742995,0 77.153303698,17.1222338244,0 77.1532961867,17.122104946,0 77.153288442,17.1219557845,0 77.1533504849,17.1219522261,0 77.1533602625,17.1224873717,0 77.1533832099,17.1237213602,0 77.1533919372,17.1240866975,0 77.1533931238,17.1241766659,0 77.1533971651,17.1244229478,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1532884537,17.1219567986,0 77.1532820077,17.1218942717,0 77.1531602858,17.1218973061,0 77.15300198830001,17.1218908766,0 77.1528387347,17.1218989895,0 77.1527637408,17.1219032651,0 77.1526984664,17.1219141025,0 77.15255458990001,17.1219037519,0 77.152395227,17.1219095047,0 77.1522662262,17.1219085588,0 77.15218116459999,17.1219022189,0 77.1521074793,17.121915464,0 77.1520069159,17.1218976971,0 77.151889604,17.1218911206,0 77.15184264139999,17.1218956773,0 77.1517285477,17.1218806624,0 77.15160657769999,17.1218883351,0 77.15144379,17.1218845604,0 77.15138570240001,17.1218651823,0 77.15135508500001,17.1218234877,0 77.1513338506,17.1217590894,0 77.1513206077,17.1217082264,0 77.1513160871,17.1216558217,0 77.151303047,17.1215701812,0 77.15129270040001,17.1214566919,0 77.1512766603,17.1213722425,0 77.1512810042,17.1212258501,0 77.1512862964,17.1211881205,0 77.1513617215,17.1211951429,0 77.1513659541,17.1212487099,0 77.1513576576,17.121365875,0 77.15135371460001,17.1214685042,0 77.1513591664,17.1215756701,0 77.1513656737,17.1216697841,0 77.1513947449,17.1217604704,0 77.15144726219999,17.1218196095,0 77.15151643599999,17.1218333635,0 77.1516017356,17.1218341951,0 77.15174998560001,17.1218317489,0 77.1521566368,17.1218397394,0 77.1523470178,17.1218319181,0 77.15253688280001,17.1218316367,0 77.15285269500001,17.1218288556,0 77.1530636338,17.1218266107,0 77.1532849383,17.1218346878,0 77.1533302262,17.1218417404,0 77.1533496198,17.1219032601,0 77.1533505213,17.1219521171,0 77.1532884537,17.1219567986,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1432588835,17.1168215146,0 77.1433899278,17.1165801757,0 77.14374540350001,17.1163573245,0 77.14403245299999,17.1161595406,0 77.14433936499999,17.1158015787,0 77.1446911714,17.1152588307,0 77.1447543462,17.1150912389,0 77.1449862872,17.1151339887,0 77.145063386,17.1151557756,0 77.1452060565,17.1153768262,0 77.1450325318,17.1154612573,0 77.1448427775,17.115628452,0 77.1447027727,17.1157977275,0 77.1445508091,17.1160279868,0 77.1444091976,17.1162937811,0 77.14428271209999,17.1164594356,0 77.14397855369999,17.1165843726,0 77.1437634805,17.1165936063,0 77.1434848925,17.1167408758,0 77.1432742914,17.116824829,0 77.1432588835,17.1168215146,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area131</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1443761509,17.1151063315,0 77.1444072205,17.1151351267,0 77.1443824528,17.1152223278,0 77.1443401592,17.115239729,0 77.1442689539,17.1152982978,0 77.1441773052,17.1153875116,0 77.1441208115,17.115428102,0 77.14403939819999,17.1154637401,0 77.1439402024,17.115486091,0 77.14387051600001,17.1155194313,0 77.1438200564,17.1155343108,0 77.1437622576,17.1156188189,0 77.1436532992,17.1157360364,0 77.14359728940001,17.1158583439,0 77.1435230502,17.1159678037,0 77.14345661820001,17.116048491,0 77.14338168179999,17.116097101,0 77.143356325,17.1160934574,0 77.1433657562,17.116048584,0 77.14342064020001,17.1159858415,0 77.1434911302,17.1159042418,0 77.1435735801,17.1158012155,0 77.143627798,17.1157197881,0 77.1436731501,17.115653669,0 77.14373307069999,17.115596524,0 77.14379955210001,17.1155201831,0 77.1438289509,17.1154820533,0 77.1439170547,17.1154385199,0 77.14399555190001,17.1153850904,0 77.1440750826,17.1153429519,0 77.14415590439999,17.1152951487,0 77.1442381171,17.1152503735,0 77.1442845871,17.1152029342,0 77.1443228612,17.1151503655,0 77.1443576588,17.1151100049,0 77.14438065100001,17.115104545,0 77.1443761509,17.1151063315,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>PROPOSED DUMP2022-23.kml</name>
+			<StyleMap id="area132">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#area133</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#area134</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="area133">
+				<LineStyle>
+					<color>ff7f55ff</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000005</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="area134">
+				<LineStyle>
+					<color>ff7f55ff</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000005</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Folder>
+				<name>Area Features</name>
+				<description>Area Features</description>
+				<Placemark>
+					<description>Proposed Dump 2022-23</description>
+					<styleUrl>#area132</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1448297694,17.1163922825,0 77.144887426,17.1164468512,0 77.1450020843,17.1165061,0 77.14504251290001,17.1165052738,0 77.1450454581,17.1165969046,0 77.1450465121,17.1166311202,0 77.14497334070001,17.1166308338,0 77.1446512978,17.1165954799,0 77.1443519515,17.1166250195,0 77.1443099225,17.1166267692,0 77.1442803181,17.1166277512,0 77.1442631787,17.1166283197,0 77.1442493352,17.1166222277,0 77.1442440245,17.1166171764,0 77.1442401266,17.1166052353,0 77.1442390639,17.1165997767,0 77.14424056599999,17.1165955963,0 77.1442455609,17.1165890239,0 77.1442966325,17.1165268507,0 77.1443546926,17.1164548655,0 77.1443768135,17.1164312895,0 77.1443954226,17.1164087348,0 77.14442372720001,17.1163701422,0 77.1444546818,17.1163272948,0 77.1447475832,17.1158382019,0 77.1448185699,17.1159889904,0 77.144805006,17.1160300478,0 77.1447475495,17.1161484904,0 77.1447415032,17.1162392226,0 77.1447382014,17.1162710624,0 77.1447976028,17.1163593687,0 77.1448297694,17.1163922825,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Proposed Dump 2022-23</description>
+					<styleUrl>#area132</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1503164503,17.1144999954,429.198 77.1503156477,17.1145344036,429.198 77.1503134506,17.1145652289,429.198 77.150309789,17.1145916341,429.198 77.1503047133,17.114612667,429.198 77.1502985071,17.1146277335,429.198 77.1502916013,17.1146376762,429.198 77.1502839385,17.114644167,429.198 77.1502745075,17.1146487008,429.198 77.1502621944,17.1146518443,429.198 77.1502466291,17.1146537577,429.198 77.15022793129999,17.1146547818,429.198 77.1502063591,17.1146554811,429.198 77.1501824294,17.1146563953,429.198 77.1501570603,17.1146575508,429.198 77.1501310359,17.1146588477,429.198 77.15010509770001,17.114660188,429.198 77.15007997879999,17.1146614749,429.198 77.15005644830001,17.1146626097,429.198 77.1500352753,17.1146634948,429.198 77.15001731709999,17.1146640318,429.198 77.1500035493,17.1146640747,429.198 77.14999445479999,17.1146633993,429.198 77.1499901638,17.114662316,429.198 77.14998902320001,17.1146616134,429.198 77.1499877319,17.1146599276,429.198 77.1499854764,17.1146543063,429.198 77.1499829604,17.114643814,429.198 77.1499803279,17.1146285991,429.198 77.1499773683,17.1146089437,429.198 77.1499740613,17.1145855,429.198 77.1499704224,17.1145588402,429.198 77.1499664557,17.1145294705,429.198 77.1499621673,17.1144979137,429.198 77.14995755619999,17.114464644,429.198 77.14995262479999,17.1144301608,429.198 77.1499473761,17.1143949663,429.198 77.1499418714,17.1143595924,429.198 77.1499363863,17.1143245556,429.198 77.14993123230001,17.1142902692,429.198 77.14992672219999,17.1142571769,429.198 77.1499231649,17.11422573,429.198 77.149920862,17.1141964028,429.198 77.1499200983,17.1141697067,429.198 77.14992111860001,17.1141461738,429.198 77.14992403399999,17.1141260798,429.198 77.1499286322,17.1141091352,429.198 77.14993464290001,17.1140949562,429.198 77.1499418516,17.1140831266,429.198 77.1499501401,17.1140732102,429.198 77.1499594762,17.1140648184,429.198 77.1499698563,17.1140576531,429.198 77.1499812225,17.1140515088,429.198 77.1499934169,17.114046267,429.198 77.1500064001,17.1140418642,429.198 77.1500202397,17.1140382154,429.198 77.1500350033,17.1140352333,429.198 77.1500507395,17.1140328292,429.198 77.1500674838,17.1140309095,429.198 77.150085264,17.1140293736,429.198 77.1501040449,17.1140281184,429.198 77.150123491,17.1140271696,429.198 77.150142996,17.1140270171,429.198 77.1501621102,17.1140282081,429.198 77.15018045150001,17.1140312275,429.198 77.1501977228,17.1140365089,429.198 77.15021379709999,17.1140445075,429.198 77.15022870849999,17.1140558439,429.198 77.15024251449999,17.1140714393,429.198 77.1502551685,17.114092292,429.198 77.1502665663,17.114118326,429.198 77.1502765881,17.1141488066,429.198 77.15028523399999,17.1141829393,429.198 77.1502925864,17.1142199666,429.198 77.1502987682,17.1142591616,429.198 77.1503039223,17.1142998195,429.198 77.1503082011,17.1143412395,429.198 77.15031170810001,17.1143826871,429.198 77.150314346,17.1144234277,429.198 77.1503159727,17.1144627635,429.198 77.1503164503,17.1144999954,429.198 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>PROPOSED MS-2.kml</name>
+			<Style id="area135">
+				<LineStyle>
+					<color>ffff5555</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf0000de</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="area136">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#area135</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#area137</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="area137">
+				<LineStyle>
+					<color>ffff5555</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf0000de</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Folder>
+				<name>Area Features</name>
+				<description>Area Features</description>
+				<Placemark>
+					<description>Proposed MS-2</description>
+					<styleUrl>#area136</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1416000175,17.1155696821,0 77.1417723309,17.1149498077,0 77.14309351590001,17.1151810732,0 77.1429413338,17.1158227849,0 77.1416000175,17.1155696821,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>PROPOSED PLANTATION.kml</name>
+			<Style id="area138">
+				<LineStyle>
+					<color>ff00ffaa</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000002</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="area139">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#area138</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#area140</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="area140">
+				<LineStyle>
+					<color>ff00ffaa</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000002</color>
+				</PolyStyle>
+			</Style>
+			<Folder>
+				<name>Area Features</name>
+				<description>Area Features</description>
+				<Placemark>
+					<description>Proposed Plantation  2022-23</description>
+					<styleUrl>#area139</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1391342964,17.1178777065,0 77.13727750450001,17.1177706237,0 77.137258738,17.1173867013,0 77.13910952099999,17.1173792449,0 77.1391342964,17.1178777065,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Proposed Plantation  2022-23</description>
+					<styleUrl>#area139</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.14034184259999,17.1190659117,0 77.13908760299999,17.1189745256,0 77.1390853856,17.1187753352,0 77.1403486098,17.1188678824,0 77.14034184259999,17.1190659117,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area139</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.15253062790001,17.1359689808,0 77.153214655,17.1361576946,0 77.15324236390001,17.1360953943,0 77.15347808680001,17.13615988,0 77.1535617542,17.1361819729,0 77.1535590762,17.1359937261,0 77.1535365096,17.1347415687,0 77.1535059771,17.133327628,0 77.1534832663,17.1322392959,0 77.1534730498,17.1316173623,0 77.1534582101,17.1310355781,0 77.1534455546,17.1303784605,0 77.1534310429,17.1294277018,0 77.15339677990001,17.1272697451,0 77.15339742650001,17.1270609236,0 77.1533920694,17.1268607239,0 77.15338786149999,17.126605741,0 77.1533838575,17.1264126179,0 77.1533812582,17.1262752289,0 77.1534338849,17.1262741795,0 77.1534397834,17.1264993138,0 77.1534475613,17.1269980388,0 77.1534571899,17.1275691201,0 77.1534663006,17.1280952163,0 77.15347928049999,17.1285156415,0 77.15348354619999,17.1289743035,0 77.1534942636,17.1294632165,0 77.1535017362,17.1298470233,0 77.1535101616,17.1301369266,0 77.1535154892,17.1304669632,0 77.153522365,17.1307989393,0 77.15355948760001,17.1327409593,0 77.1535654541,17.1330822365,0 77.1535717136,17.1334489401,0 77.1535803587,17.133848872,0 77.15358690710001,17.134215114,0 77.15362680210001,17.1362710125,0 77.1532148464,17.1361577537,0 77.15324077229999,17.1360970413,0 77.15348021139999,17.1361603464,0 77.153532759,17.1360124265,0 77.1526102111,17.1357542655,0 77.15253062790001,17.1359689808,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>ROAD.kml</name>
+			<Style id="line1">
+				<LineStyle>
+					<color>ff00aaff</color>
+					<width>2</width>
+				</LineStyle>
+			</Style>
+			<StyleMap id="line10">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#line1</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#line11</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="line11">
+				<LineStyle>
+					<color>ff00aaff</color>
+					<width>2</width>
+				</LineStyle>
+			</Style>
+			<Folder>
+				<name>Line Features</name>
+				<description>Line Features</description>
+				<Placemark>
+					<description>Unknown Line Type</description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							77.1365753071,17.114718403,0 77.1368723442,17.1151063919,0 77.1371211851,17.1154534818,0 77.1373150925,17.1155786493,0 77.1376535304,17.1157756258,0 77.1378263295,17.115869586,0 77.1379365658,17.1158913701,0 77.1381084476,17.1158596211,0 77.1382880135,17.1157739113,0 77.13856056580001,17.1156532946,0 77.1387845438,17.1155496542,0 77.138889427,17.1154662299,0 77.138906209,17.11539122,0 77.13891873839999,17.1152618767,0 77.1389644332,17.115174588,0 77.1390979838,17.1151028338,0 77.1393267208,17.1150071247,0 77.13949679389999,17.1149080445,0 77.1395429219,17.1148586662,0 77.1395831608,17.1147479876,0 77.1396967925,17.1145222887,0 77.1398268303,17.1143702511,0 77.14001159199999,17.114194686,0 77.140190391,17.1140421326,0 77.1403080134,17.113984016,0 77.1404453935,17.1139296815,0 77.1406264389,17.1138828671,0 77.1411072459,17.1137360982,0 77.14149992350001,17.1135952496,0 77.1416539482,17.1135447292,0 77.1419363572,17.1134699015,0 77.1422920859,17.1134551609,0 77.1426730108,17.1134660949,0 77.1430078548,17.1135303976,0 77.14305290039999,17.1135678357,0 77.14306035910001,17.1136755153,0 77.1430992849,17.1138127946,0 77.1433279755,17.1138492857,0 77.14354373889999,17.1139348038,0 77.1437555926,17.1140413161,0 77.1439408263,17.1141790409,0 77.1442971901,17.1144007601,0 77.14457837579999,17.1145813691,0 77.1449013472,17.1147864789,0 77.1453012531,17.1150047413,0 77.1456150488,17.1152239157,0 77.1459601298,17.1154567265,0 77.1462234525,17.1156175671,0 77.14666756539999,17.1158902345,0 77.1469779123,17.1161703066,0 77.147240298,17.1162493391,0 77.1478056304,17.1163251559,0 77.14818596950001,17.1163749978,0 77.1484983385,17.1164694621,0 77.148847347,17.1165016756,0 77.14942033840001,17.1165215319,0 77.1496737376,17.1165407908,0 77.14988687589999,17.1165878533,0 77.15000595150001,17.1167368135,0 77.15018391869999,17.1174153953,0 77.1503211216,17.1181582666,0 77.1504479737,17.1189032433,0 77.1504797316,17.1194995664,0 77.1504637187,17.1200924062,0 77.15051161869999,17.1206486473,0 77.1505530877,17.1211869969,0 77.1506068696,17.1217132425,0 77.1507151664,17.1224683933,0 77.1507961546,17.1230143046,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Line Type</description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							77.14661936029999,17.1158488398,0 77.14675108270001,17.1157536528,0 77.1469229619,17.1157218965,0 77.1472165895,17.1157656759,0 77.14740871319999,17.1157801003,0 77.1476753606,17.1158236665,0 77.14794930719999,17.1159155463,0 77.1481511177,17.1159602988,0 77.1483847925,17.1159787711,0 77.1487468177,17.1159699385,0 77.1491804292,17.1159603449,0 77.14957368189999,17.115960159,0 77.14992842140001,17.1159494061,0 77.15022432230001,17.1159652196,0 77.15039040000001,17.1159704392,0 77.15052560549999,17.1159979374,0 77.1505984532,17.1161069169,0 77.1506137697,17.1163561943,0 77.15064067660001,17.116711111,0 77.15069246669999,17.117154564,0 77.1507365527,17.1174693876,0 77.15078688689999,17.1177861404,0 77.15078612630001,17.118171284,0 77.1508466137,17.1187393643,0 77.1508904558,17.1193036305,0 77.1509465419,17.1198498067,0 77.15100155010001,17.1203022049,0 77.1510551721,17.1208144834,0 77.15109713450001,17.1212151367,0 77.1511918679,17.1216930541,0 77.15135898520001,17.1219686541,0 77.1516480117,17.1220174637,0 77.1521938373,17.1220196396,0 77.152762603,17.1220315474,0 77.1529973113,17.1220490048,0 77.15309149159999,17.1221178455,0 77.1531400975,17.1225543465,0 77.1531378995,17.123264774,0 77.1531456866,17.1239411714,0 77.1531180448,17.1244243807,0 77.15284452749999,17.1244612158,0 77.1516637493,17.1244677933,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Line Type</description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							77.13711757670001,17.1154555154,0 77.13712642350001,17.1155033149,0 77.1371582376,17.1155633438,0 77.1372835852,17.1156817521,0 77.1374615884,17.1158225528,0 77.1376153364,17.1159291866,0 77.1377190796,17.1160183886,0 77.1378103389,17.1161047292,0 77.1379063182,17.1162409083,0 77.13798689470001,17.1163912187,0 77.1380563611,17.1165680873,0 77.1381165187,17.1167021503,0 77.1382266358,17.1169404508,0 77.1383166417,17.117144042,0 77.1384292905,17.1173768279,0 77.1385570404,17.117614443,0 77.1386764164,17.1178456609,0 77.13877218659999,17.1180541797,0 77.1388963518,17.1182958234,0 77.13907998080001,17.1186560714,0 77.1392064071,17.1188912055,0 77.1392451891,17.1190160151,0 77.1392844331,17.1191585302,0 77.1393073274,17.1192550715,0 77.1393291074,17.1193675888,0 77.13936373689999,17.119514892,0 77.13937060160001,17.1196614911,0 77.1393688414,17.1198251434,0 77.1393583361,17.1199499753,0 77.13936550290001,17.1200776136,0 77.1393941897,17.1202269752,0 77.1394076447,17.1204054331,0 77.1393866449,17.1205652977,0 77.1393882309,17.1207039705,0 77.1394268489,17.1209051108,0 77.13942915299999,17.1210158385,0 77.1393303155,17.1210837341,0 77.1390220009,17.1210720276,0 77.1385516619,17.1210470671,0 77.13807426549999,17.1210401397,0 77.1377793816,17.1210233006,0 77.1375484762,17.1210207516,0 77.137272051,17.1209847592,0 77.1370159316,17.1209550373,0 77.1368596479,17.1209447149,0 77.1367111798,17.1209373031,0 77.13644809980001,17.1209340949,0 77.1362183287,17.1209400134,0 77.1359792483,17.1209485244,0 77.135637288,17.1209436535,0 77.13517352709999,17.1209495463,0 77.1346234124,17.1209353961,0 77.13401405650001,17.1209128894,0 77.1333234665,17.1208642976,0 77.1327802503,17.120818141,0 77.13250465839999,17.1207641732,0 77.1322228641,17.120712266,0 77.1318225082,17.1206366634,0 77.13141687389999,17.1205531335,0 77.1312638352,17.1205088483,0 77.1303003132,17.1203663372,0 77.12955990490001,17.120225464,0 77.1293084384,17.1201941865,0 77.1290550786,17.120178893,0 77.1287040669,17.1201536511,0 77.12811111950001,17.1201139915,0 77.127550619,17.1200989332,0 77.1273723466,17.1201167721,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Line Type</description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							77.1395725152,17.1147768795,0 77.1395850494,17.1145501604,0 77.1396062999,17.1144122439,0 77.1396891719,17.1142187988,0 77.1398738538,17.1140362504,0 77.14016493939999,17.113812666,0 77.1402582547,17.1137158936,0 77.1404322413,17.1135055205,0 77.1405650821,17.1133265131,0 77.1406721913,17.1131657376,0 77.1407582769,17.1129812381,0 77.1407918268,17.1127394238,0 77.14084569249999,17.1124594796,0 77.140917057,17.1120765803,0 77.1409863475,17.1117844996,0 77.1410396453,17.1117270632,0 77.14116166700001,17.1116908506,0 77.14163870759999,17.1116688416,0 77.14211671690001,17.1116408346,0 77.1423566342,17.1116612439,0 77.1424686484,17.1117408149,0 77.1424998846,17.1117956108,0 77.1425691698,17.1118276166,0 77.1427554017,17.1118715423,0 77.1428597995,17.1119273097,0 77.14290190360001,17.1119797454,0 77.142752855,17.1127366316,0 77.142773949,17.1128571379,0 77.142753312,17.1130484284,0 77.14267304329999,17.1134660945,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Line Type</description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							77.1425182813,17.1134550114,0 77.1425752111,17.1131710435,0 77.14262425219999,17.1129230785,0 77.142660322,17.112810947,0 77.142754947,17.1127381061,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Line Type</description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							77.14381616919999,17.1140758456,0 77.1439218268,17.1138791646,0 77.1440554445,17.1136776973,0 77.14416296650001,17.113507936,0 77.1442321774,17.1133904643,0 77.1443316837,17.1132003338,0 77.1444042327,17.1130119854,0 77.1444366517,17.1128529974,0 77.1444336622,17.112773208,0 77.1444811316,17.1126599577,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Line Type</description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							77.1435061403,17.1127810378,0 77.1437518381,17.1127624713,0 77.1441034265,17.1127487693,0 77.14432029210001,17.112749465,0 77.14439117160001,17.1127776492,0 77.14442945010001,17.112888089,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Line Type</description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							77.1407897382,17.1145069885,0 77.1411841388,17.1143351914,0 77.14165697609999,17.114126644,0 77.141894409,17.1140203636,0 77.14235091899999,17.1138359339,0 77.1425662803,17.113795739,0 77.1428249227,17.1139107369,0 77.1431918745,17.114060507,0 77.14338370750001,17.1141402921,0 77.1437944856,17.1143115477,0 77.1443584285,17.1146288486,0 77.1447016578,17.1147908402,0 77.14495982539999,17.1149547306,0 77.1452719574,17.1152098428,0 77.14537018999999,17.1152706627,0 77.1457798581,17.1155257377,0 77.1461278007,17.115736567,0 77.1465008497,17.1159650891,0 77.1466497179,17.1160982079,0 77.14667427089999,17.1162486096,0 77.1466302851,17.1164845482,0 77.1466393755,17.1168246888,0 77.1466523372,17.1170500457,0 77.146651721,17.1175389559,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Line Type</description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							77.1424699481,17.1117410506,0 77.1426431878,17.1117377201,0 77.142733635,17.1117375733,0 77.14297380159999,17.1116891335,0 77.1432576216,17.1116472155,0 77.1434044847,17.1116057497,0 77.1436053987,17.1115726913,0 77.14402952730001,17.111551237,0 77.1444526869,17.1115357788,0 77.1447929521,17.1115301779,0 77.14523158190001,17.111506572,0 77.1455136803,17.1114955998,0 77.1458319412,17.111471273,0 77.1461586617,17.1114608246,0 77.1462543256,17.1114787677,0 77.14630499330001,17.1115540605,0 77.146324781,17.1117414301,0 77.1463450186,17.1120585042,0 77.14636880339999,17.1124134557,0 77.14638285860001,17.1126437899,0 77.1463893614,17.1130298553,0 77.1464085774,17.1131673428,0 77.1464391104,17.1132059317,0 77.1465005844,17.1132282283,0 77.146708319,17.113246978,0 77.1471384961,17.1133002849,0 77.1475758326,17.1133445351,0 77.14787829789999,17.1133902157,0 77.14848924739999,17.1134635518,0 77.1490680814,17.1135412182,0 77.14957312910001,17.1136086912,0 77.1501539583,17.1136793488,0 77.150441957,17.1137301679,0 77.15052964349999,17.1137761309,0 77.15055818259999,17.1138217247,0 77.15060827950001,17.1140277288,0 77.1506666479,17.1143214479,0 77.1507529771,17.1147006773,0 77.1508516821,17.1151635869,0 77.1509436469,17.1155816688,0 77.1510173671,17.1159470632,0 77.1511045979,17.1163143095,0 77.1511680399,17.1164174021,0 77.15124871259999,17.1165751884,0 77.15128931860001,17.116677526,0 77.1512961131,17.1169977347,0 77.15130799329999,17.1174895041,0 77.1513230664,17.1179882239,0 77.1513374809,17.1185198767,0 77.1513550048,17.1193218893,0 77.1513873362,17.1202384868,0 77.1514101588,17.1211402188,0 77.151402418,17.1214595842,0 77.15141575840001,17.121627066,0 77.151441944,17.1217385366,0 77.1515089302,17.1217887099,0 77.1515837461,17.1217978918,0 77.15228101389999,17.1217954635,0 77.15282989390001,17.1217926164,0 77.1532699035,17.1217969133,0 77.1533718326,17.121817779,0 77.1533953356,17.1218763966,0 77.1534161245,17.1226005479,0 77.1534140728,17.1231433504,0 77.1534283461,17.1236620328,0 77.1534523025,17.1244809373,0 77.1534723967,17.1253248268,0 77.1534663356,17.1264204298,0 77.15350197479999,17.1271723599,0 77.1534997964,17.1280643787,0 77.1535199133,17.1283694785,0 77.1534853186,17.1284741125,0 77.1533728942,17.1286234767,0 77.15334530369999,17.1287055867,0 77.1533783377,17.1288708628,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Line Type</description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							77.14256524290001,17.1137957499,0 77.1425630328,17.1138745968,0 77.1425543228,17.1141560588,0 77.14247226480001,17.1144203375,0 77.1423753964,17.1146598288,0 77.14223958300001,17.1149416385,0 77.14220680610001,17.1149789028,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Line Type</description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							77.14267299460001,17.113466095,0 77.1425677309,17.1136505488,0 77.14256526,17.1137972464,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Line Type</description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							77.1425647298,17.1137962543,0 77.14264939749999,17.1137599372,0 77.1426509594,17.1137604196,0 77.1428326436,17.1137694714,0 77.1431018872,17.1138135154,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Line Type</description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							77.14665207109999,17.1175341504,0 77.14665597760001,17.117693751,0 77.1465835524,17.1180736691,0 77.14660196929999,17.118412713,0 77.1466883975,17.1190723148,0 77.1467957743,17.1195680611,0 77.1468774642,17.1198146394,0 77.14691358669999,17.1198880904,0 77.1470000148,17.1199146118,0 77.1471646465,17.1198839295,0 77.1474014114,17.1198095778,0 77.1476629444,17.1197234886,0 77.1480299559,17.1196512457,0 77.1487344693,17.119467161,0 77.14894441200001,17.1194968596,0 77.149068442,17.1196352287,0 77.14915200359999,17.1198638262,0 77.1492724332,17.1205919101,0 77.1493453678,17.1213404536,0 77.14940328500001,17.1220462528,0 77.1494722087,17.1226262172,0 77.149603946,17.1230738096,0 77.14981702519999,17.1239176459,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Line Type</description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							77.1496329453,17.1231593088,0 77.14967184930001,17.1230232,0 77.14969475469999,17.1228493462,0 77.14967213520001,17.1226869517,0 77.1496371802,17.1225346658,0 77.1496369395,17.1225137153,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Line Type</description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							77.14963585610001,17.1225097358,0 77.14961613120001,17.1221477583,0 77.1495975702,17.1217967438,0 77.1496023847,17.1211321841,0 77.1495162539,17.1206801159,0 77.14945196310001,17.1201420082,0 77.1493984487,17.1198193022,0 77.1493372421,17.1195495592,0 77.149300729,17.1194421889,0 77.149207526,17.1192775507,0 77.1491675508,17.1192300828,0 77.14894979579999,17.1191525748,0 77.1488511986,17.1191506287,0 77.1486573116,17.1191636632,0 77.1483172791,17.1192810188,0 77.1477882416,17.1194752125,0 77.14731285560001,17.1196428937,0 77.1471085469,17.1196520463,0 77.1470303446,17.1196189523,0 77.14694367760001,17.119481183,0 77.1469014173,17.1193249828,0 77.14684823970001,17.1190312072,0 77.1468315881,17.1186652051,0 77.1468095245,17.1183701015,0 77.1468550285,17.1181760528,0 77.1469067804,17.1179839333,0 77.1470742396,17.1177476823,0 77.1471495488,17.1176191696,0 77.1471323792,17.1173888687,0 77.1471305588,17.1172302438,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Line Type</description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							77.1484898777,17.1192213159,0 77.148589399,17.1190326799,0 77.1489277684,17.118951261,0 77.1494825969,17.118834616,0 77.1497603032,17.1188017327,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Line Type</description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							77.15053141049999,17.1208908303,0 77.1503825348,17.1205771205,0 77.1503068344,17.1199493361,0 77.150213388,17.1192219641,0 77.1500761268,17.1182935099,0 77.14997748970001,17.1176559912,0 77.1498937108,17.1172278442,0 77.14977858970001,17.1169616674,0 77.1496116743,17.1168836198,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Line Type</description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							77.1527407507,17.1233432716,0 77.15275128,17.1229959395,0 77.1527218553,17.1226031356,0 77.15267672420001,17.1223332233,0 77.1525662958,17.1222500877,0 77.1523747497,17.1221962513,0 77.15194931009999,17.1221957887,0 77.1514753365,17.1222157965,0 77.1512457859,17.1221054909,0 77.1510750233,17.1218738309,0 77.15091247949999,17.1214545045,0 77.1508556813,17.1208464748,0 77.150762599,17.1201510279,0 77.1506838257,17.1196170659,0 77.1506411081,17.1191505681,0 77.1506149449,17.1186799034,0 77.1506114693,17.1181970243,0 77.1506146273,17.1181106845,0 77.1505264959,17.1176651234,0 77.1504051597,17.1172194163,0 77.1503153386,17.1168072979,0 77.15024546550001,17.1165057189,0 77.1501678946,17.1163469015,0 77.1500769339,17.1162870046,0 77.1497479017,17.1162775294,0 77.1488943824,17.1163155302,0 77.1481769336,17.1163660515,0 77.1481478953,17.1163673575,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Line Type</description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							77.15078486829999,17.118116857,0 77.1507282013,17.1180615848,0 77.15069378050001,17.1180459865,0 77.1506556225,17.1180663473,0 77.1506167711,17.1181166483,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Line Type</description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							77.150571298,17.1178617049,0 77.1506008066,17.1179013017,0 77.1506342931,17.1179258898,0 77.1506738555,17.1179374424,0 77.1507008304,17.1179371557,0 77.1507339155,17.1179268264,0 77.150764811,17.1179065428,0 77.1507900603,17.1178464088,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Line Type</description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							77.1513216828,17.1180131202,0 77.1512966083,17.1180433196,0 77.15127087739999,17.1180615529,0 77.1512278615,17.1180655024,0 77.151184149,17.118053994,0 77.15117065840001,17.1180087393,0 77.15113370829999,17.1177731619,0 77.15110610150001,17.117537984,0 77.15108275679999,17.1173576376,0 77.15106484890001,17.117153786,0 77.15103229,17.1169391148,0 77.15100643469999,17.1167208802,0 77.1509812818,17.1165186022,0 77.15099581760001,17.1164291481,0 77.1510261368,17.1164038818,0 77.1510762771,17.1163878836,0 77.1511373396,17.1163742636,0 77.15114303430001,17.1163732053,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Line Type</description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							77.1509655782,17.1156941202,0 77.15089362489999,17.1156629567,0 77.15080425239999,17.1156509357,0 77.1507257592,17.1156827005,0 77.1506784593,17.1157201204,0 77.1506655628,17.1158619394,0 77.15071899100001,17.1160868655,0 77.1507168877,17.1161746907,0 77.1506776696,17.1161930672,0 77.1506201438,17.1162435667,0 77.1506144234,17.1162875289,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Line Type</description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							77.14305147509999,17.1135665412,0 77.1430702732,17.113486521,0 77.1431147568,17.1133842779,0 77.1431596859,17.113320943,0 77.14322873970001,17.1132803011,0 77.14334558580001,17.1132451397,0 77.1434854848,17.1132296894,0 77.1437023397,17.1132293881,0 77.14385090410001,17.1132457742,0 77.14392489620001,17.1132739256,0 77.1439337332,17.1133207269,0 77.1439257191,17.1133457559,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Line Type</description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							77.1463284626,17.1156729482,0 77.14679013360001,17.1156043159,0 77.1471636867,17.1156018012,0 77.1475739202,17.1156452494,0 77.1478853933,17.1157462376,0 77.1482187779,17.1157876031,0 77.1487960499,17.1158162387,0 77.14958233340001,17.1158122335,0 77.15041683139999,17.1158091614,0 77.1506204671,17.1158330708,0 77.1506751395,17.1158715999,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>WORKING 2022-23.kml</name>
+			<Style id="area141">
+				<LineStyle>
+					<width>3</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000000</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="area142">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#area141</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#area143</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="area143">
+				<LineStyle>
+					<width>3</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000000</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Folder>
+				<name>Area Features</name>
+				<description>Area Features</description>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area142</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.15001760689999,17.1169689358,0 77.15009772160001,17.1175623709,0 77.149875384,17.1173188802,0 77.1498125247,17.1168532559,0 77.14961846440001,17.1168832464,0 77.1495791673,17.116889979,0 77.1495013843,17.1169255411,0 77.1494455303,17.1169510772,0 77.1494031089,17.116970472,0 77.14936068740001,17.1169898669,0 77.1493445551,17.1169908702,0 77.1492976808,17.1169937855,0 77.1491295877,17.1170042397,0 77.1490164234,17.1170110914,0 77.148944797,17.1170147458,0 77.1488287982,17.1170206642,0 77.1487349856,17.1170254506,0 77.1485942667,17.1170326301,0 77.148532041,17.1170363859,0 77.14836031740001,17.1170521428,0 77.1483019642,17.1170574971,0 77.14816462970001,17.1170700984,0 77.1481087386,17.1170748798,0 77.1480183522,17.1170826121,0 77.14792412289999,17.1170906731,0 77.1478761943,17.1170947732,0 77.1478214867,17.1170994532,0 77.147752195,17.1171053808,0 77.1476805921,17.1171115061,0 77.14763004149999,17.1171158305,0 77.1475603027,17.1171422025,0 77.1475131902,17.1171600183,0 77.1474734208,17.1171750572,0 77.1474112211,17.1171985783,0 77.14738514450001,17.1172084392,0 77.14729742599999,17.1172416102,0 77.1472142457,17.117273065,0 77.14718630679999,17.1170236604,0 77.14716991349999,17.116945666,0 77.14715935309999,17.1167128606,0 77.1473530385,17.1167143708,0 77.1476657513,17.1167168086,0 77.1479592445,17.1167190961,0 77.14805848109999,17.1167198695,0 77.148197033,17.1167209492,0 77.1483777123,17.116722357,0 77.148424267,17.1167227198,0 77.1486678517,17.1167065635,0 77.1489071263,17.1166894441,0 77.1491868236,17.1166913941,0 77.1497894339,17.1166955939,0 77.1499781573,17.116687588,0 77.15001760689999,17.1169689358,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area142</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1492347593,17.116582062,0 77.1489579853,17.1165983407,0 77.1486039191,17.1166240062,0 77.1484879546,17.1166707056,0 77.1483719901,17.116717405,0 77.1480878878,17.1167093301,0 77.1478789187,17.116714918,0 77.14774725540001,17.1167241332,0 77.1476793483,17.116728886,0 77.1475582055,17.1167695575,0 77.14743706270001,17.1168102289,0 77.1472392915,17.1168472088,0 77.14706751120001,17.1168793287,0 77.1469747448,17.1168966743,0 77.14696381909999,17.1165306576,0 77.1475819647,17.1165354773,0 77.1480285145,17.1165389579,0 77.1484185552,17.1165419972,0 77.1491615444,17.116524731,0 77.1494734879,17.1164803154,0 77.150116603,17.1163023278,0 77.1501818247,17.1166482375,0 77.15008899030001,17.1165137454,0 77.1498165129,17.1165246951,0 77.1492347593,17.116582062,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area142</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.14935753410001,17.1163152604,0 77.1491689985,17.1163551918,0 77.1489217566,17.1163677514,0 77.1488076569,17.1163747704,0 77.1486621418,17.1163837219,0 77.14842817100001,17.1163520526,0 77.1481926534,17.1165093778,0 77.1480454034,17.1165149471,0 77.1479129789,17.1165311023,0 77.1477859867,17.1165167168,0 77.14770537770001,17.1165071838,0 77.14755079379999,17.1164828991,0 77.1474931372,17.1165039475,0 77.14735188900001,17.1165350253,0 77.1471491791,17.1165321031,0 77.1470031839,17.1164570023,0 77.1469011164,17.1165400178,0 77.14681032110001,17.1165287034,0 77.1468008602,17.1163670264,0 77.14684799530001,17.1162975635,0 77.1470460341,17.116282729,0 77.14789803710001,17.1162498149,0 77.14817975690001,17.1162575393,0 77.14833785419999,17.1162468772,0 77.1483402244,17.1162244085,0 77.1484902107,17.1162390382,0 77.1487453969,17.1162204235,0 77.1493415087,17.116166562,0 77.1498203238,17.1161601182,0 77.1498118156,17.1162082331,0 77.149760997,17.1162101483,0 77.14947128430001,17.1162911683,0 77.14935753410001,17.1163152604,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area142</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.14912364280001,17.1185138947,0 77.1478110048,17.1185168653,0 77.1478084054,17.1182904414,0 77.1480616306,17.1182673146,0 77.148204799,17.1182382973,0 77.1482709129,17.1182221035,0 77.14838176310001,17.1181879991,0 77.1484869052,17.118157195,0 77.14858544489999,17.1181302365,0 77.1486744665,17.1181027265,0 77.1486411592,17.1180025104,0 77.1486105969,17.1179050231,0 77.1485860809,17.1178268223,0 77.1485627033,17.1177522526,0 77.148546243,17.1176997476,0 77.1484872465,17.1176413716,0 77.1488758893,17.117637769,0 77.1491107383,17.1176352747,0 77.14912364280001,17.1185138947,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area142</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1505539221,17.1211146519,0 77.1505682941,17.1212313865,0 77.1505719637,17.121350226,0 77.1505807324,17.1216155279,0 77.1505883339,17.1217348647,0 77.1505918559,17.1217901586,0 77.15059354349999,17.1218166523,0 77.15062467910001,17.1223054525,0 77.1506384959,17.1225223618,0 77.1509281392,17.1225151711,0 77.15295340340001,17.1224936267,0 77.15296095950001,17.1228949224,0 77.1498686514,17.1229278105,0 77.14985795440001,17.1228345167,0 77.1498524308,17.1227654915,0 77.14985927550001,17.1223135883,0 77.14980843719999,17.121824997,0 77.1497820181,17.1215710895,0 77.14973978880001,17.1211171877,0 77.14983230750001,17.120958753,0 77.1498076898,17.1208122425,0 77.1497681212,17.1206567191,0 77.1497285327,17.1205011171,0 77.1496812515,17.1202833372,0 77.1496338764,17.1200620165,0 77.1495785164,17.1198087415,0 77.1495645339,17.1197427859,0 77.14950051,17.1194498719,0 77.1493998463,17.1193215984,0 77.1491985025,17.1190690307,0 77.149120251,17.1189782774,0 77.15004010680001,17.118631234,0 77.1501546132,17.1190196923,0 77.1503916894,17.1199737432,0 77.1504434687,17.1203146955,0 77.1504753967,17.1205249319,0 77.1504996363,17.1206880148,0 77.1505121478,17.1207753421,0 77.1505268004,17.1208943573,0 77.1505337831,17.1209510741,0 77.1505539221,17.1211146519,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area142</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.15308831909999,17.1236705019,0 77.14976882320001,17.1237058079,0 77.14966949780001,17.1228395478,0 77.1496845851,17.1225747451,0 77.1497556061,17.1225861402,0 77.14982666020001,17.1225923326,0 77.1499257342,17.122601571,0 77.1500877094,17.1226094861,0 77.15014877279999,17.1226115852,0 77.1501877641,17.1226381429,0 77.15027409139999,17.1226926042,0 77.15030149490001,17.122695167,0 77.1503769812,17.1227012083,0 77.1504110059,17.1227039179,0 77.1505095158,17.1227121308,0 77.150514122,17.1227122174,0 77.15057147989999,17.1227132197,0 77.15065868390001,17.1227147721,0 77.1507903758,17.1227168931,0 77.15081521659999,17.1227170013,0 77.15084843299999,17.1227035139,0 77.1509397856,17.1226653294,0 77.150941074,17.1225207677,0 77.1509411956,17.1225065655,0 77.1509277058,17.1223344929,0 77.15306273429999,17.1223117805,0 77.15308831909999,17.1236705019,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area142</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1532140251,17.1243581984,0 77.1496589281,17.1243960117,0 77.1494760323,17.1228008936,0 77.1494996883,17.1228665787,0 77.1495137575,17.1228908048,0 77.1496681166,17.1229748059,0 77.14986105520001,17.123082471,0 77.14991897580001,17.1231152851,0 77.1500430423,17.1231673249,0 77.1502630287,17.1232538614,0 77.1502725085,17.1232538535,0 77.15050970270001,17.123250556,0 77.15074695289999,17.1232465244,0 77.1508201279,17.1232451283,0 77.150860521,17.1232440892,0 77.15090760219999,17.1232421715,0 77.1509363641,17.1232404993,0 77.1510588707,17.1232337544,0 77.1511582107,17.123228428,0 77.1512353988,17.1232243386,0 77.1512704763,17.1232221399,0 77.1513022613,17.1232201901,0 77.15133729030001,17.1232203878,0 77.1514602572,17.1232209941,0 77.151670396,17.1232206522,0 77.1517747346,17.123220377,0 77.15193673580001,17.1232206229,0 77.15211445840001,17.1232203643,0 77.1522230265,17.1232202088,0 77.1522946945,17.1232198666,0 77.1523581635,17.1232194167,0 77.1524783022,17.1231978144,0 77.1525499721,17.1231835358,0 77.15254927709999,17.1231015943,0 77.1525505363,17.1229420412,0 77.15254417520001,17.122817388,0 77.15254159369999,17.1226705102,0 77.1525415692,17.1225431611,0 77.1525390014,17.1224797449,0 77.1525254515,17.1224086703,0 77.1525120758,17.1223270108,0 77.1525074499,17.1223008466,0 77.15250528910001,17.1222601146,0 77.1524965835,17.1221371227,0 77.15317206500001,17.1221299342,0 77.1532140251,17.1243581984,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<description>Unknown Area Type</description>
+					<styleUrl>#area142</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.15332776610001,17.1245352292,0 77.14949053549999,17.1245760432,0 77.14930753909999,17.1229800375,0 77.149320636,17.1229974818,0 77.1493567209,17.1230376419,0 77.1493780385,17.1230560254,0 77.14940782150001,17.1230654084,0 77.1495463956,17.1231068882,0 77.1495936394,17.1231488623,0 77.14972511400001,17.1232658346,0 77.149811923,17.1233126632,0 77.14997626909999,17.1234006392,0 77.14998345719999,17.1233997094,0 77.15004873700001,17.1233910257,0 77.1501722327,17.1233744328,0 77.150342139,17.1234860498,0 77.1504748827,17.1235702721,0 77.1507604751,17.123552143,0 77.1509310786,17.1235377241,0 77.1510015851,17.1235316026,0 77.15155792269999,17.1234777071,0 77.1519412171,17.1234385368,0 77.15206514330001,17.1234227486,0 77.1523833072,17.1234390697,0 77.1526910115,17.1233556137,0 77.1528531365,17.1233085485,0 77.15294875959999,17.1232844922,0 77.1530051191,17.1232798843,0 77.1530511846,17.1232760682,0 77.1532089162,17.1232624881,0 77.1532109648,17.12304648,0 77.1532115843,17.1230245674,0 77.1532111547,17.1229734051,0 77.15320934490001,17.1229199286,0 77.1532062287,17.1228548837,0 77.15320264410001,17.1227558203,0 77.1532006549,17.1226696072,0 77.1532003211,17.1226158596,0 77.15320185989999,17.1225205082,0 77.1532018688,17.12245763,0 77.1532040453,17.1223824308,0 77.1532073425,17.1223067078,0 77.1532086541,17.1221834271,0 77.153183884,17.121974791,0 77.1531759192,17.1219347176,0 77.1528543954,17.1219167801,0 77.15328077860001,17.1219152477,0 77.15332776610001,17.1245352292,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>RWHP-1.kml</name>
+			<Style id="area144">
+				<LineStyle>
+					<color>ffffff00</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000007</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="area145">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#area144</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#area146</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="area146">
+				<LineStyle>
+					<color>ffffff00</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000007</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Folder>
+				<name>Area Features</name>
+				<description>Area Features</description>
+				<Placemark>
+					<description>RWHP-1</description>
+					<styleUrl>#area145</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1460383787,17.1137971982,0 77.14559011190001,17.1136589098,0 77.1457023343,17.1131858877,0 77.1459541455,17.1132221773,0 77.1462214995,17.1132834052,0 77.1460383787,17.1137971982,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>RWHP-2.kml</name>
+			<Style id="area147">
+				<LineStyle>
+					<color>ffffff00</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000007</color>
+				</PolyStyle>
+			</Style>
+			<Style id="area148">
+				<LineStyle>
+					<color>ffffff00</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>bf000007</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="area149">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#area147</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#area148</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Folder>
+				<name>Area Features</name>
+				<description>Area Features</description>
+				<Placemark>
+					<description>RWHP-2</description>
+					<styleUrl>#area149</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									77.1478858533,17.1151221347,0 77.1477138687,17.1151545605,0 77.14752382819999,17.1151756357,0 77.1475071582,17.1150676741,0 77.14748982339999,17.1149783575,0 77.14768239430001,17.1149378376,0 77.1478332952,17.1149284679,0 77.1479063148,17.1150260079,0 77.1478858533,17.1151221347,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>100 M BUFFER.kml</name>
+			<StyleMap id="line12">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#line14</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#line13</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="line13">
+				<LineStyle>
+					<color>ff7f55aa</color>
+					<width>5</width>
+				</LineStyle>
+			</Style>
+			<Style id="line14">
+				<LineStyle>
+					<color>ff7f55aa</color>
+					<width>5</width>
+				</LineStyle>
+			</Style>
+			<Folder>
+				<name>Line Features</name>
+				<description>Line Features</description>
+				<Placemark>
+					<description>100M BUFFER</description>
+					<styleUrl>#line12</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+							77.1252925446,17.1303868293,0 77.1448500286,17.1342150631,0 77.14735574469999,17.1347191815,0 77.1501259138,17.1362502409,0 77.15458993830001,17.1374744634,0 77.15426772329999,17.1207536984,0 77.1524309583,17.1207479652,0 77.15143915269999,17.1128952403,0 77.1473599198,17.1123398234,0 77.14726262640001,17.1104747984,0 77.13916126060001,17.1106673704,0 77.1376302182,17.1145373669,0 77.12865220170001,17.114297325,0 77.1277104589,17.1197380596,0 77.1276767259,17.1197344659,0 77.1252925446,17.1303868293,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+			</Folder>
+		</Document>
+	</Folder>
+</Folder>
+</kml>

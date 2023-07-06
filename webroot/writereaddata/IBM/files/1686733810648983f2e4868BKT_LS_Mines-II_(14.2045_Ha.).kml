@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>BKT LS Mines-II (14.2045 Ha.).kml</name>
+	<StyleMap id="msn_ylw-pushpin51">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin040</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin040">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>14 Ha. boundary</name>
+		<description>Mines Name - Babarkot Limestone Mine - II (ML Area - 14.2045 Ha.)
+
+Lessee - M/s. UltraTech Cement Limited (Unit: Narmada Cement - Jafarabad Works)
+At &amp; Village - Babarkot, Taluka - Jafarabad, Dist. - Amreli, Gujarat.
+</description>
+		<styleUrl>#msn_ylw-pushpin51</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						71.4039981940296,20.87816771192639,0 71.40414257317134,20.87828581513954,0 71.40496958940244,20.87871475683418,0 71.40513606522413,20.87860827567634,0 71.40547355313815,20.87864368590112,0 71.40572086484859,20.87844332646857,0 71.4056141460416,20.87817062865186,0 71.4056440846759,20.87803092519301,0 71.40572747165814,20.87783707101556,0 71.40589234168964,20.87783703151046,0 71.40608506414245,20.87794851232438,0 71.40616869918553,20.87764041164837,0 71.40627940650393,20.87742024762098,0 71.40672261451913,20.87744723575679,0 71.40719821704626,20.87736655626425,0 71.40725515229109,20.87756487347989,0 71.40724606256582,20.87799904484007,0 71.40724955139069,20.87849406410973,0 71.40727753253965,20.878917345664,0 71.40733342126656,20.87980990244211,0 71.40733700093125,20.88069607662289,0 71.4073895075438,20.88161609915707,0 71.40711444390735,20.88205774208975,0 71.40697062841069,20.88194399842677,0 71.40658121548995,20.88183299496562,0 71.40628195801335,20.88181750400429,0 71.40613434298464,20.88194681279329,0 71.40533178860655,20.88144887438202,0 71.40491689158371,20.88055579793724,0 71.4046101902983,20.88044617773112,0 71.40432947438325,20.88041680751549,0 71.404191392653,20.88055434559355,0 71.40400650996253,20.88044776212142,0 71.40397440429727,20.88051247930782,0 71.40348721730227,20.88011551641614,0 71.40344867579358,20.87998269734903,0 71.40311249792266,20.87950342350186,0 71.40308488817367,20.87933241047558,0 71.40316687146803,20.87905488355353,0 71.40344150534402,20.87872842683,0 71.40358467689701,20.87880385494157,0 71.4039981940296,20.87816771192639,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

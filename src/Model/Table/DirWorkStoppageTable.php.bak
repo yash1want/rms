@@ -1,0 +1,50 @@
+<?php 
+	namespace app\Model\Table;
+	use Cake\ORM\Table;
+	use App\Model\Model;
+	use Cake\ORM\TableRegistry;
+	use Cake\Core\Configure;
+	
+	class DirWorkStoppageTable extends Table{
+
+		var $name = "DirWorkStoppage";			
+		public $validate = array();
+
+		// get reasons array
+		// @addedon: 26th FEB 2021 (by Aniket Ganvir)
+		public function getReasonsArr(){
+
+			$data = $this->find('all',array('order'=>array('stoppage_sn'=>'ASC')))->toArray();
+			return $data;
+
+		}
+
+		//fetch all reasons for work stoppage
+		public function fetchReasonsArr() {
+			
+			// Add language condition to get Reasons array value.
+			// Done by pravin bhakare, 22-08-2020
+			if($_SESSION['lang']=='hindi'){ $dText = 'चयन करे'; }else{ $dText = 'Select Reason'; }
+			
+		    $result = $this->find('all')
+		            ->select(['id', 'stoppage_sn','stoppage_def','stoppage_def_h'])
+		            ->toArray();
+		    $returnType = $_SESSION['returnType'];
+
+		    if ($returnType == 'MONTHLY') {
+		        $reasonsArr = array('' => $dText);
+		    }
+		    if (count($result) > 0) {
+		        foreach ($result as $tmpArr) {
+		            if ($tmpArr['id'] != 1){
+						// Add language condition to get Reasons array value. Done by pravin bhakare, 22-08-2020
+						if($_SESSION['lang']=='hindi'){ $text = $tmpArr['stoppage_def_h']; }else{ $text = $tmpArr['stoppage_def']; }
+		                $reasonsArr[$tmpArr['stoppage_sn']] = $text;
+					}	
+		        }
+		    }
+		    return $reasonsArr;
+		}
+
+	} 
+?>

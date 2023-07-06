@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Mahavir Minerals.kml</name>
+	<Style id="style">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style0">
+		<LineStyle>
+			<color>ffff00bf</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="style1">
+		<LineStyle>
+			<color>ff53a6a6</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style2">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style3">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style4">
+		<LineStyle>
+			<color>ff53a6a6</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style5">
+		<LineStyle>
+			<color>ff48ba58</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style6">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style7">
+		<LineStyle>
+			<color>ff0053a6</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style8">
+		<LineStyle>
+			<color>ff394d00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style9">
+		<LineStyle>
+			<color>ffff00bf</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="style10">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style11">
+		<LineStyle>
+			<color>ff394d00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style12">
+		<LineStyle>
+			<color>ffff8000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style13">
+		<LineStyle>
+			<color>ffff8000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style14">
+		<LineStyle>
+			<color>ff0053a6</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style15">
+		<LineStyle>
+			<color>ff48ba58</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style16">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style16</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Mahavir Minerals</name>
+		<open>1</open>
+		<Placemark>
+			<name>Tar Road</name>
+			<description><![CDATA[<br><br><br>
+    <table border="1" padding="0">
+      <tr><td>TarRoad</td><td>Tar Road</td></tr>]]></description>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>2</width>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+					<outline>1</outline>
+				</PolyStyle>
+			</Style>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
+			<MultiGeometry>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.16171199999999,22.396143,0 81.16151499999999,22.396177,0 81.16132399999999,22.396218,0 81.16133000000001,22.396179,0 81.161507,22.396142,0 81.161704,22.396107,0 81.16186500000001,22.39608,0 81.162004,22.396056,0 81.162192,22.396038,0 81.162443,22.396015,0 81.162695,22.395992,0 81.162875,22.395978,0 81.163061,22.395977,0 81.163389,22.395978,0 81.163618,22.395971,0 81.163828,22.395962,0 81.164019,22.395948,0 81.16458299999999,22.395868,0 81.165077,22.395785,0 81.16524699999999,22.395762,0 81.16566,22.395732,0 81.16599100000001,22.395726,0 81.166228,22.395716,0 81.166566,22.395693,0 81.166949,22.395693,0 81.16718,22.39568,0 81.167469,22.395653,0 81.167995,22.395622,0 81.168384,22.395609,0 81.16883799999999,22.395642,0 81.16895700000001,22.395661,0 81.16894499999999,22.395696,0 81.16883300000001,22.395678,0 81.16838300000001,22.395645,0 81.167997,22.395659,0 81.167472,22.395689,0 81.16718299999999,22.395716,0 81.16695,22.395729,0 81.166567,22.395729,0 81.16623,22.395753,0 81.165992,22.395762,0 81.165662,22.395768,0 81.165251,22.395798,0 81.16508399999999,22.395821,0 81.16459,22.395904,0 81.164024,22.395984,0 81.16383,22.395999,0 81.16361999999999,22.396007,0 81.163389,22.396014,0 81.163061,22.396013,0 81.16287699999999,22.396014,0 81.162699,22.396028,0 81.162447,22.396051,0 81.16219599999999,22.396074,0 81.162009,22.396091,0 81.161872,22.396115,0 81.16171199999999,22.396143,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.158907,22.399096,0 81.159019,22.398961,0 81.159227,22.398672,0 81.15936499999999,22.398441,0 81.159538,22.398139,0 81.159685,22.397779,0 81.159724,22.397692,0 81.15975400000001,22.397717,0 81.159721,22.397793,0 81.15957400000001,22.398154,0 81.15939899999999,22.398458,0 81.15926,22.398691,0 81.15904999999999,22.398982,0 81.15895,22.399104,0 81.158907,22.399096,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>ROM</name>
+			<description><![CDATA[<br><br><br>
+    <table border="1" padding="0">
+      <tr><td>ROM</td><td>ROM</td></tr>]]></description>
+			<styleUrl>#stylemap_id8</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.169096,22.388871,0 81.16916500000001,22.388782,0 81.169269,22.388686,0 81.169436,22.388652,0 81.16948600000001,22.388709,0 81.16950799999999,22.388803,0 81.169471,22.388902,0 81.169386,22.388911,0 81.169281,22.388901,0 81.169224,22.388978,0 81.169158,22.388988,0 81.169073,22.38893,0 81.169096,22.388871,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lease Boundary</name>
+			<description><![CDATA[<br><br><br>
+    <table border="1" padding="0">
+      <tr><td>LeaseBoundary</td><td>Lease Boundary</td></tr>]]></description>
+			<styleUrl>#stylemap_id6</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.158047,22.398949,0 81.158086,22.39804,0 81.15833600000001,22.398125,0 81.15855500000001,22.397937,0 81.159429,22.397762,0 81.159561,22.397557,0 81.159773,22.397733,0 81.16003000000001,22.397729,0 81.16077199999999,22.397634,0 81.16112699999999,22.397405,0 81.16134700000001,22.396079,0 81.161816,22.394891,0 81.16215,22.394043,0 81.16248400000001,22.393194,0 81.162954,22.393372,0 81.163004,22.393829,0 81.1631,22.394728,0 81.163197,22.395627,0 81.16359799999999,22.395767,0 81.164025,22.395751,0 81.164996,22.395714,0 81.16596699999999,22.395678,0 81.166937,22.395641,0 81.166903,22.394945,0 81.166859,22.394043,0 81.16675499999999,22.393785,0 81.166819,22.393565,0 81.166641,22.392809,0 81.16553999999999,22.392674,0 81.165449,22.391914,0 81.164197,22.392012,0 81.16494899999999,22.391418,0 81.16569,22.390833,0 81.16643000000001,22.390248,0 81.16717,22.389663,0 81.167911,22.389078,0 81.168651,22.388494,0 81.169392,22.387909,0 81.170132,22.387324,0 81.170491,22.387483,0 81.170034,22.38781,0 81.16984100000001,22.38854,0 81.16960899999999,22.389418,0 81.169093,22.389126,0 81.168775,22.389727,0 81.168864,22.389913,0 81.168548,22.390261,0 81.168937,22.391015,0 81.168668,22.391367,0 81.16815699999999,22.390718,0 81.1671,22.39108,0 81.16739699999999,22.391759,0 81.16802300000001,22.392455,0 81.168494,22.392849,0 81.16906899999999,22.393671,0 81.170287,22.393911,0 81.16947500000001,22.394387,0 81.169051,22.394498,0 81.168779,22.394984,0 81.16898500000001,22.395578,0 81.168836,22.396015,0 81.168542,22.396876,0 81.16881100000001,22.397191,0 81.168457,22.397543,0 81.168094,22.397383,0 81.167321,22.397399,0 81.166878,22.397674,0 81.16707700000001,22.39671,0 81.166099,22.396784,0 81.165131,22.396857,0 81.164162,22.39693,0 81.163194,22.397003,0 81.162226,22.397076,0 81.162316,22.397427,0 81.161145,22.397829,0 81.160769,22.398513,0 81.160848,22.398813,0 81.161477,22.398893,0 81.16153,22.399157,0 81.16032,22.39934,0 81.159958,22.399278,0 81.159003,22.399113,0 81.158047,22.398949,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hutment</name>
+			<description><![CDATA[<br><br><br>
+    <table border="1" padding="0">
+      <tr><td>Hutment</td><td>Hutment</td></tr>]]></description>
+			<styleUrl>#stylemap_id5</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.168269,22.393388,0 81.168305,22.393448,0 81.168347,22.393481,0 81.168353,22.393553,0 81.168111,22.393554,0 81.16808399999999,22.393495,0 81.16801100000001,22.39349,0 81.167995,22.393441,0 81.16804,22.393419,0 81.168269,22.393388,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.16843799999999,22.392931,0 81.168453,22.392963,0 81.168488,22.392949,0 81.168548,22.393038,0 81.168476,22.393081,0 81.168391,22.393009,0 81.16837099999999,22.393014,0 81.16833800000001,22.392979,0 81.16843799999999,22.392931,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.165767,22.392078,0 81.16583799999999,22.392128,0 81.16578199999999,22.392198,0 81.16570400000001,22.392156,0 81.165767,22.392078,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.168322,22.393045,0 81.16842699999999,22.393115,0 81.168459,22.39315,0 81.168539,22.393246,0 81.168486,22.393285,0 81.168424,22.393213,0 81.16839400000001,22.3932,0 81.16832599999999,22.393253,0 81.168245,22.393164,0 81.16830299999999,22.393141,0 81.168279,22.393088,0 81.168322,22.393045,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.166561,22.39254,0 81.166601,22.392571,0 81.16655799999999,22.392618,0 81.166504,22.392588,0 81.166561,22.39254,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.168334,22.392847,0 81.16834799999999,22.392873,0 81.168268,22.39293,0 81.16827499999999,22.392949,0 81.168255,22.39296,0 81.168224,22.392906,0 81.168334,22.392847,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.166589,22.392622,0 81.166702,22.392685,0 81.16667200000001,22.392732,0 81.166549,22.392664,0 81.166589,22.392622,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.168193,22.392884,0 81.16819,22.392805,0 81.168272,22.39279,0 81.16828700000001,22.39286,0 81.16818499999999,22.392886,0 81.168193,22.392884,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.16745400000001,22.393794,0 81.16752700000001,22.393761,0 81.167568,22.393842,0 81.167495,22.393875,0 81.167452,22.393791,0 81.16745400000001,22.393794,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.16803899999999,22.393133,0 81.168082,22.393124,0 81.168109,22.393228,0 81.168066,22.393233,0 81.16803899999999,22.393133,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.167951,22.392978,0 81.168031,22.392959,0 81.16806699999999,22.393092,0 81.16799399999999,22.393109,0 81.167951,22.392978,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Magazine</name>
+			<description><![CDATA[<br><br><br>
+    <table border="1" padding="0">
+      <tr><td>Magazine</td><td>Magazine</td></tr>]]></description>
+			<styleUrl>#stylemap_id7</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.16712,22.396611,0 81.167231,22.396611,0 81.167231,22.396661,0 81.16712,22.396661,0 81.16712,22.396611,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.167721,22.396691,0 81.16777999999999,22.396691,0 81.16778100000001,22.396753,0 81.167721,22.396753,0 81.167721,22.396691,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.167085,22.396536,0 81.167115,22.396536,0 81.167115,22.396566,0 81.167085,22.396566,0 81.167085,22.396536,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Existing Pit</name>
+			<description><![CDATA[<br><br><br>
+    <table border="1" padding="0">
+      <tr><td>ExistingPit</td><td>Existing Pit</td></tr>]]></description>
+			<styleUrl>#stylemap_id0</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.166893,22.389988,0 81.166923,22.389949,0 81.16702100000001,22.389901,0 81.16730800000001,22.389694,0 81.167511,22.38952,0 81.167565,22.389477,0 81.16762900000001,22.389417,0 81.167692,22.389377,0 81.167755,22.389336,0 81.167935,22.389221,0 81.168133,22.389378,0 81.168351,22.389553,0 81.168243,22.389682,0 81.16813500000001,22.389892,0 81.168116,22.389898,0 81.16811800000001,22.390187,0 81.168548,22.390261,0 81.168937,22.391015,0 81.168668,22.391367,0 81.16815699999999,22.390718,0 81.1671,22.39108,0 81.167042,22.391109,0 81.16697000000001,22.391101,0 81.166929,22.391077,0 81.166921,22.391045,0 81.166912,22.391009,0 81.166875,22.390909,0 81.166808,22.390806,0 81.166707,22.390905,0 81.166613,22.390971,0 81.166518,22.390936,0 81.16649,22.390846,0 81.166612,22.39073,0 81.166663,22.390575,0 81.166653,22.390402,0 81.166646,22.390266,0 81.16669400000001,22.390276,0 81.16673299999999,22.39027,0 81.16672800000001,22.39019,0 81.166782,22.39008,0 81.166893,22.389988,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.16824200000001,22.389382,0 81.168053,22.389232,0 81.167991,22.389174,0 81.168336,22.388858,0 81.168477,22.388698,0 81.168756,22.388466,0 81.16896300000001,22.388277,0 81.1691,22.388252,0 81.16922599999999,22.388389,0 81.169246,22.388428,0 81.169307,22.388448,0 81.16942299999999,22.388322,0 81.16950300000001,22.38819,0 81.169579,22.388122,0 81.169713,22.388098,0 81.169763,22.388125,0 81.169741,22.388164,0 81.169651,22.388201,0 81.16959,22.3883,0 81.16954,22.388342,0 81.169518,22.388404,0 81.16941199999999,22.388481,0 81.169284,22.388569,0 81.169183,22.388685,0 81.16906,22.388844,0 81.16900200000001,22.388951,0 81.168995,22.388976,0 81.16892199999999,22.38905,0 81.168881,22.389105,0 81.16888899999999,22.389159,0 81.168828,22.389241,0 81.168719,22.389346,0 81.168582,22.38939,0 81.168496,22.389474,0 81.16838300000001,22.389516,0 81.16824200000001,22.389382,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.160093,22.399236,0 81.16004700000001,22.399132,0 81.160066,22.398976,0 81.16011,22.39877,0 81.160177,22.398712,0 81.16030000000001,22.398694,0 81.16056399999999,22.398828,0 81.160715,22.39883,0 81.160794,22.398858,0 81.16102600000001,22.398858,0 81.16106499999999,22.398916,0 81.16107599999999,22.399117,0 81.16106000000001,22.399172,0 81.16095799999999,22.399219,0 81.16069899999999,22.399266,0 81.160364,22.399275,0 81.16019900000001,22.399294,0 81.160093,22.399236,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.161473,22.396239,0 81.162024,22.396148,0 81.162452,22.396071,0 81.16285999999999,22.396049,0 81.163112,22.396109,0 81.1632,22.396309,0 81.16313700000001,22.39642,0 81.16289399999999,22.396512,0 81.162706,22.396518,0 81.162504,22.396469,0 81.16217,22.396463,0 81.162125,22.3965,0 81.16182999999999,22.396523,0 81.16177399999999,22.396604,0 81.161832,22.39669,0 81.161936,22.396842,0 81.162029,22.396895,0 81.16207199999999,22.397019,0 81.16203400000001,22.397124,0 81.161563,22.397298,0 81.161163,22.397362,0 81.161136,22.397352,0 81.161233,22.396766,0 81.161312,22.396289,0 81.161473,22.396239,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.166099,22.396784,0 81.165719,22.396813,0 81.1657,22.396706,0 81.16555200000001,22.396575,0 81.16545000000001,22.396553,0 81.16515,22.396489,0 81.16482499999999,22.39645,0 81.16456599999999,22.396394,0 81.164434,22.396292,0 81.164388,22.396188,0 81.164483,22.39602,0 81.16474599999999,22.39591,0 81.165015,22.395885,0 81.16557400000001,22.395846,0 81.165735,22.395868,0 81.16602,22.395833,0 81.166496,22.395818,0 81.166684,22.395882,0 81.16692399999999,22.395918,0 81.167385,22.396183,0 81.167494,22.396403,0 81.167507,22.396537,0 81.16738700000001,22.396651,0 81.167181,22.396664,0 81.166828,22.396573,0 81.16654200000001,22.396662,0 81.16647,22.396756,0 81.166099,22.396784,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.162048,22.394301,0 81.162328,22.394248,0 81.162325,22.394828,0 81.16214100000001,22.394912,0 81.162015,22.395031,0 81.16185299999999,22.39527,0 81.161761,22.395464,0 81.161753,22.395748,0 81.16149299999999,22.395708,0 81.162048,22.394301,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<LineString>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<coordinates>
+						81.16702100000001,22.389901,0 81.16730800000001,22.389694,0 81.167511,22.38952,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<coordinates>
+						81.166808,22.390806,0 81.166875,22.390909,0 81.166912,22.391009,0 
+					</coordinates>
+				</LineString>
+				<LineString>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<coordinates>
+						81.16811800000001,22.390187,0 81.168116,22.389898,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Existing Soil Dump</name>
+			<description><![CDATA[<br><br><br>
+    <table border="1" padding="0">
+      <tr><td>ExistingSoilDump</td><td>Existing Soil Dump</td></tr>]]></description>
+			<styleUrl>#stylemap_id4</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.160055,22.39927,0 81.160042,22.39927,0 81.160031,22.399268,0 81.160022,22.399265,0 81.160014,22.399261,0 81.16000699999999,22.399256,0 81.16000099999999,22.399251,0 81.159995,22.399244,0 81.159989,22.399238,0 81.159982,22.399231,0 81.159976,22.399224,0 81.159969,22.399215,0 81.159963,22.399206,0 81.15995700000001,22.399196,0 81.15995100000001,22.399184,0 81.15994499999999,22.399171,0 81.15994000000001,22.399157,0 81.159935,22.399141,0 81.15993,22.399124,0 81.159927,22.399106,0 81.15992300000001,22.399088,0 81.159921,22.399069,0 81.159919,22.39905,0 81.15991699999999,22.399031,0 81.15991699999999,22.399012,0 81.15991699999999,22.398993,0 81.159918,22.398974,0 81.15992,22.398955,0 81.15992300000001,22.398937,0 81.159926,22.398917,0 81.15993,22.398898,0 81.15993400000001,22.398878,0 81.15993899999999,22.398857,0 81.15994499999999,22.398837,0 81.15995100000001,22.398816,0 81.159958,22.398795,0 81.159965,22.398775,0 81.15997299999999,22.398755,0 81.159981,22.398737,0 81.15998999999999,22.398719,0 81.16,22.398703,0 81.16001,22.398688,0 81.16002,22.398675,0 81.16003000000001,22.398664,0 81.16004,22.398654,0 81.16005,22.398646,0 81.160059,22.398639,0 81.160068,22.398634,0 81.160077,22.398631,0 81.160084,22.39863,0 81.16009099999999,22.39863,0 81.160096,22.398632,0 81.160101,22.398636,0 81.160104,22.398641,0 81.160106,22.398648,0 81.160107,22.398656,0 81.160106,22.398665,0 81.160104,22.398676,0 81.160101,22.398687,0 81.16009699999999,22.398701,0 81.16009200000001,22.398715,0 81.160087,22.398731,0 81.16008100000001,22.398747,0 81.16007500000001,22.398765,0 81.16006899999999,22.398784,0 81.16006299999999,22.398805,0 81.16005699999999,22.398825,0 81.160051,22.398847,0 81.160045,22.398869,0 81.16004,22.398891,0 81.16003600000001,22.398913,0 81.160032,22.398934,0 81.16002899999999,22.398956,0 81.160027,22.398977,0 81.160026,22.398998,0 81.160025,22.399018,0 81.160025,22.399038,0 81.160025,22.399058,0 81.160026,22.399077,0 81.160027,22.399096,0 81.160028,22.399115,0 81.16003000000001,22.399135,0 81.160033,22.399154,0 81.160037,22.399174,0 81.160043,22.399196,0 81.16005,22.399218,0 81.16006,22.399243,0 81.160071,22.399269,0 81.160055,22.39927,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.168432,22.389494,0 81.168425,22.389461,0 81.168463,22.389404,0 81.168567,22.389313,0 81.168646,22.389276,0 81.16874300000001,22.389231,0 81.16882699999999,22.389174,0 81.168863,22.389191,0 81.16882699999999,22.389258,0 81.168719,22.389349,0 81.168622,22.389377,0 81.168547,22.389433,0 81.168459,22.389499,0 81.168432,22.389494,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.16683500000001,22.389973,0 81.166805,22.390034,0 81.16676,22.390124,0 81.16672800000001,22.39019,0 81.16673299999999,22.39027,0 81.16669400000001,22.390276,0 81.166642,22.390266,0 81.16662599999999,22.390231,0 81.16665,22.390191,0 81.166686,22.390132,0 81.16674500000001,22.390037,0 81.166769,22.389981,0 81.166822,22.389945,0 81.16683500000001,22.389973,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Existing Waste Dump</name>
+			<description><![CDATA[<br><br><br>
+    <table border="1" padding="0">
+      <tr><td>ExistingWasteDump</td><td>Existing Waste Dump</td></tr>]]></description>
+			<styleUrl>#stylemap_id1</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.16620899999999,22.39631,0 81.166242,22.396266,0 81.166293,22.396199,0 81.16634999999999,22.39615,0 81.166391,22.396163,0 81.166389,22.396216,0 81.166366,22.396305,0 81.166263,22.396351,0 81.166229,22.396354,0 81.16620899999999,22.39631,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Existing Mineral stack</name>
+			<description><![CDATA[<br><br><br>
+    <table border="1" padding="0">
+      <tr><td>ExistingMineralStack</td><td>Existing Mineral stack</td></tr>]]></description>
+			<styleUrl>#stylemap_id2</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.16717199999999,22.390813,0 81.167205,22.39073,0 81.167248,22.390661,0 81.167288,22.3906,0 81.167434,22.390519,0 81.16751600000001,22.390499,0 81.16757200000001,22.390528,0 81.167537,22.390586,0 81.16745299999999,22.390626,0 81.167368,22.390687,0 81.167309,22.390767,0 81.167278,22.39085,0 81.167249,22.390929,0 81.16723500000001,22.391008,0 81.16720100000001,22.391032,0 81.167142,22.391053,0 81.167075,22.391055,0 81.167072,22.390998,0 81.167098,22.390918,0 81.167118,22.390895,0 81.16717199999999,22.390813,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.168961,22.389087,0 81.168995,22.389024,0 81.169078,22.389006,0 81.16915899999999,22.389064,0 81.169253,22.38905,0 81.169273,22.389079,0 81.169256,22.389134,0 81.169168,22.389128,0 81.16908100000001,22.389111,0 81.169023,22.389149,0 81.168982,22.389154,0 81.168961,22.389087,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.16152599999999,22.397248,0 81.161528,22.397213,0 81.161607,22.397182,0 81.161691,22.397182,0 81.16170099999999,22.397226,0 81.161664,22.397246,0 81.16153799999999,22.397281,0 81.16152599999999,22.397248,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.168598,22.388774,0 81.16859700000001,22.388721,0 81.16865300000001,22.388631,0 81.16876499999999,22.388534,0 81.16882699999999,22.38848,0 81.16890100000001,22.388376,0 81.168994,22.388313,0 81.169079,22.388325,0 81.169117,22.388379,0 81.169106,22.388425,0 81.169042,22.388485,0 81.168958,22.388465,0 81.168882,22.388484,0 81.16880399999999,22.388567,0 81.168815,22.388633,0 81.16879299999999,22.388733,0 81.16873200000001,22.388795,0 81.16865,22.388784,0 81.168598,22.388776,0 81.168598,22.388774,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.16175200000001,22.39627,0 81.16175800000001,22.396258,0 81.16177999999999,22.396249,0 81.161801,22.396248,0 81.161811,22.396255,0 81.161813,22.396267,0 81.161805,22.396272,0 81.161782,22.396269,0 81.16177,22.396283,0 81.161761,22.39629,0 81.16175,22.396278,0 81.16175200000001,22.39627,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.168053,22.390381,0 81.16807,22.390352,0 81.16812400000001,22.39034,0 81.168159,22.390318,0 81.168176,22.390266,0 81.168217,22.39021,0 81.168284,22.390174,0 81.168299,22.390199,0 81.168245,22.390281,0 81.16823100000001,22.390369,0 81.168182,22.390408,0 81.168104,22.390436,0 81.16805100000001,22.390419,0 81.168053,22.390381,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.16183700000001,22.396241,0 81.16184800000001,22.396233,0 81.16187600000001,22.39623,0 81.161885,22.39624,0 81.161883,22.396254,0 81.16186999999999,22.396258,0 81.161851,22.396251,0 81.161839,22.39625,0 81.16183700000001,22.396241,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.167344,22.38953,0 81.16736299999999,22.389514,0 81.167428,22.389464,0 81.167475,22.389426,0 81.167508,22.389402,0 81.167542,22.389388,0 81.167536,22.389422,0 81.16748200000001,22.389459,0 81.167456,22.389505,0 81.167406,22.389531,0 81.167361,22.389554,0 81.167327,22.389556,0 81.167344,22.38953,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.161965,22.396188,0 81.16197,22.396172,0 81.161985,22.396164,0 81.162007,22.396165,0 81.16201700000001,22.396176,0 81.16199899999999,22.396191,0 81.161967,22.396193,0 81.161965,22.396188,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.167312,22.390836,0 81.167374,22.390733,0 81.16745299999999,22.390677,0 81.16754299999999,22.390613,0 81.167619,22.390611,0 81.167586,22.390661,0 81.167517,22.390733,0 81.167427,22.390792,0 81.16739699999999,22.390886,0 81.167377,22.390968,0 81.167329,22.39099,0 81.167277,22.390991,0 81.167312,22.390836,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.16201700000001,22.396213,0 81.162042,22.396212,0 81.162057,22.396215,0 81.162065,22.396222,0 81.16205100000001,22.396237,0 81.16203,22.39624,0 81.162009,22.396227,0 81.16201700000001,22.396213,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.16203299999999,22.396169,0 81.16203400000001,22.39616,0 81.16205100000001,22.396152,0 81.16207300000001,22.396151,0 81.162081,22.396161,0 81.162081,22.396173,0 81.16206099999999,22.396186,0 81.162035,22.396184,0 81.16203299999999,22.396169,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.166945,22.390375,0 81.167001,22.390341,0 81.16704799999999,22.390341,0 81.167062,22.390386,0 81.16705,22.390422,0 81.16697600000001,22.390443,0 81.16693100000001,22.390394,0 81.166945,22.390375,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.166567,22.390854,0 81.166586,22.390809,0 81.166618,22.390733,0 81.166667,22.390718,0 81.166718,22.390623,0 81.166757,22.390577,0 81.166853,22.390559,0 81.166889,22.390575,0 81.16698100000001,22.390613,0 81.166949,22.390672,0 81.166894,22.390681,0 81.166867,22.390728,0 81.166828,22.39075,0 81.166844,22.390797,0 81.166815,22.390805,0 81.16679000000001,22.390801,0 81.166759,22.390819,0 81.16667700000001,22.3909,0 81.166646,22.390916,0 81.1666,22.390915,0 81.166579,22.390894,0 81.166567,22.390854,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								81.166702,22.390507,0 81.16668900000001,22.390444,0 81.166695,22.390403,0 81.166743,22.390396,0 81.166769,22.39041,0 81.166802,22.390427,0 81.166782,22.390476,0 81.16676200000001,22.390522,0 81.16673400000001,22.390552,0 81.166712,22.39055,0 81.166702,22.390507,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Existing Plantation</name>
+			<description><![CDATA[<br><br><br>
+    <table border="1" padding="0">
+      <tr><td>ExistingPlantation</td><td>Existing Plantation</td></tr>]]></description>
+			<styleUrl>#stylemap_id3</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							81.16195999999999,22.396014,0 81.16195999999999,22.395718,0 81.162514,22.395717,0 81.162515,22.395993,0 81.162396,22.396014,0 81.16195999999999,22.396014,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

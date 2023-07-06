@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PTA-KML-4.kml</name>
+	<Style id="PolyStyle00">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle000">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle001">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle002">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="PolyStyle003">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PolyStyle002</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PolyStyle001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="PolyStyle004">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PolyStyle00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PolyStyle000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>PTA-2</name>
+		<open>1</open>
+		<Placemark>
+			<name>SAFETY PTA</name>
+			<open>1</open>
+			<styleUrl>#PolyStyle004</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							85.17883440156291,21.87808751600721,0 85.17886224401225,21.87655617477456,0 85.18049568692996,21.87556732223524,0 85.18177920763569,21.87447039224897,0 85.18242003103458,21.87396278927347,0 85.18307194875425,21.87345745294741,0 85.18342976750256,21.87319527986199,0 85.1844244073862,21.87241589934452,0 85.18460043938092,21.87226637154129,0 85.18487755987361,21.87206370767075,0 85.18487016717103,21.87214810593337,0 85.18487069412788,21.87408145261247,0 85.18488640285597,21.87531220461254,0 85.18493537265699,21.87661540589297,0 85.18484346654768,21.87785811748404,0 85.18408415415891,21.87793295651098,0 85.18406035107836,21.87874123027987,0 85.18401414159246,21.87948563670108,0 85.18325759021867,21.87955542922942,0 85.18313344186731,21.88048890679773,0 85.18309038327071,21.88115566815734,0 85.1828652376755,21.88337131881088,0 85.1826295727444,21.88338841721897,0 85.18017309383984,21.88355897432812,0 85.18004550645627,21.88132078463127,0 85.179889255676,21.87903437209584,0 85.17958540555544,21.87869008539168,0 85.17883440156291,21.87808751600721,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ML_AREA</name>
+			<open>1</open>
+			<styleUrl>#PolyStyle003</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							85.17997253887408,21.88135174990473,0 85.17982427067469,21.87907089680599,0 85.17954603576652,21.87874010669878,0 85.17875586176892,21.8781109471776,0 85.17878482171864,21.876539986906,0 85.18046220934858,21.87549539179347,0 85.18173725363329,21.87442681212276,0 85.18237786879517,21.87391196478896,0 85.18303195258707,21.87341251590876,0 85.18338446813823,21.87314156871276,0 85.18438079551322,21.8723720152872,0 85.1845641189,21.8722156394677,0 85.18493279225358,21.87195783129408,0 85.18492744791919,21.8721525174909,0 85.18494883250504,21.87409230443941,0 85.1849642029299,21.87533797937273,0 85.18499419989453,21.87665300322929,0 85.1848943296999,21.87790896966644,0 85.18412917690117,21.8779890928402,0 85.18411587375242,21.87874688555967,0 85.18405998408184,21.87955210336702,0 85.18331456990884,21.87961520993766,0 85.18322692179412,21.88049634635065,0 85.1831686558025,21.88118859664507,0 85.18294425766295,21.88344866091584,0 85.1826355615385,21.88346021289045,0 85.18009370908,21.88363732383486,0 85.17997253887408,21.88135174990473,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

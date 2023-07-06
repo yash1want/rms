@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Avagudem Manganese Mine- RBSSD&amp;FNDas-13.867 Ha.kml</name>
+	<Schema name="AVGM BND" id="S_AVGM_BND_I">
+		<SimpleField type="int" name="Id"><displayName>&lt;b&gt;Id&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Schema name="LANDUSE" id="S_LANDUSE_ISS">
+		<SimpleField type="int" name="Id"><displayName>&lt;b&gt;Id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="REMARKS"><displayName>&lt;b&gt;REMARKS&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Area"><displayName>&lt;b&gt;Area&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="falseColor">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor32</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor19</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor38</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor35</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor16</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor2">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7faa00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor3">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000055</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor18</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor5">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor6">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000031</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor7">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000055</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor37</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor33</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor9">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor10">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff005555</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor24</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor12">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7faa00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor13">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7fff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor14">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000027</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor15">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor16">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[AVGM BND/Id]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor17">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor18">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7fff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor19">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor20">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000055</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor21">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff005555</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor22">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000027</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor23">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor24">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor25">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor26">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000055</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor27">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor22</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor28">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor29">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor21</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor30">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor31">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor26</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor32">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor33">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00002c</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor34">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor35">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[AVGM BND/Id]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor36">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor37">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00002c</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor38">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor39">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor36</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor25</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor40">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LANDUSE/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[LANDUSE/REMARKS]</td></tr>
+  <tr><td><b>Area</b></td><td>$[LANDUSE/Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000031</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>Avagudem Manganese Mine- RBSSD&amp;FNDas-13.867 Ha</name>
+		<visibility>0</visibility>
+		<open>1</open>
+		<Placemark>
+			<name>Avagudem Manganese Mine- RBSSD&amp;FNDas-13.867 Ha- Boundary</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_AVGM_BND_I">
+					<SimpleData name="Id">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.53550817509246,18.3532184240977,0 83.53598403801857,18.35252913295853,0 83.53641491307651,18.35184865852437,0 83.5367851561211,18.35122478557271,0 83.53813800568059,18.35065481292759,0 83.53909453599795,18.35048655579529,0 83.54057465443252,18.35000027799965,0 83.54164013472037,18.35107517206269,0 83.5357543727032,18.35450026260044,0 83.53550817509246,18.3532184240977,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Avagudem Manganese Mine- RBSSD&amp;FNDas-13.867 Ha- Pit Area</name>
+			<visibility>0</visibility>
+			<open>1</open>
+			<styleUrl>#falseColor31</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_LANDUSE_ISS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">PIT</SimpleData>
+					<SimpleData name="Area">73521.2380609493</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.53842911946903,18.35079609529835,0 83.53865718069029,18.35074663098279,0 83.53929958498973,18.35057694669673,0 83.53988095340058,18.35043811370267,0 83.5402128564812,18.35035176172134,0 83.5405760192818,18.35034964857176,0 83.54077265575654,18.35040027704438,0 83.54109287580745,18.35068820578539,0 83.54131132535247,18.35086143080052,0 83.54143113140594,18.35103597186349,0 83.54143359989121,18.35110694098578,0 83.54131201079338,18.35120141232638,0 83.54103297170286,18.35138264074021,0 83.54070897442142,18.35152077499225,0 83.54012420134406,18.35181804557756,0 83.53987676351899,18.35191146379312,0 83.53947902214946,18.35209154241145,0 83.53915500206686,18.35222830915946,0 83.5388138657015,18.35236803444428,0 83.5384243206074,18.35252205870435,0 83.53820211525044,18.35258100293269,0 83.53798175835983,18.35266859625013,0 83.53778285221404,18.35263403910294,0 83.53772730406013,18.35262453862862,0 83.53759901058076,18.3526518499573,0 83.53749074864434,18.35270449605805,0 83.53740589284659,18.352768777729,0 83.5373283098658,18.35284149638953,0 83.5372706337442,18.35293101764123,0 83.53721102090877,18.35301032397716,0 83.53712477673444,18.35310193260049,0 83.53691564944353,18.35322419360677,0 83.53667520239226,18.35340490230949,0 83.53651397601209,18.35350262986638,0 83.53639124219622,18.35354352069634,0 83.53629091755407,18.35352778907042,0 83.53625772852693,18.3534582528986,0 83.53623625134311,18.35333394359726,0 83.53623256999907,18.35320427692311,0 83.53624668445696,18.35306925288192,0 83.53638835275206,18.35297861321147,0 83.53657754949768,18.35290396616157,0 83.53670784872394,18.3528255259317,0 83.536830841967,18.3525822067983,0 83.53685385315264,18.35239551933972,0 83.53694242453791,18.35229193236001,0 83.53706995501621,18.35221240404068,0 83.53721693505086,18.35214285723492,0 83.53731703620144,18.3520944163284,0 83.53740808073854,18.35201332578056,0 83.53745146852515,18.35190009991488,0 83.53749398852587,18.35172748950799,0 83.53748971963195,18.35158212835,0 83.53748327639549,18.35143474801838,0 83.53749202381296,18.35129945413701,0 83.53752483882535,18.35119660984744,0 83.53757103819339,18.35115561343961,0 83.53780179869746,18.35109624722767,0 83.53815850695487,18.35104370373575,0 83.53849137024901,18.35102288223862,0 83.53849025277329,18.35094643323258,0 83.53848274546391,18.35092195561273,0 83.53843496922623,18.35088162959508,0 83.53836449861268,18.35085389487732,0 83.53829700912924,18.35082192729977,0 83.53842911946903,18.35079609529835,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Avagudem Manganese Mine- RBSSD&amp;FNDas-13.867 Ha- Dump</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor29</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_LANDUSE_ISS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">DUMP</SimpleData>
+					<SimpleData name="Area">37972.7122805457</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.53707082316089,18.35373420900481,0 83.53598459108044,18.35436629766981,0 83.53585917650024,18.35443927693764,0 83.53583134229918,18.35438798516022,0 83.53581720289525,18.35435977253594,0 83.53577438596592,18.35424783138835,0 83.53576467327123,18.35413108002617,0 83.53573993271539,18.35400360534492,0 83.53566527853867,18.35382654751392,0 83.53562734659805,18.35357909070676,0 83.53559094581418,18.35343647843441,0 83.53558429771334,18.35329456233805,0 83.53554959400128,18.35315842872371,0 83.53555061555504,18.35315694900036,0 83.53560977786498,18.35307125219376,0 83.53578949643703,18.35281092866786,0 83.53582104333134,18.35276523269773,0 83.53598403801857,18.35252913295853,0 83.53622578279804,18.35214734978882,0 83.53641491307651,18.35184865852437,0 83.53652673700327,18.35166023163676,0 83.53660621599123,18.35152630674998,0 83.53671240689174,18.35134737102286,0 83.53674173215431,18.3513650222519,0 83.53692106723067,18.35145479985625,0 83.53703469610569,18.3515003934605,0 83.53710076148026,18.3515691501881,0 83.53716604549821,18.35168229370113,0 83.53721456108025,18.35178311620508,0 83.53714496194395,18.35199437002847,0 83.53705510079944,18.35210753225299,0 83.53691655211479,18.35221588131974,0 83.53680147575459,18.35236488047904,0 83.53675784129054,18.35251019709649,0 83.53670018956132,18.35267481641979,0 83.53661886577157,18.3527851339228,0 83.53651379016843,18.35283568892251,0 83.53645144425444,18.35287475132266,0 83.53623755535908,18.35303325888206,0 83.53622138862772,18.35310119944607,0 83.53621489802327,18.35320505845379,0 83.53622054647339,18.3533568188723,0 83.53623335552076,18.35345058975396,0 83.53625138866323,18.35351042843053,0 83.5362828433508,18.35354933383439,0 83.53637680376933,18.35356009814535,0 83.53647722766381,18.35354346775229,0 83.53656254388078,18.35351065340821,0 83.53676872211543,18.35337245650705,0 83.53695769639593,18.35323121158261,0 83.53706321626294,18.35317191167063,0 83.53717521535997,18.35308630917234,0 83.53733714946588,18.35289517645824,0 83.53746120243511,18.35277336593406,0 83.53763483383572,18.35267820325236,0 83.53769287584872,18.35265776766266,0 83.53777641467873,18.35265993146424,0 83.53792444828419,18.35269182129593,0 83.53800234837421,18.35269952185057,0 83.53809918074633,18.35267201511883,0 83.53822099912419,18.35263215956358,0 83.53830533041382,18.35261028105981,0 83.53865927397705,18.35256405412501,0 83.5387282797909,18.35258935040876,0 83.53877919383054,18.35262908828699,0 83.53881934508837,18.35271670624835,0 83.53880683600484,18.35272398564859,0 83.53839122804759,18.35296583926153,0 83.53742040619424,18.3535307811823,0 83.53718076621738,18.35367023153832,0 83.53707082316089,18.35373420900481,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Avagudem Manganese Mine- RBSSD&amp;FNDas-13.867 Ha- Stockyard</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor27</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_LANDUSE_ISS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">STACK YARD</SimpleData>
+					<SimpleData name="Area">1803.73974468387</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.53690444073116,18.35134442165751,0 83.53692435583058,18.35133732923414,0 83.53693408403406,18.35131808365385,0 83.53693270112727,18.3512723602342,0 83.53694282505245,18.35123126253316,0 83.53699343726443,18.35122103033639,0 83.53707054745327,18.35121385870754,0 83.53715773483566,18.35121133179878,0 83.5371921157206,18.35121565277491,0 83.53722944561673,18.35122607888237,0 83.53725010864071,18.35127018000708,0 83.53727601472706,18.35133059641068,0 83.53730275532496,18.35139919425705,0 83.53733334927222,18.35148685674715,0 83.53737686977526,18.35157844328783,0 83.5373492944352,18.35164844749214,0 83.53730141500158,18.35169892350415,0 83.5372353286125,18.35172008056086,0 83.53721456108025,18.35178311620508,0 83.53716604549821,18.35168229370113,0 83.53710076148026,18.3515691501881,0 83.53703469610569,18.3515003934605,0 83.53692106723067,18.35145479985625,0 83.53689160016472,18.35144004825703,0 83.53687049108368,18.35140877592219,0 83.53686149450783,18.35138022176999,0 83.53687636144527,18.35136365594959,0 83.53690444073116,18.35134442165751,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Avagudem Manganese Mine- RBSSD&amp;FNDas-13.867 Ha- Stockyard</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor8</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_LANDUSE_ISS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">STACK YARD</SimpleData>
+					<SimpleData name="Area">1365.73891131468</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.53756572410067,18.35110621996154,0 83.53747862588231,18.351134415903,0 83.5374503431986,18.35113643123922,0 83.53745383021412,18.35108149458819,0 83.53748582729234,18.35104010544732,0 83.53753151286099,18.35099607615183,0 83.53760647048826,18.35095903013518,0 83.53766708528327,18.35093856033236,0 83.53770316768315,18.35088318936811,0 83.53771463791803,18.35084616999031,0 83.53771743235994,18.35083200715752,0 83.53772661051458,18.35082814026815,0 83.53812557586657,18.35066004982367,0 83.53814620047916,18.35065337145433,0 83.5383120554071,18.35068992334065,0 83.53833811185994,18.35071169598478,0 83.5383438690784,18.35075340131848,0 83.53834240494463,18.35077062521176,0 83.53823281338668,18.35078601315523,0 83.53807646319552,18.35083069814111,0 83.53789649022684,18.35090273325602,0 83.53769285845408,18.35099966115521,0 83.53767887472726,18.35104081030641,0 83.53766964541859,18.35106146269473,0 83.53756572410067,18.35110621996154,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Avagudem Manganese Mine- RBSSD&amp;FNDas-13.867 Ha- Sub grade</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor34</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_LANDUSE_ISS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">SUB GRADE</SimpleData>
+					<SimpleData name="Area">1500.90718612961</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.53836449861268,18.35085389487732,0 83.53843496922623,18.35088162959508,0 83.53848274546391,18.35092195561273,0 83.53849025277329,18.35094643323258,0 83.53849137024901,18.35102288223862,0 83.53815850695487,18.35104370373575,0 83.53780179869746,18.35109624722767,0 83.53757103819339,18.35115561343961,0 83.53770058321406,18.35104065759265,0 83.53794566749013,18.35093293659029,0 83.53810688245584,18.3508591032696,0 83.53829700912924,18.35082192729977,0 83.53836449861268,18.35085389487732,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Avagudem Manganese Mine- RBSSD&amp;FNDas-13.867 Ha- Garnad Drain</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor39</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_LANDUSE_ISS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">GARLAND DRAIN</SimpleData>
+					<SimpleData name="Area">954.315817143783</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.5357543727032,18.35450026260048,0 83.53550817509246,18.3532184240977,0 83.53554959400128,18.35315842872371,0 83.53558429771334,18.35329456233805,0 83.53559094581418,18.35343647843441,0 83.53562734659805,18.35357909070676,0 83.53566527853867,18.35382654751392,0 83.53573993271539,18.35400360534492,0 83.53576467327123,18.35413108002617,0 83.53577438596592,18.35424783138835,0 83.53581720289525,18.35435977253594,0 83.53583134229918,18.35438798516022,0 83.53585917650024,18.35443927693764,0 83.5357543727032,18.35450026260048,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Avagudem Manganese Mine- RBSSD&amp;FNDas-13.867 Ha- Garland Drain</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_LANDUSE_ISS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">GARLAND DRAIN</SimpleData>
+					<SimpleData name="Area">35.9977079291405</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54130823791161,18.3512560851343,0 83.54134385689201,18.35122775518419,0 83.54137515326978,18.35117763612061,0 83.54141761620735,18.3511193598723,0 83.54143359989121,18.35110694098578,0 83.54144544819083,18.35105654075416,0 83.54144610888925,18.35098443753604,0 83.54144230668089,18.35092004024762,0 83.54145119606596,18.35094122224405,0 83.54145183536697,18.35098490728983,0 83.54145289021754,18.35105698761483,0 83.54144048887383,18.35110849305518,0 83.54138089573628,18.35117919800199,0 83.54135075904126,18.35123039393109,0 83.54131062781344,18.3512669293075,0 83.54125830287295,18.35129737983156,0 83.54130823791161,18.3512560851343,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Avagudem Manganese Mine- RBSSD&amp;FNDas-13.867 Ha- Afforestation on Dump</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor23</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_LANDUSE_ISS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">AFFORESTATION ON DUMP</SimpleData>
+					<SimpleData name="Area">6187.523803954</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.53579586724472,18.35312940119077,0 83.53586137508232,18.35350265636494,0 83.53592822731326,18.35377212099327,0 83.53611127446362,18.35396903582275,0 83.53621758716878,18.3540031210474,0 83.53648568371318,18.35395312560777,0 83.53662741235094,18.35386658118154,0 83.53680929070288,18.3537876943751,0 83.53695693707908,18.35371472517785,0 83.53707082316089,18.35373420900481,0 83.53585917650024,18.35443927693764,0 83.53583134229918,18.35438798516022,0 83.53581720289525,18.35435977253594,0 83.53577438596592,18.35424783138835,0 83.53576467327123,18.35413108002617,0 83.53573993271539,18.35400360534492,0 83.53566527853867,18.35382654751392,0 83.53562734659805,18.35357909070676,0 83.53559094581418,18.35343647843441,0 83.53558429771334,18.35329456233805,0 83.53554959400128,18.35315842872371,0 83.53555061555504,18.35315694900036,0 83.53560977786498,18.35307125219376,0 83.53570875366114,18.35292788521143,0 83.53575304711228,18.35286372582163,0 83.53579586724472,18.35312940119077,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Avagudem Manganese Mine- RBSSD&amp;FNDas-13.867 Ha- existing Afforestation </name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor4</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_LANDUSE_ISS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">AFFORESTATION</SimpleData>
+					<SimpleData name="Area">11562.6061210146</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.53767887472726,18.35104081030641,0 83.53769285845408,18.35099966115521,0 83.53789649022684,18.35090273325602,0 83.53807646319552,18.35083069814111,0 83.53823281338668,18.35078601315523,0 83.53834240494463,18.35077062521176,0 83.5383438690784,18.35075340131848,0 83.53849138879345,18.35073068065433,0 83.53864276236756,18.35069282054516,0 83.53867174492491,18.35059685435585,0 83.53867632852058,18.35056012061656,0 83.53909453599795,18.35048655579529,0 83.54045539006734,18.35003946159634,0 83.54062368441004,18.35011682221293,0 83.5408412570077,18.35026923805196,0 83.54144032579096,18.35087359938058,0 83.54148955241122,18.35102522467323,0 83.54151379693121,18.35114869471845,0 83.5412997497137,18.35127325982477,0 83.54108675456062,18.35139721228798,0 83.53959813549669,18.35226350275546,0 83.53881934508837,18.35271670624835,0 83.53877919383054,18.35262908828699,0 83.5387282797909,18.35258935040876,0 83.53865927397705,18.35256405412501,0 83.53915007920382,18.35229828461173,0 83.53948752121983,18.35215041547456,0 83.53975914716005,18.35196471507786,0 83.53987676351899,18.35191146379312,0 83.54012420134406,18.35181804557756,0 83.54070897442142,18.35152077499225,0 83.54103297170286,18.35138264074021,0 83.54131201079338,18.35120141232638,0 83.54143359989121,18.35110694098578,0 83.54143113140594,18.35103597186349,0 83.54131132535247,18.35086143080052,0 83.54109287580745,18.35068820578539,0 83.54077265575654,18.35040027704438,0 83.5405760192818,18.35034964857176,0 83.5402128564812,18.35035176172134,0 83.53988095340058,18.35043811370267,0 83.53929958498973,18.35057694669673,0 83.53865718069029,18.35074663098279,0 83.53842911946903,18.35079609529835,0 83.53810688245584,18.3508591032696,0 83.53794566749013,18.35093293659029,0 83.53770058321406,18.35104065759265,0 83.53768420329372,18.35105519284225,0 83.53766964541859,18.35106146269473,0 83.53767887472726,18.35104081030641,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Avagudem Manganese Mine- RBSSD&amp;FNDas-13.867 Ha- Road</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor28</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_LANDUSE_ISS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">ROAD</SimpleData>
+					<SimpleData name="Area">463.458020465596</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.53737222916635,18.35122925126653,0 83.53740226851924,18.35115249682325,0 83.53742476054911,18.35120112904294,0 83.53744334702183,18.35122054356749,0 83.53751851055767,18.35121644303981,0 83.53756664345831,18.35120360801149,0 83.53772586803198,18.35114031528239,0 83.53785920231161,18.35110576832314,0 83.53803385340991,18.35108050175114,0 83.53814477643571,18.35107793117096,0 83.53830368699074,18.35107144393804,0 83.53840987554861,18.35105801288933,0 83.53848059340874,18.35104396222458,0 83.53866183507374,18.35100003744516,0 83.53866421826375,18.35100655972588,0 83.53866684093015,18.35102946393413,0 83.53862924251125,18.35103979617851,0 83.53854713556206,18.35105727572792,0 83.53842971754737,18.35108505696339,0 83.53829733559694,18.35110648351816,0 83.53814512759674,18.35110195800767,0 83.53803301297098,18.35110126744427,0 83.53787666107452,18.35112629017036,0 83.53772509139384,18.3511654494957,0 83.53758530973778,18.35122848316722,0 83.53750995039718,18.35124327111969,0 83.53740630696582,18.35126910011799,0 83.53737274783295,18.35129682908467,0 83.53737222916635,18.35122925126653,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Avagudem Manganese Mine- RBSSD&amp;FNDas-13.867 Ha- Ramp in pit</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor11</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_LANDUSE_ISS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">ROAD</SimpleData>
+					<SimpleData name="Area">2000.70277508805</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.53759399772004,18.35088401190087,0 83.53763977088761,18.35086472703637,0 83.53763991606468,18.35086466587125,0 83.53761583248935,18.35091250341502,0 83.53753399672223,18.35094854873347,0 83.53743067518678,18.35107991404782,0 83.53737222916635,18.35122925126653,0 83.53737349500307,18.3513941780693,0 83.53740852944314,18.35152151532688,0 83.53740943903027,18.35158376670905,0 83.53737648427523,18.35167705485885,0 83.53728428017071,18.35178642517921,0 83.53723904772676,18.35190063139186,0 83.53719542168598,18.35204649412216,0 83.53708147086547,18.3521550617552,0 83.53694685335039,18.35225844293366,0 83.53685385315264,18.35239551933972,0 83.53681774092139,18.35250375521882,0 83.53683201418541,18.35257269671134,0 83.53687512301887,18.35259474758978,0 83.53691731271613,18.35258544682602,0 83.53696610938488,18.35255858055993,0 83.53700456476655,18.35252857502187,0 83.5370564095857,18.3524754519138,0 83.53715007700337,18.3523879090046,0 83.537260804227,18.35229358471694,0 83.53733844881596,18.35228381149723,0 83.53740830555387,18.35221078617164,0 83.53746936365565,18.35216190958506,0 83.53752225617573,18.35210221836378,0 83.53757621257205,18.35203705124592,0 83.53767433720714,18.35186315372757,0 83.53775176866175,18.35176053414322,0 83.53782494441668,18.35167981808315,0 83.53794660260324,18.35162904148638,0 83.5380651009487,18.35159687673847,0 83.53816801837132,18.35159441279882,0 83.53830839067847,18.3515717874549,0 83.53843283090451,18.35155483607452,0 83.5385002934579,18.35155284452579,0 83.53865923632372,18.35154854120182,0 83.5388242808781,18.35157037259279,0 83.53889311065602,18.35158365545357,0 83.53897585649445,18.35160986085669,0 83.53900691213683,18.35162146258103,0 83.53900619956335,18.35165096528871,0 83.53899604993832,18.35166093167135,0 83.53893527395523,18.35165081850633,0 83.53889729221903,18.35163493973994,0 83.53887980135472,18.35161223375165,0 83.53880970012973,18.35159022910734,0 83.53866543380833,18.35158122882726,0 83.53851551282717,18.35157667317385,0 83.53843785271567,18.35158535469947,0 83.53831341246901,18.35160230608568,0 83.53817419980577,18.3516260083223,0 83.53806681928002,18.35163617813857,0 83.53795289572879,18.35166828192492,0 83.53785622346884,18.35170670981071,0 83.5377898939952,18.35178624231006,0 83.5376975624507,18.35188687577122,0 83.53760615644262,18.35205085269862,0 83.53755917401827,18.35212357329292,0 83.5374903015025,18.35218566212976,0 83.53743844094829,18.35223769320141,0 83.53737776580861,18.35231278088891,0 83.53725086712701,18.35239639727261,0 83.5372002299343,18.35245387370478,0 83.53712770262858,18.35250071833772,0 83.53707105959076,18.35253861259513,0 83.53699838860676,18.35257562801933,0 83.53693250008308,18.35260709135427,0 83.53687204289908,18.35261882015352,0 83.53680875581387,18.35259344698851,0 83.5367876584466,18.3525587730651,0 83.53678322216867,18.35249001458475,0 83.5368114429628,18.35238586612881,0 83.53693382579468,18.35222803089217,0 83.53705700621062,18.35212480208899,0 83.53717535633972,18.35200416009651,0 83.5372001776426,18.35190224158644,0 83.5372610692791,18.35176857422538,0 83.53730141500158,18.35169892350415,0 83.53736138472061,18.35166141707351,0 83.53737686977526,18.35157844328783,0 83.53737904746616,18.35152463898018,0 83.53734516039289,18.35140732232235,0 83.53733899330314,18.35122989888013,0 83.53740636888301,18.35107027026281,0 83.53752015280277,18.35091512374841,0 83.53759399772004,18.35088401190087,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Avagudem Manganese Mine- RBSSD&amp;FNDas-13.867 Ha- Ramp on dump</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_LANDUSE_ISS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">ROAD</SimpleData>
+					<SimpleData name="Area">617.940928444478</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.53736248131607,18.35348078919471,0 83.53735622244113,18.35341942835358,0 83.53739141499524,18.35338141017881,0 83.53744102867284,18.35335173376372,0 83.53750434028859,18.35328091199144,0 83.53760339295906,18.35320961393986,0 83.53774292430954,18.35309510682403,0 83.53781335898115,18.35302248326406,0 83.53788622910237,18.35299420360737,0 83.53796274812517,18.35297099564685,0 83.53803055634205,18.35296326480504,0 83.53812400685042,18.35299786176954,0 83.53818670334226,18.35300726683626,0 83.53821936916323,18.35304096711959,0 83.53822187443558,18.35306439032264,0 83.53818860722107,18.35308374930954,0 83.53814796188486,18.35304703921685,0 83.53804210174616,18.35301943479415,0 83.5379510618214,18.35302747525728,0 83.53787109336891,18.35305926310491,0 83.53776653010409,18.3531203940079,0 83.53764122038126,18.3532295912766,0 83.53753169475721,18.35331809674319,0 83.53746833326807,18.35338550562071,0 83.5374099339186,18.35342553981484,0 83.53741207008916,18.35344940633136,0 83.53745337191832,18.35346251026962,0 83.53751564149105,18.3534753620941,0 83.53745640461089,18.353509833082,0 83.53736248131607,18.35348078919471,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Avagudem Manganese Mine- RBSSD&amp;FNDas-13.867 Ha- Ramp on Dump</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor17</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_LANDUSE_ISS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">ROAD</SimpleData>
+					<SimpleData name="Area">1817.78152063468</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.53655741863867,18.35160853202833,0 83.53663850650553,18.35164027913159,0 83.53667812051644,18.35166023291553,0 83.53676924241722,18.3517802009331,0 83.53691886319935,18.35186696071797,0 83.53704053165937,18.35187558063787,0 83.537194969265,18.35184258316292,0 83.53717817678279,18.35189355328944,0 83.53709454182739,18.35190216968132,0 83.53694542744199,18.35197242752322,0 83.53676955711485,18.35204645523191,0 83.53661419163497,18.35217824037942,0 83.53641633557635,18.35233789991509,0 83.53624695479395,18.35261153469237,0 83.53610080521668,18.3528848599928,0 83.53601134259509,18.35312329461173,0 83.53593771407748,18.3533444504925,0 83.53592158802343,18.35346414025128,0 83.53598414989239,18.35370908427159,0 83.53607897137066,18.35383753719489,0 83.53623199344059,18.35391230455483,0 83.53633038168391,18.353917821267,0 83.53644080574844,18.35389074869314,0 83.53662186470423,18.35380470447127,0 83.53689900094139,18.35368836482799,0 83.53712017262264,18.35365640289673,0 83.53718076621738,18.35367023153832,0 83.53714721107603,18.35368975777503,0 83.53705273805674,18.35368973023825,0 83.53689056427355,18.35372261291787,0 83.5366240257086,18.35383027746139,0 83.53645371404171,18.35391788532088,0 83.53634691394643,18.35394832320577,0 83.53621809573529,18.3539397982217,0 83.53606346104807,18.35387699982881,0 83.53594692064839,18.35373006148979,0 83.53588587174058,18.35346632266018,0 83.53590730915334,18.35334314860059,0 83.53597751313025,18.35313227904685,0 83.53605605409854,18.3528803355975,0 83.53621108915577,18.35260347841812,0 83.53638918090756,18.35231436658025,0 83.53658170076018,18.35215648493353,0 83.53673699146715,18.35201958045214,0 83.53690750065688,18.35194562419087,0 83.53696078786182,18.35192272613801,0 83.53694088109182,18.3519059234708,0 83.53681139136695,18.35185132447288,0 83.53669582414209,18.35177093815339,0 83.53662858190627,18.35169502845355,0 83.5365260725041,18.35165201736785,0 83.53655741863867,18.35160853202833,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,2530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>30ORI13051_Patabeda Iron Mines-2022-23</name>
+	<open>1</open>
+	<Document>
+		<name>30ORI13051_Waste Dumping_2022-23.shp</name>
+		<Schema name="30ORI13051_Waste Dumping_2022-23" id="S_30ORI13051_Waste_Dumping_2022_23_SD">
+			<SimpleField type="long" name="ID"><displayName>&lt;b&gt;ID&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="Area_in_Ha"><displayName>&lt;b&gt;Area in Ha&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="falseColor">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[30ORI13051_Waste Dumping_2022-23/ID]</td></tr>
+  <tr><td><b>Name</b></td><td>$[30ORI13051_Waste Dumping_2022-23/Name]</td></tr>
+  <tr><td><b>Area in Ha</b></td><td>$[30ORI13051_Waste Dumping_2022-23/Area_in_Ha]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>30ORI13051_Waste Dumping_2022-23</name>
+			<Placemark>
+				<name>North Dump 2022</name>
+				<styleUrl>#falseColor</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_Waste_Dumping_2022_23_SD">
+						<SimpleData name="ID">1</SimpleData>
+						<SimpleData name="Name">North Dump 2022</SimpleData>
+						<SimpleData name="Area_in_Ha">0.238</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								85.37061558829163,21.94048892549066,0 85.37052173464618,21.94047467113005,0 85.37040533948642,21.94038014794021,0 85.37035476656268,21.94028670290247,0 85.370307685702,21.94022397363049,0 85.37026976098063,21.94015713595166,0 85.37027879970297,21.94011130211369,0 85.37037967491091,21.94004427360459,0 85.37048859387464,21.94004646918535,0 85.37063548339859,21.94008674312769,0 85.37094557248624,21.94017176237641,0 85.37099274543534,21.94021371981389,0 85.37099762613586,21.94023269878517,0 85.37096887133033,21.94028622514535,0 85.37067774499661,21.94049045800478,0 85.37061558829163,21.94048892549066,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>North Dump 2022</name>
+				<styleUrl>#falseColor</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffe7ebef</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_Waste_Dumping_2022_23_SD">
+						<SimpleData name="ID">2</SimpleData>
+						<SimpleData name="Name">North Dump 2022</SimpleData>
+						<SimpleData name="Area_in_Ha">0.111</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<extrude>1</extrude>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								85.37132543688865,21.9401839682237,630.8689999998304 85.37113000059757,21.94034159648335,630.8689999998304 85.37098952279307,21.94046300349028,630.8689999998304 85.37086730983987,21.94043276257814,630.8689999998304 85.37092851634242,21.94039261691371,630.8689999998304 85.37106543303229,21.94027428760819,630.8689999998304 85.37111448883495,21.94021842954474,630.8689999998304 85.37109858480358,21.94018391920967,630.8689999998304 85.37078601529801,21.94010017438208,630.8689999998304 85.37052865738978,21.94002494044316,630.8689999998304 85.37079661368382,21.94000904878205,630.8689999998304 85.37112317382611,21.94009654203913,630.8689999998304 85.37131377680963,21.94013890073724,630.8689999998304 85.37132543688865,21.9401839682237,630.8689999998304 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document id="root_doc">
+		<name>30ORI13051_H ROAD-2022-23.kml</name>
+		<Schema name="30ori13051_hroad202223" id="30ori13051_hroad202223">
+			<SimpleField type="float" name="ID"></SimpleField>
+			<SimpleField type="string" name="Road"></SimpleField>
+		</Schema>
+		<Folder>
+			<name>30ori13051_hroad202223</name>
+			<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff0000ff</color>
+					</LineStyle>
+					<PolyStyle>
+						<fill>0</fill>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#30ori13051_hroad202223">
+						<SimpleData name="ID">1</SimpleData>
+						<SimpleData name="Road">To South Dump</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<LineString>
+						<coordinates>
+							85.3704400784664,21.9360000141047,0 85.37056187428919,21.9358450343434,0 85.37082731885231,21.9356440275335,0 85.3710340790625,21.9355123626424,0 85.37114084546479,21.9353950694902,0 85.3713000979749,21.9352201147919,0 85.37133825312969,21.9349305218814,0 
+						</coordinates>
+					</LineString>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff0000ff</color>
+					</LineStyle>
+					<PolyStyle>
+						<fill>0</fill>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#30ori13051_hroad202223">
+						<SimpleData name="ID">2</SimpleData>
+						<SimpleData name="Road">To Float Working</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<LineString>
+						<coordinates>
+							85.3702599120993,21.9351284813246,0 85.370474197772,21.9350129101174,0 85.3705955312065,21.9349274704376,0 85.37065617341609,21.9348955592542,0 85.3707099698718,21.9348960925689,0 85.3707561253846,21.9349114129321,0 85.3707901895559,21.9349823489601,0 85.370808954984,21.9350405928323,0 85.3707924493678,21.9350901267501,0 85.3707423578346,21.9351572944023,0 85.3706149433351,21.9352781849723,0 85.3703992218576,21.9354438315154,0 85.3703485226834,21.9354951912952,0 85.37033817100421,21.9355240568936,0 85.37035041076921,21.9355494086577,0 85.3703773841908,21.9355571518147,0 85.3704124601644,21.9355574996126,0 85.3705045844118,21.9355210346542,0 85.3707471131378,21.9353677060542,0 85.3707748392261,21.935350177354,0 85.3708044395069,21.935350470784,0 85.37083501041251,21.9353503554251,0 85.3708489396918,21.9353593708782,0 85.3708587273221,21.9353800260084,0 85.3708584027934,21.9354085238074,0 85.3708102836413,21.9354533681085,0 85.3706253515213,21.9356257138685,0 85.3703841528249,21.9358370456431,0 85.370258704861,21.935946959351,0 85.3702475361291,21.9359886943337,0 85.3702471688902,21.936020929547,0 85.37026199393689,21.9360392985173,0 85.37029595602171,21.9360494471177,0 85.3703617527343,21.9360365499018,0 85.3704400784664,21.9360000141047,0 85.3704813080335,21.9360004229089,0 85.37052177922359,21.9360395637262,0 85.3705824725089,21.9362266240817,0 85.3706233110873,21.9363737175058,0 85.370628632771,21.936531685333,0 85.37068340644571,21.936718597272,0 85.3707360994467,21.9368187397441,0 85.3708031161231,21.9368787199018,0 85.3708665671373,21.9369220186483,0 
+						</coordinates>
+					</LineString>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff0000ff</color>
+					</LineStyle>
+					<PolyStyle>
+						<fill>0</fill>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#30ori13051_hroad202223">
+						<SimpleData name="ID">3</SimpleData>
+						<SimpleData name="Road">To North Zone</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<LineString>
+						<coordinates>
+							85.3725793098274,21.9378512983776,0 85.3727682994072,21.9379811059392,0 85.3728758785697,21.9380918071938,0 85.3729137138787,21.9381749920041,0 85.37291299305789,21.9382383603424,0 
+						</coordinates>
+					</LineString>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff0000ff</color>
+					</LineStyle>
+					<PolyStyle>
+						<fill>0</fill>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#30ori13051_hroad202223">
+						<SimpleData name="ID">4</SimpleData>
+						<SimpleData name="Road">To Quarry</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<LineString>
+						<coordinates>
+							85.3725793098274,21.9378512983776,0 85.3728310474656,21.9378537911635,0 85.37301617688409,21.9378556241276,0 85.3732415779094,21.9378530114736,0 
+						</coordinates>
+					</LineString>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff0000ff</color>
+					</LineStyle>
+					<PolyStyle>
+						<fill>0</fill>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#30ori13051_hroad202223">
+						<SimpleData name="ID">5</SimpleData>
+						<SimpleData name="Road">To Mines Office</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<LineString>
+						<coordinates>
+							85.37337762488769,21.9371688364759,0 85.37335305811681,21.9371067280704,0 85.3732855444425,21.9370672242832,0 85.37322124273879,21.9370665877801,0 85.37306080847701,21.9371011098036,0 85.3729189403111,21.9371536423052,0 85.3728084958781,21.937162087342,0 85.37267796375841,21.9371376297851,0 85.37260734837319,21.9370808932639,0 85.37254472289069,21.9369971515054,0 85.37252366998661,21.9369206346735,0 85.37252537059361,21.9367711574705,0 85.3725470576851,21.9365989971283,0 85.37256828430429,21.9364304916692,0 85.3726054848083,21.9362261807694,0 85.372621894159,21.9361360578608,0 85.3726235771704,21.9359881124581,0 85.37260886596989,21.9358019651413,0 85.3725888977815,21.9356923465074,0 85.3726060402776,21.9355344489153,0 85.3726616848644,21.9354023761348,0 85.37272506295329,21.9352519474869,0 85.37277083013019,21.9351867955544,0 85.3728463273106,21.935114874858,0 85.3728729940304,21.9350190720787,0 
+						</coordinates>
+					</LineString>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff0000ff</color>
+					</LineStyle>
+					<PolyStyle>
+						<fill>0</fill>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#30ori13051_hroad202223">
+						<SimpleData name="ID">6</SimpleData>
+						<SimpleData name="Road">To Crusher</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<LineString>
+						<coordinates>
+							85.3725793098274,21.9378512983776,0 85.3723394584038,21.9377586246282,0 85.372120157861,21.9376358579942,0 85.3719020253272,21.9375004288787,0 85.3717978508686,21.9374074180086,0 85.3717510996532,21.9373415476618,0 85.3717394454151,21.9372739810817,0 85.37174020991939,21.9372068176587,0 85.3717743497798,21.9371717270505,0 85.3718468365591,21.9371595000495,0 85.3719071513224,21.9371893945357,0 85.3720241681997,21.9373097855538,0 85.3721012461862,21.9373890859073,0 85.3722123916055,21.9374796444645,0 85.3722922650755,21.9375247217068,0 85.3724162211099,21.9375491144318,0 85.37264917607069,21.9375636852912,0 85.37288319586899,21.9375333163624,0 85.3730136795231,21.9374978167246,0 85.3731183072203,21.9374225441589,0 85.3731968541283,21.9373272549501,0 85.3732595741605,21.937251165996,0 85.37349567548161,21.9370865068618,0 85.3736412410922,21.936904205948,0 85.3738026454192,21.9367736065463,0 85.37406713149809,21.9363903875473,0 85.37416168477181,21.9362204527665,0 85.37425601235,21.9359688648954,0 85.3743211703068,21.9357627258734,0 85.3743353990761,21.9355926169233,0 85.3743173220264,21.935316121578,0 85.3742771973465,21.9352357236943,0 
+						</coordinates>
+					</LineString>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff0000ff</color>
+					</LineStyle>
+					<PolyStyle>
+						<fill>0</fill>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#30ori13051_hroad202223">
+						<SimpleData name="ID">7</SimpleData>
+						<SimpleData name="Road">H. Road</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<LineString>
+						<coordinates>
+							85.3719948854701,21.9395097291652,0 85.3719558804016,21.9395484686319,0 85.37174112399521,21.9395822943184,0 85.37134692262249,21.939537146975,0 85.3709072288849,21.939560363574,0 85.37051300388509,21.9395173289196,0 85.3702037035321,21.939444233269,0 85.3700841384924,21.939385944771,0 85.3700191794952,21.9393133934374,0 85.3699795444895,21.9392083121555,0 85.36998174955519,21.9390148196187,0 85.370022463667,21.9387258220261,0 85.37006783643569,21.9384037545261,0 85.370156729993,21.9378961092226,0 85.3702135210624,21.9376336826253,0 85.37026185053941,21.9373667963984,0 85.3703177811789,21.9371785062965,0 85.3704175470687,21.9370600006045,0 85.3706603791934,21.9369397125661,0 85.3708106755757,21.9369059942451,0 85.3709224587128,21.9369380430333,0 85.37098539417509,21.9370389573587,0 85.37109725971099,21.9374657672313,0 85.3711578672814,21.9376036485095,0 85.371233414145,21.9377025539081,0 85.3715762804063,21.9379428080333,0 85.37197287043369,21.9381521916374,0 85.3722954064897,21.9382684801934,0 85.3725123044199,21.9383154390721,0 85.37266970338359,21.9383169978221,0 85.3728129407215,21.9383003179923,0 85.3729154950951,21.9382383851156,0 85.3731056154564,21.9380236825472,0 85.3733775400314,21.9376823402641,0 85.373699918867,21.937335052716,0 85.37387849795491,21.9371327222814,0 85.374024195461,21.9368889393411,0 85.3742211533749,21.9366221714791,0 85.3744231258905,21.9363486102751,0 85.3745338712985,21.9361660247999,0 85.3745891276038,21.9360414136707,0 85.37464345411129,21.935880879128,0 85.3747020040589,21.9356559066996,0 85.3747905081043,21.9354521670502,0 85.3749309686638,21.9352329808625,0 85.375031532766,21.9350378725568,0 85.3751036664042,21.9348979228984,0 85.3751474640673,21.9347628057334,0 85.3752257564106,21.9345212706518,0 85.37530445359251,21.9342267103161,0 85.3753602744985,21.9340575826871,0 85.37538625225579,21.933978874444,0 85.3754239601837,21.9339491175232,0 85.37550971812421,21.933919847003,0 85.3756956401358,21.9338853590008,0 85.3760139819055,21.9338563787166,0 85.37631370264729,21.9338290930217,0 
+						</coordinates>
+					</LineString>
+				</MultiGeometry>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>30ORI13051_ML AREA-2022-23.shp</name>
+		<Style>
+			<ListStyle>
+				<listItemType>radioFolder</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Schema name="30ORI13051_ML AREA-2022-23" id="S_30ORI13051_ML_AREA_2022_23_ISSSS">
+			<SimpleField type="int" name="ID"><displayName>&lt;b&gt;ID&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="long" name="Area_in_Ha"><displayName>&lt;b&gt;Area in Ha&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Mine_Code"><displayName>&lt;b&gt;Mine_Code&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Lessee"><displayName>&lt;b&gt;Lessee&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Lease_Info"><displayName>&lt;b&gt;Lease Info&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="falseColor0">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[30ORI13051_ML AREA-2022-23/ID]</td></tr>
+  <tr><td><b>Name</b></td><td>$[30ORI13051_ML AREA-2022-23/Name]</td></tr>
+  <tr><td><b>Area in Ha</b></td><td>$[30ORI13051_ML AREA-2022-23/Area_in_Ha]</td></tr>
+  <tr><td><b>Mine_Code</b></td><td>$[30ORI13051_ML AREA-2022-23/Mine_Code]</td></tr>
+  <tr><td><b>Lessee</b></td><td>$[30ORI13051_ML AREA-2022-23/Lessee]</td></tr>
+  <tr><td><b>Lease Info</b></td><td>$[30ORI13051_ML AREA-2022-23/Lease_Info]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff0000aa</color>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="falseColor00">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor1</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor0</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="falseColor1">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[30ORI13051_ML AREA-2022-23/ID]</td></tr>
+  <tr><td><b>Name</b></td><td>$[30ORI13051_ML AREA-2022-23/Name]</td></tr>
+  <tr><td><b>Area in Ha</b></td><td>$[30ORI13051_ML AREA-2022-23/Area_in_Ha]</td></tr>
+  <tr><td><b>Mine_Code</b></td><td>$[30ORI13051_ML AREA-2022-23/Mine_Code]</td></tr>
+  <tr><td><b>Lessee</b></td><td>$[30ORI13051_ML AREA-2022-23/Lessee]</td></tr>
+  <tr><td><b>Lease Info</b></td><td>$[30ORI13051_ML AREA-2022-23/Lease_Info]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff0000aa</color>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>30ORI13051_ML AREA-2022-23</name>
+			<Placemark>
+				<name>Patabeda Iron Mines</name>
+				<styleUrl>#falseColor00</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_ML_AREA_2022_23_ISSSS">
+						<SimpleData name="ID">1</SimpleData>
+						<SimpleData name="Name">Patabeda Iron Mines</SimpleData>
+						<SimpleData name="Area_in_Ha">28</SimpleData>
+						<SimpleData name="Mine_Code">30ORI13051</SimpleData>
+						<SimpleData name="Lessee">MGM Minerals Ltd</SimpleData>
+						<SimpleData name="Lease_Info">https://mgmmin.in/page/mines</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								85.37532165016914,21.9355185326898,0 85.37529933649687,21.93605067637744,0 85.37533943809679,21.93649720646422,0 85.3749429133818,21.93668103403219,0 85.37407116569888,21.93733629521011,0 85.37368090992187,21.93781215323633,0 85.37312998019667,21.93859747284016,0 85.37240924203856,21.93959950108862,0 85.37148085615922,21.94039258974736,0 85.37076678392556,21.9409852176394,0 85.36962685652081,21.94073166306414,0 85.3696879413867,21.93935838374053,0 85.36976238036328,21.93768544533368,0 85.36983564251766,21.93604467948042,0 85.36989490163467,21.93471355978595,0 85.37148988634942,21.93476533904779,0 85.37343911195678,21.93482811052652,0 85.37498377988175,21.93487802008125,0 85.37512049673786,21.93380020774894,0 85.37627209550936,21.93377888262188,0 85.37614523972293,21.93452192548628,0 85.37602753812003,21.93560296999603,0 85.37532165016914,21.9355185326898,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>30ORI13051_ML PILLAR-2022-23.shp</name>
+		<Schema name="30ORI13051_ML PILLAR-2022-23" id="S_30ORI13051_ML_PILLAR_2022_23_DDIS">
+			<SimpleField type="double" name="Easting"><displayName>&lt;b&gt;Easting&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="Northing"><displayName>&lt;b&gt;Northing&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="int" name="ID"><displayName>&lt;b&gt;ID&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="MLP"><displayName>&lt;b&gt;MLP&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="hlightPointStyle">
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>Easting</b></td><td>$[30ORI13051_ML PILLAR-2022-23/Easting]</td></tr>
+  <tr><td><b>Northing</b></td><td>$[30ORI13051_ML PILLAR-2022-23/Northing]</td></tr>
+  <tr><td><b>ID</b></td><td>$[30ORI13051_ML PILLAR-2022-23/ID]</td></tr>
+  <tr><td><b>MLP</b></td><td>$[30ORI13051_ML PILLAR-2022-23/MLP]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id="normPointStyle">
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>Easting</b></td><td>$[30ORI13051_ML PILLAR-2022-23/Easting]</td></tr>
+  <tr><td><b>Northing</b></td><td>$[30ORI13051_ML PILLAR-2022-23/Northing]</td></tr>
+  <tr><td><b>ID</b></td><td>$[30ORI13051_ML PILLAR-2022-23/ID]</td></tr>
+  <tr><td><b>MLP</b></td><td>$[30ORI13051_ML PILLAR-2022-23/MLP]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id="pointStyleMap">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#normPointStyle</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#hlightPointStyle</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Folder id="layer 0">
+			<name>30ORI13051_ML PILLAR-2022-23</name>
+			<Placemark>
+				<name>Q</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_ML_PILLAR_2022_23_DDIS">
+						<SimpleData name="Easting">332291</SimpleData>
+						<SimpleData name="Northing">2.42647e+06</SimpleData>
+						<SimpleData name="ID">22</SimpleData>
+						<SimpleData name="MLP">Q</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37614523972293,21.93452192548628,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>P</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_ML_PILLAR_2022_23_DDIS">
+						<SimpleData name="Easting">332303</SimpleData>
+						<SimpleData name="Northing">2.42638e+06</SimpleData>
+						<SimpleData name="ID">21</SimpleData>
+						<SimpleData name="MLP">P</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37627209550936,21.93377888262188,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>O</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_ML_PILLAR_2022_23_DDIS">
+						<SimpleData name="Easting">332184</SimpleData>
+						<SimpleData name="Northing">2.42639e+06</SimpleData>
+						<SimpleData name="ID">20</SimpleData>
+						<SimpleData name="MLP">O</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37512049673786,21.93380020774894,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>N</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_ML_PILLAR_2022_23_DDIS">
+						<SimpleData name="Easting">332172</SimpleData>
+						<SimpleData name="Northing">2.42651e+06</SimpleData>
+						<SimpleData name="ID">19</SimpleData>
+						<SimpleData name="MLP">N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37498377988175,21.93487802008125,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>M2</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_ML_PILLAR_2022_23_DDIS">
+						<SimpleData name="Easting">332012</SimpleData>
+						<SimpleData name="Northing">2.4265e+06</SimpleData>
+						<SimpleData name="ID">18</SimpleData>
+						<SimpleData name="MLP">M2</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37343911195678,21.93482811052652,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>M1</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_ML_PILLAR_2022_23_DDIS">
+						<SimpleData name="Easting">331811</SimpleData>
+						<SimpleData name="Northing">2.4265e+06</SimpleData>
+						<SimpleData name="ID">17</SimpleData>
+						<SimpleData name="MLP">M1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37148988634942,21.93476533904779,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>M</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_ML_PILLAR_2022_23_DDIS">
+						<SimpleData name="Easting">331646</SimpleData>
+						<SimpleData name="Northing">2.4265e+06</SimpleData>
+						<SimpleData name="ID">16</SimpleData>
+						<SimpleData name="MLP">M</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.36989490163467,21.93471355978595,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>L3</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_ML_PILLAR_2022_23_DDIS">
+						<SimpleData name="Easting">331641</SimpleData>
+						<SimpleData name="Northing">2.42664e+06</SimpleData>
+						<SimpleData name="ID">15</SimpleData>
+						<SimpleData name="MLP">L3</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.36983564251766,21.93604467948042,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>L2</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_ML_PILLAR_2022_23_DDIS">
+						<SimpleData name="Easting">331636</SimpleData>
+						<SimpleData name="Northing">2.42682e+06</SimpleData>
+						<SimpleData name="ID">14</SimpleData>
+						<SimpleData name="MLP">L2</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.36976238036328,21.93768544533368,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>L1</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_ML_PILLAR_2022_23_DDIS">
+						<SimpleData name="Easting">331630</SimpleData>
+						<SimpleData name="Northing">2.42701e+06</SimpleData>
+						<SimpleData name="ID">13</SimpleData>
+						<SimpleData name="MLP">L1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.3696879413867,21.93935838374053,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>L</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_ML_PILLAR_2022_23_DDIS">
+						<SimpleData name="Easting">331625</SimpleData>
+						<SimpleData name="Northing">2.42716e+06</SimpleData>
+						<SimpleData name="ID">12</SimpleData>
+						<SimpleData name="MLP">L</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.36962685652081,21.94073166306414,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>K</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_ML_PILLAR_2022_23_DDIS">
+						<SimpleData name="Easting">331743</SimpleData>
+						<SimpleData name="Northing">2.42719e+06</SimpleData>
+						<SimpleData name="ID">11</SimpleData>
+						<SimpleData name="MLP">K</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37076678392556,21.9409852176394,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>J</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_ML_PILLAR_2022_23_DDIS">
+						<SimpleData name="Easting">331816</SimpleData>
+						<SimpleData name="Northing">2.42712e+06</SimpleData>
+						<SimpleData name="ID">10</SimpleData>
+						<SimpleData name="MLP">J</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37148085615922,21.94039258974736,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>I</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_ML_PILLAR_2022_23_DDIS">
+						<SimpleData name="Easting">331911</SimpleData>
+						<SimpleData name="Northing">2.42703e+06</SimpleData>
+						<SimpleData name="ID">9</SimpleData>
+						<SimpleData name="MLP">I</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37240924203856,21.93959950108862,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>H</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_ML_PILLAR_2022_23_DDIS">
+						<SimpleData name="Easting">331985</SimpleData>
+						<SimpleData name="Northing">2.42692e+06</SimpleData>
+						<SimpleData name="ID">8</SimpleData>
+						<SimpleData name="MLP">H</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37312998019667,21.93859747284016,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>G</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_ML_PILLAR_2022_23_DDIS">
+						<SimpleData name="Easting">332041</SimpleData>
+						<SimpleData name="Northing">2.42683e+06</SimpleData>
+						<SimpleData name="ID">7</SimpleData>
+						<SimpleData name="MLP">G</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37368090992187,21.93781215323633,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>F</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_ML_PILLAR_2022_23_DDIS">
+						<SimpleData name="Easting">332080</SimpleData>
+						<SimpleData name="Northing">2.42678e+06</SimpleData>
+						<SimpleData name="ID">6</SimpleData>
+						<SimpleData name="MLP">F</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37407116569888,21.93733629521011,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>E</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_ML_PILLAR_2022_23_DDIS">
+						<SimpleData name="Easting">332170</SimpleData>
+						<SimpleData name="Northing">2.42671e+06</SimpleData>
+						<SimpleData name="ID">5</SimpleData>
+						<SimpleData name="MLP">E</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.3749429133818,21.93668103403219,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>D</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_ML_PILLAR_2022_23_DDIS">
+						<SimpleData name="Easting">332210</SimpleData>
+						<SimpleData name="Northing">2.42669e+06</SimpleData>
+						<SimpleData name="ID">4</SimpleData>
+						<SimpleData name="MLP">D</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37533943809679,21.93649720646422,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_ML_PILLAR_2022_23_DDIS">
+						<SimpleData name="Easting">332206</SimpleData>
+						<SimpleData name="Northing">2.42664e+06</SimpleData>
+						<SimpleData name="ID">3</SimpleData>
+						<SimpleData name="MLP">C</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37529933649687,21.93605067637744,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>B</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_ML_PILLAR_2022_23_DDIS">
+						<SimpleData name="Easting">332207</SimpleData>
+						<SimpleData name="Northing">2.42658e+06</SimpleData>
+						<SimpleData name="ID">2</SimpleData>
+						<SimpleData name="MLP">B</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37532165016914,21.9355185326898,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>A</name>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_ML_PILLAR_2022_23_DDIS">
+						<SimpleData name="Easting">332280</SimpleData>
+						<SimpleData name="Northing">2.42659e+06</SimpleData>
+						<SimpleData name="ID">1</SimpleData>
+						<SimpleData name="MLP">A</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37602753812003,21.93560296999603,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>30ORI13051_SZ PILLAR-2022-23.shp</name>
+		<Schema name="30ORI13051_SZ PILLAR-2022-23" id="S_30ORI13051_SZ_PILLAR_2022_23_IS">
+			<SimpleField type="int" name="ID"><displayName>&lt;b&gt;ID&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="SZ_P"><displayName>&lt;b&gt;SZ-P&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="hlightPointStyle0">
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[30ORI13051_SZ PILLAR-2022-23/ID]</td></tr>
+  <tr><td><b>SZ-P</b></td><td>$[30ORI13051_SZ PILLAR-2022-23/SZ_P]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id="normPointStyle0">
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[30ORI13051_SZ PILLAR-2022-23/ID]</td></tr>
+  <tr><td><b>SZ-P</b></td><td>$[30ORI13051_SZ PILLAR-2022-23/SZ_P]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id="pointStyleMap0">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#normPointStyle0</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#hlightPointStyle0</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Folder id="layer 0">
+			<name>30ORI13051_SZ PILLAR-2022-23</name>
+			<Placemark>
+				<name>SZ-O1</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_SZ_PILLAR_2022_23_IS">
+						<SimpleData name="ID">23</SimpleData>
+						<SimpleData name="SZ_P">SZ-O1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37555190307911,21.93386774521345,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SZ-Q</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_SZ_PILLAR_2022_23_IS">
+						<SimpleData name="ID">2</SimpleData>
+						<SimpleData name="SZ_P">SZ-Q</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37606061614811,21.93451088049212,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SZ-P</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_SZ_PILLAR_2022_23_IS">
+						<SimpleData name="ID">22</SimpleData>
+						<SimpleData name="SZ_P">SZ-P</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.3761958268921,21.93378029275301,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SZ-O</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_SZ_PILLAR_2022_23_IS">
+						<SimpleData name="ID">21</SimpleData>
+						<SimpleData name="SZ_P">SZ-O</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37517424965158,21.9338768351363,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SZ-N</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_SZ_PILLAR_2022_23_IS">
+						<SimpleData name="ID">20</SimpleData>
+						<SimpleData name="SZ_P">SZ-N</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.375046319242,21.9349466072171,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SZ-M2</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_SZ_PILLAR_2022_23_IS">
+						<SimpleData name="ID">19</SimpleData>
+						<SimpleData name="SZ_P">SZ-M2</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37343634216147,21.93489598548773,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SZ-M1</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_SZ_PILLAR_2022_23_IS">
+						<SimpleData name="ID">18</SimpleData>
+						<SimpleData name="SZ_P">SZ-M1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37148737429025,21.93483287742192,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SZ-M</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_SZ_PILLAR_2022_23_IS">
+						<SimpleData name="ID">17</SimpleData>
+						<SimpleData name="SZ_P">SZ-M</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37008497106211,21.93478765828145,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SZ-L3</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_SZ_PILLAR_2022_23_IS">
+						<SimpleData name="ID">16</SimpleData>
+						<SimpleData name="SZ_P">SZ-L3</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37002903881148,21.93605224539123,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SZ-L2</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_SZ_PILLAR_2022_23_IS">
+						<SimpleData name="ID">14</SimpleData>
+						<SimpleData name="SZ_P">SZ-L2</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.369955854522,21.93769299993263,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SZ-L1</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_SZ_PILLAR_2022_23_IS">
+						<SimpleData name="ID">13</SimpleData>
+						<SimpleData name="SZ_P">SZ-L1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.36988114599325,21.93936565786383,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SZ-L</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_SZ_PILLAR_2022_23_IS">
+						<SimpleData name="ID">12</SimpleData>
+						<SimpleData name="SZ_P">SZ-L</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.36982145859282,21.9407061543847,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SZ-K</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_SZ_PILLAR_2022_23_IS">
+						<SimpleData name="ID">11</SimpleData>
+						<SimpleData name="SZ_P">SZ-K</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37075706928051,21.94091692705042,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SZ-J</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_SZ_PILLAR_2022_23_IS">
+						<SimpleData name="ID">10</SimpleData>
+						<SimpleData name="SZ_P">SZ-J</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37143784130326,21.94033965743539,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SZ-I</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_SZ_PILLAR_2022_23_IS">
+						<SimpleData name="ID">9</SimpleData>
+						<SimpleData name="SZ_P">SZ-I</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37235050069205,21.93955075085109,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SZ-H</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_SZ_PILLAR_2022_23_IS">
+						<SimpleData name="ID">8</SimpleData>
+						<SimpleData name="SZ_P">SZ-H</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37297408301515,21.93849547412604,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SZ-G</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_SZ_PILLAR_2022_23_IS">
+						<SimpleData name="ID">7</SimpleData>
+						<SimpleData name="SZ_P">SZ-G</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37351717307295,21.93771881104623,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SZ-F</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_SZ_PILLAR_2022_23_IS">
+						<SimpleData name="ID">6</SimpleData>
+						<SimpleData name="SZ_P">SZ-F</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37394859560061,21.93723786586407,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SZ-E</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_SZ_PILLAR_2022_23_IS">
+						<SimpleData name="ID">5</SimpleData>
+						<SimpleData name="SZ_P">SZ-E</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37484169251364,21.93652928044346,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SZ-D</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_SZ_PILLAR_2022_23_IS">
+						<SimpleData name="ID">4</SimpleData>
+						<SimpleData name="SZ_P">SZ-D</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37513617449979,21.93639729896767,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SZ-C</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_SZ_PILLAR_2022_23_IS">
+						<SimpleData name="ID">3</SimpleData>
+						<SimpleData name="SZ_P">SZ-C</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37509287439265,21.93605474190543,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SZ-B</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_SZ_PILLAR_2022_23_IS">
+						<SimpleData name="ID">2</SimpleData>
+						<SimpleData name="SZ_P">SZ-B</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.3751977889634,21.93542869234336,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SZ-A</name>
+				<styleUrl>#pointStyleMap0</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ff00ff55</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_SZ_PILLAR_2022_23_IS">
+						<SimpleData name="ID">1</SimpleData>
+						<SimpleData name="SZ_P">SZ-A</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>85.37596666837783,21.93552230448972,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>30ORI13051_Float Working-2022-23.shp</name>
+		<Schema name="30ORI13051_Float Working-2022-23" id="S_30ORI13051_Float_Working_2022_23_SD">
+			<SimpleField type="long" name="ID"><displayName>&lt;b&gt;ID&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="Area_in_Ha"><displayName>&lt;b&gt;Area in Ha&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<StyleMap id="falseColor2">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor3</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor4</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="falseColor3">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[30ORI13051_Float Working-2022-23/ID]</td></tr>
+  <tr><td><b>Name</b></td><td>$[30ORI13051_Float Working-2022-23/Name]</td></tr>
+  <tr><td><b>Area in Ha</b></td><td>$[30ORI13051_Float Working-2022-23/Area_in_Ha]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<PolyStyle>
+				<color>ff7faaff</color>
+				<colorMode>random</colorMode>
+			</PolyStyle>
+		</Style>
+		<Style id="falseColor4">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[30ORI13051_Float Working-2022-23/ID]</td></tr>
+  <tr><td><b>Name</b></td><td>$[30ORI13051_Float Working-2022-23/Name]</td></tr>
+  <tr><td><b>Area in Ha</b></td><td>$[30ORI13051_Float Working-2022-23/Area_in_Ha]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<PolyStyle>
+				<color>ff7faaff</color>
+				<colorMode>random</colorMode>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>30ORI13051_Float Working-2022-23</name>
+			<Placemark>
+				<name>Float Working 22</name>
+				<styleUrl>#falseColor2</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_Float_Working_2022_23_SD">
+						<SimpleData name="ID">1</SimpleData>
+						<SimpleData name="Name">Float Working 22</SimpleData>
+						<SimpleData name="Area_in_Ha">0.96</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								85.37064610678271,21.93496807872459,0 85.37085646995088,21.93494204990913,0 85.37102991503961,21.93494066906517,0 85.37125203398381,21.935354833252,0 85.37120781229227,21.93557208957197,0 85.37099557746411,21.93581209007112,0 85.37033607668552,21.93610070092746,0 85.37014699128518,21.93539409604369,0 85.37064610678271,21.93496807872459,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>30ORI13051_Mineral Reject Yard 2022-23.shp</name>
+		<Schema name="30ORI13051_Mineral Reject Yard 2022-23" id="S_30ORI13051_Mineral_Reject_Yard_2022_23_SD">
+			<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="long" name="ID"><displayName>&lt;b&gt;ID&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="Area_in_Ha"><displayName>&lt;b&gt;Area in Ha&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="falseColor5">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[30ORI13051_Mineral Reject Yard 2022-23/Name]</td></tr>
+  <tr><td><b>ID</b></td><td>$[30ORI13051_Mineral Reject Yard 2022-23/ID]</td></tr>
+  <tr><td><b>Area in Ha</b></td><td>$[30ORI13051_Mineral Reject Yard 2022-23/Area_in_Ha]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<PolyStyle>
+				<color>ffff55ff</color>
+				<colorMode>random</colorMode>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="falseColor6">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor7</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor5</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="falseColor7">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[30ORI13051_Mineral Reject Yard 2022-23/Name]</td></tr>
+  <tr><td><b>ID</b></td><td>$[30ORI13051_Mineral Reject Yard 2022-23/ID]</td></tr>
+  <tr><td><b>Area in Ha</b></td><td>$[30ORI13051_Mineral Reject Yard 2022-23/Area_in_Ha]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<PolyStyle>
+				<color>ffff55ff</color>
+				<colorMode>random</colorMode>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>30ORI13051_Mineral Reject Yard 2022-23</name>
+			<Placemark>
+				<name>Mineral Reject Yard 2022</name>
+				<styleUrl>#falseColor6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_Mineral_Reject_Yard_2022_23_SD">
+						<SimpleData name="Name">Mineral Reject Yard 2022</SimpleData>
+						<SimpleData name="ID">1</SimpleData>
+						<SimpleData name="Area_in_Ha">0.06</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								85.37452480875528,21.93639212127719,0 85.374694823848,21.9365357165029,0 85.37453687855653,21.9366984947063,0 85.37436686345188,21.93655489931768,0 85.37452480875528,21.93639212127719,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>Plantation 2022.shp</name>
+		<Schema name="Plantation 2022" id="S_Plantation_2022_SD">
+			<SimpleField type="long" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="Area_in_Ha"><displayName>&lt;b&gt;Area in Ha&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<StyleMap id="falseColor10">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor19</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor11</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="falseColor11">
+			<IconStyle>
+				<colorMode>random</colorMode>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[Plantation 2022/id_2]</td></tr>
+  <tr><td><b>Name</b></td><td>$[Plantation 2022/Name]</td></tr>
+  <tr><td><b>Area in Ha</b></td><td>$[Plantation 2022/Area_in_Ha]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<colorMode>random</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+			</PolyStyle>
+			<gx:IconStackStyle>
+			</gx:IconStackStyle>
+		</Style>
+		<Style id="falseColor12">
+			<IconStyle>
+				<colorMode>random</colorMode>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[Plantation 2022/id_2]</td></tr>
+  <tr><td><b>Name</b></td><td>$[Plantation 2022/Name]</td></tr>
+  <tr><td><b>Area in Ha</b></td><td>$[Plantation 2022/Area_in_Ha]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<colorMode>random</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+			</PolyStyle>
+		</Style>
+		<Style id="falseColor13">
+			<IconStyle>
+				<colorMode>random</colorMode>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[Plantation 2022/id_2]</td></tr>
+  <tr><td><b>Name</b></td><td>$[Plantation 2022/Name]</td></tr>
+  <tr><td><b>Area in Ha</b></td><td>$[Plantation 2022/Area_in_Ha]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<colorMode>random</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="falseColor14">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor12</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor13</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="falseColor15">
+			<IconStyle>
+				<colorMode>random</colorMode>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[Plantation 2022/id_2]</td></tr>
+  <tr><td><b>Name</b></td><td>$[Plantation 2022/Name]</td></tr>
+  <tr><td><b>Area in Ha</b></td><td>$[Plantation 2022/Area_in_Ha]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<colorMode>random</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+			</PolyStyle>
+		</Style>
+		<Style id="falseColor16">
+			<IconStyle>
+				<colorMode>random</colorMode>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[Plantation 2022/id_2]</td></tr>
+  <tr><td><b>Name</b></td><td>$[Plantation 2022/Name]</td></tr>
+  <tr><td><b>Area in Ha</b></td><td>$[Plantation 2022/Area_in_Ha]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<colorMode>random</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="falseColor17">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor15</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor16</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="falseColor18">
+			<IconStyle>
+				<colorMode>random</colorMode>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[Plantation 2022/id_2]</td></tr>
+  <tr><td><b>Name</b></td><td>$[Plantation 2022/Name]</td></tr>
+  <tr><td><b>Area in Ha</b></td><td>$[Plantation 2022/Area_in_Ha]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<colorMode>random</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+			</PolyStyle>
+		</Style>
+		<Style id="falseColor19">
+			<IconStyle>
+				<colorMode>random</colorMode>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[Plantation 2022/id_2]</td></tr>
+  <tr><td><b>Name</b></td><td>$[Plantation 2022/Name]</td></tr>
+  <tr><td><b>Area in Ha</b></td><td>$[Plantation 2022/Area_in_Ha]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<colorMode>random</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="falseColor8">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor18</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor9</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="falseColor9">
+			<IconStyle>
+				<colorMode>random</colorMode>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[Plantation 2022/id_2]</td></tr>
+  <tr><td><b>Name</b></td><td>$[Plantation 2022/Name]</td></tr>
+  <tr><td><b>Area in Ha</b></td><td>$[Plantation 2022/Area_in_Ha]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<colorMode>random</colorMode>
+			</LineStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>Plantation 2022</name>
+			<open>1</open>
+			<Placemark>
+				<name>Plantation 2022</name>
+				<styleUrl>#falseColor14</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Plantation_2022_SD">
+						<SimpleData name="id_2">1</SimpleData>
+						<SimpleData name="Name">Plantation</SimpleData>
+						<SimpleData name="Area_in_Ha">0.219</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								85.37040149351616,21.94015617358447,0 85.37046172216294,21.94022273037955,0 85.37057537683846,21.94027885881505,0 85.37078886944609,21.94025568770909,0 85.37097485447595,21.94010917537911,0 85.37106598461003,21.94019942970648,0 85.37116278260868,21.94010935246121,0 85.37126294695882,21.94019969623724,0 85.37097778104437,21.94048683844788,0 85.37084891878935,21.9403776654474,0 85.37077603153064,21.94043089050636,0 85.37059694506654,21.94044765929524,0 85.37047288903521,21.94039248138656,0 85.3702175226742,21.94016551787282,0 85.37032746103601,21.94003237115972,0 85.37040149351616,21.94015617358447,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Plantation 2022</name>
+				<styleUrl>#falseColor17</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Plantation_2022_SD">
+						<SimpleData name="id_2">2</SimpleData>
+						<SimpleData name="Name">Plantation</SimpleData>
+						<SimpleData name="Area_in_Ha">0.015</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								85.37146036212623,21.94012052055403,0 85.3715087047479,21.94015977459009,0 85.37133455085826,21.94029881841486,0 85.37128983147915,21.94025875730779,0 85.37146036212623,21.94012052055403,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Plantation 2022</name>
+				<styleUrl>#falseColor8</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Plantation_2022_SD">
+						<SimpleData name="id_2">3</SimpleData>
+						<SimpleData name="Name">Plantation</SimpleData>
+						<SimpleData name="Area_in_Ha">0.04</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								85.37191835372936,21.93973140900237,0 85.37210490462932,21.93961440356994,0 85.37223621323858,21.93950865177122,0 85.37228216220545,21.9395200650617,0 85.37218420289163,21.9396328907327,0 85.37207466221842,21.93973127173133,0 85.37192169070249,21.93983512288425,0 85.3718392680633,21.93977361502692,0 85.37191835372936,21.93973140900237,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Plantation 2022</name>
+				<styleUrl>#falseColor10</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Plantation_2022_SD">
+						<SimpleData name="id_2">4</SimpleData>
+						<SimpleData name="Name">Plantation</SimpleData>
+						<SimpleData name="Area_in_Ha">0.03</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								85.37536341600816,21.93436313671699,0 85.37538734028732,21.93424536229525,0 85.3754243118331,21.93405269560845,0 85.37547897729735,21.93409201094987,0 85.37546070305613,21.93418961079631,0 85.3754114152545,21.93447234979944,0 85.37533559878024,21.934465699819,0 85.37536341600816,21.93436313671699,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>30ORI13051_SZ-2022-23.shp</name>
+		<Schema name="30ORI13051_SZ-2022-23" id="S_30ORI13051_SZ_2022_23_DS">
+			<SimpleField type="long" name="ID"><displayName>&lt;b&gt;ID&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="Area_in_Ha"><displayName>&lt;b&gt;Area in Ha&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<StyleMap id="falseColor20">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor22</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor21</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="falseColor21">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[30ORI13051_SZ-2022-23/ID]</td></tr>
+  <tr><td><b>Area in Ha</b></td><td>$[30ORI13051_SZ-2022-23/Area_in_Ha]</td></tr>
+  <tr><td><b>Name</b></td><td>$[30ORI13051_SZ-2022-23/Name]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff7fffaa</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>807fff55</color>
+				<colorMode>random</colorMode>
+			</PolyStyle>
+		</Style>
+		<Style id="falseColor22">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[30ORI13051_SZ-2022-23/ID]</td></tr>
+  <tr><td><b>Area in Ha</b></td><td>$[30ORI13051_SZ-2022-23/Area_in_Ha]</td></tr>
+  <tr><td><b>Name</b></td><td>$[30ORI13051_SZ-2022-23/Name]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff7fffaa</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>807fff55</color>
+				<colorMode>random</colorMode>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>30ORI13051_SZ-2022-23</name>
+			<Placemark>
+				<name>Safety Zone</name>
+				<styleUrl>#falseColor20</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_SZ_2022_23_DS">
+						<SimpleData name="ID">1</SimpleData>
+						<SimpleData name="Area_in_Ha">3.303</SimpleData>
+						<SimpleData name="Name">Safety Zone</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								85.37498377988175,21.93487802008125,0 85.37512049673786,21.93380020774894,0 85.37556130041038,21.93379204597061,0 85.37555190307911,21.93386774521345,0 85.37517424965158,21.9338768351363,0 85.375046319242,21.9349466072171,0 85.37343634216147,21.93489598548773,0 85.37148737429025,21.93483287742192,0 85.37008497106211,21.93478765828145,0 85.37002903881148,21.93605224539123,0 85.369955854522,21.93769299993263,0 85.36988114599325,21.93936565786383,0 85.36982145859282,21.9407061543847,0 85.37075706928051,21.94091692705042,0 85.37143784130326,21.94033965743539,0 85.37235050069205,21.93955075085109,0 85.37297408301515,21.93849547412604,0 85.37351717307295,21.93771881104623,0 85.37394859560061,21.93723786586407,0 85.37484169251364,21.93652928044346,0 85.37513617449979,21.93639729896767,0 85.37509287439265,21.93605474190543,0 85.3751977889634,21.93542869234336,0 85.37596666837783,21.93552230448972,0 85.37606061614811,21.93451088049212,0 85.37619582643718,21.93378029521081,0 85.37627209550936,21.93377888262188,0 85.37614523972293,21.93452192548628,0 85.37602753812003,21.93560296999603,0 85.37532165016914,21.9355185326898,0 85.37529933649687,21.93605067637744,0 85.37533943809679,21.93649720646422,0 85.3749429133818,21.93668103403219,0 85.37407116569888,21.93733629521011,0 85.37368090992187,21.93781215323633,0 85.37312998019667,21.93859747284016,0 85.37240924203856,21.93959950108862,0 85.37148085615922,21.94039258974736,0 85.37076678392556,21.9409852176394,0 85.36962685652081,21.94073166306414,0 85.3696879413867,21.93935838374053,0 85.36976238036328,21.93768544533368,0 85.36983564251766,21.93604467948042,0 85.36989490163467,21.93471355978595,0 85.37148988634942,21.93476533904779,0 85.37343911195678,21.93482811052652,0 85.37498377988175,21.93487802008125,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>30ORI13051_Working-2022-23.shp</name>
+		<Schema name="30ORI13051_Working-2022-23" id="S_30ORI13051_Working_2022_23_IDS">
+			<SimpleField type="int" name="ID"><displayName>&lt;b&gt;ID&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="Area_in_Ha"><displayName>&lt;b&gt;Area in Ha&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="falseColor23">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[30ORI13051_Working-2022-23/ID]</td></tr>
+  <tr><td><b>Area in Ha</b></td><td>$[30ORI13051_Working-2022-23/Area_in_Ha]</td></tr>
+  <tr><td><b>Name</b></td><td>$[30ORI13051_Working-2022-23/Name]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ffff55ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffff00ff</color>
+				<colorMode>random</colorMode>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="falseColor24">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#falseColor23</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#falseColor25</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="falseColor25">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[30ORI13051_Working-2022-23/ID]</td></tr>
+  <tr><td><b>Area in Ha</b></td><td>$[30ORI13051_Working-2022-23/Area_in_Ha]</td></tr>
+  <tr><td><b>Name</b></td><td>$[30ORI13051_Working-2022-23/Name]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ffff55ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffff00ff</color>
+				<colorMode>random</colorMode>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>30ORI13051_Working-2022-23</name>
+			<Placemark>
+				<name>Working 22</name>
+				<styleUrl>#falseColor24</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_Working_2022_23_IDS">
+						<SimpleData name="ID">1</SimpleData>
+						<SimpleData name="Area_in_Ha">6.5</SimpleData>
+						<SimpleData name="Name">Working 22</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								85.37173256482988,21.93667550858217,0 85.37186686784899,21.93681840247625,0 85.37241531850005,21.93740193158536,0 85.37296875022821,21.93746288816239,0 85.37236655493534,21.93749110538339,0 85.37190214168118,21.93736998792041,0 85.37308585584778,21.93811614060637,0 85.3729722776514,21.93826399540537,0 85.37285869921492,21.93841185010889,0 85.37269631922442,21.93855216063973,0 85.37255829075588,21.93876558685774,0 85.37216161860852,21.93890978883119,0 85.37044723032766,21.93881763821225,0 85.37014778739444,21.93835994823741,0 85.37005301003944,21.93805423339477,0 85.37009028301519,21.93770129655622,0 85.37014132782157,21.93702047967714,0 85.37034717428092,21.93660470131892,0 85.37114087135343,21.93606663056656,0 85.37161381156467,21.93593366837715,0 85.37173256482988,21.93667550858217,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document>
+		<name>30ORI13051_Temp Mineral Stock-2022-23.shp</name>
+		<Schema name="30ORI13051_Temp Mineral Stock-2022-23" id="S_30ORI13051_Temp_Mineral_Stock_2022_23_SD">
+			<SimpleField type="long" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+			<SimpleField type="double" name="Area_in_Ha"><displayName>&lt;b&gt;Area in Ha&lt;/b&gt;</displayName>
+</SimpleField>
+		</Schema>
+		<Style id="falseColor26">
+			<BalloonStyle>
+				<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[30ORI13051_Temp Mineral Stock-2022-23/id_2]</td></tr>
+  <tr><td><b>Name</b></td><td>$[30ORI13051_Temp Mineral Stock-2022-23/Name]</td></tr>
+  <tr><td><b>Area in Ha</b></td><td>$[30ORI13051_Temp Mineral Stock-2022-23/Area_in_Ha]</td></tr>
+</table>]]></text>
+			</BalloonStyle>
+			<PolyStyle>
+				<colorMode>random</colorMode>
+			</PolyStyle>
+		</Style>
+		<Folder id="layer 0">
+			<name>30ORI13051_Temp Mineral Stock-2022-23</name>
+			<Placemark>
+				<name>Temp Mineral Stock</name>
+				<styleUrl>#falseColor26</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<colorMode>random</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<colorMode>random</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<colorMode>random</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_Temp_Mineral_Stock_2022_23_SD">
+						<SimpleData name="id_2">1</SimpleData>
+						<SimpleData name="Name">Temp Mineral Stock</SimpleData>
+						<SimpleData name="Area_in_Ha">0.787</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								85.37072285127344,21.93823852623124,0 85.37129979663972,21.93835214083888,0 85.37107811439064,21.93941203957342,0 85.37105612553135,21.93943879546564,0 85.37043242959386,21.93930448580145,0 85.37072285127344,21.93823852623124,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Temp Mineral Stock</name>
+				<styleUrl>#falseColor26</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<colorMode>random</colorMode>
+					</IconStyle>
+					<LineStyle>
+						<colorMode>random</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<colorMode>random</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_30ORI13051_Temp_Mineral_Stock_2022_23_SD">
+						<SimpleData name="id_2">2</SimpleData>
+						<SimpleData name="Name">Temp Mineral Stock</SimpleData>
+						<SimpleData name="Area_in_Ha">0.508</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								85.37143553926875,21.93849172722526,0 85.37202406291679,21.93885833419743,0 85.37177957815136,21.93938190246102,0 85.37124426394116,21.93942042996049,0 85.37143553926875,21.93849172722526,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+</Folder>
+</kml>

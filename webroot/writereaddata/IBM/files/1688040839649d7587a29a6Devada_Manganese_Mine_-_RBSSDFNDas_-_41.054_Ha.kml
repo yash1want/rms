@@ -1,0 +1,1449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha.kml</name>
+	<Schema name="LEASE_BOUNDARY" id="S_LEASE_BOUNDARY_I">
+		<SimpleField type="int" name="Id"><displayName>&lt;b&gt;Id&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Schema name="landuse" id="S_landuse_IS">
+		<SimpleField type="int" name="Id"><displayName>&lt;b&gt;Id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="REMARKS"><displayName>&lt;b&gt;REMARKS&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="falseColor">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor35</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor1">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7faaaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor54</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor19</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor3">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff005555</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor4">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aa55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor5">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aa55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor6">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff005555</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor7">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00003f</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor8">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor9">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7f00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor10">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aa55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor11">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor55</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor23</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor13">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor25</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor15">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor16">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor17">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aa55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor18">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor19">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor20">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00003f</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor21">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor22">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor44</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor27</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor23">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00003a</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor24">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff005555</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor25">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7faaaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor26">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aa55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor27">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LEASE_BOUNDARY/Id]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor28">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor29">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor30">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff005555</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor31">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor32">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7f00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor33">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor43</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor18</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor34">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor35">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff005555</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor36">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff005555</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor37">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor17</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor38">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor58</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor16</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor39">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aa55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor40">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff005555</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor41">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor42">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor26</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor43">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor44">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[LEASE_BOUNDARY/Id]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor45">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor53</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor64</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor46">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff005555</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor47">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor24</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor48">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor62</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor36</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor49">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor52</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor46</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor50">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor39</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor51">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor52">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff005555</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor53">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor54">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor55">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00003a</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor56">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor41</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor57">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor32</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor58">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor59">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor60">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor29</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor61">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor62">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff005555</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor63">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor28</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor34</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor64">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor65">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor31</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor67</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor66">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor59</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor21</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor67">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Id</b></td><td>$[landuse/Id]</td></tr>
+  <tr><td><b>REMARKS</b></td><td>$[landuse/REMARKS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha</name>
+		<open>1</open>
+		<Placemark>
+			<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha- Lease Boundary</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor22</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_LEASE_BOUNDARY_I">
+					<SimpleData name="Id">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54707777800029,18.26566944399979,0 83.54613611100024,18.26370277799981,0 83.54555277800021,18.26215555599985,0 83.54596944400028,18.25965555599992,0 83.54742222200038,18.26023055599989,0 83.54946002800024,18.25969722199985,0 83.55089175600015,18.25676628099991,0 83.55362735600023,18.25113785599984,0 83.55354166700035,18.25224166699996,0 83.55362777800023,18.25260833299996,0 83.55361388900025,18.25457222199983,0 83.55431388900028,18.25548055599984,0 83.55386944400021,18.25668333299996,0 83.55321111100034,18.25776111099977,0 83.55222777800026,18.26006388899985,0 83.55170000000028,18.26003333299984,0 83.55098333300022,18.26041666699994,0 83.55028888900036,18.26104444399993,0 83.55043611100022,18.26159444399979,0 83.5481000000003,18.26417222199989,0 83.54716111100031,18.2664111109998,0 83.54667777800024,18.26642499999979,0 83.54707777800029,18.26566944399979,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha- Pit</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor66</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_landuse_IS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">PIT</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54703092579682,18.26352382484836,0 83.54690415120344,18.26353315971108,0 83.5468191142653,18.26350370660984,0 83.54653572836719,18.26343647811451,0 83.54633229716559,18.26336381520518,0 83.54592794167134,18.26284159647976,0 83.54569799645164,18.26240116562078,0 83.54581889010204,18.26226301327062,0 83.54593795188156,18.26199926563205,0 83.54613596507113,18.26185735562494,0 83.54633549126545,18.26181919800564,0 83.54646769560289,18.2616727021635,0 83.5464654254997,18.26151707334363,0 83.5463490042434,18.26137388780433,0 83.54637395786692,18.2611250472478,0 83.54644900661326,18.26097931242476,0 83.54676026293752,18.26095878286218,0 83.54685869110163,18.26084823778166,0 83.54722631115499,18.26044867600847,0 83.54739464375233,18.26021964085514,0 83.54742222200038,18.26023055599989,0 83.54755144571526,18.26019673632511,0 83.54946002800024,18.25969722199985,0 83.55076624727246,18.25702321809199,0 83.55082775108023,18.25718119516006,0 83.5509028825894,18.25743279725957,0 83.55090836697751,18.25780821651218,0 83.55095859385756,18.25806697778902,0 83.55103572061574,18.25845509581314,0 83.55104893018215,18.25862559797113,0 83.55116023308476,18.25890743950976,0 83.55118942694753,18.25919378968813,0 83.55102417899836,18.25937691270936,0 83.5507422463108,18.25964351735572,0 83.5504936911161,18.2597492389263,0 83.55011603612422,18.25992017387397,0 83.54999557293679,18.26003852398872,0 83.5498856566807,18.26029191075293,0 83.54973048154612,18.26038204953605,0 83.54939718234152,18.26060564364859,0 83.54926858391086,18.26060735775361,0 83.54903775510195,18.26050802717329,0 83.54888841125478,18.26055712477368,0 83.54882653358987,18.26072384893291,0 83.54885932029187,18.26091388923905,0 83.54900278205245,18.26104920281914,0 83.54916228422972,18.26110852121774,0 83.54934619054961,18.26107739594058,0 83.54942007990765,18.26114604783371,0 83.54931449905075,18.26125600670169,0 83.54905840748744,18.26133520134345,0 83.54871547678455,18.26133977166757,0 83.54845205798642,18.2613576188987,0 83.54828860671195,18.26146834839559,0 83.54823333754962,18.26164727325236,0 83.54816440132073,18.26177108033615,0 83.54816045222697,18.26194112883131,0 83.54817552407972,18.26209249060307,0 83.5482554838897,18.26235181243959,0 83.54826854112707,18.2624630574297,0 83.54818655602789,18.26248599669906,0 83.54806653409241,18.26256624456621,0 83.54795324318519,18.26263766394626,0 83.5478212206351,18.26275739592107,0 83.54767505017969,18.26284782303283,0 83.54761511866842,18.26289340749668,0 83.54757916064146,18.2629364878992,0 83.54757665574812,18.26299987717891,0 83.54762846700129,18.26310295958048,0 83.54762751966859,18.263194729033,0 83.54758800473236,18.26322911808105,0 83.54746983790119,18.26327984767058,0 83.54735083069319,18.26335134291334,0 83.54723945865101,18.26339761249211,0 83.54716307696542,18.26341283034061,0 83.5471128754137,18.2634200530564,0 83.54700634237747,18.26340617915797,0 83.54706578876493,18.26348403613919,0 83.54703092579682,18.26352382484836,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha-Dump</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_landuse_IS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">DUMP</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54618107847678,18.2610497287064,0 83.54606002197771,18.26107864889453,0 83.54584246630031,18.26110543997432,0 83.54573136092689,18.26108406205572,0 83.5458128199985,18.26059530661944,0 83.54596944400028,18.25965555599992,0 83.54722033917407,18.26015065303281,0 83.54717693499663,18.26024793270433,0 83.54699074632619,18.26046546741513,0 83.54680445762959,18.26067617617273,0 83.54644900661326,18.26097931242476,0 83.54618107847678,18.2610497287064,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha-Dump</name>
+			<styleUrl>#falseColor0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_landuse_IS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">DUMP</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55288379509216,18.25426589246801,0 83.55291129374855,18.25443620372143,0 83.55289370286459,18.25469928286413,0 83.55268004811035,18.25499228672019,0 83.5528408404402,18.25499355474416,0 83.55304554513515,18.25506592145474,0 83.55325824233245,18.25519621182496,0 83.55337246905917,18.25543363666658,0 83.55342264844705,18.25568898409131,0 83.55340798181523,18.25590764784157,0 83.55333793760899,18.25600416249261,0 83.5532866519103,18.25616187088159,0 83.55330963129838,18.25626738460839,0 83.55332656440038,18.25644807740172,0 83.55329740975576,18.25665328027969,0 83.55327197687176,18.25686867416837,0 83.55322024184873,18.2569956664985,0 83.55315774057034,18.25711938895618,0 83.55308040192138,18.25720576024255,0 83.55294198820737,18.25726905167908,0 83.55270722740944,18.25734045590365,0 83.55253968780757,18.2573665865495,0 83.55239507736167,18.25749481802893,0 83.55241493338849,18.25763109564296,0 83.55258063764325,18.25821260387146,0 83.55245820771434,18.25839174292397,0 83.55234841972931,18.2584580656275,0 83.55219913870373,18.25851126097298,0 83.55204553719882,18.25851331038842,0 83.55191589308761,18.2584433551983,0 83.551848951227,18.25826332933561,0 83.55178981960819,18.25801655077917,0 83.55182128382511,18.25783700280353,0 83.55179596082633,18.25757108253228,0 83.55184290901099,18.25711645205466,0 83.55208311081878,18.25619499862802,0 83.55228581364999,18.25539693372814,0 83.55234530320119,18.25482266116303,0 83.5524433867588,18.25420008379206,0 83.55260328052206,18.25413991992345,0 83.55286096604027,18.25417061730089,0 83.55288379509216,18.25426589246801,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha-Stockyard</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor61</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_landuse_IS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">STACKYARD</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54836746635185,18.26314202984655,0 83.54830944253082,18.2631616459566,0 83.54828535341711,18.2631562321518,0 83.54824489121756,18.26314530171656,0 83.54818727034417,18.26313378065034,0 83.5481390682156,18.26312131480914,0 83.54811304921752,18.26310118006678,0 83.54799914309463,18.26311089032542,0 83.54787635620966,18.26315840467264,0 83.54778644348403,18.26316697588418,0 83.54767147331069,18.26310378622024,0 83.54759442585315,18.26299503213158,0 83.54759541132034,18.26294504429859,0 83.5476411336282,18.26290511084633,0 83.54771811746491,18.26285886149546,0 83.54774285424345,18.26282428775946,0 83.54787360457681,18.26273488529903,0 83.54803557396747,18.26261065801001,0 83.54824388692155,18.26248909013189,0 83.54835299177938,18.26244421569476,0 83.54847021913237,18.26242708770278,0 83.54855547770082,18.26245216777316,0 83.5486598965748,18.26249747388214,0 83.54874596469064,18.26251926604414,0 83.54884484497455,18.26253761038011,0 83.54890664468563,18.26254170225774,0 83.54896657424786,18.26253516870305,0 83.5489813522279,18.2625488991005,0 83.54899145267115,18.26259464285553,0 83.54897835728633,18.26263741875024,0 83.54895003322247,18.26269432498488,0 83.54893453326615,18.26274860252243,0 83.54891269707861,18.26278002532063,0 83.54886941557368,18.26281091468645,0 83.5488217636631,18.26283612749442,0 83.54877664786171,18.26285884872103,0 83.54871102777683,18.26288675874745,0 83.54868433081555,18.26287892197497,0 83.5486479639968,18.2628548289301,0 83.54860084278403,18.26279892817679,0 83.54854965018575,18.26275782829073,0 83.54851458320142,18.26276403040236,0 83.54850384444127,18.26279202824712,0 83.54852157708569,18.262831935531,0 83.54856606648895,18.26288377509372,0 83.54858806191523,18.26292198704636,0 83.54855758054136,18.26294860948246,0 83.54849895060245,18.26298543811536,0 83.54844593932273,18.2629959756341,0 83.54837844899784,18.26301326013829,0 83.54838058219458,18.26304190570888,0 83.54840558010449,18.26310957092739,0 83.54836746635185,18.26314202984655,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha- Ramp</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor60</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_landuse_IS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">ROAD</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55116023308476,18.25890743950976,0 83.55113737291585,18.25903198684345,0 83.55109567408306,18.25911242045346,0 83.55106070427085,18.2592132457096,0 83.55099560871055,18.25930628019356,0 83.55089887234315,18.25943455502472,0 83.55078239746045,18.25953237095412,0 83.55066788624445,18.2596178717978,0 83.5505889732982,18.25964554994973,0 83.55048422114378,18.25966538006624,0 83.55037949887044,18.25968725786997,0 83.55030257956992,18.25970466862465,0 83.55019169654419,18.25974506174326,0 83.55007024652467,18.25979583639246,0 83.54994323385357,18.25990608122596,0 83.54985444152304,18.25999123876618,0 83.54976275816301,18.26002523128039,0 83.5496471097066,18.26003291738126,0 83.54942030864727,18.26006256644227,0 83.5492470900016,18.26009150108395,0 83.54910378780626,18.26011389243504,0 83.54900733923392,18.26011517784067,0 83.54895089587802,18.26006677464193,0 83.54894368867593,18.26001361898774,0 83.5489510062435,18.25992749948677,0 83.54906840935213,18.25989316457785,0 83.54924189695033,18.25988265981028,0 83.54951144418239,18.25984424863216,0 83.54974896141658,18.25981445664009,0 83.5498357599613,18.25973956643809,0 83.55003849559934,18.25953000136879,0 83.55026933280612,18.25933644657799,0 83.55032287484953,18.25918621840521,0 83.55031859765121,18.25889339129757,0 83.55031289508423,18.25864973856718,0 83.55032297317412,18.25845912709193,0 83.55039986202856,18.25843966865271,0 83.55042722646591,18.25855195153355,0 83.5504311149124,18.25881815798227,0 83.55040752954937,18.25911135658503,0 83.55037164240328,18.25929616775939,0 83.55028139523363,18.25942845208285,0 83.55006499273043,18.25958289977081,0 83.54987490750695,18.25977795923375,0 83.54982213256437,18.25983396260865,0 83.54966603073215,18.25986062126884,0 83.54949078866422,18.25989777564594,0 83.54931736089695,18.25991237612637,0 83.54915670317938,18.25992066182981,0 83.54906713307572,18.25995257771326,0 83.5490336773987,18.26001037156984,0 83.54909217436125,18.26005260294768,0 83.54917358988945,18.26004946972104,0 83.5493938415085,18.26001171568143,0 83.54965499510433,18.25998570501081,0 83.54978957434669,18.25995318884473,0 83.54988938225091,18.25988836589068,0 83.55000157132658,18.25979060756757,0 83.55009283578089,18.25972794656774,0 83.55031692457682,18.25965941825731,0 83.55060078604107,18.25957370751269,0 83.55086162863795,18.25937975194361,0 83.55098916798987,18.25915890001898,0 83.55108940192122,18.25882986081006,0 83.55116023308476,18.25890743950976,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha-Stockyard</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor12</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_landuse_IS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">STACKYARD</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55143352561429,18.25640077418737,0 83.55141515574006,18.25675739552467,0 83.55134213819338,18.25718847876018,0 83.5513578211653,18.25752826078961,0 83.5514250846277,18.25817047946529,0 83.55158842616515,18.25863937269326,0 83.55165271734637,18.25893139895499,0 83.55162320156614,18.25911202894428,0 83.55158683692717,18.25926407634966,0 83.55154638380201,18.25928304924631,0 83.5514755356234,18.25927580178273,0 83.55138476947172,18.25922580905201,0 83.55126654847277,18.25905739038068,0 83.55124772660135,18.25894294561182,0 83.55120859792896,18.25875913493682,0 83.55111395086801,18.25815005160709,0 83.55101546695523,18.25757174139781,0 83.55102682429083,18.25715197766475,0 83.55104064554244,18.25709418895122,0 83.5510578707175,18.25695263756317,0 83.55122655755736,18.25646702685201,0 83.55136251819386,18.25623582189942,0 83.55141193262001,18.25624335541188,0 83.55143352561429,18.25640077418737,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha-Axistinf afforestation</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor42</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_landuse_IS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">AFFORESTATION</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54555277800021,18.26215555599985,0 83.54573136092689,18.26108406205572,0 83.54584246630031,18.26110543997432,0 83.54606002197771,18.26107864889453,0 83.54618107847678,18.2610497287064,0 83.54644900661326,18.26097931242476,0 83.54637395786692,18.2611250472478,0 83.5463490042434,18.26137388780433,0 83.5464654254997,18.26151707334363,0 83.54646769560289,18.2616727021635,0 83.54633549126545,18.26181919800564,0 83.54613596507113,18.26185735562494,0 83.54593795188156,18.26199926563205,0 83.54581889010204,18.26226301327062,0 83.54569799645164,18.26240116562078,0 83.54592794167134,18.26284159647976,0 83.54633229716559,18.26336381520518,0 83.54648169211625,18.26341717711531,0 83.5462875994258,18.26338012418255,0 83.54608140009275,18.26335283013193,0 83.54600809803641,18.26336324170502,0 83.54555277800021,18.26215555599985,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha-Canal</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>83.55210473848774</longitude>
+				<latitude>18.25631495510554</latitude>
+				<altitude>0</altitude>
+				<heading>0.001028254015778373</heading>
+				<tilt>44.25723673082258</tilt>
+				<range>586.885076879812</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#falseColor45</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_landuse_IS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">CANAL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55299984463221,18.25242897453192,0 83.55357520724361,18.25180961539443,0 83.55354166700035,18.252241667,0 83.55354315684711,18.25224801087806,0 83.55342480586398,18.25241534858428,0 83.55293533131588,18.25290319275102,0 83.55271995200017,18.25332252134542,0 83.55252527498071,18.25393614678888,0 83.55237641580021,18.2542624214357,0 83.55228725258588,18.25476199145266,0 83.55210121343923,18.25547790844926,0 83.55188774357077,18.25627270331546,0 83.5517180351124,18.25712835853822,0 83.55170632777187,18.25779415998048,0 83.55179076887374,18.25843819734616,0 83.55208149710347,18.25901803812771,0 83.55245859936541,18.25952335442123,0 83.55234712909299,18.25978439448696,0 83.5520425723343,18.25928822905798,0 83.55169031936659,18.25865459198944,0 83.55152712358502,18.25775558765303,0 83.55149511866539,18.25703233857124,0 83.55169275656699,18.25613193453295,0 83.5518807241172,18.25530334432083,0 83.55215767739323,18.25416172382157,0 83.55299984463221,18.25242897453192,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha - Existing Planation</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor37</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_landuse_IS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">AFFORESTATION</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55258488949356,18.25390200089713,0 83.55283741518672,18.2531886101951,0 83.55299345070455,18.25291344305842,0 83.5532953194796,18.25283841272771,0 83.55343226138689,18.25301682132117,0 83.55345888362427,18.25386029876934,0 83.55350297858867,18.25433487816572,0 83.55353542715203,18.2545993375159,0 83.55359029784182,18.25483345821145,0 83.55386660462415,18.25516020268665,0 83.55403224545609,18.25534641997707,0 83.55409992794897,18.25547932796409,0 83.55384551173587,18.25586777419911,0 83.55372008428917,18.25657887925191,0 83.55354514503892,18.25700085139458,0 83.55334102137003,18.25733278215545,0 83.55312930680731,18.25770973445854,0 83.5530074807109,18.25797898376304,0 83.55286575373879,18.25806006995844,0 83.55258063764325,18.25821260387146,0 83.55241493338849,18.25763109564296,0 83.55239507736167,18.25749481802893,0 83.55253968780757,18.2573665865495,0 83.55270722740944,18.25734045590365,0 83.55294198820737,18.25726905167908,0 83.55308040192138,18.25720576024255,0 83.55315774057034,18.25711938895618,0 83.55322024184873,18.2569956664985,0 83.55327197687176,18.25686867416837,0 83.55329740975576,18.25665328027969,0 83.55332656440038,18.25644807740172,0 83.55330963129838,18.25626738460839,0 83.5532866519103,18.25616187088159,0 83.55333793760899,18.25600416249261,0 83.55340798181523,18.25590764784157,0 83.55342264844705,18.25568898409131,0 83.55337246905917,18.25543363666658,0 83.55325824233245,18.25519621182496,0 83.55304554513515,18.25506592145474,0 83.5528408404402,18.25499355474416,0 83.55268004811035,18.25499228672019,0 83.55289370286459,18.25469928286413,0 83.55291129374855,18.25443620372143,0 83.55288379509216,18.25426589246801,0 83.55286096604027,18.25417061730089,0 83.55260328052206,18.25413991992345,0 83.55258488949356,18.25390200089713,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha- Existing efforestation </name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor50</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_landuse_IS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">AFFORESTATION</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54898142212083,18.26268337006515,0 83.54903039663719,18.26261171504639,0 83.54910964334179,18.26265571788504,0 83.54900867706669,18.26278814474268,0 83.54893231437772,18.26284377966927,0 83.5487440459591,18.26296781200291,0 83.54851721708833,18.26309372348364,0 83.5482637505541,18.26323057175311,0 83.54810574005673,18.2634204236412,0 83.54785227495586,18.2636798186637,0 83.54751555149279,18.26386522398908,0 83.54708426885951,18.26418160409487,0 83.54654403691585,18.26455473586611,0 83.54613611100024,18.26370277799985,0 83.54600809803641,18.26336324170502,0 83.54608140009275,18.26335283013193,0 83.5462875994258,18.26338012418255,0 83.54648169211625,18.26341717711531,0 83.54653572836719,18.26343647811451,0 83.5468191142653,18.26350370660984,0 83.54690415120344,18.26353315971108,0 83.54703092579682,18.26352382484836,0 83.5470466003934,18.26350593561227,0 83.54704878222515,18.2635034455125,0 83.54708131992788,18.26351428973402,0 83.54729648581156,18.26347046090457,0 83.54745139882301,18.26341104933467,0 83.54768513439571,18.26326866183568,0 83.54777694797885,18.26316175698926,0 83.54778644348403,18.26316697588418,0 83.54787635620966,18.26315840467264,0 83.54799914309463,18.26311089032542,0 83.54811304921752,18.26310118006678,0 83.5481390682156,18.26312131480914,0 83.54818727034417,18.26313378065034,0 83.54824489121756,18.26314530171656,0 83.54828535341711,18.2631562321518,0 83.54830944253082,18.2631616459566,0 83.54836746635185,18.26314202984655,0 83.54840558010449,18.26310957092739,0 83.54838058219458,18.26304190570888,0 83.54837844899784,18.26301326013829,0 83.54844593932273,18.2629959756341,0 83.54849895060245,18.26298543811536,0 83.54855758054136,18.26294860948246,0 83.54858806191523,18.26292198704636,0 83.54856606648895,18.26288377509372,0 83.54852157708569,18.262831935531,0 83.54850384444127,18.26279202824712,0 83.54851458320142,18.26276403040236,0 83.54854965018575,18.26275782829073,0 83.54860084278403,18.26279892817679,0 83.5486479639968,18.2628548289301,0 83.54868433081555,18.26287892197497,0 83.54871102777683,18.26288675874745,0 83.54877664786171,18.26285884872103,0 83.5488217636631,18.26283612749442,0 83.54886941557368,18.26281091468645,0 83.54891269707861,18.26278002532063,0 83.5489190210476,18.26277092497871,0 83.54898142212083,18.26268337006515,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha- Dump</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor48</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_landuse_IS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">DUMP</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54903039663719,18.26261171504639,0 83.54898142212083,18.26268337006515,0 83.5489190210476,18.26277092497871,0 83.54893453326615,18.26274860252243,0 83.54895003322247,18.26269432498488,0 83.54897835728633,18.26263741875024,0 83.54899145267115,18.26259464285553,0 83.5489813522279,18.2625488991005,0 83.54896657424786,18.26253516870305,0 83.54890664468563,18.26254170225774,0 83.54884484497455,18.26253761038011,0 83.54880723311305,18.26253063260927,0 83.5487804069313,18.26246293825247,0 83.54879112046507,18.26241364005574,0 83.54884076348908,18.26236819239395,0 83.54895549989898,18.26231750778372,0 83.54911279722467,18.26220617699433,0 83.54935902294868,18.26192107062254,0 83.54947464153757,18.26177424788298,0 83.54951558595815,18.26175950161776,0 83.5495502618938,18.2617852555655,0 83.54957668621309,18.26187229066291,0 83.54958014211765,18.2620306341832,0 83.54955112848232,18.2621577326452,0 83.54952371517025,18.26223783906478,0 83.54939813807282,18.26232908516357,0 83.54921882394966,18.26249860379487,0 83.54910964334179,18.26265571788504,0 83.54903039663719,18.26261171504639,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha- Dump</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor47</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_landuse_IS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">DUMP</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54818559455286,18.26173301804259,0 83.54823333754962,18.26164727325236,0 83.54823994083698,18.26162589620735,0 83.54838072158979,18.26153726991025,0 83.54856404218354,18.26149045070126,0 83.54888705207026,18.26146737147209,0 83.54907918621093,18.26153478892439,0 83.54928032573245,18.26160720648402,0 83.54941371819361,18.26168906083128,0 83.54938618723685,18.26176111277793,0 83.54928997014643,18.26190064490275,0 83.54917058339332,18.26204389939781,0 83.54904561387438,18.26217186718418,0 83.5488436173199,18.26228550044446,0 83.54865256970685,18.2623255202602,0 83.54854209097904,18.26225228815522,0 83.54848421807669,18.26220390393879,0 83.54844349182736,18.26215529121498,0 83.54838855646898,18.26211232953257,0 83.54833310300091,18.26203387359211,0 83.54828753220403,18.26194709337629,0 83.54824507827885,18.26187802218688,0 83.54818265421385,18.26173829878819,0 83.54818559455286,18.26173301804259,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha- Public Road</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor57</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_landuse_IS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">PUBLIC ROAD</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54681278489352,18.26438654345403,0 83.54723520160029,18.26410892360424,0 83.54744427236311,18.26394119475943,0 83.54763908787994,18.26381516468022,0 83.54785476617805,18.26370851864565,0 83.54798374258637,18.26361504339839,0 83.54809945903175,18.26347477401704,0 83.54827258137912,18.2632725684466,0 83.54846283898776,18.26314769074358,0 83.54874910190097,18.26302044104176,0 83.54891462500255,18.26292429350247,0 83.54901886639867,18.26285954824975,0 83.54921208458472,18.26262430387969,0 83.54947728621529,18.26238591508438,0 83.5496990703914,18.26222784580124,0 83.54985197013474,18.2621285888505,0 83.55003635876095,18.26203555675112,0 83.54996887311556,18.26211002454769,0 83.54978126246147,18.26221910360076,0 83.54969180240023,18.26227819042619,0 83.54950845320508,18.26240625409306,0 83.54927501945531,18.26262783433114,0 83.54907526164766,18.26288501276948,0 83.54891782021512,18.26298651443072,0 83.5487633773816,18.26305848277009,0 83.54847160612837,18.26320000635869,0 83.54833804189661,18.26329245066978,0 83.5481739529523,18.26348688952456,0 83.54804680538551,18.26362731125724,0 83.54792949932177,18.26373701619689,0 83.54770123078968,18.26384273770672,0 83.54749269784865,18.26396895058611,0 83.54716358771107,18.2642158348286,0 83.54673107372751,18.26450669715822,0 83.54658926815232,18.26464920115474,0 83.54656057479247,18.26458927518228,0 83.54681278489352,18.26438654345403,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha- Dump</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor49</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_landuse_IS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">DUMP</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.5472623500158,18.26563621323321,0 83.54727481739637,18.26570704946077,0 83.54724646387488,18.26582075778525,0 83.54723714451048,18.26596561741454,0 83.54722442935132,18.26607365569586,0 83.54721972981844,18.266143355183,0 83.54717816293481,18.26633097269785,0 83.54715048110495,18.26639278576687,0 83.5468119064119,18.26640275744971,0 83.54672188434243,18.2664039564831,0 83.54680798731813,18.26623213097616,0 83.54710027054328,18.26569435489457,0 83.54709977247073,18.26566022579879,0 83.5470375631498,18.265522077429,0 83.5471124877126,18.26555218751579,0 83.5472623500158,18.26563621323321,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha- Quarry pit</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor33</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_landuse_IS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">QUARRY PIT</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54837794985859,18.26386552367279,0 83.54831463323865,18.26376439068201,0 83.54830429248642,18.26368260277592,0 83.54835333009017,18.26359565423727,0 83.54843364636811,18.26353668977532,0 83.54859612347752,18.26346679925655,0 83.54877652042798,18.26342572642493,0 83.54837794985859,18.26386552367279,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha- Dump</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor14</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_landuse_IS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">DUMP</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55207134451574,18.25972242601365,0 83.55205865228447,18.25983182941534,0 83.55195548273001,18.25991103523549,0 83.551789303409,18.2599815236904,0 83.55156305177968,18.2600487171382,0 83.55135829277025,18.26011971991694,0 83.55115562072547,18.26023575372686,0 83.55084406250624,18.26043106889941,0 83.55065635652755,18.26059332715925,0 83.55048728535398,18.26075943305181,0 83.55037879784857,18.26086601760695,0 83.5502627939053,18.26104506997292,0 83.5502121989424,18.26120140329881,0 83.5501756134861,18.26133843383776,0 83.55018760982523,18.26147481658378,0 83.55013653611405,18.261598386039,0 83.55009044001919,18.26167136831383,0 83.550023821099,18.2617091231166,0 83.54993925796782,18.2616925000611,0 83.54985032167382,18.26157216279527,0 83.54981677071468,18.26155364382631,0 83.5498112167809,18.26143887227313,0 83.54976661577872,18.26132067470983,0 83.54962293058885,18.26126797314284,0 83.54954048778372,18.26120080079376,0 83.54958207809567,18.26111285899923,0 83.54966709285766,18.26106257027833,0 83.54975188824748,18.26099726474702,0 83.54982731278494,18.26087746701948,0 83.54989630393406,18.26070859965755,0 83.54999881698858,18.26058434445411,0 83.55010125014046,18.26045462856655,0 83.5501847888072,18.26030331773329,0 83.5502581856869,18.26014258411512,0 83.55036266547336,18.2600551690819,0 83.55054762028175,18.25999808569673,0 83.5507604940582,18.25989557073249,0 83.5508593776442,18.25981642266055,0 83.55096529846276,18.25963204284334,0 83.55110573113221,18.25946222237529,0 83.55125722278895,18.25936462192073,0 83.55142940405163,18.2594114805605,0 83.55164560834243,18.25953694645885,0 83.55179244173507,18.25951177532188,0 83.55198381697852,18.25960070555162,0 83.55207134451574,18.25972242601365,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha- Ramp</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor63</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_landuse_IS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">ROAD</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55425711307885,18.2554068829272,0 83.55423204707473,18.25543525861899,0 83.55418848605906,18.25550547685926,0 83.55411807857082,18.25561619699828,0 83.55395488299796,18.25589036831337,0 83.55391434886188,18.25599167778094,0 83.55384082000755,18.25635804699283,0 83.55374231625495,18.25665838997723,0 83.55370567308749,18.2567326120771,0 83.55370370010688,18.25677360115251,0 83.55371765649556,18.25678979993439,0 83.55375212822371,18.25680162856518,0 83.553796899308,18.25680209890759,0 83.55375672818788,18.25686786463345,0 83.5537330571412,18.25684612291567,0 83.55367401114363,18.25685428445171,0 83.55363844767214,18.25688507162924,0 83.55352643702594,18.25714135511064,0 83.5534475071055,18.25737410095827,0 83.5533262617888,18.25757259495311,0 83.55340593181641,18.25734450038096,0 83.55361448601444,18.25682968217494,0 83.55365677099876,18.25673080712931,0 83.55378517260054,18.25642269174926,0 83.55383573939106,18.25612790424673,0 83.55392610107504,18.25585716311825,0 83.55407748621191,18.25559625757876,0 83.554223902697,18.25536378872239,0 83.55425711307885,18.2554068829272,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha- Ramp</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor56</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_landuse_IS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">ROAD</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.5530709761905,18.25808928331952,0 83.55299286196212,18.25810645924465,0 83.55286185512227,18.25813879323437,0 83.55276075985547,18.2581838360375,0 83.55263242870733,18.25832099883594,0 83.55255993266955,18.25844540073236,0 83.55246279322751,18.25852643784658,0 83.55239679787236,18.25854807295837,0 83.55232381629638,18.25856106254641,0 83.55223394390761,18.2585917549312,0 83.55215521495904,18.2586026364644,0 83.55208447160511,18.25861231907963,0 83.55202857234042,18.25862071127964,0 83.55197959540827,18.25863338047078,0 83.55194292101527,18.25862731572355,0 83.55190613489152,18.25861360607458,0 83.55185438680263,18.25851489344787,0 83.55187130956058,18.25849937490977,0 83.55190712815455,18.25852511322461,0 83.55194313830209,18.25856395706431,0 83.55199478447651,18.25857746844785,0 83.55205057199224,18.25856143136559,0 83.55227983643631,18.25852450981081,0 83.55239947677114,18.25849669721319,0 83.55251730342985,18.25842303045398,0 83.55258780071814,18.25831831736905,0 83.55271479722842,18.25816806432564,0 83.55281000147637,18.25811108442521,0 83.55294546884578,18.2580710445597,0 83.55310181647474,18.25801706062098,0 83.5530709761905,18.25808928331952,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha- Ramp</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor65</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_landuse_IS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">ROAD</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.5497182522591,18.26167491967356,0 83.54986227828265,18.2616286231033,0 83.54987911735513,18.26155842044585,0 83.54994774472472,18.26136463885344,0 83.5500661582679,18.26115483238552,0 83.55018349969815,18.26087164845945,0 83.55041385412936,18.26049820477419,0 83.55053522438972,18.2603685775283,0 83.55074527537265,18.26019509798737,0 83.55084397462086,18.26010332216802,0 83.55098660272323,18.25996146370421,0 83.55109282004184,18.25989518925752,0 83.55119918688594,18.25983915346351,0 83.55133209546453,18.25976569574876,0 83.55140286528054,18.25971866859795,0 83.55149481859981,18.2596542910144,0 83.55152663432578,18.25950879007019,0 83.55156775445285,18.25938876674311,0 83.55167484041614,18.25901525958627,0 83.55166495291648,18.2588276454044,0 83.55163075879547,18.25868814538135,0 83.55148523654134,18.25826509765797,0 83.55139188220265,18.25749999730162,0 83.55134857679151,18.25732797567112,0 83.55134671031522,18.25728753716198,0 83.55139412368037,18.25728661951774,0 83.55145864867224,18.25766807827868,0 83.55154075409074,18.25827459780225,0 83.55162702759964,18.25855506610687,0 83.55167742096671,18.25870288394787,0 83.55173523303473,18.25886937740226,0 83.55168810059558,18.25918917450869,0 83.55159768781247,18.2596034220327,0 83.5515402435985,18.25970659530746,0 83.55141894937746,18.25984134240146,0 83.55125346745046,18.25988621936001,0 83.55101250545623,18.26002256242069,0 83.55074868199291,18.2603059934756,0 83.55050398112958,18.26055332679363,0 83.55031817069006,18.2607964610412,0 83.55017589900324,18.2610850977917,0 83.55006425612605,18.261269212274,0 83.54999314489794,18.26141523705651,0 83.54996489992091,18.26156069029128,0 83.54995495602356,18.26161373317868,0 83.54992239104013,18.26170804048913,0 83.54989627252338,18.26175447189341,0 83.54978935574439,18.26177296520537,0 83.54962039073577,18.26180693659927,0 83.54957549423301,18.26167946718612,0 83.5497182522591,18.26167491967356,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha- Ramp</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor38</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_landuse_IS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">ROAD</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.54879623688828,18.26232521956342,0 83.54894440794698,18.2622544271992,0 83.5490922439762,18.26216070000931,0 83.54938815496463,18.26181348711148,0 83.54944929255798,18.26171354207959,0 83.54945431297303,18.26164629611467,0 83.54939915713921,18.26145122902251,0 83.54934144919854,18.26137498813415,0 83.5491263319542,18.26138277099271,0 83.5489234564219,18.26140677559765,0 83.54864870880397,18.26144156886264,0 83.54834032552685,18.26152186906901,0 83.54823153207053,18.26158803997832,0 83.54813936253669,18.2616769285491,0 83.54802317227667,18.26170633132987,0 83.54785092083249,18.26171354169617,0 83.54766398717005,18.26171357417451,0 83.54752493601963,18.26173235775961,0 83.54742282341489,18.26178628694137,0 83.54731976721848,18.26182452620424,0 83.54715188333564,18.26182744495,0 83.54703712446739,18.26179825116026,0 83.54694044318944,18.26173468080764,0 83.54689126365513,18.26169437284503,0 83.54687560313909,18.26164952221031,0 83.54688119661999,18.2615920996679,0 83.5469052759383,18.26152828651602,0 83.54703298119962,18.2613183577845,0 83.54710602076854,18.26127983574658,0 83.54719910444607,18.26124377758984,0 83.54731947620978,18.26121691395141,0 83.54741936823275,18.26120670817502,0 83.54749303515604,18.26121118867276,0 83.54758086137389,18.26120660524508,0 83.5476628027314,18.26119049401969,0 83.54775082537201,18.26115040674035,0 83.54781948839387,18.26110579832327,0 83.54792435861087,18.26104500510089,0 83.54799778351526,18.26098394804301,0 83.54802623863908,18.26092622093467,0 83.54801297458778,18.26080077817789,0 83.54794785272328,18.26064735225924,0 83.54798406982944,18.26063185005568,0 83.54804500471641,18.26079215888517,0 83.54807498976821,18.26093717758793,0 83.54804195201508,18.2610236397624,0 83.54788344201711,18.26113020679088,0 83.54776998850629,18.2611904316238,0 83.54765703020729,18.26123563007918,0 83.54758357245362,18.26124548386788,0 83.54751002504365,18.26124919439125,0 83.5474336597098,18.26125567327912,0 83.54733582134146,18.26125970728033,0 83.54719693387653,18.26129091382068,0 83.54709628014359,18.26134687152707,0 83.54700906386591,18.26144224769847,0 83.54695192372013,18.26154200231512,0 83.54692890740417,18.26162969633684,0 83.54694685067443,18.26168407457451,0 83.54697160973939,18.26171583244857,0 83.54707505698832,18.2617533695119,0 83.54716754862203,18.26177466727198,0 83.54723279188902,18.26178950075662,0 83.54734962168277,18.26176473237887,0 83.54739920429743,18.26173471522594,0 83.5474537481408,18.26170190111979,0 83.54750628808902,18.26167867169781,0 83.54754827078018,18.26166650632478,0 83.5476482626401,18.26166312621826,0 83.54775770160791,18.2616705436429,0 83.54785499508078,18.26167812280699,0 83.54797435652324,18.26167994620143,0 83.54806115964345,18.26165421201141,0 83.54812283775618,18.26162061996483,0 83.54817364978872,18.26157693196161,0 83.54826046980882,18.26150340746,0 83.54840818651213,18.26144067764275,0 83.5485805527636,18.26140219696394,0 83.5488230037132,18.26136756113506,0 83.54896373824575,18.26136500280903,0 83.54906867107941,18.26135745984377,0 83.54914430193594,18.26134962466462,0 83.54921262891894,18.26133096338619,0 83.54928650194687,18.2613006220232,0 83.54935459963248,18.26126626133443,0 83.5493973032052,18.26120561328457,0 83.54948676092319,18.26111703343459,0 83.54962006507755,18.26099714692391,0 83.54972103331484,18.26091387525164,0 83.54978086984748,18.26080316062917,0 83.54985179832794,18.26066908585261,0 83.54995834876833,18.2605277090019,0 83.55002975557136,18.26042639806146,0 83.5501118753963,18.26027578888489,0 83.55017644333738,18.26014657783271,0 83.55025433959578,18.26004927659213,0 83.55036128170002,18.25998367556659,0 83.55051387758384,18.259912686713,0 83.55065302876069,18.25985075231815,0 83.55075083254688,18.25979551366761,0 83.55081431364455,18.2597386845755,0 83.55087085621437,18.25964712962296,0 83.55091060144296,18.25957969364816,0 83.55100684284481,18.2594664450985,0 83.55109253090814,18.25941341603528,0 83.55112577632319,18.25934128772835,0 83.55115985582613,18.259277340852,0 83.5511749711825,18.2591870210988,0 83.55118196382392,18.25888312044152,0 83.55111834797277,18.25858835407133,0 83.55104871700622,18.25812640310229,0 83.55097352432215,18.25772392228594,0 83.55094458710664,18.25740616373311,0 83.55094999916848,18.25718967140125,0 83.55095640839839,18.25704143711412,0 83.55099935566058,18.25680191468847,0 83.55106533085848,18.25667131931783,0 83.55114829886331,18.25648110125169,0 83.55117873604831,18.25641242399913,0 83.55119196736632,18.25633987992502,0 83.55119869912103,18.25626264353645,0 83.55119415975911,18.25619648087518,0 83.55118465900608,18.25616365722263,0 83.55120753514275,18.25611659129208,0 83.55123112352727,18.25623217172786,0 83.55123594570374,18.25636660195145,0 83.55118343854343,18.25653866326145,0 83.55111925130187,18.25669381249731,0 83.55107518026581,18.25675857528556,0 83.55103735305197,18.25685943861285,0 83.55099917389573,18.25703403968046,0 83.55098849812039,18.25718369628916,0 83.55098974525266,18.25741580221987,0 83.55100069162803,18.25757814203055,0 83.55101343228979,18.25771656293892,0 83.55105589316166,18.25788394415797,0 83.55109313100395,18.2581340033273,0 83.55111436515814,18.25826684922662,0 83.55116259254754,18.25858435040074,0 83.55122122742306,18.25888054861057,0 83.55123365301301,18.25904628219051,0 83.55123106198083,18.25916237799589,0 83.55119511220283,18.25929393843455,0 83.55116308991022,18.2594008688103,0 83.55103694231069,18.25952134342926,0 83.55097924662122,18.25958287441241,0 83.55090935931456,18.25969030977178,0 83.55086420776878,18.25977898196385,0 83.55078800651938,18.25984553869897,0 83.55065614930864,18.2599176166184,0 83.55048506798981,18.25999499650123,0 83.55037984048182,18.26003121804739,0 83.55027635087761,18.26008858048798,0 83.55022526409628,18.26016231201275,0 83.55016371344975,18.26030240626519,0 83.55010549560672,18.26042607094361,0 83.55001344079143,18.26056582566288,0 83.54989630393406,18.26070859965755,0 83.54984650825939,18.26079614112962,0 83.54977774298476,18.26093155249726,0 83.54971740796873,18.2610081380805,0 83.5495954518417,18.2610732562705,0 83.54953903449598,18.26112452917326,0 83.54949566639583,18.26118859967524,0 83.54948820288131,18.26131363579846,0 83.54951578007412,18.2614894083465,0 83.54955501435877,18.26163157250654,0 83.54961568193234,18.26177345091648,0 83.5496380090692,18.26193222556547,0 83.5496455822247,18.2621082647445,0 83.54963882995924,18.26218413598663,0 83.54962071519958,18.26228369091194,0 83.54953031012168,18.26234812410775,0 83.54959100555787,18.26223665980624,0 83.54960609188602,18.26214429232834,0 83.54960497864128,18.26197021516574,0 83.54957811565949,18.2617944331346,0 83.54955161824059,18.26174153469925,0 83.54951502229004,18.26173109913508,0 83.549458355521,18.2617653075166,0 83.54938412005463,18.26186870417636,0 83.54917609426288,18.26210769610561,0 83.54913199144544,18.26217041092642,0 83.54900110534919,18.26226022557482,0 83.54880110748509,18.2623639328101,0 83.54867274996219,18.26243118400076,0 83.54862932229581,18.26248420807449,0 83.54849400198286,18.26243408378513,0 83.54879623688828,18.26232521956342,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha- Garland Drain</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor2</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_landuse_IS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">GARLAND ROAD</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55351018828635,18.25463616536879,0 83.55355550361871,18.25470547028499,0 83.55364357681253,18.25482554443154,0 83.55370357631494,18.25488263755572,0 83.55384563288321,18.2550197415024,0 83.55392830315763,18.25512213708094,0 83.55399093462908,18.25518329122912,0 83.55400916937459,18.25519888671646,0 83.55409331136302,18.25524555323871,0 83.55419760465918,18.25530205481441,0 83.55420323384813,18.2553156339005,0 83.55416093894894,18.25529653647738,0 83.55398425995679,18.25519594224204,0 83.55391729809701,18.25513184196727,0 83.55383950577691,18.25503074669168,0 83.55369347645363,18.25489560736555,0 83.55363441009371,18.25484369039719,0 83.55355766132517,18.25473575391823,0 83.55349622179823,18.25463880954742,0 83.55351018828635,18.25463616536879,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Devada Manganese Mine - RBSSDFNDas - 41.054 Ha- Retaining Wall </name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor51</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_landuse_IS">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="REMARKS">RETAINING WALL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							83.55346697951603,18.25463762960835,0 83.55359124184373,18.25480883382764,0 83.55364193487543,18.25487451682859,0 83.55370580219174,18.25493224103433,0 83.55377612319772,18.25499151757409,0 83.5538882915929,18.25512724539315,0 83.55393394630438,18.25517087567398,0 83.55398652526789,18.25521891940273,0 83.55406526968079,18.25526784267429,0 83.55416244594954,18.25531651982384,0 83.55411621383193,18.25540930321233,0 83.55405314723667,18.25552361196671,0 83.55399359100385,18.25561411545821,0 83.55391604606702,18.25573517151192,0 83.55384300054821,18.25584142089349,0 83.5538060726426,18.25592547785224,0 83.5537534455528,18.25607938103704,0 83.55373120542754,18.25617102483539,0 83.55368933039506,18.25632724224456,0 83.55361837809913,18.25654734005154,0 83.55359537384412,18.2566160549107,0 83.55355963837673,18.25672303506444,0 83.55351011328067,18.25688386047994,0 83.55348859598524,18.25693698964297,0 83.5534688891034,18.2569966486772,0 83.55343845648525,18.25708512480211,0 83.55340222633333,18.25718760564484,0 83.55334612499944,18.25732448302807,0 83.5533351297406,18.25731958204081,0 83.55338019994485,18.25720592326534,0 83.55345679703896,18.25699066567655,0 83.55358001430288,18.25662117547255,0 83.55363959930509,18.25644464991938,0 83.55367636909754,18.25632045160207,0 83.55371220968181,18.25619135015765,0 83.55373276516828,18.25610177698605,0 83.55375327529215,18.25603842057182,0 83.55377418410687,18.25597301069754,0 83.55382759915766,18.25584367463436,0 83.55389638216502,18.25573912067139,0 83.55396104033296,18.2556456816976,0 83.55403641800946,18.25552301605735,0 83.55414878914826,18.25532079842951,0 83.55406112696222,18.25527772903769,0 83.55397935806126,18.25522720763264,0 83.55392719576486,18.25517833908479,0 83.55387804600103,18.25513024955843,0 83.55384225616957,18.25508689720004,0 83.55377372499504,18.25500342878235,0 83.55370251076077,18.25494170640074,0 83.55363379082719,18.25488489062817,0 83.55357975224298,18.25481472197253,0 83.55352643348601,18.25474538734948,0 83.55345938964477,18.25464633308797,0 83.55346697951603,18.25463762960835,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

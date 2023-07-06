@@ -1,0 +1,5067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SURFACE PLAN.kml</name>
+	<Style id="IconStyle00">
+		<IconStyle>
+			<scale>1.125</scale>
+			<Icon>
+				<href>Layer0_Symbol_16ee5380_0.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.666667</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>SURFACE PLAN</name>
+		<Document id="WASTE_DUMPshp" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+			<name>WASTE_DUMPshp</name>
+			<Snippet maxLines="0"></Snippet>
+			<Style id="PolyStyle00">
+				<LabelStyle>
+					<color>00000000</color>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff6e6e6e</color>
+					<width>0.4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>7fff5500</color>
+				</PolyStyle>
+			</Style>
+			<Style id="PolyStyle000">
+				<LabelStyle>
+					<color>00000000</color>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff6e6e6e</color>
+					<width>0.4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>7fff5500</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="PolyStyle001">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#PolyStyle00</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#PolyStyle000</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Folder id="FeatureLayer0">
+				<name>WASTE_DUMPshp</name>
+				<Snippet maxLines="0"></Snippet>
+				<Placemark id="ID_00000">
+					<name>DUMP-B</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>DUMP-B</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>WASTE_DUMP</td>
+
+<td>DUMP-B</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>8.981</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle001</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.30035964657989,21.92841726500447,-5055.547366145173 85.3002925211261,21.92841661649118,-5055.547366145173 85.3002191435637,21.92853554274032,-5055.547366145173 85.30007993209431,21.92864285855005,-5055.547366145173 85.29999031635681,21.92868424559634,-5055.547366145173 85.29984399102709,21.92881176957378,-5055.547366145173 85.299738117356,21.92886797651069,-5055.547366145173 85.2995024409279,21.92895671147338,-5055.547366145173 85.2991918492632,21.92886300771452,-5055.547366145173 85.29909282643104,21.92891556164925,-5055.547366145173 85.29906578473741,21.92888343712158,-5055.547366145173 85.29902420281067,21.92883048730693,-5055.547366145173 85.29901122135013,21.92881506578774,-5055.547366145173 85.29884351496207,21.92855251064426,-5055.547366145173 85.29875305185344,21.9284332689677,-5055.547366145173 85.29865200790938,21.92830645057329,-5055.547366145173 85.29853256912567,21.92813989081825,-5055.547366145173 85.29841422391361,21.92798241803617,-5055.547366145173 85.29826642171865,21.92778070762385,-5055.547366145173 85.29808910923974,21.92760582954681,-5055.547366145173 85.2977120611673,21.9270927612797,-5055.547366145173 85.29754099689484,21.92672049262822,-5055.547366145173 85.29752133588006,21.92661135987113,-5055.547366145173 85.29754846922346,21.92651167253566,-5055.547366145173 85.29762879427167,21.92629235348983,-5055.547366145173 85.29776318520047,21.92615918672952,-5055.547366145173 85.29792243428302,21.92602555767076,-5055.547366145173 85.29810603120228,21.92600677503085,-5055.547366145173 85.29823168423418,21.92601890334767,-5055.547366145173 85.29839892813058,21.92604087683754,-5055.547366145173 85.29864034647311,21.92602265992764,-5055.547366145173 85.29867971849768,21.92601652753903,-5055.547366145173 85.29879028887793,21.92599930559862,-5055.547366145173 85.29891642744462,21.92599044774888,-5055.547366145173 85.29909835871247,21.92594615133784,-5055.547366145173 85.29922061307619,21.92588432827154,-5055.547366145173 85.29933835087748,21.9258446206534,-5055.547366145173 85.29940700883174,21.92576275402426,-5055.547366145173 85.29950218788311,21.92568895960637,-5055.547366145173 85.29963749108073,21.92568960056043,-5055.547366145173 85.29978389610088,21.92575038833258,-5055.547366145173 85.29994520928645,21.92581652850991,-5055.547366145173 85.30009248203204,21.92586705003437,-5055.547366145173 85.30028472405748,21.92589617583999,-5055.547366145173 85.30044328524394,21.92591458770807,-5055.547366145173 85.30064313139448,21.92588777357887,-5055.547366145173 85.30082822412891,21.92585786565733,-5055.547366145173 85.30094040316952,21.92584487930333,-5055.547366145173 85.3010324988651,21.92584581268568,-5055.547366145173 85.30108520583333,21.92584990439613,-5055.547366145173 85.30112837730371,21.92584948402968,-5055.547366145173 85.30117377486805,21.92585797942017,-5055.547366145173 85.30128273191355,21.92595550934393,-5055.547366145173 85.30129814462059,21.9261091009558,-5055.547366145173 85.30131291706164,21.92626212939231,-5055.547366145173 85.30130744040933,21.92645744342815,-5055.547366145173 85.30129945228522,21.92651560535441,-5055.547366145173 85.30124326136215,21.92664280273409,-5055.547366145173 85.30118150837176,21.9267389022307,-5055.547366145173 85.30107347418618,21.92679326129464,-5055.547366145173 85.30100436561206,21.92680561006382,-5055.547366145173 85.30096218426151,21.9269066089549,-5055.547366145173 85.30077023891731,21.92710210270094,-5055.547366145173 85.30070314780959,21.92721942256485,-5055.547366145173 85.30060898672429,21.92756999090596,-5055.547366145173 85.30061126180542,21.92756695656626,-5055.547366145173 85.30053506070431,21.92787636988276,-5055.547366145173 85.30053517055653,21.92786791548507,-5055.547366145173 85.30042810813508,21.92832902405955,-5055.547366145173 85.3003830479767,21.92841749108389,-5055.547366145173 85.30035964657989,21.92841726500447,-5055.547366145173 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00001">
+					<name>DUMP-D</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>DUMP-D</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>WASTE_DUMP</td>
+
+<td>DUMP-D</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>6.614</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle001</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.29251045098745,21.93086874457499,-6134.249366145174 85.29240834683797,21.93093441619031,-6134.249366145174 85.29220068305082,21.93093894557241,-6134.249366145174 85.29177922050504,21.93092119082293,-6134.249366145174 85.29160908997525,21.93088730369773,-6134.249366145174 85.29134814944091,21.93084406280536,-6134.249366145174 85.2911161673114,21.93077378814661,-6134.249366145174 85.29100670591018,21.93076663383128,-6134.249366145174 85.29069324198792,21.93078660042147,-6134.249366145174 85.29048504463853,21.93085011033484,-6134.249366145174 85.29011378469787,21.93090660561623,-6134.249366145174 85.28966836284563,21.93088503869928,-6134.249366145174 85.28915222168975,21.93077313170943,-6134.249366145174 85.28902437134865,21.93066315135175,-6134.249366145174 85.28900412884607,21.93036971292681,-6134.249366145174 85.28899696939456,21.93012366611208,-6134.249366145174 85.28901279435092,21.92988566117177,-6134.249366145174 85.28901966277599,21.92960035704103,-6134.249366145174 85.28903751720927,21.92946756389637,-6134.249366145174 85.28906403955894,21.92940399100855,-6134.249366145174 85.28924889673888,21.92924496950124,-6134.249366145174 85.28953271062997,21.92909587601838,-6134.249366145174 85.28988835177159,21.928902398931,-6134.249366145174 85.2902851961162,21.92875539314484,-6134.249366145174 85.29044003026482,21.92875756741907,-6134.249366145174 85.29057114490524,21.92877474283517,-6134.249366145174 85.29075039619157,21.92888679373587,-6134.249366145174 85.29102134596101,21.92905498712864,-6134.249366145174 85.29125982438987,21.92920251060845,-6134.249366145174 85.29158052693803,21.92944047561642,-6134.249366145174 85.29164037357843,21.92955383157781,-6134.249366145174 85.29158052693803,21.92944047561642,-6134.249366145174 85.29164037357843,21.92955383157781,-6134.249366145174 85.29177145720954,21.92959906702977,-6134.249366145174 85.29205381357558,21.92974669161072,-6134.249366145174 85.29239432890947,21.92995830838029,-6134.249366145174 85.29255489648168,21.93012405344873,-6134.249366145174 85.29261118102919,21.93021609919244,-6134.249366145174 85.29261706540891,21.93022572228992,-6134.249366145174 85.29263012114461,21.93062778309784,-6134.249366145174 85.29257264078339,21.93082874511544,-6134.249366145174 85.29251045098745,21.93086874457499,-6134.249366145174 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document id="TOWNSHIP" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+			<name>TOWNSHIP</name>
+			<Snippet maxLines="0"></Snippet>
+			<Style id="PolyStyle002">
+				<LabelStyle>
+					<color>00000000</color>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff6e6e6e</color>
+					<width>0.4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>fffac3e4</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="FeatureLayer0">
+				<name>TOWNSHIP</name>
+				<Snippet maxLines="0"></Snippet>
+				<Placemark id="ID_00000">
+					<name>TOWNSHIP_AREA</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>TOWNSHIP_AREA</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>TOWNSHIP</td>
+
+<td>TOWNSHIP_AREA</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>0.6002</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle002</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.30264097386724,21.92367958881759,-5594.832666145174 85.30262487315464,21.92369573529427,-5594.832666145174 85.30259184316621,21.92372885914871,-5594.832666145174 85.3027503950008,21.92385489036279,-5594.832666145174 85.30279421441793,21.92393716684278,-5594.832666145174 85.30244449472166,21.92442176103758,-5594.832666145174 85.30219913675069,21.92427736050747,-5594.832666145174 85.30209197491884,21.92442932902457,-5594.832666145174 85.30194025046697,21.92434524520193,-5594.832666145174 85.30205110794002,21.92417878706974,-5594.832666145174 85.30215987855868,21.92401249912478,-5594.832666145174 85.3019552139741,21.92390643150657,-5594.832666145174 85.30241972704958,21.92330000921413,-5594.832666145174 85.30256910884167,21.9233796185343,-5594.832666145174 85.30252706040722,21.92355304032994,-5594.832666145174 85.30264097386724,21.92367958881759,-5594.832666145174 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document id="TOP_SOIL_STACK" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+			<name>TOP_SOIL_STACK</name>
+			<Snippet maxLines="0"></Snippet>
+			<Style id="PolyStyle003">
+				<LabelStyle>
+					<color>00000000</color>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff6e6e6e</color>
+					<width>0.4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>fffad4c0</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="FeatureLayer0">
+				<name>TOP_SOIL_STACK</name>
+				<Snippet maxLines="0"></Snippet>
+				<Placemark id="ID_00000">
+					<name>TOP_SOIL</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>TOP_SOIL</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>TOP_SOIL_S</td>
+
+<td>TOP_SOIL</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>0.1406</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle003</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.29645889255245,21.92580057238538,0 85.29628021460235,21.92556911883645,0 85.29633972363376,21.92553872881825,0 85.29627287680339,21.92544675430183,0 85.29620899325937,21.92548464266042,0 85.29607258288021,21.92531218525562,0 85.29629656868181,21.92518232214964,0 85.29635808418823,21.92528517110332,0 85.29641830408369,21.9253789152242,0 85.29645876240087,21.92545516089538,0 85.29654261536196,21.9256256303102,0 85.29658640442938,21.92574091425506,0 85.2964590603209,21.9258007897067,0 85.29645889255245,21.92580057238538,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document id="TAILING_POND" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+			<name>TAILING_POND</name>
+			<Snippet maxLines="0"></Snippet>
+			<Style id="PolyStyle004">
+				<LabelStyle>
+					<color>00000000</color>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff6e6e6e</color>
+					<width>0.4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>7fffffaa</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="PolyStyle005">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#PolyStyle004</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#PolyStyle006</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="PolyStyle006">
+				<LabelStyle>
+					<color>00000000</color>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff6e6e6e</color>
+					<width>0.4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>7fffffaa</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="FeatureLayer0">
+				<name>TAILING_POND</name>
+				<Snippet maxLines="0"></Snippet>
+				<Placemark id="ID_00000">
+					<name>OLD_TAILING_POND</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>OLD_TAILING_POND</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>TAILING_PO</td>
+
+<td>OLD_TAILING_POND</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>3.402</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle005</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.30021368172631,21.92300966613347,-6130.749366145174 85.30027195813339,21.92311164780248,-6130.749366145174 85.30044847161982,21.92302958550701,-6130.749366145174 85.30050759258521,21.92302574245131,-6130.749366145174 85.3005669860556,21.92308951522294,-6130.749366145174 85.30064041834864,21.92305537592112,-6130.749366145174 85.30074033207089,21.92318655212081,-6130.749366145174 85.30085762644472,21.92334054692175,-6130.749366145174 85.30094793599199,21.92348923878204,-6130.749366145174 85.30097306470029,21.92364515995709,-6130.749366145174 85.30096736847034,21.92371958690719,-6130.749366145174 85.30100023255776,21.92374483268893,-6130.749366145174 85.30102985019377,21.92378350081123,-6130.749366145174 85.30039531785356,21.92460430151164,-6130.749366145174 85.29975948990639,21.9254243833459,-6130.749366145174 85.29942163393073,21.92519657962488,-6130.749366145174 85.29932840905553,21.92514033570005,-6130.749366145174 85.29894971168633,21.92491454144708,-6130.749366145174 85.29887202226291,21.92484279931087,-6130.749366145174 85.29890070363325,21.92470416053147,-6130.749366145174 85.29895261276752,21.92453633156774,-6130.749366145174 85.29900574534383,21.92439562968146,-6130.749366145174 85.29911280944124,21.92412861793613,-6130.749366145174 85.29931694380345,21.9236329208839,-6130.749366145174 85.2994593483235,21.92349200887551,-6130.749366145174 85.30021368172631,21.92300966613347,-6130.749366145174 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00001">
+					<name>NEW_TAILING_POND</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>NEW_TAILING_POND</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>TAILING_PO</td>
+
+<td>NEW_TAILING_POND</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>1.0455</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle005</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.29883552037472,21.92500572813371,-6134.249366145174 85.298934365062,21.92504891829503,-6134.249366145174 85.29902244627394,21.9250909945975,-6134.249366145174 85.29912105230346,21.92514110490625,-6134.249366145174 85.29920149770479,21.92518404660745,-6134.249366145174 85.2992830772655,21.92523126122904,-6134.249366145174 85.29935733323816,21.92529620383511,-6134.249366145174 85.2993803611944,21.92532812084742,-6134.249366145174 85.29937856616276,21.92536147425226,-6134.249366145174 85.29937345804977,21.92545638773385,-6134.249366145174 85.29932620694846,21.92556169978453,-6134.249366145174 85.29923296194245,21.92566653616205,-6134.249366145174 85.29908215421281,21.92571215737782,-6134.249366145174 85.29896054357739,21.92575236169532,-6134.249366145174 85.29888313568146,21.92581285213836,-6134.249366145174 85.29871694528185,21.92587930526642,-6134.249366145174 85.29848938273788,21.92593791254119,-6134.249366145174 85.29837234351261,21.92595396016148,-6134.249366145174 85.29822678418492,21.92594515116005,-6134.249366145174 85.29812646882429,21.92591990428821,-6134.249366145174 85.2980249952512,21.92586530252117,-6134.249366145174 85.29794553652533,21.92578004342826,-6134.249366145174 85.29792125721394,21.92563947877987,-6134.249366145174 85.29812964551593,21.92540153140762,-6134.249366145174 85.2983473952369,21.92521261622851,-6134.249366145174 85.29865369070402,21.92500627467928,-6134.249366145174 85.29879024769774,21.92500189252283,-6134.249366145174 85.29883552037472,21.92500572813371,-6134.249366145174 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document id="RWH" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+			<name>RWH</name>
+			<Snippet maxLines="0"></Snippet>
+			<Style id="PolyStyle007">
+				<LabelStyle>
+					<color>00000000</color>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff6e6e6e</color>
+					<width>0.4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffd2f7dd</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="FeatureLayer0">
+				<name>RWH</name>
+				<Snippet maxLines="0"></Snippet>
+				<Placemark id="ID_00000">
+					<name>RAIN_WATER HARVESTING POND</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>RAIN_WATER HARVESTING POND</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>NAME</td>
+
+<td>RAIN_WATER HARVESTING POND</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>AREA</td>
+
+<td>0.03</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle007</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.29509033826882,21.92563159559714,0 85.29521184541069,21.92555744527464,0 85.29531780677716,21.9257086081717,0 85.29519650185016,21.92578304635639,0 85.29509033826882,21.92563159559714,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document id="ROADS" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+			<name>ROADS</name>
+			<Snippet maxLines="0"></Snippet>
+			<Style id="PolyStyle008">
+				<LabelStyle>
+					<color>00000000</color>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff6e6e6e</color>
+					<width>0.4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffc1f7d6</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="FeatureLayer0">
+				<name>ROADS</name>
+				<Snippet maxLines="0"></Snippet>
+				<Placemark id="ID_00000">
+					<name>TOWARDS_DUMP-D</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>TOWARDS_DUMP-D</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ROAD</td>
+
+<td>TOWARDS_DUMP-D</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>0.5685</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle008</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.29149715555235,21.92803438445594,0 85.29151283914642,21.92792492651844,0 85.29160174493471,21.92779907165916,0 85.29176690502574,21.92767248951589,0 85.29197907005764,21.9275355819742,0 85.29233204198245,21.9273122557589,0 85.29247622862688,21.92726953412134,0 85.29258655230646,21.92725846810768,0 85.29265476898775,21.92726810336355,0 85.29269665065044,21.92724968607331,0 85.29340886291405,21.92685043579161,0 85.29355541306006,21.92677799534773,0 85.29373819588521,21.92669113830459,0 85.29391570079714,21.92663257268005,0 85.29415440369877,21.92657715908686,0 85.29439327022395,21.9265527018099,0 85.29445153931586,21.9265804081006,0 85.29456209124015,21.92663417570983,0 85.2946186728292,21.92666805652664,0 85.29466952296629,21.9266828174939,0 85.29470892360368,21.92668240079169,0 85.29475168039788,21.92667892391895,0 85.29484298228043,21.92665057127212,0 85.29492560229461,21.92661247183076,0 85.29499118037208,21.92658012157783,0 85.2950741955605,21.92651919412512,0 85.29529219025352,21.92636276108006,0 85.2953924610428,21.92628644619977,0 85.2954629200169,21.92623369974642,0 85.29555434930171,21.92613611514548,0 85.29560030392047,21.92608204244383,0 85.29571650041427,21.92594134065246,0 85.29573788553356,21.92587335903954,0 85.2957658038986,21.9257846645459,0 85.295791232908,21.92572784912144,0 85.29582788781212,21.92571422027552,0 85.29588606164404,21.92569614474739,0 85.29608638431463,21.92558455429188,0 85.29623010095763,21.92551007470852,0 85.29625136389409,21.92548766666353,0 85.29626326019248,21.92545138295484,0 85.296329628148,21.92553423688345,0 85.29619321288918,21.92560166313761,0 85.29606339484299,21.92567721856308,0 85.29593676922281,21.92573661184008,0 85.2958601404403,21.92577824131887,0 85.29582186528205,21.92583250579707,0 85.29579212629032,21.92590480734085,0 85.29578168553456,21.92597322960588,0 85.29575039084075,21.9260291982272,0 85.29568146162575,21.92608559240628,0 85.29564396955537,21.92614007741203,0 85.29556307927332,21.92623162130432,0 85.29549709510154,21.92628826519018,0 85.29541978711946,21.92634121556986,0 85.2953712965317,21.92637624724901,0 85.29529670072969,21.92644078017468,0 85.29520612035206,21.92649234210795,0 85.29509301331078,21.92658392909185,0 85.29495236109493,21.92666193797524,0 85.29480757897302,21.92671778405474,0 85.29470632243398,21.92674872865938,0 85.29462530983874,21.92675661252744,0 85.29458922203837,21.926736223793,0 85.29453647543191,21.92668179169917,0 85.29450110932702,21.92664704106723,0 85.29443344577824,21.92663162074797,0 85.29437774746664,21.92663361243885,0 85.29418848971032,21.92664912155454,0 85.29410991353797,21.92665732955789,0 85.29395821800989,21.92669486653298,0 85.29386560986596,21.92673044351495,0 85.29373295584874,21.92679133571368,0 85.29357442826859,21.92684629848846,0 85.29351307134151,21.92687810773281,0 85.29343229681003,21.92693034886532,0 85.29301198565668,21.92715870603106,0 85.29277120001821,21.92730471781232,0 85.2926659248954,21.92734295893261,0 85.29260336071337,21.92733972881761,0 85.29250125386199,21.92734320116917,0 85.29235003792756,21.92738808590875,0 85.29202647306971,21.9275768774644,0 85.2917770761199,21.92774696723252,0 85.29164736232379,21.92784357437732,0 85.29159874888642,21.927945109331,0 85.29157673855535,21.9280044117162,0 85.29157122209064,21.92804555780793,0 85.2915560215265,21.9280896709289,0 85.29115343367107,21.92822726748284,0 85.2908253598832,21.92836995626725,0 85.29081731057654,21.92851341250348,0 85.29083494731148,21.92857433034854,0 85.29102230015948,21.92867019784116,0 85.29114842654619,21.92869122645575,0 85.29126414590589,21.92879266665112,0 85.29122470199441,21.92881583211956,0 85.29121036277473,21.92882425356046,0 85.29112419055396,21.92874816663735,0 85.29099850462924,21.92872953832704,0 85.2908515010416,21.92866231185633,0 85.29078191693631,21.9286125110364,0 85.29074620487873,21.92849185232183,0 85.29074949790378,21.92839064026751,0 85.29078230248044,21.9283226578513,0 85.29094237841183,21.9282506806368,0 85.29124600342747,21.92813718512385,0 85.29149715555235,21.92803438445594,0 85.29149715555235,21.92803438445594,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00001">
+					<name>NEAR_DUMP-B</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>NEAR_DUMP-B</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ROAD</td>
+
+<td>NEAR_DUMP-B</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>1.132</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle008</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.30012598218922,21.92901979413393,0 85.30016772408689,21.92895863575447,0 85.30020014441404,21.9289057612831,0 85.30024552842717,21.92883926650132,0 85.30029978586153,21.92874502044424,0 85.30032848678677,21.92869516640241,0 85.30044341047626,21.92843732306237,0 85.30049044404076,21.92831221435105,0 85.30057837348153,21.92797855119376,0 85.30060620917887,21.92787292354022,0 85.30067749815852,21.92757274952404,0 85.3006983248367,21.92748505507346,0 85.30074191556865,21.92732492039286,0 85.30077488334177,21.92720380987504,0 85.30087445236089,21.92702976120646,0 85.30097760577218,21.92691149959694,0 85.30106486022299,21.92680563845126,0 85.30112173115403,21.92677450731485,0 85.30116467148544,21.92676553274115,0 85.30121860960057,21.92673222626358,0 85.30128690312129,21.92669005535561,0 85.30135397879685,21.92665437906234,0 85.30141798183702,21.92658769054369,0 85.30148056440935,21.92651525338826,0 85.30147564268233,21.92640068847007,0 85.30145760247632,21.926146243955,0 85.30142220391898,21.92593246957893,0 85.30139902535278,21.92577093953877,0 85.30139279563223,21.92565994624071,0 85.30138796591172,21.92558074994156,0 85.30135559781903,21.92534051645047,0 85.30134334104149,21.92500968655599,0 85.30133919984533,21.92470807665606,0 85.30137968599128,21.92453450217036,0 85.30146111966259,21.92432504363111,0 85.30153922560389,21.92421058897341,0 85.30177830449013,21.92396007565923,0 85.30178723090297,21.9239598935616,0 85.30189351542471,21.92383518981236,0 85.30200299040196,21.92370750883268,0 85.30213587537511,21.92353272905336,0 85.30215806777424,21.92350373326896,0 85.30219960144072,21.92344969838539,0 85.30226620679687,21.92337492006295,0 85.30238983403774,21.92324610095223,0 85.30250025259498,21.92309963235286,0 85.30294717514666,21.92255351028794,0 85.30297152448267,21.92251197471322,0 85.30302694415114,21.92245270449147,0 85.30308028841947,21.92239096026612,0 85.30321936684044,21.92225116474801,0 85.30327019397615,21.92217158652949,0 85.30330888115827,21.92219284396895,0 85.30325417005726,21.92226554446409,0 85.30316771633451,21.92237253547529,0 85.30311857020219,21.92243784422455,0 85.30307538965538,21.92249450070945,0 85.30296602576512,21.92263908222233,0 85.30284970031389,21.92278844704405,0 85.3027538211133,21.92286470601875,0 85.3026478675731,21.92295251776195,0 85.30256031279797,21.92306398759467,0 85.30250459192681,21.92317212370645,0 85.30246020742906,21.92323516083792,0 85.30238270289874,21.9233342688458,0 85.30230519825871,21.92343337680915,0 85.30210461232738,21.92366839316426,0 85.3019024195993,21.92393552093976,0 85.30185486300729,21.92400677593367,0 85.30180067278577,21.92406243458387,0 85.30169245458208,21.92417404731738,0 85.30160934882271,21.92427428414035,0 85.30152633906879,21.92439195103291,0 85.30146959186261,21.92452678975188,0 85.30142709308088,21.9246639998809,0 85.30142825393575,21.92498481977494,0 85.30146587505203,21.92536060490215,0 85.30148284627248,21.92552766783694,0 85.30153653153839,21.92583413406699,0 85.30159460019885,21.92613706636124,0 85.30167067449565,21.92646715115538,0 85.30169162009011,21.9265655367059,0 85.30174715443316,21.92668115367106,0 85.30185916995957,21.92680102873742,0 85.30190577310232,21.9268470836667,0 85.30178858657784,21.92691464591528,0 85.30173445467128,21.92686986435371,0 85.30164187512546,21.92679327621127,0 85.30152500907013,21.92674136336926,0 85.30141023856118,21.92674520233577,0 85.30140166229386,21.92674831880628,0 85.30130571303796,21.92678318510232,0 85.30123446341131,21.92681071021142,0 85.30116382701797,21.92685209910661,0 85.30111293765522,21.926899233912,0 85.30102453374867,21.92699355643293,0 85.30090951883686,21.92716691118791,0 85.30083215968422,21.92735263512004,0 85.30076030867284,21.9275876504941,0 85.30066999228093,21.92800167624421,0 85.30059210299349,21.92831438731521,0 85.30046302513047,21.92861986556033,0 85.30030860107087,21.92890945833745,0 85.30018917877037,21.92907401149045,0 85.30016142464959,21.92909425654921,0 85.30003652316188,21.92909293153475,0 85.29965066546455,21.92906293814411,0 85.29932859169584,21.92910909658671,0 85.29897446998419,21.92929492666473,0 85.29879784053389,21.92942113685803,0 85.29800741390227,21.92998723909292,0 85.29788526016056,21.93008179710759,0 85.29759083035968,21.9303730448197,0 85.29754945166975,21.93033245405472,0 85.29783342017498,21.9300452786214,0 85.29785389370018,21.93002457381652,0 85.2989073907433,21.92924402617266,0 85.29926547415502,21.92903853898734,0 85.29956344619347,21.92899709229679,0 85.29997585308644,21.92902659500742,0 85.30012598218922,21.92901979413393,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document id="PLANTATION" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+			<name>PLANTATION</name>
+			<Snippet maxLines="0"></Snippet>
+			<StyleMap id="PolyStyle009">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#PolyStyle0010</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#PolyStyle0011</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="PolyStyle0010">
+				<LabelStyle>
+					<color>00000000</color>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff6e6e6e</color>
+					<width>0.4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>7f7fff00</color>
+				</PolyStyle>
+			</Style>
+			<Style id="PolyStyle0011">
+				<LabelStyle>
+					<color>00000000</color>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff6e6e6e</color>
+					<width>0.4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>7f7fff00</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="FeatureLayer0">
+				<name>PLANTATION</name>
+				<Snippet maxLines="0"></Snippet>
+				<Placemark id="ID_00000">
+					<name>PLANTATION</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>PLANTATION</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>PLANTATION</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>0.1452</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle009</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.30444640098571,21.92383998551858,0 85.30447541710701,21.92376898678386,0 85.30458594709828,21.9237823222333,0 85.30470367556801,21.92378259802796,0 85.30491626417125,21.92384483039784,0 85.30508959160113,21.92390853395433,0 85.30520717127901,21.92400637359219,0 85.30527711854255,21.9241328042669,0 85.30541305636834,21.92431690974635,0 85.30537833172097,21.92435211013892,0 85.30528817115869,21.92429283551809,0 85.30519875854979,21.92421785760289,0 85.30512396424572,21.92413000394827,0 85.304975850364,21.92400729453952,0 85.30485543839464,21.92396093602031,0 85.30465098797355,21.92388222249452,0 85.30444640098571,21.92383998551858,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00001">
+					<name>PLANTATION</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>PLANTATION</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>PLANTATION</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>0.5431</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle009</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.30372320255931,21.92245276671573,0 85.3037463243538,21.92246754301288,0 85.30378749310938,21.92251226437665,0 85.30382660497855,21.92258948756425,0 85.30386451834431,21.92263750190838,0 85.30388328180317,21.92266142265541,0 85.30390528411333,21.92268947246592,0 85.30391529855829,21.92270225714185,0 85.30392513375628,21.9227151607647,0 85.30395888550697,21.92275944250208,0 85.30401773623957,21.92284528219736,0 85.30405920052147,21.92290576194036,0 85.30401253447437,21.92295475496509,0 85.30397374920661,21.92291882120295,0 85.30390532026831,21.92295628498192,0 85.30383689129556,21.92299374872993,0 85.30376914933213,21.92303106597728,0 85.30371294153903,21.9230624032752,0 85.30361580029579,21.92311575873742,0 85.30358026624143,21.92313531572375,0 85.30354380606653,21.92315492586405,0 85.30360815069254,21.9231763742212,0 85.30368577292924,21.92321779933605,0 85.30373144215295,21.92325411544108,0 85.30378755269625,21.92327381161439,0 85.30386035076728,21.92329009542553,0 85.30394209741824,21.92330766634641,0 85.30401345943743,21.92333707842309,0 85.30411016033537,21.92338945362855,0 85.30416086636225,21.92343299056321,0 85.30417961929001,21.92347141859125,0 85.30417044425769,21.92348924642978,0 85.30414476569125,21.92349495573022,0 85.30406942085112,21.9234774509373,0 85.30401338095874,21.92345178142622,0 85.30392265733518,21.92343531276386,0 85.30380044780709,21.92337431047491,0 85.30361697798011,21.92329594841931,0 85.30350761506219,21.92323149397583,0 85.30329994570329,21.92314212840745,0 85.30311013120181,21.923058921017,0 85.30307316997765,21.92304420158159,0 85.30290160210436,21.92297464258104,0 85.30288453785158,21.92293671085531,0 85.30308890282014,21.92301329834904,0 85.30319448966087,21.92301712719667,0 85.30325682184147,21.92301898162722,0 85.30333944653938,21.9230214397394,0 85.30340997268398,21.92299678971736,0 85.30350751546131,21.92296269688215,0 85.30354991832797,21.92293664548622,0 85.30356789325043,21.92289835898554,0 85.30358773287452,21.92281990622207,0 85.30352104022711,21.92274740577287,0 85.3033734837131,21.92265769450929,0 85.30320393578164,21.922599251276,0 85.30313482938668,21.92261617624883,0 85.30303984843455,21.92265047229729,0 85.30292640493033,21.92274965936801,0 85.30287465103014,21.92279490928569,0 85.30284970031389,21.92278844704405,0 85.30293372550653,21.92268055661339,0 85.30307538965538,21.92249450070945,0 85.30314460819709,21.92254282930088,0 85.30328138929561,21.92240956131765,0 85.3034232076936,21.92249025225958,0 85.30350365605185,21.92238724026568,0 85.3035432180513,21.92233774495984,0 85.30361357634403,21.92238270850914,0 85.30368271978453,21.92242689563334,0 85.30372320255931,21.92245276671573,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00002">
+					<name>SAFETY ZONEPLANT.</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>SAFETY ZONEPLANT.</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>SAFETY ZONEPLANT.</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>3.79</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle009</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.30238627358111,21.92190724678167,0 85.29900379783879,21.92348139308842,0 85.29724869343016,21.92429891106608,0 85.29634837751794,21.92483948001629,0 85.29477078349903,21.92577734478381,0 85.29211920096579,21.92736345569021,0 85.28889064988674,21.9292951217295,0 85.28881812386128,21.93092323438353,0 85.29283495751923,21.93111413905989,0 85.29359069499289,21.9311506231554,0 85.29438134399388,21.93118878891728,0 85.29475388522651,21.93120677069599,0 85.29531418283412,21.93123381348492,0 85.29983821366299,21.93144945995706,0 85.3028290991809,21.93159102017476,0 85.30593592470224,21.93173858977406,0 85.3082454295146,21.93184880290334,0 85.30824817199242,21.92892154782747,0 85.30785091039058,21.92599871759761,0 85.3068283277066,21.92508521821716,0 85.30670240220616,21.9249727245345,0 85.30641811951682,21.924718763834,0 85.30622688469811,21.9245042992005,0 85.30529091094522,21.92345461824841,0 85.3038640998915,21.92254280897691,0 85.3039051201072,21.92248692547387,0 85.30534025949311,21.92340405671612,0 85.30647129399043,21.92467249252758,0 85.3079196924721,21.92596638830383,0 85.30832077220659,21.92891729950813,0 85.30831796043597,21.9319200864399,0 85.3033323990234,21.93168264243144,0 85.29812060032862,21.93143581106023,0 85.29287161038438,21.93118373301497,0 85.28874260309694,21.93098746896527,0 85.28881968440886,21.9292571165504,0 85.29074745695547,21.92810373120043,0 85.29266761566888,21.92695495624527,0 85.29412417432452,21.92608367923366,0 85.29634938693384,21.92475467381651,0 85.29721283882503,21.92423990685911,0 85.29970542921534,21.92307886343495,0 85.30235380187261,21.92184657297157,0 85.30238627358111,21.92190724678167,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00003">
+					<name>PLANTATION</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>PLANTATION</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>PLANTATION</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>0.1213</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle009</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.30537510955099,21.92354904657027,-6134.249366145174 85.30551310749615,21.92370381024011,-6134.249366145174 85.30572005435252,21.9239358987952,-6134.249366145174 85.30581469005837,21.92404203134492,-6134.249366145174 85.30600178744744,21.92425185771468,-6134.249366145174 85.30622050028498,21.92449713924107,-6134.249366145174 85.30634009568978,21.92463126233975,-6134.249366145174 85.30641811951682,21.924718763834,-6134.249366145174 85.30648233761359,21.92477613245592,-6134.249366145174 85.30638195905928,21.92469872781957,-6134.249366145174 85.30626869982181,21.92459190899377,-6134.249366145174 85.30610570500953,21.92444089451883,-6134.249366145174 85.3058781371538,21.92423683902133,-6134.249366145174 85.30574873835397,21.92411634557453,-6134.249366145174 85.30564029204801,21.92400872438357,-6134.249366145174 85.30556167851243,21.92393247411846,-6134.249366145174 85.30546067550712,21.92377056149299,-6134.249366145174 85.30541535544178,21.92368979742117,-6134.249366145174 85.3053635635769,21.92353609782665,-6134.249366145174 85.30537510955099,21.92354904657027,-6134.249366145174 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00004">
+					<name>PLANTATION</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>PLANTATION</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>4</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>PLANTATION</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>0.278</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle009</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.30535303622783,21.92375209574665,0 85.30536084468767,21.9237675229859,0 85.30539628694254,21.92383754650149,0 85.30543542477209,21.92390729965909,0 85.30547777961539,21.92397966702121,0 85.30554181417166,21.92404815479188,0 85.30561113433181,21.92412229565053,0 85.30567062351477,21.92416724751104,0 85.30574685608231,21.92422485111885,0 85.30582198853824,21.92429159843048,0 85.3058955334038,21.92435941316342,0 85.30595926088482,21.92441707523663,0 85.30612088027223,21.92455063367154,0 85.30617635705836,21.92459647828337,0 85.30627058510648,21.92467318854317,0 85.30634574593643,21.9247346611338,0 85.30643085909394,21.92480460932216,0 85.30654033089584,21.92489609870661,0 85.30662929421526,21.92496781134331,0 85.30668806861219,21.92502124136193,0 85.30680081135893,21.92512373220392,0 85.30690314352854,21.92521675893522,0 85.30704568406448,21.92533797486326,0 85.30715771380635,21.9254413497424,0 85.30725998673987,21.92553122054041,0 85.30737120714082,21.9256289535978,0 85.30745028667447,21.92569856232782,0 85.30757450880893,21.92580820729344,0 85.30773705375556,21.92594315801067,0 85.30785668543716,21.92604120781803,0 85.30787263971418,21.92615859218448,0 85.30783771366347,21.92613158475929,0 85.30772245319228,21.92603777393095,0 85.30761120966282,21.92594478518664,0 85.30751630884372,21.92584849589037,0 85.30742677676075,21.92576306724547,0 85.30730926670753,21.92566606618124,0 85.30722405946649,21.92559827209412,0 85.30713600754666,21.92552447299221,0 85.30703194848547,21.92543630335686,0 85.30695485067939,21.92536765431372,0 85.3068631856009,21.92528603422507,0 85.3067725884806,21.92520856858862,0 85.30666425112605,21.92511654881278,0 85.30651888783608,21.92499554301581,0 85.30642863018686,21.9249213428921,0 85.30632199018267,21.92482982694731,0 85.30621652440904,21.92473155042495,0 85.3061344364437,21.92465505798872,0 85.30609072803667,21.92461669975146,0 85.30601121887445,21.92454787288341,0 85.30597648304571,21.92451780388574,0 85.30593393014837,21.92448041945402,0 85.30587259809079,21.92442661930663,0 85.30582505066815,21.9243836173523,0 85.30579417390364,21.9243556923437,0 85.30573553464556,21.92430265883531,0 85.30567857795023,21.92425114698595,0 85.30562384605618,21.92420164720378,0 85.30557944480657,21.92415995472775,0 85.30556839339604,21.92414550398829,0 85.30553437102729,21.92410101657858,0 85.30549485755803,21.92404934900318,0 85.3054587623529,21.92400215109064,0 85.30542325893599,21.92394317647508,0 85.30539809862734,21.9239001610312,0 85.30536956868575,21.92385138464434,0 85.30534788986174,21.92380735283028,0 85.30532621105027,21.92376332101399,0 85.30535303622783,21.92375209574665,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00005">
+					<name>PLANTATION</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>PLANTATION</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>PLANTATION</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>0.2506</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle009</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.30312673612866,21.92207158462259,0 85.30323127233856,21.92213839057244,0 85.30326974583274,21.92217134028812,0 85.30321936684044,21.92225116474802,0 85.30319164594285,21.92227902860916,0 85.30311667977426,21.922354381315,0 85.30308028841947,21.92239096026612,0 85.30307463065439,21.92239750894552,0 85.30305641442753,21.92241859363102,0 85.30302694415114,21.92245270449147,0 85.30300275169179,21.92247857784939,0 85.30297152448267,21.92251197471322,0 85.30294717514666,21.92255351028794,0 85.3029106409859,21.92259815383325,0 85.30284227620429,21.92268169324988,0 85.30271275250976,21.92283996639221,0 85.30264712328882,21.92292016267853,0 85.30256861012455,21.92301610246699,0 85.30250864020614,21.92308938306919,0 85.3024450433453,21.92317286666394,0 85.30242637884423,21.92319762484565,0 85.30237738553633,21.92325907225847,0 85.30232802044534,21.92331051052124,0 85.30223290412761,21.92341230922818,0 85.30219960144072,21.92344969838539,0 85.30216272478033,21.92349767455346,0 85.30213587537511,21.92353272905336,0 85.30200299040196,21.92370750883268,0 85.30186236695651,21.92387173637664,0 85.30178723090297,21.9239598935616,0 85.30177830449013,21.92396007565923,0 85.30167270249399,21.92386726321368,0 85.30259646371631,21.92289560940543,0 85.302947994859,21.92252584796101,0 85.30307632717117,21.92239085967243,0 85.30287636881957,21.92220946183872,0 85.30296597734946,21.92217721023545,0 85.30312673612866,21.92207158462259,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00006">
+					<name>PLANTATION</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>PLANTATION</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>PLANTATION</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>0.2167</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle009</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.30280709110433,21.92421282210218,-5594.832666145174 85.30303897834126,21.9240048001815,-5594.832666145174 85.30333120924999,21.92388718747263,-5594.832666145174 85.30361415928961,21.92381194471195,-5594.832666145174 85.30380370162176,21.92373929066521,-5594.832666145174 85.30399021749366,21.92369024774042,-5594.832666145174 85.30416198040724,21.92371930200217,-5594.832666145174 85.30433374340335,21.92374835608876,-5594.832666145174 85.30447541710701,21.92376898678386,-5594.832666145174 85.30444640098571,21.92383998551858,-5594.832666145174 85.30427814021704,21.92382799964247,-5594.832666145174 85.30406073450475,21.92382575724064,-5594.832666145174 85.30394971912754,21.92385074899673,-5594.832666145174 85.30358659996941,21.92393111136393,-5594.832666145174 85.30334071877738,21.92402152714309,-5594.832666145174 85.30315235074986,21.92409079376557,-5594.832666145174 85.30287425670264,21.92419845489865,-5594.832666145174 85.30280709110433,21.92421282210218,-5594.832666145174 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00007">
+					<name>PLANTATION_NEAR DUMP</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>PLANTATION_NEAR DUMP</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>PLANTATION_NEAR DUMP</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>0.1609</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle009</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.29020534473871,21.92858210252743,0 85.29024024053089,21.92865176791124,0 85.29014961050058,21.92864318483425,0 85.28989412444777,21.92880529342358,0 85.2895691326532,21.92900522311426,0 85.28946470548961,21.92907099468171,0 85.2891335296116,21.92927160387683,0 85.28904728448916,21.92932637649787,0 85.28902118962829,21.92940394109448,0 85.28901780399708,21.92944268836591,0 85.28900723531997,21.92964939509882,0 85.28899633173056,21.92987195835652,0 85.28899192268359,21.93001087798069,0 85.28898355747646,21.93027444612158,0 85.28899074101429,21.93042321223999,0 85.28900030634563,21.93061699695885,0 85.28896000645733,21.93061782215159,0 85.28891625980955,21.93061511393712,0 85.28889480528859,21.93052769465115,0 85.28889022369312,21.93047358817654,0 85.28891637249996,21.93022571406503,0 85.28892603026237,21.93003106263298,0 85.28893273314387,21.92987810095106,0 85.28894215143892,21.92972133248605,0 85.28894151891642,21.92943483322863,0 85.28894784081058,21.92936731665201,0 85.28898887734457,21.92931961645225,0 85.289129231941,21.92922585133129,0 85.28927443039439,21.92914838194043,0 85.28958564966287,21.92896034552791,0 85.28977579509837,21.92884259390542,0 85.29002743173869,21.92869183451691,0 85.29011815828474,21.92863752806351,0 85.29020534473871,21.92858210252743,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document id="MINERAL_STORAGE" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+			<name>MINERAL_STORAGE</name>
+			<Snippet maxLines="0"></Snippet>
+			<StyleMap id="PolyStyle0012">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#PolyStyle0014</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#PolyStyle0013</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="PolyStyle0013">
+				<LabelStyle>
+					<color>00000000</color>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff6e6e6e</color>
+					<width>0.4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>7ff2c7cc</color>
+				</PolyStyle>
+			</Style>
+			<Style id="PolyStyle0014">
+				<LabelStyle>
+					<color>00000000</color>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff6e6e6e</color>
+					<width>0.4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>7ff2c7cc</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="FeatureLayer0">
+				<name>MINERAL_STORAGE</name>
+				<Snippet maxLines="0"></Snippet>
+				<Placemark id="ID_00000">
+					<name>MINERAL_STORAGE</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>MINERAL_STORAGE</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>MINERAL_STORAGE</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>4.5881</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0012</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.29674663541894,21.92592136132163,-5503.297266145173 85.29658640442938,21.92574091425506,-5503.297266145173 85.29654261536196,21.9256256303102,-5503.297266145173 85.29652165210406,21.92558301295962,-5503.297266145173 85.29641830408369,21.9253789152242,-5503.297266145173 85.29632139014574,21.92522382164998,-5503.297266145173 85.29629656868181,21.92518232214964,-5503.297266145173 85.29616974828755,21.92499961683746,-5503.297266145173 85.2963498716792,21.92489160501844,-5503.297266145173 85.29645602384926,21.92505902247684,-5503.297266145173 85.29668827907909,21.92492309115762,-5503.297266145173 85.29659216184633,21.92477168620223,-5503.297266145173 85.29701955107923,21.92450733819013,-5503.297266145173 85.29713902887079,21.92441962135882,-5503.297266145173 85.29733907139564,21.92431127400612,-5503.297266145173 85.29754428263112,21.92420513847924,-5503.297266145173 85.29779853695246,21.92407268797407,-5503.297266145173 85.29792274484645,21.92402158662935,-5503.297266145173 85.29824395172729,21.92386313292696,-5503.297266145173 85.29845794263302,21.92375120003411,-5503.297266145173 85.2988498038023,21.92357800765259,-5503.297266145173 85.29902832268584,21.92349359125121,-5503.297266145173 85.29922409082994,21.92340451566784,-5503.297266145173 85.2993320426021,21.92344451881439,-5503.297266145173 85.29929511314579,21.92361435580236,-5503.297266145173 85.29916902413686,21.92391677640984,-5503.297266145173 85.29904927870351,21.92422231514448,-5503.297266145173 85.29885056186259,21.92469755677815,-5503.297266145173 85.29881319372815,21.92478827495816,-5503.297266145173 85.29875952363774,21.92484107964287,-5503.297266145173 85.29857563654647,21.92492898114051,-5503.297266145173 85.29799704921845,21.92535291639965,-5503.297266145173 85.29789254809109,21.92547266254785,-5503.297266145173 85.29782474841551,21.92561298802538,-5503.297266145173 85.29780462888151,21.92577698893989,-5503.297266145173 85.29785390337925,21.92595167825239,-5503.297266145173 85.29778691823599,21.92609089088239,-5503.297266145173 85.29761798677467,21.92622594434734,-5503.297266145173 85.29754130161939,21.92640348905751,-5503.297266145173 85.29743796312717,21.92651762519923,-5503.297266145173 85.29733776003457,21.92653084932506,-5503.297266145173 85.29712118758503,21.92628968077939,-5503.297266145173 85.29674663541894,21.92592136132163,-5503.297266145173 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00001">
+					<name>MINERAL_STORAGE</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>MINERAL_STORAGE</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>MINERAL_STORAGE</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>1.6965</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0012</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.29894704200146,21.92871904980693,6134.249366145174 85.29900881423831,21.92881575822576,6134.249366145174 85.29909282643104,21.92891556164925,6134.249366145174 85.29909745013545,21.92898913337172,6134.249366145174 85.29903092832996,21.92909406379701,6134.249366145174 85.29886708564281,21.92913890181019,6134.249366145174 85.29873801208231,21.92918052785028,6134.249366145174 85.29858898302447,21.9292846041485,6134.249366145174 85.2984841669484,21.9293784230122,6134.249366145174 85.29837769952113,21.92944538632617,6134.249366145174 85.29816551902005,21.92957799392743,6134.249366145174 85.29802362939475,21.92959948546211,6134.249366145174 85.29789183599823,21.92956298602503,6134.249366145174 85.29784794483487,21.92949912061124,6134.249366145174 85.29782798425045,21.92935662860772,6134.249366145174 85.29781774111856,21.92928590597897,6134.249366145174 85.29782182393205,21.92923257764772,6134.249366145174 85.29782241994825,21.9291617631638,6134.249366145174 85.29783540573843,21.92906403450463,6134.249366145174 85.29780708195543,21.92891883439331,6134.249366145174 85.29772117104928,21.92864290404911,6134.249366145174 85.29773184843613,21.92848062711676,6134.249366145174 85.29771169419378,21.92831540104578,6134.249366145174 85.29777027681845,21.92816945695562,6134.249366145174 85.29786203900478,21.92804568270614,6134.249366145174 85.29802710301037,21.92794449364258,6134.249366145174 85.29815943681346,21.9277837200852,6134.249366145174 85.29834335684608,21.92796269493464,6134.249366145174 85.29846838458488,21.9281162433574,6134.249366145174 85.29858709651313,21.92830381005762,6134.249366145174 85.29869700075155,21.92848383010814,6134.249366145174 85.29867917649769,21.928604849896,6134.249366145174 85.29869016548156,21.92862622309588,6134.249366145174 85.29880371141849,21.92856463923586,6134.249366145174 85.29885640622562,21.92857715358245,6134.249366145174 85.29894704200146,21.92871904980693,6134.249366145174 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00002">
+					<name>MINERAL_STORAGE</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>MINERAL_STORAGE</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>MINERAL_STORAGE</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>1.9731</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0012</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.29454072925473,21.92673272856436,0 85.29460746932043,21.92682906378464,0 85.29183642161031,21.92845656628919,0 85.2916136023464,21.92819010939508,0 85.2915560215265,21.9280896709289,0 85.29157030517365,21.92804821876732,0 85.29157673855535,21.9280044117162,0 85.29159874888642,21.927945109331,0 85.29164736232379,21.92784357437732,0 85.29199052311435,21.9276013955354,0 85.29207814533011,21.92754672814313,0 85.29217090185792,21.92749260722353,0 85.29235003792756,21.92738808590875,0 85.29250125386199,21.92734320116917,0 85.2926659248954,21.92734295893261,0 85.29277120001821,21.92730471781232,0 85.29343229681003,21.92693034886532,0 85.29351307134151,21.92687810773281,0 85.29357442826859,21.92684629848846,0 85.29373295584874,21.92679133571368,0 85.29386560986596,21.92673044351495,0 85.29395821800989,21.92669486653298,0 85.29412313881151,21.92665405696351,0 85.29437774746664,21.92663361243885,0 85.2944342467851,21.9266318032952,0 85.29448711825923,21.92664385254748,0 85.29450990932251,21.92668824181917,0 85.29454072925473,21.92673272856436,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00003">
+					<name>MINERAL_STORAGE</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>MINERAL_STORAGE</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>MINERAL_STORAGE</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>0.7838</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0012</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.30256910884167,21.9233796185343,-5594.832666145174 85.30263083796959,21.92330445886302,-5594.832666145174 85.30270091070247,21.9232446743455,-5594.832666145174 85.30278489302926,21.92320728759734,-5594.832666145174 85.30291935488047,21.92318989681854,-5594.832666145174 85.30307491924042,21.92321723505693,-5594.832666145174 85.30318724192688,21.9232830797323,-5594.832666145174 85.30329435055484,21.92339330628836,-5594.832666145174 85.30341280798606,21.92351521174383,-5594.832666145174 85.30360904115946,21.92362576983429,-5594.832666145174 85.30399021749366,21.92369024774042,-5594.832666145174 85.30380370162176,21.92373929066521,-5594.832666145174 85.30361415928961,21.92381194471195,-5594.832666145174 85.30333120924999,21.92388718747263,-5594.832666145174 85.30303897834126,21.9240048001815,-5594.832666145174 85.30280709110433,21.92421282210218,-5594.832666145174 85.30273992549446,21.92422718927737,-5594.832666145174 85.3025568249453,21.92426610949432,-5594.832666145174 85.30279421441793,21.92393716684278,-5594.832666145174 85.3027503950008,21.92385489036279,-5594.832666145174 85.30259184316621,21.92372885914871,-5594.832666145174 85.30264097386724,21.92367958881759,-5594.832666145174 85.30252706040722,21.92355304032994,-5594.832666145174 85.30256910884167,21.9233796185343,-5594.832666145174 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00004">
+					<name>MINERAL_STORAGE</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>MINERAL_STORAGE</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>4</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>MINERAL_STORAGE</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>1.194</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0012</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.29493005302466,21.92576998850065,0 85.29488742131781,21.92571261395794,0 85.29497180107163,21.92566215834688,0 85.29500893956079,21.92567897665374,0 85.29508493999558,21.92566570972222,0 85.29510546983512,21.9256531813047,0 85.29519685813864,21.92578283014075,0 85.29531800927498,21.9257088970517,0 85.29529643530687,21.9256785286949,0 85.29531893520365,21.92568776708364,0 85.29535856616346,21.9256829055407,0 85.2953710320423,21.92566458837701,0 85.29540260651419,21.92561819332428,0 85.29544790072855,21.92557841419951,0 85.29551932549508,21.92555367930818,0 85.29558099761306,21.92555651435039,0 85.29566450565687,21.9256268004457,0 85.29570739015442,21.92566289493745,0 85.29574707123035,21.92569629318787,0 85.29575962184198,21.92573960258344,0 85.29574256681221,21.92579436650929,0 85.29572840693182,21.92584867100556,0 85.29569561558589,21.92594303838307,0 85.2955676061582,21.92609941743798,0 85.29544628983469,21.92621806021166,0 85.29515867622972,21.92642719473811,0 85.29492234121281,21.9265981689053,0 85.29477435850353,21.92665181434834,0 85.29463414563028,21.92662947645032,0 85.29440604073641,21.92652918756442,0 85.29415097524129,21.92641704461849,0 85.29396984980566,21.92636618784941,0 85.29378499141501,21.92636703060883,0 85.29449001342148,21.92595024700041,0 85.29478787557058,21.92576971633214,0 85.29483193331464,21.9258330003056,0 85.29493005302466,21.92576998850065,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00005">
+					<name>MINERAL_STORAGE</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>MINERAL_STORAGE</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>MINERAL_STORAGE</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>0.2596</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0012</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.30320393578164,21.922599251276,0 85.3033734837131,21.92265769450929,0 85.30352104022711,21.92274740577287,0 85.30358773287452,21.92281990622207,0 85.30356789325043,21.92289835898554,0 85.30354991832797,21.92293664548622,0 85.30350751546131,21.92296269688215,0 85.30333944653938,21.9230214397394,0 85.30320978520562,21.92301758225314,0 85.30319674158191,21.92301719419348,0 85.30319404240395,21.92301711097814,0 85.30319103434218,21.9230170018991,0 85.303157430198,21.92301578333393,0 85.30308890282014,21.92301329834904,0 85.30277482638118,21.92289592656174,0 85.30287465103014,21.92279490928569,0 85.30303984843455,21.92265047229729,0 85.30313482938668,21.92261617624883,0 85.30320393578164,21.922599251276,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00006">
+					<name>MINERAL_STORAGE</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>MINERAL_STORAGE</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>MINERAL_STORAGE</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>0.314</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0012</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.30086357225564,21.92515343080462,0 85.3010186875359,21.92522167085499,0 85.3012103243554,21.92531451997101,0 85.30128748196424,21.92538195423279,0 85.30135281183674,21.92553407866963,0 85.30134723530698,21.92563902563556,0 85.30131047419962,21.92563460615234,0 85.30105065522864,21.92562990257294,0 85.30085118011169,21.92565005408451,0 85.30058653207107,21.92568770503629,0 85.30042545573768,21.92575671454288,0 85.30086357225564,21.92515343080462,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document id="MININGshp" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+			<name>MININGshp</name>
+			<Snippet maxLines="0"></Snippet>
+			<StyleMap id="PolyStyle0015">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#PolyStyle0017</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#PolyStyle0016</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="PolyStyle0016">
+				<LabelStyle>
+					<color>00000000</color>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff6e6e6e</color>
+					<width>0.4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>7f7f00aa</color>
+				</PolyStyle>
+			</Style>
+			<Style id="PolyStyle0017">
+				<LabelStyle>
+					<color>00000000</color>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff6e6e6e</color>
+					<width>0.4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>7f7f00aa</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="FeatureLayer0">
+				<name>MININGshp</name>
+				<Snippet maxLines="0"></Snippet>
+				<Placemark id="ID_00000">
+					<name>C-TOP_QUARRY</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>C-TOP_QUARRY</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PIT_NAME</td>
+
+<td>C-TOP_QUARRY</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>48.576</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0015</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.30037992533417,21.92886164857523,-5480.604366145173 85.30041575074809,21.92874350421905,-5480.604366145173 85.30044388797646,21.92867623977314,-5480.604366145173 85.30051876370681,21.92858554702577,-5480.604366145173 85.30060420029638,21.92844936426548,-5480.604366145173 85.30065124162518,21.92826724665597,-5480.604366145173 85.30069803415822,21.92804382602207,-5480.604366145173 85.30075782654535,21.92775833366523,-5480.604366145173 85.30082793406524,21.92749284576432,-5480.604366145173 85.30088380012866,21.92728485132153,-5480.604366145173 85.30094385342443,21.92717992895368,-5480.604366145173 85.30106731403535,21.92697349986042,-5480.604366145173 85.30115332887537,21.92690622568028,-5480.604366145173 85.30124274793319,21.92684007281147,-5480.604366145173 85.30135177988315,21.92677676469999,-5480.604366145173 85.30144411642037,21.92675529164263,-5480.604366145173 85.30152470002409,21.92676408630373,-5480.604366145173 85.30162065098359,21.92679552076736,-5480.604366145173 85.30169659098434,21.92684291063024,-5480.604366145173 85.30177637194927,21.92692768436221,-5480.604366145173 85.30195085655814,21.92682732545352,-5480.604366145173 85.30190041536461,21.92677023064414,-5480.604366145173 85.30188803856767,21.92672968129697,-5480.604366145173 85.30187073633321,21.92661941218063,-5480.604366145173 85.30182942856236,21.92653732024817,-5480.604366145173 85.30182674026594,21.92641783343603,-5480.604366145173 85.30184434692509,21.92626224928699,-5480.604366145173 85.3018655285313,21.92613399117799,-5480.604366145173 85.30189612937315,21.92599832495454,-5480.604366145173 85.30191047266473,21.92585492217674,-5480.604366145173 85.30187876361684,21.92575334545906,-5480.604366145173 85.30184720487674,21.9256616089279,-5480.604366145173 85.30184478663735,21.92561154352757,-5480.604366145173 85.30185290815986,21.92549742767006,-5480.604366145173 85.30188639758252,21.92540048379771,-5480.604366145173 85.30194629043926,21.92534496929329,-5480.604366145173 85.30197022079769,21.92524244773755,-5480.604366145173 85.30202422545672,21.92511200572394,-5480.604366145173 85.30216803737078,21.92484442546534,-5480.604366145173 85.30225774363053,21.92476169053743,-5480.604366145173 85.30232760497135,21.92467090202969,-5480.604366145173 85.30242734837309,21.92462105157888,-5480.604366145173 85.30253393281396,21.92457917731168,-5480.604366145173 85.30267887237989,21.92446534813104,-5480.604366145173 85.30285276279956,21.924368737752,-5480.604366145173 85.30299387108752,21.92429672656659,-5480.604366145173 85.30320355107439,21.92425530392834,-5480.604366145173 85.3034791617772,21.92423245228808,-5480.604366145173 85.30368330226349,21.9242130120189,-5480.604366145173 85.30380021184756,21.92416502210058,-5480.604366145173 85.3039522286379,21.92414327029892,-5480.604366145173 85.30397276984182,21.92414399729138,-5480.604366145173 85.30425175203556,21.9241538707501,-5480.604366145173 85.30431286502143,21.92416140487645,-5480.604366145173 85.30443399948922,21.92418999967287,-5480.604366145173 85.30463808508462,21.92411483108493,-5480.604366145173 85.30477389386289,21.92419966702123,-5480.604366145173 85.30492724963276,21.92425529434862,-5480.604366145173 85.30509315095608,21.92431824016812,-5480.604366145173 85.30520071820794,21.92440114084699,-5480.604366145173 85.30530468096816,21.92449989121095,-5480.604366145173 85.30540244487342,21.92455969749343,-5480.604366145173 85.30554012402817,21.92464411728906,-5480.604366145173 85.30565095241889,21.92474118654065,-5480.604366145173 85.30580673322021,21.9247727341567,-5480.604366145173 85.30590066065322,21.92482489010061,-5480.604366145173 85.3059527517746,21.92485381517511,-5480.604366145173 85.30595998990765,21.92489510164585,-5480.604366145173 85.3060936959199,21.9250594795533,-5480.604366145173 85.30616790595423,21.92502922518956,-5480.604366145173 85.30628156757658,21.92501562139644,-5480.604366145173 85.3064143829949,21.92511812908308,-5480.604366145173 85.30655561074126,21.92524471189878,-5480.604366145173 85.30679149382151,21.92538361529045,-5480.604366145173 85.30691422561651,21.92550374416564,-5480.604366145173 85.3070396223186,21.92562848917881,-5480.604366145173 85.30716074656084,21.92574358767403,-5480.604366145173 85.30727999119652,21.92584140039939,-5480.604366145173 85.30738703064873,21.92591241420781,-5480.604366145173 85.30749919610949,21.92603704253031,-5480.604366145173 85.30756292377065,21.92608607552266,-5480.604366145173 85.30762471689538,21.92612860019334,-5480.604366145173 85.30770705353849,21.92619984649117,-5480.604366145173 85.30778698826055,21.9262590416438,-5480.604366145173 85.30784764638862,21.92639968142941,-5480.604366145173 85.30789204167517,21.92646001784135,-5480.604366145173 85.30792617165056,21.92659221410654,-5480.604366145173 85.3079382873492,21.92667689155367,-5480.604366145173 85.30795509645877,21.92679437144549,-5480.604366145173 85.30795975687562,21.92684147632457,-5480.604366145173 85.30797471993077,21.92695827805005,-5480.604366145173 85.30798331940936,21.92701878323491,-5480.604366145173 85.30798918795178,21.92706090812242,-5480.604366145173 85.30799957186532,21.92714719649471,-5480.604366145173 85.30801685478902,21.92729356530456,-5480.604366145173 85.30803305346578,21.92744041303252,-5480.604366145173 85.30804949195785,21.92759895313053,-5480.604366145173 85.30807670634614,21.92772456020063,-5480.604366145173 85.30808636360388,21.92780104923721,-5480.604366145173 85.308092410396,21.92801775732917,-5480.604366145173 85.30811250378868,21.92816738986304,-5480.604366145173 85.30812095464864,21.92825056579755,-5480.604366145173 85.30814227665969,21.92842986466887,-5480.604366145173 85.30811125466747,21.92851330047919,-5480.604366145173 85.30812053408238,21.92861933173786,-5480.604366145173 85.30812721154561,21.92875214811025,-5480.604366145173 85.30811537665484,21.92882167282576,-5480.604366145173 85.30803145042715,21.9288867085605,-5480.604366145173 85.30796810025854,21.92893619090872,-5480.604366145173 85.30782967967853,21.9290248851201,-5480.604366145173 85.30781665421355,21.92928375301478,-5480.604366145173 85.3077662807972,21.92933093711379,-5480.604366145173 85.30767068657561,21.9293136048436,-5480.604366145173 85.30755648669725,21.92934855344928,-5480.604366145173 85.30753294503518,21.92935675127025,-5480.604366145173 85.30743587668766,21.92939055295484,-5480.604366145173 85.30734722261643,21.92940548632969,-5480.604366145173 85.30731832138025,21.92940686953269,-5480.604366145173 85.30720561028576,21.92944418187851,-5480.604366145173 85.30707339543099,21.92944373441879,-5480.604366145173 85.30707106126943,21.92944336894771,-5480.604366145173 85.30703402175381,21.92943768477188,-5480.604366145173 85.30692389850205,21.92942269866217,-5480.604366145173 85.30691615364702,21.92942059086948,-5480.604366145173 85.30676611978339,21.92937975848186,-5480.604366145173 85.3066872304634,21.92935828833707,-5480.604366145173 85.30655124173235,21.92949054902721,-5480.604366145173 85.30646699478174,21.92948877146305,-5480.604366145173 85.30643032818396,21.92948236276991,-5480.604366145173 85.30635208355484,21.9294901587722,-5480.604366145173 85.30614075138955,21.92943174938134,-5480.604366145173 85.30589787122855,21.92940447228412,-5480.604366145173 85.30575717530253,21.92936975818283,-5480.604366145173 85.30574727693926,21.92932687262941,-5480.604366145173 85.30563586663406,21.92930660403246,-5480.604366145173 85.30549773148938,21.92932296371763,-5480.604366145173 85.30537433324699,21.92933164465905,-5480.604366145173 85.30534465219246,21.92937512472541,-5480.604366145173 85.30529475655033,21.92940655572303,-5480.604366145173 85.30515247917018,21.92938850649753,-5480.604366145173 85.30509204998296,21.92937920389706,-5480.604366145173 85.30501618440081,21.92938269367267,-5480.604366145173 85.30492548159407,21.92946301976307,-5480.604366145173 85.30494510521501,21.92949755429698,-5480.604366145173 85.30499289845545,21.92949265025548,-5480.604366145173 85.30507578212102,21.92952343161861,-5480.604366145173 85.3051455019139,21.92954987050188,-5480.604366145173 85.30527759922062,21.92960716425734,-5480.604366145173 85.30534731503458,21.92970610356625,-5480.604366145173 85.30537427340776,21.92982551061971,-5480.604366145173 85.3054171368273,21.92996939517842,-5480.604366145173 85.30545525472425,21.93009549239848,-5480.604366145173 85.30551093273397,21.93018642027186,-5480.604366145173 85.30565962123566,21.93022964365392,-5480.604366145173 85.30570596703269,21.93027203112415,-5480.604366145173 85.30572419226809,21.93030367434482,-5480.604366145173 85.30575535042485,21.93039952460584,-5480.604366145173 85.30578478150412,21.93050389209049,-5480.604366145173 85.30578985543779,21.93074446537409,-5480.604366145173 85.30580097362403,21.93107438578072,-5480.604366145173 85.30578807226071,21.93125487890038,-5480.604366145173 85.30569387695962,21.93129775074854,-5480.604366145173 85.30562817519463,21.93142686077653,-5480.604366145173 85.30563285952634,21.93153402592262,-5480.604366145173 85.30566563624848,21.93166743606619,-5480.604366145173 85.30565524777904,21.93166836830107,-5480.604366145173 85.30558149491482,21.93167498667653,-5480.604366145173 85.30552092863501,21.93164013342423,-5480.604366145173 85.3054422301214,21.93168163463078,-5480.604366145173 85.30519861224694,21.93168405748724,-5480.604366145173 85.3050437459318,21.93168539429722,-5480.604366145173 85.30490057220383,21.93168567997074,-5480.604366145173 85.30488613822024,21.93168570876384,-5480.604366145173 85.30467121519021,21.93165564888538,-5480.604366145173 85.3045298454729,21.93166539010061,-5480.604366145173 85.30435790479666,21.93164660056834,-5480.604366145173 85.30419146512462,21.93164311324183,-5480.604366145173 85.30399524674243,21.93163736762035,-5480.604366145173 85.30383598750842,21.93162564008899,-5480.604366145173 85.30371994894773,21.9316231058642,-5480.604366145173 85.30347768124857,21.93160035000674,-5480.604366145173 85.30334272659299,21.9316005693123,-5480.604366145173 85.30307410514395,21.93156247466653,-5480.604366145173 85.30289781156286,21.93155354637899,-5480.604366145173 85.30273908332904,21.93155289276277,-5480.604366145173 85.30265043707105,21.93150694205103,-5480.604366145173 85.30260855200049,21.93150202223326,-5480.604366145173 85.30251344950453,21.93155621970055,-5480.604366145173 85.30230279222086,21.93155728738687,-5480.604366145173 85.3022015582427,21.93151388277578,-5480.604366145173 85.30206305320867,21.93150383253113,-5480.604366145173 85.30201582768905,21.93150388017168,-5480.604366145173 85.30192137665271,21.93150397541204,-5480.604366145173 85.30180637712712,21.93149798319873,-5480.604366145173 85.30180591820501,21.93150565006814,-5480.604366145173 85.30179777209141,21.93153462108551,-5480.604366145173 85.30158325024853,21.93152796262894,-5480.604366145173 85.30151790948912,21.93152048357329,-5480.604366145173 85.30135992745475,21.93150240047161,-5480.604366145173 85.30128205584204,21.9314974013909,-5480.604366145173 85.30119278854231,21.93148709686934,-5480.604366145173 85.30103319533139,21.93146981281506,-5480.604366145173 85.30088323700204,21.93146185831925,-5480.604366145173 85.30082283542079,21.9313774180968,-5480.604366145173 85.30082004118896,21.93134653821005,-5480.604366145173 85.30069623055977,21.93130790141866,-5480.604366145173 85.3005618664949,21.93128285809127,-5480.604366145173 85.30054244360916,21.93124247498087,-5480.604366145173 85.30052695540037,21.93112562103673,-5480.604366145173 85.30049696645081,21.93097022109777,-5480.604366145173 85.30042614237591,21.93076190286589,-5480.604366145173 85.30037930464782,21.93064578496416,-5480.604366145173 85.30027813360915,21.93044642850714,-5480.604366145173 85.30020488347078,21.93028592633651,-5480.604366145173 85.30021284586027,21.93023006596288,-5480.604366145173 85.30032795252156,21.93016059928717,-5480.604366145173 85.30031175487379,21.93002736838182,-5480.604366145173 85.30030764429,21.93000784549694,-5480.604366145173 85.30028030032268,21.9298903269037,-5480.604366145173 85.300348541318,21.92979637314711,-5480.604366145173 85.30032867642919,21.92971071827069,-5480.604366145173 85.30035975291665,21.92951568447826,-5480.604366145173 85.30042239924447,21.92928092880194,-5480.604366145173 85.30039128558845,21.92920207495714,-5480.604366145173 85.30028316149679,21.92915114652886,-5480.604366145173 85.30026139723046,21.92904467093552,-5480.604366145173 85.30031238287178,21.92894599327209,-5480.604366145173 85.30037992533417,21.92886164857523,-5480.604366145173 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00001">
+					<name>OLD_QUARRY</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>OLD_QUARRY</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PIT_NAME</td>
+
+<td>OLD_QUARRY</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>0.391</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0015</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.2986214594399,21.92975797904637,-6134.249366145174 85.2986908463746,21.92984648070845,-6134.249366145174 85.29873608901539,21.92991826580647,-6134.249366145174 85.29878876036615,21.92996528805215,-6134.249366145174 85.29884983466918,21.93001255589435,-6134.249366145174 85.29884054945251,21.93004880791594,-6134.249366145174 85.29875910902879,21.9300983389747,-6134.249366145174 85.29864703774177,21.93014840824023,-6134.249366145174 85.29858501327729,21.9301895128551,-6134.249366145174 85.29849383966598,21.93022566759901,-6134.249366145174 85.29839903453097,21.93026362935348,-6134.249366145174 85.29828982708816,21.93031283674856,-6134.249366145174 85.29818131149656,21.93035417501742,-6134.249366145174 85.29809611562534,21.93039134369619,-6134.249366145174 85.29799782919211,21.93042794797883,-6134.249366145174 85.29791080234026,21.93044783252747,-6134.249366145174 85.29783917651533,21.93042296907194,-6134.249366145174 85.29778341746096,21.93037279841717,-6134.249366145174 85.29777461679349,21.93029248993737,-6134.249366145174 85.29785151294284,21.93022111299279,-6134.249366145174 85.2979383471765,21.93015757203877,-6134.249366145174 85.29801319183139,21.93009537590199,-6134.249366145174 85.29806628462916,21.9300395267354,-6134.249366145174 85.29817727989462,21.92997214449142,-6134.249366145174 85.29831323667548,21.9298782537467,-6134.249366145174 85.29843011871981,21.92985382657896,-6134.249366145174 85.29849223471697,21.92982860881033,-6134.249366145174 85.2986214594399,21.92975797904637,-6134.249366145174 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document id="INFRA_STRUCTURE" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+			<name>INFRA_STRUCTURE</name>
+			<Snippet maxLines="0"></Snippet>
+			<Style id="PolyStyle0018">
+				<LabelStyle>
+					<color>00000000</color>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff6e6e6e</color>
+					<width>0.4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>7ff2c9d4</color>
+				</PolyStyle>
+			</Style>
+			<Style id="PolyStyle0019">
+				<LabelStyle>
+					<color>00000000</color>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff6e6e6e</color>
+					<width>0.4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>7ff2c9d4</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="PolyStyle0020">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#PolyStyle0018</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#PolyStyle0019</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Folder id="FeatureLayer0">
+				<name>INFRA_STRUCTURE</name>
+				<Snippet maxLines="0"></Snippet>
+				<Placemark id="ID_00000">
+					<name>W.B-11&amp;W.B-12</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>W.B-11&amp;W.B-12</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>INFRASTRUC</td>
+
+<td>W.B-11&amp;W.B-12</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>0.0517</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0020</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.30184050267485,21.92404827778721,-5594.832666145174 85.3019552139741,21.92390643150657,-5594.832666145174 85.3019740204863,21.92391617801636,-5594.832666145174 85.30215987855868,21.92401249912478,-5594.832666145174 85.30205110794002,21.92417878706974,-5594.832666145174 85.30184050267485,21.92404827778721,-5594.832666145174 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00001">
+					<name>MECH. STOCKYARD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>MECH. STOCKYARD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>INFRASTRUC</td>
+
+<td>MECH. STOCKYARD</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>1.0528</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0020</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.30499976705735,21.9237439446831,26.23305731352048 85.30432520227978,21.9236526447505,26.23305731352048 85.3037724037607,21.92352475196758,26.23305731352048 85.30378732017981,21.92340544622329,26.23305731352048 85.30379439305303,21.92337172442491,26.23305731352048 85.30385638305025,21.92340223121094,26.23305731352048 85.30392265733518,21.92343531276386,26.23305731352048 85.30401338095874,21.92345178142622,26.23305731352048 85.30406942085112,21.9234774509373,26.23305731352048 85.30414476569125,21.92349495573022,26.23305731352048 85.30417044425769,21.92348924642978,26.23305731352048 85.30417961929001,21.92347141859125,26.23305731352048 85.30416086636225,21.92343299056321,26.23305731352048 85.30411016033537,21.92338945362855,26.23305731352048 85.30401345943743,21.92333707842309,26.23305731352048 85.30394209741824,21.92330766634641,26.23305731352048 85.30387042322013,21.92329226043738,26.23305731352048 85.30378755269625,21.92327381161439,26.23305731352048 85.30373144215295,21.92325411544108,26.23305731352048 85.30368577292924,21.92321779933605,26.23305731352048 85.30360815069254,21.9231763742212,26.23305731352048 85.30354380606653,21.92315492586405,26.23305731352048 85.30361580029579,21.92311575873742,26.23305731352048 85.30369214663293,21.92307382502165,26.23305731352048 85.30376914933213,21.92303106597728,26.23305731352048 85.30383689129556,21.92299374872993,26.23305731352048 85.30397374920661,21.92291882120295,26.23305731352048 85.30401253447437,21.92295475496509,26.23305731352048 85.30405920052147,21.92290576194036,26.23305731352048 85.30395888550699,21.9227594425021,26.23305731352048 85.30391482209214,21.92270163202581,26.23305731352048 85.30386451834431,21.92263750190838,26.23305731352048 85.30382660497855,21.92258948756425,26.23305731352048 85.30378749310938,21.92251226437665,26.23305731352048 85.3037463243538,21.92246754301288,26.23305731352048 85.30395217355748,21.92259909347631,26.23305731352048 85.30502094290245,21.92328209588178,26.23305731352048 85.3050157153743,21.92339610966666,26.23305731352048 85.30532433622474,21.92397990765956,26.23305731352048 85.30528107687705,21.92399981732476,26.23305731352048 85.3051618412173,21.92385452232995,26.23305731352048 85.30511423858258,21.92381869191474,26.23305731352048 85.30506231063011,21.92375541477398,26.23305731352048 85.30499976705735,21.9237439446831,26.23305731352048 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00002">
+					<name>INGATE-1</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>INGATE-1</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>INFRASTRUC</td>
+
+<td>INGATE-1</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>0.0088</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0020</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.30546160854425,21.92421635418551,0 85.30550463339662,21.92418288692523,0 85.30560373454163,21.92428342416979,0 85.30556255468346,21.92431876319531,0 85.30546160854425,21.92421635418551,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00003">
+					<name>INGATE-2</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>INGATE-2</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>INFRASTRUC</td>
+
+<td>INGATE-2</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>0.0117</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0020</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.30571171813701,21.92450136620457,0 85.30575236563882,21.9244571727522,0 85.30589887565529,21.92458204176986,0 85.30586379642115,21.92461405764313,0 85.30571171813701,21.92450136620457,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00004">
+					<name>W.B-18&amp;W.B-19</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>W.B-18&amp;W.B-19</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>4</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>INFRASTRUC</td>
+
+<td>W.B-18&amp;W.B-19</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>0.0476</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0020</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.29274759155652,21.92699204679498,-6134.249366145174 85.2928561411341,21.92713815642317,-6134.249366145174 85.29265557456489,21.92725784091076,-6134.249366145174 85.2925530988049,21.92710834042094,-6134.249366145174 85.29274759155652,21.92699204679498,-6134.249366145174 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00005">
+					<name>W.B-2,7,8 &amp;9</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>W.B-2,7,8 &amp;9</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>INFRASTRUC</td>
+
+<td>W.B-2,7,8 &amp;9</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>0.8342</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0020</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.30117129596864,21.92414990061144,-5594.832666145174 85.30133383396735,21.92422369558034,-5594.832666145174 85.30144833274123,21.92427235984907,-5594.832666145174 85.30137059879218,21.9245048147277,-5594.832666145174 85.30128950017517,21.92468674130023,-5594.832666145174 85.30112621284714,21.9250318066256,-5594.832666145174 85.30133194343131,21.92512702414559,-5594.832666145174 85.30123887479252,21.92530852053518,-5594.832666145174 85.3008582542013,21.92513423346095,-5594.832666145174 85.30039202429575,21.92578571257233,-5594.832666145174 85.30015781636278,21.92566375803157,-5594.832666145174 85.30029818780157,21.92543539455232,-5594.832666145174 85.30090679027248,21.92445250169589,-5594.832666145174 85.30117129596864,21.92414990061144,-5594.832666145174 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00006">
+					<name>W.B-14&amp;W.B-15</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>W.B-14&amp;W.B-15</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>INFRASTRUC</td>
+
+<td>W.B-14&amp;W.B-15</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>0.0486</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0020</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.29657962777088,21.92476147143553,26.23305731352048 85.29667599762708,21.92490482241654,26.23305731352048 85.29646530472532,21.92502699679968,26.23305731352048 85.29636700768947,21.92487941773268,26.23305731352048 85.29657962777088,21.92476147143553,26.23305731352048 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00007">
+					<name>SHELTER</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>SHELTER</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>INFRASTRUC</td>
+
+<td>SHELTER</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>0.0498</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0020</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.29017536153339,21.92853003271106,-6134.249366145174 85.29057381934588,21.92830227999582,-6134.249366145174 85.29064652329998,21.92837280715316,-6134.249366145174 85.29027019955171,21.92858851495978,-6134.249366145174 85.29017536153339,21.92853003271106,-6134.249366145174 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00008">
+					<name>W.B-16&amp;W.B-17</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>W.B-16&amp;W.B-17</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>8</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>INFRASTRUC</td>
+
+<td>W.B-16&amp;W.B-17</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>0.0798</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0020</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.29986552167223,21.93141371843846,0 85.29987376469904,21.9312365341945,0 85.30025351353794,21.9312519128923,0 85.30025036879307,21.93143914240875,0 85.29986552167223,21.93141371843846,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document id="BENEFICIATION_PLANT" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+			<name>BENEFICIATION_PLANT</name>
+			<Snippet maxLines="0"></Snippet>
+			<StyleMap id="PolyStyle0021">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#PolyStyle0023</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#PolyStyle0022</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="PolyStyle0022">
+				<LabelStyle>
+					<color>00000000</color>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff6e6e6e</color>
+					<width>0.4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>7ffaebc5</color>
+				</PolyStyle>
+			</Style>
+			<Style id="PolyStyle0023">
+				<LabelStyle>
+					<color>00000000</color>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff6e6e6e</color>
+					<width>0.4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>7ffaebc5</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="FeatureLayer0">
+				<name>BENEFICIATION_PLANT</name>
+				<Snippet maxLines="0"></Snippet>
+				<Placemark id="ID_00000">
+					<name>BENEFICIATION_PLANT</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BENEFICIATION_PLANT</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BENEFICIAT</td>
+
+<td>BENEFICIATION_PLANT</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>4.045</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0021</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.30015201043598,21.92567055762313,-6130.749366145174 85.29988884594968,21.92550179811796,-6130.749366145174 85.29975985685938,21.9254246307679,-6130.749366145174 85.2998305439105,21.92533336181088,-6130.749366145174 85.30017335929904,21.9248905819292,-6130.749366145174 85.3001936126431,21.9248644593873,-6130.749366145174 85.30053035953043,21.92442961911214,-6130.749366145174 85.30073120946565,21.9241698097532,-6130.749366145174 85.30087459825242,21.92398432846738,-6130.749366145174 85.30094133796148,21.92389799676138,-6130.749366145174 85.30102985019377,21.92378350081123,-6130.749366145174 85.30100023255776,21.92374483268893,-6130.749366145174 85.3011161188895,21.92367279270639,-6130.749366145174 85.30138807474086,21.92355721807384,-6130.749366145174 85.30126912663815,21.92345173516132,-6130.749366145174 85.30124288041061,21.92343269321742,-6130.749366145174 85.30121663419017,21.92341365126973,-6130.749366145174 85.30120128179802,21.92338776972121,-6130.749366145174 85.30117155627278,21.92336971514889,-6130.749366145174 85.30094793599199,21.92348923878204,-6130.749366145174 85.30085762644472,21.92334054692175,-6130.749366145174 85.30074033207089,21.92318655212081,-6130.749366145174 85.30064041834864,21.92305537592112,-6130.749366145174 85.3005669860556,21.92308951522294,-6130.749366145174 85.30050759258521,21.92302574245131,-6130.749366145174 85.30044847161982,21.92302958550701,-6130.749366145174 85.30027195813339,21.92311164780248,-6130.749366145174 85.30021368172631,21.92300966613347,-6130.749366145174 85.30061992552814,21.92282076924585,-6130.749366145174 85.30058049930176,21.92274694951987,-6130.749366145174 85.30248998321002,21.92185893936914,-6130.749366145174 85.30307632717117,21.92239085967243,-6130.749366145174 85.30133383396735,21.92422369558034,-6130.749366145174 85.30117129596864,21.92414990061144,-6130.749366145174 85.30090978490328,21.9244476653259,-6130.749366145174 85.30028850512392,21.92545114685985,-6130.749366145174 85.30015321630789,21.92567124162213,-6130.749366145174 85.30015201043598,21.92567055762313,-6130.749366145174 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00001">
+					<name>BENEFICIATION PLANT</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BENEFICIATION PLANT</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BENEFICIAT</td>
+
+<td>BENEFICIATION PLANT</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>14.1203</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0021</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.29719648193354,21.93023479762243,-6134.249366145174 85.29596638029652,21.9302967740711,-6134.249366145174 85.29544005767791,21.93021639125504,-6134.249366145174 85.29311396233744,21.93020720782154,-6134.249366145174 85.29306967933695,21.92899436092269,-6134.249366145174 85.29296656378645,21.92880262891428,-6134.249366145174 85.29242223450656,21.92915710075829,-6134.249366145174 85.29183642161031,21.92845656628919,-6134.249366145174 85.29460746932043,21.92682906378464,-6134.249366145174 85.29464834166551,21.92683270990077,-6134.249366145174 85.29475609918569,21.92693343290751,-6134.249366145174 85.29525398039588,21.92747696069362,-6134.249366145174 85.29569645417618,21.92749093390079,-6134.249366145174 85.29629403455817,21.92765545377738,-6134.249366145174 85.29691749665687,21.9274105621518,-6134.249366145174 85.29697848306684,21.9284582607266,-6134.249366145174 85.29721393033834,21.93023391844919,-6134.249366145174 85.29719648193354,21.93023479762243,-6134.249366145174 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00002">
+					<name>BENEFICIATION PLANT</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>BENEFICIATION PLANT</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BENEFICIAT</td>
+
+<td>BENEFICIATION PLANT</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>4.7803</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0021</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.29850570068959,21.92963036796177,26.23305731352048 85.29897446998419,21.92929492666473,26.23305731352048 85.29932859169587,21.9291090965867,26.23305731352048 85.29952455568387,21.92908101181938,26.23305731352048 85.29965066546455,21.92906293814411,26.23305731352048 85.30001416925767,21.92909269438388,26.23305731352048 85.29992333837814,21.92950913713879,26.23305731352048 85.29980559908567,21.92981772621603,26.23305731352048 85.29975095766876,21.9301238875691,26.23305731352048 85.29974776737018,21.9302351840922,26.23305731352048 85.2997364243876,21.93028621464499,26.23305731352048 85.29973054729331,21.93033549864607,26.23305731352048 85.29974817353165,21.93051055002195,26.23305731352048 85.29975686454212,21.93067058566699,26.23305731352048 85.29985384780504,21.93102719407842,26.23305731352048 85.30025351353794,21.9312519128923,26.23305731352048 85.29987376469904,21.9312365341945,26.23305731352048 85.29986552167223,21.93141371843846,26.23305731352048 85.2998635128704,21.93145065761086,26.23305731352048 85.29912992457882,21.93141570625989,26.23305731352048 85.29873645372673,21.93139720302209,26.23305731352048 85.29691504118391,21.93131013568753,26.23305731352048 85.29697473498318,21.93105360879396,26.23305731352048 85.29706813409511,21.93084303302055,26.23305731352048 85.29723126533973,21.93065423168431,26.23305731352048 85.29748886025202,21.93046199376992,26.23305731352048 85.29774645448256,21.93026975540291,26.23305731352048 85.29777461679349,21.93029248993737,26.23305731352048 85.29778341746096,21.93037279841717,26.23305731352048 85.29783917651533,21.93042296907194,26.23305731352048 85.29791080234026,21.93044783252747,26.23305731352048 85.29799782919211,21.93042794797883,26.23305731352048 85.29809611562534,21.93039134369619,26.23305731352048 85.29818131149656,21.93035417501742,26.23305731352048 85.29828982708816,21.93031283674856,26.23305731352048 85.29839903453097,21.93026362935348,26.23305731352048 85.29848051721855,21.93023100216151,26.23305731352048 85.29858501327729,21.9301895128551,26.23305731352048 85.29864703774177,21.93014840824023,26.23305731352048 85.2987251099528,21.93011352850423,26.23305731352048 85.29875910902879,21.9300983389747,26.23305731352048 85.29884054945251,21.93004880791594,26.23305731352048 85.29884983466918,21.93001255589435,26.23305731352048 85.29878876036615,21.92996528805215,26.23305731352048 85.29873608901539,21.92991826580647,26.23305731352048 85.2986908463746,21.92984648070845,26.23305731352048 85.2986214594399,21.92975797904637,26.23305731352048 85.29850644064767,21.92963126490013,26.23305731352048 85.29850570068959,21.92963036796177,26.23305731352048 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00003">
+					<name>ETP</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>ETP</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BENEFICIAT</td>
+
+<td>ETP</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>0.1007</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0021</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.30094793599199,21.92348923878204,0 85.30117155627278,21.92336971514889,0 85.30120128179802,21.92338776972121,0 85.30121663419017,21.92341365126973,0 85.30126912663815,21.92345173516132,0 85.30138807474086,21.92355721807384,0 85.30134781103445,21.92357673428771,0 85.3011161188895,21.92367279270639,0 85.30100023255776,21.92374483268893,0 85.30096736847034,21.92371958690719,0 85.30097306470029,21.92364515995709,0 85.30094810534145,21.92349028957985,0 85.30094793599199,21.92348923878204,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document id="ML_BOUNDARY" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+			<name>ML_BOUNDARY</name>
+			<Snippet maxLines="0"></Snippet>
+			<Style id="PolyStyle0024">
+				<LabelStyle>
+					<color>00000000</color>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>1.3</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>700055ff</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="PolyStyle0025">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#PolyStyle0026</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#PolyStyle0024</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="PolyStyle0026">
+				<LabelStyle>
+					<color>00000000</color>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>1.3</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>700055ff</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Folder id="FeatureLayer0">
+				<name>ML_BOUNDARY</name>
+				<Snippet maxLines="0"></Snippet>
+				<Placemark id="ID_00000">
+					<name>ML_BOUNDARY</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>ML_BOUNDARY</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LAYER</td>
+
+<td>ML_BOUNDARY</td>
+
+</tr>
+
+<tr>
+
+<td>GM_TYPE</td>
+
+<td>Unknown Area Type</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ELEVATION</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>AREA</td>
+
+<td>147.084311</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>ML_BOUNDARY</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0025</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										85.28881968449703,21.92925711386517,0 85.29208001819691,21.92730643086511,0 85.29531622099714,21.92537060636507,0 85.29720800009709,21.92423985526503,0 85.30072648239715,21.9226032393651,0 85.30267176319704,21.92169872636515,0 85.30534026019721,21.92340405466511,0 85.30647129479725,21.92467248856507,0 85.30791969299719,21.92596638626527,0 85.30832077279712,21.92891729516521,0 85.30831796089728,21.93192008146525,0 85.30445854029723,21.93173589296528,0 85.30059089739719,21.9315529712652,0 85.29657497119698,21.93136248206519,0 85.2926102100971,21.93117111376524,0 85.28874260309694,21.93098746896527,0 85.28881968449703,21.92925711386517,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Folder id="FeatureLayer0">
+			<name>SANIDPUR_ML_PILLAR</name>
+			<Snippet maxLines="0"></Snippet>
+			<Placemark id="ID_00000">
+				<name>A</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>A</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PILLAR</td>
+
+<td>A</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>323258.1522</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>2426174.253</td>
+
+</tr>
+
+<tr>
+
+<td>Long</td>
+
+<td>85° 17' 19.47" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Lat</td>
+
+<td>21° 55' 51.55" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>85.28874260349963,21.93098746694837,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00001">
+				<name>B</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>B</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PILLAR</td>
+
+<td>B</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>323263.9774</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>2425982.578</td>
+
+</tr>
+
+<tr>
+
+<td>Long</td>
+
+<td>85° 17' 19.75" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Lat</td>
+
+<td>21° 55' 45.33" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>85.28881968481154,21.9292571145335,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00002">
+				<name>B1</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>B1</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PILLAR</td>
+
+<td>B1</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>323598.3822</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>2425762.843</td>
+
+</tr>
+
+<tr>
+
+<td>Long</td>
+
+<td>85° 17' 31.49" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Lat</td>
+
+<td>21° 55' 38.30" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>85.29208001780529,21.927306433924,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00003">
+				<name>B2</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>B2</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PILLAR</td>
+
+<td>B2</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>323930.3215</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>2425544.788</td>
+
+</tr>
+
+<tr>
+
+<td>Long</td>
+
+<td>85° 17' 43.14" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Lat</td>
+
+<td>21° 55' 31.33" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>85.29531622141384,21.92537060648977,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00004">
+				<name>C</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>C</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>4</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PILLAR</td>
+
+<td>C</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>324124.3675</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>2425417.42</td>
+
+</tr>
+
+<tr>
+
+<td>Long</td>
+
+<td>85° 17' 49.95" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Lat</td>
+
+<td>21° 55' 27.26" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>85.29720799996062,21.9242398547225,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00005">
+				<name>C1</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>C1</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PILLAR</td>
+
+<td>C1</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>324485.85</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>2425232.183</td>
+
+</tr>
+
+<tr>
+
+<td>Long</td>
+
+<td>85° 18' 2.62" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Lat</td>
+
+<td>21° 55' 21.37" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>85.30072648263989,21.92260324017282,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00006">
+				<name>D</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>D</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PILLAR</td>
+
+<td>D</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>324685.7084</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>2425129.81</td>
+
+</tr>
+
+<tr>
+
+<td>Long</td>
+
+<td>85° 18' 9.62" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Lat</td>
+
+<td>21° 55' 18.12" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>85.30267176313282,21.92169872297501,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00007">
+				<name>E</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>E</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PILLAR</td>
+
+<td>E</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>324963.4772</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>2425315.577</td>
+
+</tr>
+
+<tr>
+
+<td>Long</td>
+
+<td>85° 18' 19.22" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Lat</td>
+
+<td>21° 55' 24.25" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>85.30534025989554,21.92340405469916,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00008">
+				<name>F</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>F</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>8</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PILLAR</td>
+
+<td>F</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>325081.8736</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>2425454.728</td>
+
+</tr>
+
+<tr>
+
+<td>Long</td>
+
+<td>85° 18' 23.30" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Lat</td>
+
+<td>21° 55' 28.82" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>85.30647129439285,21.92467249051062,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00009">
+				<name>G</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>G</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>9</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PILLAR</td>
+
+<td>G</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>325233.085</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>2425596.337</td>
+
+</tr>
+
+<tr>
+
+<td>Long</td>
+
+<td>85° 18' 28.51" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Lat</td>
+
+<td>21° 55' 33.48" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>85.30791969287451,21.92596638628685,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00010">
+				<name>H</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>H</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>10</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PILLAR</td>
+
+<td>H</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>325278.1228</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>2425922.605</td>
+
+</tr>
+
+<tr>
+
+<td>Long</td>
+
+<td>85° 18' 29.95" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Lat</td>
+
+<td>21° 55' 44.10" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>85.30832077260901,21.92891729749116,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00011">
+				<name>I</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>I</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>11</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PILLAR</td>
+
+<td>I</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>325281.4996</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>2426255.077</td>
+
+</tr>
+
+<tr>
+
+<td>Long</td>
+
+<td>85° 18' 29.94" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Lat</td>
+
+<td>21° 55' 54.91" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>85.30831796083839,21.93192008442293,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00012">
+				<name>I1</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>I1</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>12</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PILLAR</td>
+
+<td>I1</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>324882.5852</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>2426239.086</td>
+
+</tr>
+
+<tr>
+
+<td>Long</td>
+
+<td>85° 18' 16.05" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Lat</td>
+
+<td>21° 55' 54.25" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>85.30445854051244,21.93173589037788,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00013">
+				<name>I2</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>I2</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>13</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PILLAR</td>
+
+<td>I2</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>324482.8213</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>2426223.256</td>
+
+</tr>
+
+<tr>
+
+<td>Long</td>
+
+<td>85° 18' 2.13" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Lat</td>
+
+<td>21° 55' 53.59" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>85.30059089715485,21.9315529752251,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00014">
+				<name>I3</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>I3</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>14</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PILLAR</td>
+
+<td>I3</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>324067.7284</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>2426206.767</td>
+
+</tr>
+
+<tr>
+
+<td>Long</td>
+
+<td>85° 17' 47.67" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Lat</td>
+
+<td>21° 55' 52.90" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>85.29657497163545,21.93136248091832,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00015">
+				<name>I4</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>I4</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>15</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PILLAR</td>
+
+<td>I4</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>323657.9181</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>2426190.133</td>
+
+</tr>
+
+<tr>
+
+<td>Long</td>
+
+<td>85° 17' 33.40" E</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Lat</td>
+
+<td>21° 55' 52.22" N</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>85.29261020984313,21.93117111081278,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

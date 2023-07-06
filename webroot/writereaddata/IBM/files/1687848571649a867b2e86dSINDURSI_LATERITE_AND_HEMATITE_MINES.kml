@@ -1,0 +1,3740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="MINING_LEASE_BOUNDRY_SURVEYED_BY_DGPS" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+	<name>SINDURSI LATERITE AND HEMATITE MINING LEASE BOUNDRY SURVEYED BY DGPS</name>
+	<Snippet maxLines="0"></Snippet>
+	<Schema name="SHP" id="S_SHP_SSSSI">
+		<SimpleField type="string" name="NAME"><displayName>&lt;b&gt;NAME&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="LAYER"><displayName>&lt;b&gt;LAYER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="KML_STYLE"><displayName>&lt;b&gt;KML_STYLE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="KML_FOLDER"><displayName>&lt;b&gt;KML_FOLDER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="tessellate"><displayName>&lt;b&gt;tessellate&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="IconStyle00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#IconStyle002</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#IconStyle000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="IconStyle000">
+		<IconStyle>
+			<scale>0.5625</scale>
+			<Icon>
+				<href>D:/17. RAHUL/1.FINAL SURVEY UPDATED PLAN/7.QUATERLY/YEARLY UPDATION 2022 MARCH/1.NIRMAL SIR/kml/Layer0_Symbol_15485a68_0.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff7000</color>
+			<scale>0.666667</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="IconStyle0000">
+		<IconStyle>
+			<scale>0.625</scale>
+			<Icon>
+				<href>D:/17. RAHUL/1.FINAL SURVEY UPDATED PLAN/7.QUATERLY/YEARLY UPDATION 2022 MARCH/1.NIRMAL SIR/kml/Layer0_Symbol_154471e8_0.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000e6</color>
+			<scale>0.666667</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="IconStyle001">
+		<IconStyle>
+			<scale>0.5625</scale>
+			<Icon>
+				<href>D:/17. RAHUL/1.FINAL SURVEY UPDATED PLAN/7.QUATERLY/YEARLY UPDATION 2022 MARCH/1.NIRMAL SIR/kml/Layer0_Symbol_15485a68_0.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff7000</color>
+			<scale>0.666667</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="IconStyle002">
+		<IconStyle>
+			<scale>0.5625</scale>
+			<Icon>
+				<href>D:/17. RAHUL/1.FINAL SURVEY UPDATED PLAN/7.QUATERLY/YEARLY UPDATION 2022 MARCH/1.NIRMAL SIR/kml/Layer0_Symbol_15485a68_0.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff7000</color>
+			<scale>0.666667</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="LineStyle00">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1134fa</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="LineStyle000">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1134fa</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="LineStyle001">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#LineStyle00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#LineStyle000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[SHP/NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[SHP/LAYER]</td></tr>
+  <tr><td><b>KML_STYLE</b></td><td>$[SHP/KML_STYLE]</td></tr>
+  <tr><td><b>KML_FOLDER</b></td><td>$[SHP/KML_FOLDER]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[SHP/tessellate]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>ff00ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor0">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[SHP/NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[SHP/LAYER]</td></tr>
+  <tr><td><b>KML_STYLE</b></td><td>$[SHP/KML_STYLE]</td></tr>
+  <tr><td><b>KML_FOLDER</b></td><td>$[SHP/KML_FOLDER]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[SHP/tessellate]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>ff00ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor1">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[SHP/NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[SHP/LAYER]</td></tr>
+  <tr><td><b>KML_STYLE</b></td><td>$[SHP/KML_STYLE]</td></tr>
+  <tr><td><b>KML_FOLDER</b></td><td>$[SHP/KML_FOLDER]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[SHP/tessellate]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>ff00ffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor3">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[SHP/NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[SHP/LAYER]</td></tr>
+  <tr><td><b>KML_STYLE</b></td><td>$[SHP/KML_STYLE]</td></tr>
+  <tr><td><b>KML_FOLDER</b></td><td>$[SHP/KML_FOLDER]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[SHP/tessellate]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>ff00ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor4">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[SHP/NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[SHP/LAYER]</td></tr>
+  <tr><td><b>KML_STYLE</b></td><td>$[SHP/KML_STYLE]</td></tr>
+  <tr><td><b>KML_FOLDER</b></td><td>$[SHP/KML_FOLDER]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[SHP/tessellate]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>ffffaaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor5">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[SHP/NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[SHP/LAYER]</td></tr>
+  <tr><td><b>KML_STYLE</b></td><td>$[SHP/KML_STYLE]</td></tr>
+  <tr><td><b>KML_FOLDER</b></td><td>$[SHP/KML_FOLDER]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[SHP/tessellate]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>ffffaaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor6">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[SHP/NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[SHP/LAYER]</td></tr>
+  <tr><td><b>KML_STYLE</b></td><td>$[SHP/KML_STYLE]</td></tr>
+  <tr><td><b>KML_FOLDER</b></td><td>$[SHP/KML_FOLDER]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[SHP/tessellate]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>ffff00ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor8">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>NAME</b></td><td>$[SHP/NAME]</td></tr>
+  <tr><td><b>LAYER</b></td><td>$[SHP/LAYER]</td></tr>
+  <tr><td><b>KML_STYLE</b></td><td>$[SHP/KML_STYLE]</td></tr>
+  <tr><td><b>KML_FOLDER</b></td><td>$[SHP/KML_FOLDER]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[SHP/tessellate]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>ffff00ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>pillars</name>
+		<Folder id="FeatureLayer0">
+			<name>DGPS SURVEY BOUNDRY INTERMEDIATE POINTS</name>
+			<Snippet maxLines="0"></Snippet>
+			<Placemark id="ID_00000">
+				<name>BP-2A</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-2A</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle001</styleUrl>
+				<Point>
+					<coordinates>80.14226492138448,23.38070195104174,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00001">
+				<name>BP-2B</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-2B</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle001</styleUrl>
+				<Point>
+					<coordinates>80.14231305004161,23.38115136805265,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00002">
+				<name>BP-2C</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-2C</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle001</styleUrl>
+				<Point>
+					<coordinates>80.14236117897143,23.3816007850328,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00003">
+				<name>BP-2D</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-2D</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle001</styleUrl>
+				<Point>
+					<coordinates>80.14240930817394,23.38205020198219,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00004">
+				<name>BP-2E</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>4</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-2E</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle001</styleUrl>
+				<Point>
+					<coordinates>80.14245743764918,23.38249961890081,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00005">
+				<name>BP-2F</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-2F</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle001</styleUrl>
+				<Point>
+					<coordinates>80.14250556739715,23.38294903578867,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00006">
+				<name>BP-1E</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-1E</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle001</styleUrl>
+				<Point>
+					<coordinates>80.1417441320458,23.38036906252631,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00007">
+				<name>BP-1D</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-1D</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle001</styleUrl>
+				<Point>
+					<coordinates>80.14127147031087,23.38048558959779,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00008">
+				<name>BP-1A</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>8</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-1A</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle001</styleUrl>
+				<Point>
+					<coordinates>80.13983602590297,23.38097469091895,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00009">
+				<name>BP-1B</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>9</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-1B</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle001</styleUrl>
+				<Point>
+					<coordinates>80.14028927568754,23.38080470448624,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00010">
+				<name>BP-1C</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>10</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-1C</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle001</styleUrl>
+				<Point>
+					<coordinates>80.14078309957664,23.38063146501253,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00011">
+				<name>BP-4E</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>11</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-4E</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle001</styleUrl>
+				<Point>
+					<coordinates>80.13946921688182,23.38158917804675,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00012">
+				<name>BP-4D</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>12</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-4D</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle001</styleUrl>
+				<Point>
+					<coordinates>80.13955565929047,23.38203368003773,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00013">
+				<name>BP-4C</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>13</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-4C</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle001</styleUrl>
+				<Point>
+					<coordinates>80.13964210222603,23.38247818197303,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00014">
+				<name>BP-4B</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>14</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-4B</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle001</styleUrl>
+				<Point>
+					<coordinates>80.13972854568851,23.38292268385264,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00015">
+				<name>BP-4A</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>15</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-4A</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle001</styleUrl>
+				<Point>
+					<coordinates>80.13981498967796,23.38336718567655,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00016">
+				<name>BP-3E</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>16</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-3E</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle001</styleUrl>
+				<Point>
+					<coordinates>80.14035168094556,23.38357224303807,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00017">
+				<name>BP-3D</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>17</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-4D</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00</styleUrl>
+				<Point>
+					<coordinates>80.14083571046433,23.38350651156307,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00018">
+				<name>BP-3C</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>18</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-3C</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle001</styleUrl>
+				<Point>
+					<coordinates>80.14131973955635,23.38344077857507,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00019">
+				<name>BP-3B</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>19</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-3B</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle001</styleUrl>
+				<Point>
+					<coordinates>80.14180376822156,23.3833750440741,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00020">
+				<name>BP-3A</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>20</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-3A</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle001</styleUrl>
+				<Point>
+					<coordinates>80.14228779645993,23.38330930806018,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder id="FeatureLayer0">
+			<name>DGPS SURVEY BOUNDRY MEJOR POINTS</name>
+			<Snippet maxLines="0"></Snippet>
+			<Placemark id="ID_00000">
+				<name>BP-2</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-2</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Ltitude</td>
+
+<td>23.3803</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Longitude</td>
+
+<td>80.1422</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle0000</styleUrl>
+				<Point>
+					<coordinates>80.14221679300005,23.38025253400007,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00001">
+				<name>BP-3</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-3</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Ltitude</td>
+
+<td>23.3833</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Longitude</td>
+
+<td>80.1425</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle0000</styleUrl>
+				<Point>
+					<coordinates>80.14254052000007,23.38327540800003,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00002">
+				<name>BP-1</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-1</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Ltitude</td>
+
+<td>23.3811</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Longitude</td>
+
+<td>80.1394</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle0000</styleUrl>
+				<Point>
+					<coordinates>80.13938277500006,23.38114467600008,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00003">
+				<name>BP-4</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>Point</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>BP-4</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Angle</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Ltitude</td>
+
+<td>23.3836</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Longitude</td>
+
+<td>80.1399</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle0000</styleUrl>
+				<Point>
+					<coordinates>80.13986765100003,23.38363797300008,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+	<Folder>
+		<name>lease</name>
+		<Folder id="FeatureLayer0">
+			<name>MINING LEASE BOUNDRY SURVEYED BY DGPS</name>
+			<Snippet maxLines="0"></Snippet>
+			<Placemark id="ID_00000">
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>3DPolyline</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>Polygons</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>202</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#LineStyle001</styleUrl>
+				<MultiGeometry>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+							80.13938277500006,23.38114467600008,0 80.14038240000008,23.38076977900005,0 80.14066434000006,23.38067207200003,0 80.14105016200006,23.38054014900007,0 80.14221679300005,23.38025253400007,0 80.14254052000007,23.38327540800003,0 80.13986765100003,23.38363797300008,0 80.13938277500006,23.38114467600008,0 
+						</coordinates>
+					</LineString>
+				</MultiGeometry>
+			</Placemark>
+		</Folder>
+	</Folder>
+	<Folder>
+		<name>pit</name>
+		<Placemark>
+			<styleUrl>#falseColor9</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SHP_SSSSI">
+					<SimpleData name="NAME">PIT</SimpleData>
+					<SimpleData name="LAYER">Unknown Area Type</SimpleData>
+					<SimpleData name="KML_STYLE">m_ylw-pushpin</SimpleData>
+					<SimpleData name="KML_FOLDER">EXICTING</SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							80.14001905322596,23.38282960702926,0 80.13995062270929,23.38270574110929,0 80.13989008690589,23.38252395842539,0 80.13975517906239,23.38236611275813,0 80.1396686344454,23.38227121883257,0 80.13966814446559,23.38214310309943,0 80.13971972550074,23.3820166572,0 80.13973938208083,23.38201665206475,0 80.13987316289973,23.38200930736702,0 80.14010450690068,23.38196330291197,0 80.14030963460227,23.38193454066355,0 80.14031670182476,23.38193692654033,0 80.14043060917083,23.38200436669011,0 80.14055005674631,23.38209786932047,0 80.14070820693154,23.38218096052938,0 80.14083987786897,23.38212783066316,0 80.14091249864839,23.38210028876487,0 80.14091044228935,23.3824769087876,0 80.14108277917795,23.3825126830201,0 80.14119246725686,23.38261642950954,0 80.14130943799347,23.38269677056035,0 80.14146998934793,23.38279064765901,0 80.14153252140342,23.3828806616635,0 80.14135818601896,23.38303503551548,0 80.14097322686341,23.38308239080653,0 80.1404111119506,23.38310175242096,0 80.14022069653652,23.38306364409774,0 80.14001905322596,23.38282960702926,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor9</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SHP_SSSSI">
+					<SimpleData name="NAME">PIT</SimpleData>
+					<SimpleData name="LAYER">Unknown Area Type</SimpleData>
+					<SimpleData name="KML_STYLE">m_ylw-pushpin</SimpleData>
+					<SimpleData name="KML_FOLDER">EXICTING</SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							80.14139737456433,23.3825906497435,0 80.14125264971551,23.38240124392339,0 80.14115947918513,23.38217440133028,0 80.14123958785268,23.38195718073089,0 80.14135542579776,23.38183645228453,0 80.14153320564084,23.38174723926592,0 80.14155090429479,23.38142344886651,0 80.14159311232565,23.38132834892862,0 80.141478596347,23.38134917180177,0 80.1413733649311,23.38154453524199,0 80.14125082286971,23.38163181196884,0 80.14095520254409,23.38157956579497,0 80.14073131271498,23.38155848706381,0 80.14058829459999,23.38139293153305,0 80.14043480611998,23.38099603986484,0 80.14063200439178,23.3808751727727,0 80.14063509169823,23.38086820815778,0 80.14086387738102,23.38078812469391,0 80.14087883145464,23.38078135623928,0 80.14126232996047,23.38070567931236,0 80.14127668032165,23.38070128573753,0 80.14147323082916,23.38064473261682,0 80.14149021897593,23.38065119750037,0 80.14177638453998,23.38077677822131,0 80.14189737127437,23.38094088671683,0 80.14199257033589,23.38118251476344,0 80.14215249818341,23.38137227954157,0 80.14224035656309,23.38142147713921,0 80.14225370061661,23.38159369705402,0 80.14235973237437,23.38210373279957,0 80.14236033320252,23.38233798107787,0 80.14213604116338,23.38260653868646,0 80.14165946255389,23.38276947482604,0 80.14139737456433,23.3825906497435,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>stack</name>
+		<Placemark>
+			<name>STACK</name>
+			<styleUrl>#falseColor7</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							80.14076409327069,23.38210801229285,0 80.14072991710067,23.38212729103313,0 80.14068876921046,23.38207836857378,0 80.14066620171728,23.38202838494335,0 80.14062641785024,23.38198552273338,0 80.14072958812612,23.38198145217163,0 80.14084633658001,23.38198951901663,0 80.14092064104521,23.38199966447987,0 80.14093491242433,23.3820180492693,0 80.14090492876531,23.38206990698158,0 80.14084999715894,23.38210798766816,0 80.14076409327069,23.38210801229285,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#falseColor10</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							80.14007040183162,23.38139554996367,0 80.14000619903889,23.38137932527404,0 80.13997271632623,23.38130867456101,0 80.14000669124464,23.38128278141532,0 80.14005971180032,23.38126739819985,0 80.14009122680648,23.38125382370476,0 80.14013384642921,23.38124706861894,0 80.14016323190545,23.38123362507913,0 80.14020278474823,23.38122026910255,0 80.14023091452677,23.38121528420232,0 80.14021516820755,23.38126738818631,0 80.14022587366411,23.38129998884356,0 80.14022999777578,23.3813295996796,0 80.14017564081267,23.38135608706676,0 80.14015028179142,23.38139011930872,0 80.14007040183162,23.38139554996367,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>dump</name>
+		<Placemark>
+			<styleUrl>#falseColor2</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SHP_SSSSI">
+					<SimpleData name="NAME">DUMP</SimpleData>
+					<SimpleData name="LAYER">Unknown Area Type</SimpleData>
+					<SimpleData name="KML_STYLE">m_ylw-pushpin</SimpleData>
+					<SimpleData name="KML_FOLDER">EXICTING</SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							80.14158622922672,23.38306521082853,0 80.14157101404629,23.38298142176432,0 80.14168506431751,23.38288060283288,0 80.14184866758929,23.38277295819104,0 80.14210878374541,23.3827459139083,0 80.14216922612968,23.38273468988423,0 80.1423501447526,23.38270570472148,0 80.14233275419565,23.38294386547324,0 80.14208822361753,23.38300298233976,0 80.14197401007902,23.38313356552691,0 80.14177898191816,23.38312122961382,0 80.14158622922672,23.38306521082853,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor2</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SHP_SSSSI">
+					<SimpleData name="NAME">DUMP</SimpleData>
+					<SimpleData name="LAYER">Unknown Area Type</SimpleData>
+					<SimpleData name="KML_STYLE">m_ylw-pushpin</SimpleData>
+					<SimpleData name="KML_FOLDER">EXICTING</SimpleData>
+					<SimpleData name="tessellate">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							80.13962338454972,23.38181485837459,0 80.1396139418439,23.3817523478492,0 80.13970763722712,23.38169349854828,0 80.13983972131388,23.38164727914138,0 80.14000953117352,23.38165405962672,0 80.14012961015304,23.38168168639854,0 80.14014105143821,23.38173786347885,0 80.14022271004391,23.38174495689047,0 80.14035685631417,23.3817520523184,0 80.14036597086196,23.38181456657317,0 80.14022396366197,23.38185872791439,0 80.14007777859028,23.3818711394647,0 80.13993655405625,23.38185139800955,0 80.13980597144621,23.38188369697905,0 80.13970315452195,23.38186388182361,0 80.13962338454972,23.38181485837459,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

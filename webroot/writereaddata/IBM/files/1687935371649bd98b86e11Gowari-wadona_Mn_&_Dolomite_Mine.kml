@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Gowari-wadona Mn &amp; Dolomite Mine.kml</name>
+	<StyleMap id="msn_grn-pushpin1000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-pushpin01000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-pushpin200</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-pushpin200">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff00ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7affffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin20">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0055aa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7faa00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff7fff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff00ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-pushpin01000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff00ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7affffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff00ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin20">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0055aa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7faa00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff7fff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin9">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>SMM</name>
+		<open>1</open>
+		<Placemark>
+			<name>BP-1</name>
+			<LookAt>
+				<longitude>78.81306696472728</longitude>
+				<latitude>21.53109857093575</latitude>
+				<altitude>0</altitude>
+				<heading>1.764426912715438</heading>
+				<tilt>26.68590038393027</tilt>
+				<range>151.4578079414521</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.81300234444444,21.53154427222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-7</name>
+			<LookAt>
+				<longitude>78.81583983907112</longitude>
+				<latitude>21.53033832789866</latitude>
+				<altitude>0</altitude>
+				<heading>-1.929774897311647</heading>
+				<tilt>18.08980203408771</tilt>
+				<range>37.01450732390496</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.81593802955433,21.53041744290469,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-8</name>
+			<LookAt>
+				<longitude>78.81595248915859</longitude>
+				<latitude>21.52993295214394</latitude>
+				<altitude>0</altitude>
+				<heading>-4.190017378154629</heading>
+				<tilt>10.76730804914289</tilt>
+				<range>37.12792329104994</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.81595903611111,21.52994661111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-9</name>
+			<LookAt>
+				<longitude>78.81596454412791</longitude>
+				<latitude>21.5295092464801</latitude>
+				<altitude>0</altitude>
+				<heading>-4.190012865639497</heading>
+				<tilt>10.76737619331016</tilt>
+				<range>77.7241012807054</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.81596501666667,21.52958754722222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-10</name>
+			<LookAt>
+				<longitude>78.81600120665809</longitude>
+				<latitude>21.52905157659215</latitude>
+				<altitude>0</altitude>
+				<heading>-4.189999411228838</heading>
+				<tilt>10.76737763176806</tilt>
+				<range>78.58127872807817</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.81599798611111,21.52908866944445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-11</name>
+			<LookAt>
+				<longitude>78.81600348239425</longitude>
+				<latitude>21.52854529177129</latitude>
+				<altitude>0</altitude>
+				<heading>-4.189998577499533</heading>
+				<tilt>10.76737890407923</tilt>
+				<range>79.33943011650562</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin9</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.81602848888889,21.52840435833333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-12</name>
+			<LookAt>
+				<longitude>78.8157651100079</longitude>
+				<latitude>21.52862787485782</latitude>
+				<altitude>0</altitude>
+				<heading>-4.19007671025052</heading>
+				<tilt>26.31024856199512</tilt>
+				<range>152.6058168669295</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.81558739444444,21.52837503333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-13</name>
+			<LookAt>
+				<longitude>78.81536305541357</longitude>
+				<latitude>21.52847642595462</latitude>
+				<altitude>0</altitude>
+				<heading>-4.190224250458329</heading>
+				<tilt>26.31024433560265</tilt>
+				<range>151.5442831562069</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.81507601388888,21.52841784722222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-14</name>
+			<LookAt>
+				<longitude>78.81480714417607</longitude>
+				<latitude>21.52837265445011</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02636128016981171</heading>
+				<tilt>0</tilt>
+				<range>71.82959114157718</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_grn-pushpin1000</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.81469784722222,21.528396025,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-18</name>
+			<LookAt>
+				<longitude>78.81407056835378</longitude>
+				<latitude>21.52959503638283</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02662732678727177</heading>
+				<tilt>13.73820092448636</tilt>
+				<range>131.0303407820431</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin13</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.81400834722221,21.52945784166667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-19</name>
+			<LookAt>
+				<longitude>78.81359380649837</longitude>
+				<latitude>21.52954051409948</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02680228915571341</heading>
+				<tilt>13.73819752229956</tilt>
+				<range>129.435506398611</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.81354092222222,21.52945937222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-24</name>
+			<LookAt>
+				<longitude>78.81320415129814</longitude>
+				<latitude>21.5305097896041</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02694528364480419</heading>
+				<tilt>13.73820112912327</tilt>
+				<range>131.1262381962979</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.81299591388888,21.53119455555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BUND-4</name>
+			<description>Gowari-wadona Manganese &amp; Dolomite Mine
+M/s. Shakambhari Mines &amp; Minerals
+Bund-4 Length- 75m</description>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.81527809559498,21.5302933920279,0 78.81535743775834,21.53024879706395,0 78.81542062814289,21.53021765086788,0 78.81548190919237,21.53018002236875,0 78.81554434094959,21.53014976789126,0 78.81559269060594,21.53013011226645,0 78.81564957063362,21.53010024376707,0 78.81569648011485,21.53007972608506,0 78.81575396495901,21.5300575751681,0 78.81580398505643,21.53004142583915,0 78.81586092785579,21.53002657456875,0 78.81589851182825,21.53001456126689,0 78.81593387746035,21.53000173961378,0 78.81595751957892,21.52999361303812,0 78.8159581380847,21.53000587852123,0 78.81590663805916,21.53002322347651,0 78.815861844666,21.53003619083711,0 78.81581085564324,21.53005207981877,0 78.81575870538262,21.53007026277764,0 78.81570099233939,21.53009259707242,0 78.81565696024302,21.53011029255391,0 78.81555252886984,21.53016196106189,0 78.81549006033778,21.53019036860455,0 78.81542411878705,21.53023078557417,0 78.81535947140308,21.53026346390487,0 78.81529539123751,21.53030116786933,0 78.81527809559498,21.5302933920279,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>BUND-3</name>
+			<description>Gowari-wadona Manganese &amp; Dolomite Mine
+M/s. Shakambhari Mines &amp; Minerals
+Bund-3 Length-459m</description>
+			<styleUrl>#msn_ylw-pushpin3</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.8149659168671,21.52841387106989,0 78.81496406280725,21.52842038383396,0 78.81491295927378,21.52841771324772,0 78.81487086620562,21.52841806713993,0 78.81482194928445,21.52841700667085,0 78.81479448665139,21.52842419152088,0 78.81476940969523,21.52843591901425,0 78.81474371399457,21.52845629700626,0 78.81473642609872,21.52849108515974,0 78.8147271458368,21.52852102727392,0 78.81471253011857,21.52857194487273,0 78.81468791337053,21.52868508913197,0 78.81468173350916,21.52876642076784,0 78.81467685355445,21.52883380840765,0 78.81467415045614,21.52888296818593,0 78.81464090086668,21.52903306767273,0 78.81462287929082,21.52911397844894,0 78.81460219419887,21.52919990532111,0 78.81454825727715,21.52924367927048,0 78.81448172091106,21.52929765928334,0 78.81440949380263,21.52935401627574,0 78.81429432420394,21.52939008645292,0 78.81418573721787,21.52942153048884,0 78.81409530096896,21.52944662244785,0 78.81401258489049,21.52946866615245,0 78.81385095682178,21.52949205406306,0 78.8136710579297,21.52951535824894,0 78.81353116145094,21.52952537950553,0 78.81336453025723,21.52952703461385,0 78.81321013288922,21.52952456896396,0 78.81310249824278,21.52954387133733,0 78.81302760233299,21.52956187063677,0 78.81301294272663,21.52965508830454,0 78.81298580337379,21.52980943505337,0 78.81296532697121,21.52993096775631,0 78.81292983387431,21.53017764925918,0 78.81290815515518,21.53031755606659,0 78.81293306770621,21.53055099545183,0 78.81295618525645,21.53073432145113,0 78.81298633065636,21.53095811682203,0 78.81296861059008,21.53096160893487,0 78.8129410596934,21.5307356973661,0 78.81292250473585,21.53054987257202,0 78.81290026433297,21.53031849864092,0 78.81292090919312,21.53017428879164,0 78.81295593474927,21.52993045091392,0 78.81297652358332,21.52980897031406,0 78.81300251620732,21.52965416083897,0 78.81301984911522,21.52955492061675,0 78.81309897090289,21.52953268092828,0 78.81320839610295,21.52951405954797,0 78.8133628958532,21.5295174529583,0 78.81353029772995,21.52951488190932,0 78.81366777299344,21.52950362812938,0 78.81384846218954,21.52948048733434,0 78.81400926784826,21.52945852086458,0 78.81418098896744,21.52940906330172,0 78.81440246818252,21.5293451961915,0 78.81447176778664,21.5292883778864,0 78.81454029440651,21.52923367024501,0 78.8145903014034,21.52919368026899,0 78.81461020651564,21.5291105952012,0 78.81462703340414,21.52903114100933,0 78.81464969558505,21.52893639338496,0 78.81466341670671,21.52888159275928,0 78.81466748626237,21.52883324568511,0 78.8146721698197,21.5287669029211,0 78.81467829570602,21.52868409146545,0 78.81470413037106,21.5285711402394,0 78.81471805128473,21.52852001950212,0 78.81472797835448,21.52848869737737,0 78.81473698415844,21.5284538995459,0 78.81476102424024,21.5284328407901,0 78.81480125945241,21.52841329554625,0 78.81482127381354,21.52841070720186,0 78.81487147771691,21.5284101003808,0 78.81490901110961,21.52841115299523,0 78.81493582561951,21.52841218728776,0 78.8149659168671,21.52841387106989,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>BUND-2</name>
+			<description>Gowari-wadona Manganese &amp; Dolomite Mine
+M/s. Shakambhari Mines &amp; Minerals
+Bund-2 Length-125m</description>
+			<styleUrl>#msn_ylw-pushpin3</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.81483064536633,21.53084234855331,0 78.81499883819551,21.5307761230119,0 78.81528279479811,21.53066865990069,0 78.81562711387835,21.53053403416471,0 78.81579008541377,21.53046966348398,0 78.81593946440961,21.53040981280465,0 78.81593832747535,21.53041869257203,0 78.81579365631642,21.53047650091303,0 78.81562801343738,21.53054184243624,0 78.81528417942164,21.5306761753018,0 78.81522070878503,21.53070042286894,0 78.81499926200215,21.53078651520384,0 78.81483562350547,21.530850218552,0 78.81483064536633,21.53084234855331,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>BP-23</name>
+			<LookAt>
+				<longitude>78.81328119444235</longitude>
+				<latitude>21.5305333826178</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01529875364042797</heading>
+				<tilt>13.26015355116557</tilt>
+				<range>97.04662350793564</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.81294064016387,21.53073471451021,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-22</name>
+			<LookAt>
+				<longitude>78.813300632006</longitude>
+				<latitude>21.53042287421636</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01592096177235307</heading>
+				<tilt>23.57517751446864</tilt>
+				<range>158.401617361475</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.8128992540053,21.53031911577793,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-21</name>
+			<LookAt>
+				<longitude>78.81323694680695</longitude>
+				<latitude>21.52992005818191</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01598882871193836</heading>
+				<tilt>25.10600360962078</tilt>
+				<range>95.02707693001928</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.8129559899121,21.52992958815743,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-20</name>
+			<LookAt>
+				<longitude>78.81323970648126</longitude>
+				<latitude>21.52956806113247</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01604213684793286</heading>
+				<tilt>27.3301038697269</tilt>
+				<range>71.46233321538392</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.81302655594729,21.52951486197066,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-17</name>
+			<LookAt>
+				<longitude>78.81453979676745</longitude>
+				<latitude>21.5293033988574</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01556508098458914</heading>
+				<tilt>27.33105429917678</tilt>
+				<range>301.9706586711454</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_grn-pushpin1000</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.8144030732538,21.52934466288807,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-16</name>
+			<LookAt>
+				<longitude>78.81453979676745</longitude>
+				<latitude>21.5293033988574</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01556508098458914</heading>
+				<tilt>27.33105429917678</tilt>
+				<range>301.9706586711454</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_grn-pushpin1000</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.81459016139196,21.52919206339384,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-15</name>
+			<LookAt>
+				<longitude>78.81453979676745</longitude>
+				<latitude>21.5293033988574</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01556508098458914</heading>
+				<tilt>27.33105429917678</tilt>
+				<range>301.9706586711454</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_grn-pushpin1000</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.81466322512962,21.52888132531776,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-2</name>
+			<LookAt>
+				<longitude>78.8136409621796</longitude>
+				<latitude>21.53137140296534</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001542970341547418</heading>
+				<tilt>22.8013911565619</tilt>
+				<range>99.5982057780321</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.81345800705212,21.53137198024023,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-3</name>
+			<LookAt>
+				<longitude>78.8140732829311</longitude>
+				<latitude>21.53121524882153</latitude>
+				<altitude>0</altitude>
+				<heading>-0.00138430540901232</heading>
+				<tilt>22.80138974050323</tilt>
+				<range>99.19141415523841</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.81391308922312,21.53119719977268,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-4</name>
+			<LookAt>
+				<longitude>78.81443385921094</longitude>
+				<latitude>21.53101933988653</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001251971448305455</heading>
+				<tilt>22.8013934920743</tilt>
+				<range>100.2691066636184</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.81439594194499,21.53101366941579,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-5</name>
+			<LookAt>
+				<longitude>78.81483271081635</longitude>
+				<latitude>21.53077704447917</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001105591564398438</heading>
+				<tilt>22.80139804373735</tilt>
+				<range>101.5766476679468</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.81483480275988,21.53084674886886,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BP-6</name>
+			<LookAt>
+				<longitude>78.81507570311902</longitude>
+				<latitude>21.53081839742781</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001872264441233966</heading>
+				<tilt>17.37785250752027</tilt>
+				<range>129.3374422597427</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>78.81528425094888,21.53067567952371,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BUND-1</name>
+			<description>Gowari-wadona Manganese &amp; Dolomite Mine
+M/s. Shakambhari Mines &amp; Minerals
+Bund-1 Length-200m</description>
+			<styleUrl>#msn_ylw-pushpin3</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.81300261392865,21.531534430995,0 78.81317260816814,21.53147131398222,0 78.81345568632882,21.53136578779547,0 78.8138058218712,21.5312309433288,0 78.81410191081447,21.53111155070954,0 78.81427917786087,21.53104374493837,0 78.81439453458,21.53100237192893,0 78.81446734976414,21.53097457913711,0 78.81462905732548,21.53091539766323,0 78.81476616649564,21.53086096427592,0 78.81477364493473,21.53087028651287,0 78.81439277883484,21.53101368189101,0 78.81410467443807,21.53112314076838,0 78.81391640978579,21.53119733176538,0 78.81380897027078,21.53123984042194,0 78.8136359200857,21.53130610762488,0 78.81345948963701,21.53137379171842,0 78.81329857990676,21.5314337673165,0 78.8131737430723,21.53147948409849,0 78.81300414409414,21.53154523714192,0 78.81300261392865,21.531534430995,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Garlain drain-1</name>
+			<description>Gowari-wadona Manganese &amp; Dolomite Mine
+M/s. Shakambhari Mines &amp; Minerals
+Garlain drain 1 Length-85m</description>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.81554440061348,21.53013924209028,0 78.81552671892247,21.53014910531526,0 78.8154779662953,21.53017245750546,0 78.81543508071988,21.53019651227135,0 78.81540026181374,21.5302166627977,0 78.81536390776587,21.53023712694618,0 78.81531362958977,21.53026645812706,0 78.81527009357735,21.53029261504018,0 78.81528458380507,21.53030619477849,0 78.81534535204675,21.53033275065583,0 78.81537985808524,21.53034525124832,0 78.81542724340159,21.53036332753585,0 78.81547080486874,21.53038468962177,0 78.81550327582826,21.53040071278176,0 78.81554397938568,21.53042053818918,0 78.81557372309501,21.53043810216215,0 78.81561717040951,21.53046301254657,0 78.81564839178297,21.53049597820433,0 78.8156697240608,21.53052430431449,0 78.81565692523782,21.53052930682276,0 78.81563887744819,21.5305028154116,0 78.81560827558644,21.53046984725192,0 78.81556975909774,21.53044782251109,0 78.81553935177841,21.53043022426365,0 78.81549709818746,21.53040918328616,0 78.81546694778423,21.53039356977338,0 78.81542327956949,21.53037287690735,0 78.81537598652577,21.53035545797907,0 78.81534008412025,21.5303411139528,0 78.81527697070103,21.53031354619471,0 78.81525247285091,21.53029131252477,0 78.81527748154048,21.53027530987611,0 78.81534570130864,21.53023611288736,0 78.81540444574554,21.5302043019605,0 78.81548931048459,21.5301575599022,0 78.81554054793268,21.53013120585885,0 78.81554440061348,21.53013924209028,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>garlain drain-2</name>
+			<description>Gowari-wadona Manganese &amp; Dolomite Mine
+M/s. Shakambhari Mines &amp; Minerals
+Garlain drain 2 Length-90m</description>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.81304810456508,21.5312202001949,0 78.81311164069695,21.53120202423155,0 78.81321794414605,21.53117404347597,0 78.81327748651965,21.53116070306168,0 78.81337048872493,21.5311437464174,0 78.81343484916401,21.53112899871829,0 78.81349228598218,21.53111524063566,0 78.81361505225411,21.53109308429612,0 78.81367326422578,21.53109512735416,0 78.81369664085841,21.53110265056668,0 78.81371640750137,21.53111723363372,0 78.81373266987326,21.531145786487,0 78.8137469127053,21.53117519776437,0 78.81376241689679,21.53120927987186,0 78.81378247771387,21.53124865144422,0 78.813776305159,21.53125231677002,0 78.81376594783305,21.53122651046467,0 78.81375374649816,21.53120385053751,0 78.81374179591623,21.53117519674449,0 78.81372865764052,21.53115024002835,0 78.81371535016588,21.53112346426564,0 78.81369851789168,21.53110893085219,0 78.81367463008006,21.53109953700682,0 78.81363809229431,21.53109731025416,0 78.81355805838861,21.5311085430423,0 78.81345649386176,21.5311307180139,0 78.81340333355652,21.5311437126219,0 78.81333648252571,21.53115743533054,0 78.81325568422085,21.53117177407407,0 78.8131882930857,21.5311892453818,0 78.81312396366674,21.53120541878657,0 78.81308591406565,21.53121704659742,0 78.81305132455778,21.53122984515244,0 78.81304810456508,21.5312202001949,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Garlain Drain-3</name>
+			<description>Gowari-wadona Mangaese &amp; Dolomite Mine
+M/s. Shakambhari Mines &amp; Minerals
+Garlain drain 3 Length-165m</description>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.81526205045107,21.53029658767097,0 78.81520736026357,21.5303281832899,0 78.81514869024784,21.5303638022446,0 78.81508710344571,21.53040384870942,0 78.81502199441708,21.53044305121226,0 78.8149585356587,21.53048273655666,0 78.81486641607869,21.53054305161565,0 78.81479734568228,21.53058252385389,0 78.81472942399691,21.53063146680353,0 78.81466563961361,21.53068104953712,0 78.81460293165131,21.53072276559202,0 78.81454732899456,21.53075919270803,0 78.81451012619624,21.53078312018283,0 78.81444708116055,21.53081782918916,0 78.8143828243264,21.53085119736431,0 78.81429128748218,21.53090053987046,0 78.81422146120501,21.53093890781343,0 78.81414066969296,21.53097545511266,0 78.81408789985987,21.53099642272677,0 78.81404452666375,21.5310084290485,0 78.81400341585596,21.53090451846458,0 78.81399169475571,21.53087238690277,0 78.81399950464278,21.53087147961249,0 78.81400670131787,21.53089711639783,0 78.81404960834442,21.53099992428658,0 78.81409627083171,21.5309850598492,0 78.81413870062246,21.53097017863972,0 78.81420177550359,21.53094129725181,0 78.81424363799294,21.53091906486149,0 78.81429405504689,21.53089113649898,0 78.81437698233934,21.53084596572955,0 78.81444977233264,21.5308087375454,0 78.81454128502712,21.53075489225314,0 78.81458586589456,21.53072546710592,0 78.8146537550476,21.53068018670928,0 78.81470344868546,21.53064296004019,0 78.81475499193711,21.53060348884913,0 78.81485070859907,21.53054227469108,0 78.81490804288988,21.53050477621973,0 78.81497501299266,21.53046276364397,0 78.81501938013533,21.53043500647367,0 78.81507002297914,21.53040362288872,0 78.81513304634369,21.53036538121451,0 78.81516894590361,21.53034305116389,0 78.81521645892471,21.53031192047025,0 78.81526154768103,21.53028645945665,0 78.81526205045107,21.53029658767097,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Afforestation-1</name>
+			<description>Gowari-wadona Manganese &amp; Dolomite Mine
+M/s. Shakambhari Mines &amp; Minerals
+Afforestation 1 Area- 1000 sqm.</description>
+			<styleUrl>#msn_ylw-pushpin7</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.81483506954451,21.53085036959502,0 78.8147984554534,21.53076367359897,0 78.8149147111733,21.53069876004136,0 78.81500969688322,21.53063771818248,0 78.81497633373374,21.53056815797143,0 78.81519711683424,21.53044722698671,0 78.81525395727209,21.53054624081373,0 78.81529323496198,21.53061847679939,0 78.8153191970174,21.53066298401943,0 78.81525494122508,21.53068545126613,0 78.8149394167235,21.53080873506505,0 78.81483506954451,21.53085036959502,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Afforestation-2</name>
+			<description>Gowari-wadona Manganese &amp; Dolomite Mine
+M/s. Shakambhari Mines &amp; Minerals
+Afforestation 2 Area-1500sqm.</description>
+			<styleUrl>#msn_ylw-pushpin7</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.81300843357515,21.53154633827332,0 78.81299650959446,21.53147712538713,0 78.81475247563787,21.53080220602393,0 78.81477762717861,21.53086667444082,0 78.81300843357515,21.53154633827332,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>GOWARI-WADHONA MANGANESE &amp; DOLOMITE MINE</name>
+			<description>GOWARI-WADHONA MANGANESE &amp; DOLOMITE MINE
+AREA-6.607HA
+M/S SHAKAMBHARI MINES &amp; MINERAL                                  AFFORESTATION-0.1842HA</description>
+			<LookAt>
+				<longitude>78.81461981378771</longitude>
+				<latitude>21.5295200633653</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001286658857624022</heading>
+				<tilt>35.52444853322915</tilt>
+				<range>343.3932663124413</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin4</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.812997998486,21.53119635681756,0 78.81293952079527,21.5307383560228,0 78.81290033160553,21.53031880904512,0 78.81295756820276,21.52993067522966,0 78.81302713948637,21.52951751431342,0 78.81354051596418,21.52946219895348,0 78.81400875615905,21.52946101079619,0 78.81440296767254,21.52934293880753,0 78.81459155174255,21.52919300596042,0 78.81466431612641,21.52888205061603,0 78.814696610152,21.52839828810373,0 78.81507555449444,21.52841889872853,0 78.81558777129784,21.52837451882896,0 78.81603001441083,21.52840487056691,0 78.81599870266172,21.5290893998849,0 78.81596547769185,21.52958827614516,0 78.81595910689002,21.52994671570611,0 78.81593873931298,21.53041937162211,0 78.81528569737137,21.53067725531736,0 78.81483491780607,21.53085096654443,0 78.81439496936068,21.53101478015653,0 78.81391432909417,21.5311999703246,0 78.81345997444581,21.53137358678927,0 78.81300338122094,21.5315457917262,0 78.812997998486,21.53119635681756,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

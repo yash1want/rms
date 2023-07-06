@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>PLM2_Y_22.kml</name>
+	<open>1</open>
+	<Schema name="entities" id="entities">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="int" name="PaperSpace"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Schema name="entities" id="entities0">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="int" name="PaperSpace"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Style id="style">
+		<LineStyle>
+			<color>ff7fffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>66ff5555</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="style1">
+		<LineStyle>
+			<color>ff7fffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>66ff5555</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="style11">
+		<LineStyle>
+			<color>ff7fffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>66ff5555</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="style14">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>667fff55</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="style15">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>667fff55</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="style19">
+		<LineStyle>
+			<color>ff7fffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>997faaff</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="style2">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style21">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>667fff55</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="style22">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>667fff55</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="style23">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>667fff55</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="style24">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>667fff55</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="style27">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style3">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>667fff55</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="style4">
+		<LineStyle>
+			<color>ff7fffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>66ff5555</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="style6">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>667fff55</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="style8">
+		<LineStyle>
+			<color>ff7fffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>997faaff</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style19</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style24</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style21</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style23</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style22</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style27</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>entities</name>
+		<open>1</open>
+		<Placemark>
+			<name>ML_boundary</name>
+			<styleUrl>#stylemap_id7</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#entities">
+					<SimpleData name="Layer">UTCL_APCW_PLM2_MLB</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+					<SimpleData name="EntityHandle">261</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					78.02214753079539,15.0707504113081,0 78.0225543136293,15.0701946983744,0 78.0226744684611,15.0697215593806,0 78.0226572728933,15.0696656149491,0 78.02280100502669,15.0696733372509,0 78.0229532909199,15.0689608318897,0 78.023177614486,15.068932063627,0 78.02321136780731,15.0687311166754,0 78.0234656172004,15.0684244285255,0 78.0236652154309,15.0679195600166,0 78.0246928977401,15.0679380130171,0 78.0246978904583,15.0675201530831,0 78.02463194811121,15.0672397100783,0 78.02497836231539,15.0673064243619,0 78.0252776426759,15.0669590909879,0 78.02563854271639,15.0666743348735,0 78.0255966980635,15.0665202208232,0 78.0253407684216,15.0664079892265,0 78.0246403610997,15.0661414058819,0 78.0235110050384,15.0660962971352,0 78.02228213795441,15.0657697658611,0 78.0220001602561,15.0657718314722,0 78.0222567096134,15.0650678846022,0 78.0227246500624,15.0644699782765,0 78.0221529440046,15.0639967716251,0 78.0222921031506,15.0642166694972,0 78.02156133030731,15.0656339932885,0 78.02137425487361,15.0659955649323,0 78.02124896121489,15.0660033912529,0 78.02088341825871,15.0672228385164,0 78.01976542833189,15.0671669417034,0 78.0195068550714,15.0671540139514,0 78.01868560261779,15.0673382798559,0 78.01852536480369,15.0673874199901,0 78.0179387065227,15.0675639686776,0 78.0178094041607,15.0679313713948,0 78.01762029532961,15.06839086568,0 78.0155478999292,15.0683343224565,0 78.01464142604119,15.0682683166587,0 78.013811212474,15.0683124998762,0 78.01372646233,15.0686175616473,0 78.0137098498936,15.0690473563636,0 78.01549285510799,15.0692056455969,0 78.0166085228399,15.0693465026376,0 78.01683003432029,15.0693707851953,0 78.01684153794869,15.0691363150331,0 78.01742341085399,15.069099391066,0 78.0178518689855,15.0690187256119,0 78.0182092428519,15.0695299502674,0 78.01876109259371,15.0693934095723,0 78.0187820162712,15.0694738578266,0 78.0190012081116,15.0694765790318,0 78.0189968282789,15.0697742306474,0 78.0194443210578,15.0697843076183,0 78.019939251034,15.070020436702,0 78.0204157927682,15.0704438601362,0 78.0205068713606,15.0707942143489,0 78.02115757455211,15.0708818055569,0 78.02214753079539,15.0707504113081,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>afforestation</name>
+			<styleUrl>#stylemap_id6</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#entities0">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">287</SimpleData>
+					<SimpleData name="Text">ANGLE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.0234742414451,15.0665597424495,0 78.0234336931626,15.0666869427333,0 78.02257376974021,15.0665325397912,0 78.0218849284268,15.0664053932551,0 78.0214156225022,15.0663402461923,0 78.0213599880574,15.0663022979204,0 78.0213917348633,15.0661799785603,0 78.0220750355268,15.0663278576939,0 78.0224439799165,15.0663838476085,0 78.0233032876128,15.0665183576591,0 78.0234742414451,15.0665597424495,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>afforestation</name>
+			<styleUrl>#stylemap_id5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#entities0">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">2C8</SimpleData>
+					<SimpleData name="Text">ANGLE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.02516759636489,15.0663455272261,0 78.0252666255634,15.0664002873989,0 78.02533997316669,15.0664647827156,0 78.02545174275831,15.0664864881807,0 78.0256081603784,15.0666092857792,0 78.0256241902092,15.0666214745396,0 78.0256383752924,15.0666737182502,0 78.0255681475316,15.0667295955738,0 78.0253030794113,15.0669386340693,0 78.0252776426759,15.0669590909879,0 78.0249933007691,15.0672787182484,0 78.0246298145711,15.0672315231645,0 78.02461448153559,15.0672917745017,0 78.0246445385007,15.0675688534116,0 78.02466295700449,15.0678146611594,0 78.02426305102379,15.0677944461806,0 78.0241058271509,15.0678221781397,0 78.02391622775789,15.067895540076,0 78.0238762509793,15.0679183683764,0 78.02369258212509,15.0679116278591,0 78.02408635106779,15.0677378142897,0 78.0242382213669,15.0677152185751,0 78.0245675336036,15.0677215831971,0 78.0245392992209,15.0674357652799,0 78.02458504553201,15.0672190972323,0 78.02464237633799,15.0671801942507,0 78.02499661435949,15.0672092873673,0 78.0252212424475,15.0669104658728,0 78.025254785153,15.0668815736902,0 78.025293833398,15.066873487143,0 78.02532480410041,15.0668729084289,0 78.0253513921601,15.066858971483,0 78.02557505787669,15.0667085431922,0 78.0255865362045,15.0666888105976,0 78.0255778034624,15.0666722301602,0 78.02551648980371,15.0665981566044,0 78.02547233456281,15.0665632160437,0 78.02535255710831,15.0665286144216,0 78.0253260019123,15.066518137536,0 78.0252168641955,15.0664408734138,0 78.0250432178478,15.066354959422,0 78.0250054015127,15.0663250347701,0 78.0249755295131,15.0662926554414,0 78.0249021418831,15.0662609843546,0 78.02483924587921,15.0662332894596,0 78.0247380000944,15.0662140474976,0 78.0246669107935,15.0662067167953,0 78.02447504173151,15.0662326185446,0 78.02433591984649,15.0662606812326,0 78.0242107279674,15.0662648866743,0 78.0241326059561,15.066264369791,0 78.02405676501979,15.0662506514962,0 78.02392960195129,15.0662353169172,0 78.02379006278549,15.0662033845942,0 78.0237240815335,15.0661862479007,0 78.0236563562315,15.0661739693423,0 78.0235743611444,15.0661631303792,0 78.02356158690409,15.0661572103616,0 78.0235754029751,15.0661015083723,0 78.0241456391735,15.0661275574487,0 78.0246402117354,15.0661453387777,0 78.02482899165371,15.0662164004716,0 78.02516759636489,15.0663455272261,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>afforestation</name>
+			<styleUrl>#stylemap_id4</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#entities0">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">2D6</SimpleData>
+					<SimpleData name="Text">ANGLE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.0212426845811,15.0670872564854,0 78.0212367508783,15.0671447208046,0 78.0212059562066,15.0671876519125,0 78.02114447795481,15.0672298180721,0 78.02107067616021,15.0672547778697,0 78.0210501575623,15.0672420018239,0 78.021076022348,15.0670772651959,0 78.02112365118759,15.066758999805,0 78.0211854302357,15.0665432840819,0 78.02131208138751,15.0665563993594,0 78.0212823002078,15.0668710858275,0 78.0212426845811,15.0670872564854,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>afforestation</name>
+			<styleUrl>#stylemap_id3</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#entities0">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">2EA</SimpleData>
+					<SimpleData name="Text">ANGLE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.02172512819369,15.0680314025048,0 78.0222892943324,15.0680340132269,0 78.0222892959318,15.0682054743373,0 78.0227943492411,15.0682562863779,0 78.0227936696371,15.0686685874637,0 78.02225104979181,15.0686483197952,0 78.0216570418216,15.0686505132748,0 78.0214735759087,15.0686456581338,0 78.0213551063424,15.0686338667012,0 78.02136918677409,15.0682986122557,0 78.0212452077723,15.0679280919062,0 78.021074111533,15.0675447524683,0 78.0210386221674,15.0673379203015,0 78.0211824423525,15.067338454403,0 78.0214032104773,15.0672869780436,0 78.0216013831279,15.0674470355942,0 78.0218412087912,15.0676539560159,0 78.02172512819369,15.0680314025048,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>working pit</name>
+			<styleUrl>#stylemap_id2</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#entities0">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">37B</SimpleData>
+					<SimpleData name="Text">AR-HBONE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.0223250247912,15.0669681466485,0 78.0222796819739,15.0670205756242,0 78.0221240803827,15.0672360678107,0 78.0220850120749,15.0672936045955,0 78.0216187697838,15.0672148240521,0 78.0215844897219,15.0671373660869,0 78.021581900355,15.0669956545427,0 78.02158608414059,15.0669291846626,0 78.021648179951,15.0667629013781,0 78.0216484085546,15.0667464773512,0 78.02222586991191,15.0668234136682,0 78.0223248193271,15.0668782733105,0 78.0223250247912,15.0669681466485,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>working pit</name>
+			<styleUrl>#stylemap_id1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#entities0">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">3A3</SimpleData>
+					<SimpleData name="Text">AR-HBONE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.0242283936804,15.067329720412,0 78.02420856506799,15.0673880468737,0 78.02416421683481,15.067511928241,0 78.02412305083691,15.0676404783771,0 78.0238890710864,15.0675808831334,0 78.02373213914809,15.0675678676632,0 78.0234873318697,15.0675267659234,0 78.023168817645,15.0674818358613,0 78.0228572532222,15.0673880959971,0 78.0226584543913,15.0673276474834,0 78.0224758658912,15.0672630901821,0 78.02246495173679,15.067172004779,0 78.0224920067468,15.0671132479399,0 78.02256370292611,15.0670787225254,0 78.0225730180882,15.0670587137933,0 78.02259376141291,15.0670119562473,0 78.02264631244461,15.0669575675037,0 78.0227442857922,15.0667755087427,0 78.02281867210181,15.0665800092204,0 78.0229447592574,15.0666084862961,0 78.0231332472471,15.066644174493,0 78.0232758213991,15.0666739748955,0 78.02336555500069,15.06668605991,0 78.0235062934848,15.0667168577754,0 78.0235411799576,15.0667269719787,0 78.0236896049461,15.06676896291,0 78.02390086821811,15.0668327909834,0 78.0240159788988,15.0668654708597,0 78.02417076759301,15.0668845287828,0 78.0241938731989,15.0668914226307,0 78.0242345799812,15.0669347951361,0 78.02422633065029,15.0669583026231,0 78.0242316601383,15.0669819884097,0 78.0242515695642,15.0669745609781,0 78.02425990364929,15.0669856545038,0 78.0242584666386,15.0670076038229,0 78.024253532467,15.067091717255,0 78.0242283936804,15.067329720412,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Road</name>
+			<styleUrl>#stylemap_id0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#entities0">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbHatch</SimpleData>
+					<SimpleData name="EntityHandle">42C</SimpleData>
+					<SimpleData name="Text">AR-HBONE</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.02210408896249,15.0649143706516,0 78.0219470297415,15.0652404108905,0 78.0218380559219,15.0654985361072,0 78.02173929072519,15.0656704597167,0 78.0216769220103,15.0657729634133,0 78.0216030501068,15.0658648011677,0 78.0215119960329,15.0659637533208,0 78.02142233580651,15.0660586878998,0 78.02137139611941,15.0661157816617,0 78.02134650168971,15.0661507097165,0 78.0213222214503,15.0661850896569,0 78.0213055907841,15.0662175075184,0 78.0212994519181,15.0662485602465,0 78.02130497565049,15.0662731507006,0 78.0213128527085,15.0663009506637,0 78.0213391871594,15.0663235558848,0 78.0213665328389,15.0663380975881,0 78.02139727811191,15.0663443043999,0 78.022515181811,15.0665269673531,0 78.02257853689621,15.0665840053757,0 78.02260647177231,15.0666188979711,0 78.0226311589055,15.0666759072683,0 78.02263118769299,15.0667442718834,0 78.0226114657887,15.0668342032459,0 78.022528478914,15.0670234127863,0 78.0224730482128,15.0671535247811,0 78.0223734414875,15.0670950964872,0 78.0223841407,15.0670644216039,0 78.0224304725669,15.0670010921193,0 78.02247605039079,15.0669190764469,0 78.02251884122271,15.0668299434429,0 78.0225420577284,15.0667809503313,0 78.0225381575743,15.0667139912781,0 78.0225167523554,15.0666468022188,0 78.0224727017512,15.0666001200523,0 78.0224222930952,15.066566970918,0 78.0223341222794,15.0665539711537,0 78.02177025573251,15.0664639892303,0 78.0213625076245,15.0663972588734,0 78.02131162983601,15.0663738503473,0 78.0212652266401,15.0663350019761,0 78.0212504419849,15.0662846048227,0 78.0212646099579,15.0662076700403,0 78.0213306806309,15.0661166995638,0 78.02147543414149,15.0659423460936,0 78.021622211511,15.0657640175198,0 78.0217170659525,15.0656154710074,0 78.021761775427,15.0655052377206,0 78.02189421305221,15.0651984946721,0 78.0219573816175,15.065098016832,0 78.0220051720701,15.064998858704,0 78.0221016820406,15.0648093960416,0 78.02218181103279,15.0646752854616,0 78.0222685236196,15.064511956983,0 78.0223125687755,15.0644402347182,0 78.02234992918071,15.0643669940943,0 78.0223899979963,15.0642937522402,0 78.0224239985824,15.0642233867353,0 78.0224722425576,15.0642628598836,0 78.0224171923079,15.0643568366262,0 78.022333755619,15.064503107124,0 78.02210408896249,15.0649143706516,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

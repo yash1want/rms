@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>TOTAL PLANTAION AREA.kml</name>
+	<Schema name="SAFETY_ZONE" id="SAFETY_ZONE">
+		<SimpleField type="string" name="descriptio"></SimpleField>
+		<SimpleField type="string" name="timestamp"></SimpleField>
+		<SimpleField type="string" name="begin"></SimpleField>
+		<SimpleField type="string" name="end"></SimpleField>
+		<SimpleField type="string" name="altitudeMo"></SimpleField>
+		<SimpleField type="float" name="tessellate"></SimpleField>
+		<SimpleField type="float" name="extrude"></SimpleField>
+		<SimpleField type="float" name="visibility"></SimpleField>
+		<SimpleField type="float" name="drawOrder"></SimpleField>
+		<SimpleField type="string" name="icon"></SimpleField>
+	</Schema>
+	<Style id="area1">
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf00ff55</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area10">
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf00ff55</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area100">
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b300ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="area15">
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b300ff00</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area196">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>TOTAL PLANTAION AREA</name>
+		<open>1</open>
+		<Placemark>
+			<name>PLANTATION DUMP</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.51031469938934,15.07260132920534,0 76.51035542519723,15.07242102267278,0 76.51048832151628,15.07218241068967,0 76.51067659025011,15.07208595265041,0 76.51046525413597,15.07244114231569,0 76.51031469938934,15.07260132920534,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SAFETY _ZONE</name>
+			<open>1</open>
+			<description>SAFETY _ZONE</description>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#SAFETY_ZONE">
+					<SimpleData name="descriptio">7_5_M_SAFETY_ZONE</SimpleData>
+					<SimpleData name="tessellate">-1</SimpleData>
+					<SimpleData name="extrude">1</SimpleData>
+					<SimpleData name="visibility">-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.4994116214,15.0807351681,0 76.50159585110001,15.078450351,0 76.5020181711,15.0788719343,0 76.5039484938,15.0767889111,0 76.5034858442,15.0763492604,0 76.50343803440001,15.0763986446,0 76.5038518532,15.0767918922,0 76.5020161888,15.0787727684,0 76.50159466869999,15.0783519833,0 76.499315874,15.0807357196,0 76.5012155172,15.082676128,0 76.50305498660001,15.0809838009,0 76.5033739636,15.0792743465,0 76.5033133913974,15.0793204891879,0 76.5029904177,15.0809498517,0 76.50169900349999,15.0821619923,0 76.50121809300001,15.082580405,0 76.4994116214,15.0807351681,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>SAFETY _ZONE</name>
+			<open>1</open>
+			<description>SAFETY _ZONE</description>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#SAFETY_ZONE">
+					<SimpleData name="descriptio">7_5_M_SAFETY_ZONE</SimpleData>
+					<SimpleData name="tessellate">-1</SimpleData>
+					<SimpleData name="extrude">1</SimpleData>
+					<SimpleData name="visibility">-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								76.5077399287,15.0778394965,0 76.5077879821,15.0778886403,0 76.50819729040001,15.0775141663,0 76.508851447,15.0756785431,0 76.5124544989,15.0699254674,0 76.5111550302,15.068569184,0 76.5111063842,15.0686178931,0 76.5123674389,15.0699340835,0 76.5087879669,15.0756495044,0 76.5081369776,15.0774762387,0 76.5077399287,15.0778394965,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>DUMP_PLANTATION</name>
+			<open>1</open>
+			<styleUrl>#area196</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.50929225020001,15.0747727497,-865.33 76.50923985590001,15.0747500701,-865.33 76.50922956940001,15.074623906,-865.33 76.50912847959999,15.074413517,-865.33 76.5090021203,15.0742235564,-865.33 76.50896158179999,15.0742208939,-865.33 76.5089408533,15.0742407129,-865.33 76.5089062934,15.0741245515,-865.33 76.50882926760001,15.0739531702,-865.33 76.50895041210001,15.0737853163,-865.33 76.50898733210001,15.0737649651,-865.33 76.5091213429,15.0736671297,-865.33 76.50903985550001,15.0735901878,-865.33 76.5090822964,15.0735183679,-865.33 76.509140329,15.0734700411,-865.33 76.5092047026,15.0735501501,-865.33 76.5092697385,15.0734949873,-865.33 76.5092720138,15.0734830926,-865.33 76.5097543393,15.0730914963,-865.33 76.5097734731,15.0733231267,-865.33 76.5099404316,15.0736805642,-865.33 76.5099500084,15.0736777991,-865.33 76.5099750831,15.0736270041,-865.33 76.5100421089,15.0735468729,-865.33 76.51004069130001,15.0736070276,-865.33 76.5100212631,15.0736422346,-865.33 76.5100018349,15.0736774415,-865.33 76.5099647203,15.0737486117,-865.33 76.50983297259999,15.073970227,-865.33 76.5097406087,15.0741024875,-865.33 76.5096894375,15.074077622,-865.33 76.5096854741,15.0741141055,-865.33 76.5096917484,15.0741425054,-865.33 76.5095964403,15.0742658809,-865.33 76.50956506590001,15.0742493626,-865.33 76.5095285144,15.0742226353,-865.33 76.50949521,15.0741948616,-865.33 76.50945699970001,15.0742457621,-865.33 76.5095369675,15.0743084397,-865.33 76.509414268,15.0744760559,-865.33 76.5093396068,15.0744495859,-865.33 76.5093175486,15.0744813013,-865.33 76.50943679469999,15.0745406876,-865.33 76.5094169879,15.0745705563,-865.33 76.50938786579999,15.0746144727,-865.33 76.50932442360001,15.0747183048,-865.33 76.50929225020001,15.0747727497,-865.33 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Plantation Area 2022-23</name>
+			<styleUrl>#area11</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.50928647710001,15.074783806,0 76.50923299679999,15.0746977094,0 76.5091326969,15.0744730863,0 76.508997666,15.0742313222,0 76.5089974272,15.0742312775,0 76.5089970735,15.0742315114,0 76.50898915066821,15.07419852767809,0 76.50898197222595,15.07418380399776,0 76.50895201213233,15.07411413832677,0 76.50895253483614,15.07411175562619,0 76.50896858919999,15.0739775974,0 76.5089921494,15.0739131403,0 76.5090180638,15.0739129678,0 76.50909723700001,15.0739688497,0 76.50918614699999,15.0740810755,0 76.5092605382,15.0741928874,0 76.5093349295,15.0743046992,0 76.50933905799999,15.0743756867,0 76.5093318592,15.0744317547,0 76.50933065,15.0744826765,0 76.5094277375,15.0745303766,0 76.5094100223,15.0745654191,0 76.50939596160001,15.074629306,0 76.50928647710001,15.074783806,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>DUMP 1</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							76.50684549338797,15.07874664166761,0 76.50681103213114,15.07878189227168,0 76.5066911992819,15.07889493931878,0 76.50659676369168,15.07876804033694,0 76.50642824517905,15.07890129459841,0 76.50594906575816,15.07916525027143,0 76.50601253259471,15.07926281671331,0 76.50647956320159,15.07897817331253,0 76.50663392613613,15.07883332878551,0 76.50668897029098,15.07889339427324,0 76.50616317614723,15.0793744006734,0 76.50337636480937,15.0792528916001,0 76.5036861376247,15.07919668034735,0 76.50386531956467,15.07920078900774,0 76.50399371247052,15.07922358031473,0 76.50423000253151,15.07921523966501,0 76.50456714839252,15.07917802755643,0 76.50459366728458,15.07921726831191,0 76.50471758670508,15.07921932921489,0 76.50480070813063,15.07923515028876,0 76.50522985703037,15.07914702882373,0 76.5057185380461,15.07896693582655,0 76.50615033006359,15.0788144684105,0 76.50625330656408,15.07871761294889,0 76.50633228393416,15.07858934244054,0 76.50652130684868,15.0784159886562,0 76.5069084327292,15.07826081588912,0 76.50735947531186,15.0780034242457,0 76.50747724332058,15.07784885175994,0 76.5074514671935,15.07767101113695,0 76.50743931558664,15.0775900042098,0 76.50743943396009,15.07746372694187,0 76.5074695500571,15.07733033905662,0 76.50751871191412,15.0772058468218,0 76.50753428391594,15.0772750478409,0 76.50765394841659,15.07771070468764,0 76.50773845526425,15.07784054263087,0 76.50778500743455,15.07788631938967,0 76.50684549338797,15.07874664166761,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

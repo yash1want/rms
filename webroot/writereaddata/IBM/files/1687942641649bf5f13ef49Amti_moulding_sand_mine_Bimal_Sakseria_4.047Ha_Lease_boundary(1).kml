@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Amti_moulding_sand_mine_Mahendra_Sakseria_2Ha_Lease_boundary" id="Amti_moulding_sand_mine_Mahendra_Sakseria_2Ha_Lease_boundary">
+	<SimpleField name="cadgeom_type" type="string"></SimpleField>
+	<SimpleField name="thickness" type="float"></SimpleField>
+	<SimpleField name="color" type="string"></SimpleField>
+	<SimpleField name="extentity_data" type="string"></SimpleField>
+	<SimpleField name="text" type="string"></SimpleField>
+</Schema>
+<Folder><name>Amti_moulding_sand_mine_Mahendra_Sakseria_2Ha_Lease_boundary</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Amti_moulding_sand_mine_Mahendra_Sakseria_2Ha_Lease_boundary">
+		<SimpleData name="cadgeom_type">CADLWPolyline</SimpleData>
+		<SimpleData name="thickness">0</SimpleData>
+		<SimpleData name="color">#FF0000FF</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>81.2435929252224,21.0498720970623 81.24239678975,21.0477369880806 81.2413073199465,21.0482496740741 81.241957846113,21.0504047150356 81.2424174891342,21.0502930195423 81.2424894199944,21.0502929169082 81.242553383374,21.05030835196 81.2426445121622,21.0503436181709 81.242679845767,21.0503364081652 81.2427398488226,21.050328135125 81.2435929252224,21.0498720970623</coordinates></LineString>
+  </Placemark>
+</Folder>
+</Document></kml>

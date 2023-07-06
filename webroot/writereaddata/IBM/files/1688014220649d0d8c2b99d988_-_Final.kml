@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>988 - Final.kml</name>
+	<Schema name="4d2" id="4d2">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="int" name="PaperSpace"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Schema name="988" id="988">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="int" name="PaperSpace"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<Schema name="988_1" id="988_1">
+		<SimpleField type="string" name="Layer"></SimpleField>
+		<SimpleField type="int" name="PaperSpace"></SimpleField>
+		<SimpleField type="string" name="SubClasses"></SimpleField>
+		<SimpleField type="string" name="Linetype"></SimpleField>
+		<SimpleField type="string" name="EntityHandle"></SimpleField>
+		<SimpleField type="string" name="Text"></SimpleField>
+	</Schema>
+	<StyleMap id="m_ylw-pushpin11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin110</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl120</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin11">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin110">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl12">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl120">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="style">
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style0">
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style1">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style2">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>988</name>
+		<Placemark>
+			<name>Dump</name>
+			<styleUrl>#stylemap_id3</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#988_1">
+					<SimpleData name="Layer">Dimension</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+					<SimpleData name="EntityHandle">3D8</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					79.23431649872252,11.3439889492007,0 79.23419948963986,11.34391362624728,0 79.23387414246626,11.34394693189149,0 79.23357560344886,11.34399183008898,0 79.2335588958082,11.3442377368544,0 79.23364259406451,11.3449000249784,0 79.2336674004044,11.3452265112649,0 79.233661007481,11.3454356315706,0 79.2335586090969,11.3454765982464,0 79.2333261258495,11.3454928461553,0 79.2332528300401,11.3455768266735,0 79.23325741648389,11.3458691720828,0 79.2332676991368,11.3462505447712,0 79.23330181600311,11.3463087086656,0 79.233467519567,11.3463550605832,0 79.2337713565161,11.3463631796818,0 79.23380928506546,11.34616652668923,0 79.23382585171812,11.34584389306013,0 79.23385295988477,11.34548877026375,0 79.23387586462721,11.34521517374004,0 79.23387897349376,11.34497694903355,0 79.23388563637299,11.34463933170179,0 79.23392855932896,11.34421309935359,0 79.23417748405019,11.34411237395533,0 79.23431649872252,11.3439889492007,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Backfilling</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#988">
+					<SimpleData name="Layer">0</SimpleData>
+					<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+					<SimpleData name="Linetype">ACAD_ISO10W100</SimpleData>
+					<SimpleData name="EntityHandle">37B</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					79.2351003081953,11.3478040900306,0 79.2352896637238,11.3477770961022,0 79.2352786996299,11.3476348461225,0 79.2351046044551,11.3476419438749,0 79.2351003081953,11.3478040900306,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Folder>
+			<name>Others</name>
+			<Style>
+				<ListStyle>
+					<listItemType>checkHideChildren</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin110</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="EntityHandle">3A8</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.2345232399439,11.3442756969977,0 79.2345827610871,11.3450704485531,0 79.234761866771,11.3455763711115,0 79.2346981440533,11.3456170733307,0 79.23451041983461,11.3450853567308,0 79.2344635594514,11.3442718288849,0 79.2345232937873,11.3442764159384,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin110</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="EntityHandle">34E</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.23452338102651,11.3442775807935,0 79.2346670304879,11.3442939674564,0 79.2348672157418,11.3455072998263,0 79.23476059346849,11.3455727743998,0 79.2345827610871,11.3450704485531,0 79.2345232399439,11.3442756969977,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin110</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="EntityHandle">34D</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.23314075556,11.3463546396759,0 79.2331300514181,11.3471745761537,0 79.2334374866455,11.3472351941252,0 79.23342934803649,11.3476082398247,0 79.2336890877863,11.3476235591645,0 79.2339699509029,11.3482467601717,0 79.23397912421579,11.3466495676043,0 79.2340414038417,11.3461792443898,0 79.2339518903518,11.3461787085745,0 79.2338787616801,11.3463386228369,0 79.2337713565161,11.3463631796818,0 79.233467519567,11.3463550605832,0 79.2333062395181,11.3463087351548,0 79.23314075556,11.3463546396759,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin110</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="EntityHandle">34C</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.2324306863848,11.3455059328919,0 79.2324479401293,11.3456872699193,0 79.2325076851797,11.3457482419301,0 79.23256533965019,11.3460281964562,0 79.23255349232301,11.3461532570701,0 79.2331564833265,11.346284007646,0 79.2333062395181,11.3463087351548,0 79.2332682389314,11.3462514650364,0 79.2332528300401,11.3455768266735,0 79.2333261258495,11.3454928461553,0 79.2335586090969,11.3454765982464,0 79.233661007481,11.3454356315706,0 79.2336644424022,11.3451875797986,0 79.2336422855913,11.3448975840919,0 79.2335795854132,11.3449055723901,0 79.2335800515023,11.3449814644471,0 79.23355358623181,11.3450998307443,0 79.2334897999044,11.3452078655011,0 79.23340157289709,11.3452961155182,0 79.2332581386996,11.3453693332513,0 79.2324306863848,11.3455059328919,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin110</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="EntityHandle">34B</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.23305325179091,11.3439714673226,0 79.2335101236924,11.3439394791994,0 79.2335795854132,11.3449055723901,0 79.2335800515023,11.3449814644471,0 79.23355358623181,11.3450998307443,0 79.2335006045767,11.3451898181064,0 79.23340272373591,11.3452955280581,0 79.2332497244124,11.3453736284231,0 79.2331958805873,11.3453837377909,0 79.2324306863848,11.3455059328919,0 79.2323355005652,11.3450632716052,0 79.23312271194931,11.3449375603902,0 79.23305325179091,11.3439714673226,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin110</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="EntityHandle">349</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.2432434222563,11.349227890766,0 79.2434852112041,11.349220861564,0 79.2435028179795,11.3498766887901,0 79.2432519565683,11.3498844605329,0 79.2432434222563,11.349227890766,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin110</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="EntityHandle">34A</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.2356885231361,11.3425732543862,0 79.2354947359843,11.3427128276642,0 79.23516018545671,11.3427570345942,0 79.23518048352101,11.342829692258,0 79.2351247462297,11.3436154748277,0 79.2351544745751,11.3436869515604,0 79.2353483014623,11.3436315541114,0 79.2354326378702,11.3433643352725,0 79.2356926270985,11.3433478895974,0 79.2355940296581,11.3430108313046,0 79.2356885231361,11.3425732543862,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin110</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO10W100</SimpleData>
+						<SimpleData name="EntityHandle">2DB</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.24220167358629,11.3458224226516,0 79.2418154339274,11.345838273244,0 79.2418062134838,11.3456269390805,0 79.2421973413821,11.3456236016086,0 79.24220167358629,11.3458224226516,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin110</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO10W100</SimpleData>
+						<SimpleData name="EntityHandle">2DA</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.23681054479761,11.3493916805477,0 79.2368612357876,11.3493927650622,0 79.2368635197615,11.3493013495168,0 79.23681045609951,11.3493030414062,0 79.23681054479761,11.3493916805477,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin110</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO10W100</SimpleData>
+						<SimpleData name="EntityHandle">2D8</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.2356425012843,11.3506323992891,0 79.2356563617808,11.3511553004944,0 79.2357630454453,11.3511599471133,0 79.23573775914829,11.3506332063722,0 79.2356425012843,11.3506323992891,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin110</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO10W100</SimpleData>
+						<SimpleData name="EntityHandle">2D5</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.2389996624495,11.352548911645,0 79.239335554551,11.3524758145289,0 79.2395699770794,11.3523674434968,0 79.23953789160279,11.3519960584646,0 79.2395109206613,11.351686979352,0 79.2392994535444,11.3516657388169,0 79.2389672485301,11.351760680191,0 79.2389817667008,11.3521082668848,0 79.2389996624495,11.352548911645,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin110</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO10W100</SimpleData>
+						<SimpleData name="EntityHandle">2D2</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.2350814255224,11.3478250488484,0 79.2353092306741,11.3477925736668,0 79.2352956257552,11.3476160613324,0 79.2350867372655,11.3476245775887,0 79.2350814255224,11.3478250488484,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin110</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO10W100</SimpleData>
+						<SimpleData name="EntityHandle">2D1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.23569147809989,11.3434437031905,0 79.2356881286283,11.3437230088494,0 79.2356847791085,11.3440023145023,0 79.2359174109548,11.344006437373,0 79.2359079557842,11.3437245546153,0 79.2358985005897,11.3434426718551,0 79.23569147809989,11.3434437031905,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Lease Boundary</name>
+			<Style>
+				<ListStyle>
+					<listItemType>checkHideChildren</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Placemark>
+				<open>1</open>
+				<styleUrl>#stylemap_id0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#4d2">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO10W100</SimpleData>
+						<SimpleData name="EntityHandle">2CB</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.2389448992199,11.3469351768683,0 79.2393353637292,11.3468736586869,0 79.23976658002719,11.3467898398851,0 79.2401977961661,11.3467060204147,0 79.24020573493981,11.3463308763427,0 79.24021279570511,11.346267749989,0 79.2398373403683,11.3462773398944,0 79.2398025894279,11.3459664529581,0 79.2398278004141,11.3459658705443,0 79.23981346328139,11.3455141085728,0 79.2397968613235,11.3449909846239,0 79.23932160004649,11.3450051747795,0 79.239363125004,11.3455251872143,0 79.23939910604859,11.3459757737698,0 79.239031375202,11.3459842681841,0 79.2386636444039,11.3459927621366,0 79.2386951482886,11.3463614323863,0 79.2388942046513,11.346359760896,0 79.2389448992199,11.3469351768683,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<open>1</open>
+				<styleUrl>#stylemap_id0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="EntityHandle">318</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.23939910604859,11.3459757737698,0 79.2386636444039,11.3459927621366,0 79.2386953901363,11.3463614338124,0 79.2388942058752,11.3463597608857,0 79.23894492296211,11.3469351768124,0 79.2394732082587,11.3468468686111,0 79.23940118421621,11.3459757861347,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#stylemap_id0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">M.L BOUNDARY</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO04W100</SimpleData>
+						<SimpleData name="EntityHandle">284</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.24410599727899,11.3478296248683,0 79.2442676830253,11.3478087633165,0 79.24423545118771,11.347516839961,0 79.2440588420454,11.3475365702193,0 79.24408115752099,11.3477832771363,0 79.24410599727899,11.3478296248683,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#stylemap_id0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO10W100</SimpleData>
+						<SimpleData name="EntityHandle">285</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.2340639386465,11.3434258541282,0 79.234031424436,11.3433287164747,0 79.23428747016671,11.3433028199431,0 79.2342957266072,11.3433990050233,0 79.2340639386465,11.3434258541282,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#stylemap_id0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO10W100</SimpleData>
+						<SimpleData name="EntityHandle">286</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.23569147809989,11.3434437031905,0 79.2356881286283,11.3437230088494,0 79.2356847791085,11.3440023145023,0 79.2359174109548,11.344006437373,0 79.2359079557842,11.3437245546153,0 79.2358985005897,11.3434426718551,0 79.23569147809989,11.3434437031905,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#stylemap_id0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO10W100</SimpleData>
+						<SimpleData name="EntityHandle">287</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.2350814255224,11.3478250488484,0 79.2353092306741,11.3477925736668,0 79.2352956257552,11.3476160613324,0 79.2350867372655,11.3476245775887,0 79.2350814255224,11.3478250488484,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#stylemap_id0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO10W100</SimpleData>
+						<SimpleData name="EntityHandle">288</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.2404604391283,11.3426158360476,0 79.2409067248476,11.3425141822786,0 79.2413530103487,11.3424125277867,0 79.2415857347048,11.3423595177451,0 79.2415320040283,11.3420861910545,0 79.2412486276089,11.342160198974,0 79.2408058517387,11.3422758357589,0 79.2403630756066,11.3423914718251,0 79.2404604391283,11.3426158360476,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#stylemap_id0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO10W100</SimpleData>
+						<SimpleData name="EntityHandle">289</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.2408367364834,11.3487601979894,0 79.24097324668369,11.348720573988,0 79.2414981649502,11.3486551020533,0 79.2415523429746,11.3491495296295,0 79.2416015831448,11.3495988939892,0 79.2419869724763,11.3495629023814,0 79.2423717465644,11.3495268788044,0 79.24236120165909,11.3492518426637,0 79.2428674799699,11.3492371681727,0 79.2432434222563,11.349227890766,0 79.2432476894361,11.3495561756522,0 79.2432519565683,11.3498844605329,0 79.2435028179795,11.3498766887901,0 79.24349401461031,11.3495487751792,0 79.2434852112041,11.349220861564,0 79.2435397824657,11.3492192750601,0 79.24388064988921,11.3492229167596,0 79.2442256893431,11.3492262183706,0 79.2442790143062,11.349194751671,0 79.2442895919523,11.3489105112697,0 79.24429959176361,11.348626375899,0 79.2444320712865,11.3485924965668,0 79.2443890508227,11.3481685697098,0 79.2443492706977,11.3477675510479,0 79.24460497700009,11.3477237017519,0 79.2450467640716,11.3476486056523,0 79.24484510169709,11.3474681850341,0 79.2448137319319,11.3474728402947,0 79.2445193561361,11.3471265675734,0 79.2443461116724,11.346922780538,0 79.2439978261673,11.3470408203591,0 79.2439785073778,11.3469291069394,0 79.2439266147821,11.3467613798835,0 79.24408462885221,11.3467059718167,0 79.2439861030784,11.3466142920307,0 79.24399600014949,11.3464881138067,0 79.2437325972268,11.3462580515123,0 79.243469194734,11.3460279890419,0 79.24342831822,11.3457671204811,0 79.2430974479463,11.3457856784671,0 79.24316653313031,11.3462674618634,0 79.243235618425,11.3467492452631,0 79.2431837297009,11.3467584295233,0 79.2431509001118,11.3468000084908,0 79.243153057456,11.3468854891683,0 79.24323079306571,11.3473547479938,0 79.24323079306571,11.3473547479938,0 79.2432686301332,11.3476838892838,0 79.2434566382761,11.3476645412213,0 79.24350821978609,11.348127029033,0 79.2435598013499,11.3485895168467,0 79.2435598013499,11.3485895168467,0 79.2432232760376,11.3485641591942,0 79.24318568880901,11.3482863945315,0 79.2431481016128,11.3480086298698,0 79.2426934886732,11.3480256891904,0 79.24269796378979,11.348139503534,0 79.2423606869424,11.3481450114042,0 79.24228640838329,11.3477090905151,0 79.2422121299516,11.3472731696287,0 79.2418622329505,11.3473170326853,0 79.2415123359049,11.3473608953106,0 79.2414757881448,11.3470886528409,0 79.2412101280411,11.3471427197966,0 79.24084072898719,11.347292160448,0 79.240774380402,11.3472100462855,0 79.2407287767282,11.3472778238435,0 79.24076423153809,11.3474032051655,0 79.24078352603971,11.3478521897358,0 79.2407734618433,11.3483366712953,0 79.24044489677669,11.3483529674556,0 79.2404998610462,11.3487792162215,0 79.24055029983749,11.3488613522224,0 79.24058372012639,11.3492851143349,0 79.24061714041881,11.3497088764467,0 79.24064003033089,11.3498720554661,0 79.2406432473995,11.3494282367945,0 79.2406284077975,11.3491215579962,0 79.2406135681772,11.3488148791958,0 79.2408367364834,11.3487601979894,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#stylemap_id0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO10W100</SimpleData>
+						<SimpleData name="EntityHandle">28A</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.2389996624495,11.352548911645,0 79.239335554551,11.3524758145289,0 79.2395699770794,11.3523674434968,0 79.23953789160279,11.3519960584646,0 79.2395109206613,11.351686979352,0 79.2392994535444,11.3516657388169,0 79.2389672485301,11.351760680191,0 79.2389817667008,11.3521082668848,0 79.2389996624495,11.352548911645,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#stylemap_id0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO10W100</SimpleData>
+						<SimpleData name="EntityHandle">28B</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.238869773743,11.3511342267309,0 79.23886070414861,11.3508505874168,0 79.23849195000329,11.3508538187536,0 79.23812319592029,11.3508570496279,0 79.2381188036145,11.3509986503403,0 79.23813118963891,11.3511340808558,0 79.2381285509383,11.3512506064986,0 79.23813949884649,11.3513475426559,0 79.23817373434289,11.3516160672383,0 79.2384679781397,11.3516075196222,0 79.2384674862693,11.351678741465,0 79.2389638709038,11.3516676221192,0 79.23895317760081,11.3514015615749,0 79.2389424842801,11.3511355010285,0 79.238869773743,11.3511342267309,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#stylemap_id0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO10W100</SimpleData>
+						<SimpleData name="EntityHandle">28C</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.2374501197058,11.350664548123,0 79.2377700133943,11.3506071369978,0 79.2378816235789,11.3505559774413,0 79.2381337098678,11.3505503263974,0 79.238137826656,11.3502490597662,0 79.238137826656,11.3502490597662,0 79.2385091272356,11.3502519219929,0 79.2384988698698,11.3499451691488,0 79.2384891472193,11.3496386852379,0 79.2380653030249,11.3496028322693,0 79.2380327462555,11.3500244872982,0 79.2380035090909,11.3504464213685,0 79.2377668014186,11.3504058629547,0 79.23748234331831,11.3503379459047,0 79.2374501197058,11.350664548123,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#stylemap_id0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO10W100</SimpleData>
+						<SimpleData name="EntityHandle">28D</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.2356425012843,11.3506323992891,0 79.2356563617808,11.3511553004944,0 79.2357630454453,11.3511599471133,0 79.23573775914829,11.3506332063722,0 79.2356425012843,11.3506323992891,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#stylemap_id0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO10W100</SimpleData>
+						<SimpleData name="EntityHandle">28E</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.2444877710013,11.3523507038784,0 79.24449022892151,11.3522022548916,0 79.2444601203165,11.3519331602721,0 79.2444300197851,11.3516645969177,0 79.24444616441571,11.3514572917069,0 79.24444103125271,11.3510052504653,0 79.2444361869338,11.3505538979616,0 79.2444253805635,11.350415469654,0 79.2442906455512,11.3503641077088,0 79.2442929921357,11.3505586773694,0 79.2442529600483,11.3510410315219,0 79.24421723505949,11.3514916362034,0 79.2440234488037,11.3515091677385,0 79.24406085388669,11.3510595132727,0 79.24409406168191,11.3505816204086,0 79.24389773925149,11.3506050217909,0 79.2434920971122,11.350654494853,0 79.2432043282008,11.3506649032303,0 79.2428781299362,11.3506767547363,0 79.2428624759673,11.3505686443582,0 79.2426605997581,11.3506118904312,0 79.2426739347586,11.351035048471,0 79.2426872697033,11.3514582065046,0 79.24267549935411,11.3519587836859,0 79.24257392279181,11.3520002578897,0 79.242544223384,11.3523901716012,0 79.242960029713,11.3523953946255,0 79.2429575142159,11.3524783090949,0 79.2434235434457,11.3524730665462,0 79.2438379327053,11.3524257704112,0 79.24408759787499,11.3524012676396,0 79.2444877710013,11.3523507038784,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#stylemap_id0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO10W100</SimpleData>
+						<SimpleData name="EntityHandle">28F</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.23681054479761,11.3493916805477,0 79.2368612357876,11.3493927650622,0 79.2368635197615,11.3493013495168,0 79.23681045609951,11.3493030414062,0 79.23681054479761,11.3493916805477,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#stylemap_id0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO10W100</SimpleData>
+						<SimpleData name="EntityHandle">290</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.24220167358629,11.3458224226516,0 79.2418154339274,11.345838273244,0 79.2418062134838,11.3456269390805,0 79.2421973413821,11.3456236016086,0 79.24220167358629,11.3458224226516,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#stylemap_id0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO10W100</SimpleData>
+						<SimpleData name="EntityHandle">291</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.2339699509029,11.3482467601717,0 79.2339709976997,11.3477947793356,0 79.2339720443841,11.347342798486,0 79.2339730909559,11.3468908176227,0 79.2339736486101,11.3466499647496,0 79.2340414037632,11.3461792449351,0 79.2341058149789,11.3457317544383,0 79.2341762490943,11.345648491625,0 79.23465115607949,11.345650584989,0 79.23486705968359,11.3455073531316,0 79.2348141292743,11.3451862755439,0 79.234740585799,11.3447401577762,0 79.23466704244871,11.3442940400114,0 79.2343722250183,11.3442602628483,0 79.2345649573997,11.3439181183958,0 79.2343982771871,11.3439621036732,0 79.2345485390216,11.3438601323332,0 79.234948420363,11.3437458435176,0 79.2353483014623,11.3436315541114,0 79.2354326378702,11.3433643352725,0 79.2356926270985,11.3433478895974,0 79.2355940296581,11.3430108313046,0 79.2356885231361,11.3425732543862,0 79.2354947359843,11.3427128276642,0 79.2350110605323,11.3427767395754,0 79.2345291141516,11.3428424960875,0 79.2345386095851,11.3429639394894,0 79.2342654148777,11.3430637678343,0 79.2339916296547,11.3431627697415,0 79.23359808559449,11.3432234670235,0 79.2332046673652,11.3432830526131,0 79.2331621646188,11.3431247552187,0 79.2327700172201,11.3431385883557,0 79.23237549791151,11.3431538079274,0 79.23241040148039,11.3435392300847,0 79.2324025385625,11.343539743454,0 79.23243566820889,11.3440125065917,0 79.23274445999721,11.3439919871221,0 79.23305325179091,11.3439714673226,0 79.23308500786921,11.3444219663115,0 79.23312271194931,11.3449375603902,0 79.2327291048029,11.3450006603391,0 79.2323355005652,11.3450632716052,0 79.2323614879471,11.3455905832828,0 79.23237897031029,11.3457250758405,0 79.2324371749469,11.3457719321814,0 79.2324807055364,11.3460594326484,0 79.23247989920679,11.3462113416734,0 79.2328089671344,11.3462829555811,0 79.23314075556,11.3463546396759,0 79.2331354035417,11.3467646079214,0 79.2331300514181,11.3471745761537,0 79.2334374866455,11.3472351941252,0 79.2334293593992,11.3476063921513,0 79.2336890877863,11.3476235591645,0 79.2338290640707,11.3479348151616,0 79.2339699509029,11.3482467601717,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#stylemap_id0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="EntityHandle">292</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.24212391357671,11.3519754917938,0 79.24213897670739,11.3511240839824,0 79.2423879431077,11.3511340317986,0 79.24239282209631,11.3519902891525,0 79.2421239135173,11.3519754951504,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#stylemap_id0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">M.L BOUNDARY</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO04W100</SimpleData>
+						<SimpleData name="EntityHandle">2CF</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.24410599727899,11.3478296248683,0 79.2442676830253,11.3478087633165,0 79.24423545118771,11.347516839961,0 79.2440588420454,11.3475365702193,0 79.24408115752099,11.3477832771363,0 79.24410599727899,11.3478296248683,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Working Pit</name>
+			<Style>
+				<ListStyle>
+					<listItemType>checkHideChildren</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="EntityHandle">318</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.23939910604859,11.3459757737698,0 79.2386636444039,11.3459927621366,0 79.2386953901363,11.3463614338124,0 79.2388942058752,11.3463597608857,0 79.23894492296211,11.3469351768124,0 79.2394732082587,11.3468468686111,0 79.23940118421621,11.3459757861347,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO10W100</SimpleData>
+						<SimpleData name="EntityHandle">37C</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.2404712487812,11.3425948191558,0 79.24090260438,11.3424965661134,0 79.2413488898533,11.3423949116237,0 79.2415643810303,11.3423458269674,0 79.24151774991959,11.3421086155244,0 79.2412533148612,11.3421776766165,0 79.2408105389638,11.3422933134046,0 79.2403882663684,11.3424035947506,0 79.2404712487812,11.3425948191558,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="EntityHandle">316</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.2426740422201,11.3507715876284,0 79.2426713795366,11.3509351475541,0 79.2426872697033,11.3514582065046,0 79.24267549935411,11.3519587836859,0 79.24257392279181,11.3520002578897,0 79.242544223384,11.3523901716012,0 79.242960029713,11.3523953946255,0 79.2430170363174,11.3523921727418,0 79.2434302960996,11.3523744313655,0 79.2438081699937,11.3523433497939,0 79.2443402531789,11.3522684139,0 79.2444346492355,11.352176651897,0 79.24441949565551,11.35178621457,0 79.2436523942747,11.3516864906295,0 79.2436708160316,11.3515023863151,0 79.2436721975802,11.3512765011587,0 79.2436656119732,11.3509917394739,0 79.2436441897358,11.3508875722757,0 79.24364535041011,11.3508340994431,0 79.2430357476586,11.3507946609838,0 79.2427100686712,11.3507571674052,0 79.2426740422201,11.3507715876284,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="EntityHandle">315</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.23812868127111,11.3511066540152,0 79.23837010378701,11.351077379291,0 79.2388219274664,11.3510602989467,0 79.2388725977531,11.3509741084726,0 79.23886070414861,11.3508505874168,0 79.23812319592029,11.3508570496279,0 79.2381188036145,11.3509986503403,0 79.23812868127111,11.3511066540152,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="EntityHandle">314</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.23747563788859,11.3504059088547,0 79.2374501197058,11.350664548123,0 79.2377700133943,11.3506071369978,0 79.2378821942536,11.3505559646487,0 79.2381337098678,11.3505503263974,0 79.238137826656,11.3502490597662,0 79.2385091272356,11.3502519219929,0 79.23849978971531,11.3497951943594,0 79.2380665066394,11.3497601171249,0 79.2380035090909,11.3504464213685,0 79.2377783545696,11.3504078425212,0 79.23772134081371,11.3504262183634,0 79.23747563788859,11.3504059088547,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="EntityHandle">313</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.241476513257,11.3470940541688,0 79.2412101280411,11.3471427197966,0 79.2411095300169,11.3472011765898,0 79.24098807834849,11.3473195860533,0 79.2409413387545,11.3475236316316,0 79.24093504254429,11.347648253458,0 79.2409624884483,11.3481433573044,0 79.2409086448471,11.3483298083085,0 79.2409189059718,11.3486660424487,0 79.2409093687467,11.3487391154653,0 79.24097324668369,11.348720573988,0 79.2414981649502,11.3486551020533,0 79.2416016166156,11.3495988908633,0 79.24230034245249,11.3495333475933,0 79.242282948209,11.3492560578141,0 79.2423743694164,11.3491839288928,0 79.24313406778001,11.34917367552,0 79.2432922583681,11.3491759527695,0 79.2438902780484,11.3491794178509,0 79.24407617176161,11.3491625853289,0 79.2442219985611,11.3490885344126,0 79.2442135232472,11.3486437539351,0 79.24398447028921,11.3477754560752,0 79.24390225872131,11.3471929385019,0 79.2438282968332,11.3469500317618,0 79.24316104582959,11.3469337118277,0 79.2432686301332,11.3476838892838,0 79.2434566382761,11.3476645412213,0 79.2435598013499,11.3485895168467,0 79.2432232760376,11.3485641591942,0 79.2431481016128,11.3480086298698,0 79.2426934886732,11.3480256891904,0 79.24269796378979,11.348139503534,0 79.2423606869424,11.3481450114042,0 79.2422121299516,11.3472731696287,0 79.2415123359049,11.3473608953106,0 79.241476513257,11.3470940541688,0 79.241476513257,11.3470940541688,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="EntityHandle">2DD</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.24212391357671,11.3519754917938,0 79.24213897670739,11.3511240839824,0 79.2423879431077,11.3511340317986,0 79.24239282209631,11.3519902891525,0 79.2421239135173,11.3519754951504,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin11</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#988">
+						<SimpleData name="Layer">0</SimpleData>
+						<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+						<SimpleData name="Linetype">ACAD_ISO10W100</SimpleData>
+						<SimpleData name="EntityHandle">2D3</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<coordinates>
+						79.2404604391283,11.3426158360476,0 79.2409067248476,11.3425141822786,0 79.2413530103487,11.3424125277867,0 79.2415857347048,11.3423595177451,0 79.2415320040283,11.3420861910545,0 79.2412486276089,11.342160198974,0 79.2408058517387,11.3422758357589,0 79.2403630756066,11.3423914718251,0 79.2404604391283,11.3426158360476,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
