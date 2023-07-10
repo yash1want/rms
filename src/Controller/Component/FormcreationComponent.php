@@ -62,7 +62,51 @@
 							'col' 		=> $label[1],
 							'colspan' 	=> '3',
 							'rowspan' 	=> '1'
-						)
+						),
+						'3' => array(
+							'col' 		=> $label[15],
+							'colspan' 	=> '1',
+							'rowspan' 	=> '2'
+						),
+						'4' => array(
+							'col' 		=> $label[16],
+							'colspan' 	=> '1',
+							'rowspan' 	=> '2'
+						),
+						'5' => array(
+							'col' 		=> $label[17],
+							'colspan' 	=> '1',
+							'rowspan' 	=> '2'
+						),
+						'6' => array(
+							'col' 		=> $label[18],
+							'colspan' 	=> '1',
+							'rowspan' 	=> '2'
+						),
+						'7' => array(
+							'col' 		=> $label[19],
+							'colspan' 	=> '1',
+							'rowspan' 	=> '2'
+						),'8' => array(
+							'col' 		=> $label[20],
+							'colspan' 	=> '1',
+							'rowspan' 	=> '2'
+						),
+						'9' => array(
+							'col' 		=> $label[21],
+							'colspan' 	=> '1',
+							'rowspan' 	=> '2'
+						),
+						'10' => array(
+							'col' 		=> $label[22],
+							'colspan' 	=> '1',
+							'rowspan' 	=> '2',
+							
+						),
+
+
+
+
 					),
 					'1' => array(
 						'0' => array(
@@ -105,6 +149,7 @@
 							'colspan' 	=> '1',
 							'rowspan' 	=> '1'
 						)
+						
 					)
 				);
 				
@@ -271,6 +316,22 @@
 							$diff[$loopC]['expo_quantity']['title'] = 'New record';
 							$diff[$loopC]['expo_fob']['class'] = ' in_new';
 							$diff[$loopC]['expo_fob']['title'] = 'New record';
+							$diff[$loopC]['trans_cost']['class'] = ' in_new';
+							$diff[$loopC]['trans_cost']['title'] = 'New record';
+							$diff[$loopC]['loading_charges']['class'] = ' in_new';
+							$diff[$loopC]['loading_charges']['title'] = 'New record';
+							$diff[$loopC]['railway_freight']['class'] = ' in_new';
+							$diff[$loopC]['railway_freight']['title'] = 'New record';
+							$diff[$loopC]['port_handling']['class'] = ' in_new';
+							$diff[$loopC]['port_handling']['title'] = 'New record';
+							$diff[$loopC]['sampling_cost']['class'] = ' in_new';
+							$diff[$loopC]['sampling_cost']['title'] = 'New record';
+							$diff[$loopC]['plot_rent']['class'] = ' in_new';
+							$diff[$loopC]['plot_rent']['title'] = 'New record';
+							$diff[$loopC]['other_cost']['class'] = ' in_new';
+							$diff[$loopC]['other_cost']['title'] = 'New record';
+							$diff[$loopC]['total_prod']['class'] = ' in_new';
+							$diff[$loopC]['total_prod']['title'] = 'New record';
 						}
 
 						unset($inter);
@@ -372,7 +433,98 @@
 							'class'		=> "cvOn cvNum cvReq s_des_input input_sm text-fields-with-numbers right fob",
 							'diff'		=> (isset($diff[$loopC]['expo_fob']['class'])) ? $diff[$loopC]['expo_fob']['class'] : '',
 							'title'		=> (isset($diff[$loopC]['expo_fob']['title'])) ? $diff[$loopC]['expo_fob']['title'] : ''
-						)
+						),
+
+						// added input field 07-07-2023
+						'9' => array(
+							'name'		=> 'trans_cost',
+							'type'		=> 'text',
+							'valid'		=> 'text',
+							'length'	=> '250',
+							'id'	    => 'trans_cost',
+							'value'		=> $row['trans_cost'],
+							'class'		=> "cvOn cvNum cvReq s_des_input input_sm text-fields-with-numbers right numeric-input",
+							'diff'		=> (isset($diff[$loopC]['trans_cost']['class'])) ? $diff[$loopC]['trans_cost']['class'] : '',
+							'title'		=> (isset($diff[$loopC]['trans_cost']['title'])) ? $diff[$loopC]['trans_cost']['title'] : ''
+						),
+						'10' => array(
+							'name'		=> 'loading_charges',
+							'type'		=> 'text',
+							'valid'		=> 'text',
+							'length'	=> '250',
+							'value'		=> $row['loading_charges'],
+							'id'	    => 'loading_charges',
+							'class'		=> "cvOn cvNum cvReq s_des_input input_sm text-fields-with-numbers right numeric-input",
+							'diff'		=> (isset($diff[$loopC]['loading_charges']['class'])) ? $diff[$loopC]['loading_charges']['class'] : '',
+							'title'		=> (isset($diff[$loopC]['loading_charges']['title'])) ? $diff[$loopC]['loading_charges']['title'] : ''
+						),
+						'11' => array(
+							'name'		=> 'railway_freight',
+							'type'		=> 'text',
+							'valid'		=> 'text',
+							'length'	=> '250',
+							'id'	    => 'railway_freight',
+							'value'		=> $row['railway_freight'],
+							'class'		=> "cvOn cvNum cvReq s_des_input input_sm text-fields-with-numbers right numeric-input",
+							'diff'		=> (isset($diff[$loopC]['railway_freight']['class'])) ? $diff[$loopC]['railway_freight']['class'] : '',
+							'title'		=> (isset($diff[$loopC]['railway_freight']['title'])) ? $diff[$loopC]['railway_freight']['title'] : ''
+						),
+						'12' => array(
+							'name'		=> 'port_handling',
+							'type'		=> 'text',
+							'valid'		=> 'text',
+							'length'	=> '250',
+							'id'	    => 'sampling_cost',
+							'value'		=> $row['port_handling'],
+							'class'		=> "cvOn cvNum cvReq s_des_input input_sm text-fields-with-numbers right numeric-input",
+							'diff'		=> (isset($diff[$loopC]['port_handling']['class'])) ? $diff[$loopC]['port_handling']['class'] : '',
+							'title'		=> (isset($diff[$loopC]['port_handling']['title'])) ? $diff[$loopC]['port_handling']['title'] : ''
+						),
+						'13' => array(
+							'name'		=> 'sampling_cost',
+							'type'		=> 'text',
+							'valid'		=> 'text',
+							'length'	=> '250',
+							'id'	    => 'sampling_cost',
+							'value'		=> $row['sampling_cost'],
+							'class'		=> "cvOn cvNum cvReq s_des_input input_sm text-fields-with-numbers right numeric-input",
+							'diff'		=> (isset($diff[$loopC]['sampling_cost']['class'])) ? $diff[$loopC]['sampling_cost']['class'] : '',
+							'title'		=> (isset($diff[$loopC]['sampling_cost']['title'])) ? $diff[$loopC]['sampling_cost']['title'] : ''
+						),
+						'14' => array(
+							'name'		=> 'plot_rent',
+							'type'		=> 'text',
+							'valid'		=> 'text',
+							'length'	=> '250',
+							'id'	    => 'plot_rent',
+							'value'		=> $row['plot_rent'],
+							'class'		=> "cvOn cvNum cvReq s_des_input input_sm text-fields-with-numbers right numeric-input",
+							'diff'		=> (isset($diff[$loopC]['plot_rent']['class'])) ? $diff[$loopC]['plot_rent']['class'] : '',
+							'title'		=> (isset($diff[$loopC]['plot_rent']['title'])) ? $diff[$loopC]['plot_rent']['title'] : ''
+						),
+						'15' => array(
+							'name'		=> 'other_cost',
+							'type'		=> 'text',
+							'valid'		=> 'text',
+							'length'	=> '250',
+							'id'	    => 'other_cost',
+							'value'		=> $row['other_cost'],
+							'class'		=> "cvOn cvNum cvReq s_des_input input_sm text-fields-with-numbers right numeric-input",
+							'diff'		=> (isset($diff[$loopC]['other_cost']['class'])) ? $diff[$loopC]['other_cost']['class'] : '',
+							'title'		=> (isset($diff[$loopC]['other_cost']['title'])) ? $diff[$loopC]['other_cost']['title'] : ''
+						),
+						'16' => array(
+							'name'		=> 'total_prod',
+							'type'		=> 'text',
+							'valid'		=> 'text',
+							'length'	=> '300',
+							'id'	    => 'total_prod',
+							'value'		=> $row['total_prod'],
+							'class'		=> "cvOn cvNum cvReq s_des_input input_sm text-fields-with-numbers right ",
+							'diff'		=> (isset($diff[$loopC]['total_prod']['class'])) ? $diff[$loopC]['total_prod']['class'] : '',
+							'title'		=> (isset($diff[$loopC]['total_prod']['title'])) ? $diff[$loopC]['total_prod']['title'] : ''
+						),
+						
 					);
 
 					$loopC++;

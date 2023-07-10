@@ -202,6 +202,7 @@ class UsersController extends AppController{
 					if($validUserName == true && strlen($password) == '128'){
 
 						$login_result =	$this->Authentication->loginuser($userName,$password,$userType);
+						
 						$loginStatus =  $login_result[0];
 
 						if($loginStatus == 'SUCCESS'){
@@ -229,7 +230,7 @@ class UsersController extends AppController{
 						            $this->redirect(array('controller'=>'mms', 'action'=>'home'));
 
 						        }elseif(in_array($loginusertype,array('primaryuser','authuser','enduser'))){
-
+                                       
 										if(!empty($user_data) ){
 											
 											// if($user_data['mcappd_suspend'] == 1){

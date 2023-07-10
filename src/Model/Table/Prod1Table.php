@@ -562,6 +562,8 @@
 					'created_at'=>$created_at,
 					'updated_at'=>date('Y-m-d H:i:s')
 				));
+
+				// print_r($newEntity);die;
 				if($this->save($newEntity)){
 					$returnVal = 1;
 				} else {

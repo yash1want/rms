@@ -84,7 +84,7 @@
 	    public function saveFormDetails($params){
 
 			$postData = $this->postDataValidation($params);
-
+            
 			if($postData['data_status'] == 1 ){
 
 	            $mineCode = $postData['mine_code'];
@@ -132,7 +132,7 @@
 					'created_at' => $created_at,
 					'updated_at' => $date
 				));
-			
+			       
 				if ($this->save($newEntity)) {
 					//
 				} else {

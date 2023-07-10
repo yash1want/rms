@@ -593,9 +593,9 @@
 					$label['2-3'] = "Grade<br>(*)";
 					$label[3] = "Nature of Despatch <em>(indicate whether Domestic Sale or Domestic Transfer or Captive consumption or Export)</em>";
 					$label[4] = "Registration number as allotted by the Indian Bureau of Mines to the buyer ##";
-					$label[5] = "Consignee name ##";
+					$label[5] = "Consignee  name ##";
 					$label[6] = "Quantity";
-					$label[7] = "Sale value (₹)";
+					$label[7] = "Sale value  (₹)";
 					$label[8] = "Country";
 					$label[9] = "Quantity";
 					$label[10] = "F.O.B Value (₹)";
@@ -618,6 +618,14 @@
 					with copy of invoices (not to be submitted with the return; to be produced whenever required).";
 					$label['note3'] = "*: To indicate rough and uncut stones, cut and polished stones, industrial, others";
 					$label['note4'] =  $checkform5 ? "" : ( $checkform7 ? "(^): To indicate the grades of ores as mentioned below(see @ and **)" : "*:To indicate rough and uncut stones, cut and polished stones,industrial,others" );
+					$label[15] = "(a) Cost of transportation <br>(indicate loading station and distance from mine in remarks)";
+					$label[16] = "(b) Loading and unloading charges";
+					$label[17] = "(c) Railway freight, if applicable <br>(indicate destination and distance)";
+					$label[18] = "(d) Port Handling charges- export duty <br>(indicate name of port)";
+					$label[19] = "(e) Charges for sampling and analysis";
+					$label[20] = "(f) Rent for the plot at Stocking yard";
+					$label[21] = "(g) Other charges <br>(specify clearly)";
+					$label[22] = "Total (a) to (g)";
 				}
 				
 			}

@@ -613,7 +613,6 @@
 
 	        // Create a schema collection.
 	        $collection = $conn->getSchemaCollection();
-
 	        // Get a single table (instance of Schema\TableSchema)
 	        $tableSchema = $collection->describe($tableName);
 	        
@@ -627,6 +626,7 @@
 	        foreach ( $columns as $key => $val ){
 	            $fields[ $val ] = "";
 	        }
+            
 
 	        return $fields;
 

@@ -67,6 +67,8 @@
 				->order(['id'=>'ASC'])
 				->toArray();
 
+
+
 			if (count($result) > 0){
 				$data = $result;
 			} else {
@@ -106,6 +108,7 @@
 					}
 
 				} else {
+
 					$data[0] = $MonthlyController->Customfunctions->getTableColumns('grade_sale');
 				}
 			}
@@ -114,7 +117,7 @@
 			foreach($data as $l=>$d) {
 				$data[$l]['client_name_status'] = $mcApplicantDet->checkConsigneeName($d['client_reg_no'], $d['client_name']);
 			}
-
+             
 			return $data;
 			
 		}
@@ -164,8 +167,8 @@
 
 		// save or update form data
 	    public function saveFormDetails($forms_data){
-
 			$dataValidatation = $this->postDataValidation($forms_data);
+            
 
 			if($dataValidatation == 1 ){
 
@@ -186,6 +189,15 @@
 	        	$expo_country = $forms_data['expo_country'];
 	        	$expo_quantity = $forms_data['expo_quantity'];
 	        	$expo_fob = $forms_data['expo_fob'];
+	        	$trans_cost = $forms_data['trans_cost'];
+	        	$loading_charges = $forms_data['loading_charges'];
+	        	$railway_freight = $forms_data['railway_freight'];
+	        	$port_handling = $forms_data['port_handling'];
+	        	$sampling_cost = $forms_data['sampling_cost'];
+	        	$plot_rent = $forms_data['plot_rent'];
+	        	$other_cost = $forms_data['other_cost'];
+	        	$total_prod = $forms_data['total_prod'];
+                
 
 	            $this->deleteAll(array("mine_code"=>$mineCode,"return_type"=>$return_type,"return_date"=>$return_date,"mineral_name"=>$mineral_name));
 
@@ -220,7 +232,9 @@
 					));
 
 					if($this->save($newEntity)){
+						
 						$result = 1;
+
 					} else {
 						$result = false;
 					}
@@ -248,7 +262,15 @@
 							$client_reg_no_val = $client_reg_no[$nonexport];
 							$client_name_val = $client_name[$nonexport];
 							$quantity_val = $quantity[$nonexport];
-							$sale_value_val = $sale_value[$nonexport];
+							$trans_cost_val = $trans_cost[$nonexport];
+							$loading_charges_val = $loading_charges[$nonexport];
+							$railway_freight_val = $railway_freight[$nonexport];
+							$port_handling_val = $port_handling[$nonexport];
+							$sampling_cost_val = $sampling_cost[$nonexport];
+							$plot_rent_val = $plot_rent[$nonexport];
+							$other_cost_val = $other_cost[$nonexport];
+							$total_prod_val = $total_prod[$nonexport];
+							
 							$nonexport++;
 
 						}
@@ -265,14 +287,24 @@
 							'client_reg_no'=>$client_reg_no_val,
 							'client_name'=>$client_name_val,
 							'quantity'=>$quantity_val,
-							'sale_value'=>$sale_value_val,
+							'sale_value'=>$sale_value,
 							'expo_country'=>$expo_country_val,
 							'expo_quantity'=>$expo_quantity_val,
 							'expo_fob'=>$expo_fob_val,
+							'trans_cost'=>$trans_cost_val,
+							'loading_charges'=>$loading_charges_val,
+							'railway_freight'=>$railway_freight_val,
+							'port_handling'=>$port_handling_val,
+							'sampling_cost'=>$sampling_cost_val,
+							'plot_rent'=>$plot_rent_val,
+							'other_cost'=>$other_cost_val,
+							'total_prod'=>$total_prod_val,
+							
 							'created_at'=>$created_at,
 							'updated_at'=>date('Y-m-d H:i:s')
 						));
-
+                       
+						// echo '<pre>'; print_r($newEntity);die;	
 						if($this->save($newEntity)){
 							$result = 1;
 						} else {

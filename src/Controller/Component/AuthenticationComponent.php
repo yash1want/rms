@@ -36,7 +36,7 @@
 			$dbPassword = null;
 			$user_id = null;
 			$user_name = null;
-
+            	
 			$McUser = TableRegistry::getTableLocator()->get('McUser');
 			$McUserLog = TableRegistry::getTableLocator()->get('McUserLog');
 			$MmsUser = TableRegistry::getTableLocator()->get('MmsUser');
@@ -58,9 +58,9 @@
 
 			}elseif($loginusertype == 'authuser' || $loginusertype == 'enduser'){
 
-			// print_r($loginusertype);die;	
 								
 				$userData = $McUser->find('all', array('conditions'=> array('mcu_child_user_name IS' => base64_decode($username),'is_deleted IS'=>'no')))->first();
+			// print_r($userData);die;
 					
 				if(!empty($userData)){
 					$dbPassword = $userData['mcu_sha_password'];

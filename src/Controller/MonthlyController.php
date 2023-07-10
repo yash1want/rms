@@ -2464,7 +2464,7 @@ class MonthlyController extends AppController
 				}
 			} else {
 				$result = $this->Prod1->saveFormDetailsDeduction($this->request->getData());
-
+                // print_r('hello');die;
 				if ($result['err'] == 1) {
 					$this->Session->write('mon_f_suc', $result['msg']);
 					$this->redirect($this->Session->read($nextSection));
@@ -2513,7 +2513,7 @@ class MonthlyController extends AppController
 
 		$formNo = $this->Session->read('mc_form_type');
 		$mc_form_main = $this->Session->read('mc_form_main');
-
+        // echo '<pre>';print_r($labels);die;
 		$this->set('label', $labels);
 		$this->set('formId', $formId);
 		$this->set('mineCode', $mineCode);
@@ -2648,6 +2648,8 @@ class MonthlyController extends AppController
 		}
 
 		$gradeSaleArr = $this->GradeSale->fetchSalesData($mineCode, $returnType, $returnDate, $mineral);
+
+		// echo '<pre>'; print_r($gradeSaleArr);die;
 		$reasonData = $this->IncrDecrReasons->getAllData($mineCode, $returnType, $returnDate, $mineral);
 		$clientType = $this->KwClientType->getAllClientType();
 		$countryList = $this->DirCountry->getCountryList();
@@ -2673,6 +2675,8 @@ class MonthlyController extends AppController
 		$rowArr[1] = $grade;
 		$rowArr[2] = $clientType;
 		$rowArr[3] = $countryList;
+
+        // echo '<pre>';print_r($rowArr[0]);die;
 		// $tableForm = $this->Formcreation->formTableArr('sale_despatch', $lang, $rowArr);
 		// $jsonTableForm = json_encode($tableForm);
 
@@ -2680,7 +2684,7 @@ class MonthlyController extends AppController
 		$tableForm[] = $this->Formcreation->formTableArr('sale_despatch', $lang, $rowArr, $sub_min, $isMagnetite);
 		$jsonTableForm = json_encode($tableForm);
 
-
+         // echo '<pre>';print_r($jsonTableForm);die;
 		$this->set('tableForm', $jsonTableForm);
 
 		$this->render('/element/monthly/forms/sales_despatches');

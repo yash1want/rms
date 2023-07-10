@@ -12,6 +12,7 @@
 						<div id="error_directors_details" class="text-red float-right text-sm"></div>
 						<div id="add_new_row"></div>
 						<div id="table_container_1"></div>
+
 					</div>
 					<div class="alert alert-info p-2 pl-3">
 					<?php echo $label['note4']; ?><br/><br/>
@@ -81,7 +82,7 @@
 <?php echo $this->Form->control('iron_sub_min', array('type'=>'hidden', 'value'=>$ironSubMin)); ?>
 <?php echo $this->Form->control('', array('type'=>'hidden','id'=>'form_id_name', 'value'=>'frmSalesDespatches')); ?>
 
-<?php echo $this->Form->control('mc_form_main', array('type'=>'hidden', 'id'=>'mc_form_main', 'value'=>$mc_form_main)); ?>
+<?php echo $this->Form->control('mc_form_main', array('type'=>'hidden', 'id'=>'mc_form_main', 'value'=>$mc_form_main));?>
 <?php echo $this->Form->control('consignee_url', array('type'=>'hidden', 'id'=>'consignee_url', 'value'=>$this->Url->build(['controller'=>'monthly', 'action'=>'get_consignee']))); ?>
 <?php echo $this->Form->control('app_id_url', array('type'=>'hidden', 'id'=>'app_id_url', 'value'=>$this->Url->build(['controller'=>'monthly', 'action'=>'get_app_id']))); ?>
 

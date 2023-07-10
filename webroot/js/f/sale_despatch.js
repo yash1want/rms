@@ -36,6 +36,8 @@ $(document).ready(function(){
         var grade = $(this).val();
      
         if(grade == 'NIL'){
+
+            
             
             if($('#row_container-'+tblRw+' td').eq(1).find("select option[value='NIL']").length == 0){
                 $('#row_container-'+tblRw+' td').eq(1).find('select').append($('<option></option>').attr('value','NIL').text('NIL'));
@@ -58,6 +60,7 @@ $(document).ready(function(){
             remSaleDespatchRow();
 
         } else {
+             
 
             upSaleDespatchRow();
             
@@ -77,6 +80,7 @@ $(document).ready(function(){
                 $('#row_container-'+tblRw+' td').eq(6).find('select').val('');
                 $('#row_container-'+tblRw+' td').eq(7).find('input').val('');
                 $('#row_container-'+tblRw+' td').eq(8).find('input').val('');
+                
 
             }
 
@@ -427,3 +431,22 @@ function showAlrt(msg){
 function remAlrt(){
 	$('.alrt-div .hide').remove();
 }
+
+$(document).ready(function() {
+  // Add event listeners for keyup event on field1 and field2
+   $('#frmSalesDespatches').on('keyup', '.numeric-input', function(){
+  
+    var tblRw = 1;
+    var trans_cost = parseFloat($('#ta-trans_cost-' + tblRw).val()) || 0;  
+    var loading_charges = parseFloat($('#ta-loading_charges-' + tblRw).val()) || 0; 
+    var railway_freight = parseFloat($('#ta-railway_freight-' + tblRw).val()) || 0; 
+    var port_handling = parseFloat($('#ta-port_handling-' + tblRw).val()) || 0;  
+    var sampling_cost = parseFloat($('#ta-sampling_cost-' + tblRw).val()) || 0; 
+    var plot_rent = parseFloat($('#ta-plot_rent-' + tblRw).val()) || 0; 
+    var other_cost = parseFloat($('#ta-other_cost-' + tblRw).val()) || 0;  
+    
+    var total = trans_cost + loading_charges + railway_freight + port_handling + sampling_cost + plot_rent + other_cost; 
+     // alert(total);
+    $('#ta-total_prod-' + tblRw).val(total);  // Set the value of the total input field
+  });
+});

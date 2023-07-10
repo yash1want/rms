@@ -27,7 +27,9 @@ $(document).ready(function(){
 		remRowMultiple(trId, tblIdNum);
 	});
 
+	
 	createFormStructMultiple(tableFormData);
+
 	
 });
 
@@ -46,7 +48,9 @@ function createFormStructMultiple(tableFormArr){
 		tableContainer += "<table id='table_"+tabRw+"' class='table table-bordered table-sm table_form'>";
 		
 		var tableFormHead = $('.table_form .table_head');
+
 		var tableArr = JSON.parse(JSON.stringify(tableFormArr[tRw]));
+
 
 		if (tableArr['label'][0][0]['col'] != null) {
 
