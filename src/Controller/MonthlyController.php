@@ -2327,7 +2327,7 @@ class MonthlyController extends AppController
 
 			
 				$this->Session->write('mon_f_err', 'First, you need to fill out the sales and dispatch option.');
-				return $this->redirect(array('controller' => 'monthly', 'action' => 'sale_despatch', str_replace('_', ' ',strtoupper($mineral)), $sub_min));
+				 return $this->redirect(array('controller' => 'monthly', 'action' => 'sale_despatch', str_replace('_', ' ',strtoupper($mineral)), $sub_min));
 			}
 
 		
