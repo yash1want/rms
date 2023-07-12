@@ -1719,6 +1719,7 @@ class MonthlyController extends AppController
 		}
 
 		$formNo = $this->Session->read('mc_form_type');
+        
 
 		$this->set('label', $labels);
 		$this->set('formId', $formId);
@@ -1736,6 +1737,7 @@ class MonthlyController extends AppController
 
 		$primaryMineral = $this->MineralWorked->getPrimaryMineralName($mineCode);
 		$formNumber = $this->DirMcpMineral->getFormNumber($primaryMineral);
+         
 
 		$count = 0;
 		$chkReturnsRcd1 = true;
@@ -1743,6 +1745,21 @@ class MonthlyController extends AppController
 
 		$section_mode = $this->Session->read('section_mode');
 
+        
+		//if sales/dispatches is fill selected redirect them (only for sales/dispatches)
+        
+		$sales_dispatches_exists = $this->GradeSale->chkSalesRecord($mineCode, $returnType, $returnDate,str_replace(' ', '_', $mineral));
+		 
+		
+		 if ($sales_dispatches_exists == false) {
+			 
+
+			
+				$this->Session->write('mon_f_err', 'First, you need to fill out the sales and dispatch option.');
+				return $this->redirect(array('controller' => 'monthly', 'action' => 'sale_despatch', str_replace('_', ' ',strtoupper($mineral)), $sub_min));
+			}
+		
+         // print_r('Ankush');die;
 		//avg details edit form
 		//check is rejected or approved section
 		$commented_status = '0';
@@ -2298,7 +2315,22 @@ class MonthlyController extends AppController
 		$this->set('mineral', $mineral);
 		$this->set('returnMonth', $this->Session->read('mc_sel_month'));
 		$this->set('returnYear', $this->Session->read('mc_sel_year'));
+         
 
+        //if sales/dispatches is fill selected redirect them (only for sales/dispatches)
+        
+		$sales_dispatches_exists = $this->GradeSale->chkSalesRecord($mineCode, $returnType, $returnDate,str_replace(' ', '_', $mineral));
+		 
+		
+		 if ($sales_dispatches_exists == false) {
+			 
+
+			
+				$this->Session->write('mon_f_err', 'First, you need to fill out the sales and dispatch option.');
+				return $this->redirect(array('controller' => 'monthly', 'action' => 'sale_despatch', str_replace('_', ' ',strtoupper($mineral)), $sub_min));
+			}
+
+		
 		$chkReturnsRcd1 = true;
 
 		$chkProdRcd = $this->Prod1->chkProdDetails($mineCode, $returnType, $returnDate, $mineral, '');
@@ -2481,6 +2513,9 @@ class MonthlyController extends AppController
 	{
 
 		$this->viewBuilder()->setLayout('mc/form_layout');
+
+        
+
 
 		$mineral = strtolower($mineral);
 		$sub_min = $ironSubMin;
@@ -2684,7 +2719,7 @@ class MonthlyController extends AppController
 		$tableForm[] = $this->Formcreation->formTableArr('sale_despatch', $lang, $rowArr, $sub_min, $isMagnetite);
 		$jsonTableForm = json_encode($tableForm);
 
-         // echo '<pre>';print_r($jsonTableForm);die;
+         // echo '<pre>';print_r($tableForm);die;
 		$this->set('tableForm', $jsonTableForm);
 
 		$this->render('/element/monthly/forms/sales_despatches');
@@ -4303,8 +4338,8 @@ class MonthlyController extends AppController
 	{
 		//echo $section_url; exit;
 		// /monthly/rom_stocks/MANGANESE_ORE
-
 		$sec_link = $this->Session->read('sec_link');
+
 
 		$part_no = '1';
 		foreach ($sec_link as $min) {
@@ -4317,6 +4352,9 @@ class MonthlyController extends AppController
 
 			$part_no++;
 		}
+
+		// print_r($data['key']);
+  //       echo '<pre>';print_r($sec_link);die;
 
 		$nextPartNo = $data['key'] + 1;
 		if (!$this->Session->read('sec_link.part_' . $data['part_no'] . '.' . $nextPartNo)) {

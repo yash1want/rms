@@ -24,7 +24,7 @@
 			        ->select(['mine_code','return_type','return_date','mineral_name'])
 			        ->where(["mine_code"=>$mineCode,"return_type"=>$returnType,"return_date"=>$returnDate,"mineral_name"=>$mineralname])
 			        ->toArray();
-
+            // print_r($mineralname);die;
 			if (count($result) > 0) {
 			  return true;
 			} else {

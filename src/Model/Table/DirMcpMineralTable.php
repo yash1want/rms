@@ -19,6 +19,7 @@
 			
 			$mineral_name = strtoupper(str_replace('_', ' ', html_entity_decode($mineral)));
 			
+			
 			//    @author: UDAY SHANKAR SINGH
 			//    
 			//    BELOW WAS THE ORIGINAL VERSION BUT I ADD html_entity_decode TO RESOLVE THE PROBLEM OF '&'

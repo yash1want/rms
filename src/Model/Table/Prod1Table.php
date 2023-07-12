@@ -491,6 +491,8 @@
 			
 	    }
 
+	    
+
 	    // save or update form data
 	    public function saveFormDetailsDeduction($forms_data){
 

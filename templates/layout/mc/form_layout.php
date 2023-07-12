@@ -138,6 +138,7 @@
 								echo '<div class="alert alert-success fade show" role="alert"><i class="fa fa-check-circle"></i> ' . $val . '</div>';
 							}
 						} else {
+							
 							echo '<div class="alert alert-success fade show" role="alert"><i class="fa fa-check-circle"></i> ' . $this->getRequest()->getSession()->read('mon_f_suc') . '</div>';
 						}
 
@@ -145,14 +146,16 @@
 					}
 
 					if (!empty($this->getRequest()->getSession()->read('mon_f_err'))) {
-
+                         
 						$mon_f_err = $this->getRequest()->getSession()->read('mon_f_err');
 						if (is_array($mon_f_err)) {
 							foreach ($mon_f_err as $key => $val) {
 								echo '<div class="alert alert-danger fade show" role="alert"><i class="fa fa-exclamation-triangle"></i> ' . $val . '</div>';
 							}
 						} else {
-							echo '<div class="alert alert-danger fade show" role="alert"><i class="fa fa-exclamation-triangle"></i> ' . $this->getRequest()->getSession()->read('mon_f_err') . '</div>';
+
+							echo '<div class="alert alert-danger fade show" role="alert"><i class="fa fa-check-circle"></i> ' . $this->getRequest()->getSession()->read('mon_f_err') . '</div>';
+							// print_r($mon_f_err);die;
 						}
 
 						$this->getRequest()->getSession()->delete('mon_f_err');

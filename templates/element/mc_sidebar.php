@@ -22,7 +22,7 @@
 			}
 
 			$mineralParam = strtoupper($mineralParam);
-
+            // print_r($mineralParam);die;
 			if ($curControllerLower == 'monthly' && $returnType == 'MONTHLY' && $curAction != 'selectReturn') {
 			?>
 				<li class="app-sidebar__heading form_sb_title">FORM - F<?php echo $this->getRequest()->getSession()->read('mc_form_main'); ?></li>

@@ -433,20 +433,29 @@ function remAlrt(){
 }
 
 $(document).ready(function() {
-  // Add event listeners for keyup event on field1 and field2
-   $('#frmSalesDespatches').on('keyup', '.numeric-input', function(){
   
-    var tblRw = 1;
-    var trans_cost = parseFloat($('#ta-trans_cost-' + tblRw).val()) || 0;  
-    var loading_charges = parseFloat($('#ta-loading_charges-' + tblRw).val()) || 0; 
-    var railway_freight = parseFloat($('#ta-railway_freight-' + tblRw).val()) || 0; 
-    var port_handling = parseFloat($('#ta-port_handling-' + tblRw).val()) || 0;  
-    var sampling_cost = parseFloat($('#ta-sampling_cost-' + tblRw).val()) || 0; 
-    var plot_rent = parseFloat($('#ta-plot_rent-' + tblRw).val()) || 0; 
-    var other_cost = parseFloat($('#ta-other_cost-' + tblRw).val()) || 0;  
+  
+  
+   $('#frmSalesDespatches').on('keyup', '.numeric-input', function(){
+     
+     var lenn = $('.table_body tr').length;
     
-    var total = trans_cost + loading_charges + railway_freight + port_handling + sampling_cost + plot_rent + other_cost; 
-     // alert(total);
-    $('#ta-total_prod-' + tblRw).val(total);  // Set the value of the total input field
+     var tblRw;
+    
+    for(tblRw=1; tblRw <= lenn; tblRw++){
+  
+            var trans_cost = parseFloat($('#ta-trans_cost-' + tblRw).val()) || 0;  
+            var loading_charges = parseFloat($('#ta-loading_charges-' + tblRw).val()) || 0; 
+            var railway_freight = parseFloat($('#ta-railway_freight-' + tblRw).val()) || 0; 
+            var port_handling = parseFloat($('#ta-port_handling-' + tblRw).val()) || 0;  
+            var sampling_cost = parseFloat($('#ta-sampling_cost-' + tblRw).val()) || 0; 
+            var plot_rent = parseFloat($('#ta-plot_rent-' + tblRw).val()) || 0; 
+            var other_cost = parseFloat($('#ta-other_cost-' + tblRw).val()) || 0;  
+            
+            var total = trans_cost + loading_charges + railway_freight + port_handling + sampling_cost + plot_rent + other_cost; 
+             
+            $('#ta-total_prod-' + tblRw).val(total); 
+
+    } 
   });
 });
